@@ -1,0 +1,25 @@
+id: 2013_67717_INV_PCI_FRANCE_00302
+kind: event
+domain: >-
+  Rituels (fête viticole)
+summary:
+  fr: >-
+    À Marcillac, la Saint-Bourrou (le « bourgeon » en occitan) bénit les jeunes pousses de vigne : défilé des vignerons et de l'échansonnerie en tenue, messe, intronisations et banquet, le week-end de Pentecôte.
+  en: >-
+    In Marcillac, Saint-Bourrou ("bud" in Occitan) blesses the young vine shoots: a parade of winegrowers and the wine brotherhood in ceremonial dress, mass, inductions and a banquet over the Pentecost weekend.
+  lang_review: draft
+places:
+  - {commune: Marcillac-Vallon, department: "12"}
+recurrence: {type: easter_offset, days: 48, duration_days: 3}
+timing:
+  confidence: high
+  evidence_quote: "se déroule lors des trois jours du week-end de Pentecôte"
+  evidence_page: 2
+  web_sources:
+    - url: https://www.festivalenfrance.com/festival/fete-de-la-saint-bourrou/2025
+      publisher: Festivals en France
+      says: Held over the Pentecost weekend (18-20 May 2024, 7-9 June 2025, 23-25 May 2026), with the main parade and mass on Whit Monday.
+      checked_at: "2026-10-08"
+  notes: >-
+    Saturday to Whit Monday; the procession and mass are on the Monday.
+review_status: unreviewed

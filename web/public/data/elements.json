@@ -1,6 +1,6 @@
 {
  "generated_from": "data/curated",
- "count": 62,
+ "count": 66,
  "elements": [
   {
    "id": "2009_67717_INV_PCI_FRANCE_00040",
@@ -154,6 +154,53 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/fete-de-notre-dame-de-la-visitation-a-vievola",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2010_67717_INV_PCI_FRANCE_00081",
+   "title_fr": "La fête de la Vierge de Guadalupe à la cathédrale Notre-Dame de Paris",
+   "theme": "rituals",
+   "domain": "Rituels (fête mariale)",
+   "year_included": 2010,
+   "kind": "event",
+   "summary": {
+    "fr": "Chaque 12 décembre, Mexicains, Latino-Américains et Parisiens fêtent la Vierge de Guadalupe à Notre-Dame de Paris, qui lui consacre une chapelle : messe festive, chants et mariachis.",
+    "en": "Every 12 December, Mexicans, Latin Americans and Parisians celebrate Our Lady of Guadalupe at Notre-Dame de Paris, which has a chapel dedicated to her: a festive mass, hymns and mariachis.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Paris",
+     "lat": 48.8589,
+     "lon": 2.347,
+     "precision": "commune",
+     "insee": "75056",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "fixed",
+    "month": 12,
+    "day": 12
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "le 12 décembre, la fête de la vierge de Guadalupe était caractérisée par un rassemblement spontané devant la chapelle qui lui est consacrée",
+    "evidence_page": 8,
+    "web_sources": [
+     {
+      "url": "https://fr.aleteia.org/2024/12/12/la-reine-du-peuple-mexicain-celebree-a-notre-dame-de-paris/",
+      "publisher": "Aleteia",
+      "says": "Reports the festive mass for Our Lady of Guadalupe at Notre-Dame de Paris on 12 December 2024, gathering about 2,500 people.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "12 December. The mass has sometimes moved to other Paris churches (Madeleine, Saint-Germain-l'Auxerrois) and attendance can be by invitation."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-notre-Dame-de-Guadalupe-Paris",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"
@@ -575,6 +622,60 @@
    "review_status": "unreviewed"
   },
   {
+   "id": "2011_67717_INV_PCI_FRANCE_00148",
+   "title_fr": "Les ostensions septennales limousines",
+   "theme": "rituals",
+   "domain": "Rituels (ostension de reliques)",
+   "year_included": 2011,
+   "kind": "event",
+   "summary": {
+    "fr": "Tous les sept ans, une vingtaine de communes du Limousin sortent les reliques de leurs saints pour de grandes processions en costumes, ouvertes par la levée de drapeaux sur les clochers.",
+    "en": "Every seven years, about twenty communes of the Limousin bring out the relics of their saints for large costumed processions, opened by raising flags on the church towers.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Haute-Vienne et Limousin",
+     "lat": 45.8863,
+     "lon": 1.2378,
+     "precision": "department",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "easter_offset",
+    "days": 7,
+    "duration_days": 50,
+    "every_years": 7,
+    "reference_year": 2023
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "La période des Ostensions dure en principe du premier dimanche après Pâques (Quasimodo) au premier dimanche après la Pentecôte (Trinité).",
+    "evidence_page": 2,
+    "web_sources": [
+     {
+      "url": "https://www.festivalenfrance.com/festival/ostensions-septennales-limousines",
+      "publisher": "Festivals en France",
+      "says": "The next septennial ostensions will take place in 2030; the 2023 edition ran from 19 March to 12 November.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Limousin_septennial_ostensions",
+      "publisher": "Wikipedia",
+      "says": "Held every seven years, in years divisible by 7; the last edition was in 2023.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Every seven years (next in 2030). In principle from the Sunday after Easter to Trinity Sunday, but each commune sets its own dates and the 2023 cycle ran from March to November."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/ostentions-septennales-limousines",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
    "id": "2012_67717_INV_PCI_FRANCE_00257",
    "title_fr": "Le carnaval de Limoux (Aude)",
    "theme": "social-festive",
@@ -750,6 +851,53 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Saint-Jean-de-Luz",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2013_67717_INV_PCI_FRANCE_00302",
+   "title_fr": "La fête de la Saint-Bourrou à Marcillac (Aveyron)",
+   "theme": "rituals",
+   "domain": "Rituels (fête viticole)",
+   "year_included": 2013,
+   "kind": "event",
+   "summary": {
+    "fr": "À Marcillac, la Saint-Bourrou (le « bourgeon » en occitan) bénit les jeunes pousses de vigne : défilé des vignerons et de l'échansonnerie en tenue, messe, intronisations et banquet, le week-end de Pentecôte.",
+    "en": "In Marcillac, Saint-Bourrou (\"bud\" in Occitan) blesses the young vine shoots: a parade of winegrowers and the wine brotherhood in ceremonial dress, mass, inductions and a banquet over the Pentecost weekend.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Marcillac-Vallon",
+     "lat": 44.4776,
+     "lon": 2.4612,
+     "precision": "commune",
+     "insee": "12138",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "easter_offset",
+    "days": 48,
+    "duration_days": 3
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "se déroule lors des trois jours du week-end de Pentecôte",
+    "evidence_page": 2,
+    "web_sources": [
+     {
+      "url": "https://www.festivalenfrance.com/festival/fete-de-la-saint-bourrou/2025",
+      "publisher": "Festivals en France",
+      "says": "Held over the Pentecost weekend (18-20 May 2024, 7-9 June 2025, 23-25 May 2026), with the main parade and mass on Whit Monday.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Saturday to Whit Monday; the procession and mass are on the Monday."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Saint-Bourrou",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"
@@ -1474,6 +1622,58 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-en-Kabwet",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2015_67717_INV_PCI_FRANCE_00370",
+   "title_fr": "Le lavage du parvis de l'église de la Madeleine et le festival brésilien à Paris",
+   "theme": "rituals",
+   "domain": "Rituels ; pratiques festives (afro-brésiliennes)",
+   "year_included": 2015,
+   "kind": "event",
+   "summary": {
+    "fr": "Inspiré du lavage de l'église du Bonfim à Salvador de Bahia, un cortège brésilien en musique part de la place de la République jusqu'à la Madeleine, dont les marches sont lavées à l'eau parfumée par des femmes en blanc.",
+    "en": "Inspired by the washing of the Bonfim church in Salvador de Bahia, a Brazilian procession with music goes from Place de la République to the Madeleine, whose steps are washed with perfumed water by women dressed in white.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Paris",
+     "lat": 48.8589,
+     "lon": 2.347,
+     "precision": "commune",
+     "insee": "75056",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 9,
+    "weekday": 0,
+    "n": 2
+   },
+   "timing": {
+    "confidence": "medium",
+    "web_sources": [
+     {
+      "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/walks/articles/55272-lavage-de-la-madeleine-2026-the-brazilian-festival-and-parade-returns-to-paris",
+      "publisher": "Sortir à Paris",
+      "says": "25th edition from 10 to 13 September 2026, with the parade on Sunday 13 September.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://www.paris-friendly.fr/lavage-madeleine-2025-paris-defile-gratuit.html",
+      "publisher": "Paris Friendly",
+      "says": "The 2025 parade took place on Sunday 14 September.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Parade on a Sunday in mid-September (the second Sunday in 2025 and 2026), with a few days of concerts before."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-lavage-de-la-Madeleine",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"

@@ -7,6 +7,10 @@
   "pages": 4,
   "unpublished_marker": false
  },
+ "2009_67717_INV_PCI_FRANCE_00041": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Dia-de-la-Candelaria",
+  "status": "failed: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Dia-de-la-Candelaria: HTTP 403"
+ },
  "2009_67717_INV_PCI_FRANCE_00045": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-cremation-des-Trois-Sapins-Association-Eugubini-nel-mondo",
   "status": "ok",
@@ -27,6 +31,15 @@
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/fete-de-notre-dame-de-la-visitation-a-vievola",
   "status": "ok",
   "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00081": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-notre-Dame-de-Guadalupe-Paris",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00084": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-Saint-Leon",
+  "status": "failed: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-Saint-Leon: network error TimeoutError"
  },
  "2010_67717_INV_PCI_FRANCE_00097": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-des-deux-rives",
@@ -92,6 +105,11 @@
   "status": "ok",
   "fetched_at": "2026-10-08"
  },
+ "2011_67717_INV_PCI_FRANCE_00148": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/ostentions-septennales-limousines",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
  "2012_67717_INV_PCI_FRANCE_00151": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Capbreton",
   "status": "failed: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Capbreton: network error TimeoutError"
@@ -116,6 +134,11 @@
  },
  "2013_67717_INV_PCI_FRANCE_00298": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Saint-Jean-de-Luz",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2013_67717_INV_PCI_FRANCE_00302": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Saint-Bourrou",
   "status": "ok",
   "fetched_at": "2026-10-08"
  },
@@ -239,6 +262,11 @@
   "text": "ok",
   "pages": 9,
   "unpublished_marker": false
+ },
+ "2015_67717_INV_PCI_FRANCE_00370": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-lavage-de-la-Madeleine",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
  },
  "2015_67717_INV_PCI_FRANCE_00371": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boulogne",
