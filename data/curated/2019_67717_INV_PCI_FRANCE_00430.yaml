@@ -1,0 +1,20 @@
+id: 2019_67717_INV_PCI_FRANCE_00430
+kind: event
+domain: >-
+  Pratiques sociales, rituels et événements festifs (animal totémique)
+summary:
+  fr: >-
+    À Bessan, l'Âne, animal totémique animé par quatre porteurs cachés sous sa structure, danse de longues heures dans les rues au son de sa valse pendant les cinq jours de la fête de la Saint-Laurent.
+  en: >-
+    In Bessan, the Donkey, a totem animal moved by four bearers hidden inside its frame, dances for hours through the streets to its own waltz during the five days of the Saint Laurence festival.
+  lang_review: draft
+places:
+  - {commune: Bessan, department: "34"}
+recurrence: {type: nth_weekday, month: 8, weekday: 6, n: 1, from_day: 7, duration_days: 5}
+timing:
+  confidence: high
+  evidence_quote: "La date de la fête de Bessan est fixée le week-end le plus proche de la Saint-Laurent."
+  evidence_page: 5
+  notes: >-
+    Five days from the Saturday of the weekend nearest Saint Laurence's day (10 August), e.g. 9-13 August 2014.
+review_status: unreviewed

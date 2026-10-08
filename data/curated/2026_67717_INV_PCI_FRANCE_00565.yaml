@@ -1,0 +1,20 @@
+id: 2026_67717_INV_PCI_FRANCE_00565
+kind: event
+domain: >-
+  Pratiques sociales, rituels et événements festifs (procession)
+summary:
+  fr: >-
+    Chaque soir de la saison des pèlerinages, des pèlerins venus du monde entier défilent de nuit dans le sanctuaire de Lourdes, un cierge à la main, en musique et en chants.
+  en: >-
+    Every evening of the pilgrimage season, pilgrims from around the world walk at night through the Lourdes sanctuary, each holding a candle, with music and hymns.
+  lang_review: draft
+places:
+  - {commune: Lourdes, department: "65"}
+recurrence: {type: fixed, month: 4, day: 1, duration_days: 214}
+timing:
+  confidence: high
+  evidence_quote: "La procession mariale se déroule tous les soirs d’avril à octobre à partir de 21h00."
+  evidence_page: 5
+  notes: >-
+    Every evening from April to October at 9 pm, plus major feasts such as 11 February and 15 August.
+review_status: unreviewed

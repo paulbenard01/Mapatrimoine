@@ -1,0 +1,20 @@
+id: 2020_67717_INV_PCI_FRANCE_00486
+kind: event
+domain: >-
+  Pratiques sociales, rituels et événements festifs
+summary:
+  fr: >-
+    À Villefranche-sur-Saône, les classes d'âge de conscrits, en smoking et chapeau haut-de-forme, défilent bras dessus bras dessous lors de la « vague », au cœur de six jours de fête.
+  en: >-
+    In Villefranche-sur-Saône, age groups of conscrits in tuxedos and top hats march arm in arm in the "wave", the highlight of six days of celebrations.
+  lang_review: draft
+places:
+  - {commune: Villefranche-sur-Saône, department: "69"}
+recurrence: {type: nth_weekday, month: 1, weekday: 0, n: -1, offset_days: -2, duration_days: 6}
+timing:
+  confidence: high
+  evidence_quote: "La fête des conscrits se déroule sur six jours, du vendredi au mercredi suivant, à cheval sur le dernier dimanche de janvier"
+  evidence_page: 7
+  notes: >-
+    Friday to Wednesday around the last Sunday of January; the public part runs Friday to Sunday.
+review_status: unreviewed

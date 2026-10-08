@@ -24,9 +24,15 @@ class FetchError(Exception):
 
 
 class PoliteClient:
-    def __init__(self, cache_dir: Path = CACHE_DIR, min_interval: float = MIN_INTERVAL):
+    def __init__(
+        self,
+        cache_dir: Path = CACHE_DIR,
+        min_interval: float = MIN_INTERVAL,
+        first_backoff: float = 2.0,
+    ):
         self.cache_dir = cache_dir
         self.min_interval = min_interval
+        self.first_backoff = first_backoff
         self.session = requests.Session()
         self.session.headers["User-Agent"] = USER_AGENT
         self._last = 0.0
@@ -39,7 +45,7 @@ class PoliteClient:
         path = self.cache_path(url)
         if path.exists() and not refresh:
             return path.read_bytes()
-        delay = 2.0
+        delay = self.first_backoff
         for attempt in range(1, retries + 1):
             self._throttle()
             try:
@@ -52,8 +58,9 @@ class PoliteClient:
                     path.write_bytes(resp.content)
                     return resp.content
                 status = f"HTTP {resp.status_code}"
-                if resp.status_code in (403, 404, 410):
+                if resp.status_code in (404, 410):
                     break  # permanent: retrying would only add load
+                # 403 is retried: culture.gouv.fr answers 403 for a while after bursts.
             log.warning("fetch %s failed (%s), attempt %d/%d", url, status, attempt, retries)
             if attempt < retries:
                 time.sleep(delay)

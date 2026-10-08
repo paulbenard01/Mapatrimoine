@@ -1,0 +1,20 @@
+id: 2018_67717_INV_PCI_FRANCE_00395
+kind: event
+domain: >-
+  Pratiques sociales et festives (fête commémorative)
+summary:
+  fr: >-
+    Depuis 1430, Orléans commémore la levée du siège de 1429 par Jeanne d'Arc : entrée à cheval de la jeune fille qui l'incarne, chevauchée, embrasement de la cathédrale et grand cortège le 8 mai.
+  en: >-
+    Since 1430, Orléans has commemorated Joan of Arc lifting the 1429 siege: the young woman playing Joan rides into town, followed by a cavalcade, the lighting of the cathedral and a great procession on 8 May.
+  lang_review: draft
+places:
+  - {commune: Orléans, department: "45"}
+recurrence: {type: fixed, month: 4, day: 29, duration_days: 10}
+timing:
+  confidence: high
+  evidence_quote: "Les fêtes se déroulent durant plusieurs jours, du 29 avril au 8 mai."
+  evidence_page: 4
+  notes: >-
+    29 April to 8 May; the climax is on 8 May. The period can change in exceptional years (for example national elections).
+review_status: unreviewed

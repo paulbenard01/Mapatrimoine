@@ -4,7 +4,15 @@
 export type Rule =
   | { type: "fixed"; month: number; day: number; duration_days?: number }
   | { type: "easter_offset"; days: number; duration_days?: number }
-  | { type: "nth_weekday"; month: number; weekday: number; n: number; duration_days?: number }
+  | {
+      type: "nth_weekday";
+      month: number;
+      weekday: number; // 0 = Sunday ... 6 = Saturday
+      n: number; // 1-4, or -1 for the last one
+      from_day?: number; // count from this day of the month (n >= 1 only)
+      offset_days?: number; // shift from the found weekday (-4 = the Wednesday before a Sunday)
+      duration_days?: number;
+    }
   | { type: "unknown"; duration_days?: number };
 
 export interface Occurrence {
@@ -58,13 +66,20 @@ export function easterSunday(year: number): Date {
   return utc(year, month, day);
 }
 
-/** The n-th `weekday` (0 = Sunday) of a month; n = -1 is the last one. Null if it doesn't exist. */
-export function nthWeekday(year: number, month: number, weekday: number, n: number): Date | null {
+/** The n-th `weekday` (0 = Sunday) of a month, counting from `fromDay` (default the 1st);
+ *  n = -1 is the last one of the month. Null if it doesn't exist in that month. */
+export function nthWeekday(
+  year: number,
+  month: number,
+  weekday: number,
+  n: number,
+  fromDay = 1,
+): Date | null {
   if (n === -1) {
     const last = utc(year, month + 1, 0);
     return addDays(last, -((last.getUTCDay() - weekday + 7) % 7));
   }
-  const first = utc(year, month, 1);
+  const first = utc(year, month, fromDay);
   const date = addDays(first, ((weekday - first.getUTCDay() + 7) % 7) + 7 * (n - 1));
   return date.getUTCMonth() === month - 1 ? date : null;
 }
@@ -78,8 +93,10 @@ function startInYear(rule: Rule, year: number): Date | null {
     }
     case "easter_offset":
       return addDays(easterSunday(year), rule.days);
-    case "nth_weekday":
-      return nthWeekday(year, rule.month, rule.weekday, rule.n);
+    case "nth_weekday": {
+      const date = nthWeekday(year, rule.month, rule.weekday, rule.n, rule.from_day ?? 1);
+      return date && addDays(date, rule.offset_days ?? 0);
+    }
     case "unknown":
       return null;
   }

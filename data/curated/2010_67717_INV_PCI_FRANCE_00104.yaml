@@ -1,0 +1,20 @@
+id: 2010_67717_INV_PCI_FRANCE_00104
+kind: event
+domain: >-
+  Pratiques sociales et festives (fête patronale)
+summary:
+  fr: >-
+    Bazas fête son saint patron, saint Jean, avec des feux de la Saint-Jean et le don symbolique d'un taureau par les bouchers au clergé, un usage attesté depuis le Moyen Âge.
+  en: >-
+    Bazas celebrates its patron saint, John the Baptist, with midsummer bonfires and the butchers' symbolic gift of a bull to the clergy, a custom recorded since the Middle Ages.
+  lang_review: draft
+places:
+  - {commune: Bazas, department: "33"}
+recurrence: {type: fixed, month: 6, day: 24}
+timing:
+  confidence: high
+  evidence_quote: "La cité de Bazas fête le 24 juin Saint-Jean, son saint patron."
+  evidence_page: 2
+  notes: >-
+    Feast of Saint John the Baptist.
+review_status: unreviewed

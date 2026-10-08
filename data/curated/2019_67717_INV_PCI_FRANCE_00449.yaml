@@ -1,0 +1,20 @@
+id: 2019_67717_INV_PCI_FRANCE_00449
+kind: event
+domain: >-
+  Arts du spectacle ; pratiques sociales, rituels et événements festifs
+summary:
+  fr: >-
+    Depuis les années 1930, Menton célèbre ses agrumes pendant une quinzaine de jours d'hiver : sculptures géantes et chars couverts de citrons et d'oranges, sur un thème renouvelé chaque année.
+  en: >-
+    Since the 1930s, Menton has celebrated its citrus fruit for about two weeks each winter with giant sculptures and floats covered in lemons and oranges, on a theme that changes every year.
+  lang_review: draft
+places:
+  - {commune: Menton, department: "06"}
+recurrence: {type: unknown}
+timing:
+  confidence: medium
+  evidence_quote: "La fête est toujours inaugurée pendant un week-end des vacances scolaires et s’étire généralement de mi-février à début mars."
+  evidence_page: 4
+  notes: >-
+    Mid-February to early March, set each year around the school holidays; no fixed rule.
+review_status: unreviewed

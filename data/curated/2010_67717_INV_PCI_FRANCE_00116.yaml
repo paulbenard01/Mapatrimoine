@@ -1,0 +1,20 @@
+id: 2010_67717_INV_PCI_FRANCE_00116
+kind: event
+domain: >-
+  Pratiques sociales et festives (fêtes patronales)
+summary:
+  fr: >-
+    Créées en 1932, les fêtes de Bayonne réunissent pendant cinq jours bandas, chants, défilés et animations, vêtus de blanc et rouge, autour du réveil du roi Léon.
+  en: >-
+    Created in 1932, the Bayonne festival brings five days of brass bands, songs, parades and street events, with crowds dressed in white and red around the waking of King Léon.
+  lang_review: draft
+places:
+  - {commune: Bayonne, department: "64"}
+recurrence: {type: nth_weekday, month: 8, weekday: 0, n: 1, offset_days: -4, duration_days: 5}
+timing:
+  confidence: medium
+  evidence_quote: "Elles ont lieu du mercredi avant le premier dimanche d'août, dimanche qui en marque la fin."
+  evidence_page: 2
+  notes: >-
+    Timing as described in the 2010 fiche. The dates have moved in some recent years (July); check the official programme.
+review_status: unreviewed

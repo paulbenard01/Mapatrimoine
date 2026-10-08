@@ -1,0 +1,22 @@
+id: 2023_67717_INV_PCI_FRANCE_00523
+kind: event
+domain: >-
+  Pratiques sociales, rituels et événements festifs
+summary:
+  fr: >-
+    Pendant la Semaine sainte, les confréries de pénitents du Roussillon portent en procession de lourdes statues de la Passion, au son lent des tambours et des chants catalans. Les pénitents marchent cagoulés de noir.
+  en: >-
+    During Holy Week, the penitent brotherhoods of Roussillon carry heavy statues of the Passion through the streets to slow drumbeats and Catalan hymns, the penitents wearing black hoods.
+  lang_review: draft
+places:
+  - {commune: Perpignan, department: "66"}
+  - {commune: Arles-sur-Tech, department: "66"}
+  - {commune: Collioure, department: "66"}
+recurrence: {type: easter_offset, days: -2}
+timing:
+  confidence: high
+  evidence_quote: "la procession la plus importante, dite « générale », se déroule à travers la ville de Perpignan l’après-midi du vendredi de la semaine Sainte"
+  evidence_page: 1
+  notes: >-
+    Good Friday. Perpignan in the afternoon; Arles-sur-Tech and Collioure in the evening.
+review_status: unreviewed

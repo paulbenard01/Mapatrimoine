@@ -1,0 +1,20 @@
+id: 2023_67717_INV_PCI_FRANCE_00524
+kind: event
+domain: >-
+  Pratiques sociales, rituels et événements festifs (procession)
+summary:
+  fr: >-
+    Depuis le Moyen Âge, en remerciement de la fin d'une épidémie, Valenciennes fait le tour de la ville en procession derrière la statue de Notre-Dame du Saint-Cordon, sur 17 km.
+  en: >-
+    Since the Middle Ages, in thanks for the end of an epidemic, Valenciennes has walked a 17 km procession around the town behind the statue of Our Lady of the Holy Cord.
+  lang_review: draft
+places:
+  - {commune: Valenciennes, department: "59"}
+recurrence: {type: nth_weekday, month: 9, weekday: 0, n: 2}
+timing:
+  confidence: high
+  evidence_quote: "cette statue de Notre-Dame du Saint-Cordon part à la rencontre des valenciennois chaque deuxième dimanche de septembre"
+  evidence_page: 1
+  notes: >-
+    Second Sunday of September; a large street fair follows on the Monday.
+review_status: unreviewed

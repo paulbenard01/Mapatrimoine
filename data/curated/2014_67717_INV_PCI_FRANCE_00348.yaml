@@ -1,0 +1,20 @@
+id: 2014_67717_INV_PCI_FRANCE_00348
+kind: event
+domain: >-
+  Rituels (nouvel an lunaire)
+summary:
+  fr: >-
+    À Paris, les communautés d'origine chinoise et asiatique fêtent le Nouvel An lunaire en famille et dans la rue : défilés de lions et de dragons à Belleville et dans le 13e arrondissement.
+  en: >-
+    In Paris, communities of Chinese and wider Asian origin celebrate the Lunar New Year at home and in the streets, with lion and dragon parades in Belleville and the 13th arrondissement.
+  lang_review: draft
+places:
+  - {commune: Paris, department: "75"}
+recurrence: {type: unknown}
+timing:
+  confidence: high
+  evidence_quote: "la date des célébrations varie d'une année sur l'autre, mais se situe toujours entre le 21 janvier et le 20 février."
+  evidence_page: 6
+  notes: >-
+    Follows the Chinese lunisolar calendar (between 21 January and 20 February); parades are held on the following Sundays. Not computed by this site.
+review_status: unreviewed

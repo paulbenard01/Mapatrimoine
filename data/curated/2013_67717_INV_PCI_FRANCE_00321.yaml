@@ -1,0 +1,20 @@
+id: 2013_67717_INV_PCI_FRANCE_00321
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval)
+summary:
+  fr: >-
+    Le plus grand carnaval de l'Ouest : après six mois de préparation, une quarantaine de chars satiriques défilent dans Granville du vendredi au Mardi gras.
+  en: >-
+    The largest carnival in western France: after six months of preparation, some forty satirical floats parade through Granville from the Friday before Shrove Tuesday until Shrove Tuesday itself.
+  lang_review: draft
+places:
+  - {commune: Granville, department: "50"}
+recurrence: {type: easter_offset, days: -51, duration_days: 5}
+timing:
+  confidence: high
+  evidence_quote: "Le carnaval se déroule à partir du vendredi soir les jours précédant le Mardi-gras"
+  evidence_page: 2
+  notes: >-
+    Friday evening to Mardi gras (Easter minus 47 days); main parade on the Sunday.
+review_status: unreviewed

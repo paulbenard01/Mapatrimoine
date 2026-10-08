@@ -73,7 +73,7 @@ def _element_title(item: Tag) -> str:
             parts.append(text)
     title = " ".join(parts)
     title = re.sub(r"\s+", " ", title).strip()
-    return re.sub(r"\s*/$", "", title)
+    return re.sub(r"[\s/,;:]+$", "", title)
 
 
 def parse_index(html: str) -> list[dict]:

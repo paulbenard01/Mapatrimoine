@@ -1,0 +1,20 @@
+id: 2018_67717_INV_PCI_FRANCE_00420
+kind: event
+domain: >-
+  Pratiques sociales, rituels et événements festifs
+summary:
+  fr: >-
+    En Provence, la période calendale va de la Sainte-Barbe à la Chandeleur : blé semé le 4 décembre, crèche et santons, gros souper et treize desserts, pastorales et messe de minuit.
+  en: >-
+    In Provence, the Christmas season runs from Saint Barbara's day to Candlemas: wheat sown on 4 December, nativity scenes with santons, the "big supper" and thirteen desserts, nativity plays and midnight mass.
+  lang_review: draft
+places:
+  - {region: "93", label: "Provence"}
+recurrence: {type: fixed, month: 12, day: 4, duration_days: 61}
+timing:
+  confidence: high
+  evidence_quote: "la plantation du blé de la Sainte Barbe fait figure de petit rite d’ouverture du cycle de l’Avent, qui débute le 4 décembre"
+  evidence_page: 4
+  notes: >-
+    4 December (Sainte-Barbe) to 2 February (Candlemas), which "closes the long cycle of Christmas festivities" (p. 5).
+review_status: unreviewed

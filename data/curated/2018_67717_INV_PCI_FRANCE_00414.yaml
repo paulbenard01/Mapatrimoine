@@ -1,0 +1,20 @@
+id: 2018_67717_INV_PCI_FRANCE_00414
+kind: event
+domain: >-
+  Pratiques sociales, rituels et événements festifs
+summary:
+  fr: >-
+    Chaque décembre, Nancy fête saint Nicolas, patron de la Lorraine : défilés de chars dans la métropole, grand défilé et week-end de fête, mais aussi traditions en famille et à l'école.
+  en: >-
+    Every December, Nancy celebrates Saint Nicholas, patron saint of Lorraine, with float parades across the city, a grand parade and a festive weekend, alongside family and school traditions.
+  lang_review: draft
+places:
+  - {commune: Nancy, department: "54"}
+recurrence: {type: fixed, month: 12, day: 1, duration_days: 31}
+timing:
+  confidence: medium
+  evidence_quote: "tous les mois de décembre, de 15 à 18 défilés sont organisés dans la métropole."
+  evidence_page: 3
+  notes: >-
+    Throughout December, around Saint Nicholas' day (6 December). The fiche does not give the date of the grand parade.
+review_status: unreviewed

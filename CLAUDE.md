@@ -22,6 +22,7 @@ schema/                   JSON Schema for curated elements (element.schema.json)
 data/index.json           scraped inventory index (committed)
 data/curated/<id>.yaml    hand-curated pilot elements (committed)
 data/geocode-cache.json   geocoding cache (committed)
+data/pilot.txt            pilot element IDs; data/fiches-manifest.json fetch/text status (committed)
 data/raw/, data/text/     downloaded PDFs and extracted text (ignored)
 web/                      Vite + TypeScript + MapLibre site; web/public/data/elements.json is built by `pci build`
 docs/decisions.md         decision log (decision, why, alternative rejected)
@@ -36,7 +37,8 @@ python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
 .venv/bin/pci fetch-index      # inventory page + official list PDF -> data/index.json
 .venv/bin/pci fetch-fiches     # pilot fiches -> data/raw/ (cached)
 .venv/bin/pci extract-text     # -> data/text/
-.venv/bin/pci build            # validate data/curated + geocode -> web/public/data/elements.json
+.venv/bin/pci geocode          # curated places -> data/geocode-cache.json (network)
+.venv/bin/pci build            # validate data/curated (offline) -> web/public/data/elements.json
 .venv/bin/pytest -q && .venv/bin/ruff check . && .venv/bin/ruff format --check .
 
 # web (in web/)
@@ -46,6 +48,13 @@ npm test         # vitest
 npm run build    # tsc + vite build
 npm run screenshots   # needs `npm run preview` running; writes docs/screenshots/
 ```
+
+## Curation workflow
+
+1. Add the ID to `data/pilot.txt`; run `pci fetch-fiches` then `pci extract-text`.
+2. Read `data/text/<id>.txt` (pages split by form feeds) and `<id>.facts.json`.
+3. Write `data/curated/<id>.yaml`: `kind`, `domain`, `summary` (fr/en, own words, `lang_review: draft`), `places` (`{commune, department}`, `{department}` or `{region}`), `recurrence` (null for practices), `timing` (quote ≤ 25 words, 1-based page), `review_status: unreviewed`. Use `>-` block scalars for prose (French " : " breaks plain YAML).
+4. `pci geocode && pci build`: the build validates the schema and checks each quote on its page.
 
 ## Conventions
 

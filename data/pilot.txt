@@ -1,0 +1,39 @@
+# Pilot elements (M2). One ID per line; comments after '#'.
+# Events
+2023_67717_INV_PCI_FRANCE_00523  # La Sanch (Good Friday)
+2014_67717_INV_PCI_FRANCE_00359  # Carnaval de Marie-Galante (Guadeloupe)
+2017_67717_INV_PCI_FRANCE_00389  # Carnaval de Guyane
+2017_67717_INV_PCI_FRANCE_00376  # Yole ronde de la Martinique (practice)
+2022_67717_INV_PCI_FRANCE_00510  # Mawlida shenge, Mayotte (practice)
+2010_67717_INV_PCI_FRANCE_00116  # Fêtes de Bayonne
+2010_67717_INV_PCI_FRANCE_00103  # Bœufs gras de Bazas
+2010_67717_INV_PCI_FRANCE_00104  # Saint-Jean à Bazas
+2014_67717_INV_PCI_FRANCE_00330  # Fête du Piment, Espelette
+2013_67717_INV_PCI_FRANCE_00296  # Fête de la Cerise, Itxassou
+2019_67717_INV_PCI_FRANCE_00449  # Fête du Citron, Menton
+2019_67717_INV_PCI_FRANCE_00425  # Fêtes de la Tarasque
+2018_67717_INV_PCI_FRANCE_00420  # Fêtes de Noël en Provence
+2013_67717_INV_PCI_FRANCE_00321  # Carnaval de Granville
+2014_67717_INV_PCI_FRANCE_00350  # Fêtes de Gayant, Douai
+2013_67717_INV_PCI_FRANCE_00322  # Carnaval de Cassel
+2023_67717_INV_PCI_FRANCE_00524  # Tour du Saint-Cordon, Valenciennes
+2018_67717_INV_PCI_FRANCE_00395  # Fêtes de Jeanne d'Arc, Orléans
+2026_67717_INV_PCI_FRANCE_00564  # Pèlerinage de Sainte-Solange
+2018_67717_INV_PCI_FRANCE_00414  # Saint-Nicolas, Nancy
+2009_67717_INV_PCI_FRANCE_00045  # Crémation des Trois Sapins, Thann
+2013_67717_INV_PCI_FRANCE_00314  # Biou d'Arbois (text unreadable: not curated, needs OCR)
+2019_67717_INV_PCI_FRANCE_00432  # Sainte-Agathe, Saint-Pierre-d'Albigny
+2020_67717_INV_PCI_FRANCE_00486  # Conscrits, Villefranche-sur-Saône
+2013_67717_INV_PCI_FRANCE_00318  # Arbre de Mai, Locronan
+2023_67717_INV_PCI_FRANCE_00521  # Carnaval de Nantes
+2010_67717_INV_PCI_FRANCE_00079  # Fête des Morts mexicaine, Paris
+2014_67717_INV_PCI_FRANCE_00348  # Nouvel An chinois, Paris
+2019_67717_INV_PCI_FRANCE_00430  # Saint-Laurent, Bessan
+2014_67717_INV_PCI_FRANCE_00349  # Fêtes de l'Ours, Haut-Vallespir
+2013_67717_INV_PCI_FRANCE_00313  # Brandons de la Saint-Jean, Luchon
+2022_67717_INV_PCI_FRANCE_00519  # Jeux floraux de Toulouse
+2026_67717_INV_PCI_FRANCE_00565  # Procession mariale, Lourdes
+# Practices
+2014_67717_INV_PCI_FRANCE_00340  # Fest-noz
+2009_67717_INV_PCI_FRANCE_00040  # Maloya (La Réunion)
+2025_67717_INV_PCI_FRANCE_00556  # Chjam'è rispondi (Corse)

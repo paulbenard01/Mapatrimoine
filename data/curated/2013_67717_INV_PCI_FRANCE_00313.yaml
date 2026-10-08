@@ -1,0 +1,20 @@
+id: 2013_67717_INV_PCI_FRANCE_00313
+kind: event
+domain: >-
+  Rituels (feux du solstice d'été)
+summary:
+  fr: >-
+    À Bagnères-de-Luchon, un grand tronc fendu et garni de matières inflammables, le brandon, est dressé puis embrasé pour la Saint-Jean, et de nouveau pour la Saint-Pierre.
+  en: >-
+    In Bagnères-de-Luchon, a tall split trunk packed with flammable material, the brandon, is raised and set alight for Saint John's Day and again for Saint Peter's Day.
+  lang_review: draft
+places:
+  - {commune: Bagnères-de-Luchon, department: "31"}
+recurrence: {type: fixed, month: 6, day: 24}
+timing:
+  confidence: medium
+  evidence_quote: "Le brandon de la Saint-Jean (fête du feu) a lieu pour le solstice d’été, le jour de la Saint-Jean."
+  evidence_page: 2
+  notes: >-
+    Saint John's Day; the second brandon is lit for Saint Peter's Day (29 June). Check the evening and the exact day locally.
+review_status: unreviewed

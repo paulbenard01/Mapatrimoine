@@ -1,0 +1,299 @@
+{
+ "commune:06:menton": {
+  "label": "Menton",
+  "lat": 43.7961,
+  "lon": 7.498,
+  "precision": "commune",
+  "insee": "06083",
+  "overseas": false
+ },
+ "commune:13:tarascon": {
+  "label": "Tarascon",
+  "lat": 43.7972,
+  "lon": 4.6852,
+  "precision": "commune",
+  "insee": "13108",
+  "overseas": false
+ },
+ "commune:18:sainte solange": {
+  "label": "Sainte-Solange",
+  "lat": 47.1427,
+  "lon": 2.5516,
+  "precision": "commune",
+  "insee": "18235",
+  "overseas": false
+ },
+ "commune:29:locronan": {
+  "label": "Locronan",
+  "lat": 48.0955,
+  "lon": -4.2102,
+  "precision": "commune",
+  "insee": "29134",
+  "overseas": false
+ },
+ "commune:31:bagneres de luchon": {
+  "label": "Bagnères-de-Luchon",
+  "lat": 42.7492,
+  "lon": 0.6264,
+  "precision": "commune",
+  "insee": "31042",
+  "overseas": false
+ },
+ "commune:31:toulouse": {
+  "label": "Toulouse",
+  "lat": 43.6007,
+  "lon": 1.4328,
+  "precision": "commune",
+  "insee": "31555",
+  "overseas": false
+ },
+ "commune:33:bazas": {
+  "label": "Bazas",
+  "lat": 44.4409,
+  "lon": -0.2177,
+  "precision": "commune",
+  "insee": "33036",
+  "overseas": false
+ },
+ "commune:34:bessan": {
+  "label": "Bessan",
+  "lat": 43.3566,
+  "lon": 3.4141,
+  "precision": "commune",
+  "insee": "34031",
+  "overseas": false
+ },
+ "commune:44:nantes": {
+  "label": "Nantes",
+  "lat": 47.2382,
+  "lon": -1.5603,
+  "precision": "commune",
+  "insee": "44109",
+  "overseas": false
+ },
+ "commune:45:orleans": {
+  "label": "Orléans",
+  "lat": 47.8734,
+  "lon": 1.9122,
+  "precision": "commune",
+  "insee": "45234",
+  "overseas": false
+ },
+ "commune:50:granville": {
+  "label": "Granville",
+  "lat": 48.8724,
+  "lon": -1.7657,
+  "precision": "commune",
+  "insee": "50218",
+  "overseas": false
+ },
+ "commune:54:nancy": {
+  "label": "Nancy",
+  "lat": 48.6881,
+  "lon": 6.1734,
+  "precision": "commune",
+  "insee": "54395",
+  "overseas": false
+ },
+ "commune:59:cassel": {
+  "label": "Cassel",
+  "lat": 50.7913,
+  "lon": 2.4962,
+  "precision": "commune",
+  "insee": "59135",
+  "overseas": false
+ },
+ "commune:59:douai": {
+  "label": "Douai",
+  "lat": 50.3785,
+  "lon": 3.1004,
+  "precision": "commune",
+  "insee": "59178",
+  "overseas": false
+ },
+ "commune:59:valenciennes": {
+  "label": "Valenciennes",
+  "lat": 50.362,
+  "lon": 3.5142,
+  "precision": "commune",
+  "insee": "59606",
+  "overseas": false
+ },
+ "commune:64:bayonne": {
+  "label": "Bayonne",
+  "lat": 43.4844,
+  "lon": -1.4611,
+  "precision": "commune",
+  "insee": "64102",
+  "overseas": false
+ },
+ "commune:64:espelette": {
+  "label": "Espelette",
+  "lat": 43.3226,
+  "lon": -1.4521,
+  "precision": "commune",
+  "insee": "64213",
+  "overseas": false
+ },
+ "commune:64:itxassou": {
+  "label": "Itxassou",
+  "lat": 43.3096,
+  "lon": -1.4046,
+  "precision": "commune",
+  "insee": "64279",
+  "overseas": false
+ },
+ "commune:65:lourdes": {
+  "label": "Lourdes",
+  "lat": 43.109,
+  "lon": -0.0806,
+  "precision": "commune",
+  "insee": "65286",
+  "overseas": false
+ },
+ "commune:66:arles sur tech": {
+  "label": "Arles-sur-Tech",
+  "lat": 42.4531,
+  "lon": 2.6228,
+  "precision": "commune",
+  "insee": "66009",
+  "overseas": false
+ },
+ "commune:66:collioure": {
+  "label": "Collioure",
+  "lat": 42.5087,
+  "lon": 3.0744,
+  "precision": "commune",
+  "insee": "66053",
+  "overseas": false
+ },
+ "commune:66:perpignan": {
+  "label": "Perpignan",
+  "lat": 42.699,
+  "lon": 2.9045,
+  "precision": "commune",
+  "insee": "66136",
+  "overseas": false
+ },
+ "commune:66:prats de mollo la preste": {
+  "label": "Prats-de-Mollo-la-Preste",
+  "lat": 42.4174,
+  "lon": 2.4229,
+  "precision": "commune",
+  "insee": "66150",
+  "overseas": false
+ },
+ "commune:66:saint laurent de cerdans": {
+  "label": "Saint-Laurent-de-Cerdans",
+  "lat": 42.3944,
+  "lon": 2.6222,
+  "precision": "commune",
+  "insee": "66179",
+  "overseas": false
+ },
+ "commune:68:thann": {
+  "label": "Thann",
+  "lat": 47.8163,
+  "lon": 7.0867,
+  "precision": "commune",
+  "insee": "68334",
+  "overseas": false
+ },
+ "commune:69:villefranche sur saone": {
+  "label": "Villefranche-sur-Saône",
+  "lat": 45.9837,
+  "lon": 4.726,
+  "precision": "commune",
+  "insee": "69264",
+  "overseas": false
+ },
+ "commune:73:saint pierre d'albigny": {
+  "label": "Saint-Pierre-d'Albigny",
+  "lat": 45.5769,
+  "lon": 6.1591,
+  "precision": "commune",
+  "insee": "73270",
+  "overseas": false
+ },
+ "commune:75:paris": {
+  "label": "Paris",
+  "lat": 48.8589,
+  "lon": 2.347,
+  "precision": "commune",
+  "insee": "75056",
+  "overseas": false
+ },
+ "commune:971:saint louis": {
+  "label": "Saint-Louis",
+  "lat": 15.9654,
+  "lon": -61.2732,
+  "precision": "commune",
+  "insee": "97126",
+  "overseas": true
+ },
+ "commune:972:le francois": {
+  "label": "Le François",
+  "lat": 14.6093,
+  "lon": -60.8976,
+  "precision": "commune",
+  "insee": "97210",
+  "overseas": true
+ },
+ "commune:973:cayenne": {
+  "label": "Cayenne",
+  "lat": 4.9464,
+  "lon": -52.3319,
+  "precision": "commune",
+  "insee": "97302",
+  "overseas": true
+ },
+ "department:972": {
+  "label": "Martinique",
+  "lat": 14.6622,
+  "lon": -61.0382,
+  "precision": "department",
+  "overseas": true
+ },
+ "department:973": {
+  "label": "Guyane",
+  "lat": 4.5221,
+  "lon": -53.0446,
+  "precision": "department",
+  "overseas": true
+ },
+ "department:974": {
+  "label": "La Réunion",
+  "lat": -21.1273,
+  "lon": 55.5083,
+  "precision": "department",
+  "overseas": true
+ },
+ "department:976": {
+  "label": "Mayotte",
+  "lat": -12.8176,
+  "lon": 45.1476,
+  "precision": "department",
+  "overseas": true
+ },
+ "region:53": {
+  "label": "Bretagne",
+  "lat": 48.2188,
+  "lon": -2.7976,
+  "precision": "region",
+  "overseas": false
+ },
+ "region:93": {
+  "label": "Provence-Alpes-Côte d'Azur",
+  "lat": 43.943,
+  "lon": 6.0482,
+  "precision": "region",
+  "overseas": false
+ },
+ "region:94": {
+  "label": "Corse",
+  "lat": 42.2539,
+  "lon": 9.1661,
+  "precision": "region",
+  "overseas": false
+ }
+}

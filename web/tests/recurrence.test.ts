@@ -67,6 +67,20 @@ describe("nth_weekday", () => {
     expect(nthWeekday(2026, 2, 1, 5)).toBeNull();
   });
 
+  test("from_day: the Sunday after 5 July (fêtes de Gayant)", () => {
+    const gayant: Rule = { type: "nth_weekday", month: 7, weekday: 0, n: 1, from_day: 6, duration_days: 3 };
+    // 5 July 2026 is a Sunday: the next Sunday is the 12th, not the 5th.
+    expect(occurrencesInYear(gayant, 2026)).toEqual([{ start: "2026-07-12", end: "2026-07-14" }]);
+    expect(occurrencesInYear(gayant, 2027)[0].start).toBe("2027-07-11");
+    expect(occurrencesInYear(gayant, 2029)[0].start).toBe("2029-07-08");
+  });
+
+  test("offset_days: the Wednesday before the first Sunday of August, 5 days", () => {
+    const rule: Rule = { type: "nth_weekday", month: 8, weekday: 0, n: 1, offset_days: -4, duration_days: 5 };
+    // First Sunday of August 2027 is the 1st; the festival starts on Wednesday 28 July.
+    expect(occurrencesInYear(rule, 2027)).toEqual([{ start: "2027-07-28", end: "2027-08-01" }]);
+  });
+
   test("rule with duration", () => {
     const rule: Rule = { type: "nth_weekday", month: 10, weekday: 6, n: -1, duration_days: 2 };
     expect(nextOccurrence(rule, "2026-10-08")).toEqual({ start: "2026-10-31", end: "2026-11-01" });

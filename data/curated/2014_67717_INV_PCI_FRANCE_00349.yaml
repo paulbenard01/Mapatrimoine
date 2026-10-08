@@ -1,0 +1,22 @@
+id: 2014_67717_INV_PCI_FRANCE_00349
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval)
+summary:
+  fr: >-
+    Dans trois villages du Haut-Vallespir, un homme déguisé en ours descend de la montagne, sème le désordre et poursuit la foule, avant d'être capturé, rasé et rendu humain par les chasseurs et les barbiers.
+  en: >-
+    In three villages of the Haut-Vallespir, a man dressed as a bear comes down from the mountain, spreads chaos and chases the crowd, until hunters and barbers capture him, shave him and make him human again.
+  lang_review: draft
+places:
+  - {commune: Arles-sur-Tech, department: "66"}
+  - {commune: Prats-de-Mollo-la-Preste, department: "66"}
+  - {commune: Saint-Laurent-de-Cerdans, department: "66"}
+recurrence: {type: nth_weekday, month: 2, weekday: 0, n: 1, from_day: 2}
+timing:
+  confidence: medium
+  evidence_quote: "le premier dimanche après le 1er février pour Arles-sur-Tech"
+  evidence_page: 5
+  notes: >-
+    Date shown for Arles-sur-Tech. Prats-de-Mollo and Saint-Laurent-de-Cerdans follow on Sundays set by the February school holidays.
+review_status: unreviewed
