@@ -4,7 +4,7 @@ PCI Map: an interactive bilingual (FR/EN) map of France's national Inventaire du
 
 ## Hard rules
 
-1. Never commit raw fiche PDFs, full extracted fiche text or personal data (names of private individuals, emails, phones). `data/raw/` and `data/text/` are git-ignored. Commit only structured facts, own-words summaries, quotes of at most 25 words and links to the official fiche.
+1. Never commit raw fiche PDFs, full extracted fiche text or personal data (names of private individuals, emails, phones). `data/raw/` and `data/text/` are git-ignored. Commit only structured facts, own-words summaries, quotes of at most 25 words, links to the official fiche and, for elements with no Commons or PCI Lab picture, one photo per element taken from its fiche (Paul's decision, 2026-10-08; see `data/images.yaml`).
 2. Exclude every element whose fiche is marked unpublished ("Fiche dépubliée à la demande de ...").
 3. `pipeline/tests/test_scrub.py` fails CI if committed data contains an email or phone pattern. Never weaken it to make it pass.
 4. Fetch politely: at most 1 request/second, descriptive User-Agent, cache every download (`pci.http`).
@@ -66,7 +66,7 @@ npm run screenshots   # needs `npm run preview` running; writes docs/screenshots
 
 - Every published element must be on the map: curated elements carry `places`; all others need an entry in `data/places.yaml` (`places`, plus `pcilab: <fiche id>` when the places come from PCI Lab's "Localisation" field, or `sources: [{publisher, url}]` when read elsewhere, e.g. the official fiche). A test fails if an element has neither.
 - Use several places when the source names several; `approximate: true` with a `label` for a pays pinned on its main town; `{area: ...}` for historical regions (`pci.geocode.AREAS`); `{label, lat, lon, precision}` only outside the COG (New Caledonia, French Polynesia) or for "France entière" pins. Take place names only, never the people listed next to them.
-- `data/images.yaml`: prefer a Wikimedia Commons file that clearly shows the element (credit = author or attribution from the file page, plus licence); otherwise the fiche image shown on PCI Lab (`source: pcilab`), which is linked, never copied into the repository.
+- `data/images.yaml`: prefer a Wikimedia Commons file that clearly shows the element (credit = author or attribution from the file page, plus licence); otherwise the fiche image shown on PCI Lab (`source: pcilab`), linked, not copied; only when neither exists, one photo extracted from the fiche PDF (`source: fiche`, `web/public/img/fiches/<id>.jpg`, at most 960 px, metadata stripped, credited to the fiche). Prefer photos of objects, gestures or events over close portraits; never a photo where a child is identifiable.
 
 ## Conventions
 
