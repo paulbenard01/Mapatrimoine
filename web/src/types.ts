@@ -78,3 +78,19 @@ export interface InventoryEntry {
   location_sources: LocationSource[]; // empty for documented elements (see Element)
   image: Picture | null;
 }
+
+export interface VocabularyTerm {
+  fr: string;
+  en: string;
+  def_fr: string;
+  def_en: string;
+}
+
+/** Printable bilingual mediation sheet (milestone M6), drafts until Paul reviews them. */
+export interface MediationSheet {
+  audience: "general" | "school" | "family";
+  questions: { fr: string[]; en: string[] };
+  vocabulary: VocabularyTerm[];
+  lang_review: "draft" | "reviewed";
+  review_status: "unreviewed" | "reviewed";
+}

@@ -1,0 +1,34 @@
+id: 2023_67717_INV_PCI_FRANCE_00523
+audience: general
+questions:
+  fr:
+    - Pourquoi, selon vous, les pénitents de la Sanch marchent-ils le visage caché ?
+    - Qu'est-ce qui change quand une procession religieuse attire aussi des visiteurs venus pour le spectacle ?
+    - Quelles traditions de votre région se transmettent au sein d'une confrérie ou d'une association ?
+  en:
+    - Why do you think the penitents of the Sanch walk with their faces hidden?
+    - What changes when a religious procession also draws visitors who come for the spectacle?
+    - Which traditions in your own region are passed on through a brotherhood or an association?
+vocabulary:
+  - fr: confrérie
+    en: confraternity
+    def_fr: Association de laïcs catholiques réunis autour d'une dévotion et de pratiques charitables ; celle de la Sanch (« du Sang ») date du XVe siècle.
+    def_en: Association of lay Catholics united by a devotion and charitable work; the Sanch ("of the Blood") brotherhood dates from the 15th century.
+  - fr: pénitent
+    en: penitent
+    def_fr: Membre d'une confrérie qui défile en signe de pénitence, vêtu d'une longue robe et d'une cagoule.
+    def_en: Member of a brotherhood who walks in procession as an act of penance, in a long robe and a hood.
+  - fr: caperutxa
+    en: caperutxa
+    def_fr: Cagoule pointue (en catalan) des pénitents, noire pour la plupart, rouge pour le régidor qui ouvre la marche.
+    def_en: The penitents' pointed hood (Catalan word), black for most, red for the regidor who leads the way.
+  - fr: misteri
+    en: misteri
+    def_fr: Statue ou groupe sculpté représentant une scène de la Passion, porté à dos d'hommes pendant la procession.
+    def_en: Statue or carved group showing a scene of the Passion, carried on people's shoulders in the procession.
+  - fr: Semaine sainte
+    en: Holy Week
+    def_fr: Semaine qui précède Pâques ; sa date change chaque année, comme celle de Pâques.
+    def_en: The week before Easter; its date changes every year, like Easter itself.
+lang_review: draft
+review_status: unreviewed

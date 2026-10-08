@@ -16,5 +16,7 @@ Milestones for PCI Map. Tick a box only when its "done when" criterion is met an
 
 - [ ] **M5 live events layer**: DATAtourisme and/or OpenAgenda, fetched at build time by a scheduled GitHub Action using repository secrets, never from the browser. Check access terms first.
 - [ ] **M6 mediation sheet**: printable bilingual sheet per element (3 discussion questions, 5 vocabulary terms), drafts for Paul to review.
+  - [x] schema, `pci build` validation, `mediation.json`, sheet view (`?id=…&sheet=1`), one-page A4 print, tests
+  - [ ] sheets for every curated element
 - [ ] **M7 scale-up**: summaries and timing for all published elements (places and pictures are done), with a review workflow (`review_status`, `lang_review`); Paul to spot-check `data/places.yaml` and the picture choices.
 - [ ] **M8 portfolio write-up**.

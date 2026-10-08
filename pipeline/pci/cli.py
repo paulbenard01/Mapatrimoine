@@ -51,15 +51,18 @@ def main(argv: list[str] | None = None) -> int:
         print(f"{len(cache)} places in data/geocode-cache.json")
         return 0
     from pci.build import BuildError, build, build_inventory
+    from pci.mediation import MediationError, build_mediation
 
     try:
         elements = build()
         count = build_inventory()
-    except BuildError as exc:
+        sheets = build_mediation({e["id"] for e in elements})
+    except (BuildError, MediationError) as exc:
         print(f"build failed:\n{exc}", file=sys.stderr)
         return 1
     print(f"{len(elements)} curated elements -> web/public/data/elements.json")
     print(f"{count} inventory entries -> web/public/data/inventory.json")
+    print(f"{sheets} mediation sheets -> web/public/data/mediation.json")
     return 0
 
 

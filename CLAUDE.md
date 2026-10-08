@@ -23,12 +23,14 @@ data/index.json           scraped inventory index (committed)
 data/curated/<id>.yaml    hand-curated elements with summary and timing (committed)
 data/places.yaml          places (and their sources) for every other element (committed, hand-written)
 data/images.yaml          one picture per element: Commons file or PCI Lab fiche image (committed)
+data/mediation/<id>.yaml  printable mediation sheets: 3 questions + 5 terms, FR/EN (committed, drafts)
 data/geocode-cache.json   geocoding cache (committed)
 data/pilot.txt            pilot element IDs; data/fiches-manifest.json fetch/text status (committed)
 data/raw/, data/text/     downloaded PDFs, extracted text, PCI Lab crawl, gazetteer cache (ignored)
 web/                      Vite + TypeScript + MapLibre site; web/public/data/{elements,inventory}.json are built by `pci build`
   src/recurrence.ts       the only date logic; src/model.ts filters/sorts; src/state.ts URL state
   src/i18n/{fr,en}.ts     every UI string; src/main.ts rendering; src/map.ts MapLibre
+  src/sheet.ts            printable bilingual mediation sheet (`?id=<id>&sheet=1`)
 docs/decisions.md         decision log (decision, why, alternative rejected)
 docs/screenshots/         Playwright screenshots
 ```
@@ -43,7 +45,7 @@ python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
 .venv/bin/pci fetch-fiches     # pilot fiches -> data/raw/ (cached)
 .venv/bin/pci extract-text     # -> data/text/
 .venv/bin/pci geocode          # curated + places.yaml places -> data/geocode-cache.json (network, cached)
-.venv/bin/pci build            # validate data/curated (offline) -> web/public/data/elements.json
+.venv/bin/pci build            # validate data/curated, places, images, mediation (offline) -> web/public/data/*.json
 .venv/bin/pytest -q && .venv/bin/ruff check . && .venv/bin/ruff format --check .
 
 # web (in web/)
@@ -61,6 +63,12 @@ npm run screenshots   # needs `npm run preview` running; writes docs/screenshots
 3. Write `data/curated/<id>.yaml`: `kind`, `domain`, `summary` (fr/en, own words, `lang_review: draft`), `places` (`{commune, department}`, `{department}` or `{region}`), `recurrence` (null for practices), `timing` (quote ≤ 25 words, 1-based page), `review_status: unreviewed`. Use `>-` block scalars for prose (French " : " breaks plain YAML).
 4. Check the timing online (organiser, town hall, tourism board first; aggregators only as a fallback) and add `timing.web_sources` (`url`, `publisher`, `says` in own words, `checked_at`). Never copy organisers' phone numbers or emails. Use `recurrence: {type: dates, occurrences: [...]}` for announced editions when no stable rule exists, and `every_years`/`reference_year` for non-annual festivals. Rules inferred from several editions are `confidence: medium` and say so in `notes`.
 5. `pci geocode && pci build`: the build validates the schema and checks each fiche quote on its page.
+
+## Mediation sheets
+
+- `data/mediation/<id>.yaml` (schema `schema/mediation.schema.json`), only for curated elements: `audience`, `questions` {fr, en} (exactly 3 open questions each, ending with "?"), `vocabulary` (exactly 5 `{fr, en, def_fr, def_en}`, definitions at most 30 words, own words), `lang_review: draft`, `review_status: unreviewed`.
+- Questions invite observation, comparison with the reader's own experience and reflection on transmission; never quiz trivia, never questions about named people. Keep definitions factual and consistent with the curated summary.
+- The site prints the sheet with the summary, picture, places and timing; it must fit one A4 page.
 
 ## Places and images for the rest of the inventory
 
