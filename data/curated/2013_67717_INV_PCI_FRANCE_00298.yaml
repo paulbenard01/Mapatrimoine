@@ -1,0 +1,21 @@
+id: 2013_67717_INV_PCI_FRANCE_00298
+kind: event
+domain: >-
+  Pratiques sociales et festives (fête maritime)
+summary:
+  fr: >-
+    En alternance à Saint-Jean-de-Luz et à Ciboure, les fêtes de la Mer et du Ttoro réunissent concours de pêche et de soupe de poisson, puis levée des couleurs, messe, bénédiction des bateaux et gerbe lancée en mer pour les marins disparus.
+  en: >-
+    Alternately in Saint-Jean-de-Luz and Ciboure, the Sea and Ttoro festival combines fishing and fish-soup contests with a flag ceremony, mass, the blessing of boats and a wreath thrown at sea for lost sailors.
+  lang_review: draft
+places:
+  - {commune: Saint-Jean-de-Luz, department: "64"}
+  - {commune: Ciboure, department: "64"}
+recurrence: {type: nth_weekday, month: 9, weekday: 0, n: 1, offset_days: -1, duration_days: 2}
+timing:
+  confidence: medium
+  evidence_quote: "une année à Saint-Jean-de-Luz et l’année suivante à Ciboure, généralement le premier weekend du mois de septembre."
+  evidence_page: 2
+  notes: >-
+    Usually the first weekend of September (fiche of 2013); no recent programme was found online to confirm it.
+review_status: unreviewed

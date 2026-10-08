@@ -1,0 +1,25 @@
+id: 2019_67717_INV_PCI_FRANCE_00429
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval, animal totémique)
+summary:
+  fr: >-
+    À Pézenas, le Poulain, cheval-totem animé par ses porteurs et monté par les mannequins Estieino et Estieineta, danse dans les rues le jour du Mardi gras ; le carnaval compte aussi les Machous, histoires comiques en occitan, et un charivari.
+  en: >-
+    In Pézenas, the Poulain, a totem horse moved by its bearers and ridden by the dummies Estieino and Estieineta, dances through the streets on Shrove Tuesday; the carnival also features the Machous, comic stories in Occitan, and a charivari.
+  lang_review: draft
+places:
+  - {commune: Pézenas, department: "34"}
+recurrence: {type: easter_offset, days: -50, duration_days: 4}
+timing:
+  confidence: high
+  evidence_quote: "Le carnaval de Pézenas relève des fêtes à animaux-totems du sud de France, avec son Poulain (lo Polin), animal totémique sorti pour le mardi Gras."
+  evidence_page: 1
+  web_sources:
+    - url: https://www.festivalenfrance.com/festival/sortie-du-poulain-de-pezenas
+      publisher: Festivals en France
+      says: The 2026 Poulain outings ran from 13 to 17 February, ending on Mardi gras (17 February).
+      checked_at: "2026-10-08"
+  notes: >-
+    Saturday to Mardi gras; the Poulain also comes out for Saint Blaise, around 3 February.
+review_status: unreviewed

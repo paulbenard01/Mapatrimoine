@@ -1,6 +1,6 @@
 {
  "generated_from": "data/curated",
- "count": 49,
+ "count": 59,
  "elements": [
   {
    "id": "2009_67717_INV_PCI_FRANCE_00040",
@@ -478,6 +478,57 @@
    "review_status": "unreviewed"
   },
   {
+   "id": "2012_67717_INV_PCI_FRANCE_00257",
+   "title_fr": "Le carnaval de Limoux (Aude)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (carnaval)",
+   "year_included": 2012,
+   "kind": "event",
+   "summary": {
+    "fr": "Pendant près de trois mois, chaque week-end, les bandes masquées du carnaval de Limoux dansent sur la place au son des musiciens, chacune à son tour ; le carnaval se termine par le jugement et l'incinération de Sa Majesté Carnaval lors de la nuit de la Blanquette.",
+    "en": "For almost three months, every weekend, the masked bands of the Limoux carnival take turns dancing on the main square to live music; the carnival ends with the trial and burning of His Majesty Carnival on the Night of the Blanquette.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Limoux",
+     "lat": 43.0464,
+     "lon": 2.2452,
+     "precision": "commune",
+     "insee": "11206",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "dates",
+    "occurrences": [
+     {
+      "start": "2027-01-02",
+      "end": "2027-03-14"
+     }
+    ]
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "jugement rendu en occitan le dernier dimanche, lors de la nuit de la blanquette et dont le verdict aboutira à son incinération.",
+    "evidence_page": 3,
+    "web_sources": [
+     {
+      "url": "https://www.tourisme-occitanie.com/fr/fiche/fete-et-manifestation/carnaval-de-limoux-2027-nuit-de-la-blanquette-les-aissables-limoux_TFOFMALAR011V51BYZT/",
+      "publisher": "Tourisme Occitanie",
+      "says": "The 2027 carnival bands go out on weekends from early January; the Night of the Blanquette closes the carnival on Sunday 14 March 2027.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Weekends from early January to the Sunday before Palm Sunday; each band (fecos) has its own day, at 11 am, 4.30 pm and 10 pm."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Limoux",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
    "id": "2013_67717_INV_PCI_FRANCE_00296",
    "title_fr": "La fête de la Cerise à Itxassou (Pyrénées-Atlantiques)",
    "theme": "social-festive",
@@ -552,6 +603,56 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-barricot-a-Labastide-Monrejeau",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2013_67717_INV_PCI_FRANCE_00298",
+   "title_fr": "Les fêtes de la Mer à Saint-Jean-de-Luz (Pyrénées-Atlantiques)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (fête maritime)",
+   "year_included": 2013,
+   "kind": "event",
+   "summary": {
+    "fr": "En alternance à Saint-Jean-de-Luz et à Ciboure, les fêtes de la Mer et du Ttoro réunissent concours de pêche et de soupe de poisson, puis levée des couleurs, messe, bénédiction des bateaux et gerbe lancée en mer pour les marins disparus.",
+    "en": "Alternately in Saint-Jean-de-Luz and Ciboure, the Sea and Ttoro festival combines fishing and fish-soup contests with a flag ceremony, mass, the blessing of boats and a wreath thrown at sea for lost sailors.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Saint-Jean-de-Luz",
+     "lat": 43.3934,
+     "lon": -1.6337,
+     "precision": "commune",
+     "insee": "64483",
+     "overseas": false
+    },
+    {
+     "label": "Ciboure",
+     "lat": 43.3764,
+     "lon": -1.6661,
+     "precision": "commune",
+     "insee": "64189",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 9,
+    "weekday": 0,
+    "n": 1,
+    "offset_days": -1,
+    "duration_days": 2
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "une année à Saint-Jean-de-Luz et l’année suivante à Ciboure, généralement le premier weekend du mois de septembre.",
+    "evidence_page": 2,
+    "notes": "Usually the first weekend of September (fiche of 2013); no recent programme was found online to confirm it."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Saint-Jean-de-Luz",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"
@@ -1542,6 +1643,176 @@
    "review_status": "unreviewed"
   },
   {
+   "id": "2018_67717_INV_PCI_FRANCE_00421",
+   "title_fr": "Les savoir-faire artisanaux associés au carnaval de Nice (Alpes-Maritimes)",
+   "theme": "social-festive",
+   "domain": "Savoir-faire artisanaux (carnaval)",
+   "year_included": 2018,
+   "kind": "event",
+   "summary": {
+    "fr": "Les chars et grosses têtes du carnaval de Nice sont construits par des entreprises de carnavaliers, souvent familiales depuis plusieurs générations : armatures métalliques, sculptures et peinture, sur un thème renouvelé chaque année.",
+    "en": "The floats and giant heads of the Nice carnival are built by carnival workshops, often family firms for several generations: metal frames, sculpting and painting, on a theme renewed every year.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Nice",
+     "lat": 43.7032,
+     "lon": 7.2528,
+     "precision": "commune",
+     "insee": "06088",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "dates",
+    "occurrences": [
+     {
+      "start": "2027-02-09",
+      "end": "2027-02-28"
+     }
+    ]
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Chaque année, la fête se déroule au mois de février et début mars, à des dates variables.",
+    "evidence_page": 5,
+    "web_sources": [
+     {
+      "url": "https://cotedazurfrance.fr/offres/carnaval-de-nice-2027-vive-lamour-nice-fr-3810291/",
+      "publisher": "Côte d'Azur France tourism board",
+      "says": "Lists the 2027 Nice carnival, \"Vive l'Amour\", from 9 to 28 February 2027.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "The carnival is where this craft is shown; dates are set each year around the February school holidays."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-artisanaux-associes-au-carnaval-de-nice2",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2019_67717_INV_PCI_FRANCE_00422",
+   "title_fr": "Les fêtes du Bœuf de Mèze (Hérault)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (animal totémique)",
+   "year_included": 2019,
+   "kind": "event",
+   "summary": {
+    "fr": "Animal-totem de Mèze, le Bœuf parcourt quais et rues pendant la fête de la ville en août, entouré de musiciens et du Chivalet, jusqu'à sa mise à mort symbolique sur l'esplanade ; il renaît au corso de mai.",
+    "en": "The totem animal of Mèze, the Ox, roams the quays and streets during the town's August festival with musicians and the Chivalet hobby-horse, until its symbolic killing on the esplanade; it is reborn at the May parade.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Mèze",
+     "lat": 43.4323,
+     "lon": 3.5843,
+     "precision": "commune",
+     "insee": "34157",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "unknown"
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "Aux alentours du 19 août, lors de la fête de Mèze, la foule est immense pour assister à la mise à mort symbolique du Bœuf",
+    "evidence_page": 3,
+    "web_sources": [
+     {
+      "url": "https://www.ville-meze.fr/pdf/fete_meze_2026_programme.pdf",
+      "publisher": "Ville de Mèze",
+      "says": "Programme of the 218th Fête de Mèze, 19 to 26 August 2026 (the 2024 edition ran 16 to 21 August).",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Several days around 19 August; the exact days change each year (see the town's programme)."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-du-Boeuf-de-Meze",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2019_67717_INV_PCI_FRANCE_00423",
+   "title_fr": "Le carnaval de Montblanc (Hérault)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (carnaval, animal totémique)",
+   "year_included": 2019,
+   "kind": "event",
+   "summary": {
+    "fr": "À Montblanc, dans l'Hérault, le carnaval fait sortir le Grand et le Petit Poulain, chevaux-totems portés et dansés dans les rues, avec bal masqué, musiciens et repas traditionnel du Tripat.",
+    "en": "In Montblanc (Hérault), the carnival brings out the Big and Little Poulain, totem horses carried and danced through the streets, with a masked ball, musicians and the traditional Tripat meal.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Montblanc",
+     "lat": 43.3775,
+     "lon": 3.3569,
+     "precision": "commune",
+     "insee": "34166",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "unknown"
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "De nos jours, le carnaval se déroule en avril, un vendredi soir et un samedi toute la journée",
+    "evidence_page": 3,
+    "notes": "A Friday evening and a Saturday between late March and early April; no current date found online."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Montblanc",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2019_67717_INV_PCI_FRANCE_00424",
+   "title_fr": "La fête du Tribus Lupis de Cournonterral (Hérault)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (animal totémique)",
+   "year_included": 2019,
+   "kind": "event",
+   "summary": {
+    "fr": "À Cournonterral, le Tribus Lupis, loup à trois têtes, sort de sa tanière au moment de la Saint-Jean pour parcourir la ville, rappeler les droits acquis par les habitants et animer les feux du solstice.",
+    "en": "In Cournonterral, the Tribus Lupis, a three-headed wolf, comes out of its den around Saint John's Day to roam the town, recall the rights won by its inhabitants and lead the solstice fires.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Cournonterral",
+     "lat": 43.5712,
+     "lon": 3.7072,
+     "precision": "commune",
+     "insee": "34088",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "unknown"
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "Au mois de juin, à l’occasion de la Saint-Jean, une créature étrange sort de sa tanière dans la ville de Cournonterral",
+    "evidence_page": 1,
+    "notes": "A day in June around Saint John's Day and the summer solstice; no current date found online."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-du-Tribus-Lupis-de-Cournonterral",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
    "id": "2019_67717_INV_PCI_FRANCE_00425",
    "title_fr": "Les fêtes de la Tarasque (Bouches-du-Rhône)",
    "theme": "social-festive",
@@ -1579,6 +1850,53 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Tarasque",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2019_67717_INV_PCI_FRANCE_00429",
+   "title_fr": "Le carnaval de Pézenas (Hérault)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (carnaval, animal totémique)",
+   "year_included": 2019,
+   "kind": "event",
+   "summary": {
+    "fr": "À Pézenas, le Poulain, cheval-totem animé par ses porteurs et monté par les mannequins Estieino et Estieineta, danse dans les rues le jour du Mardi gras ; le carnaval compte aussi les Machous, histoires comiques en occitan, et un charivari.",
+    "en": "In Pézenas, the Poulain, a totem horse moved by its bearers and ridden by the dummies Estieino and Estieineta, dances through the streets on Shrove Tuesday; the carnival also features the Machous, comic stories in Occitan, and a charivari.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Pézenas",
+     "lat": 43.4616,
+     "lon": 3.418,
+     "precision": "commune",
+     "insee": "34199",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "easter_offset",
+    "days": -50,
+    "duration_days": 4
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Le carnaval de Pézenas relève des fêtes à animaux-totems du sud de France, avec son Poulain (lo Polin), animal totémique sorti pour le mardi Gras.",
+    "evidence_page": 1,
+    "web_sources": [
+     {
+      "url": "https://www.festivalenfrance.com/festival/sortie-du-poulain-de-pezenas",
+      "publisher": "Festivals en France",
+      "says": "The 2026 Poulain outings ran from 13 to 17 February, ending on Mardi gras (17 February).",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Saturday to Mardi gras; the Poulain also comes out for Saint Blaise, around 3 February."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Pezenas",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"
@@ -1711,6 +2029,153 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-du-citron-de-menton.pdf",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2019_67717_INV_PCI_FRANCE_00450",
+   "title_fr": "La fête des Olives vertes de Mouriès",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (fête agricole)",
+   "year_included": 2019,
+   "kind": "event",
+   "summary": {
+    "fr": "Au cœur des Alpilles, Mouriès fête la récolte des olives vertes « cassées » : marché, démonstrations de cassage, défilé provençal, courses camarguaises et costumes traditionnels.",
+    "en": "In the heart of the Alpilles, Mouriès celebrates the harvest of green \"cracked\" olives with a market, cracking demonstrations, a Provençal parade, Camargue bull games and traditional costume.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Mouriès",
+     "lat": 43.7053,
+     "lon": 4.8781,
+     "precision": "commune",
+     "insee": "13065",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 9,
+    "weekday": 0,
+    "n": 3,
+    "offset_days": -1,
+    "duration_days": 2
+   },
+   "timing": {
+    "confidence": "high",
+    "web_sources": [
+     {
+      "url": "https://provence-alpes-cotedazur.com/que-faire/sortir/toutes-les-sorties/journees-europeennes-du-patrimoine-a-mouries-la-fete-des-olives-vertes-2026-mouries-fr-2857445/",
+      "publisher": "Provence-Alpes-Côte d'Azur regional tourism board",
+      "says": "The 2026 Fête des Olives Vertes ran on Saturday 19 and Sunday 20 September.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://www.frequence-sud.fr/art-106448-fete_des_olives_vertes_mouries",
+      "publisher": "Fréquence Sud",
+      "says": "The 2025 edition was held on 20 and 21 September.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Third weekend of September (Saturday and Sunday)."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-olives-vertes-de-mouries.pdf",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2020_67717_INV_PCI_FRANCE_00471",
+   "title_fr": "La fête des Rois à Saint-Jean-de-Luz",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives ; rituels (Épiphanie)",
+   "year_included": 2020,
+   "kind": "event",
+   "summary": {
+    "fr": "À Saint-Jean-de-Luz, la fête des Rois est une procession d'hiver issue de la Fête-Dieu : trois jeunes garçons costumés en Rois mages, un page et un ange porteur d'étoile défilent en ville puis dans l'église, pendant les vêpres.",
+    "en": "In Saint-Jean-de-Luz, the Kings' feast is a winter procession derived from Corpus Christi: three boys dressed as the Magi, a page and an angel carrying a star walk through the town and into the church during vespers.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Saint-Jean-de-Luz",
+     "lat": 43.3934,
+     "lon": -1.6337,
+     "precision": "commune",
+     "insee": "64483",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 1,
+    "weekday": 0,
+    "n": 1
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "La fête, qui se déroule le premier dimanche après-midi de janvier, commence par l’habillage.",
+    "evidence_page": 5,
+    "notes": "First Sunday of January, in the afternoon (vespers of Epiphany Sunday)."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-rois-a-saint-jean-de-luz.pdf",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2020_67717_INV_PCI_FRANCE_00479",
+   "title_fr": "Le Yennayer, Nouvel An berbère en région Île-de-France",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (nouvel an)",
+   "year_included": 2020,
+   "kind": "event",
+   "summary": {
+    "fr": "Les familles et associations amazighes d'Île-de-France fêtent Yennayer, le Nouvel An berbère du calendrier agraire, avec un repas traditionnel, des chants, des danses et, à Paris, un défilé.",
+    "en": "Amazigh families and associations in the Paris region celebrate Yennayer, the Berber New Year of the farming calendar, with a traditional meal, songs, dances and, in Paris, a parade.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Paris",
+     "lat": 48.8589,
+     "lon": 2.347,
+     "precision": "commune",
+     "insee": "75056",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "fixed",
+    "month": 1,
+    "day": 12
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "La date précise de cette festivité de Nouvel An varie entre le 12 et le 14 janvier du calendrier actuel, selon différentes interprétations.",
+    "evidence_page": 3,
+    "web_sources": [
+     {
+      "url": "https://www.paris.fr/evenements/paris-nayer-celebration-du-nouvel-an-berbere-77939",
+      "publisher": "Ville de Paris",
+      "says": "Announced the Paris-Nayer parade for the Berber New Year on Sunday 12 January 2025.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://www.helloasso.com/associations/kabylie-equitable/evenements/celebration-du-nouvel-an-berbere-2976-dans-les-rues-de-paris-3eme-edition-paris",
+      "publisher": "Kabylie Équitable (HelloAsso)",
+      "says": "Street celebration of the year 2976 in Paris on 10 January 2026.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Yennayer is celebrated on 12 January (12 to 14 January depending on tradition); public events take place on a nearby weekend."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-yennayer-nouvel-an-berbere.pdf",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"

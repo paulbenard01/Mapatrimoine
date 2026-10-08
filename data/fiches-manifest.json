@@ -82,6 +82,15 @@
   "status": "ok",
   "fetched_at": "2026-10-08"
  },
+ "2012_67717_INV_PCI_FRANCE_00151": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Capbreton",
+  "status": "failed: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Capbreton: network error TimeoutError"
+ },
+ "2012_67717_INV_PCI_FRANCE_00257": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Limoux",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
  "2013_67717_INV_PCI_FRANCE_00296": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Cerise-a-Itxassou",
   "status": "ok",
@@ -92,6 +101,11 @@
  },
  "2013_67717_INV_PCI_FRANCE_00297": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-barricot-a-Labastide-Monrejeau",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2013_67717_INV_PCI_FRANCE_00298": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Saint-Jean-de-Luz",
   "status": "ok",
   "fetched_at": "2026-10-08"
  },
@@ -261,6 +275,26 @@
   "pages": 18,
   "unpublished_marker": false
  },
+ "2018_67717_INV_PCI_FRANCE_00421": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-artisanaux-associes-au-carnaval-de-nice2",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2019_67717_INV_PCI_FRANCE_00422": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-du-Boeuf-de-Meze",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2019_67717_INV_PCI_FRANCE_00423": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Montblanc",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2019_67717_INV_PCI_FRANCE_00424": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-du-Tribus-Lupis-de-Cournonterral",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
  "2019_67717_INV_PCI_FRANCE_00425": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Tarasque",
   "status": "ok",
@@ -268,6 +302,11 @@
   "text": "ok",
   "pages": 25,
   "unpublished_marker": false
+ },
+ "2019_67717_INV_PCI_FRANCE_00429": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Pezenas",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
  },
  "2019_67717_INV_PCI_FRANCE_00430": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Saint-Laurent-et-l-Ane-de-Bessan",
@@ -293,6 +332,21 @@
   "pages": 27,
   "unpublished_marker": false
  },
+ "2019_67717_INV_PCI_FRANCE_00450": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-olives-vertes-de-mouries.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2020_67717_INV_PCI_FRANCE_00471": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-rois-a-saint-jean-de-luz.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2020_67717_INV_PCI_FRANCE_00479": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-yennayer-nouvel-an-berbere.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
  "2020_67717_INV_PCI_FRANCE_00486": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-conscrits-a-villefranche-sur-saone-et-en-son-bassin-de-vie.pdf",
   "status": "ok",
@@ -308,6 +362,11 @@
   "text": "ok",
   "pages": 44,
   "unpublished_marker": false
+ },
+ "2022_67717_INV_PCI_FRANCE_00515": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/lo-cese-de-montaren-fete-inventee-et-figure-totemique-du-pois-chiche-a-montaren-et-saint-mediers-gard",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
  },
  "2022_67717_INV_PCI_FRANCE_00519": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-jeux-floraux-de-toulouse-et-leur-fete-des-fleurs",

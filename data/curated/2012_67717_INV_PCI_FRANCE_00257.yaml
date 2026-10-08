@@ -1,0 +1,28 @@
+id: 2012_67717_INV_PCI_FRANCE_00257
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval)
+summary:
+  fr: >-
+    Pendant près de trois mois, chaque week-end, les bandes masquées du carnaval de Limoux dansent sur la place au son des musiciens, chacune à son tour ; le carnaval se termine par le jugement et l'incinération de Sa Majesté Carnaval lors de la nuit de la Blanquette.
+  en: >-
+    For almost three months, every weekend, the masked bands of the Limoux carnival take turns dancing on the main square to live music; the carnival ends with the trial and burning of His Majesty Carnival on the Night of the Blanquette.
+  lang_review: draft
+places:
+  - {commune: Limoux, department: "11"}
+recurrence:
+  type: dates
+  occurrences:
+    - {start: "2027-01-02", end: "2027-03-14"}
+timing:
+  confidence: high
+  evidence_quote: "jugement rendu en occitan le dernier dimanche, lors de la nuit de la blanquette et dont le verdict aboutira à son incinération."
+  evidence_page: 3
+  web_sources:
+    - url: https://www.tourisme-occitanie.com/fr/fiche/fete-et-manifestation/carnaval-de-limoux-2027-nuit-de-la-blanquette-les-aissables-limoux_TFOFMALAR011V51BYZT/
+      publisher: Tourisme Occitanie
+      says: The 2027 carnival bands go out on weekends from early January; the Night of the Blanquette closes the carnival on Sunday 14 March 2027.
+      checked_at: "2026-10-08"
+  notes: >-
+    Weekends from early January to the Sunday before Palm Sunday; each band (fecos) has its own day, at 11 am, 4.30 pm and 10 pm.
+review_status: unreviewed

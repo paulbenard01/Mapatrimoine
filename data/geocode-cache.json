@@ -23,6 +23,14 @@
   "insee": "06163",
   "overseas": false
  },
+ "commune:11:limoux": {
+  "label": "Limoux",
+  "lat": 43.0464,
+  "lon": 2.2452,
+  "precision": "commune",
+  "insee": "11206",
+  "overseas": false
+ },
  "commune:12:marcillac vallon": {
   "label": "Marcillac-Vallon",
   "lat": 44.4776,
@@ -117,6 +125,38 @@
   "lon": 3.4141,
   "precision": "commune",
   "insee": "34031",
+  "overseas": false
+ },
+ "commune:34:cournonterral": {
+  "label": "Cournonterral",
+  "lat": 43.5712,
+  "lon": 3.7072,
+  "precision": "commune",
+  "insee": "34088",
+  "overseas": false
+ },
+ "commune:34:meze": {
+  "label": "Mèze",
+  "lat": 43.4323,
+  "lon": 3.5843,
+  "precision": "commune",
+  "insee": "34157",
+  "overseas": false
+ },
+ "commune:34:montblanc": {
+  "label": "Montblanc",
+  "lat": 43.3775,
+  "lon": 3.3569,
+  "precision": "commune",
+  "insee": "34166",
+  "overseas": false
+ },
+ "commune:34:pezenas": {
+  "label": "Pézenas",
+  "lat": 43.4616,
+  "lon": 3.418,
+  "precision": "commune",
+  "insee": "34199",
   "overseas": false
  },
  "commune:37:manthelan": {
@@ -287,6 +327,14 @@
   "insee": "64102",
   "overseas": false
  },
+ "commune:64:ciboure": {
+  "label": "Ciboure",
+  "lat": 43.3764,
+  "lon": -1.6661,
+  "precision": "commune",
+  "insee": "64189",
+  "overseas": false
+ },
  "commune:64:espelette": {
   "label": "Espelette",
   "lat": 43.3226,
@@ -317,6 +365,14 @@
   "lon": -0.4087,
   "precision": "commune",
   "insee": "64320",
+  "overseas": false
+ },
+ "commune:64:saint jean de luz": {
+  "label": "Saint-Jean-de-Luz",
+  "lat": 43.3934,
+  "lon": -1.6337,
+  "precision": "commune",
+  "insee": "64483",
   "overseas": false
  },
  "commune:65:lourdes": {

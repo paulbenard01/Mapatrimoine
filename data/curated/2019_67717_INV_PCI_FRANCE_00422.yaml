@@ -1,0 +1,25 @@
+id: 2019_67717_INV_PCI_FRANCE_00422
+kind: event
+domain: >-
+  Pratiques sociales et festives (animal totémique)
+summary:
+  fr: >-
+    Animal-totem de Mèze, le Bœuf parcourt quais et rues pendant la fête de la ville en août, entouré de musiciens et du Chivalet, jusqu'à sa mise à mort symbolique sur l'esplanade ; il renaît au corso de mai.
+  en: >-
+    The totem animal of Mèze, the Ox, roams the quays and streets during the town's August festival with musicians and the Chivalet hobby-horse, until its symbolic killing on the esplanade; it is reborn at the May parade.
+  lang_review: draft
+places:
+  - {commune: Mèze, department: "34"}
+recurrence: {type: unknown}
+timing:
+  confidence: medium
+  evidence_quote: "Aux alentours du 19 août, lors de la fête de Mèze, la foule est immense pour assister à la mise à mort symbolique du Bœuf"
+  evidence_page: 3
+  web_sources:
+    - url: https://www.ville-meze.fr/pdf/fete_meze_2026_programme.pdf
+      publisher: Ville de Mèze
+      says: Programme of the 218th Fête de Mèze, 19 to 26 August 2026 (the 2024 edition ran 16 to 21 August).
+      checked_at: "2026-10-08"
+  notes: >-
+    Several days around 19 August; the exact days change each year (see the town's programme).
+review_status: unreviewed

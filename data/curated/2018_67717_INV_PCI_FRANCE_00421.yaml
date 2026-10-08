@@ -1,0 +1,28 @@
+id: 2018_67717_INV_PCI_FRANCE_00421
+kind: event
+domain: >-
+  Savoir-faire artisanaux (carnaval)
+summary:
+  fr: >-
+    Les chars et grosses têtes du carnaval de Nice sont construits par des entreprises de carnavaliers, souvent familiales depuis plusieurs générations : armatures métalliques, sculptures et peinture, sur un thème renouvelé chaque année.
+  en: >-
+    The floats and giant heads of the Nice carnival are built by carnival workshops, often family firms for several generations: metal frames, sculpting and painting, on a theme renewed every year.
+  lang_review: draft
+places:
+  - {commune: Nice, department: "06"}
+recurrence:
+  type: dates
+  occurrences:
+    - {start: "2027-02-09", end: "2027-02-28"}
+timing:
+  confidence: high
+  evidence_quote: "Chaque année, la fête se déroule au mois de février et début mars, à des dates variables."
+  evidence_page: 5
+  web_sources:
+    - url: https://cotedazurfrance.fr/offres/carnaval-de-nice-2027-vive-lamour-nice-fr-3810291/
+      publisher: Côte d'Azur France tourism board
+      says: Lists the 2027 Nice carnival, "Vive l'Amour", from 9 to 28 February 2027.
+      checked_at: "2026-10-08"
+  notes: >-
+    The carnival is where this craft is shown; dates are set each year around the February school holidays.
+review_status: unreviewed

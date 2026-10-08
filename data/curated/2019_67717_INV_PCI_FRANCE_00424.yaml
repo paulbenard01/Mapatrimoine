@@ -1,0 +1,20 @@
+id: 2019_67717_INV_PCI_FRANCE_00424
+kind: event
+domain: >-
+  Pratiques sociales et festives (animal totémique)
+summary:
+  fr: >-
+    À Cournonterral, le Tribus Lupis, loup à trois têtes, sort de sa tanière au moment de la Saint-Jean pour parcourir la ville, rappeler les droits acquis par les habitants et animer les feux du solstice.
+  en: >-
+    In Cournonterral, the Tribus Lupis, a three-headed wolf, comes out of its den around Saint John's Day to roam the town, recall the rights won by its inhabitants and lead the solstice fires.
+  lang_review: draft
+places:
+  - {commune: Cournonterral, department: "34"}
+recurrence: {type: unknown}
+timing:
+  confidence: medium
+  evidence_quote: "Au mois de juin, à l’occasion de la Saint-Jean, une créature étrange sort de sa tanière dans la ville de Cournonterral"
+  evidence_page: 1
+  notes: >-
+    A day in June around Saint John's Day and the summer solstice; no current date found online.
+review_status: unreviewed

@@ -1,0 +1,20 @@
+id: 2019_67717_INV_PCI_FRANCE_00423
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval, animal totémique)
+summary:
+  fr: >-
+    À Montblanc, dans l'Hérault, le carnaval fait sortir le Grand et le Petit Poulain, chevaux-totems portés et dansés dans les rues, avec bal masqué, musiciens et repas traditionnel du Tripat.
+  en: >-
+    In Montblanc (Hérault), the carnival brings out the Big and Little Poulain, totem horses carried and danced through the streets, with a masked ball, musicians and the traditional Tripat meal.
+  lang_review: draft
+places:
+  - {commune: Montblanc, department: "34"}
+recurrence: {type: unknown}
+timing:
+  confidence: medium
+  evidence_quote: "De nos jours, le carnaval se déroule en avril, un vendredi soir et un samedi toute la journée"
+  evidence_page: 3
+  notes: >-
+    A Friday evening and a Saturday between late March and early April; no current date found online.
+review_status: unreviewed

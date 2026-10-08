@@ -1,0 +1,29 @@
+id: 2020_67717_INV_PCI_FRANCE_00479
+kind: event
+domain: >-
+  Pratiques sociales et festives (nouvel an)
+summary:
+  fr: >-
+    Les familles et associations amazighes d'Île-de-France fêtent Yennayer, le Nouvel An berbère du calendrier agraire, avec un repas traditionnel, des chants, des danses et, à Paris, un défilé.
+  en: >-
+    Amazigh families and associations in the Paris region celebrate Yennayer, the Berber New Year of the farming calendar, with a traditional meal, songs, dances and, in Paris, a parade.
+  lang_review: draft
+places:
+  - {commune: Paris, department: "75"}
+recurrence: {type: fixed, month: 1, day: 12}
+timing:
+  confidence: medium
+  evidence_quote: "La date précise de cette festivité de Nouvel An varie entre le 12 et le 14 janvier du calendrier actuel, selon différentes interprétations."
+  evidence_page: 3
+  web_sources:
+    - url: https://www.paris.fr/evenements/paris-nayer-celebration-du-nouvel-an-berbere-77939
+      publisher: Ville de Paris
+      says: Announced the Paris-Nayer parade for the Berber New Year on Sunday 12 January 2025.
+      checked_at: "2026-10-08"
+    - url: https://www.helloasso.com/associations/kabylie-equitable/evenements/celebration-du-nouvel-an-berbere-2976-dans-les-rues-de-paris-3eme-edition-paris
+      publisher: Kabylie Équitable (HelloAsso)
+      says: Street celebration of the year 2976 in Paris on 10 January 2026.
+      checked_at: "2026-10-08"
+  notes: >-
+    Yennayer is celebrated on 12 January (12 to 14 January depending on tradition); public events take place on a nearby weekend.
+review_status: unreviewed
