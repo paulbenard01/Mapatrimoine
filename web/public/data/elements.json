@@ -1,6 +1,6 @@
 {
  "generated_from": "data/curated",
- "count": 59,
+ "count": 62,
  "elements": [
   {
    "id": "2009_67717_INV_PCI_FRANCE_00040",
@@ -106,6 +106,103 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/dia-de-los-muertos-fete-des-morts",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2010_67717_INV_PCI_FRANCE_00080",
+   "title_fr": "Fête de Notre-Dame de la Visitation à Vievola (En patois : Festa t’Vieola)",
+   "theme": "rituals",
+   "domain": "Rituels (fête mariale)",
+   "year_included": 2010,
+   "kind": "event",
+   "summary": {
+    "fr": "Au hameau de Vievola, dans la haute Roya, la chapelle Notre-Dame de la Visitation n'ouvre que pour sa fête : messe, procession de la statue de la Vierge le long du torrent, repas partagé et vêpres.",
+    "en": "In the hamlet of Vievola, in the upper Roya valley, the chapel of Our Lady of the Visitation opens only for its feast: mass, a procession of the Virgin's statue along the stream, a shared meal and vespers.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Vievola (Tende)",
+     "lat": 44.0971,
+     "lon": 7.5499,
+     "precision": "commune",
+     "insee": "06163",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 7,
+    "weekday": 0,
+    "n": 1
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Fête religieuse et populaire organisée le premier dimanche de juillet à Vievola.",
+    "evidence_page": 1,
+    "web_sources": [
+     {
+      "url": "https://provence-alpes-cotedazur.com/que-faire/culture-et-patrimoine/lieux/chapelle-notre-dame-de-la-visitation-tende-fr-2864326/",
+      "publisher": "Provence-Alpes-Côte d'Azur regional tourism board",
+      "says": "The chapel opens only on the feast of Our Lady of the Visitation, the first Sunday of July (5 July 2026).",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "First Sunday of July; rosary evenings in the days before."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/fete-de-notre-dame-de-la-visitation-a-vievola",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2010_67717_INV_PCI_FRANCE_00101",
+   "title_fr": "La fête des Jeux anciens de Sarlat-la-Canéda (Dordogne) / Ringueta",
+   "theme": "games",
+   "domain": "Jeux traditionnels",
+   "year_included": 2010,
+   "kind": "event",
+   "summary": {
+    "fr": "Tous les deux ans à Sarlat, la Ringueta transforme la place de la Grande-Rigaudie en terrain de jeux anciens du Périgord : quilles, tir à la corde, mât de cocagne et banquet.",
+    "en": "Every two years in Sarlat, the Ringueta turns the Place de la Grande-Rigaudie into a playground of old Périgord games: skittles, tug-of-war, a greasy pole and a banquet.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Sarlat-la-Canéda",
+     "lat": 44.906,
+     "lon": 1.1994,
+     "precision": "commune",
+     "insee": "24520",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "easter_offset",
+    "days": 48,
+    "duration_days": 2,
+    "every_years": 2,
+    "reference_year": 2026
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Il a lieu tous les deux ans à Sarlat sur la grande place du Foirail, à la Pentecôte.",
+    "evidence_page": 2,
+    "web_sources": [
+     {
+      "url": "https://www.lascaux-dordogne.com/en/?p=25435",
+      "publisher": "Lascaux Dordogne tourist office",
+      "says": "The festival of old games is held every two years; the 2026 edition was on Saturday 23 and Sunday 24 May (Pentecost weekend).",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Pentecost weekend, even years."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-Ringueta",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"
@@ -2454,6 +2551,61 @@
    "timing": null,
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/chjam-e-rispondi-joutes-poetiques-improvisees-et-chantees-corse",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2025_67717_INV_PCI_FRANCE_00560",
+   "title_fr": "Le Carnaval à l’Ouest de Scaër",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (carnaval, cavalcade)",
+   "year_included": 2025,
+   "kind": "event",
+   "summary": {
+    "fr": "Tous les deux ans, le Carnaval à l'Ouest de Scaër, l'un des plus grands de France, fait défiler le dimanche et le lundi des chars décorés construits pendant des mois par des équipes de bénévoles.",
+    "en": "Every two years, the Carnaval à l'Ouest in Scaër, one of the largest in France, parades decorated floats built over months by volunteer teams, on the Sunday and the Monday.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Scaër",
+     "lat": 48.0268,
+     "lon": -3.7267,
+     "precision": "commune",
+     "insee": "29274",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "easter_offset",
+    "days": 49,
+    "duration_days": 2,
+    "every_years": 2,
+    "reference_year": 2027
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Le carnaval réunit tous les deux ans près de 50 000 spectateurs sur les deux jours que se déroule la fête.",
+    "evidence_page": 1,
+    "web_sources": [
+     {
+      "url": "https://www.tourismebretagne.com/preparer-mon-sejour/agenda/le-carnaval-a-louest-la-cavalcade-scaer-fr-6741715/",
+      "publisher": "Tourisme Bretagne",
+      "says": "Lists the next cavalcade on 16 and 17 May 2027 in Scaër town centre.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://www.festivalenfrance.com/en/festival/carnaval-a-l-ouest-la-cavalcade-de-scaer/2025",
+      "publisher": "Festivals en France",
+      "says": "Pentecost weekend in odd years; the previous edition was on 8 and 9 June 2025.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Pentecost Sunday and Whit Monday, odd years."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-carnaval-a-l-ouest-de-scaer",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"

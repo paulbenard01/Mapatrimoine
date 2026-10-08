@@ -1,0 +1,25 @@
+id: 2010_67717_INV_PCI_FRANCE_00080
+kind: event
+domain: >-
+  Rituels (fête mariale)
+summary:
+  fr: >-
+    Au hameau de Vievola, dans la haute Roya, la chapelle Notre-Dame de la Visitation n'ouvre que pour sa fête : messe, procession de la statue de la Vierge le long du torrent, repas partagé et vêpres.
+  en: >-
+    In the hamlet of Vievola, in the upper Roya valley, the chapel of Our Lady of the Visitation opens only for its feast: mass, a procession of the Virgin's statue along the stream, a shared meal and vespers.
+  lang_review: draft
+places:
+  - {commune: Tende, department: "06", label: "Vievola (Tende)"}
+recurrence: {type: nth_weekday, month: 7, weekday: 0, n: 1}
+timing:
+  confidence: high
+  evidence_quote: "Fête religieuse et populaire organisée le premier dimanche de juillet à Vievola."
+  evidence_page: 1
+  web_sources:
+    - url: https://provence-alpes-cotedazur.com/que-faire/culture-et-patrimoine/lieux/chapelle-notre-dame-de-la-visitation-tende-fr-2864326/
+      publisher: Provence-Alpes-Côte d'Azur regional tourism board
+      says: The chapel opens only on the feast of Our Lady of the Visitation, the first Sunday of July (5 July 2026).
+      checked_at: "2026-10-08"
+  notes: >-
+    First Sunday of July; rosary evenings in the days before.
+review_status: unreviewed

@@ -23,6 +23,11 @@
   "pages": 10,
   "unpublished_marker": false
  },
+ "2010_67717_INV_PCI_FRANCE_00080": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/fete-de-notre-dame-de-la-visitation-a-vievola",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
  "2010_67717_INV_PCI_FRANCE_00097": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-des-deux-rives",
   "status": "ok",
@@ -30,6 +35,11 @@
  },
  "2010_67717_INV_PCI_FRANCE_00098": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-de-Peirigueers-Carnaval-de-Perigueux",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00101": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-Ringueta",
   "status": "ok",
   "fetched_at": "2026-10-08"
  },
@@ -363,6 +373,11 @@
   "pages": 44,
   "unpublished_marker": false
  },
+ "2022_67717_INV_PCI_FRANCE_00514": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/carnaval-de-pornic",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
  "2022_67717_INV_PCI_FRANCE_00515": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/lo-cese-de-montaren-fete-inventee-et-figure-totemique-du-pois-chiche-a-montaren-et-saint-mediers-gard",
   "status": "ok",
@@ -407,6 +422,11 @@
   "text": "ok",
   "pages": 36,
   "unpublished_marker": false
+ },
+ "2025_67717_INV_PCI_FRANCE_00560": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-carnaval-a-l-ouest-de-scaer",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
  },
  "2026_67717_INV_PCI_FRANCE_00564": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-pelerinage-de-sainte-solange",
