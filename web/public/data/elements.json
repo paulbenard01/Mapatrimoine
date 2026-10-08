@@ -1,4 +1,5 @@
 {
+ "generated_from": "data/curated",
  "count": 73,
  "elements": [
   {
@@ -1257,7 +1258,7 @@
    "timing": {
     "confidence": "high",
     "evidence_quote": "est une cérémonie célébrant, chaque 13 juillet, le plus ancien traité encore en vigueur en Europe : la sentence arbitrale d’Ansó de 1375.",
-    "evidence_page": 1,
+    "evidence_page": 2,
     "web_sources": [
      {
       "url": "https://www.tourmag.com/Navarre-la-ceremonie-de-la-Junte-de-Roncal-le-plus-vieux-deal-europeen_a88171.html",
