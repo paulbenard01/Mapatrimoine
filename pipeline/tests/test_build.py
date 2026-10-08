@@ -5,9 +5,11 @@ from jsonschema import Draft202012Validator
 
 from pci import SCHEMA
 from pci.build import (
+    INVENTORY_PATH,
     OUTPUT_PATH,
     BuildError,
     build,
+    build_inventory,
     check,
     compose,
     quote_in_text,
@@ -102,3 +104,10 @@ def test_committed_curated_data_builds_to_the_committed_output(tmp_path):
     out = tmp_path / "elements.json"
     build(out)
     assert json.loads(out.read_text()) == json.loads(OUTPUT_PATH.read_text())
+
+
+def test_committed_inventory_is_up_to_date(tmp_path):
+    out = tmp_path / "inventory.json"
+    count = build_inventory(out)
+    assert count >= 500
+    assert json.loads(out.read_text()) == json.loads(INVENTORY_PATH.read_text())

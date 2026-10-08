@@ -12,7 +12,8 @@ The inventory fiches do not state a licence. The culture.gouv.fr site's legal no
 
 ## What this repository republishes
 
-- Structured facts: official element names, IDs, theme, year of inclusion, place names, coordinates of communes/départements/regions (from the French government geo API, `geo.api.gouv.fr`).
+- The list of published elements as it appears on the inventory page: official name, ID, theme(s), year of inclusion and link to the fiche (`web/public/data/inventory.json`).
+- For the pilot elements, structured facts: place names and coordinates of communes/départements/regions (from the French government geo API, `geo.api.gouv.fr`).
 - Short summaries written in our own words (FR and EN). EN texts marked `lang_review: draft` are unreviewed drafts.
 - Short quotes (at most 25 words) used as evidence for event timing, with the page number.
 - Links back to the official fiche on culture.gouv.fr.

@@ -24,7 +24,9 @@ data/curated/<id>.yaml    hand-curated pilot elements (committed)
 data/geocode-cache.json   geocoding cache (committed)
 data/pilot.txt            pilot element IDs; data/fiches-manifest.json fetch/text status (committed)
 data/raw/, data/text/     downloaded PDFs and extracted text (ignored)
-web/                      Vite + TypeScript + MapLibre site; web/public/data/elements.json is built by `pci build`
+web/                      Vite + TypeScript + MapLibre site; web/public/data/{elements,inventory}.json are built by `pci build`
+  src/recurrence.ts       the only date logic; src/model.ts filters/sorts; src/state.ts URL state
+  src/i18n/{fr,en}.ts     every UI string; src/main.ts rendering; src/map.ts MapLibre
 docs/decisions.md         decision log (decision, why, alternative rejected)
 docs/screenshots/         Playwright screenshots
 ```
@@ -46,7 +48,7 @@ npm ci           # .npmrc sets legacy-peer-deps (npm 10 arborist bug with vitest
 npm run dev
 npm test         # vitest
 npm run build    # tsc + vite build
-npm run screenshots   # needs `npm run preview` running; writes docs/screenshots/
+npm run screenshots   # needs `npm run preview` running; writes docs/screenshots/ + keyboard smoke test
 ```
 
 ## Curation workflow
@@ -62,3 +64,4 @@ npm run screenshots   # needs `npm run preview` running; writes docs/screenshots
 - Pinned dependency versions; minimal dependencies; small tested functions.
 - Element titles stay in French; EN summaries are drafts (`lang_review: draft`) until Paul reviews them.
 - Record non-trivial decisions in `docs/decisions.md`.
+- Product priority (Paul): the whole inventory comes first; yearly events are a secondary "agenda" view.

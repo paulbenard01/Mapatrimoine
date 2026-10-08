@@ -15,6 +15,7 @@ from pci.index import INDEX_PATH
 
 CURATED_DIR = DATA / "curated"
 OUTPUT_PATH = ROOT / "web" / "public" / "data" / "elements.json"
+INVENTORY_PATH = ROOT / "web" / "public" / "data" / "inventory.json"
 MAX_QUOTE_WORDS = 25
 # Fields a curated file may set. title_fr/theme/year/source come from the index and manifest.
 CURATED_FIELDS = {
@@ -135,6 +136,29 @@ def build(output: Path = OUTPUT_PATH) -> list[dict]:
     payload = {"generated_from": "data/curated", "count": len(elements), "elements": elements}
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return elements
+
+
+def inventory(index: dict[str, dict]) -> list[dict]:
+    """Every published element of the national inventory (structured facts only)."""
+    return [
+        {
+            "id": e["id"],
+            "title_fr": e["title"],
+            "themes": e["themes"],
+            "year_included": e["year_included"],
+            "fiche_url": e["fiche_url"],
+        }
+        for e in index.values()
+        if not e["unpublished"]
+    ]
+
+
+def build_inventory(output: Path = INVENTORY_PATH) -> int:
+    index = {e["id"]: e for e in json.loads(INDEX_PATH.read_text(encoding="utf-8"))["elements"]}
+    entries = inventory(index)
+    payload = {"source": "data/index.json", "count": len(entries), "elements": entries}
+    output.write_text(json.dumps(payload, ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
+    return len(entries)
 
 
 def all_places() -> list[dict]:

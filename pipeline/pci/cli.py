@@ -39,14 +39,15 @@ def main(argv: list[str] | None = None) -> int:
         cache = geocode_all(all_places())
         print(f"{len(cache)} places in data/geocode-cache.json")
         return 0
-    from pci.build import BuildError, build
+    from pci.build import BuildError, build, build_inventory
 
     try:
         elements = build()
     except BuildError as exc:
         print(f"build failed:\n{exc}", file=sys.stderr)
         return 1
-    print(f"{len(elements)} elements -> web/public/data/elements.json")
+    print(f"{len(elements)} curated elements -> web/public/data/elements.json")
+    print(f"{build_inventory()} inventory entries -> web/public/data/inventory.json")
     return 0
 
 
