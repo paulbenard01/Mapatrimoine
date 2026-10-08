@@ -127,7 +127,7 @@
  },
  "2012_67717_INV_PCI_FRANCE_00151": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Capbreton",
-  "status": "failed: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Capbreton: network error TimeoutError"
+  "status": "failed: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Capbreton: HTTP 403"
  },
  "2012_67717_INV_PCI_FRANCE_00257": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Limoux",
