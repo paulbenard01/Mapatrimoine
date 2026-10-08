@@ -1,6 +1,6 @@
 import "./style.css";
 import { STRINGS, THEME_LABELS, badgeText, describeRule, formatDay, formatKm, monthNames } from "./i18n";
-import { AREAS, createMap, type MapView } from "./map";
+import { AREAS, createMap, type MapEntry, type MapView } from "./map";
 import {
   SORTS,
   annotate,
@@ -8,6 +8,7 @@ import {
   mergeEntries,
   monthCounts,
   monthOf,
+  placesOf,
   sortItems,
   themeCounts,
   type Entry,
@@ -17,7 +18,7 @@ import {
 } from "./model";
 import { RADII, parseState, resolveToday, serializeState, type State } from "./state";
 import { THEME_COLORS } from "./theme-colors";
-import { THEMES, type Element, type InventoryEntry, type Theme } from "./types";
+import { THEMES, type Element, type InventoryEntry, type Location, type Picture, type Theme } from "./types";
 
 // ---------- tiny DOM helper ----------
 type Attrs = Record<string, string | number | boolean | null | undefined | ((e: Event) => void)>;
@@ -107,9 +108,19 @@ const OVERSEAS: Record<string, { prefix: string; name: string }> = {
 function presentAreas(): string[] {
   return Object.keys(OVERSEAS).filter((a) =>
     entries.some((e) =>
-      e.element?.locations.some((l) => l.insee?.startsWith(OVERSEAS[a].prefix) || l.label === OVERSEAS[a].name),
+      placesOf(e).some((l) => l.insee?.startsWith(OVERSEAS[a].prefix) || l.label === OVERSEAS[a].name),
     ),
   );
+}
+
+function mapEntry(item: Item): MapEntry {
+  const { entry, element } = item;
+  return {
+    id: entry.id,
+    title: entry.title_fr,
+    icon: `${element?.kind ?? "located"}-${entry.themes[0]}`,
+    locations: placesOf(entry),
+  };
 }
 
 // ---------- geolocation ----------
@@ -346,6 +357,7 @@ function moreFilters(items: Item[]): HTMLElement {
 function renderControls(items: Item[]): HTMLElement {
   const s = STRINGS[state.lang];
   const documented = entries.filter((e) => e.element).length;
+  const located = entries.filter((e) => placesOf(e).length).length;
   const events = entries.filter((e) => e.element?.kind === "event").length;
   return h(
     "section",
@@ -366,7 +378,7 @@ function renderControls(items: Item[]): HTMLElement {
         () => setState({ view: "agenda" }),
       ),
     ),
-    h("p", { class: "intro" }, state.view === "inventory" ? s.coverage(entries.length, documented) : s.agendaIntro(events)),
+    h("p", { class: "intro" }, state.view === "inventory" ? s.coverage(entries.length, located, documented) : s.agendaIntro(events)),
     state.view === "inventory"
       ? [
           h(
@@ -428,7 +440,7 @@ function renderList(items: Item[]): HTMLElement {
       const theme = entry.themes[0];
       const meta = [
         THEME_LABELS[state.lang][theme],
-        element ? element.locations.map((l) => l.label).join(", ") : String(entry.year_included),
+        placesOf(entry).length ? placeNames(placesOf(entry)) : String(entry.year_included),
         item.distanceKm !== null ? s.distanceAway(formatKm(item.distanceKm, state.lang)) : "",
       ].filter(Boolean);
       return h(
@@ -489,6 +501,50 @@ function themeLine(entry: InventoryEntry, element: Element | null): HTMLElement 
   );
 }
 
+/** "Tende, Briançon and 3 more" style list for result rows. */
+function placeNames(places: Location[]): string {
+  const names = [...new Set(places.map((l) => l.label))];
+  return names.length > 3 ? `${names.slice(0, 3).join(", ")} ${STRINGS[state.lang].andMore(names.length - 3)}` : names.join(", ");
+}
+
+function figure(picture: Picture | null): HTMLElement | null {
+  if (!picture) return null;
+  const s = STRINGS[state.lang];
+  return h(
+    "figure",
+    { class: "picture" },
+    h("img", { src: picture.src, alt: picture.alt, loading: "lazy", decoding: "async", referrerpolicy: "no-referrer" }),
+    h(
+      "figcaption",
+      {},
+      picture.source === "commons" ? s.photoCommons : s.photoFiche,
+      " : ",
+      h("a", { href: picture.page, target: "_blank", rel: "noopener" }, picture.credit),
+      picture.licence
+        ? [
+            ", ",
+            picture.licence_url
+              ? h("a", { href: picture.licence_url, target: "_blank", rel: "noopener" }, picture.licence)
+              : picture.licence,
+          ]
+        : null,
+    ),
+  );
+}
+
+function placesFact(places: Location[]): Child[] {
+  const s = STRINGS[state.lang];
+  if (!places.length) return [h("dt", {}, s.where), h("dd", {}, s.noPlace)];
+  return [
+    h("dt", {}, s.where),
+    h(
+      "dd",
+      {},
+      places.map((l) => h("span", { class: "place" }, `${l.label} (${s.precision[l.precision]})`)),
+    ),
+  ];
+}
+
 function renderDetail(item: Item): HTMLElement {
   const s = STRINGS[state.lang];
   const { entry, element, next } = item;
@@ -497,13 +553,34 @@ function renderDetail(item: Item): HTMLElement {
     : h("p", { class: "note" }, s.noFiche);
 
   if (!element) {
+    const sources = entry.location_sources;
     return h(
       "article",
       { class: "detail", "aria-labelledby": "detail-title" },
       backButton(),
       h("h2", { id: "detail-title", lang: "fr", tabindex: "-1" }, entry.title_fr),
       themeLine(entry, null),
-      h("dl", { class: "facts" }, h("dt", {}, s.yearIncluded), h("dd", {}, String(entry.year_included))),
+      figure(entry.image),
+      h(
+        "dl",
+        { class: "facts" },
+        placesFact(entry.locations),
+        h("dt", {}, s.yearIncluded),
+        h("dd", {}, String(entry.year_included)),
+      ),
+      sources.length
+        ? h(
+            "p",
+            { class: "note" },
+            s.placesFrom,
+            " ",
+            sources.flatMap((src, i) => [
+              i ? ", " : "",
+              h("a", { href: src.url, target: "_blank", rel: "noopener" }, src.publisher),
+            ]),
+            sources[0].kind === "pcilab" ? ` ${s.placesFromPcilab}` : ".",
+          )
+        : null,
       h("p", { class: "note" }, s.notDocumented),
       ficheLink,
     );
@@ -520,18 +597,14 @@ function renderDetail(item: Item): HTMLElement {
     backButton(),
     h("h2", { id: "detail-title", lang: "fr", tabindex: "-1" }, entry.title_fr),
     themeLine(entry, element),
+    figure(entry.image),
     h("p", { class: "summary", lang: state.lang }, summary),
     draft ? h("p", { class: "note" }, s.summaryDraft) : null,
     element.source.fiche_read ? null : h("p", { class: "flag" }, s.ficheNotRead),
     h(
       "dl",
       { class: "facts" },
-      h("dt", {}, s.where),
-      h(
-        "dd",
-        {},
-        element.locations.map((l) => h("span", { class: "place" }, `${l.label} (${s.precision[l.precision]})`)),
-      ),
+      placesFact(element.locations),
       h("dt", {}, s.yearIncluded),
       h("dd", {}, String(element.year_included)),
       h("dt", {}, s.domain),
@@ -612,9 +685,9 @@ function render() {
   const visible = sortItems(applyFilters(all, state, position), state.sort);
   const selectedItem = state.selected ? all.find((i) => i.entry.id === state.selected) : undefined;
   if (state.selected && !selectedItem && entries.length) state.selected = null;
-  const mapped = visible.flatMap((i) => (i.element ? [i.element] : []));
+  const mapped = visible.filter((i) => placesOf(i.entry).length).map(mapEntry);
 
-  mapView?.setElements(mapped);
+  mapView?.setEntries(mapped);
 
   const header = h(
     "header",
@@ -691,7 +764,7 @@ function render() {
       mapBox.replaceChildren(h("p", { class: "map-error" }, STRINGS[state.lang].mapUnavailable));
       render();
     });
-    mapView?.setElements(mapped);
+    mapView?.setEntries(mapped);
   } else {
     app.querySelector("header.top")!.replaceWith(header);
     shell.className = `shell pane-${state.pane}`;

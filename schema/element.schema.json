@@ -204,9 +204,11 @@
         },
         "precision": {
           "enum": [
+            "site",
             "commune",
             "department",
-            "region"
+            "region",
+            "approximate"
           ]
         },
         "insee": {

@@ -1,6 +1,6 @@
 // Pure derivations: inventory entries + curated elements -> filtered, sorted items.
 import { daysBetween, isMovableFeast, isOngoing, nextOccurrence, type Occurrence } from "./recurrence";
-import type { Element, InventoryEntry, Theme } from "./types";
+import type { Element, InventoryEntry, Location, Theme } from "./types";
 
 export type View = "inventory" | "agenda";
 export type Zone = "all" | "metro" | "overseas";
@@ -16,7 +16,7 @@ export interface Filters {
   q: string; // inventory search (the agenda view has no search box)
   themes: Theme[]; // empty = all
   month: number | null; // 1-12, agenda only
-  zone: Zone; // applies to mapped elements only
+  zone: Zone; // applies to located elements only
   radiusKm: number | null; // only applied when a position is known
 }
 
@@ -52,6 +52,9 @@ export function mergeEntries(inventory: InventoryEntry[], elements: Element[]): 
         themes: [e.theme],
         year_included: e.year_included,
         fiche_url: e.source.fiche_url,
+        locations: [],
+        location_sources: [],
+        image: null,
         element: e,
       });
     }
@@ -69,13 +72,19 @@ export function distanceKm(a: Position, b: Position): number {
   return 2 * 6371 * Math.asin(Math.min(1, Math.sqrt(h)));
 }
 
-export function isOverseas(element: Element): boolean {
-  return element.locations.some((l) => l.overseas);
+/** Places shown on the map: the documented element's places, else the located ones. */
+export function placesOf(entry: Entry): Location[] {
+  return entry.element?.locations.length ? entry.element.locations : entry.locations;
+}
+
+export function isOverseas(entry: Entry): boolean {
+  return placesOf(entry).some((l) => l.overseas);
 }
 
 export function annotate(entries: Entry[], today: string, position: Position | null): Item[] {
   return entries.map((entry) => {
     const element = entry.element;
+    const places = placesOf(entry);
     const next = element?.recurrence ? nextOccurrence(element.recurrence, today) : null;
     const ongoing = next ? isOngoing(next, today) : false;
     return {
@@ -86,7 +95,7 @@ export function annotate(entries: Entry[], today: string, position: Position | n
       daysUntil: next ? Math.max(0, daysBetween(today, next.start)) : null,
       movable: element?.recurrence ? isMovableFeast(element.recurrence) : false,
       distanceKm:
-        position && element ? Math.min(...element.locations.map((l) => distanceKm(position, l))) : null,
+        position && places.length ? Math.min(...places.map((l) => distanceKm(position, l))) : null,
     };
   });
 }
@@ -125,8 +134,8 @@ function matches(item: Item, f: Filters, position: Position | null, skip: Skip =
     if (!words.every((w) => hay.includes(w))) return false;
   }
   if (f.zone !== "all") {
-    if (!element) return false;
-    if ((f.zone === "overseas") !== isOverseas(element)) return false;
+    if (!placesOf(entry).length) return false;
+    if ((f.zone === "overseas") !== isOverseas(entry)) return false;
   }
   if (position && f.radiusKm !== null) {
     if (item.distanceKm === null || item.distanceKm > f.radiusKm) return false;

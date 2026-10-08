@@ -1,4 +1,5 @@
-// MapLibre map: clustered markers, shape = kind (circle event, diamond practice), colour = theme.
+// MapLibre map: clustered markers, shape = kind (circle event, diamond practice, ring not yet
+// documented), colour = theme.
 import type { FeatureCollection, Point } from "geojson";
 import {
   MapLibreMap,
@@ -15,7 +16,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 
 import { THEME_COLORS } from "./theme-colors";
-import { THEMES, type Element } from "./types";
+import { THEMES, type Location } from "./types";
 
 export const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 
@@ -52,7 +53,15 @@ setWorkerUrl(workerUrl);
 
 const reducedMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-function markerImage(shape: "circle" | "diamond", fill: string, size = 26): ImageData {
+/** One element as the map needs it; an element with several places gets one marker per place. */
+export interface MapEntry {
+  id: string;
+  title: string;
+  icon: string; // `${kind}-${theme}`, kind = event | practice | located
+  locations: Location[];
+}
+
+function markerImage(shape: "circle" | "diamond" | "ring", fill: string, size = 26): ImageData {
   const ratio = 2;
   const canvas = document.createElement("canvas");
   canvas.width = canvas.height = size * ratio;
@@ -61,6 +70,21 @@ function markerImage(shape: "circle" | "diamond", fill: string, size = 26): Imag
   const c = size / 2;
   const r = size / 2 - 3;
   ctx.beginPath();
+  if (shape === "ring") {
+    // Not documented yet: a smaller white disc with a thick theme-coloured ring.
+    ctx.arc(c, c, r - 4, 0, Math.PI * 2);
+    ctx.fillStyle = "#ffffff";
+    ctx.fill();
+    ctx.lineWidth = 4;
+    ctx.strokeStyle = fill;
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.arc(c, c, r - 1.5, 0, Math.PI * 2);
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = "#1b1b1f";
+    ctx.stroke();
+    return ctx.getImageData(0, 0, size * ratio, size * ratio);
+  }
   if (shape === "circle") {
     ctx.arc(c, c, r - 1, 0, Math.PI * 2);
   } else {
@@ -79,7 +103,7 @@ function markerImage(shape: "circle" | "diamond", fill: string, size = 26): Imag
 }
 
 export interface MapView {
-  setElements(elements: Element[]): void;
+  setEntries(entries: MapEntry[]): void;
   select(id: string | null, fly: boolean): void;
   fit(bounds: Bounds): void;
   resize(): void;
@@ -108,23 +132,20 @@ export function createMap(
   if (import.meta.env.DEV) (window as unknown as { __map: MapLibreMap }).__map = map;
   map.addControl(new NavigationControl({ showCompass: false }), "top-right");
 
-  let pending: Element[] = [];
+  let pending: MapEntry[] = [];
   let selected: string | null = null;
   let flyOnLoad = false;
   let ready = false;
-  let byId = new Map<string, Element>();
+  let byId = new Map<string, MapEntry>();
 
-  const toGeoJSON = (elements: Element[]): FeatureCollection => ({
+  const toGeoJSON = (entries: MapEntry[]): FeatureCollection => ({
     type: "FeatureCollection",
-    features: elements.flatMap((element) =>
-      element.locations.map((loc) => ({
+    features: entries.flatMap((entry) =>
+      entry.locations.map((loc) => ({
         type: "Feature" as const,
         geometry: { type: "Point" as const, coordinates: [loc.lon, loc.lat] },
-        properties: {
-          id: element.id,
-          icon: `${element.kind}-${element.theme}`,
-          title: element.title_fr,
-        },
+        // Documented elements draw above the located-only ones.
+        properties: { id: entry.id, icon: entry.icon, title: entry.title, rank: entry.icon.startsWith("located") ? 0 : 1 },
       })),
     ),
   });
@@ -138,6 +159,7 @@ export function createMap(
     for (const theme of THEMES) {
       map.addImage(`event-${theme}`, markerImage("circle", THEME_COLORS[theme]), { pixelRatio: 2 });
       map.addImage(`practice-${theme}`, markerImage("diamond", THEME_COLORS[theme]), { pixelRatio: 2 });
+      map.addImage(`located-${theme}`, markerImage("ring", THEME_COLORS[theme], 22), { pixelRatio: 2 });
     }
     map.addSource("elements", {
       type: "geojson",
@@ -190,6 +212,7 @@ export function createMap(
       filter: ["!", ["has", "point_count"]],
       layout: {
         "icon-image": ["get", "icon"],
+        "symbol-sort-key": ["get", "rank"],
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
       },
@@ -220,10 +243,10 @@ export function createMap(
   }
 
   const view: MapView = {
-    setElements(elements) {
-      pending = elements;
-      byId = new Map(elements.map((e) => [e.id, e]));
-      if (ready) (map.getSource("elements") as GeoJSONSource).setData(toGeoJSON(elements));
+    setEntries(entries) {
+      pending = entries;
+      byId = new Map(entries.map((e) => [e.id, e]));
+      if (ready) (map.getSource("elements") as GeoJSONSource).setData(toGeoJSON(entries));
     },
     select(id, fly) {
       selected = id;
@@ -232,9 +255,9 @@ export function createMap(
         return;
       }
       map.setFilter("selected-halo", ["all", ["!", ["has", "point_count"]], ["==", ["get", "id"], id ?? ""]]);
-      const element = id ? byId.get(id) : undefined;
-      if (!element || !fly) return;
-      const locs = element.locations;
+      const entry = id ? byId.get(id) : undefined;
+      if (!entry || !fly) return;
+      const locs = entry.locations;
       if (locs.length === 1) {
         map.easeTo({
           center: [locs[0].lon, locs[0].lat],

@@ -15,7 +15,7 @@ export interface Location {
   label: string;
   lat: number;
   lon: number;
-  precision: "commune" | "department" | "region";
+  precision: "site" | "commune" | "department" | "region" | "approximate";
   insee?: string;
   overseas?: boolean;
 }
@@ -50,6 +50,23 @@ export interface Element {
   review_status: "unreviewed" | "reviewed";
 }
 
+/** Where the places of a not-yet-documented element come from. */
+export interface LocationSource {
+  kind: "pcilab" | "web";
+  url: string;
+  publisher: string;
+}
+
+export interface Picture {
+  src: string; // image URL (Wikimedia Commons thumbnail or PCI Lab fiche image)
+  page: string; // where the image is described and credited
+  source: "commons" | "pcilab";
+  credit: string; // author as credited on Commons, or the publisher for fiche images
+  licence: string | null; // e.g. "CC BY-SA 4.0"; null when the fiche states none
+  licence_url: string | null;
+  alt: string;
+}
+
 /** Any element of the national inventory, as listed on culture.gouv.fr. */
 export interface InventoryEntry {
   id: string;
@@ -57,4 +74,7 @@ export interface InventoryEntry {
   themes: Theme[];
   year_included: number;
   fiche_url: string | null;
+  locations: Location[]; // empty when no place could be established
+  location_sources: LocationSource[]; // empty for documented elements (see Element)
+  image: Picture | null;
 }
