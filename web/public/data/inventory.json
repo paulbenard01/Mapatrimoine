@@ -495,11 +495,11 @@
 }
 ],
 "image": {
-"src": "https://www.pci-lab.fr/images/fiches/111_torrele-capbreton/111_torrele-capbreton-bandeau.jpg",
-"page": "https://www.pci-lab.fr/fiche-d-inventaire/fiche/40",
-"source": "pcilab",
-"credit": "Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab",
-"licence": null,
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/La_Tor%C3%A8le_%28Capbreton%2C_2022%29_1.jpg/960px-La_Tor%C3%A8le_%28Capbreton%2C_2022%29_1.jpg",
+"page": "https://commons.wikimedia.org/wiki/La_Tor%C3%A8le_%28Capbreton%2C_2022%29_1.jpg",
+"source": "commons",
+"credit": "Tangopaso",
+"licence": "Public domain",
 "licence_url": null,
 "alt": "La torrèle de Capbreton (Landes) / La torrèla de Cap Berton"
 }
@@ -696,12 +696,12 @@
 }
 ],
 "image": {
-"src": "https://www.pci-lab.fr/images/fiches/314_biou-arbois/314_biou-arbois-bandeau.jpg",
-"page": "https://www.pci-lab.fr/fiche-d-inventaire/fiche/65",
-"source": "pcilab",
-"credit": "Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab",
-"licence": null,
-"licence_url": null,
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/.Vitrail_du_Biou.jpg/960px-.Vitrail_du_Biou.jpg",
+"page": "https://commons.wikimedia.org/wiki/.Vitrail_du_Biou.jpg",
+"source": "commons",
+"credit": "Espirat",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
 "alt": "Le biou d'Arbois (Jura)"
 }
 },
@@ -736,12 +736,12 @@
 "locations": [],
 "location_sources": [],
 "image": {
-"src": "https://www.pci-lab.fr/images/fiches/345_carnaval-manthelan/345_carnaval-manthelan-bandeau.jpg",
-"page": "https://www.pci-lab.fr/fiche-d-inventaire/fiche/45",
-"source": "pcilab",
-"credit": "Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab",
-"licence": null,
-"licence_url": null,
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Carnaval_de_Manthelan_%2837%29_a.jpg/960px-Carnaval_de_Manthelan_%2837%29_a.jpg",
+"page": "https://commons.wikimedia.org/wiki/Carnaval_de_Manthelan_%2837%29_a.jpg",
+"source": "commons",
+"credit": "A.chev37",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
 "alt": "Le carnaval de Manthelan (Indre-et-Loire)"
 }
 },
@@ -1736,7 +1736,15 @@
 "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Noel-en-Provence",
 "locations": [],
 "location_sources": [],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/13_desserts_-_Tradition_de_No%C3%ABl_en_Provence.png/960px-13_desserts_-_Tradition_de_No%C3%ABl_en_Provence.png",
+"page": "https://commons.wikimedia.org/wiki/13_desserts_-_Tradition_de_No%C3%ABl_en_Provence.png",
+"source": "commons",
+"credit": "Fabuleuse Planète",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "Les fêtes de Noël en Provence"
+}
 },
 {
 "id": "2018_67717_INV_PCI_FRANCE_00421",
@@ -1749,12 +1757,12 @@
 "locations": [],
 "location_sources": [],
 "image": {
-"src": "https://www.pci-lab.fr/images/fiches/421_carnaval-nice/421_carnaval-nice-bandeau.jpg",
-"page": "https://www.pci-lab.fr/fiche-d-inventaire/fiche/436",
-"source": "pcilab",
-"credit": "Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab",
-"licence": null,
-"licence_url": null,
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/D%C3%A9fil%C3%A9_nocturne_du_char_du_Roi_au_carnaval_de_Nice_2023.jpg/960px-D%C3%A9fil%C3%A9_nocturne_du_char_du_Roi_au_carnaval_de_Nice_2023.jpg",
+"page": "https://commons.wikimedia.org/wiki/D%C3%A9fil%C3%A9_nocturne_du_char_du_Roi_au_carnaval_de_Nice_2023.jpg",
+"source": "commons",
+"credit": "Tmilaret",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
 "alt": "Les savoir-faire artisanaux associés au carnaval de Nice (Alpes-Maritimes)"
 }
 },
@@ -1820,7 +1828,15 @@
 "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Tarasque",
 "locations": [],
 "location_sources": [],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tarasque_in_Tarascon_01.jpg/960px-Tarasque_in_Tarascon_01.jpg",
+"page": "https://commons.wikimedia.org/wiki/Tarasque_in_Tarascon_01.jpg",
+"source": "commons",
+"credit": "Olivier",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "Les fêtes de la Tarasque (Bouches-du-Rhône)"
+}
 },
 {
 "id": "2019_67717_INV_PCI_FRANCE_00429",
@@ -2877,12 +2893,12 @@
 "locations": [],
 "location_sources": [],
 "image": {
-"src": "https://www.pci-lab.fr/images/fiches/523_procession-sanch/523_procession-sanch-bandeau2.jpg",
-"page": "https://www.pci-lab.fr/fiche-d-inventaire/fiche/527",
-"source": "pcilab",
-"credit": "Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab",
-"licence": null,
-"licence_url": null,
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sanch_perpignan_2007_%2818%29.jpg/960px-Sanch_perpignan_2007_%2818%29.jpg",
+"page": "https://commons.wikimedia.org/wiki/Sanch_perpignan_2007_%2818%29.jpg",
+"source": "commons",
+"credit": "Sylenius",
+"licence": "GFDL",
+"licence_url": "http://www.gnu.org/copyleft/fdl.html",
 "alt": "La Sanch, processions des penitents du Vendredi saint en Roussillon (Pyrénées-Orientales)"
 }
 },
@@ -3416,7 +3432,15 @@
 "url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-musiques-electroniques-francaises"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2002_September_14%2C_Paris_techno_parade_23.jpg/960px-2002_September_14%2C_Paris_techno_parade_23.jpg",
+"page": "https://commons.wikimedia.org/wiki/2002_September_14%2C_Paris_techno_parade_23.jpg",
+"source": "commons",
+"credit": "Syced",
+"licence": "CC0",
+"licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+"alt": "Les musiques électroniques françaises"
+}
 },
 {
 "id": "2026_67717_INV_PCI_FRANCE_00564",
@@ -3808,7 +3832,15 @@
 "publisher": "PCI Lab (ministère de la Culture, CIRDOC)"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Lifou%2C_Drehu_Village%2C_Nouvelle_Cal%C3%A9donie.jpg/960px-Lifou%2C_Drehu_Village%2C_Nouvelle_Cal%C3%A9donie.jpg",
+"page": "https://commons.wikimedia.org/wiki/Lifou%2C_Drehu_Village%2C_Nouvelle_Cal%C3%A9donie.jpg",
+"source": "commons",
+"credit": "Sorelia87",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "L’Anethem, chant polyphonique des Îles de la Loyauté (Nouvelle-Calédonie)"
+}
 },
 {
 "id": "2022_67717_INV_PCI_FRANCE_00516",
@@ -3854,7 +3886,15 @@
 "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-jeux-floraux-de-toulouse-et-leur-fete-des-fleurs",
 "locations": [],
 "location_sources": [],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Jeux_Floraux_fleurs_1.jpg/960px-Jeux_Floraux_fleurs_1.jpg",
+"page": "https://commons.wikimedia.org/wiki/Jeux_Floraux_fleurs_1.jpg",
+"source": "commons",
+"credit": "Frédéric Neupont",
+"licence": "CC BY 4.0",
+"licence_url": "https://creativecommons.org/licenses/by/4.0",
+"alt": "Les jeux floraux de Toulouse et leur fête des fleurs"
+}
 },
 {
 "id": "2024_67717_INV_PCI_FRANCE_00542",
@@ -4347,7 +4387,15 @@
 "publisher": "PCI Lab (ministère de la Culture, CIRDOC)"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Collections_du_Mus%C3%A9e_Alpin_de_Chamonix-Mont-Blanc._Piolet-Werk_Fulpmes-Alpinisme_-_btv1b109505943.jpg/960px-Collections_du_Mus%C3%A9e_Alpin_de_Chamonix-Mont-Blanc._Piolet-Werk_Fulpmes-Alpinisme_-_btv1b109505943.jpg",
+"page": "https://commons.wikimedia.org/wiki/Collections_du_Mus%C3%A9e_Alpin_de_Chamonix-Mont-Blanc._Piolet-Werk_Fulpmes-Alpinisme_-_btv1b109505943.jpg",
+"source": "commons",
+"credit": "Musée alpin de Chamonix-Mont-Blanc (BnF, Gallica)",
+"licence": "Public domain",
+"licence_url": "//commons.wikimedia.org/wiki/File:Collections_du_Mus%C3%A9e_Alpin_de_Chamonix-Mont-Blanc._Piolet-Werk_Fulpmes-Alpinisme_-_btv1b109505943.jpg",
+"alt": "L'alpinisme"
+}
 },
 {
 "id": "2012_67717_INV_PCI_FRANCE_00271",
@@ -4781,12 +4829,12 @@
 }
 ],
 "image": {
-"src": "https://www.pci-lab.fr/images/fiches/276_joutes-parisiennes/276_joutes-parisiennes-bandeau.jpg",
-"page": "https://www.pci-lab.fr/fiche-d-inventaire/fiche/329",
-"source": "pcilab",
-"credit": "Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab",
-"licence": null,
-"licence_url": null,
+"src": "https://upload.wikimedia.org/wikipedia/commons/7/71/Accolay%2C_les_joutes_nautiques.jpg",
+"page": "https://commons.wikimedia.org/wiki/Accolay%2C_les_joutes_nautiques.jpg",
+"source": "commons",
+"credit": "Commune d'Accolay",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
 "alt": "Les joutes nautiques : méthodes parisienne, accoloise et clamecycoise"
 }
 },
@@ -5096,7 +5144,15 @@
 "url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/pratique-de-la-navigation-a-voile-carree-sur-la-loire"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Barque_sur_Loire.jpg/960px-Barque_sur_Loire.jpg",
+"page": "https://commons.wikimedia.org/wiki/Barque_sur_Loire.jpg",
+"source": "commons",
+"credit": "Michelet-密是力",
+"licence": "Public domain",
+"licence_url": null,
+"alt": "Pratique de la navigation à voile carrée sur la Loire et les rivières affluentes"
+}
 },
 {
 "id": "2009_67717_INV_PCI_FRANCE_00040",
@@ -5149,7 +5205,15 @@
 "publisher": "PCI Lab (ministère de la Culture, CIRDOC)"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Fest_Noz_%2853121177210%29.jpg/960px-Fest_Noz_%2853121177210%29.jpg",
+"page": "https://commons.wikimedia.org/wiki/Fest_Noz_%2853121177210%29.jpg",
+"source": "commons",
+"credit": "Avel-Breizh",
+"licence": "CC BY-SA 2.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+"alt": "Les chants et complaintes de Bretagne"
+}
 },
 {
 "id": "2013_67717_INV_PCI_FRANCE_00310",
@@ -5632,12 +5696,12 @@
 }
 ],
 "image": {
-"src": "https://www.pci-lab.fr/images/fiches/315_boha/315_boha-bandeau.jpg",
-"page": "https://www.pci-lab.fr/fiche-d-inventaire/fiche/16",
-"source": "pcilab",
-"credit": "Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab",
-"licence": null,
-"licence_url": null,
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Boha.jpg/960px-Boha.jpg",
+"page": "https://commons.wikimedia.org/wiki/Boha.jpg",
+"source": "commons",
+"credit": "Totor64 at French Wikipedia",
+"licence": "CC BY-SA 2.5",
+"licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
 "alt": "La pratique de la cornemuse de Gascogne / Boha"
 }
 },
@@ -6592,7 +6656,15 @@
 "publisher": "PCI Lab (ministère de la Culture, CIRDOC)"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Danse_Heiva_2014-3424.jpg/960px-Danse_Heiva_2014-3424.jpg",
+"page": "https://commons.wikimedia.org/wiki/Danse_Heiva_2014-3424.jpg",
+"source": "commons",
+"credit": "Anne-Laure Lépine",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "Le 'Ori, pratique artistique, sociale et culturelle de Tahiti et des îles de la Société"
+}
 },
 {
 "id": "2017_67717_INV_PCI_FRANCE_00388",
@@ -6627,7 +6699,15 @@
 "publisher": "PCI Lab (ministère de la Culture, CIRDOC)"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Guyane_Fran%C3%A7aise._Bonnis%2C_canotiers_ravitalleurs_des_chercheurs_d%27or.jpg/960px-Guyane_Fran%C3%A7aise._Bonnis%2C_canotiers_ravitalleurs_des_chercheurs_d%27or.jpg",
+"page": "https://commons.wikimedia.org/wiki/Guyane_Fran%C3%A7aise._Bonnis%2C_canotiers_ravitalleurs_des_chercheurs_d%27or.jpg",
+"source": "commons",
+"credit": "Unknown author",
+"licence": "Public domain",
+"licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+"alt": "Les traditions aluku de musiques dansées et de parler en musique"
+}
 },
 {
 "id": "2017_67717_INV_PCI_FRANCE_00396",
@@ -6925,7 +7005,15 @@
 "publisher": "PCI Lab (ministère de la Culture, CIRDOC)"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/R%C3%A9union_S%C3%A9ga_band_in_the_square_of_Saint-Pierre.JPG/960px-R%C3%A9union_S%C3%A9ga_band_in_the_square_of_Saint-Pierre.JPG",
+"page": "https://commons.wikimedia.org/wiki/R%C3%A9union_S%C3%A9ga_band_in_the_square_of_Saint-Pierre.JPG",
+"source": "commons",
+"credit": "B.navez",
+"licence": "GFDL",
+"licence_url": "http://www.gnu.org/copyleft/fdl.html",
+"alt": "Le séga de l’île de la Réunion"
+}
 },
 {
 "id": "2020_67717_INV_PCI_FRANCE_00480",
@@ -11469,7 +11557,15 @@
 "url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-bezette-en-Normandie"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Jeu_de_B%C3%A9zette.JPG",
+"page": "https://commons.wikimedia.org/wiki/Jeu_de_B%C3%A9zette.JPG",
+"source": "commons",
+"credit": "Moutte84",
+"licence": "GFDL",
+"licence_url": "http://www.gnu.org/copyleft/fdl.html",
+"alt": "Le jeu de la bézette en Normandie"
+}
 },
 {
 "id": "2011_67717_INV_PCI_FRANCE_00147",
@@ -13543,7 +13639,15 @@
 "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-junte-de-Roncal",
 "locations": [],
 "location_sources": [],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Signature_de_la_Junte_de_roncal_entre_la_vall%C3%A9e_de_Bar%C3%A9tous_en_France_et_celle_de_Roncal_en_Navarre.jpg/960px-Signature_de_la_Junte_de_roncal_entre_la_vall%C3%A9e_de_Bar%C3%A9tous_en_France_et_celle_de_Roncal_en_Navarre.jpg",
+"page": "https://commons.wikimedia.org/wiki/Signature_de_la_Junte_de_roncal_entre_la_vall%C3%A9e_de_Bar%C3%A9tous_en_France_et_celle_de_Roncal_en_Navarre.jpg",
+"source": "commons",
+"credit": "Imanol Amestoy",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "La junte de Roncal à La Pierre-Saint-Martin (Arette, Pyrénées-Atlantiques) / Tributo de las Tres Vacas"
+}
 },
 {
 "id": "2014_67717_INV_PCI_FRANCE_00329",
@@ -13859,7 +13963,15 @@
 "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-procession-mariale-de-notre-dame-de-lourdes-hautes-pyrenees",
 "locations": [],
 "location_sources": [],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Soir_de_p%C3%A8lerinage_%C3%A0_Lourdes_01.jpg/960px-Soir_de_p%C3%A8lerinage_%C3%A0_Lourdes_01.jpg",
+"page": "https://commons.wikimedia.org/wiki/Soir_de_p%C3%A8lerinage_%C3%A0_Lourdes_01.jpg",
+"source": "commons",
+"credit": "Celeda",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "La procession mariale de Notre-Dame de Lourdes (Hautes-Pyrénées)"
+}
 },
 {
 "id": "2008_67717_INV_PCI_FRANCE_00011",
@@ -14042,7 +14154,15 @@
 "publisher": "PCI Lab (ministère de la Culture, CIRDOC)"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Dentelles_du_Puy-en-Velay.jpg/960px-Dentelles_du_Puy-en-Velay.jpg",
+"page": "https://commons.wikimedia.org/wiki/Dentelles_du_Puy-en-Velay.jpg",
+"source": "commons",
+"credit": "Unknown author (1908)",
+"licence": "Public domain",
+"licence_url": null,
+"alt": "La dentelle au fuseau du Puy-en-Velay (Haute-Loire)"
+}
 },
 {
 "id": "2010_67717_INV_PCI_FRANCE_00102",
@@ -14139,7 +14259,15 @@
 "publisher": "PCI Lab (ministère de la Culture, CIRDOC)"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Gants_Agnelle.jpg/960px-Gants_Agnelle.jpg",
+"page": "https://commons.wikimedia.org/wiki/Gants_Agnelle.jpg",
+"source": "commons",
+"credit": "Lucas Destrem",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "La ganterie de peau à Saint-Junien (Haute-Vienne)"
+}
 },
 {
 "id": "2008_67717_INV_PCI_FRANCE_00014",
@@ -14680,7 +14808,15 @@
 "publisher": "PCI Lab (ministère de la Culture, CIRDOC)"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Coffret_%C3%A9mail_de_limoges_03430.jpg/960px-Coffret_%C3%A9mail_de_limoges_03430.jpg",
+"page": "https://commons.wikimedia.org/wiki/Coffret_%C3%A9mail_de_limoges_03430.jpg",
+"source": "commons",
+"credit": "G.Garitan",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "L'émaillerie de Limoges (Haute-Vienne)"
+}
 },
 {
 "id": "2009_67717_INV_PCI_FRANCE_00059",
@@ -16701,7 +16837,15 @@
 "url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-des-xare"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Xare_Irura_01.jpg/960px-Xare_Irura_01.jpg",
+"page": "https://commons.wikimedia.org/wiki/Xare_Irura_01.jpg",
+"source": "commons",
+"credit": "Imanol Garcia Landa / Ataria.eus",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "La fabrication du xare"
+}
 },
 {
 "id": "2014_67717_INV_PCI_FRANCE_00052",
@@ -17581,7 +17725,15 @@
 "url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-savoir-faire-artisanaux-et-la-culture-de-la-baguette-de-pain"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Baguette_de_pain_en_corbeille.jpg/960px-Baguette_de_pain_en_corbeille.jpg",
+"page": "https://commons.wikimedia.org/wiki/Baguette_de_pain_en_corbeille.jpg",
+"source": "commons",
+"credit": "Marianne Casamance",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "Les savoir-faire artisanaux et la culture de la baguette de pain"
+}
 },
 {
 "id": "2018_67717_INV_PCI_FRANCE_00415",
@@ -19825,7 +19977,15 @@
 "url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoirs-et-savoir-faire-de-la-futaie-reguliere-de-chene"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Ch%C3%AAne_de_Pirot_%C3%A0_la_lumi%C3%A8re_du_soir_en_For%C3%AAt_de_Tron%C3%A7ais_%2803%29.jpg/960px-Ch%C3%AAne_de_Pirot_%C3%A0_la_lumi%C3%A8re_du_soir_en_For%C3%AAt_de_Tron%C3%A7ais_%2803%29.jpg",
+"page": "https://commons.wikimedia.org/wiki/Ch%C3%AAne_de_Pirot_%C3%A0_la_lumi%C3%A8re_du_soir_en_For%C3%AAt_de_Tron%C3%A7ais_%2803%29.jpg",
+"source": "commons",
+"credit": "Clame Reporter",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "Les savoirs et savoir-faire de la futaie régulière de chêne"
+}
 },
 {
 "id": "2022_67717_INV_PCI_FRANCE_00513",
@@ -20100,7 +20260,15 @@
 "publisher": "PCI Lab (ministère de la Culture, CIRDOC)"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Saint-Pierre-et-Miquelon_Le_doris.jpg/960px-Saint-Pierre-et-Miquelon_Le_doris.jpg",
+"page": "https://commons.wikimedia.org/wiki/Saint-Pierre-et-Miquelon_Le_doris.jpg",
+"source": "commons",
+"credit": "Marie975",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "La construction navale vernaculaire en bois, l'art de la charpenterie de marine : Le doris de Saint-Pierre-et-Miquelon"
+}
 },
 {
 "id": "2024_67717_INV_PCI_FRANCE_00536",
@@ -20552,7 +20720,15 @@
 "url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-connaissances-et-pratiques-lies-aux-papiers-faits-main-en-france"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Moulin_Richard_de_Bas%2C_trocknendes_Papier.JPG/960px-Moulin_Richard_de_Bas%2C_trocknendes_Papier.JPG",
+"page": "https://commons.wikimedia.org/wiki/Moulin_Richard_de_Bas%2C_trocknendes_Papier.JPG",
+"source": "commons",
+"credit": "Pechristener",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "Les savoir-faire, connaissances et pratiques liés aux papiers faits-main en France"
+}
 },
 {
 "id": "2025_67717_INV_PCI_FRANCE_00551",
@@ -20730,7 +20906,15 @@
 "url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-haute-couture"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Zuhair_Murad_Spring_Summer_2018_Haute_Couture.jpg/960px-Zuhair_Murad_Spring_Summer_2018_Haute_Couture.jpg",
+"page": "https://commons.wikimedia.org/wiki/Zuhair_Murad_Spring_Summer_2018_Haute_Couture.jpg",
+"source": "commons",
+"credit": "New York Fashion TV",
+"licence": "CC BY 3.0",
+"licence_url": "https://creativecommons.org/licenses/by/3.0",
+"alt": "La haute couture"
+}
 },
 {
 "id": "2025_67717_INV_PCI_FRANCE_00559",
@@ -20757,7 +20941,15 @@
 "url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-jours-ou-broderie-de-cilaos"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Broderie_de_Cilaos.JPG/960px-Broderie_de_Cilaos.JPG",
+"page": "https://commons.wikimedia.org/wiki/Broderie_de_Cilaos.JPG",
+"source": "commons",
+"credit": "Véronique PAGNIER",
+"licence": "Public domain",
+"licence_url": null,
+"alt": "Les jours ou broderie de Cilaos"
+}
 },
 {
 "id": "2026_67717_INV_PCI_FRANCE_00561",
@@ -20818,7 +21010,15 @@
 "url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-de-la-construction-en-terre-crue-en-france"
 }
 ],
-"image": null
+"image": {
+"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Maison_en_pis%C3%A9_de_Lentilly.jpg/960px-Maison_en_pis%C3%A9_de_Lentilly.jpg",
+"page": "https://commons.wikimedia.org/wiki/Maison_en_pis%C3%A9_de_Lentilly.jpg",
+"source": "commons",
+"credit": "CHABERT Louis",
+"licence": "CC BY-SA 4.0",
+"licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+"alt": "Les savoir-faire de la construction en terre crue en France"
+}
 },
 {
 "id": "2026_67717_INV_PCI_FRANCE_00562",

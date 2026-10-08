@@ -81,6 +81,13 @@
   src: https://www.pci-lab.fr/images/fiches/018_filature-textile/018_filature-textile-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/204
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2008_67717_INV_PCI_FRANCE_00019:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Dentelles_du_Puy-en-Velay.jpg/960px-Dentelles_du_Puy-en-Velay.jpg
+  page: https://commons.wikimedia.org/wiki/Dentelles_du_Puy-en-Velay.jpg
+  credit: Unknown author (1908)
+  licence: Public domain
+  licence_url: null
 2008_67717_INV_PCI_FRANCE_00022:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/022_peinture-porcelaine/022_peinture-porcelaine-bandeau.jpg
@@ -103,6 +110,13 @@
   credit: Roman.b
   licence: FAL
   licence_url: http://artlibre.org/licence/lal/en
+2008_67717_INV_PCI_FRANCE_00028:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Coffret_%C3%A9mail_de_limoges_03430.jpg/960px-Coffret_%C3%A9mail_de_limoges_03430.jpg
+  page: https://commons.wikimedia.org/wiki/Coffret_%C3%A9mail_de_limoges_03430.jpg
+  credit: G.Garitan
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2008_67717_INV_PCI_FRANCE_00030:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/030_tournage-bois/030_tournage-bois-bandeau.jpg
@@ -113,6 +127,13 @@
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Evellin_Orf%C3%A8vre_-_Brunissage_au_tour_-_travail_au_brunisseur_en_h%C3%A9matite.jpg/960px-Evellin_Orf%C3%A8vre_-_Brunissage_au_tour_-_travail_au_brunisseur_en_h%C3%A9matite.jpg
   page: https://commons.wikimedia.org/wiki/Evellin_Orf%C3%A8vre_-_Brunissage_au_tour_-_travail_au_brunisseur_en_h%C3%A9matite.jpg
   credit: Trizek
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
+2008_67717_INV_PCI_FRANCE_00033:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Gants_Agnelle.jpg/960px-Gants_Agnelle.jpg
+  page: https://commons.wikimedia.org/wiki/Gants_Agnelle.jpg
+  credit: Lucas Destrem
   licence: CC BY-SA 4.0
   licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2008_67717_INV_PCI_FRANCE_00034:
@@ -514,10 +535,12 @@
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/52
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
 2010_67717_INV_PCI_FRANCE_00111:
-  source: pcilab
-  src: https://www.pci-lab.fr/images/fiches/111_torrele-capbreton/111_torrele-capbreton-bandeau.jpg
-  page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/40
-  credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/La_Tor%C3%A8le_%28Capbreton%2C_2022%29_1.jpg/960px-La_Tor%C3%A8le_%28Capbreton%2C_2022%29_1.jpg
+  page: https://commons.wikimedia.org/wiki/La_Tor%C3%A8le_%28Capbreton%2C_2022%29_1.jpg
+  credit: Tangopaso
+  licence: Public domain
+  licence_url: null
 2010_67717_INV_PCI_FRANCE_00112:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cant%C3%A8ra_a_Lag%C3%B2r_-_La_Passem_2018_%2801%29.jpg/960px-Cant%C3%A8ra_a_Lag%C3%B2r_-_La_Passem_2018_%2801%29.jpg
@@ -1240,6 +1263,13 @@
   src: https://www.pci-lab.fr/images/fiches/258_balle-main/258_balle-main-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/307
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2012_67717_INV_PCI_FRANCE_00259:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/5/5b/Jeu_de_B%C3%A9zette.JPG
+  page: https://commons.wikimedia.org/wiki/Jeu_de_B%C3%A9zette.JPG
+  credit: Moutte84
+  licence: GFDL
+  licence_url: http://www.gnu.org/copyleft/fdl.html
 2012_67717_INV_PCI_FRANCE_00262:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/262_crosse/262_crosse-bandeau.jpg
@@ -1321,10 +1351,12 @@
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/328
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
 2012_67717_INV_PCI_FRANCE_00276:
-  source: pcilab
-  src: https://www.pci-lab.fr/images/fiches/276_joutes-parisiennes/276_joutes-parisiennes-bandeau.jpg
-  page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/329
-  credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/7/71/Accolay%2C_les_joutes_nautiques.jpg
+  page: https://commons.wikimedia.org/wiki/Accolay%2C_les_joutes_nautiques.jpg
+  credit: Commune d'Accolay
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2012_67717_INV_PCI_FRANCE_00277:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/277_jeu-borde/277_jeu-borde-bandeau2.jpg
@@ -1441,6 +1473,13 @@
   src: https://www.pci-lab.fr/images/fiches/300_fabrication-palas/300_fabrication-palas-bandeau2.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/351
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2013_67717_INV_PCI_FRANCE_00301:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Xare_Irura_01.jpg/960px-Xare_Irura_01.jpg
+  page: https://commons.wikimedia.org/wiki/Xare_Irura_01.jpg
+  credit: Imanol Garcia Landa / Ataria.eus
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2013_67717_INV_PCI_FRANCE_00303:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/303_fabrication_bombarde/303_fabrication_bombarde-bandeau.jpg
@@ -1497,15 +1536,19 @@
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/99
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
 2013_67717_INV_PCI_FRANCE_00314:
-  source: pcilab
-  src: https://www.pci-lab.fr/images/fiches/314_biou-arbois/314_biou-arbois-bandeau.jpg
-  page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/65
-  credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/.Vitrail_du_Biou.jpg/960px-.Vitrail_du_Biou.jpg
+  page: https://commons.wikimedia.org/wiki/.Vitrail_du_Biou.jpg
+  credit: Espirat
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2013_67717_INV_PCI_FRANCE_00315:
-  source: pcilab
-  src: https://www.pci-lab.fr/images/fiches/315_boha/315_boha-bandeau.jpg
-  page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/16
-  credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Boha.jpg/960px-Boha.jpg
+  page: https://commons.wikimedia.org/wiki/Boha.jpg
+  credit: Totor64 at French Wikipedia
+  licence: CC BY-SA 2.5
+  licence_url: https://creativecommons.org/licenses/by-sa/2.5
 2013_67717_INV_PCI_FRANCE_00316:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/316_pecherie-manche/316_pecherie-manche-bandeau.jpg
@@ -1589,6 +1632,13 @@
   credit: Pantxoa
   licence: CC BY-SA 4.0
   licence_url: https://creativecommons.org/licenses/by-sa/4.0
+2014_67717_INV_PCI_FRANCE_00331:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Signature_de_la_Junte_de_roncal_entre_la_vall%C3%A9e_de_Bar%C3%A9tous_en_France_et_celle_de_Roncal_en_Navarre.jpg/960px-Signature_de_la_Junte_de_roncal_entre_la_vall%C3%A9e_de_Bar%C3%A9tous_en_France_et_celle_de_Roncal_en_Navarre.jpg
+  page: https://commons.wikimedia.org/wiki/Signature_de_la_Junte_de_roncal_entre_la_vall%C3%A9e_de_Bar%C3%A9tous_en_France_et_celle_de_Roncal_en_Navarre.jpg
+  credit: Imanol Amestoy
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2014_67717_INV_PCI_FRANCE_00332:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/332_costume-ossalois/332_costume-ossalois-bandeau.jpg
@@ -1616,6 +1666,13 @@
   credit: Kergourlay
   licence: CC BY-SA 4.0
   licence_url: https://creativecommons.org/licenses/by-sa/4.0
+2014_67717_INV_PCI_FRANCE_00339:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Fest_Noz_%2853121177210%29.jpg/960px-Fest_Noz_%2853121177210%29.jpg
+  page: https://commons.wikimedia.org/wiki/Fest_Noz_%2853121177210%29.jpg
+  credit: Avel-Breizh
+  licence: CC BY-SA 2.0
+  licence_url: https://creativecommons.org/licenses/by-sa/2.0
 2014_67717_INV_PCI_FRANCE_00340:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fest-noz_festival_Interceltique_de_Lorient_2026_01.jpg/960px-Fest-noz_festival_Interceltique_de_Lorient_2026_01.jpg
@@ -1646,10 +1703,12 @@
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/243
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
 2014_67717_INV_PCI_FRANCE_00345:
-  source: pcilab
-  src: https://www.pci-lab.fr/images/fiches/345_carnaval-manthelan/345_carnaval-manthelan-bandeau.jpg
-  page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/45
-  credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Carnaval_de_Manthelan_%2837%29_a.jpg/960px-Carnaval_de_Manthelan_%2837%29_a.jpg
+  page: https://commons.wikimedia.org/wiki/Carnaval_de_Manthelan_%2837%29_a.jpg
+  credit: A.chev37
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2014_67717_INV_PCI_FRANCE_00346:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/346_encheres-renac/346_encheres-renac-bandeau.jpg
@@ -1726,6 +1785,13 @@
   src: https://www.pci-lab.fr/images/fiches/359_carnaval-kabwet/359_carnaval-kabwet-bandeau2.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/64
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2015_67717_INV_PCI_FRANCE_00360:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Collections_du_Mus%C3%A9e_Alpin_de_Chamonix-Mont-Blanc._Piolet-Werk_Fulpmes-Alpinisme_-_btv1b109505943.jpg/960px-Collections_du_Mus%C3%A9e_Alpin_de_Chamonix-Mont-Blanc._Piolet-Werk_Fulpmes-Alpinisme_-_btv1b109505943.jpg
+  page: https://commons.wikimedia.org/wiki/Collections_du_Mus%C3%A9e_Alpin_de_Chamonix-Mont-Blanc._Piolet-Werk_Fulpmes-Alpinisme_-_btv1b109505943.jpg
+  credit: Musée alpin de Chamonix-Mont-Blanc (BnF, Gallica)
+  licence: Public domain
+  licence_url: //commons.wikimedia.org/wiki/File:Collections_du_Mus%C3%A9e_Alpin_de_Chamonix-Mont-Blanc._Piolet-Werk_Fulpmes-Alpinisme_-_btv1b109505943.jpg
 2015_67717_INV_PCI_FRANCE_00361:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Amiens_Bouquet_provincial_1911.jpg/960px-Amiens_Bouquet_provincial_1911.jpg
@@ -1846,6 +1912,20 @@
   src: https://www.pci-lab.fr/images/fiches/385_fondation-notre-dame/385_fondation-notre-dame-bandeau2.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/462
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2017_67717_INV_PCI_FRANCE_00387:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Danse_Heiva_2014-3424.jpg/960px-Danse_Heiva_2014-3424.jpg
+  page: https://commons.wikimedia.org/wiki/Danse_Heiva_2014-3424.jpg
+  credit: Anne-Laure Lépine
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
+2017_67717_INV_PCI_FRANCE_00388:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Guyane_Fran%C3%A7aise._Bonnis%2C_canotiers_ravitalleurs_des_chercheurs_d%27or.jpg/960px-Guyane_Fran%C3%A7aise._Bonnis%2C_canotiers_ravitalleurs_des_chercheurs_d%27or.jpg
+  page: https://commons.wikimedia.org/wiki/Guyane_Fran%C3%A7aise._Bonnis%2C_canotiers_ravitalleurs_des_chercheurs_d%27or.jpg
+  credit: Unknown author
+  licence: Public domain
+  licence_url: https://creativecommons.org/publicdomain/mark/1.0/
 2017_67717_INV_PCI_FRANCE_00389:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/TOULOULOU.jpg/960px-TOULOULOU.jpg
@@ -1949,6 +2029,13 @@
   src: https://www.pci-lab.fr/images/fiches/412_voile-latine/412_voile-latine-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/445
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2018_67717_INV_PCI_FRANCE_00413:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Baguette_de_pain_en_corbeille.jpg/960px-Baguette_de_pain_en_corbeille.jpg
+  page: https://commons.wikimedia.org/wiki/Baguette_de_pain_en_corbeille.jpg
+  credit: Marianne Casamance
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2018_67717_INV_PCI_FRANCE_00414:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/414_saintnicolas-nancy/414_saintnicolas-nancy-bandeau.jpg
@@ -1969,11 +2056,20 @@
   src: https://www.pci-lab.fr/images/fiches/419_fetes-charrettes/419_fetes-charrettes-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/511
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2018_67717_INV_PCI_FRANCE_00420:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/13_desserts_-_Tradition_de_No%C3%ABl_en_Provence.png/960px-13_desserts_-_Tradition_de_No%C3%ABl_en_Provence.png
+  page: https://commons.wikimedia.org/wiki/13_desserts_-_Tradition_de_No%C3%ABl_en_Provence.png
+  credit: Fabuleuse Planète
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2018_67717_INV_PCI_FRANCE_00421:
-  source: pcilab
-  src: https://www.pci-lab.fr/images/fiches/421_carnaval-nice/421_carnaval-nice-bandeau.jpg
-  page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/436
-  credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/D%C3%A9fil%C3%A9_nocturne_du_char_du_Roi_au_carnaval_de_Nice_2023.jpg/960px-D%C3%A9fil%C3%A9_nocturne_du_char_du_Roi_au_carnaval_de_Nice_2023.jpg
+  page: https://commons.wikimedia.org/wiki/D%C3%A9fil%C3%A9_nocturne_du_char_du_Roi_au_carnaval_de_Nice_2023.jpg
+  credit: Tmilaret
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2018_67717_INV_PCI_FRANCE_00427:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/427_bouquiniste/427_bouquiniste-bandeau.jpg
@@ -1991,6 +2087,13 @@
   src: https://www.pci-lab.fr/images/fiches/423_carnaval-montblanc/423_carnaval-montblanc-bandeau1.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/434
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2019_67717_INV_PCI_FRANCE_00425:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tarasque_in_Tarascon_01.jpg/960px-Tarasque_in_Tarascon_01.jpg
+  page: https://commons.wikimedia.org/wiki/Tarasque_in_Tarascon_01.jpg
+  credit: Olivier
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2019_67717_INV_PCI_FRANCE_00426:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/426_danses-georgiennes/426_danses-georgiennes-bandeau.jpg
@@ -2162,6 +2265,13 @@
   src: https://www.pci-lab.fr/images/fiches/463_matatiki/00463_matatiki-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/545
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2020_67717_INV_PCI_FRANCE_00464:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/R%C3%A9union_S%C3%A9ga_band_in_the_square_of_Saint-Pierre.JPG/960px-R%C3%A9union_S%C3%A9ga_band_in_the_square_of_Saint-Pierre.JPG
+  page: https://commons.wikimedia.org/wiki/R%C3%A9union_S%C3%A9ga_band_in_the_square_of_Saint-Pierre.JPG
+  credit: B.navez
+  licence: GFDL
+  licence_url: http://www.gnu.org/copyleft/fdl.html
 2020_67717_INV_PCI_FRANCE_00465:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/465_eventaillistes/465_eventaillistes-bandeau.jpg
@@ -2257,6 +2367,13 @@
   src: https://www.pci-lab.fr/images/fiches/487_peche-adour/487_peche-adour-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/498
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2020_67717_INV_PCI_FRANCE_00494:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Lifou%2C_Drehu_Village%2C_Nouvelle_Cal%C3%A9donie.jpg/960px-Lifou%2C_Drehu_Village%2C_Nouvelle_Cal%C3%A9donie.jpg
+  page: https://commons.wikimedia.org/wiki/Lifou%2C_Drehu_Village%2C_Nouvelle_Cal%C3%A9donie.jpg
+  credit: Sorelia87
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2021_67717_INV_PCI_FRANCE_00489:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/489_irrigation-Brianconnais/00489_irrigation_brianconnais_bandeau.jpg
@@ -2344,6 +2461,13 @@
   src: https://www.pci-lab.fr/images/fiches/510_mawlinda-shenge/510_mawlinda-shenge-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/538
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2022_67717_INV_PCI_FRANCE_00511:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Ch%C3%AAne_de_Pirot_%C3%A0_la_lumi%C3%A8re_du_soir_en_For%C3%AAt_de_Tron%C3%A7ais_%2803%29.jpg/960px-Ch%C3%AAne_de_Pirot_%C3%A0_la_lumi%C3%A8re_du_soir_en_For%C3%AAt_de_Tron%C3%A7ais_%2803%29.jpg
+  page: https://commons.wikimedia.org/wiki/Ch%C3%AAne_de_Pirot_%C3%A0_la_lumi%C3%A8re_du_soir_en_For%C3%AAt_de_Tron%C3%A7ais_%2803%29.jpg
+  credit: Clame Reporter
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2022_67717_INV_PCI_FRANCE_00512:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/512_rigodon/512_rigodon-bandeau.jpg
@@ -2381,6 +2505,13 @@
   credit: Jean-Pierre Dalbéra from Paris, France
   licence: CC BY 2.0
   licence_url: https://creativecommons.org/licenses/by/2.0
+2022_67717_INV_PCI_FRANCE_00519:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Jeux_Floraux_fleurs_1.jpg/960px-Jeux_Floraux_fleurs_1.jpg
+  page: https://commons.wikimedia.org/wiki/Jeux_Floraux_fleurs_1.jpg
+  credit: Frédéric Neupont
+  licence: CC BY 4.0
+  licence_url: https://creativecommons.org/licenses/by/4.0
 2023_67717_INV_PCI_FRANCE_00521:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Nantes_-_Carnaval_de_jour_2019_-_05.jpg/960px-Nantes_-_Carnaval_de_jour_2019_-_05.jpg
@@ -2394,10 +2525,12 @@
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/555
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
 2023_67717_INV_PCI_FRANCE_00523:
-  source: pcilab
-  src: https://www.pci-lab.fr/images/fiches/523_procession-sanch/523_procession-sanch-bandeau2.jpg
-  page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/527
-  credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sanch_perpignan_2007_%2818%29.jpg/960px-Sanch_perpignan_2007_%2818%29.jpg
+  page: https://commons.wikimedia.org/wiki/Sanch_perpignan_2007_%2818%29.jpg
+  credit: Sylenius
+  licence: GFDL
+  licence_url: http://www.gnu.org/copyleft/fdl.html
 2023_67717_INV_PCI_FRANCE_00524:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Eglise_Notre-Dame_du_Saint-Cordon_Valenciennes_%28tour%29.jpg/960px-Eglise_Notre-Dame_du_Saint-Cordon_Valenciennes_%28tour%29.jpg
@@ -2442,6 +2575,13 @@
   src: https://www.pci-lab.fr/images/fiches/534_craquelin-bretagne/534_craquelin-bretagne-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/551
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2024_67717_INV_PCI_FRANCE_00535:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Saint-Pierre-et-Miquelon_Le_doris.jpg/960px-Saint-Pierre-et-Miquelon_Le_doris.jpg
+  page: https://commons.wikimedia.org/wiki/Saint-Pierre-et-Miquelon_Le_doris.jpg
+  credit: Marie975
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2024_67717_INV_PCI_FRANCE_00536:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/536_liqueurs/536_liqueurs-bandeau2.jpg
@@ -2484,6 +2624,13 @@
   credit: Neonergie
   licence: CC BY-SA 3.0
   licence_url: https://creativecommons.org/licenses/by-sa/3.0
+2024_67717_INV_PCI_FRANCE_00546:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Moulin_Richard_de_Bas%2C_trocknendes_Papier.JPG/960px-Moulin_Richard_de_Bas%2C_trocknendes_Papier.JPG
+  page: https://commons.wikimedia.org/wiki/Moulin_Richard_de_Bas%2C_trocknendes_Papier.JPG
+  credit: Pechristener
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
 2025_67717_INV_PCI_FRANCE_00547:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Musicienne_des_debaa.jpg/960px-Musicienne_des_debaa.jpg
@@ -2503,3 +2650,45 @@
   src: https://www.pci-lab.fr/images/fiches/551_savoirs-ligeriens/00551_savoirs-ligeriens-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/547
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2025_67717_INV_PCI_FRANCE_00557:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Zuhair_Murad_Spring_Summer_2018_Haute_Couture.jpg/960px-Zuhair_Murad_Spring_Summer_2018_Haute_Couture.jpg
+  page: https://commons.wikimedia.org/wiki/Zuhair_Murad_Spring_Summer_2018_Haute_Couture.jpg
+  credit: New York Fashion TV
+  licence: CC BY 3.0
+  licence_url: https://creativecommons.org/licenses/by/3.0
+2025_67717_INV_PCI_FRANCE_00558:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2002_September_14%2C_Paris_techno_parade_23.jpg/960px-2002_September_14%2C_Paris_techno_parade_23.jpg
+  page: https://commons.wikimedia.org/wiki/2002_September_14%2C_Paris_techno_parade_23.jpg
+  credit: Syced
+  licence: CC0
+  licence_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+2025_67717_INV_PCI_FRANCE_00559:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Broderie_de_Cilaos.JPG/960px-Broderie_de_Cilaos.JPG
+  page: https://commons.wikimedia.org/wiki/Broderie_de_Cilaos.JPG
+  credit: Véronique PAGNIER
+  licence: Public domain
+  licence_url: null
+2026_67717_INV_PCI_FRANCE_00561:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Maison_en_pis%C3%A9_de_Lentilly.jpg/960px-Maison_en_pis%C3%A9_de_Lentilly.jpg
+  page: https://commons.wikimedia.org/wiki/Maison_en_pis%C3%A9_de_Lentilly.jpg
+  credit: CHABERT Louis
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
+2026_67717_INV_PCI_FRANCE_00563:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Barque_sur_Loire.jpg/960px-Barque_sur_Loire.jpg
+  page: https://commons.wikimedia.org/wiki/Barque_sur_Loire.jpg
+  credit: Michelet-密是力
+  licence: Public domain
+  licence_url: null
+2026_67717_INV_PCI_FRANCE_00565:
+  source: commons
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Soir_de_p%C3%A8lerinage_%C3%A0_Lourdes_01.jpg/960px-Soir_de_p%C3%A8lerinage_%C3%A0_Lourdes_01.jpg
+  page: https://commons.wikimedia.org/wiki/Soir_de_p%C3%A8lerinage_%C3%A0_Lourdes_01.jpg
+  credit: Celeda
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
