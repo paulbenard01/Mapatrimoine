@@ -20,3 +20,10 @@ Format: decision. Why. Alternative rejected.
 - **The list PDF link is matched on the word "Liste"** (word boundary). A plain substring matched "éventail*listes*".
 - **One element has no fiche link** (`2008_..._00019`, dentelle du Puy): `fiche_url: null`, never guessed.
 - **User-Agent** names the project and its GitHub URL, no personal email.
+
+## M3 recurrence engine
+
+- **Calendar dates are UTC midnights exchanged as `YYYY-MM-DD` strings.** String comparison then orders dates, and no local time zone or DST shift can move a day. Rejected: a date library (one more dependency for ~100 lines of logic).
+- **`nextOccurrence` returns the occurrence in progress if `today` falls inside it** (including one that started the previous year, for example the Provençal Christmas season, 4 December to 2 February), otherwise the next start. Rejected: "next start only", which would hide an ongoing festival.
+- **"Movable feast" means Easter-relative (`easter_offset`).** `nth_weekday` dates also change every year, but they are not movable feasts in the liturgical sense; the UI shows them as normal dated events. A fixed 29 February only occurs in leap years.
+- **`duration_days` counts the first day** (1 = single day), as in the schema.
