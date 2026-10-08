@@ -1,0 +1,32 @@
+id: 2014_67717_INV_PCI_FRANCE_00348
+kind: event
+domain: >-
+  Rituels (nouvel an lunaire)
+summary:
+  fr: >-
+    À Paris, les communautés d'origine chinoise et asiatique fêtent le Nouvel An lunaire en famille et dans la rue : défilés de lions et de dragons à Belleville et dans le 13e arrondissement.
+  en: >-
+    In Paris, communities of Chinese and wider Asian origin celebrate the Lunar New Year at home and in the streets, with lion and dragon parades in Belleville and the 13th arrondissement.
+  lang_review: draft
+places:
+  - {commune: Paris, department: "75"}
+recurrence:
+  type: dates
+  occurrences:
+    - {start: "2027-02-06", end: "2027-02-06"}
+timing:
+  confidence: high
+  evidence_quote: "la date des célébrations varie d'une année sur l'autre, mais se situe toujours entre le 21 janvier et le 20 février."
+  evidence_page: 6
+  web_sources:
+    - url: https://www.faire-le-pont.fr/actualites/nouvel-an-chinois-2026-2027-date-defile-paris-13e/
+      publisher: Faire le pont
+      says: The Lunar New Year falls on Saturday 6 February 2027; the 13th arrondissement parade date for 2027 was not yet announced.
+      checked_at: "2026-10-08"
+    - url: https://www.paris.fr/evenements/defile-du-nouvel-an-chinois-cette-annee-le-13e-celebre-le-serpent-77437
+      publisher: Ville de Paris
+      says: Announces the 13th arrondissement New Year parade, held on a Sunday after the New Year (9 February in 2025).
+      checked_at: "2026-10-08"
+  notes: >-
+    Date shown is New Year's Day itself (lunisolar calendar). The big parades in the 13th arrondissement and Belleville follow on a Sunday in the next weeks.
+review_status: unreviewed

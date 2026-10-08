@@ -1,0 +1,20 @@
+id: 2014_67717_INV_PCI_FRANCE_00329
+kind: event
+domain: >-
+  Rituels (bornage frontalier)
+summary:
+  fr: >-
+    Chaque 21 août depuis le XIXe siècle, le maire d'Isaba et les maires des communes françaises voisines se retrouvent à la Pierre-Saint-Martin pour signer les procès-verbaux de bornage de la frontière et partager un repas.
+  en: >-
+    Every 21 August since the 19th century, the mayor of Isaba and the mayors of the neighbouring French communes meet at La Pierre-Saint-Martin to sign the border-marking records and share a meal.
+  lang_review: draft
+places:
+  - {commune: Arette, department: "64", label: "La Pierre-Saint-Martin (Arette)"}
+recurrence: {type: fixed, month: 8, day: 21}
+timing:
+  confidence: high
+  evidence_quote: "Tous les 21 août, depuis 1856, l’alcade d’Isaba et les maires (ou leurs représentants) des communes françaises"
+  evidence_page: 2
+  notes: >-
+    21 August, at noon.
+review_status: unreviewed

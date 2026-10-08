@@ -1,0 +1,20 @@
+id: 2026_67717_INV_PCI_FRANCE_00564
+kind: event
+domain: >-
+  Pratiques sociales, rituels et événements festifs (pèlerinage)
+summary:
+  fr: >-
+    Dans le Berry, une procession porte les reliques de sainte Solange, patronne de la province, de l'église du village jusqu'à sa chapelle, avec une forte participation de la communauté portugaise.
+  en: >-
+    In the Berry, a procession carries the relics of Saint Solange, the province's patron saint, from the village church to her chapel, with strong participation from the Portuguese community.
+  lang_review: draft
+places:
+  - {commune: Sainte-Solange, department: "18"}
+recurrence: {type: easter_offset, days: 50}
+timing:
+  confidence: high
+  evidence_quote: "Le pèlerinage de Sainte-Solange est organisé chaque année le lundi de Pentecôte."
+  evidence_page: 3
+  notes: >-
+    Whit Monday (Easter plus 50 days).
+review_status: unreviewed

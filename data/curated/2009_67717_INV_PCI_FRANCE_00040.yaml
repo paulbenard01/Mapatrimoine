@@ -1,0 +1,15 @@
+id: 2009_67717_INV_PCI_FRANCE_00040
+kind: practice
+domain: >-
+  Arts du spectacle (musique, chant, danse)
+summary:
+  fr: >-
+    Né de l'esclavage et créolisé dans les plantations sucrières, le maloya est la musique, le chant et la danse de La Réunion ; longtemps lié au culte des ancêtres, il est aujourd'hui une expression majeure de l'identité réunionnaise.
+  en: >-
+    Born of slavery and creolised on the sugar plantations, maloya is the music, song and dance of La Réunion; long tied to ancestor worship, it is now a major expression of Réunion identity.
+  lang_review: draft
+places:
+  - {department: "974", label: "La Réunion"}
+recurrence: null
+timing: null
+review_status: unreviewed

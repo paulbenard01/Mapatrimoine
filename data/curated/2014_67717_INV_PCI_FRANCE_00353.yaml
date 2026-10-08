@@ -1,0 +1,29 @@
+id: 2014_67717_INV_PCI_FRANCE_00353
+kind: event
+domain: >-
+  Pratiques sociales et festives (géants, Saint-Nicolas)
+summary:
+  fr: >-
+    À Flers-Bourg, quartier de Villeneuve-d'Ascq, un cortège aux lanternes part à la recherche du géant Saint-Nicolas, accompagné du Père Fouettard et du char du Boucher ; bonbons et coquilles sont distribués aux enfants.
+  en: >-
+    In Flers-Bourg, a district of Villeneuve-d'Ascq, a lantern procession goes in search of the giant Saint Nicholas, with Father Whipper and the Butcher's float; sweets and Christmas brioches are handed out to children.
+  lang_review: draft
+places:
+  - {commune: Villeneuve-d'Ascq, department: "59"}
+recurrence: {type: nth_weekday, month: 12, weekday: 6, n: 1, from_day: 6}
+timing:
+  confidence: medium
+  evidence_quote: "La fête a lieu le samedi après le 6 décembre, jour de la Saint-Nicolas."
+  evidence_page: 3
+  web_sources:
+    - url: https://lillemetropole.fr/en/evenements/cortege-de-la-saint-nicolas-7057481
+      publisher: Métropole européenne de Lille (city listing)
+      says: The 2025 procession left the Anatole-France school on Saturday 6 December at 5.45 pm.
+      checked_at: "2026-10-08"
+    - url: https://villeneuvedascq.fr/sites/default/files/2024-11/CP%20F%C3%AAtes%20de%20fin%20d%27ann%C3%A9e%202024.pdf
+      publisher: Ville de Villeneuve-d'Ascq
+      says: The 2024 procession took place on Saturday 7 December.
+      checked_at: "2026-10-08"
+  notes: >-
+    The first Saturday from 6 December, as in 2024 and 2025 (when 6 December was itself a Saturday).
+review_status: unreviewed

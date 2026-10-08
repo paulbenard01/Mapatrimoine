@@ -1,0 +1,29 @@
+id: 2017_67717_INV_PCI_FRANCE_00392
+kind: event
+domain: >-
+  Rituels (fête religieuse sikhe)
+summary:
+  fr: >-
+    Pour Vaisakhi, fête du printemps et de la fondation de la communauté sikhe (Khalsa), des milliers de fidèles défilent dans Bobigny depuis le gurdwara, derrière le livre saint, avec chants, arts martiaux et repas offerts.
+  en: >-
+    For Vaisakhi, the spring festival marking the founding of the Sikh community (Khalsa), thousands of people parade through Bobigny from the gurdwara behind the holy book, with hymns, martial arts and free meals.
+  lang_review: draft
+places:
+  - {commune: Bobigny, department: "93"}
+recurrence: {type: nth_weekday, month: 4, weekday: 0, n: 1, from_day: 13}
+timing:
+  confidence: medium
+  evidence_quote: "se répète depuis lors tous les ans, durant le week-end le plus proche de la date du Vaisakhi."
+  evidence_page: 9
+  web_sources:
+    - url: https://sortiraparis.com/en/what-to-visit-in-paris/walks/articles/307055-vaisakhi-festival-2026-a-grand-parade-through-the-streets-of-bobigny-this-weekend
+      publisher: Sortir à Paris
+      says: The 2026 parade took place on Sunday 19 April (Sunday 14 April in 2024).
+      checked_at: "2026-10-08"
+    - url: https://ressources.seinesaintdenis.fr/IMG/pdf/150x210_programme_semaine_desi_2022-2.pdf
+      publisher: Département de la Seine-Saint-Denis
+      says: The 2022 parade left the Bobigny gurdwara on Sunday 17 April.
+      checked_at: "2026-10-08"
+  notes: >-
+    Vaisakhi falls on 13 or 14 April. The fiche says the weekend closest to it; recent parades were on the Sunday on or after 13 April (2022, 2024, 2026), which is the rule used here.
+review_status: unreviewed

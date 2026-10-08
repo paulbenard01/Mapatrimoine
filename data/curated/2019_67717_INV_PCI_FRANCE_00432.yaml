@@ -1,0 +1,20 @@
+id: 2019_67717_INV_PCI_FRANCE_00432
+kind: event
+domain: >-
+  Pratiques sociales, rituels et événements festifs
+summary:
+  fr: >-
+    Dans les Bauges, les femmes se retrouvent autour du 5 février pour fêter sainte Agathe, patronne des nourrices, et partagent la « main de Sainte-Agathe », une pâtisserie locale.
+  en: >-
+    In the Bauges mountains, women gather around 5 February to celebrate Saint Agatha, patron saint of wet nurses, and share the "hand of Saint Agatha", a local pastry.
+  lang_review: draft
+places:
+  - {commune: Saint-Pierre-d'Albigny, department: "73"}
+recurrence: {type: fixed, month: 2, day: 5}
+timing:
+  confidence: high
+  evidence_quote: "La fête de la Sainte-Agathe, célébrée le 5 février, est une tradition de rassemblement entre femmes"
+  evidence_page: 1
+  notes: >-
+    5 February; women's shared meals take place during that week.
+review_status: unreviewed

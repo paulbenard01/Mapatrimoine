@@ -1,0 +1,21 @@
+id: 2017_67717_INV_PCI_FRANCE_00389
+kind: event
+domain: >-
+  Pratiques sociales et festives, arts du spectacle (carnaval)
+summary:
+  fr: >-
+    Le carnaval de Guyane mêle défilés de rue du dimanche et bals paré-masqués du samedi soir, où les Touloulous, femmes entièrement déguisées et méconnaissables, invitent les hommes à danser.
+  en: >-
+    The Guiana carnival combines Sunday street parades with Saturday-night masked balls, where the Touloulous, women fully disguised and unrecognisable, invite men to dance.
+  lang_review: draft
+places:
+  - {commune: Cayenne, department: "973"}
+  - {department: "973"}
+recurrence: {type: easter_offset, days: -49, duration_days: 4}
+timing:
+  confidence: medium
+  evidence_quote: "Cette manifestation festive débute le premier dimanche qui suit l’Épiphanie jusqu’au mercredi des Cendres."
+  evidence_page: 2
+  notes: >-
+    The season runs from the first Sunday after Epiphany to Ash Wednesday, with parades every Sunday; the date shown is the closing "jours gras" (Sunday to Ash Wednesday).
+review_status: unreviewed

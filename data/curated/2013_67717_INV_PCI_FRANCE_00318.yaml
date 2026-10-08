@@ -1,0 +1,20 @@
+id: 2013_67717_INV_PCI_FRANCE_00318
+kind: event
+domain: >-
+  Rituels (cycle de mai)
+summary:
+  fr: >-
+    À Locronan, un hêtre est planté sur la place de l'église au début de mai pour saluer la belle saison ; les jeunes de 19 ans l'abattent à la main à la Saint-Jean.
+  en: >-
+    In Locronan, a beech tree is planted on the church square in early May to welcome the summer season; the town's 19-year-olds fell it by hand on Midsummer's Day.
+  lang_review: draft
+places:
+  - {commune: Locronan, department: "29"}
+recurrence: {type: nth_weekday, month: 5, weekday: 0, n: 1, offset_days: -1}
+timing:
+  confidence: medium
+  evidence_quote: "Chaque année, le samedi précédent le premier dimanche de mai, un hêtre est planté sur la place de l’Eglise de Locronan"
+  evidence_page: 3
+  notes: >-
+    Planting on the Saturday before the first Sunday of May (the summary page says "first Saturday of May"); felling and bonfire around Saint John's Day (24 June).
+review_status: unreviewed

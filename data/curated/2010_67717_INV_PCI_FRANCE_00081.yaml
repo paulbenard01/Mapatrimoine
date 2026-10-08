@@ -1,0 +1,25 @@
+id: 2010_67717_INV_PCI_FRANCE_00081
+kind: event
+domain: >-
+  Rituels (fête mariale)
+summary:
+  fr: >-
+    Chaque 12 décembre, Mexicains, Latino-Américains et Parisiens fêtent la Vierge de Guadalupe à Notre-Dame de Paris, qui lui consacre une chapelle : messe festive, chants et mariachis.
+  en: >-
+    Every 12 December, Mexicans, Latin Americans and Parisians celebrate Our Lady of Guadalupe at Notre-Dame de Paris, which has a chapel dedicated to her: a festive mass, hymns and mariachis.
+  lang_review: draft
+places:
+  - {commune: Paris, department: "75"}
+recurrence: {type: fixed, month: 12, day: 12}
+timing:
+  confidence: high
+  evidence_quote: "le 12 décembre, la fête de la vierge de Guadalupe était caractérisée par un rassemblement spontané devant la chapelle qui lui est consacrée"
+  evidence_page: 8
+  web_sources:
+    - url: https://fr.aleteia.org/2024/12/12/la-reine-du-peuple-mexicain-celebree-a-notre-dame-de-paris/
+      publisher: Aleteia
+      says: Reports the festive mass for Our Lady of Guadalupe at Notre-Dame de Paris on 12 December 2024, gathering about 2,500 people.
+      checked_at: "2026-10-08"
+  notes: >-
+    12 December. The mass has sometimes moved to other Paris churches (Madeleine, Saint-Germain-l'Auxerrois) and attendance can be by invitation.
+review_status: unreviewed

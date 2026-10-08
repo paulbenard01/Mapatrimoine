@@ -1,0 +1,20 @@
+id: 2013_67717_INV_PCI_FRANCE_00296
+kind: event
+domain: >-
+  Pratiques sociales et festives (fête agricole)
+summary:
+  fr: >-
+    À Itxassou, au Pays basque, une fête célèbre la cerise locale avec messe bilingue, marché, repas préparé par les bénévoles, jeux et danses.
+  en: >-
+    In Itxassou, in the Basque Country, a festival celebrates the local cherry with a bilingual mass, a market, a meal cooked by volunteers, games and dancing.
+  lang_review: draft
+places:
+  - {commune: Itxassou, department: "64"}
+recurrence: {type: nth_weekday, month: 6, weekday: 0, n: 1}
+timing:
+  confidence: high
+  evidence_quote: "Elle se déroule le 1er dimanche de juin depuis le début des années 2000."
+  evidence_page: 2
+  notes: >-
+    Preparations start on the Saturday.
+review_status: unreviewed

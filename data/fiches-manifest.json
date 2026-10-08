@@ -1,0 +1,535 @@
+{
+ "2009_67717_INV_PCI_FRANCE_00038": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Defile-du-dieu-Ganesh-ou-Ganesh-Chaturthi",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2009_67717_INV_PCI_FRANCE_00040": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-maloya",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 4,
+  "unpublished_marker": false
+ },
+ "2009_67717_INV_PCI_FRANCE_00041": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Dia-de-la-Candelaria",
+  "status": "failed: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Dia-de-la-Candelaria: network error TimeoutError"
+ },
+ "2009_67717_INV_PCI_FRANCE_00042": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Rosca-de-Reyes",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2009_67717_INV_PCI_FRANCE_00045": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-cremation-des-Trois-Sapins-Association-Eugubini-nel-mondo",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 10,
+  "unpublished_marker": false
+ },
+ "2010_67717_INV_PCI_FRANCE_00079": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/dia-de-los-muertos-fete-des-morts",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 10,
+  "unpublished_marker": false
+ },
+ "2010_67717_INV_PCI_FRANCE_00080": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/fete-de-notre-dame-de-la-visitation-a-vievola",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00081": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-notre-Dame-de-Guadalupe-Paris",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00084": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-Saint-Leon",
+  "status": "failed: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-Saint-Leon: network error TimeoutError"
+ },
+ "2010_67717_INV_PCI_FRANCE_00091": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-creche-vivante-de-l-abbaye-de-Saint-Ferme",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00097": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-des-deux-rives",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00098": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-de-Peirigueers-Carnaval-de-Perigueux",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00101": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-Ringueta",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00103": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Passejada-deus-bueus-gras-Vasats",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 4,
+  "unpublished_marker": false
+ },
+ "2010_67717_INV_PCI_FRANCE_00104": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-Saint-Jean-de-Bazas",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 4,
+  "unpublished_marker": false
+ },
+ "2010_67717_INV_PCI_FRANCE_00108": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Notre-Dame-de-Laruns",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00114": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-hesta-deus-aulhers-la-fete-des-bergers",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00116": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Hestas-de-Baiona-Fetes-de-Bayonne",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 4,
+  "unpublished_marker": false
+ },
+ "2010_67717_INV_PCI_FRANCE_00117": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Hestas-de-Dacs-Fetes-de-Dax",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00118": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-assemblada-d-Ossa-Susan-Ousse-Suzan",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00133": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Foire-de-La-Latiere",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2011_67717_INV_PCI_FRANCE_00148": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/ostentions-septennales-limousines",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2012_67717_INV_PCI_FRANCE_00151": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Capbreton",
+  "status": "failed: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Capbreton: HTTP 403"
+ },
+ "2012_67717_INV_PCI_FRANCE_00257": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Limoux",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2013_67717_INV_PCI_FRANCE_00296": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Cerise-a-Itxassou",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 5,
+  "unpublished_marker": false
+ },
+ "2013_67717_INV_PCI_FRANCE_00297": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-barricot-a-Labastide-Monrejeau",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2013_67717_INV_PCI_FRANCE_00298": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Saint-Jean-de-Luz",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2013_67717_INV_PCI_FRANCE_00302": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Saint-Bourrou",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2013_67717_INV_PCI_FRANCE_00313": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-brandons-de-la-saint-jean-et-de-la-saint-pierre-a-bagneres-de-luchon.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 10,
+  "unpublished_marker": false
+ },
+ "2013_67717_INV_PCI_FRANCE_00314": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Biou",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "unreadable (no text layer usable; OCR needed)"
+ },
+ "2013_67717_INV_PCI_FRANCE_00318": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Arbre-de-mai-de-Locronan",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 13,
+  "unpublished_marker": false
+ },
+ "2013_67717_INV_PCI_FRANCE_00321": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-Granville",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 11,
+  "unpublished_marker": false
+ },
+ "2013_67717_INV_PCI_FRANCE_00322": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Cassel",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 16,
+  "unpublished_marker": false
+ },
+ "2013_67717_INV_PCI_FRANCE_00323": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Grand-Fort-Philippe",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2013_67717_INV_PCI_FRANCE_00324": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Steenvoorde",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2014_67717_INV_PCI_FRANCE_00329": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jour-des-Limites-a-La-Pierre-Saint-Martin",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2014_67717_INV_PCI_FRANCE_00330": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-du-Piment-d-Espelette",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 5,
+  "unpublished_marker": false
+ },
+ "2014_67717_INV_PCI_FRANCE_00331": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-junte-de-Roncal",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2014_67717_INV_PCI_FRANCE_00340": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Fest-Noz",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 7,
+  "unpublished_marker": false
+ },
+ "2014_67717_INV_PCI_FRANCE_00345": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Manthelan",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2014_67717_INV_PCI_FRANCE_00348": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-du-printemps",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 26,
+  "unpublished_marker": false
+ },
+ "2014_67717_INV_PCI_FRANCE_00349": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-l-ours",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 38,
+  "unpublished_marker": false
+ },
+ "2014_67717_INV_PCI_FRANCE_00350": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Douai",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 17,
+  "unpublished_marker": false
+ },
+ "2014_67717_INV_PCI_FRANCE_00351": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Lesquin",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2014_67717_INV_PCI_FRANCE_00352": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Lomme",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2014_67717_INV_PCI_FRANCE_00353": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Villeneuve-d-Ascq",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2014_67717_INV_PCI_FRANCE_00354": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Wormhout",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2014_67717_INV_PCI_FRANCE_00359": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-en-Kabwet",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 9,
+  "unpublished_marker": false
+ },
+ "2015_67717_INV_PCI_FRANCE_00370": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-lavage-de-la-Madeleine",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2015_67717_INV_PCI_FRANCE_00371": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boulogne",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2017_67717_INV_PCI_FRANCE_00376": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-yole-ronde-de-la-Martinique",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 17,
+  "unpublished_marker": false
+ },
+ "2017_67717_INV_PCI_FRANCE_00389": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Cayenne-avec-le-touloulou-du-bal-pare-masque",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 32,
+  "unpublished_marker": false
+ },
+ "2017_67717_INV_PCI_FRANCE_00392": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Vaisakhi-des-Sikhs-a-Bobigny",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2018_67717_INV_PCI_FRANCE_00395": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Jeanne-d-Arc-a-Orleans",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 34,
+  "unpublished_marker": false
+ },
+ "2018_67717_INV_PCI_FRANCE_00406": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Grand-Pardon-de-Chaumont",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2018_67717_INV_PCI_FRANCE_00414": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Saint-Nicolas-a-Nancy",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 45,
+  "unpublished_marker": false
+ },
+ "2018_67717_INV_PCI_FRANCE_00420": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Noel-en-Provence",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 18,
+  "unpublished_marker": false
+ },
+ "2018_67717_INV_PCI_FRANCE_00421": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-artisanaux-associes-au-carnaval-de-nice2",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2019_67717_INV_PCI_FRANCE_00422": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-du-Boeuf-de-Meze",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2019_67717_INV_PCI_FRANCE_00423": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Montblanc",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2019_67717_INV_PCI_FRANCE_00424": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-du-Tribus-Lupis-de-Cournonterral",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2019_67717_INV_PCI_FRANCE_00425": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Tarasque",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 25,
+  "unpublished_marker": false
+ },
+ "2019_67717_INV_PCI_FRANCE_00429": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Pezenas",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2019_67717_INV_PCI_FRANCE_00430": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Saint-Laurent-et-l-Ane-de-Bessan",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 21,
+  "unpublished_marker": false
+ },
+ "2019_67717_INV_PCI_FRANCE_00432": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Sainte-Agathe-a-Saint-Pierre-d-Albigny-dans-le-massif-des-Bauges",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 21,
+  "unpublished_marker": false
+ },
+ "2019_67717_INV_PCI_FRANCE_00445": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-fetes-des-bouviers-et-des-laboureurs-de-la-drome.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2019_67717_INV_PCI_FRANCE_00447": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-norouz-ou-nouvel-an-persan-en-region-parisienne.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2019_67717_INV_PCI_FRANCE_00449": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-du-citron-de-menton.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 27,
+  "unpublished_marker": false
+ },
+ "2019_67717_INV_PCI_FRANCE_00450": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-olives-vertes-de-mouries.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2020_67717_INV_PCI_FRANCE_00460": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pratiques-d-itinerance-et-de-peregrination-au-mont-saint-michel.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2020_67717_INV_PCI_FRANCE_00471": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-rois-a-saint-jean-de-luz.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2020_67717_INV_PCI_FRANCE_00474": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-fetes-des-fleurs-dans-les-stations-thermales-des-pyrenees.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2020_67717_INV_PCI_FRANCE_00479": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-yennayer-nouvel-an-berbere.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2020_67717_INV_PCI_FRANCE_00486": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-conscrits-a-villefranche-sur-saone-et-en-son-bassin-de-vie.pdf",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 40,
+  "unpublished_marker": false
+ },
+ "2022_67717_INV_PCI_FRANCE_00510": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-maluwida-shenge-mayotte",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 44,
+  "unpublished_marker": false
+ },
+ "2022_67717_INV_PCI_FRANCE_00514": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/carnaval-de-pornic",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2022_67717_INV_PCI_FRANCE_00515": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/lo-cese-de-montaren-fete-inventee-et-figure-totemique-du-pois-chiche-a-montaren-et-saint-mediers-gard",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2022_67717_INV_PCI_FRANCE_00519": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-jeux-floraux-de-toulouse-et-leur-fete-des-fleurs",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 27,
+  "unpublished_marker": false
+ },
+ "2023_67717_INV_PCI_FRANCE_00521": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-carnaval-de-nantes",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 40,
+  "unpublished_marker": false
+ },
+ "2023_67717_INV_PCI_FRANCE_00523": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-sanch-processions-des-penitents-du-vendredi-saint-en-roussillon-pyrenees-orientales",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 36,
+  "unpublished_marker": false
+ },
+ "2023_67717_INV_PCI_FRANCE_00524": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-tour-du-saint-cordon-valenciennes",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 32,
+  "unpublished_marker": false
+ },
+ "2024_67717_INV_PCI_FRANCE_00545": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-procession-de-neuf-lieues",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2025_67717_INV_PCI_FRANCE_00556": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/chjam-e-rispondi-joutes-poetiques-improvisees-et-chantees-corse",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 36,
+  "unpublished_marker": false
+ },
+ "2025_67717_INV_PCI_FRANCE_00560": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-carnaval-a-l-ouest-de-scaer",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2026_67717_INV_PCI_FRANCE_00564": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-pelerinage-de-sainte-solange",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 15,
+  "unpublished_marker": false
+ },
+ "2026_67717_INV_PCI_FRANCE_00565": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-procession-mariale-de-notre-dame-de-lourdes-hautes-pyrenees",
+  "status": "ok",
+  "fetched_at": "2026-10-08",
+  "text": "ok",
+  "pages": 30,
+  "unpublished_marker": false
+ }
+}

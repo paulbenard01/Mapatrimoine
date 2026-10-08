@@ -1,0 +1,25 @@
+id: 2014_67717_INV_PCI_FRANCE_00331
+kind: event
+domain: >-
+  Rituels (traité pastoral transfrontalier)
+summary:
+  fr: >-
+    Chaque 13 juillet au col de la Pierre-Saint-Martin, les maires de la vallée béarnaise de Barétous et ceux de la vallée navarraise de Roncal renouvellent, mains jointes sur la borne frontière, un traité de paix pastoral médiéval ; trois génisses sont remises en tribut.
+  en: >-
+    Every 13 July at the Pierre-Saint-Martin pass, the mayors of the Barétous valley in Béarn and of the Roncal valley in Navarre renew a medieval pastoral peace treaty with their hands joined on the border stone; three heifers are handed over as tribute.
+  lang_review: draft
+places:
+  - {commune: Arette, department: "64", label: "Col de la Pierre-Saint-Martin (Arette)"}
+recurrence: {type: fixed, month: 7, day: 13}
+timing:
+  confidence: high
+  evidence_quote: "est une cérémonie célébrant, chaque 13 juillet, le plus ancien traité encore en vigueur en Europe : la sentence arbitrale d’Ansó de 1375."
+  evidence_page: 2
+  web_sources:
+    - url: https://www.tourmag.com/Navarre-la-ceremonie-de-la-Junte-de-Roncal-le-plus-vieux-deal-europeen_a88171.html
+      publisher: TourMaG
+      says: Describes the ceremony held every 13 July at the pass, around border stone 262.
+      checked_at: "2026-10-08"
+  notes: >-
+    13 July, around noon, at the border stone on the pass.
+review_status: unreviewed

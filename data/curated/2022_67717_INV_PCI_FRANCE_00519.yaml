@@ -1,0 +1,20 @@
+id: 2022_67717_INV_PCI_FRANCE_00519
+kind: event
+domain: >-
+  Pratiques sociales et festives ; traditions et expressions orales
+summary:
+  fr: >-
+    Fondés en 1323 par sept troubadours, les Jeux floraux de Toulouse sont un concours de poésie en français et en occitan ; les lauréats reçoivent leurs fleurs et leurs prix lors de la Fête des Fleurs.
+  en: >-
+    Founded in 1323 by seven troubadours, the Floral Games of Toulouse are a poetry competition in French and Occitan; winners receive their flowers and prizes at the Flower Festival.
+  lang_review: draft
+places:
+  - {commune: Toulouse, department: "31"}
+recurrence: {type: fixed, month: 5, day: 3}
+timing:
+  confidence: high
+  evidence_quote: "La remise des prix ou Fête des Fleurs se déroule le 3 mai de chaque année."
+  evidence_page: 1
+  notes: >-
+    3 May: blessing of the flowers at mass, then the prize-giving in the afternoon.
+review_status: unreviewed

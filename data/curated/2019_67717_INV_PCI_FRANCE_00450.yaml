@@ -1,0 +1,27 @@
+id: 2019_67717_INV_PCI_FRANCE_00450
+kind: event
+domain: >-
+  Pratiques sociales et festives (fête agricole)
+summary:
+  fr: >-
+    Au cœur des Alpilles, Mouriès fête la récolte des olives vertes « cassées » : marché, démonstrations de cassage, défilé provençal, courses camarguaises et costumes traditionnels.
+  en: >-
+    In the heart of the Alpilles, Mouriès celebrates the harvest of green "cracked" olives with a market, cracking demonstrations, a Provençal parade, Camargue bull games and traditional costume.
+  lang_review: draft
+places:
+  - {commune: Mouriès, department: "13"}
+recurrence: {type: nth_weekday, month: 9, weekday: 0, n: 3, offset_days: -1, duration_days: 2}
+timing:
+  confidence: high
+  web_sources:
+    - url: https://provence-alpes-cotedazur.com/que-faire/sortir/toutes-les-sorties/journees-europeennes-du-patrimoine-a-mouries-la-fete-des-olives-vertes-2026-mouries-fr-2857445/
+      publisher: Provence-Alpes-Côte d'Azur regional tourism board
+      says: The 2026 Fête des Olives Vertes ran on Saturday 19 and Sunday 20 September.
+      checked_at: "2026-10-08"
+    - url: https://www.frequence-sud.fr/art-106448-fete_des_olives_vertes_mouries
+      publisher: Fréquence Sud
+      says: The 2025 edition was held on 20 and 21 September.
+      checked_at: "2026-10-08"
+  notes: >-
+    Third weekend of September (Saturday and Sunday).
+review_status: unreviewed

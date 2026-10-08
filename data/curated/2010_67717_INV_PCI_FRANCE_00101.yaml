@@ -1,0 +1,25 @@
+id: 2010_67717_INV_PCI_FRANCE_00101
+kind: event
+domain: >-
+  Jeux traditionnels
+summary:
+  fr: >-
+    Tous les deux ans à Sarlat, la Ringueta transforme la place de la Grande-Rigaudie en terrain de jeux anciens du Périgord : quilles, tir à la corde, mât de cocagne et banquet.
+  en: >-
+    Every two years in Sarlat, the Ringueta turns the Place de la Grande-Rigaudie into a playground of old Périgord games: skittles, tug-of-war, a greasy pole and a banquet.
+  lang_review: draft
+places:
+  - {commune: Sarlat-la-Canéda, department: "24"}
+recurrence: {type: easter_offset, days: 48, duration_days: 2, every_years: 2, reference_year: 2026}
+timing:
+  confidence: high
+  evidence_quote: "Il a lieu tous les deux ans à Sarlat sur la grande place du Foirail, à la Pentecôte."
+  evidence_page: 2
+  web_sources:
+    - url: https://www.lascaux-dordogne.com/en/?p=25435
+      publisher: Lascaux Dordogne tourist office
+      says: The festival of old games is held every two years; the 2026 edition was on Saturday 23 and Sunday 24 May (Pentecost weekend).
+      checked_at: "2026-10-08"
+  notes: >-
+    Pentecost weekend, even years.
+review_status: unreviewed

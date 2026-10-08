@@ -1,0 +1,20 @@
+id: 2014_67717_INV_PCI_FRANCE_00345
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval)
+summary:
+  fr: >-
+    Organisé depuis 1869, le carnaval de Manthelan, en Touraine, fait défiler des chars construits par les habitants, précédé d'une élection de miss et d'un carnaval des enfants.
+  en: >-
+    Held since 1869, the Manthelan carnival in Touraine parades floats built by residents, preceded by the election of a carnival queen and a children's carnival.
+  lang_review: draft
+places:
+  - {commune: Manthelan, department: "37"}
+recurrence: {type: easter_offset, days: -42}
+timing:
+  confidence: high
+  evidence_quote: "Le carnaval de Manthelan est organisé depuis 1869, le dimanche suivant le Mardi Gras."
+  evidence_page: 4
+  notes: >-
+    The Sunday after Mardi gras (Easter minus 42 days).
+review_status: unreviewed

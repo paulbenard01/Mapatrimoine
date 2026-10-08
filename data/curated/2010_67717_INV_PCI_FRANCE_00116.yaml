@@ -1,0 +1,32 @@
+id: 2010_67717_INV_PCI_FRANCE_00116
+kind: event
+domain: >-
+  Pratiques sociales et festives (fêtes patronales)
+summary:
+  fr: >-
+    Créées en 1932, les fêtes de Bayonne réunissent pendant cinq jours bandas, chants, défilés et animations, vêtus de blanc et rouge, autour du réveil du roi Léon.
+  en: >-
+    Created in 1932, the Bayonne festival brings five days of brass bands, songs, parades and street events, with crowds dressed in white and red around the waking of King Léon.
+  lang_review: draft
+places:
+  - {commune: Bayonne, department: "64"}
+recurrence:
+  type: dates
+  occurrences:
+    - {start: "2027-07-14", end: "2027-07-18"}
+timing:
+  confidence: high
+  evidence_quote: "Elles ont lieu du mercredi avant le premier dimanche d'août, dimanche qui en marque la fin."
+  evidence_page: 2
+  web_sources:
+    - url: https://www.bayonne.fr/fileadmin/medias/Publications/Evenements/F%C3%AAtes_de_Bayonne/Programme_F%C3%AAtes_de_Bayonne_2026.pdf
+      publisher: Ville de Bayonne
+      says: Official programme of the 2026 edition, held Wednesday 15 to Sunday 19 July 2026.
+      checked_at: "2026-10-08"
+    - url: https://info.fr/fetes-bayonne-madeleine-2027-dates-officielles/
+      publisher: info.fr
+      says: Reports the dates set by the city on 29 June 2026 for 2027, Wednesday 14 to Sunday 18 July, a week before the Fêtes de la Madeleine.
+      checked_at: "2026-10-08"
+  notes: >-
+    Still Wednesday to Sunday, but recent editions are in mid-July rather than early August as the 2010 fiche says. Dates are set each year by the city.
+review_status: unreviewed

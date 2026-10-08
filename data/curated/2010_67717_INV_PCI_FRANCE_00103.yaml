@@ -1,0 +1,20 @@
+id: 2010_67717_INV_PCI_FRANCE_00103
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval)
+summary:
+  fr: >-
+    Le Jeudi gras, les bouchers de Bazas promènent dans la ville des bœufs de race bazadaise décorés de fleurs, au son des fifres et tambours, avant un concours et un banquet.
+  en: >-
+    On the Thursday before Shrove Tuesday, the butchers of Bazas parade flower-decked Bazadaise oxen through town to fife and drum music, followed by a cattle contest and a banquet.
+  lang_review: draft
+places:
+  - {commune: Bazas, department: "33"}
+recurrence: {type: easter_offset, days: -52}
+timing:
+  confidence: high
+  evidence_quote: "Le jeudi qui précède le Mardi Gras (Jeudi Gras), Bazas célèbre son carnaval"
+  evidence_page: 2
+  notes: >-
+    Jeudi gras, five days before Mardi gras (Easter minus 47 days).
+review_status: unreviewed

@@ -1,0 +1,29 @@
+id: 2015_67717_INV_PCI_FRANCE_00371
+kind: event
+domain: >-
+  Pratiques sociales et festives (fête maritime, géants)
+summary:
+  fr: >-
+    Tous les deux ans, Boulogne-sur-Mer, premier port de pêche de France, célèbre le monde maritime pendant quatre jours : vieux gréements, groupes de musique de la mer, défilé costumé et géants Batisse et Zabelle.
+  en: >-
+    Every two years, Boulogne-sur-Mer, France's leading fishing port, celebrates the maritime world for four days: tall ships, sea-music bands, a costumed parade and the giants Batisse and Zabelle.
+  lang_review: draft
+places:
+  - {commune: Boulogne-sur-Mer, department: "62"}
+recurrence: {type: nth_weekday, month: 7, weekday: 0, n: 1, from_day: 13, offset_days: -3, duration_days: 4, every_years: 2, reference_year: 2026}
+timing:
+  confidence: medium
+  evidence_quote: "Tous les deux ans à la mi-juillet, durant quatre jours, la Côte d'Opale célèbre le monde maritime à Boulogne-sur-Mer"
+  evidence_page: 3
+  web_sources:
+    - url: https://www.festivalenfrance.com/festival/boulogne-fete-de-la-mer/2024
+      publisher: Festivals en France
+      says: The 2024 edition ran from 11 to 14 July 2024.
+      checked_at: "2026-10-08"
+    - url: https://www.lagazettefrance.fr/article/la-mer-a-l-honneur-a-boulogne-sur-mer-du-16-au-19-juillet
+      publisher: La Gazette France
+      says: The 12th edition (2026) ran from 16 to 19 July.
+      checked_at: "2026-10-08"
+  notes: >-
+    Even years, Thursday to Sunday in mid-July. The exact weekend is inferred from 2024 and 2026; the next edition (2028) has not been announced.
+review_status: unreviewed

@@ -1,0 +1,20 @@
+id: 2020_67717_INV_PCI_FRANCE_00471
+kind: event
+domain: >-
+  Pratiques sociales et festives ; rituels (Épiphanie)
+summary:
+  fr: >-
+    À Saint-Jean-de-Luz, la fête des Rois est une procession d'hiver issue de la Fête-Dieu : trois jeunes garçons costumés en Rois mages, un page et un ange porteur d'étoile défilent en ville puis dans l'église, pendant les vêpres.
+  en: >-
+    In Saint-Jean-de-Luz, the Kings' feast is a winter procession derived from Corpus Christi: three boys dressed as the Magi, a page and an angel carrying a star walk through the town and into the church during vespers.
+  lang_review: draft
+places:
+  - {commune: Saint-Jean-de-Luz, department: "64"}
+recurrence: {type: nth_weekday, month: 1, weekday: 0, n: 1}
+timing:
+  confidence: medium
+  evidence_quote: "La fête, qui se déroule le premier dimanche après-midi de janvier, commence par l’habillage."
+  evidence_page: 5
+  notes: >-
+    First Sunday of January, in the afternoon (vespers of Epiphany Sunday).
+review_status: unreviewed

@@ -1,0 +1,25 @@
+id: 2024_67717_INV_PCI_FRANCE_00545
+kind: event
+domain: >-
+  Rituels (procession)
+summary:
+  fr: >-
+    Après une messe de minuit, les pèlerins de Magnac-Laval parcourent de nuit puis de jour une boucle de neuf lieues (environ 53 km) jalonnée de croix fleuries, en l'honneur de saint Maximin, avant de revenir à l'église le soir.
+  en: >-
+    After a midnight mass, pilgrims from Magnac-Laval walk through the night and the following day along a nine-league loop (about 53 km) lined with flower-decked crosses, in honour of Saint Maximin, returning to the church in the evening.
+  lang_review: draft
+places:
+  - {commune: Magnac-Laval, department: "87"}
+recurrence: {type: easter_offset, days: 50}
+timing:
+  confidence: high
+  evidence_quote: "La procession de Neuf lieues a lieu chaque année le lundi de la Pentecôte."
+  evidence_page: 4
+  web_sources:
+    - url: https://en.visitlimousin.com/stay/events-in-haute-vienne/haute-vienne-events-calendar-in-limousin/procession-de-neuf-lieues-magnac-laval-en-6338794
+      publisher: Limousin tourism board
+      says: Lists the procession on Monday 25 May 2026 (Whit Monday).
+      checked_at: "2026-10-08"
+  notes: >-
+    Starts in the night after Pentecost Sunday and ends on the evening of Whit Monday.
+review_status: unreviewed

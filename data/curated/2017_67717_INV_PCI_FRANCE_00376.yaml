@@ -1,0 +1,16 @@
+id: 2017_67717_INV_PCI_FRANCE_00376
+kind: practice
+domain: >-
+  Savoir-faire liés à l'artisanat traditionnel ; connaissances de la nature ; pratiques festives
+summary:
+  fr: >-
+    La yole ronde est une embarcation à voile sans quille, construite et menée en Martinique ; les équipiers « dresseurs » la tiennent en équilibre en se déplaçant sur de longs bois leviers, lors de régates très suivies.
+  en: >-
+    The yole ronde is a keelless sailing boat built and raced in Martinique; crew members called dresseurs keep it upright by moving out along long wooden levers, in regattas followed across the island.
+  lang_review: draft
+places:
+  - {commune: Le François, department: "972"}
+  - {department: "972", label: "Martinique"}
+recurrence: null
+timing: null
+review_status: unreviewed

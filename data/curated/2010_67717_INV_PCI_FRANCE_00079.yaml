@@ -1,0 +1,20 @@
+id: 2010_67717_INV_PCI_FRANCE_00079
+kind: event
+domain: >-
+  Rituels (fête des morts)
+summary:
+  fr: >-
+    À Paris, la communauté mexicaine célèbre le jour des Morts avec des autels d'offrandes ornés de fleurs, de photos, de pain des morts et de crânes en sucre.
+  en: >-
+    In Paris, the Mexican community celebrates the Day of the Dead with offering altars decorated with flowers, photographs, bread of the dead and sugar skulls.
+  lang_review: draft
+places:
+  - {commune: Paris, department: "75"}
+recurrence: {type: fixed, month: 11, day: 1, duration_days: 2}
+timing:
+  confidence: medium
+  evidence_quote: "L’expression dia de los muertos indique les fêtes de la Toussaint et des morts du 1er et du 2 novembre."
+  evidence_page: 2
+  notes: >-
+    1-2 November. Public events in Paris (altars, exhibitions) can start a few days earlier.
+review_status: unreviewed

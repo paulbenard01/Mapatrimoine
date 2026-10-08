@@ -1,0 +1,20 @@
+id: 2014_67717_INV_PCI_FRANCE_00359
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval)
+summary:
+  fr: >-
+    À Marie-Galante, une trentaine de charrettes décorées, tirées par des paires de bœufs, défilent sur une vingtaine de kilomètres à travers la campagne et le bourg de Saint-Louis.
+  en: >-
+    On Marie-Galante, some thirty decorated carts drawn by pairs of oxen parade for about 22 km through the countryside and the town of Saint-Louis.
+  lang_review: draft
+places:
+  - {commune: Saint-Louis, department: "971", label: "Saint-Louis (Marie-Galante)"}
+recurrence: {type: easter_offset, days: -49}
+timing:
+  confidence: high
+  evidence_quote: "Chaque année, le dimanche précédant le Mardi gras, près de 30 charrettes décorées, tirées par une paire de bœufs, défilent"
+  evidence_page: 4
+  notes: >-
+    Dimanche gras, two days before Mardi gras.
+review_status: unreviewed

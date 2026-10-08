@@ -1,0 +1,20 @@
+id: 2013_67717_INV_PCI_FRANCE_00297
+kind: event
+domain: >-
+  Pratiques sociales et festives (quête, fête patronale)
+summary:
+  fr: >-
+    Avant la fête de la Saint-Jean, les jeunes du comité des fêtes de Labastide-Monréjeau font le tour des quartiers avec un tonnelet, le barricòt, et offrent un verre de vin aux habitants en échange d'une obole.
+  en: >-
+    Before the Saint John's festival, the young members of the Labastide-Monréjeau festival committee go round the village with a small barrel, the barricòt, offering residents a glass of wine in exchange for a donation.
+  lang_review: draft
+places:
+  - {commune: Labastide-Monréjeau, department: "64"}
+recurrence: {type: fixed, month: 6, day: 24}
+timing:
+  confidence: medium
+  evidence_quote: "La fête du village se déroule chaque année autour du 24 juin"
+  evidence_page: 2
+  notes: >-
+    The village festival is held around Saint John's Day (Friday to Sunday); the barricòt rounds take place on the preceding weekends.
+review_status: unreviewed

@@ -1,0 +1,22 @@
+# Hard rule: never commit raw fiches or full extracted text (see CLAUDE.md, DATA_NOTICE.md)
+data/raw/
+data/text/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+web/dist/
+web/test-results/
+web/playwright-report/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

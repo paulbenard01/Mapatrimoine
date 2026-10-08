@@ -1,0 +1,4899 @@
+{
+"source": "data/index.json",
+"count": 543,
+"elements": [
+{
+"id": "2010_67717_INV_PCI_FRANCE_00114",
+"title_fr": "La fête des Bergers à Aramits (Pyrénées-Atlantiques) / Hésta deus Aulhèrs",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-hesta-deus-aulhers-la-fete-des-bergers"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00096",
+"title_fr": "Le patrimoine culturel immatériel à Blanquefort-sur-Briolance (Lot-et-Garonne)",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-PCI-a-Blanquefort-sur-Briolance"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00097",
+"title_fr": "Le carnaval des Deux-Rives à Bordeaux (Gironde)",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-des-deux-rives"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00050",
+"title_fr": "Le carnaval de Géronce (Pyrénées-Atlantiques)",
+"themes": [
+"social-festive"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-de-Geronce"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00098",
+"title_fr": "Le carnaval de Périgueux (Dordogne) / Carnaval de Peirigüers",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-de-Peirigueers-Carnaval-de-Perigueux"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00099",
+"title_fr": "Le carnaval de Brantôme (Dordogne) / Carnaval es arribat",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-es-arribat"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00100",
+"title_fr": "Le carnaval de Monsempron-Libos (Lot-et-Garonne)",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-de-Monsempon-Libos"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00133",
+"title_fr": "Les foires de la Latière à Saint-Aulaye (Dordogne)",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Foire-de-La-Latiere"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00118",
+"title_fr": "La foire d'Ousse-Suzan (Landes) / Assemblada d'Ossa Susan",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-assemblada-d-Ossa-Susan-Ousse-Suzan"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00094",
+"title_fr": "Les soufflaculs de Nontron (Dordogne) / Los soflaculs de Nontron",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Los-soflacus-de-Nontron-Les-Soufflaculs-de-Nontron"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00103",
+"title_fr": "La promenade des boeufs gras de Bazas (Gironde) / Passejada deus bueus gras de Vasats",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Passejada-deus-bueus-gras-Vasats"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00104",
+"title_fr": "La fête de la Saint-Jean à Bazas (Gironde)",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-Saint-Jean-de-Bazas"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00142",
+"title_fr": "Les mais et mayades de Clermont, Donzacq, Narosse, Saint-Jean-de-Marsacq, Saint-Vincent-de-Tyrosse et Saubion (Landes) / Mais e maiadas",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/mais-e-maiadas-mais-et-mayades"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00143",
+"title_fr": "Le carnaval à la classe d'Amou (Landes)",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-de-la-classe-d-Amou"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00116",
+"title_fr": "Les fêtes de Bayonne (Pyrénées-Atlantiques) / Hèstas de Baiona",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Hestas-de-Baiona-Fetes-de-Bayonne"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00111",
+"title_fr": "La torrèle de Capbreton (Landes) / La torrèla de Cap Berton",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-torrela-de-Cap-Breton-La-torrede-de-Capbreton"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00110",
+"title_fr": "Les feux de Noël en Bazadais (Gironde) / Halhas de Nadau en Vasadés",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Las-halhas-de-Nadau-en-Vasades-Les-feux-de-Noel-Bazadais"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00093",
+"title_fr": "Les rites autour du mégalithe de Pierrefitte (Saint-Sulpice-de-Faleyrens, Gironde)",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-megalithe-de-Pierrefitte"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00108",
+"title_fr": "Les fêtes de Notre-Dame de Laruns (Pyrénées-Atlantiques) / Hèstas de Noste Dama de Laruntz",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Notre-Dame-de-Laruns"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00340",
+"title_fr": "Le fest-noz",
+"themes": [
+"social-festive"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Fest-Noz"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00117",
+"title_fr": "Les fêtes de Dax (Landes) / Hèstas de Dacs",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Hestas-de-Dacs-Fetes-de-Dax"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00042",
+"title_fr": "La galette des Rois mexicaine à Paris / Rosca de Reyes",
+"themes": [
+"social-festive"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Rosca-de-Reyes"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00314",
+"title_fr": "Le biou d'Arbois (Jura)",
+"themes": [
+"social-festive",
+"rituals"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Biou"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00321",
+"title_fr": "Le carnaval de Granville (Manche)",
+"themes": [
+"social-festive"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-Granville"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00345",
+"title_fr": "Le carnaval de Manthelan (Indre-et-Loire)",
+"themes": [
+"social-festive"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Manthelan"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00349",
+"title_fr": "Les fêtes de l'Ours du Haut-Vallespir (Pyrénées-Orientales)",
+"themes": [
+"social-festive"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-l-ours"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00359",
+"title_fr": "Le carnaval de charrettes de Marie-Galante (Guadeloupe) / Carnaval en kabwet",
+"themes": [
+"social-festive"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-en-Kabwet"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00371",
+"title_fr": "La fête de la Mer à Boulogne-sur-Mer (Pas-de-Calais)",
+"themes": [
+"social-festive"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boulogne"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00322",
+"title_fr": "Le carnaval de Cassel (Nord)",
+"themes": [
+"social-festive"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Cassel"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00350",
+"title_fr": "Les fêtes de Gayant à Douai (Nord)",
+"themes": [
+"social-festive"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Douai"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00323",
+"title_fr": "La fête de la Matelote à Grand-Fort-Philippe (Nord)",
+"themes": [
+"social-festive"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Grand-Fort-Philippe"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00351",
+"title_fr": "Le carnaval de Lesquin (Nord)",
+"themes": [
+"social-festive"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Lesquin"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00352",
+"title_fr": "Le carnaval de Lomme (Nord)",
+"themes": [
+"social-festive"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Lomme"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00324",
+"title_fr": "Le carnaval international d'été de Steenvoorde (Nord) et la ronde européenne des Géants",
+"themes": [
+"social-festive"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Steenvoorde"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00325",
+"title_fr": "La journée Stop à Steenwerck (Nord)",
+"themes": [
+"social-festive"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Steenwerke"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00353",
+"title_fr": "Le cortège de la Saint-Nicolas à Villeneuve-d'Ascq (Nord)",
+"themes": [
+"social-festive"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Villeneuve-d-Ascq"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00354",
+"title_fr": "Le carnaval de Wormhout (Nord)",
+"themes": [
+"social-festive"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Wormhout"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00372",
+"title_fr": "Le pourim shpil",
+"themes": [
+"social-festive"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Pourim-Shpil"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00355",
+"title_fr": "La danse du lion asiatique en Île-de-France",
+"themes": [
+"social-festive"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-danse-du-lion-asiatique-en-Ile-de-France"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00296",
+"title_fr": "La fête de la Cerise à Itxassou (Pyrénées-Atlantiques)",
+"themes": [
+"social-festive"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Cerise-a-Itxassou"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00330",
+"title_fr": "La fête du Piment à Espelette (Pyrénées-Atlantiques)",
+"themes": [
+"social-festive"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-du-Piment-d-Espelette"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00297",
+"title_fr": "La quête de la Saint-Jean-Baptiste, ou barricot, à Labastide-Monréjeau (Pyrénées-Atlantiques)",
+"themes": [
+"social-festive"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-barricot-a-Labastide-Monrejeau"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00151",
+"title_fr": "Les fêtes de la Mer à Capbreton (Landes)",
+"themes": [
+"social-festive"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Capbreton"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00298",
+"title_fr": "Les fêtes de la Mer à Saint-Jean-de-Luz (Pyrénées-Atlantiques)",
+"themes": [
+"social-festive"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Saint-Jean-de-Luz"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00295",
+"title_fr": "Les sérénades de Montaner (Pyrénées-Atlantiques)",
+"themes": [
+"social-festive"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-serenades-de-Montaner"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00257",
+"title_fr": "Le carnaval de Limoux (Aude)",
+"themes": [
+"social-festive"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Limoux"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00382",
+"title_fr": "La culture vivante de la fête foraine",
+"themes": [
+"social-festive"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-culture-vivante-de-la-fete-foraine"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00083",
+"title_fr": "La piñata",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-pinata"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00115",
+"title_fr": "Les fêtes et festayres / Hèstas e hestaires",
+"themes": [
+"social-festive"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-et-festayres"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00389",
+"title_fr": "Le carnaval de Guyane avec le touloulou du bal paré-masqué",
+"themes": [
+"social-festive"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Cayenne-avec-le-touloulou-du-bal-pare-masque"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00395",
+"title_fr": "Les fêtes de Jeanne d'Arc à Orléans (Loiret)",
+"themes": [
+"social-festive"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Jeanne-d-Arc-a-Orleans"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00402",
+"title_fr": "Le senibelet de Gignac (Hérault)",
+"themes": [
+"social-festive"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-senibelet-de-Gignac-avec-l-Ane"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00397",
+"title_fr": "La fête-Dieu au Pays basque / Besta Berri",
+"themes": [
+"social-festive"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-Dieu-au-Pays-basque-Besta-Berri"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00400",
+"title_fr": "Les tournées du carnaval labourdin (Pyrénées-Atlantiques)",
+"themes": [
+"social-festive"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-tournees-du-carnaval-labourdin"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00401",
+"title_fr": "La parade charivarique en Basse-Navarre et Labourd (Pyrénées-Atlantiques) / Kabalkada ou Toberak",
+"themes": [
+"social-festive"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-parade-charivarique-en-Basse-Navarre-et-Labourd-Kabalkada-ou-Toberak"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00414",
+"title_fr": "Les fêtes de Saint-Nicolas à Nancy (Meurthe-et-Moselle)",
+"themes": [
+"social-festive"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Saint-Nicolas-a-Nancy"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00419",
+"title_fr": "Les fêtes à charrettes entre Alpilles et Durance",
+"themes": [
+"social-festive"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-a-charrettes-entre-Alpilles-et-Durance"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00420",
+"title_fr": "Les fêtes de Noël en Provence",
+"themes": [
+"social-festive"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Noel-en-Provence"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00421",
+"title_fr": "Les savoir-faire artisanaux associés au carnaval de Nice (Alpes-Maritimes)",
+"themes": [
+"social-festive"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-artisanaux-associes-au-carnaval-de-nice2"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00422",
+"title_fr": "Les fêtes du Bœuf de Mèze (Hérault)",
+"themes": [
+"social-festive"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-du-Boeuf-de-Meze"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00423",
+"title_fr": "Le carnaval de Montblanc (Hérault)",
+"themes": [
+"social-festive"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Montblanc"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00424",
+"title_fr": "La fête du Tribus Lupis de Cournonterral (Hérault)",
+"themes": [
+"social-festive"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-du-Tribus-Lupis-de-Cournonterral"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00425",
+"title_fr": "Les fêtes de la Tarasque (Bouches-du-Rhône)",
+"themes": [
+"social-festive"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Tarasque"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00429",
+"title_fr": "Le carnaval de Pézenas (Hérault)",
+"themes": [
+"social-festive"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Pezenas"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00430",
+"title_fr": "La fête de la Saint-Laurent à Bessan (Hérault)",
+"themes": [
+"social-festive"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Saint-Laurent-et-l-Ane-de-Bessan"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00432",
+"title_fr": "La fête de la Sainte-Agathe à Saint-Pierre-d'Albigny (Savoie)",
+"themes": [
+"social-festive"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Sainte-Agathe-a-Saint-Pierre-d-Albigny-dans-le-massif-des-Bauges"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00445",
+"title_fr": "Les fêtes des bouviers et des laboureurs de la Drôme",
+"themes": [
+"social-festive"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-fetes-des-bouviers-et-des-laboureurs-de-la-drome.pdf"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00448",
+"title_fr": "Les fêtes de la vigne et du vin en basse vallée du Rhône",
+"themes": [
+"social-festive"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-fetes-de-la-vigne-et-du-vin-en-basse-vallee-du-rhone.pdf"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00449",
+"title_fr": "La fête du Citron de Menton",
+"themes": [
+"social-festive"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-du-citron-de-menton.pdf"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00450",
+"title_fr": "La fête des Olives vertes de Mouriès",
+"themes": [
+"social-festive"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-olives-vertes-de-mouries.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00471",
+"title_fr": "La fête des Rois à Saint-Jean-de-Luz",
+"themes": [
+"social-festive"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-rois-a-saint-jean-de-luz.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00472",
+"title_fr": "La tradition des bœufs gras à Bayonne",
+"themes": [
+"social-festive"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-tradition-des-boeufs-gras-a-bayonne.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00473",
+"title_fr": "Les célébrations de Libertimendua et de Santibate",
+"themes": [
+"social-festive"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-celebrations-de-libertimendua-et-santibate.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00474",
+"title_fr": "Les fêtes des Fleurs dans les stations thermales des Pyrénées",
+"themes": [
+"social-festive"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-fetes-des-fleurs-dans-les-stations-thermales-des-pyrenees.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00475",
+"title_fr": "La tradition carnavalesque de la Zan Pantzar (Saint Pansart) en Pays basque",
+"themes": [
+"social-festive"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-tradition-carnavalesque-de-zan-pantzar-en-pays-basque.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00479",
+"title_fr": "Le Yennayer, Nouvel An berbère en région Île-de-France",
+"themes": [
+"social-festive"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-yennayer-nouvel-an-berbere.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00486",
+"title_fr": "La fête des conscrits à Villefranche-sur-Saône et en son bassin de vie du Beaujolais / Val de Saône",
+"themes": [
+"social-festive"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-conscrits-a-villefranche-sur-saone-et-en-son-bassin-de-vie.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00488",
+"title_fr": "Chants de labour dans les pratiques et rituels du charronnage ancestral sur l’île de Marie-Galante (Guadeloupe)",
+"themes": [
+"social-festive"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/chants-de-labour-dans-les-pratiques-et-rituels-du-charronnage-ancestral-sur-l-ile-de-marie-galante-guadeloupe-.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00491",
+"title_fr": "Les festivals de tango en France",
+"themes": [
+"social-festive"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/festivals-de-tango-en-france.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00492",
+"title_fr": "Les milongas (bals tango) en France",
+"themes": [
+"social-festive"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/milongas-bal-tango-en-france.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00502",
+"title_fr": "Pratiques des prud'homies de pêche en Méditerranée",
+"themes": [
+"social-festive"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/pratiques-des-prud-homies-de-peche-en-mediterranee"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00512",
+"title_fr": "Rigodon, musique et danse",
+"themes": [
+"social-festive"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/rigodon-musique-et-danse"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00515",
+"title_fr": "Lo Cese de Montaren fête inventée et figure totémic du Pois Chiche à Montaren-et-Saint-Médiers (Gard)",
+"themes": [
+"social-festive"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/lo-cese-de-montaren-fete-inventee-et-figure-totemique-du-pois-chiche-a-montaren-et-saint-mediers-gard"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00514",
+"title_fr": "Le carnaval de Pornic",
+"themes": [
+"social-festive"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/carnaval-de-pornic"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00517",
+"title_fr": "La danse des Treilles à Beziers et dans le Languedoc",
+"themes": [
+"social-festive"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-danse-des-treilles-a-beziers-et-dans-le-languedoc"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00518",
+"title_fr": "Le bal tamoul",
+"themes": [
+"social-festive"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-bal-tamoul"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00521",
+"title_fr": "Le carnaval de Nantes",
+"themes": [
+"social-festive"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-carnaval-de-nantes"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00522",
+"title_fr": "Les pratiques de sociabilités liées aux cercles en Provence",
+"themes": [
+"social-festive"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pratiques-de-sociabilites-liees-aux-cercles-en-provence"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00523",
+"title_fr": "La Sanch, processions des penitents du Vendredi saint en Roussillon (Pyrénées-Orientales)",
+"themes": [
+"social-festive",
+"rituals"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-sanch-processions-des-penitents-du-vendredi-saint-en-roussillon-pyrenees-orientales"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00526",
+"title_fr": "L’apprentissage et l’usage du braille",
+"themes": [
+"social-festive"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-apprentissage-et-l-usage-du-braille"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00527",
+"title_fr": "Les pratiques sociales et culturelles des Confréries oenogastronomiques en France",
+"themes": [
+"social-festive"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pratiques-sociales-et-culturelles-des-confreries-oenogastronomiques-en-france"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00528",
+"title_fr": "Mbiwi de Mayotte",
+"themes": [
+"social-festive"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/mbiwi-de-mayotte"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00529",
+"title_fr": "Récolte \"à l'ancienne\", entretien des vieux vergers et pressage des olives en Corse",
+"themes": [
+"social-festive"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/recolte-a-l-ancienne-entretien-des-vieux-vergers-et-pressage-des-olives-en-corse"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00530",
+"title_fr": "La sonnerie de cloches par tintement manuel dite \"banc du sonneur\", coptée ou trézolage",
+"themes": [
+"social-festive"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-sonnerie-de-cloches-par-tintement-manuel-dite-banc-du-sonneur-coptee-ou-trezolage"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00538",
+"title_fr": "Les pratiques sociales et culturelles dans les Bistrots et Cafés en France",
+"themes": [
+"social-festive"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pratiques-sociales-et-culturelles-dans-les-bistrots-et-cafes-en-france"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00544",
+"title_fr": "Véyé asi granfon, jeux et traditions de veillée funéraire des Grands-Fonds (Guadeloupe)",
+"themes": [
+"social-festive"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/veye-asi-granfon-jeux-et-traditions-de-veillee-funeraire-des-grands-fonds-guadeloupe"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00549",
+"title_fr": "La démoscène en France : un mouvement de création numérique populaire spontané",
+"themes": [
+"social-festive"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-demoscene-en-france-un-mouvement-de-creation-numerique-populaire-spontane"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00550",
+"title_fr": "L'Affouage",
+"themes": [
+"social-festive"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-affouage"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00560",
+"title_fr": "Le Carnaval à l’Ouest de Scaër",
+"themes": [
+"social-festive"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-carnaval-a-l-ouest-de-scaer"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00555",
+"title_fr": "Les comices agricoles du Doubs",
+"themes": [
+"social-festive"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-comices-agricoles-du-doubs"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00558",
+"title_fr": "Les musiques électroniques françaises",
+"themes": [
+"social-festive"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-musiques-electroniques-francaises"
+},
+{
+"id": "2026_67717_INV_PCI_FRANCE_00564",
+"title_fr": "Le pèlerinage de Sainte-Solange",
+"themes": [
+"social-festive"
+],
+"year_included": 2026,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-pelerinage-de-sainte-solange"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00089",
+"title_fr": "La pratique du conte occitan en Périgord",
+"themes": [
+"oral"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-pratique-du-conte-occitan-en-Perigord"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00090",
+"title_fr": "La pratique du conte occitan en Lot-et-Garonne",
+"themes": [
+"oral"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-pratique-du-conte-occitan-en-Lot-et-Garonne"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00092",
+"title_fr": "La pratique théâtrale en occitan à Daglan (Dordogne)",
+"themes": [
+"oral"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-pratique-theatrale-en-occitan-a-Daglan"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00311",
+"title_fr": "Les veillées de café en Bretagne",
+"themes": [
+"oral"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-veillees-de-cafe-en-Bretagne"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00312",
+"title_fr": "Les veillées du Trégor",
+"themes": [
+"oral"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-veillees-du-Tregor"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00390",
+"title_fr": "Le conte traditionnel de la Réunion / Rakontaz zistoir la Renion",
+"themes": [
+"oral"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-conte-traditionnel-de-la-Reunion-Rakontaz-zistoir-la-Renion"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00493",
+"title_fr": "Le seloo ou selo, chant polyphonique de Hnyei Iaai-Ouvéa, îles Loyauté (Nouvelle-Calédonie)",
+"themes": [
+"oral"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-seloo-ou-selo-chant-polyphonique-de-hnyei-iaai-ouvea-iles-loyaute-nouvelle-caledonie-.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00494",
+"title_fr": "L’Anethem, chant polyphonique des Îles de la Loyauté (Nouvelle-Calédonie)",
+"themes": [
+"oral"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-anethem-chant-polyphonique-des-iles-de-la-loyaute-nouvelle-caledonie-.pdf"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00516",
+"title_fr": "Bertsolaritza, le bertsularisme, joute verbale improvisée au Pays Basque",
+"themes": [
+"oral"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/bertsolaritza-le-bertsularisme-joute-verbale-improvisee-au-pays-basque"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00519",
+"title_fr": "Les jeux floraux de Toulouse et leur fête des fleurs",
+"themes": [
+"oral"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-jeux-floraux-de-toulouse-et-leur-fete-des-fleurs"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00542",
+"title_fr": "Le chant de marin",
+"themes": [
+"oral"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-chant-de-marin"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00556",
+"title_fr": "Chjam'è rispondi, joutes poétiques improvisées et chantées (Corse)",
+"themes": [
+"oral"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/chjam-e-rispondi-joutes-poetiques-improvisees-et-chantees-corse"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00069",
+"title_fr": "La fauconnerie française",
+"themes": [
+"physical"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fauconnerie-francaise"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00037",
+"title_fr": "L'équitation de tradition française",
+"themes": [
+"physical"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-equitation-de-tradition-francaise-Le-Cadre-Noir-de-Saumur"
+},
+{
+"id": "2011_67717_INV_PCI_FRANCE_00150",
+"title_fr": "La course camarguaise",
+"themes": [
+"physical"
+],
+"year_included": 2011,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-course-camarguaise"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00158",
+"title_fr": "La pelote basque à main nue en trinquet",
+"themes": [
+"physical",
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Pelote-basque-a-main-nue-en-trinquet"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00328",
+"title_fr": "La savate boxe française",
+"themes": [
+"physical"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-savate"
+},
+{
+"id": "2016_67717_INV_PCI_FRANCE_00374",
+"title_fr": "Le jeu de boules parisien",
+"themes": [
+"physical"
+],
+"year_included": 2016,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-boules-parisien"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00361",
+"title_fr": "Le bouquet provincial des archers",
+"themes": [
+"physical"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-bouquet-provincial-des-archers"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00362",
+"title_fr": "Le tir beursault",
+"themes": [
+"physical"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-tir-beursault"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00360",
+"title_fr": "L'alpinisme",
+"themes": [
+"physical"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-alpinisme"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00271",
+"title_fr": "Le jeu de courte paume",
+"themes": [
+"physical",
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-courte-paume"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00243",
+"title_fr": "La colombophilie",
+"themes": [
+"physical"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-colombophilie"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00246",
+"title_fr": "Le tir à la perche verticale",
+"themes": [
+"physical"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-tir-a-la-perche-verticale"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00282",
+"title_fr": "Les rames traditionnelles",
+"themes": [
+"physical"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-rames-traditionnelles"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00244",
+"title_fr": "Les joutes arrageoises",
+"themes": [
+"physical"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-joutes-arrageoises"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00274",
+"title_fr": "Les joutes languedociennes",
+"themes": [
+"physical"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-joutes-languedociennes"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00275",
+"title_fr": "Les joutes nautiques : méthodes givordine et lyonnaise",
+"themes": [
+"physical"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-joutes-nautiques-methodes-givordine-et-lyonnaise"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00276",
+"title_fr": "Les joutes nautiques : méthodes parisienne, accoloise et clamecycoise",
+"themes": [
+"physical"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-joutes-nautiques-methodes-parisienne-accoloise-et-clamecycoise"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00376",
+"title_fr": "La yole ronde de la Martinique",
+"themes": [
+"physical",
+"know-how"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-yole-ronde-de-la-Martinique"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00412",
+"title_fr": "L'art de la navigation sous voile latine",
+"themes": [
+"physical"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-art-de-la-navigation-sous-voile-latine"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00462",
+"title_fr": "La course landaise",
+"themes": [
+"physical"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-course-landaise.pdf"
+},
+{
+"id": "2026_67717_INV_PCI_FRANCE_00563",
+"title_fr": "Pratique de la navigation à voile carrée sur la Loire et les rivières affluentes",
+"themes": [
+"physical"
+],
+"year_included": 2026,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/pratique-de-la-navigation-a-voile-carree-sur-la-loire"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00040",
+"title_fr": "Le maloya de la Réunion",
+"themes": [
+"performing-arts"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-maloya"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00339",
+"title_fr": "Les chants et complaintes de Bretagne",
+"themes": [
+"performing-arts"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Chnats-et-complaintes-de-Bretagne"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00310",
+"title_fr": "La pratique du violon des sonneurs et musiciens de groupe en Bretagne",
+"themes": [
+"performing-arts"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-violon-en-Bretagne"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00335",
+"title_fr": "La pratique de l'accordéon des sonneurs et musiciens de groupe en Bretagne",
+"themes": [
+"performing-arts"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/accordeon-en-bretagne"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00336",
+"title_fr": "Le concours de chant de la bogue d'Or en Haute-Bretagne",
+"themes": [
+"performing-arts"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-concours-de-chant-de-la-bogue-d-or"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00337",
+"title_fr": "Le chant à répondre en Bretagne",
+"themes": [
+"performing-arts"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Chant-a-repondre"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00338",
+"title_fr": "Les concours de sonneurs en Bretagne",
+"themes": [
+"performing-arts"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Concours-de-sonneurs"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00358",
+"title_fr": "La sonnerie de bassins en Bretagne et en Vendée",
+"themes": [
+"performing-arts"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-sonnerie-de-bassins-en-Bretagne-et-en-Vendee"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00001",
+"title_fr": "Le versu composite de Carbuccia",
+"themes": [
+"performing-arts"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/VERSU-COMPOSITE-DE-CARBUCCIA"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00002",
+"title_fr": "Le versu composite de Nebbiu",
+"themes": [
+"performing-arts"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/VERSU-COMPOSITE-DU-NEBBIU"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00003",
+"title_fr": "Le versu entier de Sermanu",
+"themes": [
+"performing-arts"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/VERSU-ENTIER-DE-SERMANU"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00284",
+"title_fr": "Le gwoka de la Guadeloupe",
+"themes": [
+"performing-arts"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Gwoka"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00326",
+"title_fr": "Le bouladjel de la Guadeloupe",
+"themes": [
+"performing-arts"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Bouladjel"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00315",
+"title_fr": "La pratique de la cornemuse de Gascogne / Boha",
+"themes": [
+"performing-arts",
+"know-how"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-boha-Cornemuse-de-Gascogne"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00285",
+"title_fr": "La pastorale souletine (Pyrénées-Atlantiques)",
+"themes": [
+"performing-arts"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Pastorale-souletine"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00047",
+"title_fr": "Le balèt de Tende (Alpes-Maritimes)",
+"themes": [
+"performing-arts"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-balet"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00043",
+"title_fr": "La courent de Tende (Alpes-Maritimes) / Courenta",
+"themes": [
+"performing-arts"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Courent-e-Groupe-folklorique-du-Vieux-Tende"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00086",
+"title_fr": "Les chants polyphoniques de Tende (Alpes-Maritimes)",
+"themes": [
+"performing-arts"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Chants-polyphoniques-de-Tende"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00044",
+"title_fr": "La pratique de l'accordéon chromatique, ou fisarmonica",
+"themes": [
+"performing-arts"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-accordeon-chromatique"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00113",
+"title_fr": "Les bals traditionnels en Aquitaine",
+"themes": [
+"performing-arts"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Bals-traditionnels-en-Aquitaine"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00055",
+"title_fr": "Le rondeau occitan / Rondèu",
+"themes": [
+"performing-arts"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Rondeu-Rondeau"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00056",
+"title_fr": "La banda",
+"themes": [
+"performing-arts"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Banda"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00112",
+"title_fr": "La polyphonie des Pyrénées gasconnes",
+"themes": [
+"performing-arts"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-polyphonie-dans-les-Pyrenees-gasconnes"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00292",
+"title_fr": "La culture du carillon",
+"themes": [
+"performing-arts"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-culture-du-carillon"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00357",
+"title_fr": "L'art des sonneurs de trompe",
+"themes": [
+"performing-arts"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-art-des-sonneurs-de-trompe"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00356",
+"title_fr": "Le chant polyphonique géorgien en Île-de-France",
+"themes": [
+"performing-arts"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Chant-polyphonique-georgien"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00373",
+"title_fr": "La danse bacchu-ber dans le Briançonnais",
+"themes": [
+"performing-arts"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-danse-Bacchu-ber"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00294",
+"title_fr": "Le flamenco dans le sud-ouest de la France",
+"themes": [
+"performing-arts"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-flamenco-dans-le-sud-ouest-de-la-France"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00375",
+"title_fr": "La djèliya mandingue en Île-de-France",
+"themes": [
+"performing-arts"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-djeliya-mandingue-en-Ile-de-France"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00304",
+"title_fr": "Le chant à la marche en Haute-Bretagne",
+"themes": [
+"performing-arts"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-chant-a-la-marche-en-Haute-Bretagne"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00308",
+"title_fr": "Le chant et contre-chant breton / Kan ha diskan",
+"themes": [
+"performing-arts"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-chant-et-contre-chant-breton-ou-Kan-ha-diskan"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00307",
+"title_fr": "Le repas chanté en Bretagne / Kan en davarn",
+"themes": [
+"performing-arts"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-repas-chante-en-Bretagne-ou-Kan-en-davarn"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00306",
+"title_fr": "Les chants de comptoir en Bretagne / Kan ba'r bistro",
+"themes": [
+"performing-arts"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-chants-de-comptoir-ou-Kan-ba-r-bistro"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00305",
+"title_fr": "Les chants de quête en Haute-Bretagne",
+"themes": [
+"performing-arts"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-chants-de-quete-en-Haute-Bretagne"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00309",
+"title_fr": "Les randonnées chantées, sonnées et contées en Bretagne",
+"themes": [
+"performing-arts"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-randonnees-chantees-sonnees-et-contees-en-Bretagne"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00383",
+"title_fr": "L'école française du mime",
+"themes": [
+"performing-arts"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-ecole-francaise-du-mime"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00387",
+"title_fr": "Le 'Ori, pratique artistique, sociale et culturelle de Tahiti et des îles de la Société",
+"themes": [
+"performing-arts"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Ori-pratique-artistique-sociale-et-culturelle-de-Tahiti-et-des-iles-de-la-Societe"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00388",
+"title_fr": "Les traditions aluku de musiques dansées et de parler en musique",
+"themes": [
+"performing-arts"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-traditions-aluku-de-musiques-dansees-et-de-parler-en-musique"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00396",
+"title_fr": "La pratique de la cabrette, ou musette",
+"themes": [
+"performing-arts"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-pratique-de-la-cabrette-ou-musette"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00398",
+"title_fr": "Les pratiques des maîtres à danser et des écoles de danse en Soule (Pyrénées-Atlantiques)",
+"themes": [
+"performing-arts"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-pratiques-des-maitres-a-danser-et-des-ecoles-de-danse-en-Soule"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00399",
+"title_fr": "L'art du metteur en scène de pastorale en Soule (Pyrénées-Atlantiques) / Errejent",
+"themes": [
+"performing-arts"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-art-du-metteur-en-scene-Errejent-de-pastorale-en-Soule"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00426",
+"title_fr": "Les danses géorgiennes en Île-de-France",
+"themes": [
+"performing-arts"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-danses-georgiennes-en-Ile-de-France"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00433",
+"title_fr": "Le fado en Île-de-France",
+"themes": [
+"performing-arts"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-fado-en-Ile-de-France"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00458",
+"title_fr": "La gavotte de Basse-Bretagne",
+"themes": [
+"performing-arts"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-gavotte-de-basse-bretagne.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00464",
+"title_fr": "Le séga de l’île de la Réunion",
+"themes": [
+"performing-arts"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-sega-de-l-ile-de-la-reunion.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00480",
+"title_fr": "La danse de la marinera en Île-de-France",
+"themes": [
+"performing-arts"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/fiche-la-danse-de-la-marinera-en-ile-de-france.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00496",
+"title_fr": "La danse d'épées de Dunkerque",
+"themes": [
+"performing-arts"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-danse-d-epees-de-dunkerque.pdf"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00509",
+"title_fr": "Le théâtre en langue savoyarde (Savoie, Haute-Savoie)",
+"themes": [
+"performing-arts"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-theatre-en-langue-savoyarde-savoie-haute-savoie"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00547",
+"title_fr": "Le Debaa des femmes (Mayotte)",
+"themes": [
+"performing-arts"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-debaa-des-femmes-mayotte"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00553",
+"title_fr": "Les quadrilles créoles de Guadeloupe",
+"themes": [
+"performing-arts"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-quadrilles-creoles-de-guadeloupe"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00101",
+"title_fr": "La fête des Jeux anciens de Sarlat-la-Canéda (Dordogne) / Ringueta",
+"themes": [
+"games"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-Ringueta"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00170",
+"title_fr": "La lutte bretonne / Gouren",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Gouren"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00234",
+"title_fr": "Le jeu de Quistinic (Morbihan)",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Jeu-de-Quistinic"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00236",
+"title_fr": "Les jeux nautiques en Bretagne",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Jeux-nautiques-bretons"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00235",
+"title_fr": "Le lancer de sabot de Pont-Aven (Finistère) / Le lancer du boutou coat",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Lancer-du-boutou-coat"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00239",
+"title_fr": "La boule ar Mestr",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-ar-Mestr"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00171",
+"title_fr": "La boule bernérienne",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-bernerienne"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00172",
+"title_fr": "La boule bretonne des Côtes-d'Armor",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-bretonne-des-Cotes-d-Armor"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00173",
+"title_fr": "La boule bretonne à un plomb",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-bretonne-a-un-plomb"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00174",
+"title_fr": "La boule concelloise",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-concelloise"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00175",
+"title_fr": "La boule de fort du Val-de-Loire",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-boule-de-fort-des-pays-de-la-Loire"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00176",
+"title_fr": "La boule de sable de Maine-et-Loire",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-boule-de-sable-des-pays-de-la-Loire"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00177",
+"title_fr": "La boule de sable du Pays nantais",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-de-sable-du-Pays-Nantais"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00178",
+"title_fr": "La boule nantaise",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-nantaise"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00179",
+"title_fr": "La boule oudonnaise",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-oudonnaise"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00180",
+"title_fr": "La boule sur terrain incurvé",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-terrain-incurve"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00181",
+"title_fr": "La boule sur terrain plat",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-terrain-plat"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00182",
+"title_fr": "La boule tharonnaise",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-tharonnaise"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00183",
+"title_fr": "Les boules bretonnes du Morbihan",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boules-bretonnes-56"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00184",
+"title_fr": "Les boules plombées du pays de Morlaix",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boules-plombees"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00185",
+"title_fr": "Le boultenn",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boultenn"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00254",
+"title_fr": "La boule de fort de Châteauneuf-sur-Sarthe",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-boule-de-fort-de-Chateauneuf-sur-Sarthe"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00255",
+"title_fr": "La boule de sable des Pays-de-la-Loire",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-boule-de-sable-des-pays-de-la-Loire"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00199",
+"title_fr": "La galoche bigoudène",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-galoche-bigoudene"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00268",
+"title_fr": "Le jeu de la boule de fort des Pays-de-la-Loire",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-boule-de-fort-des-pays-de-la-Loire"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00201",
+"title_fr": "Le jeu de la galoche autour de Saint-Pol-de-Léon",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-galoche-autour-de-Saint-Pol-de-Leon"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00200",
+"title_fr": "Le jeu de la galoche d'Assérac",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-galoche-d-Asserac"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00204",
+"title_fr": "Le jeu de la galoche ou de la bique",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-galoche-ou-de-la-bique"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00202",
+"title_fr": "Le jeu de la galoche sans billot du Trégor",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-galoche-sans-billot-du-Tregor"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00203",
+"title_fr": "Le jeu de la galoche sur billot",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-galoche-sur-billot"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00198",
+"title_fr": "Le jeu du bouloù pok",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-du-boulou-pok"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00206",
+"title_fr": "Le jeu du palet au trépied",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-jeu-du-palet-au-trepied"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00208",
+"title_fr": "Le jeu du palet de fonte sur plaque de plomb",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-jeu-du-palet-de-fonte-sur-plaque-de-plomb"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00207",
+"title_fr": "Le jeu du palet de Kerdiny",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-du-palet-de-Kerdiny"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00209",
+"title_fr": "Le jeu du palet en laiton sur plaque de plomb",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-du-palet-en-laiton-sur-plaque-de-plomb"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00210",
+"title_fr": "Le jeu du palet sur planche de bois",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-du-palet-sur-planche-de-bois"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00205",
+"title_fr": "Le jeu du pechoù",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-jeu-du-pechou"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00215",
+"title_fr": "Le jeu du petit palet",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-du-petit-palet"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00216",
+"title_fr": "Le jeu du pitao",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-du-pitao"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00212",
+"title_fr": "Le palet sur route de la presqu'île de Guérande",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-palet-sur-route-de-la-presqu-ile-guerandaise"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00211",
+"title_fr": "Le palet sur route du Morbihan",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-palet-sur-route-du-Morbihan"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00213",
+"title_fr": "Le palet sur terre de Loire-Atlantique",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-palet-sur-terre-de-Loire-Atlantique"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00214",
+"title_fr": "Le palet sur terre du Centre-Bretagne",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-palet-sur-terre-du-Centre-Bretagne"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00186",
+"title_fr": "Le billard hollandais",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Billard-hollandais"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00187",
+"title_fr": "Le birinig",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Birinig"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00188",
+"title_fr": "Le jeu de la boîte à cases",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boite-a-case"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00189",
+"title_fr": "Le jeu de la boule montante",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-montante"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00190",
+"title_fr": "Le jeu de la boule pendante",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-pendante"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00191",
+"title_fr": "Le jeu de la grenouille",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Grenouille"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00192",
+"title_fr": "Le jeu du sabot",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Jeu-du-sabot"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00193",
+"title_fr": "Le jeu du palet planche sur cible",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Palet-sur-cible"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00194",
+"title_fr": "Le palet sur planche à trous",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Palet-sur-planche-a-trous"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00195",
+"title_fr": "Le jeu du trou du chat ou patigo",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Patigo"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00237",
+"title_fr": "Le kilhou koz",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/kilhou_koz"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00238",
+"title_fr": "Le kilhou lancer droit",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Kilhou_lancer_droit"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00217",
+"title_fr": "Le kilhou petit talus",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Kilhou-Petit-Talus"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00218",
+"title_fr": "Les quilles An Alez Round",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-An-Alez-Round"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00219",
+"title_fr": "Les quilles de Bilac",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-de-Bilac"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00220",
+"title_fr": "Les quilles de Marsac",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-de-Marsac"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00221",
+"title_fr": "Les quilles de Mauron",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-de-Mauron"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00222",
+"title_fr": "Les quilles de Minez Bibon",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-de-Minez-Bibon"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00223",
+"title_fr": "Les quilles de Muël",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-de-Muel"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00224",
+"title_fr": "Les quilles de Plougastel Daoulas",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-de-Plougastel-Daoulas"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00225",
+"title_fr": "Les quilles de Plounéour Trez",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-de-Plouneour-Trez"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00226",
+"title_fr": "Les quilles de Pomeleuc",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-de-Pomeleuc"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00227",
+"title_fr": "Les quilles de Trébédan",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-de-Trebedan"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00228",
+"title_fr": "Les quilles du Léon",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-du-Leon"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00229",
+"title_fr": "Les quilles du Pays bigouden et du cap Sizun",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-du-Pays-Bigouden-et-Cap-Sizun"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00230",
+"title_fr": "Les quilles de neuf du pays de Fougères",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-du-pays-de-Fougeres"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00231",
+"title_fr": "Les quilles du pays Glazig",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-du-pays-Glazig"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00232",
+"title_fr": "Les quilles du Poher",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-du-Poher"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00233",
+"title_fr": "Les quilles du Trégor",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Quilles-du-Tregor"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00281",
+"title_fr": "Le jeu de quilles de huit",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-quilles-de-huit"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00245",
+"title_fr": "Le jeu de quilles de neuf du Haut-Pays",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-quilles-de-neuf-du-Haut-Pays"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00280",
+"title_fr": "Le jeu de quilles de six au maillet",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-quilles-de-six-au-maillet"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00273",
+"title_fr": "Les jeux de quilles bressanes",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-jeux-de-quilles-bressanes"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00196",
+"title_fr": "Les jeux et sports athlétiques bretons",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Jeux-de-force-FNSAB"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00197",
+"title_fr": "Les jeux de force du Trégor",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Jeux-de-force-du-Tregor"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00155",
+"title_fr": "La lutte traditionnelle basque",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Borroka.-La-lutte-traditionnelle-basque"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00156",
+"title_fr": "Les régates de traînières",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Estropadak.-Les-regates-de-trainieres"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00157",
+"title_fr": "La force basque",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Herri-kirolak.-La-force-basque"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00159",
+"title_fr": "Le jeu de pelote basque",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Pelote-Basque"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00160",
+"title_fr": "Le jeu de rebot",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Rebot"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00161",
+"title_fr": "Les courses sur échasses",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-courses-sur-echasses"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00162",
+"title_fr": "Les quilles de trois en Aquitaine",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-quilhes-de-tres.-Les-quilles-de-trois"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00163",
+"title_fr": "Les quilles de six en Aquitaine",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-quilles-de-six"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00291",
+"title_fr": "Le jeu de quilles de neuf des Pyrénées",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Jeu-de-quilles-de-neuf"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00164",
+"title_fr": "Le jeu de la pasaka au Pays basque",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Pasaka"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00165",
+"title_fr": "La bague en boghei de Gémenos",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-jeu-de-la-bague-en-boghei-a-gemenos"
+},
+{
+"id": "2011_67717_INV_PCI_FRANCE_00144",
+"title_fr": "La boule carrée",
+"themes": [
+"games"
+],
+"year_included": 2011,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-carree"
+},
+{
+"id": "2011_67717_INV_PCI_FRANCE_00145",
+"title_fr": "La joute nautique provençale",
+"themes": [
+"games"
+],
+"year_included": 2011,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-joute-nautique-provencale.pdf"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00168",
+"title_fr": "La mourra",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-mourra"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00169",
+"title_fr": "La pétanque",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-Petanque"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00167",
+"title_fr": "La paume artignoscaise",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Paume-artignoscaise"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00166",
+"title_fr": "La pelote basque",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Pelote-Basque"
+},
+{
+"id": "2011_67717_INV_PCI_FRANCE_00146",
+"title_fr": "La rame traditionnelle provençale",
+"themes": [
+"games"
+],
+"year_included": 2011,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Rame-traditionnelle"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00293",
+"title_fr": "Le jeu de mus au Pays basque / Mus jokoa",
+"themes": [
+"games"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-mus-jeu-de-carte"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00247",
+"title_fr": "La balle à la main de Hangest-en-Santerre",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-balle-a-la-main-de-Hangest-en-Santerre"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00248",
+"title_fr": "La balle au tamis de Tours-en-Vimeu",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-balle-au-tamis-de-Tours-en-Vimeu"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00241",
+"title_fr": "La boule flamande de Godewaersvelde",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-boule-flamande-de-Godewaersvelde"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00242",
+"title_fr": "La bourle de Tourcoing",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-bourle-de-Tourcoing"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00249",
+"title_fr": "Le ballon au poing de l'Amiénois",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-ballon-au-poing-de-l-amienois2"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00240",
+"title_fr": "Le billon de Douai",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-billon-de-Douai"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00250",
+"title_fr": "Le jeu de guise de Boves",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-guise-de-Boves"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00252",
+"title_fr": "Le jeu de l'assiette d'Albert",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-l-assiette-d-Albert"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00253",
+"title_fr": "Le jeu de quilles du Ponthieu",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-quilles-du-Ponthieu"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00251",
+"title_fr": "Le javelot tir sur cible",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-javelot-tir-sur-cible"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00258",
+"title_fr": "Le jeu de balle à la main",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-balle-a-la-main"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00256",
+"title_fr": "Le jeu de longue paume",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-longue-paume"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00259",
+"title_fr": "Le jeu de la bézette en Normandie",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-bezette-en-Normandie"
+},
+{
+"id": "2011_67717_INV_PCI_FRANCE_00147",
+"title_fr": "Le jeu de la boule de hasard",
+"themes": [
+"games"
+],
+"year_included": 2011,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-boule-de-hasard"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00261",
+"title_fr": "Le jeu de la carambole à gouttière",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-carambole-a-gouttiere"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00262",
+"title_fr": "Le jeu de la crosse",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-crosse"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00260",
+"title_fr": "Le jeu de la grande carambole et du bastringue",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-grande-carambole-et-du-bastringue"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00263",
+"title_fr": "Le jeu de la grande choule",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-grande-choule"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00265",
+"title_fr": "Le jeu de la tèque",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-teque"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00266",
+"title_fr": "Le jeu des treis soeus du Cotentin",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-des-treis-soeus-du-Cotentin"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00264",
+"title_fr": "Le jeu du camembert",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-du-camembert"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00278",
+"title_fr": "Le jeu de ninepin bowling classic",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-ninepin-bowling-classic"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00279",
+"title_fr": "Le jeu de ninepin bowling schere",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-ninepin-bowling-schere"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00267",
+"title_fr": "Le jeu de la balle au tambourin",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-balle-au-tambourin"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00269",
+"title_fr": "Le jeu de la boule lyonnaise",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-boule-lyonnaise"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00277",
+"title_fr": "Le jeu du bordé",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-du-borde"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00272",
+"title_fr": "Les grands jeux de la montagne bourbonnaise",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-grands-jeux-de-la-montagne-bourbonnaise"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00270",
+"title_fr": "Les jeux de billes",
+"themes": [
+"games"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-jeux-de-billes"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00080",
+"title_fr": "Fête de Notre-Dame de la Visitation à Vievola (En patois : Festa t’Vieola)",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/fete-de-notre-dame-de-la-visitation-a-vievola"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00084",
+"title_fr": "La fête de Saint-Léon à Marseille (Bouches-du-Rhône)",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-Saint-Leon"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00045",
+"title_fr": "La crémation des Trois Sapins à Thann (Haut-Rhin)",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-cremation-des-Trois-Sapins-Association-Eugubini-nel-mondo"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00095",
+"title_fr": "La fontaine des Trois-Evêques à Lavaur (Tarn)",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fontaine-des-trois-eveques"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00091",
+"title_fr": "La crèche vivante de l'abbaye de Saint-Ferme (Gironde)",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-creche-vivante-de-l-abbaye-de-Saint-Ferme"
+},
+{
+"id": "2011_67717_INV_PCI_FRANCE_00148",
+"title_fr": "Les ostensions septennales limousines",
+"themes": [
+"rituals"
+],
+"year_included": 2011,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/ostentions-septennales-limousines"
+},
+{
+"id": "2011_67717_INV_PCI_FRANCE_00149",
+"title_fr": "Le rituel du maraké",
+"themes": [
+"rituals"
+],
+"year_included": 2011,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-rituel-du-Marake"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00065",
+"title_fr": "Le bateau de saint Conogan",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Saint-Conogan"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00066",
+"title_fr": "Le ménage de saint Kodelig",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Saint-Kodelig"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00067",
+"title_fr": "La chaise de saint Ronan",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Saint-Ronan-Locronan"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00068",
+"title_fr": "La barque de saint Vio",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Saint-Vio"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00129",
+"title_fr": "La pierre sonnante de saint Gildas",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-pierre-sonnante-de-saint-gildas-bieuzy-les-eaux"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00130",
+"title_fr": "Les pierres sonnantes du Guildo",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/pierre-sonnante-de-guildo"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00131",
+"title_fr": "La roche tremblante de Huelgoat",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-roche-tremblante-de-Huelgoat"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00132",
+"title_fr": "Les roches tremblantes de Trégunc",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-roches-tremblantes-de-Tregunc"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00071",
+"title_fr": "Le chêne millénaire d'Allouville",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Allouville-Bellefosse"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00072",
+"title_fr": "Le pèlerinage du Bas-Caumont",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Bas-Caumont"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00134",
+"title_fr": "Arbres et jardins à Bayeux",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Bayeux"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00073",
+"title_fr": "L'aubépine de Bouquetot",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Bouquetot"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00135",
+"title_fr": "La forêt de Brotonne",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Foret-de-Brotonne"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00070",
+"title_fr": "Les ifs millénaires de La Haye-de-Routot",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-haye-de-routot"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00074",
+"title_fr": "Les ifs millénaires de la Lande-Patry",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-lande-Patry"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00075",
+"title_fr": "La source et le chêne de saint Méen",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Pre-d-Auge"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00076",
+"title_fr": "Le prieuré Saint-Ortaire",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-prieure-saint-ortaire"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00077",
+"title_fr": "L'if millénaire de Saint-Ursin",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Saint-Ursin"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00039",
+"title_fr": "L'adoration publique des saints",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Adoration-publique-des-saints"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00105",
+"title_fr": "La fabrication des icônes serbes, ou iconographie, à Paris",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Icone-et-iconographie"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00081",
+"title_fr": "La fête de la Vierge de Guadalupe à la cathédrale Notre-Dame de Paris",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-notre-Dame-de-Guadalupe-Paris"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00106",
+"title_fr": "La Slava, fête serbe du saint patron, à Paris",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-salva"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00038",
+"title_fr": "Le défilé du dieu Ganesh à Paris / Ganesh Chaturthi",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Defile-du-dieu-Ganesh-ou-Ganesh-Chaturthi"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00079",
+"title_fr": "La fête des Morts mexicaine à Paris / El dia de los Muertos",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/dia-de-los-muertos-fete-des-morts"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00048",
+"title_fr": "Le chant choral serbe à Paris",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Chant-choral-serbe"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00041",
+"title_fr": "Le jour de la Chandeleur mexicain à Paris / El dia de la Candelaria",
+"themes": [
+"rituals"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Dia-de-la-Candelaria"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00088",
+"title_fr": "Las calaveras de tradition mexicaine à Paris",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/calaveras"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00318",
+"title_fr": "L'arbre de Mai de Locronan (Finistère)",
+"themes": [
+"rituals"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Arbre-de-mai-de-Locronan"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00319",
+"title_fr": "La pose de la branche de Mai dans le Morbihan / Barrin ar mae",
+"themes": [
+"rituals"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-pose-de-la-branche-de-mai-dans-le-Morbihan"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00313",
+"title_fr": "Les brandons de la Saint-Jean et de la Saint-Pierre à Bagnères-de-Luchon (Haute-Garonne)",
+"themes": [
+"rituals"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-brandons-de-la-saint-jean-et-de-la-saint-pierre-a-bagneres-de-luchon.pdf"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00370",
+"title_fr": "Le lavage du parvis de l'église de la Madeleine et le festival brésilien à Paris",
+"themes": [
+"rituals"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-lavage-de-la-Madeleine"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00348",
+"title_fr": "La fête du Printemps ou du Nouvel An chinois à Paris",
+"themes": [
+"rituals"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-du-printemps"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00302",
+"title_fr": "La fête de la Saint-Bourrou à Marcillac (Aveyron)",
+"themes": [
+"rituals"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Saint-Bourrou"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00082",
+"title_fr": "Le pain des Morts mexicain à Paris / El pan de los Muertos",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-pain-des-Morts"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00109",
+"title_fr": "Les feux de Noël en Aquitaine / Halhas de Nadau",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-feux-de-Noel-en-Aquitaine"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00078",
+"title_fr": "La fête-Dieu à Armendarits (Pyrénées-Atlantiques) / Besta Berri",
+"themes": [
+"rituals"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-Dieu-a-Armendarits"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00331",
+"title_fr": "La junte de Roncal à La Pierre-Saint-Martin (Arette, Pyrénées-Atlantiques) / Tributo de las Tres Vacas",
+"themes": [
+"rituals"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-junte-de-Roncal"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00329",
+"title_fr": "Le jour des Limites à La Pierre-Saint-Martin (Arette, Pyrénées-Atlantiques) / El dia de las limites",
+"themes": [
+"rituals"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jour-des-Limites-a-La-Pierre-Saint-Martin"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00392",
+"title_fr": "Le Vaisakhi des sikhs à Bobigny (Seine-Saint-Denis)",
+"themes": [
+"rituals"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Vaisakhi-des-Sikhs-a-Bobigny"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00406",
+"title_fr": "Le Grand Pardon de Chaumont (Haute-Marne)",
+"themes": [
+"rituals"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Grand-Pardon-de-Chaumont"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00447",
+"title_fr": "Le Norouz ou Nouvel An persan en région parisienne",
+"themes": [
+"rituals"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-norouz-ou-nouvel-an-persan-en-region-parisienne.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00460",
+"title_fr": "Les pratiques d’itinérance et de pérégrination au Mont Saint-Michel",
+"themes": [
+"rituals"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pratiques-d-itinerance-et-de-peregrination-au-mont-saint-michel.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00467",
+"title_fr": "Les pardons et troménies en Bretagne",
+"themes": [
+"rituals"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pardons-et-tromenies-en-bretagne.pdf"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00507",
+"title_fr": "Le gi pangi, rite de passage féminin businenge",
+"themes": [
+"rituals"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-gi-pangi-rite-de-passage-feminin-businenge"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00510",
+"title_fr": "Le mawlida shenge (Mayotte)",
+"themes": [
+"rituals"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-maluwida-shenge-mayotte"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00524",
+"title_fr": "Le Tour du Saint-Cordon (Valenciennes)",
+"themes": [
+"rituals"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-tour-du-saint-cordon-valenciennes"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00545",
+"title_fr": "La procession de Neuf lieues",
+"themes": [
+"rituals"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-procession-de-neuf-lieues"
+},
+{
+"id": "2026_67717_INV_PCI_FRANCE_00565",
+"title_fr": "La procession mariale de Notre-Dame de Lourdes (Hautes-Pyrénées)",
+"themes": [
+"rituals"
+],
+"year_included": 2026,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-procession-mariale-de-notre-dame-de-lourdes-hautes-pyrenees"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00011",
+"title_fr": "La fabrication de carcasses de sièges à Liffol-le-Grand (Vosges)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-carcasse-de-chaise-Claude-Fagot"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00013",
+"title_fr": "Les savoir-faire des cristalliers de Daum (Meurthe-et-Moselle)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-cristallerie"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00023",
+"title_fr": "Le damassage",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-damassage-Jean-Louis-Hurlin"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00087",
+"title_fr": "La barquette marseillaise (Bouches-du-Rhône)",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-barquette-marseillaise-Denis-Borg-Jean-Trapani"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00019",
+"title_fr": "La dentelle au fuseau du Puy-en-Velay (Haute-Loire)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": null
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00102",
+"title_fr": "L'élevage du bœuf gras bazadais (Gironde)",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-elevage-du-boeuf-gras-bazadais-Famille-Manseau"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00016",
+"title_fr": "L'enluminure",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-enluminure"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00033",
+"title_fr": "La ganterie de peau à Saint-Junien (Haute-Vienne)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Ganterie-de-peau-Entreprise-Agnelle"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00014",
+"title_fr": "La glyptique",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-glyptique-Claude-Delhief"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00027",
+"title_fr": "La gravure héraldique",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-gravure-heraldique"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00036",
+"title_fr": "Le savoir-faire de la dentelle au point d'Alençon",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-dentelle-au-point-d-Alencon-Atelier-conservatoire-du-Point-d-Alencon"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00012",
+"title_fr": "La mégisserie à Saint-Junien (Haute-Vienne)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-megisserie-Pascal-Colombier"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00022",
+"title_fr": "La peinture sur porcelaine à Saint-Junien (Haute-Vienne)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-peinture-sur-porcelaine"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00015",
+"title_fr": "Le remplissage des maisons en pan de bois en Normandie",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-remplissage-au-pan-de-bois-Dominique-Houot"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00008",
+"title_fr": "L'héliogravure",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-heliogravure-Entreprise-Helio-g"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00058",
+"title_fr": "Le repas gastronomique des Français",
+"themes": [
+"know-how"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-repas-gastronomique"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00034",
+"title_fr": "La sculpture sur bois à Sainte-Soulle (Charente-Maritime)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-sculpture-sur-bois-Laurent-Bondu"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00035",
+"title_fr": "La tapisserie d'Aubusson (Creuse)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-tapisserie-D-Aubusson-Manufacture-Four"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00010",
+"title_fr": "Le tissage à bras",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-tissage-a-bras-Bruno-et-Gaelle-Lesteven"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00049",
+"title_fr": "Le trait de charpente",
+"themes": [
+"know-how"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-trait-de-charpente-Jean-Louis-Valentin"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00030",
+"title_fr": "Les savoir-faire du tourneur sur bois",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Tournbeur-sur-bois-Remi-Caudron"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00057",
+"title_fr": "Le compagnonnage",
+"themes": [
+"know-how"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-compagnonnage-AOCDTF-FCMB-UCDDU"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00028",
+"title_fr": "L'émaillerie de Limoges (Haute-Vienne)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-emaillerie-Paul-Buforn"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00059",
+"title_fr": "La céramique d'art à Château (Saône-et-Loire)",
+"themes": [
+"know-how"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-ceramique-d-art-Jean-Girel"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00060",
+"title_fr": "La dorure sur bois à Chapaize (Saône-et-Loire)",
+"themes": [
+"know-how"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Dorure-sur-bois-Bernard-Delaval"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00125",
+"title_fr": "La fabrication de chaises à Came (Pyrénées-Atlantiques)",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-de-chaises-J.J.-Lataillade.pdf"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00061",
+"title_fr": "La céramique d'art à Saint-André-le-Désert (Saône-et-Loire)",
+"themes": [
+"know-how"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-ceramique-d-art-Jean-Claude-Canonne"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00062",
+"title_fr": "La facture d'instruments anciens à clavier",
+"themes": [
+"know-how"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fabrication-d-un-instrument-ancien-a-clavier-Christophe-Clarke.pdf"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00063",
+"title_fr": "L'art du tailleur à Paris",
+"themes": [
+"know-how"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-confection-de-vetements-Guillerme-Guilson"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00126",
+"title_fr": "La fabrication de sonnailles à Bourdettes (Pyrénées-Atlantiques)",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-de-sonnailles-Nicolas-Dadan"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00064",
+"title_fr": "La facture-restauration instrumentale à Donzy-le-Pertuis (Saône-et-Loire)",
+"themes": [
+"know-how"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-facture-et-la-restauration-instrumentale-pascal-cranga-.pdf"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00127",
+"title_fr": "La fabrication des makhilas, ou bâtons de marche basques",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-Makhilas-Atelier-Ainciart-Bergara.pdf"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00005",
+"title_fr": "La fabrication d'épis de faîtage en Basse-Normandie",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Poterie-du-Mesnil-de-Baven"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00031",
+"title_fr": "La menuiserie-charpente du bâti ancien en Normandie",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Menuiserie-Charpente-SARL-Champion-Montier"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00032",
+"title_fr": "La dorure sur métal en Bretagne",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Dorure-sur-metal-Serge-Rousseau"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00123",
+"title_fr": "La faïencerie d'art de Malicorne-sur-Sarthe (Sarthe)",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Faiencerie-de-Malicorne-Stephane-Deschang"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00124",
+"title_fr": "La lauzerie à Saint-Geniès (Dordogne)",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-lauzerie-Thierry-Chapoulie"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00107",
+"title_fr": "L'art de la construction en pierre sèche",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Art-de-la-pierre-seche"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00119",
+"title_fr": "La sellerie-maroquinerie dans le Bordelais (Gironde)",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Sellerie-Maroquinerie"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00007",
+"title_fr": "La porcelaine de Limoges (Haute-Vienne)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Porcelaine-de-Limoges-Michel-Bernardhaud"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00009",
+"title_fr": "La calligraphie",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-calligraphie-Brigitte-Palaric"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00017",
+"title_fr": "La miniature au « blanc Limoges » (Haute-Vienne)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-miniature-au-blanc-limoges"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00018",
+"title_fr": "La filature à Felletin (Creuse)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Filature-Michel-Terrade"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00020",
+"title_fr": "La fabrication de pigments à Bécherel (Ille-et-Vilaine)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fabrication-de-pigments-Francois-Prergo"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00128",
+"title_fr": "Les savoir-faire du fourreur",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fourreur-Georges-Boutis"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00021",
+"title_fr": "Le rempaillage et le cannage de chaises à Forcalquier (Alpes-de-Haute-Provence)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Rempaillage-et-cannage-de-chaises-Atelier-Gepetto"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00024",
+"title_fr": "La fabrication des émaux de Longwy (Meurthe-et-Moselle)",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-emaux-de-Longwy-Jacques-G.-Peiffer"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00120",
+"title_fr": "La botterie d'équitation à Saumur (Maine-et-Loire)",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Bottier-Joel-Albert"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00121",
+"title_fr": "La restauration d'œuvres peintes",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Restauration-d-oeuvres-peintes-Kiriaki-Tsesmeloglou"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00025",
+"title_fr": "La pendulerie",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Pendulier-Marc-Voisot"
+},
+{
+"id": "2010_67717_INV_PCI_FRANCE_00122",
+"title_fr": "La reliure-dorure à Périgueux (Dordogne)",
+"themes": [
+"know-how"
+],
+"year_included": 2010,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-reliure-dorure-atelier-Nathalie-et-Christophe-Legrand-a-Perigueux"
+},
+{
+"id": "2008_67717_INV_PCI_FRANCE_00026",
+"title_fr": "La corseterie",
+"themes": [
+"know-how"
+],
+"year_included": 2008,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-corseterie-Sylviane-Nuffer"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00316",
+"title_fr": "Les pêcheries fixes du littoral de la Manche",
+"themes": [
+"know-how"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pecheries-fixes-du-littoral-de-la-manche.pdf"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00283",
+"title_fr": "La fabrication des quilles dans les Pyrénées",
+"themes": [
+"know-how"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fabrication_quilles"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00286",
+"title_fr": "Le parcours journalier dans les Pyrénées / Bortüsorhoka",
+"themes": [
+"know-how"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Bortusorhoka"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00287",
+"title_fr": "Le feu pastoral des estives basques / Erekinka",
+"themes": [
+"know-how"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Erekinka"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00288",
+"title_fr": "Les traditions des fermes d'élevage de Larrau (Pyrénées-Atlantiques) / Atandes de Larrau",
+"themes": [
+"know-how"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Atandes"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00289",
+"title_fr": "La transformation des canards gras en Aquitaine",
+"themes": [
+"know-how"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Transformation_canards"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00053",
+"title_fr": "La fabrication du tambourin à cordes, ou tom-tom, en Aquitaine",
+"themes": [
+"know-how"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Tom_tom"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00320",
+"title_fr": "La récolte du goémon en Bretagne",
+"themes": [
+"know-how"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Recolte-du-goemon-en-Bretagne"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00317",
+"title_fr": "Le ramassage des simples en Bretagne",
+"themes": [
+"know-how"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Ramassage-des-simples-en-Bretagne"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00327",
+"title_fr": "Les savoir-faire liés au parfum en pays de Grasse",
+"themes": [
+"know-how"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Savoir-faire-de-la-parfumerie-a-Grasse"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00341",
+"title_fr": "Vannerie mayun",
+"themes": [
+"know-how"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/vannerie-mayun"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00342",
+"title_fr": "La fabrication des sklisseuneu",
+"themes": [
+"know-how"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-des-sklisseuneu"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00343",
+"title_fr": "Vannerie Basskoden",
+"themes": [
+"know-how"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Vannerie-Basskoden"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00344",
+"title_fr": "Vannerie du Trégor",
+"themes": [
+"know-how"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Vannerie-du-Tregor"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00363",
+"title_fr": "Vannerie bosselle",
+"themes": [
+"know-how"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Vannerie-bosselle"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00364",
+"title_fr": "Vannerie carbasson",
+"themes": [
+"know-how"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Vannerie-carbasson"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00365",
+"title_fr": "Vannerie bretonne à montants en méridien",
+"themes": [
+"know-how"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Vannerie-bretonne-a-montants-en-meridien"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00346",
+"title_fr": "La vente aux enchères des foins du Marais à Renac (Ille-et-Vilaine)",
+"themes": [
+"know-how"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fiche-d-inventaire-Vente-aux-encheres-des-foins-du-marais"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00347",
+"title_fr": "Le patrimoine culturel immatériel des communautés hospitalo-universitaires de Rouen et Angers",
+"themes": [
+"know-how"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-PCI-des-communautes-hopsitalo-universitaires-dans-les-CHU-de-Rouen-et-d-Angers"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00366",
+"title_fr": "Les plantes médicinales dans le Briançonnais",
+"themes": [
+"know-how"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-plantes-medicinales-dans-le-Brianconnais"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00367",
+"title_fr": "La fabrication de la chaux dans le Briançonnais",
+"themes": [
+"know-how"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-de-la-chaux-dans-le-Brianconnais"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00368",
+"title_fr": "La culture du chanvre textile dans le Briançonnais",
+"themes": [
+"know-how"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-culture-du-chanvre-textile-dans-le-Brianconnais"
+},
+{
+"id": "2015_67717_INV_PCI_FRANCE_00369",
+"title_fr": "L'élevage et la production de laine dans le Briançonnais",
+"themes": [
+"know-how"
+],
+"year_included": 2015,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-elevage-et-la-production-de-laine-dans-le-Brianconnais"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00332",
+"title_fr": "La confection des costumes traditionnels ossalois (Pyrénées-Atlantiques)",
+"themes": [
+"know-how"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-confection-des-costumes-traditionnels-ossalois"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00299",
+"title_fr": "La fabrication des chisteras",
+"themes": [
+"know-how"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-des-chistera"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00300",
+"title_fr": "La fabrication des palas",
+"themes": [
+"know-how"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-des-pala"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00301",
+"title_fr": "La fabrication du xare",
+"themes": [
+"know-how"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-des-xare"
+},
+{
+"id": "2014_67717_INV_PCI_FRANCE_00052",
+"title_fr": "La facture de la flûte à trois trous / Flabuta",
+"themes": [
+"know-how"
+],
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-facture-de-la-flute-a-trois-trous"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00152",
+"title_fr": "Le tue-cochon / Pelèra",
+"themes": [
+"know-how"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-pelera-ou-le-tue-cochon"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00153",
+"title_fr": "Les savoirs naturalistes de Larrau (Pyrénées-Atlantiques) / Sendatu",
+"themes": [
+"know-how"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Sendatu-Les-savoirs-naturalistes-de-Larrau"
+},
+{
+"id": "2012_67717_INV_PCI_FRANCE_00154",
+"title_fr": "La haie vive au Pays basque / Zeralia",
+"themes": [
+"know-how"
+],
+"year_included": 2012,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Zeralia-La-haie-vive"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00377",
+"title_fr": "La culture du raisin chasselas de Moissac (Tarn-et-Garonne)",
+"themes": [
+"know-how"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-culture-du-chasselas-de-Moissac"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00378",
+"title_fr": "La culture du cresson à Méréville (Essonne)",
+"themes": [
+"know-how"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-culture-du-cresson-a-Mereville"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00379",
+"title_fr": "La fabrication du fromage de Salers (Cantal)",
+"themes": [
+"know-how"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-du-fromage-de-Salers"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00380",
+"title_fr": "La pêche aux poissons d'eau douce des étangs de la Dombes (Ain)",
+"themes": [
+"know-how"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-peche-aux-poissons-d-eau-douce-des-etangs-de-la-Dombes"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00381",
+"title_fr": "Les salaisons fumées au tuyé du Haut-Doubs",
+"themes": [
+"know-how"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-salaisons-fumees-au-tuye-du-Haut-Doubs"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00384",
+"title_fr": "Les savoir-faire du couvreur zingueur parisien",
+"themes": [
+"know-how"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-savoir-faire-du-couvreur-zingueur-parisien"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00385",
+"title_fr": "Les savoir-faire de la Fondation Notre-Dame appliqués à la cathédrale de Strasbourg (bas-Rhin) et sa collaboration coutumière",
+"themes": [
+"know-how"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-savoir-faire-de-la-Fondation-Notre-Dame-appliques-a-la-cathedrale-de-Strasbourg-et-sa-collaboration-coutumiere"
+},
+{
+"id": "2013_67717_INV_PCI_FRANCE_00303",
+"title_fr": "La fabrication de la bombarde ou biniou",
+"themes": [
+"know-how"
+],
+"year_included": 2013,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-de-la-bombarde-ou-biniou"
+},
+{
+"id": "2009_67717_INV_PCI_FRANCE_00046",
+"title_fr": "La fabrication des sugelli dans la vallée de la Roya (Alpes-Maritimes)",
+"themes": [
+"know-how"
+],
+"year_included": 2009,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-des-sugelli"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00386",
+"title_fr": "Pratiques et savoir-faire des pêcheurs du lac de Grand-Lieu (Loire-Atlantique)",
+"themes": [
+"know-how"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Pratiques-et-savoir-faire-des-pecheurs-du-lac-de-Grand-Lieu"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00391",
+"title_fr": "La vannerie du vacoa à la Réunion",
+"themes": [
+"know-how"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-vannerie-du-vacoa-a-la-Reunion-La-tresse-vacoa"
+},
+{
+"id": "2017_67717_INV_PCI_FRANCE_00393",
+"title_fr": "Les savoir-faire liés à l'irrigation gravitaire par béals (canaux) en Lozère",
+"themes": [
+"know-how"
+],
+"year_included": 2017,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-savoir-faire-lies-a-l-irrigation-gravitaire-par-beals-canaux-en-Lozere"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00394",
+"title_fr": "La gravure de poinçons typographiques",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-gravure-de-poincons-typographiques"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00403",
+"title_fr": "Les savoir-faire et la pratique des simples à la Réunion",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-savoir-faire-et-la-pratique-des-simples-a-la-Reunion"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00404",
+"title_fr": "L'artisanat de la perle de verre en France",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-artisanat-de-la-perle-de-verre-en-France"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00405",
+"title_fr": "L'art du formaire, ou la fabrication artisanale des formes occidentales des papetiers",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-art-du-formaire"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00407",
+"title_fr": "La culture de l'ail rose de Billom (Puy-de-Dôme)",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-culture-de-l-ail-rose-de-Billom"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00408",
+"title_fr": "La fabrication de la Fourme de Montbrison (Loire)",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-de-la-fourme-de-Montbrison"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00409",
+"title_fr": "La fabrication des fruits confits d'Apt (Vaucluse)",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-des-fruits-confits-d-Apt"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00410",
+"title_fr": "La fabrication du Kirsch de Fougerolles (Haute-Saône)",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-du-Kirsch-de-Fougerolles"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00411",
+"title_fr": "La pêche à la sardine de Saint-Gilles Croix-de-Vie (Vendée)",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-peche-a-la-sardine-de-saint-gilles-croix-de-vie"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00413",
+"title_fr": "Les savoir-faire artisanaux et la culture de la baguette de pain",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-savoir-faire-artisanaux-et-la-culture-de-la-baguette-de-pain"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00415",
+"title_fr": "Les savoir-faire de la mécanique horlogère",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-savoir-faire-de-la-mecanique-horlogere"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00416",
+"title_fr": "Les emplois médicinaux du plantain badasson en Haute-Provence occidentale",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-emplois-medicinaux-du-plantain-badasson-en-haute-provence-occidentale"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00417",
+"title_fr": "Les pratiques de l'herboristerie en Haute-Provence",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-pratiques-de-l-herboristerie-en-Haute-Provence"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00427",
+"title_fr": "Les traditions et savoir-faire des bouquinistes des quais de Paris",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-traditions-et-savoir-faire-des-bouquinistes-des-quais-de-Paris"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00428",
+"title_fr": "Les gestes des métiers d'art verriers",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-gestes-des-metiers-d-art-verriers"
+},
+{
+"id": "2018_67717_INV_PCI_FRANCE_00418",
+"title_fr": "Les pratiques de culture des lavandes en Haute-Provence",
+"themes": [
+"know-how"
+],
+"year_included": 2018,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-pratiques-de-culture-des-lavandes-en-Haute-Provence"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00431",
+"title_fr": "Les savoir-faire et usages constructifs de la terre-cuite : le cayrou de la briqueterie de Saint-Jean-Pla-de-Corts (Pyrénées-Orientales)",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-savoir-faire-et-usages-constructifs-de-la-terre-cuite-dans-les-Pyrenees-Orientales"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00434",
+"title_fr": "Le boutis ou broderie de Marseille (Bouches-du-Rhône)",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-boutis-ou-broderie-de-Marseille"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00435",
+"title_fr": "Les pratiques de relance des céréales en Luberon",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pratiques-de-relance-des-cereales-en-luberon"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00436",
+"title_fr": "La pêche à la palourde dans le golfe du Morbihan",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-peche-a-la-palourde-dans-le-golfe-du-morbihan"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00437",
+"title_fr": "Les techniques de coiffure d'origine africaine en région parisienne",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-techniques-de-coiffure-d-origine-africaine-en-region-parisienne"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00438",
+"title_fr": "La fabrication du fromage Saint-Nectaire fermier",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fabrication-du-fromage-saint-nectaire-fermier.pdf"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00439",
+"title_fr": "La fabrication du poiré en Domfrontais",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fabrication-du-poire-en-domfrontais.pdf"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00440",
+"title_fr": "L'élaboration du vin de Châteauneuf-du-Pape",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-elaboration-du-vin-de-chateauneuf-du-pape.pdf"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00441",
+"title_fr": "L'élevage des huîtres de Cancale",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-elevage-des-huitres-de-cancale.pdf"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00443",
+"title_fr": "Les pratiques culinaires du pays niçois, de la mer à la montagne",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pratiques-culinaires-du-pays-nicois.pdf"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00444",
+"title_fr": "Les savoir-faire du point de Lunéville et de la broderie perlée et pailletée",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-du-point-de-luneville-et-de-la-broderie-perlee-et-pailletee.pdf"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00446",
+"title_fr": "Les savoir-faire de la maréchalerie, pratiques d'atelier de la Garde républicaine",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-mare-chalerie-de-la-garde-re-publicaine.pdf"
+},
+{
+"id": "2019_67717_INV_PCI_FRANCE_00451",
+"title_fr": "La fabrication de peignes de toilette en corne naturelle en Pays d’Olmes (Ariège)",
+"themes": [
+"know-how"
+],
+"year_included": 2019,
+"fiche_url": "https://www.culture.gouv.fr/Media/medias-creation-rapide/La-fabrication-de-peignes-de-toilette-en-corne-naturelle.pdf3"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00452",
+"title_fr": "Les pratiques d’élevage caprin et les savoirs fromagers au lait de chèvre dans le massif des Bauges",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-elevage-caprin-et-les-savoirs-fromagers-dans-le-massif-des-bauges.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00453",
+"title_fr": "L’art de la rissole, ou r’zoule, dans le massif des Bauges",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/medias-creation-rapide/L-art-de-la-rissole-dans-le-massif-des-Bauges.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00454",
+"title_fr": "La panification traditionnelle, ou le faire au four, dans le massif des Bauges",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/medias-creation-rapide/Le-faire-au-four-dans-le-massif-des-Bauges.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00455",
+"title_fr": "Les savoirs de la cueillette dans le massif des Bauges",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoirs-de-la-cueillette-dans-le-massif-des-bauges.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00456",
+"title_fr": "Les savoirs de l’apiculture dans le massif des Bauges",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoirs-de-l-apiculture-dans-le-massif-des-bauges.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00457",
+"title_fr": "Les savoirs du jardin potager dans le massif des Bauges",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoirs-du-jardin-potager-dans-le-massif-des-bauges.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00459",
+"title_fr": "Les savoir-faire des émailleurs sur métal",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-des-emailleurs-sur-metal.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00461",
+"title_fr": "Les usages médicinaux et vétérinaires du lin et du chanvre en Bretagne",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-usages-medicinaux-et-veterinaires-du-lin-et-du-chanvre-en-bretagne.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00466",
+"title_fr": "Les savoir-faire de l’élaboration du cognac",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-de-l-elaboration-du-cognac.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00465",
+"title_fr": "Les savoir-faire des éventaillistes",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-des-eventaillistes.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00477",
+"title_fr": "L'élaboration de l'eau-de-vie d'Armagnac",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-elaboration-de-l-eau-de-vie-d-armagnac.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00478",
+"title_fr": "La culture de la truffe noire du Quercy à Lalbenque",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-culture-de-la-truffe-noire-du-quercy-a-lalbenque.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00481",
+"title_fr": "Les savoir-faire du chanvre textile",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-du-chanvre-textile.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00482",
+"title_fr": "La culture des moules de bouchot à Pénestin",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-culture-des-moules-de-bouchot-a-penestin.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00483",
+"title_fr": "Les savoirs et techniques de notation du mouvement selon le système d’écriture Conté",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoirs-et-techniques-de-notation-du-mouvement.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00484",
+"title_fr": "La frivolité, à la navette, à l’aiguille et au crochet",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-frivolite.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00485",
+"title_fr": "Les savoir-faire des lissiers d’Aubusson-Felletin",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-des-lissiers-d-aubusson-felletin.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00487",
+"title_fr": "La pêche aux engins et filets dans le bassin de l’Adour",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-peche-aux-engins-et-filets-dans-le-bassin-de-l-adour.pdf"
+},
+{
+"id": "2020_67717_INV_PCI_FRANCE_00463",
+"title_fr": "Le matatiki, art graphique marquisien",
+"themes": [
+"know-how"
+],
+"year_included": 2020,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-matatiki-art-graphique-marquisien.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00489",
+"title_fr": "Les pratiques d'irrigation gravitaire du Briançonnais",
+"themes": [
+"know-how"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pratiques-d-irrigation-gravitaire-du-brianconnais.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00490",
+"title_fr": "La pêche au carrelet sur l'arc atlantique",
+"themes": [
+"know-how"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-peche-au-carrelet-sur-l-arc-atlantique.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00495",
+"title_fr": "L’apiculture de zone humide en Basse-Loire",
+"themes": [
+"know-how"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-apiculture-de-zone-humide-en-basse-loire.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00497",
+"title_fr": "Les pêches traditionnelles en Basse-Loire aval",
+"themes": [
+"know-how"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-peches-traditionnelles-en-basse-loire-aval.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00498",
+"title_fr": "Las bonas èrbas (« les bonnes herbes ») : usage de la flore et médecine populaire dans les Pyrénées centrales",
+"themes": [
+"know-how"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-bonnes-herbes-usage-de-la-flore-et-medecine-populaire-dans-les-pyrenees-centrales-.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00499",
+"title_fr": "La carrosserie automobile artisanale française",
+"themes": [
+"know-how"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-carrosserie-automobile-artisanale-francaise.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00500",
+"title_fr": "Les savoir-faire liés à la teinture au pastel, en pays de Cocagne",
+"themes": [
+"know-how"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-lies-a-la-teinture-au-pastel-en-pays-de-cocagne.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00501",
+"title_fr": "Les savoir-faire des santonniers de Provence (Bouches-du-Rhône)",
+"themes": [
+"know-how"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-des-santonniers-de-provence-bouches-du-rhone-.pdf"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00503",
+"title_fr": "Les savoirs, savoir-faire et pratiques sociales liés à la pisciculture dans les étangs de la Brenne",
+"themes": [
+"know-how"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoirs-savoir-faire-et-pratiques-sociales-lies-a-la-pisciculture-dans-les-etangs-de-la-brenne"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00504",
+"title_fr": "Les savoir-faire de la broderie et de la dentelle en Bretagne",
+"themes": [
+"know-how"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-de-la-broderie-et-de-la-dentelle-en-bretagne"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00505",
+"title_fr": "Les pratiques traditionnelles des pêcheurs aux engins et aux filets de Loire-Atlantique",
+"themes": [
+"know-how"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pratiques-traditionnelles-des-pecheurs-aux-engins-et-aux-filets-de-loire-atlantique"
+},
+{
+"id": "2021_67717_INV_PCI_FRANCE_00506",
+"title_fr": "Les savoir-faire du lin textile",
+"themes": [
+"know-how"
+],
+"year_included": 2021,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-du-lin-textile"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00508",
+"title_fr": "L'art de la charpenterie de marine en Bretagne",
+"themes": [
+"know-how"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-art-de-la-charpenterie-de-marine-en-bretagne"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00511",
+"title_fr": "Les savoirs et savoir-faire de la futaie régulière de chêne",
+"themes": [
+"know-how"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoirs-et-savoir-faire-de-la-futaie-reguliere-de-chene"
+},
+{
+"id": "2022_67717_INV_PCI_FRANCE_00513",
+"title_fr": "L’art de charpenterie de marine dans le Nord de la France",
+"themes": [
+"know-how"
+],
+"year_included": 2022,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-art-de-charpenterie-de-marine-dans-le-nord-de-la-france"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00520",
+"title_fr": "Rod lo gèp",
+"themes": [
+"know-how"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/rod-lo-gep"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00525",
+"title_fr": "L’art de l'espalier - Tailles de formation et de fructification",
+"themes": [
+"know-how"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-art-de-l-espalier-tailles-de-formation-et-de-fructification"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00531",
+"title_fr": "L’art du timbre-poste gravé en taille-douce",
+"themes": [
+"know-how"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-art-du-timbre-poste-grave-en-taille-douce"
+},
+{
+"id": "2023_67717_INV_PCI_FRANCE_00532",
+"title_fr": "Les savoir-faire liés à la ganterie en pays de Millau : élevage pastoral, connaissances et transformation des matières, art de confectionner le gant",
+"themes": [
+"know-how"
+],
+"year_included": 2023,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-lies-a-la-ganterie-en-pays-de-de-millau-elevage-pastoral-connaissances-et-transformation-des-matieres-art-de-confectionner-le"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00534",
+"title_fr": "Savoir-faire et culture du craquelin de Haute-Bretagne",
+"themes": [
+"know-how"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/savoir-faire-et-culture-du-craquelin-de-haute-bretagne"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00535",
+"title_fr": "La construction navale vernaculaire en bois, l'art de la charpenterie de marine : Le doris de Saint-Pierre-et-Miquelon",
+"themes": [
+"know-how"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-construction-navale-vernaculaire-en-bois-l-art-de-la-charpenterie-de-marine-le-doris-de-saint-pierre-et-miquelon"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00536",
+"title_fr": "Les connaissances et savoir-faire des liqueurs en France",
+"themes": [
+"know-how"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-connaissances-et-savoir-faire-des-liqueurs-en-france"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00537",
+"title_fr": "Pratiques et savoir-faire paludiers en Presqu’île de Guérande",
+"themes": [
+"know-how"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/pratiques-et-savoir-faire-paludiers-en-presqu-ile-de-guerande"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00539",
+"title_fr": "Les savoir-faire de la découpe bouchère à la française",
+"themes": [
+"know-how"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-de-la-decoupe-bouchere-a-la-francaise"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00540",
+"title_fr": "L’art de la charpenterie de marine en Normandie",
+"themes": [
+"know-how"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-art-de-la-charpenterie-de-marine-en-normandie"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00541",
+"title_fr": "L’art de la poterie traditionnelle de Mayotte",
+"themes": [
+"know-how"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-art-de-la-poterie-traditionnelle-de-mayotte2"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00543",
+"title_fr": "Les gestes du travail pour la cueillette du tilleul dans les Baronnies provençales",
+"themes": [
+"know-how"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-gestes-du-travail-pour-la-cueillette-du-tilleul-dans-les-baronnies-provencales"
+},
+{
+"id": "2024_67717_INV_PCI_FRANCE_00546",
+"title_fr": "Les savoir-faire, connaissances et pratiques liés aux papiers faits-main en France",
+"themes": [
+"know-how"
+],
+"year_included": 2024,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-connaissances-et-pratiques-lies-aux-papiers-faits-main-en-france"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00551",
+"title_fr": "Les savoirs nautiques ligériens",
+"themes": [
+"know-how"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoirs-nautiques-ligeriens"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00552",
+"title_fr": "Les savoir-faire et pratiques liés au Tani Malandi (argile blanche) de Chirongui",
+"themes": [
+"know-how"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-et-pratiques-lies-au-tani-malandi-argile-blanche-de-chirongui"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00554",
+"title_fr": "Pratiques de pêche passives sur le bassin Loire",
+"themes": [
+"know-how"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/pratiques-de-peche-passives-sur-le-bassin-loire-le-guideau-et-le-filet-barrage"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00557",
+"title_fr": "La haute couture",
+"themes": [
+"know-how"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-haute-couture"
+},
+{
+"id": "2025_67717_INV_PCI_FRANCE_00559",
+"title_fr": "Les jours ou broderie de Cilaos",
+"themes": [
+"know-how"
+],
+"year_included": 2025,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-jours-ou-broderie-de-cilaos"
+},
+{
+"id": "2026_67717_INV_PCI_FRANCE_00561",
+"title_fr": "Les savoir-faire de la construction en terre crue en France",
+"themes": [
+"know-how"
+],
+"year_included": 2026,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-de-la-construction-en-terre-crue-en-france"
+},
+{
+"id": "2026_67717_INV_PCI_FRANCE_00562",
+"title_fr": "La fabrication de cravaches et de fouets à Sorède (Pyrénées-Orientales)",
+"themes": [
+"know-how"
+],
+"year_included": 2026,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fabrication-de-cravaches-et-de-fouets-a-sorede-pyrenees-orientales"
+}
+]
+}

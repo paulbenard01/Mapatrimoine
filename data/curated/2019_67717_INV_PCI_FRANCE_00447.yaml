@@ -1,0 +1,20 @@
+id: 2019_67717_INV_PCI_FRANCE_00447
+kind: event
+domain: >-
+  Rituels (nouvel an)
+summary:
+  fr: >-
+    En région parisienne, Iraniens, Kurdes, Afghans et d'autres communautés fêtent Norouz, le Nouvel An persan de l'équinoxe de printemps : table des sept « sin », feux sautés du dernier mercredi de l'année, visites familiales.
+  en: >-
+    In the Paris region, Iranians, Kurds, Afghans and other communities celebrate Norouz, the Persian New Year at the spring equinox: the table of seven "sin", jumping over fires on the last Wednesday of the year, family visits.
+  lang_review: draft
+places:
+  - {region: "11", label: "Île-de-France"}
+recurrence: {type: fixed, month: 3, day: 21}
+timing:
+  confidence: high
+  evidence_quote: "Le Norouz est le Nouvel An traditionnellement célébré par les Iraniens et d’autres populations d’Asie centrale le 21 mars"
+  evidence_page: 1
+  notes: >-
+    At the spring equinox (20 or 21 March, depending on the year).
+review_status: unreviewed

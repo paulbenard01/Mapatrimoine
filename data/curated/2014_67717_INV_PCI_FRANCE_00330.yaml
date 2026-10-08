@@ -1,0 +1,20 @@
+id: 2014_67717_INV_PCI_FRANCE_00330
+kind: event
+domain: >-
+  Pratiques sociales et festives (fête agricole)
+summary:
+  fr: >-
+    Depuis 1969, Espelette fête la récolte de son piment : marché de produits du terroir, messe solennelle, intronisations de la confrérie et défilés.
+  en: >-
+    Since 1969, Espelette has celebrated its chilli harvest with a local produce market, a solemn mass, the brotherhood's induction ceremony and parades.
+  lang_review: draft
+places:
+  - {commune: Espelette, department: "64"}
+recurrence: {type: nth_weekday, month: 10, weekday: 0, n: -1, offset_days: -1, duration_days: 2}
+timing:
+  confidence: medium
+  evidence_quote: "Elle se déroule le dernier week-end d'octobre, sauf si cela tombe le 31 octobre."
+  evidence_page: 2
+  notes: >-
+    Last weekend of October (Saturday and Sunday). The fiche gives an exception when it falls on 31 October, which the rule does not model.
+review_status: unreviewed

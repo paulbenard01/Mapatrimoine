@@ -1,0 +1,20 @@
+id: 2014_67717_INV_PCI_FRANCE_00351
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval, géants)
+summary:
+  fr: >-
+    À Lesquin, près de Lille, masques et habitants costumés défilent autour des géants Hippolyte et Titée, accompagnés de groupes carnavalesques et de géants invités.
+  en: >-
+    In Lesquin, near Lille, masked and costumed residents parade around the giants Hippolyte and Titée, joined by carnival bands and visiting giants.
+  lang_review: draft
+places:
+  - {commune: Lesquin, department: "59"}
+recurrence: {type: nth_weekday, month: 3, weekday: 0, n: 1}
+timing:
+  confidence: high
+  evidence_quote: "Chaque premier dimanche de mars a lieu le carnaval de Lesquin"
+  evidence_page: 3
+  notes: >-
+    First Sunday of March (fiche from 2014; no current programme found online).
+review_status: unreviewed

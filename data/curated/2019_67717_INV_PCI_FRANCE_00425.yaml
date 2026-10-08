@@ -1,0 +1,20 @@
+id: 2019_67717_INV_PCI_FRANCE_00425
+kind: event
+domain: >-
+  Pratiques sociales, rituels et événements festifs (animal totémique)
+summary:
+  fr: >-
+    À Tarascon, la Tarasque, monstre légendaire dompté par sainte Marthe, est bénie puis court à travers la ville, portée par ses chevaliers, entourée de Tartarin et de défilés costumés.
+  en: >-
+    In Tarascon, the Tarasque, a legendary monster tamed by Saint Martha, is blessed and then charges through the streets carried by its knights, alongside Tartarin and costumed parades.
+  lang_review: draft
+places:
+  - {commune: Tarascon, department: "13"}
+recurrence: {type: nth_weekday, month: 6, weekday: 0, n: -1, offset_days: -2, duration_days: 4}
+timing:
+  confidence: high
+  evidence_quote: "les fêtes de la Tarasque durent quatre jours et se déroulent chaque année le dernier week-end de juin."
+  evidence_page: 1
+  notes: >-
+    Friday to Monday around the last weekend of June; the Tarasque runs on Saturday and Sunday.
+review_status: unreviewed

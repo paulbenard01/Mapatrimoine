@@ -1,0 +1,25 @@
+id: 2010_67717_INV_PCI_FRANCE_00108
+kind: event
+domain: >-
+  Pratiques sociales et festives (fête patronale)
+summary:
+  fr: >-
+    Pour la fête patronale du 15 août, les habitants de Laruns, en vallée d'Ossau, revêtent les costumes traditionnels, dansent branles et sauts et chantent la polyphonie pyrénéenne.
+  en: >-
+    For the patron saint's festival on 15 August, the people of Laruns in the Ossau valley wear traditional costume, dance branles and jumps, and sing Pyrenean polyphony.
+  lang_review: draft
+places:
+  - {commune: Laruns, department: "64"}
+recurrence: {type: fixed, month: 8, day: 15}
+timing:
+  confidence: high
+  evidence_quote: "Sa fête patronale Nosta Dama (Nôtre Dame) le 15 août est particulièrement remarquable."
+  evidence_page: 2
+  web_sources:
+    - url: https://unidivers.fr/event/fetes-de-laruns-journee-traditionnelle-laruns-pyrenees-atlantiques-2026-08-15/
+      publisher: Unidivers
+      says: Lists the traditional day of the Fêtes de Laruns on Saturday 15 August 2026 (aubades, mass, procession, Ossau balls).
+      checked_at: "2026-10-08"
+  notes: >-
+    15 August (Assumption).
+review_status: unreviewed

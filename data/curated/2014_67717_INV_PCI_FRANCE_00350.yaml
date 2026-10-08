@@ -1,0 +1,20 @@
+id: 2014_67717_INV_PCI_FRANCE_00350
+kind: event
+domain: >-
+  Pratiques sociales et festives (géants processionnels)
+summary:
+  fr: >-
+    Depuis le XVIe siècle, la famille de géants Gayant (Monsieur, Madame et leurs trois enfants) défile dans Douai au son des tambours pendant trois jours de fête en juillet.
+  en: >-
+    Since the 16th century, the Gayant family of giants (father, mother and three children) has paraded through Douai to the beat of drums during three days of festivities in July.
+  lang_review: draft
+places:
+  - {commune: Douai, department: "59"}
+recurrence: {type: nth_weekday, month: 7, weekday: 0, n: 1, from_day: 6, duration_days: 3}
+timing:
+  confidence: high
+  evidence_quote: "Les fêtes de Gayant se déroulent chaque année les dimanche, lundi et mardi qui suivent le 5 juillet."
+  evidence_page: 3
+  notes: >-
+    Sunday to Tuesday after 5 July.
+review_status: unreviewed

@@ -1,0 +1,20 @@
+id: 2010_67717_INV_PCI_FRANCE_00118
+kind: event
+domain: >-
+  Pratiques sociales et festives (foire)
+summary:
+  fr: >-
+    Le jour de la Saint-Michel, une immense foire à dominante agricole s'installe en pleine forêt landaise, au quartier Suzan, avec des centaines d'exposants et des dizaines de milliers de visiteurs.
+  en: >-
+    On Saint Michael's day, a huge, mostly agricultural fair sets up in the middle of the Landes forest at Suzan, with hundreds of stallholders and tens of thousands of visitors.
+  lang_review: draft
+places:
+  - {commune: Ousse-Suzan, department: "40"}
+recurrence: {type: fixed, month: 9, day: 29}
+timing:
+  confidence: high
+  evidence_quote: "Le 29 septembre, se tient l’assemblada de Sent Miquèu (rassemblement de la Saint-Michel) au quartier Suzan"
+  evidence_page: 2
+  notes: >-
+    29 September (Saint Michael).
+review_status: unreviewed

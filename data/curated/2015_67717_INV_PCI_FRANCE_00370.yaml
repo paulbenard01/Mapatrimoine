@@ -1,0 +1,27 @@
+id: 2015_67717_INV_PCI_FRANCE_00370
+kind: event
+domain: >-
+  Rituels ; pratiques festives (afro-brésiliennes)
+summary:
+  fr: >-
+    Inspiré du lavage de l'église du Bonfim à Salvador de Bahia, un cortège brésilien en musique part de la place de la République jusqu'à la Madeleine, dont les marches sont lavées à l'eau parfumée par des femmes en blanc.
+  en: >-
+    Inspired by the washing of the Bonfim church in Salvador de Bahia, a Brazilian procession with music goes from Place de la République to the Madeleine, whose steps are washed with perfumed water by women dressed in white.
+  lang_review: draft
+places:
+  - {commune: Paris, department: "75"}
+recurrence: {type: nth_weekday, month: 9, weekday: 0, n: 2}
+timing:
+  confidence: medium
+  web_sources:
+    - url: https://www.sortiraparis.com/en/what-to-visit-in-paris/walks/articles/55272-lavage-de-la-madeleine-2026-the-brazilian-festival-and-parade-returns-to-paris
+      publisher: Sortir à Paris
+      says: 25th edition from 10 to 13 September 2026, with the parade on Sunday 13 September.
+      checked_at: "2026-10-08"
+    - url: https://www.paris-friendly.fr/lavage-madeleine-2025-paris-defile-gratuit.html
+      publisher: Paris Friendly
+      says: The 2025 parade took place on Sunday 14 September.
+      checked_at: "2026-10-08"
+  notes: >-
+    Parade on a Sunday in mid-September (the second Sunday in 2025 and 2026), with a few days of concerts before.
+review_status: unreviewed

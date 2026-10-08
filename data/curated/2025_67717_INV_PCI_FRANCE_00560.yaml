@@ -1,0 +1,29 @@
+id: 2025_67717_INV_PCI_FRANCE_00560
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval, cavalcade)
+summary:
+  fr: >-
+    Tous les deux ans, le Carnaval à l'Ouest de Scaër, l'un des plus grands de France, fait défiler le dimanche et le lundi des chars décorés construits pendant des mois par des équipes de bénévoles.
+  en: >-
+    Every two years, the Carnaval à l'Ouest in Scaër, one of the largest in France, parades decorated floats built over months by volunteer teams, on the Sunday and the Monday.
+  lang_review: draft
+places:
+  - {commune: Scaër, department: "29"}
+recurrence: {type: easter_offset, days: 49, duration_days: 2, every_years: 2, reference_year: 2027}
+timing:
+  confidence: high
+  evidence_quote: "Le carnaval réunit tous les deux ans près de 50 000 spectateurs sur les deux jours que se déroule la fête."
+  evidence_page: 1
+  web_sources:
+    - url: https://www.tourismebretagne.com/preparer-mon-sejour/agenda/le-carnaval-a-louest-la-cavalcade-scaer-fr-6741715/
+      publisher: Tourisme Bretagne
+      says: Lists the next cavalcade on 16 and 17 May 2027 in Scaër town centre.
+      checked_at: "2026-10-08"
+    - url: https://www.festivalenfrance.com/en/festival/carnaval-a-l-ouest-la-cavalcade-de-scaer/2025
+      publisher: Festivals en France
+      says: Pentecost weekend in odd years; the previous edition was on 8 and 9 June 2025.
+      checked_at: "2026-10-08"
+  notes: >-
+    Pentecost Sunday and Whit Monday, odd years.
+review_status: unreviewed

@@ -1,0 +1,29 @@
+id: 2011_67717_INV_PCI_FRANCE_00148
+kind: event
+domain: >-
+  Rituels (ostension de reliques)
+summary:
+  fr: >-
+    Tous les sept ans, une vingtaine de communes du Limousin sortent les reliques de leurs saints pour de grandes processions en costumes, ouvertes par la levée de drapeaux sur les clochers.
+  en: >-
+    Every seven years, about twenty communes of the Limousin bring out the relics of their saints for large costumed processions, opened by raising flags on the church towers.
+  lang_review: draft
+places:
+  - {department: "87", label: "Haute-Vienne et Limousin"}
+recurrence: {type: easter_offset, days: 7, duration_days: 50, every_years: 7, reference_year: 2023}
+timing:
+  confidence: medium
+  evidence_quote: "La période des Ostensions dure en principe du premier dimanche après Pâques (Quasimodo) au premier dimanche après la Pentecôte (Trinité)."
+  evidence_page: 2
+  web_sources:
+    - url: https://www.festivalenfrance.com/festival/ostensions-septennales-limousines
+      publisher: Festivals en France
+      says: The next septennial ostensions will take place in 2030; the 2023 edition ran from 19 March to 12 November.
+      checked_at: "2026-10-08"
+    - url: https://en.wikipedia.org/wiki/Limousin_septennial_ostensions
+      publisher: Wikipedia
+      says: Held every seven years, in years divisible by 7; the last edition was in 2023.
+      checked_at: "2026-10-08"
+  notes: >-
+    Every seven years (next in 2030). In principle from the Sunday after Easter to Trinity Sunday, but each commune sets its own dates and the 2023 cycle ran from March to November.
+review_status: unreviewed

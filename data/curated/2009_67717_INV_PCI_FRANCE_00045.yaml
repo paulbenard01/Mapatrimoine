@@ -1,0 +1,20 @@
+id: 2009_67717_INV_PCI_FRANCE_00045
+kind: event
+domain: >-
+  Rituels (fête patronale)
+summary:
+  fr: >-
+    À Thann, on brûle chaque année trois sapins devant la collégiale en l'honneur de saint Thiébaut, patron de la ville, en souvenir de sa fondation légendaire.
+  en: >-
+    Every year in Thann, three fir trees are burnt in front of the collegiate church in honour of Saint Theobald, the town's patron saint, recalling its legendary foundation.
+  lang_review: draft
+places:
+  - {commune: Thann, department: "68"}
+recurrence: {type: fixed, month: 6, day: 30}
+timing:
+  confidence: high
+  evidence_quote: "La Crémation des Trois Sapins est une célébration locale de saint Thiébaut, patron de la ville de Thann, qui se déroule annuellement le 30 juin."
+  evidence_page: 1
+  notes: >-
+    Evening of 30 June, the eve of the feast of Saint Theobald's relic (1 July).
+review_status: unreviewed

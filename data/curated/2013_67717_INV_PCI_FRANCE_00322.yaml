@@ -1,0 +1,20 @@
+id: 2013_67717_INV_PCI_FRANCE_00322
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval, géants)
+summary:
+  fr: >-
+    À Cassel, les géants Reuze Papa et Reuze Maman dansent sur la Grand-Place lors de deux carnavals, dont le grand carnaval d'été du lundi de Pâques avec des groupes invités.
+  en: >-
+    In Cassel, the giants Reuze Papa and Reuze Maman dance on the main square at two carnivals, the larger one on Easter Monday with visiting groups.
+  lang_review: draft
+places:
+  - {commune: Cassel, department: "59"}
+recurrence: {type: easter_offset, days: 1}
+timing:
+  confidence: high
+  evidence_quote: "le carnaval d'été, qui a lieu le lundi de Pâques"
+  evidence_page: 4
+  notes: >-
+    Easter Monday (summer carnival). The smaller winter carnival is on the Sunday before Mardi gras.
+review_status: unreviewed

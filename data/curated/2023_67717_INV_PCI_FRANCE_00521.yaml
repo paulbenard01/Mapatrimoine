@@ -1,0 +1,25 @@
+id: 2023_67717_INV_PCI_FRANCE_00521
+kind: event
+domain: >-
+  Pratiques sociales, rituels et événements festifs ; savoir-faire artisanaux
+summary:
+  fr: >-
+    Héritier de la Mi-Carême née en 1880, le carnaval de Nantes fait défiler des chars construits toute l'année par des bénévoles, avec un défilé de jour, un bal des enfants et une parade de nuit.
+  en: >-
+    Heir to the Mid-Lent festival begun in 1880, the Nantes carnival parades floats built all year by volunteers, with a daytime parade, a children's ball and a night parade.
+  lang_review: draft
+places:
+  - {commune: Nantes, department: "44"}
+recurrence: {type: unknown}
+timing:
+  confidence: low
+  evidence_quote: "Il se déroule sur une semaine et débute par le défilé du dimanche après-midi"
+  evidence_page: 1
+  web_sources:
+    - url: https://metropole.nantes.fr/que-faire-nantes/agenda/carnaval-de-nantes-2026
+      publisher: Nantes Métropole
+      says: The 2026 edition had the children's carnival on 4 April, the day parade on Sunday 12 April and the night parade on Saturday 18 April.
+      checked_at: "2026-10-08"
+  notes: >-
+    One week in spring (formerly at Mid-Lent), usually April; 2027 dates not announced yet.
+review_status: unreviewed

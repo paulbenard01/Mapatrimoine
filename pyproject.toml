@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pci-map"
+version = "0.1.0"
+description = "Data pipeline for PCI Map: France's intangible cultural heritage inventory on a map"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "requests==2.34.2",
+    "beautifulsoup4==4.15.0",
+    "PyYAML==6.0.3",
+    "jsonschema==4.26.0",
+    "pypdf==6.19.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "ruff==0.16.10",
+]
+
+[project.scripts]
+pci = "pci.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["pipeline"]
+include = ["pci*"]
+
+[tool.pytest.ini_options]
+testpaths = ["pipeline/tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["pipeline"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
