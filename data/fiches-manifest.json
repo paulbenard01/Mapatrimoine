@@ -14,7 +14,7 @@
  },
  "2009_67717_INV_PCI_FRANCE_00041": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Dia-de-la-Candelaria",
-  "status": "failed: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Dia-de-la-Candelaria: HTTP 403"
+  "status": "failed: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Dia-de-la-Candelaria: network error TimeoutError"
  },
  "2009_67717_INV_PCI_FRANCE_00042": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Rosca-de-Reyes",
@@ -220,7 +220,8 @@
  },
  "2014_67717_INV_PCI_FRANCE_00331": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-junte-de-Roncal",
-  "status": "failed: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-junte-de-Roncal: network error TimeoutError"
+  "status": "ok",
+  "fetched_at": "2026-10-08"
  },
  "2014_67717_INV_PCI_FRANCE_00340": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Fest-Noz",

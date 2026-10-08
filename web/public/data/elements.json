@@ -1,6 +1,5 @@
 {
- "generated_from": "data/curated",
- "count": 72,
+ "count": 73,
  "elements": [
   {
    "id": "2009_67717_INV_PCI_FRANCE_00040",
@@ -1224,6 +1223,53 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-du-Piment-d-Espelette",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2014_67717_INV_PCI_FRANCE_00331",
+   "title_fr": "La junte de Roncal à La Pierre-Saint-Martin (Arette, Pyrénées-Atlantiques) / Tributo de las Tres Vacas",
+   "theme": "rituals",
+   "domain": "Rituels (traité pastoral transfrontalier)",
+   "year_included": 2014,
+   "kind": "event",
+   "summary": {
+    "fr": "Chaque 13 juillet au col de la Pierre-Saint-Martin, les maires de la vallée béarnaise de Barétous et ceux de la vallée navarraise de Roncal renouvellent, mains jointes sur la borne frontière, un traité de paix pastoral médiéval ; trois génisses sont remises en tribut.",
+    "en": "Every 13 July at the Pierre-Saint-Martin pass, the mayors of the Barétous valley in Béarn and of the Roncal valley in Navarre renew a medieval pastoral peace treaty with their hands joined on the border stone; three heifers are handed over as tribute.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Col de la Pierre-Saint-Martin (Arette)",
+     "lat": 43.0304,
+     "lon": -0.7371,
+     "precision": "commune",
+     "insee": "64040",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "fixed",
+    "month": 7,
+    "day": 13
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "est une cérémonie célébrant, chaque 13 juillet, le plus ancien traité encore en vigueur en Europe : la sentence arbitrale d’Ansó de 1375.",
+    "evidence_page": 1,
+    "web_sources": [
+     {
+      "url": "https://www.tourmag.com/Navarre-la-ceremonie-de-la-Junte-de-Roncal-le-plus-vieux-deal-europeen_a88171.html",
+      "publisher": "TourMaG",
+      "says": "Describes the ceremony held every 13 July at the pass, around border stone 262.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "13 July, around noon, at the border stone on the pass."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-junte-de-Roncal",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"
