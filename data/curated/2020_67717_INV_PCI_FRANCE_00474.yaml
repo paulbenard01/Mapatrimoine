@@ -1,0 +1,29 @@
+id: 2020_67717_INV_PCI_FRANCE_00474
+kind: event
+domain: >-
+  Pratiques sociales et festives (corso fleuri)
+summary:
+  fr: >-
+    Dans plusieurs stations thermales des Pyrénées, dont Bagnères-de-Luchon, la fête des Fleurs fait défiler des chars couverts de fleurs naturelles ou en papier crépon, préparés pendant des mois, sur un thème renouvelé chaque année.
+  en: >-
+    In several Pyrenean spa towns, including Bagnères-de-Luchon, the Flower Festival parades floats covered in real or crêpe-paper flowers, made over many months on a theme that changes every year.
+  lang_review: draft
+places:
+  - {commune: Bagnères-de-Luchon, department: "31"}
+recurrence: {type: nth_weekday, month: 8, weekday: 0, n: 4, offset_days: -3, duration_days: 4}
+timing:
+  confidence: medium
+  evidence_quote: "Lors de cette fête qui s’étend du jeudi au dimanche, diverses animations égaient la ville"
+  evidence_page: 5
+  web_sources:
+    - url: https://unidivers.fr/event/fete-des-fleurs-dimanche-bagneres-de-luchon-haute-garonne-2026-08-23/
+      publisher: Unidivers
+      says: The 2026 Luchon Fête des Fleurs ran from Friday 21 to Sunday 23 August, with the flower parade on the Sunday.
+      checked_at: "2026-10-08"
+    - url: https://unidivers.fr/event/fete-des-fleurs-bagneres-de-luchon-haute-garonne-2025-08-22/
+      publisher: Unidivers
+      says: The 2025 edition started on Friday 22 August.
+      checked_at: "2026-10-08"
+  notes: >-
+    Date shown for Luchon: Thursday to Sunday, the flower parade on the Sunday. The weekend (fourth Sunday of August) is inferred from 2025 and 2026. Other spa towns hold their own flower festivals.
+review_status: unreviewed

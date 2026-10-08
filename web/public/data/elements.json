@@ -1,6 +1,6 @@
 {
  "generated_from": "data/curated",
- "count": 70,
+ "count": 72,
  "elements": [
   {
    "id": "2009_67717_INV_PCI_FRANCE_00040",
@@ -2614,6 +2614,62 @@
    "review_status": "unreviewed"
   },
   {
+   "id": "2020_67717_INV_PCI_FRANCE_00474",
+   "title_fr": "Les fêtes des Fleurs dans les stations thermales des Pyrénées",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (corso fleuri)",
+   "year_included": 2020,
+   "kind": "event",
+   "summary": {
+    "fr": "Dans plusieurs stations thermales des Pyrénées, dont Bagnères-de-Luchon, la fête des Fleurs fait défiler des chars couverts de fleurs naturelles ou en papier crépon, préparés pendant des mois, sur un thème renouvelé chaque année.",
+    "en": "In several Pyrenean spa towns, including Bagnères-de-Luchon, the Flower Festival parades floats covered in real or crêpe-paper flowers, made over many months on a theme that changes every year.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Bagnères-de-Luchon",
+     "lat": 42.7492,
+     "lon": 0.6264,
+     "precision": "commune",
+     "insee": "31042",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 8,
+    "weekday": 0,
+    "n": 4,
+    "offset_days": -3,
+    "duration_days": 4
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "Lors de cette fête qui s’étend du jeudi au dimanche, diverses animations égaient la ville",
+    "evidence_page": 5,
+    "web_sources": [
+     {
+      "url": "https://unidivers.fr/event/fete-des-fleurs-dimanche-bagneres-de-luchon-haute-garonne-2026-08-23/",
+      "publisher": "Unidivers",
+      "says": "The 2026 Luchon Fête des Fleurs ran from Friday 21 to Sunday 23 August, with the flower parade on the Sunday.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://unidivers.fr/event/fete-des-fleurs-bagneres-de-luchon-haute-garonne-2025-08-22/",
+      "publisher": "Unidivers",
+      "says": "The 2025 edition started on Friday 22 August.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Date shown for Luchon: Thursday to Sunday, the flower parade on the Sunday. The weekend (fourth Sunday of August) is inferred from 2025 and 2026. Other spa towns hold their own flower festivals."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-fetes-des-fleurs-dans-les-stations-thermales-des-pyrenees.pdf",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
    "id": "2020_67717_INV_PCI_FRANCE_00479",
    "title_fr": "Le Yennayer, Nouvel An berbère en région Île-de-France",
    "theme": "social-festive",
@@ -2911,6 +2967,52 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-tour-du-saint-cordon-valenciennes",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2024_67717_INV_PCI_FRANCE_00545",
+   "title_fr": "La procession de Neuf lieues",
+   "theme": "rituals",
+   "domain": "Rituels (procession)",
+   "year_included": 2024,
+   "kind": "event",
+   "summary": {
+    "fr": "Après une messe de minuit, les pèlerins de Magnac-Laval parcourent de nuit puis de jour une boucle de neuf lieues (environ 53 km) jalonnée de croix fleuries, en l'honneur de saint Maximin, avant de revenir à l'église le soir.",
+    "en": "After a midnight mass, pilgrims from Magnac-Laval walk through the night and the following day along a nine-league loop (about 53 km) lined with flower-decked crosses, in honour of Saint Maximin, returning to the church in the evening.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Magnac-Laval",
+     "lat": 46.2381,
+     "lon": 1.1702,
+     "precision": "commune",
+     "insee": "87089",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "easter_offset",
+    "days": 50
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "La procession de Neuf lieues a lieu chaque année le lundi de la Pentecôte.",
+    "evidence_page": 4,
+    "web_sources": [
+     {
+      "url": "https://en.visitlimousin.com/stay/events-in-haute-vienne/haute-vienne-events-calendar-in-limousin/procession-de-neuf-lieues-magnac-laval-en-6338794",
+      "publisher": "Limousin tourism board",
+      "says": "Lists the procession on Monday 25 May 2026 (Whit Monday).",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Starts in the night after Pentecost Sunday and ends on the evening of Whit Monday."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-procession-de-neuf-lieues",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"
