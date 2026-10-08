@@ -1,0 +1,28 @@
+id: 2012_67717_INV_PCI_FRANCE_00151
+kind: event
+fiche_read: false
+domain: >-
+  Pratiques sociales et festives (fête maritime)
+summary:
+  fr: >-
+    Depuis 1946, Capbreton consacre un week-end de juin à la mer : hommage aux marins disparus, sortie de la flottille des pêcheurs et animations sur le port.
+  en: >-
+    Since 1946, Capbreton has devoted a June weekend to the sea: a tribute to sailors lost at sea, a parade of the fishing fleet and events around the harbour.
+  lang_review: draft
+places:
+  - {commune: Capbreton, department: "40"}
+recurrence: {type: unknown}
+timing:
+  confidence: medium
+  web_sources:
+    - url: https://www.jds.fr/capbreton/actu/programme-de-la-fete-de-la-mer-2026-a-capbreton-80-ans-d-une-celebration-maritime-incontournable-1590340_A
+      publisher: JDS
+      says: The 80th edition ran on Saturday 13 and Sunday 14 June 2026 around the port, organised by the town and the communauté de communes.
+      checked_at: "2026-10-08"
+    - url: https://www.festivalenfrance.com/festival/f-ete-de-la-mer-capbreton/2025
+      publisher: Festivals en France
+      says: The 2025 edition was held on 21 and 22 June.
+      checked_at: "2026-10-08"
+  notes: >-
+    A weekend in June; the exact weekend changes from year to year (13-14 June 2026, 21-22 June 2025).
+review_status: unreviewed

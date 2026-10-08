@@ -1,0 +1,28 @@
+id: 2010_67717_INV_PCI_FRANCE_00084
+kind: event
+fiche_read: false
+domain: >-
+  Rituels (fête patronale, procession)
+summary:
+  fr: >-
+    Venue de Sperlonga, en Italie, la fête de saint Léon fait défiler sa statue de l'église Saint-Laurent jusqu'à la cathédrale de la Major, avec bénédiction de la mer, de la ville, des pêcheurs et des gâteaux.
+  en: >-
+    Brought from Sperlonga in Italy, the feast of Saint Leo carries his statue in procession from the church of Saint-Laurent to the Major cathedral, with blessings of the sea, the city, the fishermen and the cakes.
+  lang_review: draft
+places:
+  - {commune: Marseille, department: "13"}
+recurrence: {type: nth_weekday, month: 11, weekday: 0, n: 1, from_day: 11}
+timing:
+  confidence: medium
+  web_sources:
+    - url: https://www.pci-lab.fr/fiche-d-inventaire/fiche/84-la-fete-de-saint-leon-a-marseille
+      publisher: PCI Lab (Ministère de la Culture inventory platform)
+      says: Inventory text of the element; the procession goes from the Saint-Laurent church to the Major cathedral.
+      checked_at: "2026-10-08"
+    - url: https://fr.wikipedia.org/wiki/F%C3%AAte_de_Saint-L%C3%A9on_(Marseille)
+      publisher: Wikipédia
+      says: Since its revival in the 1990s, the feast takes place on the Sunday after 10 November, anniversary of Saint Leo the Great's death.
+      checked_at: "2026-10-08"
+  notes: >-
+    The first Sunday after 10 November.
+review_status: unreviewed

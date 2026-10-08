@@ -1,6 +1,6 @@
 {
  "generated_from": "data/curated",
- "count": 73,
+ "count": 76,
  "elements": [
   {
    "id": "2009_67717_INV_PCI_FRANCE_00040",
@@ -27,7 +27,54 @@
    "timing": null,
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-maloya",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2009_67717_INV_PCI_FRANCE_00041",
+   "title_fr": "Le jour de la Chandeleur mexicain à Paris / El dia de la Candelaria",
+   "theme": "rituals",
+   "domain": "Rituels (fête domestique)",
+   "year_included": 2009,
+   "kind": "event",
+   "summary": {
+    "fr": "Le 2 février, les familles mexicaines de Paris prolongent les fêtes de l'Épiphanie : ceux qui ont trouvé la fève de la rosca de Reyes offrent les tamales, rappel du culte ancien du maïs, autour de l'Enfant Jésus de la maison.",
+    "en": "On 2 February, Mexican families in Paris close the Epiphany season: those who found the figurine in the rosca de Reyes provide tamales, a reminder of ancient maize worship, around the household's Christ Child figure.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Paris",
+     "lat": 48.8589,
+     "lon": 2.347,
+     "precision": "commune",
+     "insee": "75056",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "fixed",
+    "month": 2,
+    "day": 2
+   },
+   "timing": {
+    "confidence": "medium",
+    "web_sources": [
+     {
+      "url": "https://www.pci-lab.fr/fiche-d-inventaire/fiche/80",
+      "publisher": "PCI Lab (Ministère de la Culture inventory platform)",
+      "says": "Inventory text of the element; a mostly domestic celebration on 2 February, with tamales, and sometimes a procession with the Virgin of Candelaria in Latin American parishes.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "2 February (Candlemas). Mostly celebrated at home; there is no public programme."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Dia-de-la-Candelaria",
+    "fetched_at": null,
+    "fiche_read": false
    },
    "review_status": "unreviewed"
   },
@@ -66,7 +113,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-cremation-des-Trois-Sapins-Association-Eugubini-nel-mondo",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -106,7 +154,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/dia-de-los-muertos-fete-des-morts",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -154,7 +203,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/fete-de-notre-dame-de-la-visitation-a-vievola",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -201,7 +251,62 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-notre-Dame-de-Guadalupe-Paris",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2010_67717_INV_PCI_FRANCE_00084",
+   "title_fr": "La fête de Saint-Léon à Marseille (Bouches-du-Rhône)",
+   "theme": "rituals",
+   "domain": "Rituels (fête patronale, procession)",
+   "year_included": 2010,
+   "kind": "event",
+   "summary": {
+    "fr": "Venue de Sperlonga, en Italie, la fête de saint Léon fait défiler sa statue de l'église Saint-Laurent jusqu'à la cathédrale de la Major, avec bénédiction de la mer, de la ville, des pêcheurs et des gâteaux.",
+    "en": "Brought from Sperlonga in Italy, the feast of Saint Leo carries his statue in procession from the church of Saint-Laurent to the Major cathedral, with blessings of the sea, the city, the fishermen and the cakes.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Marseille",
+     "lat": 43.2803,
+     "lon": 5.3806,
+     "precision": "commune",
+     "insee": "13055",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 11,
+    "weekday": 0,
+    "n": 1,
+    "from_day": 11
+   },
+   "timing": {
+    "confidence": "medium",
+    "web_sources": [
+     {
+      "url": "https://www.pci-lab.fr/fiche-d-inventaire/fiche/84-la-fete-de-saint-leon-a-marseille",
+      "publisher": "PCI Lab (Ministère de la Culture inventory platform)",
+      "says": "Inventory text of the element; the procession goes from the Saint-Laurent church to the Major cathedral.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/F%C3%AAte_de_Saint-L%C3%A9on_(Marseille)",
+      "publisher": "Wikipédia",
+      "says": "Since its revival in the 1990s, the feast takes place on the Sunday after 10 November, anniversary of Saint Leo the Great's death.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "The first Sunday after 10 November."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-Saint-Leon",
+    "fetched_at": null,
+    "fiche_read": false
    },
    "review_status": "unreviewed"
   },
@@ -250,7 +355,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-Ringueta",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -288,7 +394,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Passejada-deus-bueus-gras-Vasats",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -327,7 +434,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-de-Saint-Jean-de-Bazas",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -374,7 +482,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Notre-Dame-de-Laruns",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -424,7 +533,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-hesta-deus-aulhers-la-fete-des-bergers",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -481,7 +591,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Hestas-de-Baiona-Fetes-de-Bayonne",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -538,7 +649,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Hestas-de-Dacs-Fetes-de-Dax",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -577,7 +689,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-assemblada-d-Ossa-Susan-Ousse-Suzan",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -617,7 +730,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Foire-de-La-Latiere",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -671,7 +785,58 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/ostentions-septennales-limousines",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2012_67717_INV_PCI_FRANCE_00151",
+   "title_fr": "Les fêtes de la Mer à Capbreton (Landes)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (fête maritime)",
+   "year_included": 2012,
+   "kind": "event",
+   "summary": {
+    "fr": "Depuis 1946, Capbreton consacre un week-end de juin à la mer : hommage aux marins disparus, sortie de la flottille des pêcheurs et animations sur le port.",
+    "en": "Since 1946, Capbreton has devoted a June weekend to the sea: a tribute to sailors lost at sea, a parade of the fishing fleet and events around the harbour.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Capbreton",
+     "lat": 43.6311,
+     "lon": -1.4289,
+     "precision": "commune",
+     "insee": "40065",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "unknown"
+   },
+   "timing": {
+    "confidence": "medium",
+    "web_sources": [
+     {
+      "url": "https://www.jds.fr/capbreton/actu/programme-de-la-fete-de-la-mer-2026-a-capbreton-80-ans-d-une-celebration-maritime-incontournable-1590340_A",
+      "publisher": "JDS",
+      "says": "The 80th edition ran on Saturday 13 and Sunday 14 June 2026 around the port, organised by the town and the communauté de communes.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://www.festivalenfrance.com/festival/f-ete-de-la-mer-capbreton/2025",
+      "publisher": "Festivals en France",
+      "says": "The 2025 edition was held on 21 and 22 June.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "A weekend in June; the exact weekend changes from year to year (13-14 June 2026, 21-22 June 2025)."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Capbreton",
+    "fetched_at": null,
+    "fiche_read": false
    },
    "review_status": "unreviewed"
   },
@@ -722,7 +887,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Limoux",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -762,7 +928,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Cerise-a-Itxassou",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -801,7 +968,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-barricot-a-Labastide-Monrejeau",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -851,7 +1019,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Mer-a-Saint-Jean-de-Luz",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -898,7 +1067,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Saint-Bourrou",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -937,7 +1107,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-brandons-de-la-saint-jean-et-de-la-saint-pierre-a-bagneres-de-luchon.pdf",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -978,7 +1149,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Arbre-de-mai-de-Locronan",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1025,7 +1197,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-Granville",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1063,7 +1236,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Cassel",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1103,7 +1277,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Grand-Fort-Philippe",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1143,7 +1318,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Steenvoorde",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1182,7 +1358,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jour-des-Limites-a-La-Pierre-Saint-Martin",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1224,7 +1401,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-du-Piment-d-Espelette",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1271,7 +1449,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-junte-de-Roncal",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1300,7 +1479,8 @@
    "timing": null,
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Fest-Noz",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1338,7 +1518,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Manthelan",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1395,7 +1576,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-du-printemps",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1452,7 +1634,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-l-ours",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1494,7 +1677,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Douai",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1534,7 +1718,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Lesquin",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1576,7 +1761,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Lomme",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1631,7 +1817,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Villeneuve-d-Ascq",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1670,7 +1857,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Wormhout",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1708,7 +1896,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-en-Kabwet",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1760,7 +1949,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-lavage-de-la-Madeleine",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1819,7 +2009,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boulogne",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1856,7 +2047,8 @@
    "timing": null,
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-yole-ronde-de-la-Martinique",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1902,7 +2094,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Cayenne-avec-le-touloulou-du-bal-pare-masque",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1957,7 +2150,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Vaisakhi-des-Sikhs-a-Bobigny",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -1997,7 +2191,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Jeanne-d-Arc-a-Orleans",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2054,7 +2249,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Grand-Pardon-de-Chaumont",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2094,7 +2290,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Saint-Nicolas-a-Nancy",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2133,7 +2330,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Noel-en-Provence",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2184,7 +2382,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-artisanaux-associes-au-carnaval-de-nice2",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2229,7 +2428,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-du-Boeuf-de-Meze",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2266,7 +2466,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Montblanc",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2303,7 +2504,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-du-Tribus-Lupis-de-Cournonterral",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2345,7 +2547,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-la-Tarasque",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2392,7 +2595,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Pezenas",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2434,7 +2638,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Saint-Laurent-et-l-Ane-de-Bessan",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2473,7 +2678,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Sainte-Agathe-a-Saint-Pierre-d-Albigny-dans-le-massif-des-Bauges",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2511,7 +2717,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-norouz-ou-nouvel-an-persan-en-region-parisienne.pdf",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2562,7 +2769,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-du-citron-de-menton.pdf",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2616,7 +2824,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-olives-vertes-de-mouries.pdf",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2656,7 +2865,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-rois-a-saint-jean-de-luz.pdf",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2712,7 +2922,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-fetes-des-fleurs-dans-les-stations-thermales-des-pyrenees.pdf",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2765,7 +2976,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-yennayer-nouvel-an-berbere.pdf",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2807,7 +3019,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-des-conscrits-a-villefranche-sur-saone-et-en-son-bassin-de-vie.pdf",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2836,7 +3049,8 @@
    "timing": null,
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-maluwida-shenge-mayotte",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2875,7 +3089,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-jeux-floraux-de-toulouse-et-leur-fete-des-fleurs",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2920,7 +3135,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-carnaval-de-nantes",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -2974,7 +3190,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-sanch-processions-des-penitents-du-vendredi-saint-en-roussillon-pyrenees-orientales",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -3014,7 +3231,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-tour-du-saint-cordon-valenciennes",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -3060,7 +3278,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-procession-de-neuf-lieues",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -3089,7 +3308,8 @@
    "timing": null,
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/chjam-e-rispondi-joutes-poetiques-improvisees-et-chantees-corse",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -3144,7 +3364,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-carnaval-a-l-ouest-de-scaer",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -3182,7 +3403,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-pelerinage-de-sainte-solange",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   },
@@ -3222,7 +3444,8 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-procession-mariale-de-notre-dame-de-lourdes-hautes-pyrenees",
-    "fetched_at": "2026-10-08"
+    "fetched_at": "2026-10-08",
+    "fiche_read": true
    },
    "review_status": "unreviewed"
   }

@@ -98,6 +98,7 @@ export const en: Strings = {
   aboutText:
     "Data: national inventory of intangible cultural heritage, French Ministry of Culture. Summaries written for this site. No cookies, no analytics, no trackers. The map tile provider (OpenFreeMap) sees visitors' IP addresses, like any web server.",
   pilotNote: "Pilot project: a selection of inventory elements.",
+  ficheNotRead: "Summary and timing based on online sources: the official fiche could not be consulted.",
   ruleEveryN: (n: number) => `Every ${n} years`,
   announcedDates: "No fixed rule: dates announced by the organisers for each edition",
   webSources: "Checked online",

@@ -137,3 +137,31 @@ def test_web_sources_can_replace_the_fiche_quote(tmp_path):
     assert check(element, VALIDATOR, tmp_path) == []
     del element["timing"]["web_sources"]
     assert check(element, VALIDATOR, tmp_path)  # no evidence at all is refused
+
+
+def test_entry_from_online_sources_when_the_fiche_could_not_be_read(tmp_path):
+    manifest = {ID: {"status": "failed: network error TimeoutError"}}
+    with pytest.raises(BuildError, match="not fetched"):
+        compose(CURATED, INDEX, manifest, CACHE)
+    web_only = {**CURATED, "fiche_read": False}
+    with pytest.raises(BuildError, match="web_sources"):
+        compose(web_only, INDEX, manifest, CACHE)
+    web_only["timing"] = {
+        "confidence": "medium",
+        "notes": "",
+        "web_sources": [
+            {
+                "url": "https://example.org",
+                "publisher": "Example",
+                "says": "The procession is on Good Friday.",
+                "checked_at": "2026-10-08",
+            }
+        ],
+    }
+    element = compose(web_only, INDEX, manifest, CACHE)
+    assert element["source"] == {
+        "fiche_url": INDEX[ID]["fiche_url"],
+        "fetched_at": None,
+        "fiche_read": False,
+    }
+    assert check(element, VALIDATOR, tmp_path) == []

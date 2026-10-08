@@ -39,6 +39,14 @@
   "insee": "12138",
   "overseas": false
  },
+ "commune:13:marseille": {
+  "label": "Marseille",
+  "lat": 43.2803,
+  "lon": 5.3806,
+  "precision": "commune",
+  "insee": "13055",
+  "overseas": false
+ },
  "commune:13:mouries": {
   "label": "Mouriès",
   "lat": 43.7053,
@@ -165,6 +173,14 @@
   "lon": 0.8201,
   "precision": "commune",
   "insee": "37143",
+  "overseas": false
+ },
+ "commune:40:capbreton": {
+  "label": "Capbreton",
+  "lat": 43.6311,
+  "lon": -1.4289,
+  "precision": "commune",
+  "insee": "40065",
   "overseas": false
  },
  "commune:40:dax": {

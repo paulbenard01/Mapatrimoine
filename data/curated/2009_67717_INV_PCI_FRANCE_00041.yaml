@@ -1,0 +1,24 @@
+id: 2009_67717_INV_PCI_FRANCE_00041
+kind: event
+fiche_read: false
+domain: >-
+  Rituels (fête domestique)
+summary:
+  fr: >-
+    Le 2 février, les familles mexicaines de Paris prolongent les fêtes de l'Épiphanie : ceux qui ont trouvé la fève de la rosca de Reyes offrent les tamales, rappel du culte ancien du maïs, autour de l'Enfant Jésus de la maison.
+  en: >-
+    On 2 February, Mexican families in Paris close the Epiphany season: those who found the figurine in the rosca de Reyes provide tamales, a reminder of ancient maize worship, around the household's Christ Child figure.
+  lang_review: draft
+places:
+  - {commune: Paris, department: "75"}
+recurrence: {type: fixed, month: 2, day: 2}
+timing:
+  confidence: medium
+  web_sources:
+    - url: https://www.pci-lab.fr/fiche-d-inventaire/fiche/80
+      publisher: PCI Lab (Ministère de la Culture inventory platform)
+      says: Inventory text of the element; a mostly domestic celebration on 2 February, with tamales, and sometimes a procession with the Virgin of Candelaria in Latin American parishes.
+      checked_at: "2026-10-08"
+  notes: >-
+    2 February (Candlemas). Mostly celebrated at home; there is no public programme.
+review_status: unreviewed

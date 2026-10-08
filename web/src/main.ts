@@ -522,6 +522,7 @@ function renderDetail(item: Item): HTMLElement {
     themeLine(entry, element),
     h("p", { class: "summary", lang: state.lang }, summary),
     draft ? h("p", { class: "note" }, s.summaryDraft) : null,
+    element.source.fiche_read ? null : h("p", { class: "flag" }, s.ficheNotRead),
     h(
       "dl",
       { class: "facts" },

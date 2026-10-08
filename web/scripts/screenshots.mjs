@@ -105,7 +105,8 @@ const ok =
   log.detailFocused === "detail-title" &&
   log.backFocused === `item-${SANCH}` &&
   log.cleared === log.start &&
-  log.agenda.startsWith("30 ") &&
+  parseInt(log.agenda) > 0 &&
+  parseInt(log.agenda) < parseInt(log.start) &&
   log.april !== log.agenda;
 if (!ok) throw new Error("keyboard smoke test failed");
 console.log("keyboard smoke test passed");

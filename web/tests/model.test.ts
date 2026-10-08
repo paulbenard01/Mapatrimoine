@@ -25,7 +25,7 @@ function element(id: string, over: Partial<Element> = {}): Element {
     locations: [{ label: "Paris", lat: 48.8566, lon: 2.3522, precision: "commune" }],
     recurrence: { type: "fixed", month: 6, day: 24 },
     timing: { confidence: "high", evidence_quote: "q", evidence_page: 1, notes: "" },
-    source: { fiche_url: "https://www.culture.gouv.fr/x", fetched_at: "2026-10-08" },
+    source: { fiche_url: "https://www.culture.gouv.fr/x", fetched_at: "2026-10-08", fiche_read: true },
     review_status: "unreviewed",
     ...over,
   };

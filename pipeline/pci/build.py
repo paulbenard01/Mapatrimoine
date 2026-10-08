@@ -29,6 +29,7 @@ CURATED_FIELDS = {
     "review_status",
     "title_fr",
     "theme",
+    "fiche_read",
 }
 
 
@@ -76,8 +77,13 @@ def compose(curated: dict, index: dict, manifest: dict, cache: dict) -> dict:
     fiche = manifest.get(ident, {})
     if fiche.get("unpublished_marker"):
         raise BuildError("fiche text carries an unpublished marker; must be excluded")
-    if fiche.get("status") != "ok":
+    # fiche_read: false = curated from online sources because the PDF could not be downloaded;
+    # the site says so, and every such entry needs web sources for its timing.
+    fiche_read = curated.get("fiche_read", True)
+    if fiche_read and fiche.get("status") != "ok":
         raise BuildError(f"fiche not fetched (status: {fiche.get('status')})")
+    if not fiche_read and not (curated.get("timing") or {}).get("web_sources"):
+        raise BuildError("fiche_read: false requires timing.web_sources")
     return {
         "id": ident,
         "title_fr": curated.get("title_fr") or entry["title"],
@@ -89,7 +95,11 @@ def compose(curated: dict, index: dict, manifest: dict, cache: dict) -> dict:
         "locations": [lookup(place, cache) for place in curated["places"]],
         "recurrence": curated.get("recurrence"),
         "timing": curated.get("timing"),
-        "source": {"fiche_url": entry["fiche_url"], "fetched_at": fiche["fetched_at"]},
+        "source": {
+            "fiche_url": entry["fiche_url"],
+            "fetched_at": fiche.get("fetched_at") if fiche_read else None,
+            "fiche_read": fiche_read,
+        },
         "review_status": curated["review_status"],
     }
 

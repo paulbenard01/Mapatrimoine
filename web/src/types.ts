@@ -46,7 +46,7 @@ export interface Element {
   locations: Location[];
   recurrence: Rule | null;
   timing: Timing | null;
-  source: { fiche_url: string; fetched_at: string };
+  source: { fiche_url: string; fetched_at: string | null; fiche_read: boolean };
   review_status: "unreviewed" | "reviewed";
 }
 
