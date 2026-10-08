@@ -23,6 +23,16 @@
   "pages": 10,
   "unpublished_marker": false
  },
+ "2010_67717_INV_PCI_FRANCE_00097": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-des-deux-rives",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00098": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-de-Peirigueers-Carnaval-de-Perigueux",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
  "2010_67717_INV_PCI_FRANCE_00103": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Passejada-deus-bueus-gras-Vasats",
   "status": "ok",
@@ -39,6 +49,16 @@
   "pages": 4,
   "unpublished_marker": false
  },
+ "2010_67717_INV_PCI_FRANCE_00108": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Notre-Dame-de-Laruns",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00114": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-hesta-deus-aulhers-la-fete-des-bergers",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
  "2010_67717_INV_PCI_FRANCE_00116": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Hestas-de-Baiona-Fetes-de-Bayonne",
   "status": "ok",
@@ -47,6 +67,21 @@
   "pages": 4,
   "unpublished_marker": false
  },
+ "2010_67717_INV_PCI_FRANCE_00117": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Hestas-de-Dacs-Fetes-de-Dax",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00118": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-assemblada-d-Ossa-Susan-Ousse-Suzan",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2010_67717_INV_PCI_FRANCE_00133": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Foire-de-La-Latiere",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
  "2013_67717_INV_PCI_FRANCE_00296": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Cerise-a-Itxassou",
   "status": "ok",
@@ -54,6 +89,11 @@
   "text": "ok",
   "pages": 5,
   "unpublished_marker": false
+ },
+ "2013_67717_INV_PCI_FRANCE_00297": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-barricot-a-Labastide-Monrejeau",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
  },
  "2013_67717_INV_PCI_FRANCE_00313": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-brandons-de-la-saint-jean-et-de-la-saint-pierre-a-bagneres-de-luchon.pdf",
@@ -93,6 +133,16 @@
   "pages": 16,
   "unpublished_marker": false
  },
+ "2013_67717_INV_PCI_FRANCE_00323": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Grand-Fort-Philippe",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2013_67717_INV_PCI_FRANCE_00324": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Steenvoorde",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
  "2014_67717_INV_PCI_FRANCE_00330": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-du-Piment-d-Espelette",
   "status": "ok",
@@ -108,6 +158,11 @@
   "text": "ok",
   "pages": 7,
   "unpublished_marker": false
+ },
+ "2014_67717_INV_PCI_FRANCE_00345": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Manthelan",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
  },
  "2014_67717_INV_PCI_FRANCE_00348": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-du-printemps",
@@ -133,6 +188,26 @@
   "pages": 17,
   "unpublished_marker": false
  },
+ "2014_67717_INV_PCI_FRANCE_00351": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Lesquin",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2014_67717_INV_PCI_FRANCE_00352": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Lomme",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2014_67717_INV_PCI_FRANCE_00353": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Villeneuve-d-Ascq",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
+ "2014_67717_INV_PCI_FRANCE_00354": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Wormhout",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
  "2014_67717_INV_PCI_FRANCE_00359": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-en-Kabwet",
   "status": "ok",
@@ -140,6 +215,11 @@
   "text": "ok",
   "pages": 9,
   "unpublished_marker": false
+ },
+ "2015_67717_INV_PCI_FRANCE_00371": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boulogne",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
  },
  "2017_67717_INV_PCI_FRANCE_00376": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-yole-ronde-de-la-Martinique",

@@ -133,6 +133,27 @@ describe("year boundary", () => {
   });
 });
 
+describe("announced dates and multi-year cycles", () => {
+  test("announced editions: the next one, none once they are all past", () => {
+    const menton: Rule = { type: "dates", occurrences: [{ start: "2027-02-13", end: "2027-02-28" }] };
+    expect(nextOccurrence(menton, "2026-10-08")).toEqual({ start: "2027-02-13", end: "2027-02-28" });
+    expect(isOngoing(nextOccurrence(menton, "2027-02-20")!, "2027-02-20")).toBe(true);
+    expect(nextOccurrence(menton, "2027-03-01")).toBeNull();
+  });
+
+  test("a date announced several years ahead is found", () => {
+    const pardon: Rule = { type: "dates", occurrences: [{ start: "2029-06-24", end: "2029-06-24" }] };
+    expect(nextOccurrence(pardon, "2026-10-08")?.start).toBe("2029-06-24");
+  });
+
+  test("biennial: only in years matching the reference year", () => {
+    const ringueta: Rule = { type: "easter_offset", days: 48, duration_days: 2, every_years: 2, reference_year: 2026 };
+    expect(occurrencesInYear(ringueta, 2027)).toEqual([]);
+    expect(nextOccurrence(ringueta, "2026-10-08")).toEqual({ start: "2028-06-03", end: "2028-06-04" });
+    expect(occurrencesInYear(ringueta, 2024)[0].start).toBe("2024-05-18");
+  });
+});
+
 describe("unknown and helpers", () => {
   test("unknown rule has no date", () => {
     expect(occurrencesInYear({ type: "unknown" }, 2026)).toEqual([]);

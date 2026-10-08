@@ -1,0 +1,29 @@
+id: 2010_67717_INV_PCI_FRANCE_00117
+kind: event
+domain: >-
+  Pratiques sociales et festives (fêtes patronales)
+summary:
+  fr: >-
+    Cinq jours et cinq nuits autour du 15 août, les fêtes de Dax rassemblent des centaines de milliers de personnes en blanc et rouge : bandas, courses landaises, corridas et animations de rue.
+  en: >-
+    For five days and nights around 15 August, the Dax festival draws hundreds of thousands of people dressed in white and red: brass bands, Landes bull games, bullfights and street events.
+  lang_review: draft
+places:
+  - {commune: Dax, department: "40"}
+recurrence: {type: nth_weekday, month: 8, weekday: 0, n: 1, from_day: 15, offset_days: -4, duration_days: 5}
+timing:
+  confidence: medium
+  evidence_quote: "Elles ont lieu autour du 15 août et accueillent durant 5 jours et nuits, environ 600.000 participants."
+  evidence_page: 2
+  web_sources:
+    - url: https://www.festivalenfrance.com/festival/feria-de-dax/2025
+      publisher: Festivals en France
+      says: The 2025 feria ran from Wednesday 13 to Sunday 17 August.
+      checked_at: "2026-10-08"
+    - url: https://onivapp.com/blog/fetes-de-dax-la-feria-2026
+      publisher: Onivapp
+      says: The 2026 feria ran from Wednesday 12 to Sunday 16 August.
+      checked_at: "2026-10-08"
+  notes: >-
+    Wednesday to Sunday around 15 August. The rule (ending on the first Sunday from 15 August) is inferred from the 2025 and 2026 editions; confirm on the official feria site.
+review_status: unreviewed

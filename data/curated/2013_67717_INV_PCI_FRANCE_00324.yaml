@@ -1,0 +1,20 @@
+id: 2013_67717_INV_PCI_FRANCE_00324
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval, géants)
+summary:
+  fr: >-
+    Depuis l'après-guerre, Steenvoorde fête son carnaval d'été autour de ses géants, dont Jean le Bûcheron ; certaines années, une ronde européenne réunit jusqu'à une centaine de géants.
+  en: >-
+    Since the post-war years, Steenvoorde has held its summer carnival around its giants, including Jean the Woodcutter; in some years a European round brings together up to a hundred giants.
+  lang_review: draft
+places:
+  - {commune: Steenvoorde, department: "59"}
+recurrence: {type: nth_weekday, month: 4, weekday: 0, n: -1}
+timing:
+  confidence: high
+  evidence_quote: "Le carnaval d'été se déroule tous les ans le dernier dimanche d'avril depuis l'aprèsguerre."
+  evidence_page: 3
+  notes: >-
+    Last Sunday of April; free shows on the Saturday evening, funfair from the Wednesday.
+review_status: unreviewed

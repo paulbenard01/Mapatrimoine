@@ -37,3 +37,55 @@
 2014_67717_INV_PCI_FRANCE_00340  # Fest-noz
 2009_67717_INV_PCI_FRANCE_00040  # Maloya (La Réunion)
 2025_67717_INV_PCI_FRANCE_00556  # Chjam'è rispondi (Corse)
+
+# Batch 2 (2026-10-08): events whose dates are checked online (organisers, towns, tourism offices)
+2010_67717_INV_PCI_FRANCE_00114  # La fête des Bergers à Aramits (Pyrénées-Atlantiques) / Hésta deus Aulh
+2010_67717_INV_PCI_FRANCE_00097  # Le carnaval des Deux-Rives à Bordeaux (Gironde)
+2010_67717_INV_PCI_FRANCE_00098  # Le carnaval de Périgueux (Dordogne) / Carnaval de Peirigüers
+2010_67717_INV_PCI_FRANCE_00133  # Les foires de la Latière à Saint-Aulaye (Dordogne)
+2010_67717_INV_PCI_FRANCE_00118  # La foire d'Ousse-Suzan (Landes) / Assemblada d'Ossa Susan
+2010_67717_INV_PCI_FRANCE_00117  # Les fêtes de Dax (Landes) / Hèstas de Dacs
+2010_67717_INV_PCI_FRANCE_00108  # Les fêtes de Notre-Dame de Laruns (Pyrénées-Atlantiques) / Hèstas de N
+2014_67717_INV_PCI_FRANCE_00345  # Le carnaval de Manthelan (Indre-et-Loire)
+2015_67717_INV_PCI_FRANCE_00371  # La fête de la Mer à Boulogne-sur-Mer (Pas-de-Calais)
+2013_67717_INV_PCI_FRANCE_00323  # La fête de la Matelote à Grand-Fort-Philippe (Nord)
+2014_67717_INV_PCI_FRANCE_00351  # Le carnaval de Lesquin (Nord)
+2014_67717_INV_PCI_FRANCE_00352  # Le carnaval de Lomme (Nord)
+2014_67717_INV_PCI_FRANCE_00354  # Le carnaval de Wormhout (Nord)
+2013_67717_INV_PCI_FRANCE_00324  # Le carnaval international d'été de Steenvoorde (Nord) et la ronde euro
+2014_67717_INV_PCI_FRANCE_00353  # Le cortège de la Saint-Nicolas à Villeneuve-d'Ascq (Nord)
+2013_67717_INV_PCI_FRANCE_00297  # La quête de la Saint-Jean-Baptiste, ou barricot, à Labastide-Monréjeau
+2012_67717_INV_PCI_FRANCE_00151  # Les fêtes de la Mer à Capbreton (Landes)
+2013_67717_INV_PCI_FRANCE_00298  # Les fêtes de la Mer à Saint-Jean-de-Luz (Pyrénées-Atlantiques)
+2012_67717_INV_PCI_FRANCE_00257  # Le carnaval de Limoux (Aude)
+2018_67717_INV_PCI_FRANCE_00421  # Les savoir-faire artisanaux associés au carnaval de Nice (Alpes-Mariti
+2019_67717_INV_PCI_FRANCE_00422  # Les fêtes du Bœuf de Mèze (Hérault)
+2019_67717_INV_PCI_FRANCE_00423  # Le carnaval de Montblanc (Hérault)
+2019_67717_INV_PCI_FRANCE_00424  # La fête du Tribus Lupis de Cournonterral (Hérault)
+2019_67717_INV_PCI_FRANCE_00429  # Le carnaval de Pézenas (Hérault)
+2019_67717_INV_PCI_FRANCE_00450  # La fête des Olives vertes de Mouriès
+2020_67717_INV_PCI_FRANCE_00471  # La fête des Rois à Saint-Jean-de-Luz
+2020_67717_INV_PCI_FRANCE_00479  # Le Yennayer, Nouvel An berbère en région Île-de-France
+2022_67717_INV_PCI_FRANCE_00515  # Lo Cese de Montaren fête inventée et figure totémic du Pois Chiche à M
+2022_67717_INV_PCI_FRANCE_00514  # Le carnaval de Pornic
+2025_67717_INV_PCI_FRANCE_00560  # Le Carnaval à l’Ouest de Scaër
+2010_67717_INV_PCI_FRANCE_00101  # La fête des Jeux anciens de Sarlat-la-Canéda (Dordogne) / Ringueta
+2010_67717_INV_PCI_FRANCE_00080  # Fête de Notre-Dame de la Visitation à Vievola (En patois : Festa t’Vie
+2010_67717_INV_PCI_FRANCE_00084  # La fête de Saint-Léon à Marseille (Bouches-du-Rhône)
+2011_67717_INV_PCI_FRANCE_00148  # Les ostensions septennales limousines
+2010_67717_INV_PCI_FRANCE_00081  # La fête de la Vierge de Guadalupe à la cathédrale Notre-Dame de Paris
+2009_67717_INV_PCI_FRANCE_00041  # Le jour de la Chandeleur mexicain à Paris / El dia de la Candelaria
+2015_67717_INV_PCI_FRANCE_00370  # Le lavage du parvis de l'église de la Madeleine et le festival brésili
+2013_67717_INV_PCI_FRANCE_00302  # La fête de la Saint-Bourrou à Marcillac (Aveyron)
+2014_67717_INV_PCI_FRANCE_00331  # La junte de Roncal à La Pierre-Saint-Martin (Arette, Pyrénées-Atlantiq
+2014_67717_INV_PCI_FRANCE_00329  # Le jour des Limites à La Pierre-Saint-Martin (Arette, Pyrénées-Atlanti
+2017_67717_INV_PCI_FRANCE_00392  # Le Vaisakhi des sikhs à Bobigny (Seine-Saint-Denis)
+2018_67717_INV_PCI_FRANCE_00406  # Le Grand Pardon de Chaumont (Haute-Marne)
+2019_67717_INV_PCI_FRANCE_00447  # Le Norouz ou Nouvel An persan en région parisienne
+2024_67717_INV_PCI_FRANCE_00545  # La procession de Neuf lieues
+2009_67717_INV_PCI_FRANCE_00038  # Le défilé du dieu Ganesh à Paris / Ganesh Chaturthi
+2020_67717_INV_PCI_FRANCE_00474  # Les fêtes des Fleurs dans les stations thermales des Pyrénées
+2019_67717_INV_PCI_FRANCE_00445  # Les fêtes des bouviers et des laboureurs de la Drôme
+2020_67717_INV_PCI_FRANCE_00460  # Les pratiques d’itinérance et de pérégrination au Mont Saint-Michel
+2010_67717_INV_PCI_FRANCE_00091  # La crèche vivante de l'abbaye de Saint-Ferme (Gironde)
+2009_67717_INV_PCI_FRANCE_00042  # La galette des Rois mexicaine à Paris / Rosca de Reyes

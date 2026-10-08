@@ -1,0 +1,20 @@
+id: 2010_67717_INV_PCI_FRANCE_00133
+kind: event
+domain: >-
+  Pratiques sociales et festives (foire, pèlerinage)
+summary:
+  fr: >-
+    Sur le site forestier de la Latière, à Saint-Aulaye, deux grandes foires aux bestiaux et marchandes perpétuent un rassemblement séculaire, lié au pèlerinage à la source guérisseuse de Saint-Eutrope.
+  en: >-
+    At the forest site of La Latière in Saint-Aulaye, two big livestock and trade fairs continue a centuries-old gathering linked to a pilgrimage to the healing spring of Saint Eutropius.
+  lang_review: draft
+places:
+  - {commune: Saint-Aulaye-Puymangou, department: "24", label: "La Latière (Saint-Aulaye)"}
+recurrence: {type: fixed, month: 4, day: 30, duration_days: 2}
+timing:
+  confidence: high
+  evidence_quote: "deux foires : les 2ème dimanche de septembre et les 30 avril (Saint-Eutrope) et 1 er mai."
+  evidence_page: 2
+  notes: >-
+    Date shown: the spring fair (30 April and 1 May). A second fair takes place on the second Sunday of September.
+review_status: unreviewed

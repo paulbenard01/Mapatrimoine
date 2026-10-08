@@ -10,11 +10,23 @@ summary:
   lang_review: draft
 places:
   - {commune: Bayonne, department: "64"}
-recurrence: {type: nth_weekday, month: 8, weekday: 0, n: 1, offset_days: -4, duration_days: 5}
+recurrence:
+  type: dates
+  occurrences:
+    - {start: "2027-07-14", end: "2027-07-18"}
 timing:
-  confidence: medium
+  confidence: high
   evidence_quote: "Elles ont lieu du mercredi avant le premier dimanche d'août, dimanche qui en marque la fin."
   evidence_page: 2
+  web_sources:
+    - url: https://www.bayonne.fr/fileadmin/medias/Publications/Evenements/F%C3%AAtes_de_Bayonne/Programme_F%C3%AAtes_de_Bayonne_2026.pdf
+      publisher: Ville de Bayonne
+      says: Official programme of the 2026 edition, held Wednesday 15 to Sunday 19 July 2026.
+      checked_at: "2026-10-08"
+    - url: https://info.fr/fetes-bayonne-madeleine-2027-dates-officielles/
+      publisher: info.fr
+      says: Reports the dates set by the city on 29 June 2026 for 2027, Wednesday 14 to Sunday 18 July, a week before the Fêtes de la Madeleine.
+      checked_at: "2026-10-08"
   notes: >-
-    Timing as described in the 2010 fiche. The dates have moved in some recent years (July); check the official programme.
+    Still Wednesday to Sunday, but recent editions are in mid-July rather than early August as the 2010 fiche says. Dates are set each year by the city.
 review_status: unreviewed

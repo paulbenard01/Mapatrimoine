@@ -1,10 +1,16 @@
 // Yearly recurrence rules -> concrete dates. The only place in the project that computes dates.
 // Dates are calendar days handled as UTC midnights, exchanged as "YYYY-MM-DD" strings.
 
+/** Optional multi-year cycle: the event happens only every N years (e.g. biennial). */
+interface Cycle {
+  every_years?: number;
+  reference_year?: number; // a year in which it takes place
+}
+
 export type Rule =
-  | { type: "fixed"; month: number; day: number; duration_days?: number }
-  | { type: "easter_offset"; days: number; duration_days?: number }
-  | {
+  | ({ type: "fixed"; month: number; day: number; duration_days?: number } & Cycle)
+  | ({ type: "easter_offset"; days: number; duration_days?: number } & Cycle)
+  | ({
       type: "nth_weekday";
       month: number;
       weekday: number; // 0 = Sunday ... 6 = Saturday
@@ -12,7 +18,8 @@ export type Rule =
       from_day?: number; // count from this day of the month (n >= 1 only)
       offset_days?: number; // shift from the found weekday (-4 = the Wednesday before a Sunday)
       duration_days?: number;
-    }
+    } & Cycle)
+  | { type: "dates"; occurrences: Occurrence[] } // editions announced by organisers
   | { type: "unknown"; duration_days?: number };
 
 export interface Occurrence {
@@ -84,7 +91,13 @@ export function nthWeekday(
   return date.getUTCMonth() === month - 1 ? date : null;
 }
 
-function startInYear(rule: Rule, year: number): Date | null {
+function inCycle(rule: Cycle, year: number): boolean {
+  if (!rule.every_years || rule.reference_year === undefined) return true;
+  return (((year - rule.reference_year) % rule.every_years) + rule.every_years) % rule.every_years === 0;
+}
+
+function startInYear(rule: Exclude<Rule, { type: "dates" }>, year: number): Date | null {
+  if (rule.type !== "unknown" && !inCycle(rule, year)) return null;
   switch (rule.type) {
     case "fixed": {
       const date = utc(year, rule.month, rule.day);
@@ -104,6 +117,11 @@ function startInYear(rule: Rule, year: number): Date | null {
 
 /** Occurrences whose first day falls in `year` (zero or one for the supported rules). */
 export function occurrencesInYear(rule: Rule, year: number): Occurrence[] {
+  if (rule.type === "dates") {
+    return rule.occurrences
+      .filter((o) => Number(o.start.slice(0, 4)) === year)
+      .sort((a, b) => a.start.localeCompare(b.start));
+  }
   const start = startInYear(rule, year);
   if (!start) return [];
   const end = addDays(start, Math.max(1, rule.duration_days ?? 1) - 1);
@@ -114,7 +132,7 @@ export function occurrencesInYear(rule: Rule, year: number): Occurrence[] {
  *  has no computable date. An occurrence that started last year and is still running counts. */
 export function nextOccurrence(rule: Rule, today: string): Occurrence | null {
   const year = parseDate(today).getUTCFullYear();
-  for (let y = year - 1; y <= year + 8; y++) {
+  for (let y = year - 1; y <= year + 12; y++) {
     for (const occ of occurrencesInYear(rule, y)) {
       if (occ.end >= today) return occ;
     }

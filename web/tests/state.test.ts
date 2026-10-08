@@ -69,5 +69,11 @@ describe("i18n formatting", () => {
       describeRule({ type: "nth_weekday", month: 7, weekday: 0, n: 1, from_day: 6, duration_days: 3 }, "fr"),
     ).toBe("Chaque année : dimanche suivant le 5 juillet (3 jours)");
     expect(describeRule({ type: "fixed", month: 6, day: 24 }, "en")).toBe("Every year: 24 June");
+    expect(
+      describeRule({ type: "easter_offset", days: 49, every_years: 2, reference_year: 2026 }, "fr"),
+    ).toBe("Tous les 2 ans : dimanche de Pentecôte");
+    expect(describeRule({ type: "dates", occurrences: [{ start: "2029-06-24", end: "2029-06-24" }] }, "en")).toMatch(
+      /announced by the organisers/,
+    );
   });
 });

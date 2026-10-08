@@ -20,10 +20,18 @@ export interface Location {
   overseas?: boolean;
 }
 
+export interface WebSource {
+  url: string;
+  publisher: string;
+  says: string; // what the page states about timing (own words)
+  checked_at: string; // YYYY-MM-DD
+}
+
 export interface Timing {
   confidence: "high" | "medium" | "low";
-  evidence_quote: string;
-  evidence_page: number;
+  evidence_quote?: string; // from the fiche, at most 25 words
+  evidence_page?: number;
+  web_sources?: WebSource[];
   notes: string;
 }
 

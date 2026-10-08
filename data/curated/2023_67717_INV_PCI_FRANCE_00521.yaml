@@ -15,6 +15,11 @@ timing:
   confidence: low
   evidence_quote: "Il se déroule sur une semaine et débute par le défilé du dimanche après-midi"
   evidence_page: 1
+  web_sources:
+    - url: https://metropole.nantes.fr/que-faire-nantes/agenda/carnaval-de-nantes-2026
+      publisher: Nantes Métropole
+      says: The 2026 edition had the children's carnival on 4 April, the day parade on Sunday 12 April and the night parade on Saturday 18 April.
+      checked_at: "2026-10-08"
   notes: >-
-    One week in spring (formerly at Mid-Lent); the fiche gives no date rule.
+    One week in spring (formerly at Mid-Lent), usually April; 2027 dates not announced yet.
 review_status: unreviewed

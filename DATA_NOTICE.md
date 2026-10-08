@@ -17,6 +17,7 @@ The inventory fiches do not state a licence. The culture.gouv.fr site's legal no
 - Short summaries written in our own words (FR and EN). EN texts marked `lang_review: draft` are unreviewed drafts.
 - Short quotes (at most 25 words) used as evidence for event timing, with the page number.
 - Links back to the official fiche on culture.gouv.fr.
+- For event dates, links to public pages of organisers, town halls and tourism boards, with a one-line summary in our own words of what each page states and the date we checked it. Contact details from those pages are not copied.
 
 ## What it does not republish
 

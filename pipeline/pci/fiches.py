@@ -85,6 +85,7 @@ def fetch_fiches(ids: list[str], client: PoliteClient | None = None) -> dict[str
         target.write_bytes(body)
         entry["status"] = "ok"
         entry.setdefault("fetched_at", datetime.now(UTC).date().isoformat())
+        save_manifest(manifest)  # after each fiche: slow runs can be interrupted safely
     save_manifest(manifest)
     return manifest
 

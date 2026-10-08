@@ -134,11 +134,14 @@ export function describeRule(rule: Rule, lang: Lang): string {
       }
       break;
     }
+    case "dates":
+      return s.announcedDates;
     case "unknown":
       return s.undated;
   }
   const duration = rule.duration_days && rule.duration_days > 1 ? ` (${s.duration(rule.duration_days)})` : "";
-  return `${s.ruleEvery}${lang === "fr" ? " : " : ": "}${core}${duration}`;
+  const every = rule.every_years ? s.ruleEveryN(rule.every_years) : s.ruleEvery;
+  return `${every}${lang === "fr" ? " : " : ": "}${core}${duration}`;
 }
 
 export function formatKm(km: number, lang: Lang): string {

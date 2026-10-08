@@ -101,7 +101,7 @@ def check(element: dict, validator: Draft202012Validator, text_dir: Path = TEXT_
         for e in validator.iter_errors(element)
     ]
     timing = element.get("timing")
-    if timing:
+    if timing and timing.get("evidence_quote"):
         quote = timing["evidence_quote"]
         if word_count(quote) > MAX_QUOTE_WORDS:
             problems.append(f"evidence_quote has {word_count(quote)} words (max 25)")

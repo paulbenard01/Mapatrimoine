@@ -1,0 +1,20 @@
+id: 2014_67717_INV_PCI_FRANCE_00352
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval, géants)
+summary:
+  fr: >-
+    Depuis 1954, le carnaval d'été de Lomme anime la ville deux jours durant : concert et feu d'artifice le samedi, puis grand cortège de chars, de majorettes, de géants et de groupes invités le dimanche.
+  en: >-
+    Since 1954, the Lomme summer carnival has filled the town for two days: a concert and fireworks on Saturday, then a big parade of floats, majorettes, giants and visiting bands on Sunday.
+  lang_review: draft
+places:
+  - {commune: Lille, department: "59", label: "Lomme (Lille)"}
+recurrence: {type: nth_weekday, month: 6, weekday: 0, n: 2, offset_days: -1, duration_days: 2}
+timing:
+  confidence: high
+  evidence_quote: "Le carnaval d'été a lieu tous les ans le deuxième dimanche de juin."
+  evidence_page: 3
+  notes: >-
+    Saturday and the second Sunday of June. Lomme is an associated commune of Lille.
+review_status: unreviewed

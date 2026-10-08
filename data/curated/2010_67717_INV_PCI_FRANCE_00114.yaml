@@ -1,0 +1,25 @@
+id: 2010_67717_INV_PCI_FRANCE_00114
+kind: event
+domain: >-
+  Pratiques sociales et festives (pastoralisme)
+summary:
+  fr: >-
+    À Aramits, en vallée de Barétous, la fête des Bergers réunit chaque septembre éleveurs et habitants : retour d'estive, concours de chiens de berger, messe en plein air, défilé en costume et chants béarnais.
+  en: >-
+    In Aramits, in the Barétous valley, the Shepherds' Festival brings herders and villagers together each September: return from summer pastures, sheepdog trials, an open-air mass, a costumed parade and Béarn songs.
+  lang_review: draft
+places:
+  - {commune: Aramits, department: "64"}
+recurrence: {type: nth_weekday, month: 9, weekday: 0, n: 3, offset_days: -3, duration_days: 4}
+timing:
+  confidence: high
+  evidence_quote: "Cette manifestation qui a lieu tous les ans le troisième week-end de septembre"
+  evidence_page: 2
+  web_sources:
+    - url: https://unidivers.fr/event/44eme-fete-des-bergers-aramits-pyrenees-atlantiques-2026-09-20/
+      publisher: Unidivers (listing from the Haut-Béarn tourist office)
+      says: The 44th edition ran from Thursday 17 to Sunday 20 September 2026, with the sheepdog final on the Sunday.
+      checked_at: "2026-10-08"
+  notes: >-
+    Thursday to Sunday of the third weekend of September; the main day is the Sunday.
+review_status: unreviewed

@@ -1,6 +1,6 @@
 {
  "generated_from": "data/curated",
- "count": 35,
+ "count": 49,
  "elements": [
   {
    "id": "2009_67717_INV_PCI_FRANCE_00040",
@@ -188,6 +188,103 @@
    "review_status": "unreviewed"
   },
   {
+   "id": "2010_67717_INV_PCI_FRANCE_00108",
+   "title_fr": "Les fêtes de Notre-Dame de Laruns (Pyrénées-Atlantiques) / Hèstas de Noste Dama de Laruntz",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (fête patronale)",
+   "year_included": 2010,
+   "kind": "event",
+   "summary": {
+    "fr": "Pour la fête patronale du 15 août, les habitants de Laruns, en vallée d'Ossau, revêtent les costumes traditionnels, dansent branles et sauts et chantent la polyphonie pyrénéenne.",
+    "en": "For the patron saint's festival on 15 August, the people of Laruns in the Ossau valley wear traditional costume, dance branles and jumps, and sing Pyrenean polyphony.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Laruns",
+     "lat": 42.907,
+     "lon": -0.4087,
+     "precision": "commune",
+     "insee": "64320",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "fixed",
+    "month": 8,
+    "day": 15
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Sa fête patronale Nosta Dama (Nôtre Dame) le 15 août est particulièrement remarquable.",
+    "evidence_page": 2,
+    "web_sources": [
+     {
+      "url": "https://unidivers.fr/event/fetes-de-laruns-journee-traditionnelle-laruns-pyrenees-atlantiques-2026-08-15/",
+      "publisher": "Unidivers",
+      "says": "Lists the traditional day of the Fêtes de Laruns on Saturday 15 August 2026 (aubades, mass, procession, Ossau balls).",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "15 August (Assumption)."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Notre-Dame-de-Laruns",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2010_67717_INV_PCI_FRANCE_00114",
+   "title_fr": "La fête des Bergers à Aramits (Pyrénées-Atlantiques) / Hésta deus Aulhèrs",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (pastoralisme)",
+   "year_included": 2010,
+   "kind": "event",
+   "summary": {
+    "fr": "À Aramits, en vallée de Barétous, la fête des Bergers réunit chaque septembre éleveurs et habitants : retour d'estive, concours de chiens de berger, messe en plein air, défilé en costume et chants béarnais.",
+    "en": "In Aramits, in the Barétous valley, the Shepherds' Festival brings herders and villagers together each September: return from summer pastures, sheepdog trials, an open-air mass, a costumed parade and Béarn songs.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Aramits",
+     "lat": 43.1343,
+     "lon": -0.72,
+     "precision": "commune",
+     "insee": "64029",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 9,
+    "weekday": 0,
+    "n": 3,
+    "offset_days": -3,
+    "duration_days": 4
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Cette manifestation qui a lieu tous les ans le troisième week-end de septembre",
+    "evidence_page": 2,
+    "web_sources": [
+     {
+      "url": "https://unidivers.fr/event/44eme-fete-des-bergers-aramits-pyrenees-atlantiques-2026-09-20/",
+      "publisher": "Unidivers (listing from the Haut-Béarn tourist office)",
+      "says": "The 44th edition ran from Thursday 17 to Sunday 20 September 2026, with the sheepdog final on the Sunday.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Thursday to Sunday of the third weekend of September; the main day is the Sunday."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-hesta-deus-aulhers-la-fete-des-bergers",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
    "id": "2010_67717_INV_PCI_FRANCE_00116",
    "title_fr": "Les fêtes de Bayonne (Pyrénées-Atlantiques) / Hèstas de Baiona",
    "theme": "social-festive",
@@ -210,21 +307,172 @@
     }
    ],
    "recurrence": {
+    "type": "dates",
+    "occurrences": [
+     {
+      "start": "2027-07-14",
+      "end": "2027-07-18"
+     }
+    ]
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Elles ont lieu du mercredi avant le premier dimanche d'août, dimanche qui en marque la fin.",
+    "evidence_page": 2,
+    "web_sources": [
+     {
+      "url": "https://www.bayonne.fr/fileadmin/medias/Publications/Evenements/F%C3%AAtes_de_Bayonne/Programme_F%C3%AAtes_de_Bayonne_2026.pdf",
+      "publisher": "Ville de Bayonne",
+      "says": "Official programme of the 2026 edition, held Wednesday 15 to Sunday 19 July 2026.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://info.fr/fetes-bayonne-madeleine-2027-dates-officielles/",
+      "publisher": "info.fr",
+      "says": "Reports the dates set by the city on 29 June 2026 for 2027, Wednesday 14 to Sunday 18 July, a week before the Fêtes de la Madeleine.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Still Wednesday to Sunday, but recent editions are in mid-July rather than early August as the 2010 fiche says. Dates are set each year by the city."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Hestas-de-Baiona-Fetes-de-Bayonne",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2010_67717_INV_PCI_FRANCE_00117",
+   "title_fr": "Les fêtes de Dax (Landes) / Hèstas de Dacs",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (fêtes patronales)",
+   "year_included": 2010,
+   "kind": "event",
+   "summary": {
+    "fr": "Cinq jours et cinq nuits autour du 15 août, les fêtes de Dax rassemblent des centaines de milliers de personnes en blanc et rouge : bandas, courses landaises, corridas et animations de rue.",
+    "en": "For five days and nights around 15 August, the Dax festival draws hundreds of thousands of people dressed in white and red: brass bands, Landes bull games, bullfights and street events.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Dax",
+     "lat": 43.7025,
+     "lon": -1.0637,
+     "precision": "commune",
+     "insee": "40088",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
     "type": "nth_weekday",
     "month": 8,
     "weekday": 0,
     "n": 1,
+    "from_day": 15,
     "offset_days": -4,
     "duration_days": 5
    },
    "timing": {
     "confidence": "medium",
-    "evidence_quote": "Elles ont lieu du mercredi avant le premier dimanche d'août, dimanche qui en marque la fin.",
+    "evidence_quote": "Elles ont lieu autour du 15 août et accueillent durant 5 jours et nuits, environ 600.000 participants.",
     "evidence_page": 2,
-    "notes": "Timing as described in the 2010 fiche. The dates have moved in some recent years (July); check the official programme."
+    "web_sources": [
+     {
+      "url": "https://www.festivalenfrance.com/festival/feria-de-dax/2025",
+      "publisher": "Festivals en France",
+      "says": "The 2025 feria ran from Wednesday 13 to Sunday 17 August.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://onivapp.com/blog/fetes-de-dax-la-feria-2026",
+      "publisher": "Onivapp",
+      "says": "The 2026 feria ran from Wednesday 12 to Sunday 16 August.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Wednesday to Sunday around 15 August. The rule (ending on the first Sunday from 15 August) is inferred from the 2025 and 2026 editions; confirm on the official feria site."
    },
    "source": {
-    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Hestas-de-Baiona-Fetes-de-Bayonne",
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Hestas-de-Dacs-Fetes-de-Dax",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2010_67717_INV_PCI_FRANCE_00118",
+   "title_fr": "La foire d'Ousse-Suzan (Landes) / Assemblada d'Ossa Susan",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (foire)",
+   "year_included": 2010,
+   "kind": "event",
+   "summary": {
+    "fr": "Le jour de la Saint-Michel, une immense foire à dominante agricole s'installe en pleine forêt landaise, au quartier Suzan, avec des centaines d'exposants et des dizaines de milliers de visiteurs.",
+    "en": "On Saint Michael's day, a huge, mostly agricultural fair sets up in the middle of the Landes forest at Suzan, with hundreds of stallholders and tens of thousands of visitors.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Ousse-Suzan",
+     "lat": 43.9492,
+     "lon": -0.7523,
+     "precision": "commune",
+     "insee": "40215",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "fixed",
+    "month": 9,
+    "day": 29
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Le 29 septembre, se tient l’assemblada de Sent Miquèu (rassemblement de la Saint-Michel) au quartier Suzan",
+    "evidence_page": 2,
+    "notes": "29 September (Saint Michael)."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-assemblada-d-Ossa-Susan-Ousse-Suzan",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2010_67717_INV_PCI_FRANCE_00133",
+   "title_fr": "Les foires de la Latière à Saint-Aulaye (Dordogne)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (foire, pèlerinage)",
+   "year_included": 2010,
+   "kind": "event",
+   "summary": {
+    "fr": "Sur le site forestier de la Latière, à Saint-Aulaye, deux grandes foires aux bestiaux et marchandes perpétuent un rassemblement séculaire, lié au pèlerinage à la source guérisseuse de Saint-Eutrope.",
+    "en": "At the forest site of La Latière in Saint-Aulaye, two big livestock and trade fairs continue a centuries-old gathering linked to a pilgrimage to the healing spring of Saint Eutropius.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "La Latière (Saint-Aulaye)",
+     "lat": 45.1817,
+     "lon": 0.1144,
+     "precision": "commune",
+     "insee": "24376",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "fixed",
+    "month": 4,
+    "day": 30,
+    "duration_days": 2
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "deux foires : les 2ème dimanche de septembre et les 30 avril (Saint-Eutrope) et 1 er mai.",
+    "evidence_page": 2,
+    "notes": "Date shown: the spring fair (30 April and 1 May). A second fair takes place on the second Sunday of September."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Foire-de-La-Latiere",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"
@@ -265,6 +513,45 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Cerise-a-Itxassou",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2013_67717_INV_PCI_FRANCE_00297",
+   "title_fr": "La quête de la Saint-Jean-Baptiste, ou barricot, à Labastide-Monréjeau (Pyrénées-Atlantiques)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (quête, fête patronale)",
+   "year_included": 2013,
+   "kind": "event",
+   "summary": {
+    "fr": "Avant la fête de la Saint-Jean, les jeunes du comité des fêtes de Labastide-Monréjeau font le tour des quartiers avec un tonnelet, le barricòt, et offrent un verre de vin aux habitants en échange d'une obole.",
+    "en": "Before the Saint John's festival, the young members of the Labastide-Monréjeau festival committee go round the village with a small barrel, the barricòt, offering residents a glass of wine in exchange for a donation.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Labastide-Monréjeau",
+     "lat": 43.3902,
+     "lon": -0.5278,
+     "precision": "commune",
+     "insee": "64290",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "fixed",
+    "month": 6,
+    "day": 24
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "La fête du village se déroule chaque année autour du 24 juin",
+    "evidence_page": 2,
+    "notes": "The village festival is held around Saint John's Day (Friday to Sunday); the barricòt rounds take place on the preceding weekends."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-barricot-a-Labastide-Monrejeau",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"
@@ -380,6 +667,14 @@
     "confidence": "high",
     "evidence_quote": "Le carnaval se déroule à partir du vendredi soir les jours précédant le Mardi-gras",
     "evidence_page": 2,
+    "web_sources": [
+     {
+      "url": "https://www.ter.sncf.com/normandie/decouvrir/evenements-normandie/carnaval-granville",
+      "publisher": "SNCF TER Normandie",
+      "says": "Lists the 2027 Granville carnival from 5 to 9 February 2027, matching the rule.",
+      "checked_at": "2026-10-08"
+     }
+    ],
     "notes": "Friday evening to Mardi gras (Easter minus 47 days); main parade on the Sunday."
    },
    "source": {
@@ -422,6 +717,86 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Cassel",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2013_67717_INV_PCI_FRANCE_00323",
+   "title_fr": "La fête de la Matelote à Grand-Fort-Philippe (Nord)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (géants processionnels)",
+   "year_included": 2013,
+   "kind": "event",
+   "summary": {
+    "fr": "À Grand-Fort-Philippe, port de pêche du Nord, la géante Matelote et sa famille de géants marins reçoivent les géants des communes voisines pour une fête qui met en scène leur vie : fiançailles, mariage, naissances.",
+    "en": "In the fishing port of Grand-Fort-Philippe, the giant Matelote and her family of seafaring giants welcome giants from neighbouring towns for a festival that stages their family life: engagement, wedding, births.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Grand-Fort-Philippe",
+     "lat": 51.0016,
+     "lon": 2.1049,
+     "precision": "commune",
+     "insee": "59272",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 4,
+    "weekday": 0,
+    "n": 1
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "La fête de la Matelote se déroule chaque premier dimanche d'avril à Grand-fortPhilippe (si Pâques tombe à cette date, elle est alors décalée).",
+    "evidence_page": 3,
+    "notes": "First Sunday of April, moved when it is Easter Sunday (not modelled). The 30th-anniversary edition in 2025 took place on 17 May, so check the year's programme."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Grand-Fort-Philippe",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2013_67717_INV_PCI_FRANCE_00324",
+   "title_fr": "Le carnaval international d'été de Steenvoorde (Nord) et la ronde européenne des Géants",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (carnaval, géants)",
+   "year_included": 2013,
+   "kind": "event",
+   "summary": {
+    "fr": "Depuis l'après-guerre, Steenvoorde fête son carnaval d'été autour de ses géants, dont Jean le Bûcheron ; certaines années, une ronde européenne réunit jusqu'à une centaine de géants.",
+    "en": "Since the post-war years, Steenvoorde has held its summer carnival around its giants, including Jean the Woodcutter; in some years a European round brings together up to a hundred giants.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Steenvoorde",
+     "lat": 50.8225,
+     "lon": 2.5762,
+     "precision": "commune",
+     "insee": "59580",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 4,
+    "weekday": 0,
+    "n": -1
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Le carnaval d'été se déroule tous les ans le dernier dimanche d'avril depuis l'aprèsguerre.",
+    "evidence_page": 3,
+    "notes": "Last Sunday of April; free shows on the Saturday evening, funfair from the Wednesday."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Steenvoorde",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"
@@ -498,6 +873,44 @@
    "review_status": "unreviewed"
   },
   {
+   "id": "2014_67717_INV_PCI_FRANCE_00345",
+   "title_fr": "Le carnaval de Manthelan (Indre-et-Loire)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (carnaval)",
+   "year_included": 2014,
+   "kind": "event",
+   "summary": {
+    "fr": "Organisé depuis 1869, le carnaval de Manthelan, en Touraine, fait défiler des chars construits par les habitants, précédé d'une élection de miss et d'un carnaval des enfants.",
+    "en": "Held since 1869, the Manthelan carnival in Touraine parades floats built by residents, preceded by the election of a carnival queen and a children's carnival.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Manthelan",
+     "lat": 47.1376,
+     "lon": 0.8201,
+     "precision": "commune",
+     "insee": "37143",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "easter_offset",
+    "days": -42
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Le carnaval de Manthelan est organisé depuis 1869, le dimanche suivant le Mardi Gras.",
+    "evidence_page": 4,
+    "notes": "The Sunday after Mardi gras (Easter minus 42 days)."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-carnaval-de-Manthelan",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
    "id": "2014_67717_INV_PCI_FRANCE_00348",
    "title_fr": "La fête du Printemps ou du Nouvel An chinois à Paris",
    "theme": "rituals",
@@ -520,13 +933,33 @@
     }
    ],
    "recurrence": {
-    "type": "unknown"
+    "type": "dates",
+    "occurrences": [
+     {
+      "start": "2027-02-06",
+      "end": "2027-02-06"
+     }
+    ]
    },
    "timing": {
     "confidence": "high",
     "evidence_quote": "la date des célébrations varie d'une année sur l'autre, mais se situe toujours entre le 21 janvier et le 20 février.",
     "evidence_page": 6,
-    "notes": "Follows the Chinese lunisolar calendar (between 21 January and 20 February); parades are held on the following Sundays. Not computed by this site."
+    "web_sources": [
+     {
+      "url": "https://www.faire-le-pont.fr/actualites/nouvel-an-chinois-2026-2027-date-defile-paris-13e/",
+      "publisher": "Faire le pont",
+      "says": "The Lunar New Year falls on Saturday 6 February 2027; the 13th arrondissement parade date for 2027 was not yet announced.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://www.paris.fr/evenements/defile-du-nouvel-an-chinois-cette-annee-le-13e-celebre-le-serpent-77437",
+      "publisher": "Ville de Paris",
+      "says": "Announces the 13th arrondissement New Year parade, held on a Sunday after the New Year (9 February in 2025).",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Date shown is New Year's Day itself (lunisolar calendar). The big parades in the 13th arrondissement and Belleville follow on a Sunday in the next weeks."
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Fete-du-printemps",
@@ -634,6 +1067,182 @@
    "review_status": "unreviewed"
   },
   {
+   "id": "2014_67717_INV_PCI_FRANCE_00351",
+   "title_fr": "Le carnaval de Lesquin (Nord)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (carnaval, géants)",
+   "year_included": 2014,
+   "kind": "event",
+   "summary": {
+    "fr": "À Lesquin, près de Lille, masques et habitants costumés défilent autour des géants Hippolyte et Titée, accompagnés de groupes carnavalesques et de géants invités.",
+    "en": "In Lesquin, near Lille, masked and costumed residents parade around the giants Hippolyte and Titée, joined by carnival bands and visiting giants.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Lesquin",
+     "lat": 50.5904,
+     "lon": 3.1132,
+     "precision": "commune",
+     "insee": "59343",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 3,
+    "weekday": 0,
+    "n": 1
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Chaque premier dimanche de mars a lieu le carnaval de Lesquin",
+    "evidence_page": 3,
+    "notes": "First Sunday of March (fiche from 2014; no current programme found online)."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Lesquin",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2014_67717_INV_PCI_FRANCE_00352",
+   "title_fr": "Le carnaval de Lomme (Nord)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (carnaval, géants)",
+   "year_included": 2014,
+   "kind": "event",
+   "summary": {
+    "fr": "Depuis 1954, le carnaval d'été de Lomme anime la ville deux jours durant : concert et feu d'artifice le samedi, puis grand cortège de chars, de majorettes, de géants et de groupes invités le dimanche.",
+    "en": "Since 1954, the Lomme summer carnival has filled the town for two days: a concert and fireworks on Saturday, then a big parade of floats, majorettes, giants and visiting bands on Sunday.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Lomme (Lille)",
+     "lat": 50.6311,
+     "lon": 3.0468,
+     "precision": "commune",
+     "insee": "59350",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 6,
+    "weekday": 0,
+    "n": 2,
+    "offset_days": -1,
+    "duration_days": 2
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Le carnaval d'été a lieu tous les ans le deuxième dimanche de juin.",
+    "evidence_page": 3,
+    "notes": "Saturday and the second Sunday of June. Lomme is an associated commune of Lille."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Lomme",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2014_67717_INV_PCI_FRANCE_00353",
+   "title_fr": "Le cortège de la Saint-Nicolas à Villeneuve-d'Ascq (Nord)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (géants, Saint-Nicolas)",
+   "year_included": 2014,
+   "kind": "event",
+   "summary": {
+    "fr": "À Flers-Bourg, quartier de Villeneuve-d'Ascq, un cortège aux lanternes part à la recherche du géant Saint-Nicolas, accompagné du Père Fouettard et du char du Boucher ; bonbons et coquilles sont distribués aux enfants.",
+    "en": "In Flers-Bourg, a district of Villeneuve-d'Ascq, a lantern procession goes in search of the giant Saint Nicholas, with Father Whipper and the Butcher's float; sweets and Christmas brioches are handed out to children.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Villeneuve-d'Ascq",
+     "lat": 50.6362,
+     "lon": 3.1619,
+     "precision": "commune",
+     "insee": "59009",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 12,
+    "weekday": 6,
+    "n": 1,
+    "from_day": 6
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "La fête a lieu le samedi après le 6 décembre, jour de la Saint-Nicolas.",
+    "evidence_page": 3,
+    "web_sources": [
+     {
+      "url": "https://lillemetropole.fr/en/evenements/cortege-de-la-saint-nicolas-7057481",
+      "publisher": "Métropole européenne de Lille (city listing)",
+      "says": "The 2025 procession left the Anatole-France school on Saturday 6 December at 5.45 pm.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://villeneuvedascq.fr/sites/default/files/2024-11/CP%20F%C3%AAtes%20de%20fin%20d%27ann%C3%A9e%202024.pdf",
+      "publisher": "Ville de Villeneuve-d'Ascq",
+      "says": "The 2024 procession took place on Saturday 7 December.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "The first Saturday from 6 December, as in 2024 and 2025 (when 6 December was itself a Saturday)."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Villeneuve-d-Ascq",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2014_67717_INV_PCI_FRANCE_00354",
+   "title_fr": "Le carnaval de Wormhout (Nord)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (carnaval, géants)",
+   "year_included": 2014,
+   "kind": "event",
+   "summary": {
+    "fr": "À Wormhout, en Flandre, un millier de « carnavaleux » suivent la bande des Mitrons et les géants de la ville ; le samedi est réservé au carnaval des enfants.",
+    "en": "In Wormhout, in French Flanders, about a thousand carnival-goers follow the Mitrons band and the town's giants; Saturday is the children's carnival.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Wormhout",
+     "lat": 50.8749,
+     "lon": 2.4813,
+     "precision": "commune",
+     "insee": "59663",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "easter_offset",
+    "days": -43,
+    "duration_days": 2
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "Le carnaval se déroule le premier week-end après le Mardi gras",
+    "evidence_page": 4,
+    "notes": "The weekend after Mardi gras, but the exact date is coordinated with the other carnivals of the region, so it can move."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Wormhout",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
    "id": "2014_67717_INV_PCI_FRANCE_00359",
    "title_fr": "Le carnaval de charrettes de Marie-Galante (Guadeloupe) / Carnaval en kabwet",
    "theme": "social-festive",
@@ -667,6 +1276,65 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Carnaval-en-Kabwet",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2015_67717_INV_PCI_FRANCE_00371",
+   "title_fr": "La fête de la Mer à Boulogne-sur-Mer (Pas-de-Calais)",
+   "theme": "social-festive",
+   "domain": "Pratiques sociales et festives (fête maritime, géants)",
+   "year_included": 2015,
+   "kind": "event",
+   "summary": {
+    "fr": "Tous les deux ans, Boulogne-sur-Mer, premier port de pêche de France, célèbre le monde maritime pendant quatre jours : vieux gréements, groupes de musique de la mer, défilé costumé et géants Batisse et Zabelle.",
+    "en": "Every two years, Boulogne-sur-Mer, France's leading fishing port, celebrates the maritime world for four days: tall ships, sea-music bands, a costumed parade and the giants Batisse and Zabelle.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Boulogne-sur-Mer",
+     "lat": 50.7303,
+     "lon": 1.6062,
+     "precision": "commune",
+     "insee": "62160",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 7,
+    "weekday": 0,
+    "n": 1,
+    "from_day": 13,
+    "offset_days": -3,
+    "duration_days": 4,
+    "every_years": 2,
+    "reference_year": 2026
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "Tous les deux ans à la mi-juillet, durant quatre jours, la Côte d'Opale célèbre le monde maritime à Boulogne-sur-Mer",
+    "evidence_page": 3,
+    "web_sources": [
+     {
+      "url": "https://www.festivalenfrance.com/festival/boulogne-fete-de-la-mer/2024",
+      "publisher": "Festivals en France",
+      "says": "The 2024 edition ran from 11 to 14 July 2024.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://www.lagazettefrance.fr/article/la-mer-a-l-honneur-a-boulogne-sur-mer-du-16-au-19-juillet",
+      "publisher": "La Gazette France",
+      "says": "The 12th edition (2026) ran from 16 to 19 July.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Even years, Thursday to Sunday in mid-July. The exact weekend is inferred from 2024 and 2026; the next edition (2028) has not been announced."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boulogne",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"
@@ -1019,13 +1687,27 @@
     }
    ],
    "recurrence": {
-    "type": "unknown"
+    "type": "dates",
+    "occurrences": [
+     {
+      "start": "2027-02-13",
+      "end": "2027-02-28"
+     }
+    ]
    },
    "timing": {
-    "confidence": "medium",
+    "confidence": "high",
     "evidence_quote": "La fête est toujours inaugurée pendant un week-end des vacances scolaires et s’étire généralement de mi-février à début mars.",
     "evidence_page": 4,
-    "notes": "Mid-February to early March, set each year around the school holidays; no fixed rule."
+    "web_sources": [
+     {
+      "url": "https://provence-alpes-cotedazur.com/en/things-to-do/events/all-events/93rd-fete-du-citron-douce-france-menton-en-2915923/",
+      "publisher": "Provence-Alpes-Côte d'Azur regional tourism board",
+      "says": "Lists the 93rd Fête du Citron from 13 to 28 February 2027, with fruit parades on the Sundays and night parades on the Thursdays.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Set each year around the February school holidays; the 2027 edition is announced."
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fete-du-citron-de-menton.pdf",
@@ -1172,7 +1854,15 @@
     "confidence": "low",
     "evidence_quote": "Il se déroule sur une semaine et débute par le défilé du dimanche après-midi",
     "evidence_page": 1,
-    "notes": "One week in spring (formerly at Mid-Lent); the fiche gives no date rule."
+    "web_sources": [
+     {
+      "url": "https://metropole.nantes.fr/que-faire-nantes/agenda/carnaval-de-nantes-2026",
+      "publisher": "Nantes Métropole",
+      "says": "The 2026 edition had the children's carnival on 4 April, the day parade on Sunday 12 April and the night parade on Saturday 18 April.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "One week in spring (formerly at Mid-Lent), usually April; 2027 dates not announced yet."
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-carnaval-de-nantes",

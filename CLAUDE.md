@@ -56,7 +56,8 @@ npm run screenshots   # needs `npm run preview` running; writes docs/screenshots
 1. Add the ID to `data/pilot.txt`; run `pci fetch-fiches` then `pci extract-text`.
 2. Read `data/text/<id>.txt` (pages split by form feeds) and `<id>.facts.json`.
 3. Write `data/curated/<id>.yaml`: `kind`, `domain`, `summary` (fr/en, own words, `lang_review: draft`), `places` (`{commune, department}`, `{department}` or `{region}`), `recurrence` (null for practices), `timing` (quote ≤ 25 words, 1-based page), `review_status: unreviewed`. Use `>-` block scalars for prose (French " : " breaks plain YAML).
-4. `pci geocode && pci build`: the build validates the schema and checks each quote on its page.
+4. Check the timing online (organiser, town hall, tourism board first; aggregators only as a fallback) and add `timing.web_sources` (`url`, `publisher`, `says` in own words, `checked_at`). Never copy organisers' phone numbers or emails. Use `recurrence: {type: dates, occurrences: [...]}` for announced editions when no stable rule exists, and `every_years`/`reference_year` for non-annual festivals. Rules inferred from several editions are `confidence: medium` and say so in `notes`.
+5. `pci geocode && pci build`: the build validates the schema and checks each fiche quote on its page.
 
 ## Conventions
 

@@ -1,0 +1,20 @@
+id: 2014_67717_INV_PCI_FRANCE_00354
+kind: event
+domain: >-
+  Pratiques sociales et festives (carnaval, géants)
+summary:
+  fr: >-
+    À Wormhout, en Flandre, un millier de « carnavaleux » suivent la bande des Mitrons et les géants de la ville ; le samedi est réservé au carnaval des enfants.
+  en: >-
+    In Wormhout, in French Flanders, about a thousand carnival-goers follow the Mitrons band and the town's giants; Saturday is the children's carnival.
+  lang_review: draft
+places:
+  - {commune: Wormhout, department: "59"}
+recurrence: {type: easter_offset, days: -43, duration_days: 2}
+timing:
+  confidence: medium
+  evidence_quote: "Le carnaval se déroule le premier week-end après le Mardi gras"
+  evidence_page: 4
+  notes: >-
+    The weekend after Mardi gras, but the exact date is coordinated with the other carnivals of the region, so it can move.
+review_status: unreviewed

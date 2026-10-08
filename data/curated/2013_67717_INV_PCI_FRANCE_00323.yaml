@@ -1,0 +1,20 @@
+id: 2013_67717_INV_PCI_FRANCE_00323
+kind: event
+domain: >-
+  Pratiques sociales et festives (géants processionnels)
+summary:
+  fr: >-
+    À Grand-Fort-Philippe, port de pêche du Nord, la géante Matelote et sa famille de géants marins reçoivent les géants des communes voisines pour une fête qui met en scène leur vie : fiançailles, mariage, naissances.
+  en: >-
+    In the fishing port of Grand-Fort-Philippe, the giant Matelote and her family of seafaring giants welcome giants from neighbouring towns for a festival that stages their family life: engagement, wedding, births.
+  lang_review: draft
+places:
+  - {commune: Grand-Fort-Philippe, department: "59"}
+recurrence: {type: nth_weekday, month: 4, weekday: 0, n: 1}
+timing:
+  confidence: medium
+  evidence_quote: "La fête de la Matelote se déroule chaque premier dimanche d'avril à Grand-fortPhilippe (si Pâques tombe à cette date, elle est alors décalée)."
+  evidence_page: 3
+  notes: >-
+    First Sunday of April, moved when it is Easter Sunday (not modelled). The 30th-anniversary edition in 2025 took place on 17 May, so check the year's programme.
+review_status: unreviewed

@@ -111,3 +111,29 @@ def test_committed_inventory_is_up_to_date(tmp_path):
     count = build_inventory(out)
     assert count >= 500
     assert json.loads(out.read_text()) == json.loads(INVENTORY_PATH.read_text())
+
+
+def test_web_sources_can_replace_the_fiche_quote(tmp_path):
+    curated = {
+        **CURATED,
+        "recurrence": {
+            "type": "dates",
+            "occurrences": [{"start": "2027-02-13", "end": "2027-02-28"}],
+        },
+        "timing": {
+            "confidence": "high",
+            "notes": "",
+            "web_sources": [
+                {
+                    "url": "https://example.org/agenda",
+                    "publisher": "Office de tourisme",
+                    "says": "Lists the 2027 edition from 13 to 28 February.",
+                    "checked_at": "2026-10-08",
+                }
+            ],
+        },
+    }
+    element = compose(curated, INDEX, MANIFEST, CACHE)
+    assert check(element, VALIDATOR, tmp_path) == []
+    del element["timing"]["web_sources"]
+    assert check(element, VALIDATOR, tmp_path)  # no evidence at all is refused

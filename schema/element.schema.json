@@ -5,69 +5,264 @@
   "description": "One element of the national PCI inventory as published by the site (web/public/data/elements.json). Recurrence rules are data only; dates are computed in the browser.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "title_fr", "theme", "domain", "year_included", "kind", "summary", "locations", "recurrence", "timing", "source", "review_status"],
+  "required": [
+    "id",
+    "title_fr",
+    "theme",
+    "domain",
+    "year_included",
+    "kind",
+    "summary",
+    "locations",
+    "recurrence",
+    "timing",
+    "source",
+    "review_status"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^\\d{4}_\\d+_INV_PCI_FRANCE_\\d{5}$" },
-    "title_fr": { "type": "string", "minLength": 3 },
-    "theme": { "enum": ["social-festive", "oral", "physical", "performing-arts", "games", "rituals", "know-how"] },
-    "domain": { "type": "string", "minLength": 3, "maxLength": 200 },
-    "year_included": { "type": "integer", "minimum": 2008, "maximum": 2100 },
-    "kind": { "enum": ["event", "practice"] },
+    "id": {
+      "type": "string",
+      "pattern": "^\\d{4}_\\d+_INV_PCI_FRANCE_\\d{5}$"
+    },
+    "title_fr": {
+      "type": "string",
+      "minLength": 3
+    },
+    "theme": {
+      "enum": [
+        "social-festive",
+        "oral",
+        "physical",
+        "performing-arts",
+        "games",
+        "rituals",
+        "know-how"
+      ]
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "year_included": {
+      "type": "integer",
+      "minimum": 2008,
+      "maximum": 2100
+    },
+    "kind": {
+      "enum": [
+        "event",
+        "practice"
+      ]
+    },
     "summary": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["fr", "en", "lang_review"],
+      "required": [
+        "fr",
+        "en",
+        "lang_review"
+      ],
       "properties": {
-        "fr": { "type": "string", "minLength": 40, "maxLength": 600 },
-        "en": { "type": "string", "minLength": 40, "maxLength": 600 },
-        "lang_review": { "enum": ["draft", "reviewed"] }
+        "fr": {
+          "type": "string",
+          "minLength": 40,
+          "maxLength": 600
+        },
+        "en": {
+          "type": "string",
+          "minLength": 40,
+          "maxLength": 600
+        },
+        "lang_review": {
+          "enum": [
+            "draft",
+            "reviewed"
+          ]
+        }
       }
     },
-    "locations": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/location" } },
-    "recurrence": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/rule" }] },
-    "timing": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/timing" }] },
+    "locations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/location"
+      }
+    },
+    "recurrence": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/rule"
+        }
+      ]
+    },
+    "timing": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/timing"
+        }
+      ]
+    },
     "source": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["fiche_url", "fetched_at"],
+      "required": [
+        "fiche_url",
+        "fetched_at"
+      ],
       "properties": {
-        "fiche_url": { "type": "string", "pattern": "^https://www\\.culture\\.gouv\\.fr/" },
-        "fetched_at": { "type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+        "fiche_url": {
+          "type": "string",
+          "pattern": "^https://www\\.culture\\.gouv\\.fr/"
+        },
+        "fetched_at": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
       }
     },
-    "review_status": { "enum": ["unreviewed", "reviewed"] }
+    "review_status": {
+      "enum": [
+        "unreviewed",
+        "reviewed"
+      ]
+    }
   },
   "allOf": [
     {
-      "if": { "properties": { "kind": { "const": "practice" } } },
-      "then": { "properties": { "recurrence": { "type": "null" }, "timing": { "type": "null" } } },
-      "else": { "properties": { "recurrence": { "$ref": "#/$defs/rule" }, "timing": { "$ref": "#/$defs/timing" } } }
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "practice"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "recurrence": {
+            "type": "null"
+          },
+          "timing": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "recurrence": {
+            "$ref": "#/$defs/rule"
+          },
+          "timing": {
+            "$ref": "#/$defs/timing"
+          }
+        }
+      }
     }
   ],
   "$defs": {
     "location": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["label", "lat", "lon", "precision"],
+      "required": [
+        "label",
+        "lat",
+        "lon",
+        "precision"
+      ],
       "properties": {
-        "label": { "type": "string", "minLength": 2 },
-        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
-        "lon": { "type": "number", "minimum": -180, "maximum": 180 },
-        "precision": { "enum": ["commune", "department", "region"] },
-        "insee": { "type": "string", "pattern": "^(\\d[\\dAB]\\d{3})$" },
-        "overseas": { "type": "boolean" }
+        "label": {
+          "type": "string",
+          "minLength": 2
+        },
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "precision": {
+          "enum": [
+            "commune",
+            "department",
+            "region"
+          ]
+        },
+        "insee": {
+          "type": "string",
+          "pattern": "^(\\d[\\dAB]\\d{3})$"
+        },
+        "overseas": {
+          "type": "boolean"
+        }
       }
     },
     "timing": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["confidence", "evidence_quote", "evidence_page", "notes"],
+      "required": [
+        "confidence",
+        "notes"
+      ],
       "properties": {
-        "confidence": { "enum": ["high", "medium", "low"] },
-        "evidence_quote": { "type": "string", "minLength": 3, "maxLength": 220 },
-        "evidence_page": { "type": "integer", "minimum": 1 },
-        "notes": { "type": "string", "maxLength": 400 }
-      }
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "evidence_quote": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 220
+        },
+        "evidence_page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 400
+        },
+        "web_sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/web_source"
+          }
+        }
+      },
+      "dependentRequired": {
+        "evidence_quote": [
+          "evidence_page"
+        ],
+        "evidence_page": [
+          "evidence_quote"
+        ]
+      },
+      "anyOf": [
+        {
+          "required": [
+            "evidence_quote"
+          ]
+        },
+        {
+          "required": [
+            "web_sources"
+          ]
+        }
+      ]
     },
     "rule": {
       "description": "Yearly recurrence. duration_days counts the first day (1 = a single day).",
@@ -75,49 +270,242 @@
         {
           "type": "object",
           "additionalProperties": false,
-          "required": ["type", "month", "day"],
+          "required": [
+            "type",
+            "month",
+            "day"
+          ],
           "properties": {
-            "type": { "const": "fixed" },
-            "month": { "type": "integer", "minimum": 1, "maximum": 12 },
-            "day": { "type": "integer", "minimum": 1, "maximum": 31 },
-            "duration_days": { "$ref": "#/$defs/duration" }
+            "type": {
+              "const": "fixed"
+            },
+            "month": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "day": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 31
+            },
+            "duration_days": {
+              "$ref": "#/$defs/duration"
+            },
+            "every_years": {
+              "type": "integer",
+              "minimum": 2,
+              "maximum": 12,
+              "description": "Only every N years (biennial festival, Grand Pardon...)"
+            },
+            "reference_year": {
+              "type": "integer",
+              "minimum": 1900,
+              "maximum": 2100,
+              "description": "A year in which the event takes place; required with every_years"
+            }
+          },
+          "dependentRequired": {
+            "every_years": [
+              "reference_year"
+            ]
           }
         },
         {
           "type": "object",
           "additionalProperties": false,
-          "required": ["type", "days"],
+          "required": [
+            "type",
+            "days"
+          ],
           "properties": {
-            "type": { "const": "easter_offset" },
-            "days": { "type": "integer", "minimum": -70, "maximum": 70 },
-            "duration_days": { "$ref": "#/$defs/duration" }
+            "type": {
+              "const": "easter_offset"
+            },
+            "days": {
+              "type": "integer",
+              "minimum": -70,
+              "maximum": 70
+            },
+            "duration_days": {
+              "$ref": "#/$defs/duration"
+            },
+            "every_years": {
+              "type": "integer",
+              "minimum": 2,
+              "maximum": 12,
+              "description": "Only every N years (biennial festival, Grand Pardon...)"
+            },
+            "reference_year": {
+              "type": "integer",
+              "minimum": 1900,
+              "maximum": 2100,
+              "description": "A year in which the event takes place; required with every_years"
+            }
+          },
+          "dependentRequired": {
+            "every_years": [
+              "reference_year"
+            ]
           }
         },
         {
           "type": "object",
           "additionalProperties": false,
-          "required": ["type", "month", "weekday", "n"],
+          "required": [
+            "type",
+            "month",
+            "weekday",
+            "n"
+          ],
           "properties": {
-            "type": { "const": "nth_weekday" },
-            "month": { "type": "integer", "minimum": 1, "maximum": 12 },
-            "weekday": { "type": "integer", "minimum": 0, "maximum": 6, "description": "0 = Sunday ... 6 = Saturday" },
-            "n": { "type": "integer", "enum": [-1, 1, 2, 3, 4] },
-            "from_day": { "type": "integer", "minimum": 1, "maximum": 31, "description": "Count from this day of the month instead of the 1st, e.g. the first Sunday after 5 July = n 1, from_day 6" },
-            "offset_days": { "type": "integer", "minimum": -14, "maximum": 14, "description": "Shift from the n-th weekday, e.g. -4 = the Wednesday before the first Sunday" },
-            "duration_days": { "$ref": "#/$defs/duration" }
+            "type": {
+              "const": "nth_weekday"
+            },
+            "month": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "weekday": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 6,
+              "description": "0 = Sunday ... 6 = Saturday"
+            },
+            "n": {
+              "type": "integer",
+              "enum": [
+                -1,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            "from_day": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 31,
+              "description": "Count from this day of the month instead of the 1st, e.g. the first Sunday after 5 July = n 1, from_day 6"
+            },
+            "offset_days": {
+              "type": "integer",
+              "minimum": -14,
+              "maximum": 14,
+              "description": "Shift from the n-th weekday, e.g. -4 = the Wednesday before the first Sunday"
+            },
+            "duration_days": {
+              "$ref": "#/$defs/duration"
+            },
+            "every_years": {
+              "type": "integer",
+              "minimum": 2,
+              "maximum": 12,
+              "description": "Only every N years (biennial festival, Grand Pardon...)"
+            },
+            "reference_year": {
+              "type": "integer",
+              "minimum": 1900,
+              "maximum": 2100,
+              "description": "A year in which the event takes place; required with every_years"
+            }
+          },
+          "dependentRequired": {
+            "every_years": [
+              "reference_year"
+            ]
           }
         },
         {
           "type": "object",
           "additionalProperties": false,
-          "required": ["type"],
+          "required": [
+            "type"
+          ],
           "properties": {
-            "type": { "const": "unknown" },
-            "duration_days": { "$ref": "#/$defs/duration" }
+            "type": {
+              "const": "unknown"
+            },
+            "duration_days": {
+              "$ref": "#/$defs/duration"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "occurrences"
+          ],
+          "description": "Edition dates announced by organisers (when no stable rule exists)",
+          "properties": {
+            "type": {
+              "const": "dates"
+            },
+            "occurrences": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "start",
+                  "end"
+                ],
+                "properties": {
+                  "start": {
+                    "$ref": "#/$defs/isodate"
+                  },
+                  "end": {
+                    "$ref": "#/$defs/isodate"
+                  }
+                }
+              }
+            }
           }
         }
       ]
     },
-    "duration": { "type": "integer", "minimum": 1, "maximum": 250 }
+    "duration": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 250
+    },
+    "isodate": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "web_source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "publisher",
+        "says",
+        "checked_at"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 120
+        },
+        "says": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 300,
+          "description": "What the page states about timing, in our own words (or a quote of at most 25 words)"
+        },
+        "checked_at": {
+          "$ref": "#/$defs/isodate"
+        }
+      }
+    }
   }
 }

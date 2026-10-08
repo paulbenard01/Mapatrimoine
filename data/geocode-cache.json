@@ -7,6 +7,38 @@
   "insee": "06083",
   "overseas": false
  },
+ "commune:06:nice": {
+  "label": "Nice",
+  "lat": 43.7032,
+  "lon": 7.2528,
+  "precision": "commune",
+  "insee": "06088",
+  "overseas": false
+ },
+ "commune:06:tende": {
+  "label": "Tende",
+  "lat": 44.0971,
+  "lon": 7.5499,
+  "precision": "commune",
+  "insee": "06163",
+  "overseas": false
+ },
+ "commune:12:marcillac vallon": {
+  "label": "Marcillac-Vallon",
+  "lat": 44.4776,
+  "lon": 2.4612,
+  "precision": "commune",
+  "insee": "12138",
+  "overseas": false
+ },
+ "commune:13:mouries": {
+  "label": "Mouriès",
+  "lat": 43.7053,
+  "lon": 4.8781,
+  "precision": "commune",
+  "insee": "13065",
+  "overseas": false
+ },
  "commune:13:tarascon": {
   "label": "Tarascon",
   "lat": 43.7972,
@@ -23,12 +55,36 @@
   "insee": "18235",
   "overseas": false
  },
+ "commune:24:saint aulaye puymangou": {
+  "label": "Saint Aulaye-Puymangou",
+  "lat": 45.1817,
+  "lon": 0.1144,
+  "precision": "commune",
+  "insee": "24376",
+  "overseas": false
+ },
+ "commune:24:sarlat la caneda": {
+  "label": "Sarlat-la-Canéda",
+  "lat": 44.906,
+  "lon": 1.1994,
+  "precision": "commune",
+  "insee": "24520",
+  "overseas": false
+ },
  "commune:29:locronan": {
   "label": "Locronan",
   "lat": 48.0955,
   "lon": -4.2102,
   "precision": "commune",
   "insee": "29134",
+  "overseas": false
+ },
+ "commune:29:scaer": {
+  "label": "Scaër",
+  "lat": 48.0268,
+  "lon": -3.7267,
+  "precision": "commune",
+  "insee": "29274",
   "overseas": false
  },
  "commune:31:bagneres de luchon": {
@@ -63,6 +119,30 @@
   "insee": "34031",
   "overseas": false
  },
+ "commune:37:manthelan": {
+  "label": "Manthelan",
+  "lat": 47.1376,
+  "lon": 0.8201,
+  "precision": "commune",
+  "insee": "37143",
+  "overseas": false
+ },
+ "commune:40:dax": {
+  "label": "Dax",
+  "lat": 43.7025,
+  "lon": -1.0637,
+  "precision": "commune",
+  "insee": "40088",
+  "overseas": false
+ },
+ "commune:40:ousse suzan": {
+  "label": "Ousse-Suzan",
+  "lat": 43.9492,
+  "lon": -0.7523,
+  "precision": "commune",
+  "insee": "40215",
+  "overseas": false
+ },
  "commune:44:nantes": {
   "label": "Nantes",
   "lat": 47.2382,
@@ -85,6 +165,14 @@
   "lon": -1.7657,
   "precision": "commune",
   "insee": "50218",
+  "overseas": false
+ },
+ "commune:52:chaumont": {
+  "label": "Chaumont",
+  "lat": 48.0965,
+  "lon": 5.1566,
+  "precision": "commune",
+  "insee": "52121",
   "overseas": false
  },
  "commune:54:nancy": {
@@ -111,12 +199,84 @@
   "insee": "59178",
   "overseas": false
  },
+ "commune:59:grand fort philippe": {
+  "label": "Grand-Fort-Philippe",
+  "lat": 51.0016,
+  "lon": 2.1049,
+  "precision": "commune",
+  "insee": "59272",
+  "overseas": false
+ },
+ "commune:59:lesquin": {
+  "label": "Lesquin",
+  "lat": 50.5904,
+  "lon": 3.1132,
+  "precision": "commune",
+  "insee": "59343",
+  "overseas": false
+ },
+ "commune:59:lille": {
+  "label": "Lille",
+  "lat": 50.6311,
+  "lon": 3.0468,
+  "precision": "commune",
+  "insee": "59350",
+  "overseas": false
+ },
+ "commune:59:steenvoorde": {
+  "label": "Steenvoorde",
+  "lat": 50.8225,
+  "lon": 2.5762,
+  "precision": "commune",
+  "insee": "59580",
+  "overseas": false
+ },
  "commune:59:valenciennes": {
   "label": "Valenciennes",
   "lat": 50.362,
   "lon": 3.5142,
   "precision": "commune",
   "insee": "59606",
+  "overseas": false
+ },
+ "commune:59:villeneuve d'ascq": {
+  "label": "Villeneuve-d'Ascq",
+  "lat": 50.6362,
+  "lon": 3.1619,
+  "precision": "commune",
+  "insee": "59009",
+  "overseas": false
+ },
+ "commune:59:wormhout": {
+  "label": "Wormhout",
+  "lat": 50.8749,
+  "lon": 2.4813,
+  "precision": "commune",
+  "insee": "59663",
+  "overseas": false
+ },
+ "commune:62:boulogne sur mer": {
+  "label": "Boulogne-sur-Mer",
+  "lat": 50.7303,
+  "lon": 1.6062,
+  "precision": "commune",
+  "insee": "62160",
+  "overseas": false
+ },
+ "commune:64:aramits": {
+  "label": "Aramits",
+  "lat": 43.1343,
+  "lon": -0.72,
+  "precision": "commune",
+  "insee": "64029",
+  "overseas": false
+ },
+ "commune:64:arette": {
+  "label": "Arette",
+  "lat": 43.0304,
+  "lon": -0.7371,
+  "precision": "commune",
+  "insee": "64040",
   "overseas": false
  },
  "commune:64:bayonne": {
@@ -141,6 +301,22 @@
   "lon": -1.4046,
   "precision": "commune",
   "insee": "64279",
+  "overseas": false
+ },
+ "commune:64:labastide monrejeau": {
+  "label": "Labastide-Monréjeau",
+  "lat": 43.3902,
+  "lon": -0.5278,
+  "precision": "commune",
+  "insee": "64290",
+  "overseas": false
+ },
+ "commune:64:laruns": {
+  "label": "Laruns",
+  "lat": 42.907,
+  "lon": -0.4087,
+  "precision": "commune",
+  "insee": "64320",
   "overseas": false
  },
  "commune:65:lourdes": {
@@ -223,6 +399,22 @@
   "insee": "75056",
   "overseas": false
  },
+ "commune:87:magnac laval": {
+  "label": "Magnac-Laval",
+  "lat": 46.2381,
+  "lon": 1.1702,
+  "precision": "commune",
+  "insee": "87089",
+  "overseas": false
+ },
+ "commune:93:bobigny": {
+  "label": "Bobigny",
+  "lat": 48.9073,
+  "lon": 2.4432,
+  "precision": "commune",
+  "insee": "93008",
+  "overseas": false
+ },
  "commune:971:saint louis": {
   "label": "Saint-Louis",
   "lat": 15.9654,
@@ -246,6 +438,13 @@
   "precision": "commune",
   "insee": "97302",
   "overseas": true
+ },
+ "department:87": {
+  "label": "Haute-Vienne",
+  "lat": 45.8863,
+  "lon": 1.2378,
+  "precision": "department",
+  "overseas": false
  },
  "department:972": {
   "label": "Martinique",
@@ -274,6 +473,13 @@
   "lon": 45.1476,
   "precision": "department",
   "overseas": true
+ },
+ "region:11": {
+  "label": "Île-de-France",
+  "lat": 48.7615,
+  "lon": 2.4347,
+  "precision": "region",
+  "overseas": false
  },
  "region:53": {
   "label": "Bretagne",

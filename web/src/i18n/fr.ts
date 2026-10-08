@@ -97,6 +97,10 @@ export const fr = {
   aboutText:
     "Données : Inventaire national du patrimoine culturel immatériel, ministère de la Culture. Résumés rédigés pour ce site. Aucun cookie, aucune mesure d'audience, aucun traceur. Le fournisseur des fonds de carte (OpenFreeMap) voit l'adresse IP des visiteurs, comme tout serveur web.",
   pilotNote: "Projet pilote : une sélection d'éléments de l'Inventaire.",
+  ruleEveryN: (n: number) => `Tous les ${n} ans`,
+  announcedDates: "Pas de règle fixe : dates annoncées par les organisateurs pour chaque édition",
+  webSources: "Vérifié en ligne",
+  checkedOn: (d: string) => `consulté le ${d}`,
   ruleEvery: "Chaque année",
   monthAria: (month: string, n: number) => `${month} : ${n} événement${n > 1 ? "s" : ""}`,
   confidenceLine: (level: string) => `Fiabilité : ${level}`,

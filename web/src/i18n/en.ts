@@ -98,6 +98,10 @@ export const en: Strings = {
   aboutText:
     "Data: national inventory of intangible cultural heritage, French Ministry of Culture. Summaries written for this site. No cookies, no analytics, no trackers. The map tile provider (OpenFreeMap) sees visitors' IP addresses, like any web server.",
   pilotNote: "Pilot project: a selection of inventory elements.",
+  ruleEveryN: (n: number) => `Every ${n} years`,
+  announcedDates: "No fixed rule: dates announced by the organisers for each edition",
+  webSources: "Checked online",
+  checkedOn: (d: string) => `checked ${d}`,
   ruleEvery: "Every year",
   monthAria: (month: string, n: number) => `${month}: ${n} event${n === 1 ? "" : "s"}`,
   confidenceLine: (level: string) => `Confidence: ${level}`,

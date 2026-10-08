@@ -551,6 +551,18 @@ button[aria-pressed="true"] .chip-count {
   font-size: 0.85rem;
   margin-top: 4px;
 }
+.web-sources {
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+.web-title {
+  font-weight: 600;
+  margin: 0;
+}
+.web-sources ul {
+  margin: 4px 0;
+  padding-left: 18px;
+}
 .notes,
 .note {
   font-size: 0.9rem;

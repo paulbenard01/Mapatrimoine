@@ -15,6 +15,11 @@ timing:
   confidence: high
   evidence_quote: "Le carnaval se déroule à partir du vendredi soir les jours précédant le Mardi-gras"
   evidence_page: 2
+  web_sources:
+    - url: https://www.ter.sncf.com/normandie/decouvrir/evenements-normandie/carnaval-granville
+      publisher: SNCF TER Normandie
+      says: Lists the 2027 Granville carnival from 5 to 9 February 2027, matching the rule.
+      checked_at: "2026-10-08"
   notes: >-
     Friday evening to Mardi gras (Easter minus 47 days); main parade on the Sunday.
 review_status: unreviewed

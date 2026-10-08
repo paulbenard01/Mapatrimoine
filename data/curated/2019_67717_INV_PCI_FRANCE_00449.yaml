@@ -10,11 +10,19 @@ summary:
   lang_review: draft
 places:
   - {commune: Menton, department: "06"}
-recurrence: {type: unknown}
+recurrence:
+  type: dates
+  occurrences:
+    - {start: "2027-02-13", end: "2027-02-28"}
 timing:
-  confidence: medium
+  confidence: high
   evidence_quote: "La fête est toujours inaugurée pendant un week-end des vacances scolaires et s’étire généralement de mi-février à début mars."
   evidence_page: 4
+  web_sources:
+    - url: https://provence-alpes-cotedazur.com/en/things-to-do/events/all-events/93rd-fete-du-citron-douce-france-menton-en-2915923/
+      publisher: Provence-Alpes-Côte d'Azur regional tourism board
+      says: Lists the 93rd Fête du Citron from 13 to 28 February 2027, with fruit parades on the Sundays and night parades on the Thursdays.
+      checked_at: "2026-10-08"
   notes: >-
-    Mid-February to early March, set each year around the school holidays; no fixed rule.
+    Set each year around the February school holidays; the 2027 edition is announced.
 review_status: unreviewed

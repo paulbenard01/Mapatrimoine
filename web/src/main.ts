@@ -1,5 +1,5 @@
 import "./style.css";
-import { STRINGS, THEME_LABELS, badgeText, describeRule, formatKm, monthNames } from "./i18n";
+import { STRINGS, THEME_LABELS, badgeText, describeRule, formatDay, formatKm, monthNames } from "./i18n";
 import { AREAS, createMap, type MapView } from "./map";
 import {
   SORTS,
@@ -512,7 +512,7 @@ function renderDetail(item: Item): HTMLElement {
   const t = element.timing;
   const summary = state.lang === "fr" ? element.summary.fr : element.summary.en;
   const draft = state.lang === "en" && element.summary.lang_review === "draft";
-  const pageUrl = t ? `${element.source.fiche_url}#page=${t.evidence_page}` : element.source.fiche_url;
+  const pageUrl = t?.evidence_page ? `${element.source.fiche_url}#page=${t.evidence_page}` : element.source.fiche_url;
 
   return h(
     "article",
@@ -549,16 +549,39 @@ function renderDetail(item: Item): HTMLElement {
                 "div",
                 { class: "evidence" },
                 h("h4", {}, s.evidence),
-                h(
-                  "figure",
-                  {},
-                  h("blockquote", { lang: "fr", cite: pageUrl }, `« ${t.evidence_quote} »`),
-                  h(
-                    "figcaption",
-                    {},
-                    h("a", { href: pageUrl, target: "_blank", rel: "noopener" }, s.page(t.evidence_page)),
-                  ),
-                ),
+                t.evidence_quote && t.evidence_page
+                  ? h(
+                      "figure",
+                      {},
+                      h("blockquote", { lang: "fr", cite: pageUrl }, `« ${t.evidence_quote} »`),
+                      h(
+                        "figcaption",
+                        {},
+                        h("a", { href: pageUrl, target: "_blank", rel: "noopener" }, s.page(t.evidence_page)),
+                      ),
+                    )
+                  : null,
+                t.web_sources?.length
+                  ? h(
+                      "div",
+                      { class: "web-sources" },
+                      h("p", { class: "web-title" }, s.webSources),
+                      h(
+                        "ul",
+                        {},
+                        t.web_sources.map((w) =>
+                          h(
+                            "li",
+                            {},
+                            h("a", { href: w.url, target: "_blank", rel: "noopener" }, w.publisher),
+                            " : ",
+                            h("span", { lang: "en" }, w.says),
+                            ` (${s.checkedOn(formatDay(w.checked_at, state.lang))})`,
+                          ),
+                        ),
+                      ),
+                    )
+                  : null,
                 t.notes ? h("p", { class: "notes", lang: "en" }, t.notes) : null,
                 h("p", {}, s.confidenceLine(s.confidenceLevels[t.confidence])),
                 element.review_status === "unreviewed" ? h("p", { class: "flag" }, s.unreviewed) : null,
