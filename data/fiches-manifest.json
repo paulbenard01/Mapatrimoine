@@ -1,4 +1,9 @@
 {
+ "2009_67717_INV_PCI_FRANCE_00038": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Defile-du-dieu-Ganesh-ou-Ganesh-Chaturthi",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
+ },
  "2009_67717_INV_PCI_FRANCE_00040": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-maloya",
   "status": "ok",
@@ -466,6 +471,11 @@
   "text": "ok",
   "pages": 32,
   "unpublished_marker": false
+ },
+ "2024_67717_INV_PCI_FRANCE_00545": {
+  "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-procession-de-neuf-lieues",
+  "status": "ok",
+  "fetched_at": "2026-10-08"
  },
  "2025_67717_INV_PCI_FRANCE_00556": {
   "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/chjam-e-rispondi-joutes-poetiques-improvisees-et-chantees-corse",
