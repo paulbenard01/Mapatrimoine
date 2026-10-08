@@ -1,5 +1,6 @@
 # One picture per element: a Wikimedia Commons file (credit and licence from its file page)
-# or, failing that, the inventory fiche image shown on PCI Lab (linked, not copied).
+# or the inventory fiche image shown on PCI Lab (linked, not copied), or, for elements with
+# neither, a photo taken from the fiche PDF and served by the site (web/public/img/fiches/).
 2008_67717_INV_PCI_FRANCE_00001:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/001_carbuccia/001_carbuccia-bandeau.jpg
@@ -256,6 +257,11 @@
   src: https://www.pci-lab.fr/images/fiches/058_repas-gastronomique/058_repas-gastronomique-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/221
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2009_67717_INV_PCI_FRANCE_00059:
+  source: fiche
+  src: img/fiches/2009_67717_INV_PCI_FRANCE_00059.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-ceramique-d-art-Jean-Girel
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2009_67717_INV_PCI_FRANCE_00060:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/060_dorure-bois/060_dorure-bois-bandeau.jpg
@@ -886,6 +892,11 @@
   src: https://www.pci-lab.fr/images/fiches/180_boule-terrain-incurve/180_boule-terrain-incurve-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/123
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2012_67717_INV_PCI_FRANCE_00181:
+  source: fiche
+  src: img/fiches/2012_67717_INV_PCI_FRANCE_00181.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-terrain-plat
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2012_67717_INV_PCI_FRANCE_00182:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/182_boule-tharonnaise/182_boule-tharonnaise-bandeau.jpg
@@ -989,6 +1000,11 @@
   src: https://www.pci-lab.fr/images/fiches/200_galoche-asserac/200_galoche-asserac-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/270
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2012_67717_INV_PCI_FRANCE_00203:
+  source: fiche
+  src: img/fiches/2012_67717_INV_PCI_FRANCE_00203.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-galoche-sur-billot
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2012_67717_INV_PCI_FRANCE_00204:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/204_jeu-bique/204_jeu-bique-bandeau.jpg
@@ -1207,6 +1223,11 @@
   credit: Velvet
   licence: CC BY-SA 4.0
   licence_url: https://creativecommons.org/licenses/by-sa/4.0
+2012_67717_INV_PCI_FRANCE_00247:
+  source: fiche
+  src: img/fiches/2012_67717_INV_PCI_FRANCE_00247.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-balle-a-la-main-de-Hangest-en-Santerre
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2012_67717_INV_PCI_FRANCE_00248:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/248_balle-tamis/248_balle-tamis-bandeau.jpg
@@ -1217,6 +1238,11 @@
   src: https://www.pci-lab.fr/images/fiches/249_ballon-poing/249_ballon-poing-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/286
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2012_67717_INV_PCI_FRANCE_00250:
+  source: fiche
+  src: img/fiches/2012_67717_INV_PCI_FRANCE_00250.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-guise-de-Boves
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2012_67717_INV_PCI_FRANCE_00251:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Javelot_tir_sur_cible.jpg/960px-Javelot_tir_sur_cible.jpg
@@ -1270,6 +1296,16 @@
   credit: Moutte84
   licence: GFDL
   licence_url: http://www.gnu.org/copyleft/fdl.html
+2012_67717_INV_PCI_FRANCE_00260:
+  source: fiche
+  src: img/fiches/2012_67717_INV_PCI_FRANCE_00260.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-grande-carambole-et-du-bastringue
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
+2012_67717_INV_PCI_FRANCE_00261:
+  source: fiche
+  src: img/fiches/2012_67717_INV_PCI_FRANCE_00261.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-carambole-a-gouttiere
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2012_67717_INV_PCI_FRANCE_00262:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/262_crosse/262_crosse-bandeau.jpg
@@ -1458,6 +1494,11 @@
   src: https://www.pci-lab.fr/images/fiches/296_cerise-itxassou/296_cerise-itxassou-bandeau2.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/345
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2013_67717_INV_PCI_FRANCE_00297:
+  source: fiche
+  src: img/fiches/2013_67717_INV_PCI_FRANCE_00297.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-barricot-a-Labastide-Monrejeau
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2013_67717_INV_PCI_FRANCE_00298:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/298_fetes-mer/298_fetes-mer-bandeau.jpg
@@ -1480,6 +1521,11 @@
   credit: Imanol Garcia Landa / Ataria.eus
   licence: CC BY-SA 4.0
   licence_url: https://creativecommons.org/licenses/by-sa/4.0
+2013_67717_INV_PCI_FRANCE_00302:
+  source: fiche
+  src: img/fiches/2013_67717_INV_PCI_FRANCE_00302.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Saint-Bourrou
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2013_67717_INV_PCI_FRANCE_00303:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/303_fabrication_bombarde/303_fabrication_bombarde-bandeau.jpg
@@ -1625,6 +1671,11 @@
   credit: Unknown author
   licence: GFDL
   licence_url: http://www.gnu.org/copyleft/fdl.html
+2014_67717_INV_PCI_FRANCE_00329:
+  source: fiche
+  src: img/fiches/2014_67717_INV_PCI_FRANCE_00329.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jour-des-Limites-a-La-Pierre-Saint-Martin
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2014_67717_INV_PCI_FRANCE_00330:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Espelette_fete_du_piment_2016.jpg/960px-Espelette_fete_du_piment_2016.jpg
@@ -1811,6 +1862,11 @@
   credit: Unknown author
   licence: CC BY 4.0
   licence_url: https://creativecommons.org/licenses/by/4.0
+2015_67717_INV_PCI_FRANCE_00364:
+  source: fiche
+  src: img/fiches/2015_67717_INV_PCI_FRANCE_00364.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Vannerie-carbasson
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2015_67717_INV_PCI_FRANCE_00365:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/365_vannerie-montants/365_vannerie-montants-bandeau.jpg
@@ -1846,6 +1902,11 @@
   src: https://www.pci-lab.fr/images/fiches/371_batisse-zabelle/371_batisse-zabelle-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/382
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2015_67717_INV_PCI_FRANCE_00372:
+  source: fiche
+  src: img/fiches/2015_67717_INV_PCI_FRANCE_00372.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Pourim-Shpil
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2015_67717_INV_PCI_FRANCE_00373:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rehearsal_bacchu-ber_1877_alexis_legrand.jpg/960px-Rehearsal_bacchu-ber_1877_alexis_legrand.jpg
@@ -1853,6 +1914,11 @@
   credit: Alexis Legrand
   licence: Public domain
   licence_url: https://creativecommons.org/publicdomain/mark/1.0/
+2016_67717_INV_PCI_FRANCE_00374:
+  source: fiche
+  src: img/fiches/2016_67717_INV_PCI_FRANCE_00374.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-boules-parisien
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2017_67717_INV_PCI_FRANCE_00375:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/375_djeliya-mandingue/375_djeliya-mandingue-bandeau.jpg
@@ -1912,6 +1978,11 @@
   src: https://www.pci-lab.fr/images/fiches/385_fondation-notre-dame/385_fondation-notre-dame-bandeau2.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/462
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2017_67717_INV_PCI_FRANCE_00386:
+  source: fiche
+  src: img/fiches/2017_67717_INV_PCI_FRANCE_00386.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Pratiques-et-savoir-faire-des-pecheurs-du-lac-de-Grand-Lieu
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2017_67717_INV_PCI_FRANCE_00387:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Danse_Heiva_2014-3424.jpg/960px-Danse_Heiva_2014-3424.jpg
@@ -1933,6 +2004,16 @@
   credit: FRANCKYL91
   licence: CC BY-SA 4.0
   licence_url: https://creativecommons.org/licenses/by-sa/4.0
+2017_67717_INV_PCI_FRANCE_00390:
+  source: fiche
+  src: img/fiches/2017_67717_INV_PCI_FRANCE_00390.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-conte-traditionnel-de-la-Reunion-Rakontaz-zistoir-la-Renion
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
+2017_67717_INV_PCI_FRANCE_00391:
+  source: fiche
+  src: img/fiches/2017_67717_INV_PCI_FRANCE_00391.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-vannerie-du-vacoa-a-la-Reunion-La-tresse-vacoa
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2017_67717_INV_PCI_FRANCE_00392:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/392_vaisakhi-sikhs/392_vaisakhi-sikhs-bandeau.jpg
@@ -1987,6 +2068,16 @@
   src: https://www.pci-lab.fr/images/fiches/401_kabalkada/401_kabalkada-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/317
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2018_67717_INV_PCI_FRANCE_00403:
+  source: fiche
+  src: img/fiches/2018_67717_INV_PCI_FRANCE_00403.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-savoir-faire-et-la-pratique-des-simples-a-la-Reunion
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
+2018_67717_INV_PCI_FRANCE_00404:
+  source: fiche
+  src: img/fiches/2018_67717_INV_PCI_FRANCE_00404.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-artisanat-de-la-perle-de-verre-en-France
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2018_67717_INV_PCI_FRANCE_00405:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/405_formaire/405_formaire-bandeau.jpg
@@ -2041,6 +2132,16 @@
   src: https://www.pci-lab.fr/images/fiches/414_saintnicolas-nancy/414_saintnicolas-nancy-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/443
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2018_67717_INV_PCI_FRANCE_00415:
+  source: fiche
+  src: img/fiches/2018_67717_INV_PCI_FRANCE_00415.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-savoir-faire-de-la-mecanique-horlogere
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
+2018_67717_INV_PCI_FRANCE_00416:
+  source: fiche
+  src: img/fiches/2018_67717_INV_PCI_FRANCE_00416.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-emplois-medicinaux-du-plantain-badasson-en-haute-provence-occidentale
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2018_67717_INV_PCI_FRANCE_00417:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/417_herboristerie/417_herboristerie-bandeau.jpg
@@ -2087,6 +2188,11 @@
   src: https://www.pci-lab.fr/images/fiches/423_carnaval-montblanc/423_carnaval-montblanc-bandeau1.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/434
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2019_67717_INV_PCI_FRANCE_00424:
+  source: fiche
+  src: img/fiches/2019_67717_INV_PCI_FRANCE_00424.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-du-Tribus-Lupis-de-Cournonterral
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2019_67717_INV_PCI_FRANCE_00425:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tarasque_in_Tarascon_01.jpg/960px-Tarasque_in_Tarascon_01.jpg
@@ -2151,6 +2257,11 @@
   src: https://www.pci-lab.fr/images/fiches/438_saint-nectaire/438_saint-nectaire-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/420
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2019_67717_INV_PCI_FRANCE_00439:
+  source: fiche
+  src: img/fiches/2019_67717_INV_PCI_FRANCE_00439.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fabrication-du-poire-en-domfrontais.pdf
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2019_67717_INV_PCI_FRANCE_00440:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/440_vin-chateauneuf-du-pape/440_vin-chateauneuf-du-pape-bandeau2.jpg
@@ -2166,6 +2277,11 @@
   src: https://www.pci-lab.fr/images/fiches/443_cuisine-nicoise/443_cuisine-nicoise-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/415
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2019_67717_INV_PCI_FRANCE_00444:
+  source: fiche
+  src: img/fiches/2019_67717_INV_PCI_FRANCE_00444.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-du-point-de-luneville-et-de-la-broderie-perlee-et-pailletee.pdf
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2019_67717_INV_PCI_FRANCE_00445:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/445_fetes-bouviers/445_fetes-bouviers-bandeau1.jpg
@@ -2367,6 +2483,16 @@
   src: https://www.pci-lab.fr/images/fiches/487_peche-adour/487_peche-adour-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/498
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2020_67717_INV_PCI_FRANCE_00488:
+  source: fiche
+  src: img/fiches/2020_67717_INV_PCI_FRANCE_00488.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/chants-de-labour-dans-les-pratiques-et-rituels-du-charronnage-ancestral-sur-l-ile-de-marie-galante-guadeloupe-.pdf
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
+2020_67717_INV_PCI_FRANCE_00493:
+  source: fiche
+  src: img/fiches/2020_67717_INV_PCI_FRANCE_00493.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-seloo-ou-selo-chant-polyphonique-de-hnyei-iaai-ouvea-iles-loyaute-nouvelle-caledonie-.pdf
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2020_67717_INV_PCI_FRANCE_00494:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Lifou%2C_Drehu_Village%2C_Nouvelle_Cal%C3%A9donie.jpg/960px-Lifou%2C_Drehu_Village%2C_Nouvelle_Cal%C3%A9donie.jpg
@@ -2384,11 +2510,26 @@
   src: https://www.pci-lab.fr/images/fiches/490_peche-carrelet/490_peche-carrelet-bandeau2.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/481
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2021_67717_INV_PCI_FRANCE_00491:
+  source: fiche
+  src: img/fiches/2021_67717_INV_PCI_FRANCE_00491.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/festivals-de-tango-en-france.pdf
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
+2021_67717_INV_PCI_FRANCE_00492:
+  source: fiche
+  src: img/fiches/2021_67717_INV_PCI_FRANCE_00492.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/milongas-bal-tango-en-france.pdf
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2021_67717_INV_PCI_FRANCE_00495:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/495_apiculture-humide/495_apiculture-humide-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/489
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2021_67717_INV_PCI_FRANCE_00496:
+  source: fiche
+  src: img/fiches/2021_67717_INV_PCI_FRANCE_00496.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-danse-d-epees-de-dunkerque.pdf
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2021_67717_INV_PCI_FRANCE_00497:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/497_peche-basse-loire/497_peche-basseLoire-bandeau1.jpg
@@ -2512,6 +2653,11 @@
   credit: Frédéric Neupont
   licence: CC BY 4.0
   licence_url: https://creativecommons.org/licenses/by/4.0
+2023_67717_INV_PCI_FRANCE_00520:
+  source: fiche
+  src: img/fiches/2023_67717_INV_PCI_FRANCE_00520.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/rod-lo-gep
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2023_67717_INV_PCI_FRANCE_00521:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Nantes_-_Carnaval_de_jour_2019_-_05.jpg/960px-Nantes_-_Carnaval_de_jour_2019_-_05.jpg
@@ -2560,6 +2706,11 @@
   credit: Jean-Pierre Dalbéra
   licence: CC BY 2.0
   licence_url: https://creativecommons.org/licenses/by/2.0
+2023_67717_INV_PCI_FRANCE_00529:
+  source: fiche
+  src: img/fiches/2023_67717_INV_PCI_FRANCE_00529.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/recolte-a-l-ancienne-entretien-des-vieux-vergers-et-pressage-des-olives-en-corse
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2023_67717_INV_PCI_FRANCE_00530:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/530_sonnerie-cloches/530_sonnerie-cloches-bandeau.jpg
@@ -2570,6 +2721,11 @@
   src: https://www.pci-lab.fr/images/fiches/art-du-timbre-poste-grave-en-taille-douce.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/523
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2023_67717_INV_PCI_FRANCE_00532:
+  source: fiche
+  src: img/fiches/2023_67717_INV_PCI_FRANCE_00532.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-lies-a-la-ganterie-en-pays-de-de-millau-elevage-pastoral-connaissances-et-transformation-des-matieres-art-de-confectionner-le
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2024_67717_INV_PCI_FRANCE_00534:
   source: pcilab
   src: https://www.pci-lab.fr/images/fiches/534_craquelin-bretagne/534_craquelin-bretagne-bandeau.jpg
@@ -2617,6 +2773,16 @@
   src: https://www.pci-lab.fr/images/fiches/542_chant-marin/542_chant-marin-bandeau1.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/564
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2024_67717_INV_PCI_FRANCE_00543:
+  source: fiche
+  src: img/fiches/2024_67717_INV_PCI_FRANCE_00543.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-gestes-du-travail-pour-la-cueillette-du-tilleul-dans-les-baronnies-provencales
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
+2024_67717_INV_PCI_FRANCE_00544:
+  source: fiche
+  src: img/fiches/2024_67717_INV_PCI_FRANCE_00544.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/veye-asi-granfon-jeux-et-traditions-de-veillee-funeraire-des-grands-fonds-guadeloupe
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2024_67717_INV_PCI_FRANCE_00545:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/2/2f/Procession_Neuf_lieues-2023-1.jpg
@@ -2638,6 +2804,11 @@
   credit: Bertrand Fanonnel | Eight Studio
   licence: CC BY-SA 4.0
   licence_url: https://creativecommons.org/licenses/by-sa/4.0
+2025_67717_INV_PCI_FRANCE_00549:
+  source: fiche
+  src: img/fiches/2025_67717_INV_PCI_FRANCE_00549.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-demoscene-en-france-un-mouvement-de-creation-numerique-populaire-spontane
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2025_67717_INV_PCI_FRANCE_00550:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Affouage_%C3%A0_Bannoncourt.JPG/960px-Affouage_%C3%A0_Bannoncourt.JPG
@@ -2650,6 +2821,31 @@
   src: https://www.pci-lab.fr/images/fiches/551_savoirs-ligeriens/00551_savoirs-ligeriens-bandeau.jpg
   page: https://www.pci-lab.fr/fiche-d-inventaire/fiche/547
   credit: Fiche d'inventaire du PCI (ministère de la Culture), via PCI Lab
+2025_67717_INV_PCI_FRANCE_00552:
+  source: fiche
+  src: img/fiches/2025_67717_INV_PCI_FRANCE_00552.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-et-pratiques-lies-au-tani-malandi-argile-blanche-de-chirongui
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
+2025_67717_INV_PCI_FRANCE_00553:
+  source: fiche
+  src: img/fiches/2025_67717_INV_PCI_FRANCE_00553.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-quadrilles-creoles-de-guadeloupe
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
+2025_67717_INV_PCI_FRANCE_00554:
+  source: fiche
+  src: img/fiches/2025_67717_INV_PCI_FRANCE_00554.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/pratiques-de-peche-passives-sur-le-bassin-loire-le-guideau-et-le-filet-barrage
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
+2025_67717_INV_PCI_FRANCE_00555:
+  source: fiche
+  src: img/fiches/2025_67717_INV_PCI_FRANCE_00555.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-comices-agricoles-du-doubs
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
+2025_67717_INV_PCI_FRANCE_00556:
+  source: fiche
+  src: img/fiches/2025_67717_INV_PCI_FRANCE_00556.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/chjam-e-rispondi-joutes-poetiques-improvisees-et-chantees-corse
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2025_67717_INV_PCI_FRANCE_00557:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Zuhair_Murad_Spring_Summer_2018_Haute_Couture.jpg/960px-Zuhair_Murad_Spring_Summer_2018_Haute_Couture.jpg
@@ -2671,6 +2867,11 @@
   credit: Véronique PAGNIER
   licence: Public domain
   licence_url: null
+2025_67717_INV_PCI_FRANCE_00560:
+  source: fiche
+  src: img/fiches/2025_67717_INV_PCI_FRANCE_00560.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-carnaval-a-l-ouest-de-scaer
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2026_67717_INV_PCI_FRANCE_00561:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Maison_en_pis%C3%A9_de_Lentilly.jpg/960px-Maison_en_pis%C3%A9_de_Lentilly.jpg
@@ -2678,6 +2879,11 @@
   credit: CHABERT Louis
   licence: CC BY-SA 4.0
   licence_url: https://creativecommons.org/licenses/by-sa/4.0
+2026_67717_INV_PCI_FRANCE_00562:
+  source: fiche
+  src: img/fiches/2026_67717_INV_PCI_FRANCE_00562.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fabrication-de-cravaches-et-de-fouets-a-sorede-pyrenees-orientales
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2026_67717_INV_PCI_FRANCE_00563:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Barque_sur_Loire.jpg/960px-Barque_sur_Loire.jpg
@@ -2685,6 +2891,11 @@
   credit: Michelet-密是力
   licence: Public domain
   licence_url: null
+2026_67717_INV_PCI_FRANCE_00564:
+  source: fiche
+  src: img/fiches/2026_67717_INV_PCI_FRANCE_00564.jpg
+  page: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-pelerinage-de-sainte-solange
+  credit: Fiche d'inventaire du PCI (ministère de la Culture)
 2026_67717_INV_PCI_FRANCE_00565:
   source: commons
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Soir_de_p%C3%A8lerinage_%C3%A0_Lourdes_01.jpg/960px-Soir_de_p%C3%A8lerinage_%C3%A0_Lourdes_01.jpg

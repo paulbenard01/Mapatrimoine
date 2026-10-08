@@ -75,6 +75,12 @@ def test_check_images_and_picture():
     assert check_images({ID: no_licence}, {ID}) == [f"{ID}: Commons image needs its licence"]
     fiche_image = {**no_licence, "source": "pcilab"}
     assert check_images({ID: fiche_image}, {ID}) == []
+    from_pdf = {**no_licence, "source": "fiche", "src": f"img/fiches/{ID}.jpg"}
+    assert check_images({ID: from_pdf}, {ID}) == [
+        f"{ID}: img/fiches/{ID}.jpg is missing from web/public"
+    ]
+    wrong = {**from_pdf, "src": "img/fiches/other.jpg"}
+    assert check_images({ID: wrong}, {ID}) == [f"{ID}: fiche image src must be img/fiches/{ID}.jpg"]
     assert check_images({ID: {**image, "src": "http://x"}}, {ID}) == [
         f"{ID}: image src must be an https url"
     ]

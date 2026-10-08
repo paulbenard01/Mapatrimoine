@@ -515,7 +515,8 @@ function figure(picture: Picture | null): HTMLElement | null {
     "figure",
     { class: "picture" },
     h("img", {
-      src: picture.src,
+      // Fiche photos are served by the site itself, next to index.html.
+      src: picture.source === "fiche" ? `${import.meta.env.BASE_URL}${picture.src}` : picture.src,
       alt: picture.alt,
       loading: "lazy",
       decoding: "async",
@@ -540,12 +541,18 @@ function figure(picture: Picture | null): HTMLElement | null {
             : null,
           ", Wikimedia Commons",
         )
-      : h(
-          "figcaption",
-          {},
-          `${s.ficheImageVia} `,
-          h("a", { href: picture.page, target: "_blank", rel: "noopener" }, "PCI Lab"),
-        ),
+      : picture.source === "pcilab"
+        ? h(
+            "figcaption",
+            {},
+            `${s.ficheImageVia} `,
+            h("a", { href: picture.page, target: "_blank", rel: "noopener" }, "PCI Lab"),
+          )
+        : h(
+            "figcaption",
+            {},
+            h("a", { href: picture.page, target: "_blank", rel: "noopener" }, s.ficheImage),
+          ),
   );
 }
 

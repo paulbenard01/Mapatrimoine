@@ -18,6 +18,7 @@ export const fr = {
   andMore: (n: number) => `et ${n} autre${n > 1 ? "s" : ""}`,
   photoBy: "Photo : ",
   ficheImageVia: "Image de la fiche d'inventaire (ministère de la Culture), via",
+  ficheImage: "Photo tirée de la fiche d'inventaire (ministère de la Culture) ; crédits dans la fiche",
   noFiche: "Pas de fiche en ligne sur culture.gouv.fr.",
   mappedOnlyHint: "Le territoire et la distance ne s'appliquent qu'aux éléments placés sur la carte.",
   alsoIn: "Aussi classé en",

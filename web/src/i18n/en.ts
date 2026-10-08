@@ -20,6 +20,7 @@ export const en: Strings = {
   andMore: (n: number) => `and ${n} more`,
   photoBy: "Photo: ",
   ficheImageVia: "Image from the inventory fiche (French Ministry of Culture), via",
+  ficheImage: "Photo from the inventory fiche (French Ministry of Culture); credits in the fiche",
   noFiche: "No fiche online on culture.gouv.fr.",
   mappedOnlyHint: "Area and distance only apply to elements placed on the map.",
   alsoIn: "Also listed under",

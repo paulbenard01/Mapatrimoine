@@ -58,9 +58,9 @@ export interface LocationSource {
 }
 
 export interface Picture {
-  src: string; // image URL (Wikimedia Commons thumbnail or PCI Lab fiche image)
+  src: string; // Commons thumbnail or PCI Lab image URL, or a site path (img/fiches/...)
   page: string; // where the image is described and credited
-  source: "commons" | "pcilab";
+  source: "commons" | "pcilab" | "fiche";
   credit: string; // author as credited on Commons, or the publisher for fiche images
   licence: string | null; // e.g. "CC BY-SA 4.0"; null when the fiche states none
   licence_url: string | null;

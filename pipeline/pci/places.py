@@ -5,18 +5,23 @@ that every element can be put on the map. Each entry lists one or more places (a
 accepted by pci.geocode) and where they come from:
   pcilab: <id>      the element's page on PCI Lab, whose "Localisation" field was read
   sources: [...]    pages read online ({publisher, url}), e.g. the official fiche
-images.yaml gives one picture per element: a Wikimedia Commons file (preferred) or the
-fiche image shown on PCI Lab, with its credit and licence.
+images.yaml gives one picture per element: a Wikimedia Commons file (preferred), the
+fiche image shown on PCI Lab, or, when neither exists, a photo taken from the fiche PDF and
+served by the site from web/public/img/fiches/ (credited to the fiche, metadata stripped).
 """
+
+import re
 
 import yaml
 
-from pci import DATA
+from pci import DATA, ROOT
 from pci.geocode import GeocodeError, place_key
 from pci.pcilab import fiche_url
 
 PLACES_PATH = DATA / "places.yaml"
 IMAGES_PATH = DATA / "images.yaml"
+FICHE_IMAGES = ROOT / "web" / "public" / "img" / "fiches"
+FICHE_SRC = re.compile(r"img/fiches/[0-9A-Z_]+\.jpg")
 PLACE_FIELDS = {"places", "pcilab", "sources", "note"}
 IMAGE_FIELDS = {"source", "src", "page", "credit", "licence", "licence_url", "alt"}
 PCILAB_PUBLISHER = "PCI Lab (ministère de la Culture, CIRDOC)"
@@ -72,11 +77,19 @@ def check_images(images: dict, known_ids: set[str]) -> list[str]:
         unknown = set(image) - IMAGE_FIELDS
         if unknown:
             problems.append(f"{ident}: unknown image fields {sorted(unknown)}")
-        if image.get("source") not in ("commons", "pcilab"):
-            problems.append(f"{ident}: image source must be commons or pcilab")
-        for key in ("src", "page"):
-            if not str(image.get(key, "")).startswith("https://"):
-                problems.append(f"{ident}: image {key} must be an https url")
+        source = image.get("source")
+        if source not in ("commons", "pcilab", "fiche"):
+            problems.append(f"{ident}: image source must be commons, pcilab or fiche")
+        src = str(image.get("src", ""))
+        if source == "fiche":
+            if src != f"img/fiches/{ident}.jpg" or not FICHE_SRC.fullmatch(src):
+                problems.append(f"{ident}: fiche image src must be img/fiches/{ident}.jpg")
+            elif not (FICHE_IMAGES / f"{ident}.jpg").exists():
+                problems.append(f"{ident}: {src} is missing from web/public")
+        elif not src.startswith("https://"):
+            problems.append(f"{ident}: image src must be an https url")
+        if not str(image.get("page", "")).startswith("https://"):
+            problems.append(f"{ident}: image page must be an https url")
         if not image.get("credit"):
             problems.append(f"{ident}: image needs a credit")
         if image.get("source") == "commons" and not image.get("licence"):
