@@ -1,6 +1,6 @@
 {
  "generated_from": "data/curated",
- "count": 66,
+ "count": 70,
  "elements": [
   {
    "id": "2009_67717_INV_PCI_FRANCE_00040",
@@ -1148,6 +1148,45 @@
    "review_status": "unreviewed"
   },
   {
+   "id": "2014_67717_INV_PCI_FRANCE_00329",
+   "title_fr": "Le jour des Limites à La Pierre-Saint-Martin (Arette, Pyrénées-Atlantiques) / El dia de las limites",
+   "theme": "rituals",
+   "domain": "Rituels (bornage frontalier)",
+   "year_included": 2014,
+   "kind": "event",
+   "summary": {
+    "fr": "Chaque 21 août depuis le XIXe siècle, le maire d'Isaba et les maires des communes françaises voisines se retrouvent à la Pierre-Saint-Martin pour signer les procès-verbaux de bornage de la frontière et partager un repas.",
+    "en": "Every 21 August since the 19th century, the mayor of Isaba and the mayors of the neighbouring French communes meet at La Pierre-Saint-Martin to sign the border-marking records and share a meal.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "La Pierre-Saint-Martin (Arette)",
+     "lat": 43.0304,
+     "lon": -0.7371,
+     "precision": "commune",
+     "insee": "64040",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "fixed",
+    "month": 8,
+    "day": 21
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Tous les 21 août, depuis 1856, l’alcade d’Isaba et les maires (ou leurs représentants) des communes françaises",
+    "evidence_page": 2,
+    "notes": "21 August, at noon."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jour-des-Limites-a-La-Pierre-Saint-Martin",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
    "id": "2014_67717_INV_PCI_FRANCE_00330",
    "title_fr": "La fête du Piment à Espelette (Pyrénées-Atlantiques)",
    "theme": "social-festive",
@@ -1821,6 +1860,61 @@
    "review_status": "unreviewed"
   },
   {
+   "id": "2017_67717_INV_PCI_FRANCE_00392",
+   "title_fr": "Le Vaisakhi des sikhs à Bobigny (Seine-Saint-Denis)",
+   "theme": "rituals",
+   "domain": "Rituels (fête religieuse sikhe)",
+   "year_included": 2017,
+   "kind": "event",
+   "summary": {
+    "fr": "Pour Vaisakhi, fête du printemps et de la fondation de la communauté sikhe (Khalsa), des milliers de fidèles défilent dans Bobigny depuis le gurdwara, derrière le livre saint, avec chants, arts martiaux et repas offerts.",
+    "en": "For Vaisakhi, the spring festival marking the founding of the Sikh community (Khalsa), thousands of people parade through Bobigny from the gurdwara behind the holy book, with hymns, martial arts and free meals.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Bobigny",
+     "lat": 48.9073,
+     "lon": 2.4432,
+     "precision": "commune",
+     "insee": "93008",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "nth_weekday",
+    "month": 4,
+    "weekday": 0,
+    "n": 1,
+    "from_day": 13
+   },
+   "timing": {
+    "confidence": "medium",
+    "evidence_quote": "se répète depuis lors tous les ans, durant le week-end le plus proche de la date du Vaisakhi.",
+    "evidence_page": 9,
+    "web_sources": [
+     {
+      "url": "https://sortiraparis.com/en/what-to-visit-in-paris/walks/articles/307055-vaisakhi-festival-2026-a-grand-parade-through-the-streets-of-bobigny-this-weekend",
+      "publisher": "Sortir à Paris",
+      "says": "The 2026 parade took place on Sunday 19 April (Sunday 14 April in 2024).",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://ressources.seinesaintdenis.fr/IMG/pdf/150x210_programme_semaine_desi_2022-2.pdf",
+      "publisher": "Département de la Seine-Saint-Denis",
+      "says": "The 2022 parade left the Bobigny gurdwara on Sunday 17 April.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Vaisakhi falls on 13 or 14 April. The fiche says the weekend closest to it; recent parades were on the Sunday on or after 13 April (2022, 2024, 2026), which is the rule used here."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Vaisakhi-des-Sikhs-a-Bobigny",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
    "id": "2018_67717_INV_PCI_FRANCE_00395",
    "title_fr": "Les fêtes de Jeanne d'Arc à Orléans (Loiret)",
    "theme": "social-festive",
@@ -1856,6 +1950,63 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-de-Jeanne-d-Arc-a-Orleans",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2018_67717_INV_PCI_FRANCE_00406",
+   "title_fr": "Le Grand Pardon de Chaumont (Haute-Marne)",
+   "theme": "rituals",
+   "domain": "Rituels (jubilé, pèlerinage)",
+   "year_included": 2018,
+   "kind": "event",
+   "summary": {
+    "fr": "À Chaumont, le Grand Pardon est un jubilé accordé au Moyen Âge : il n'a lieu que les années où la Saint-Jean-Baptiste, le 24 juin, tombe un dimanche, la ville se couvre alors de milliers de fleurs en papier, après une année de célébrations.",
+    "en": "In Chaumont, the Great Pardon is a jubilee granted in the Middle Ages: it only takes place in years when Saint John the Baptist's day, 24 June, falls on a Sunday, the town is then decked with thousands of paper flowers, after a year of celebrations.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Chaumont",
+     "lat": 48.0965,
+     "lon": 5.1566,
+     "precision": "commune",
+     "insee": "52121",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "dates",
+    "occurrences": [
+     {
+      "start": "2029-06-23",
+      "end": "2029-06-24"
+     }
+    ]
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "quand la Saint-Jean-Baptiste tombe un dimanche, selon un rythme calendaire de 6, 5, 6 et 11 ans, a lieu le Grand Pardon de Chaumont",
+    "evidence_page": 1,
+    "web_sources": [
+     {
+      "url": "https://52.catholique.fr/IMG/pdf/communique-archives-grand-pardon.pdf",
+      "publisher": "Diocèse de Langres",
+      "says": "The next Grand Pardon will take place in 2029.",
+      "checked_at": "2026-10-08"
+     },
+     {
+      "url": "https://www.festivalenfrance.com/festival/grand-pardon-de-chaumont/2029",
+      "publisher": "Festivals en France",
+      "says": "Lists the 82nd Grand Pardon on Sunday 24 June 2029, eleven years after 2018.",
+      "checked_at": "2026-10-08"
+     }
+    ],
+    "notes": "Only when 24 June is a Sunday (gaps of 5, 6 or 11 years). The jubilee year opens on the first Sunday of Advent 2028."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Grand-Pardon-de-Chaumont",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"
@@ -2275,6 +2426,44 @@
    },
    "source": {
     "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-de-la-Sainte-Agathe-a-Saint-Pierre-d-Albigny-dans-le-massif-des-Bauges",
+    "fetched_at": "2026-10-08"
+   },
+   "review_status": "unreviewed"
+  },
+  {
+   "id": "2019_67717_INV_PCI_FRANCE_00447",
+   "title_fr": "Le Norouz ou Nouvel An persan en région parisienne",
+   "theme": "rituals",
+   "domain": "Rituels (nouvel an)",
+   "year_included": 2019,
+   "kind": "event",
+   "summary": {
+    "fr": "En région parisienne, Iraniens, Kurdes, Afghans et d'autres communautés fêtent Norouz, le Nouvel An persan de l'équinoxe de printemps : table des sept « sin », feux sautés du dernier mercredi de l'année, visites familiales.",
+    "en": "In the Paris region, Iranians, Kurds, Afghans and other communities celebrate Norouz, the Persian New Year at the spring equinox: the table of seven \"sin\", jumping over fires on the last Wednesday of the year, family visits.",
+    "lang_review": "draft"
+   },
+   "locations": [
+    {
+     "label": "Île-de-France",
+     "lat": 48.7615,
+     "lon": 2.4347,
+     "precision": "region",
+     "overseas": false
+    }
+   ],
+   "recurrence": {
+    "type": "fixed",
+    "month": 3,
+    "day": 21
+   },
+   "timing": {
+    "confidence": "high",
+    "evidence_quote": "Le Norouz est le Nouvel An traditionnellement célébré par les Iraniens et d’autres populations d’Asie centrale le 21 mars",
+    "evidence_page": 1,
+    "notes": "At the spring equinox (20 or 21 March, depending on the year)."
+   },
+   "source": {
+    "fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-norouz-ou-nouvel-an-persan-en-region-parisienne.pdf",
     "fetched_at": "2026-10-08"
    },
    "review_status": "unreviewed"

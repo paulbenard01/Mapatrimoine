@@ -1,0 +1,32 @@
+id: 2018_67717_INV_PCI_FRANCE_00406
+kind: event
+domain: >-
+  Rituels (jubilé, pèlerinage)
+summary:
+  fr: >-
+    À Chaumont, le Grand Pardon est un jubilé accordé au Moyen Âge : il n'a lieu que les années où la Saint-Jean-Baptiste, le 24 juin, tombe un dimanche, la ville se couvre alors de milliers de fleurs en papier, après une année de célébrations.
+  en: >-
+    In Chaumont, the Great Pardon is a jubilee granted in the Middle Ages: it only takes place in years when Saint John the Baptist's day, 24 June, falls on a Sunday, the town is then decked with thousands of paper flowers, after a year of celebrations.
+  lang_review: draft
+places:
+  - {commune: Chaumont, department: "52"}
+recurrence:
+  type: dates
+  occurrences:
+    - {start: "2029-06-23", end: "2029-06-24"}
+timing:
+  confidence: high
+  evidence_quote: "quand la Saint-Jean-Baptiste tombe un dimanche, selon un rythme calendaire de 6, 5, 6 et 11 ans, a lieu le Grand Pardon de Chaumont"
+  evidence_page: 1
+  web_sources:
+    - url: https://52.catholique.fr/IMG/pdf/communique-archives-grand-pardon.pdf
+      publisher: Diocèse de Langres
+      says: The next Grand Pardon will take place in 2029.
+      checked_at: "2026-10-08"
+    - url: https://www.festivalenfrance.com/festival/grand-pardon-de-chaumont/2029
+      publisher: Festivals en France
+      says: Lists the 82nd Grand Pardon on Sunday 24 June 2029, eleven years after 2018.
+      checked_at: "2026-10-08"
+  notes: >-
+    Only when 24 June is a Sunday (gaps of 5, 6 or 11 years). The jubilee year opens on the first Sunday of Advent 2028.
+review_status: unreviewed
