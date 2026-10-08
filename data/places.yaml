@@ -1,0 +1,3569 @@
+2008_67717_INV_PCI_FRANCE_00001:
+  places:
+  - commune: Carbuccia
+    department: 2A
+  pcilab: 19
+2008_67717_INV_PCI_FRANCE_00002:
+  places:
+  - commune: Furiani
+    department: 2B
+    label: Nebbiu (Furiani)
+  pcilab: 20
+2008_67717_INV_PCI_FRANCE_00003:
+  places:
+  - commune: Sermano
+    department: 2B
+  pcilab: 21
+2008_67717_INV_PCI_FRANCE_00005:
+  places:
+  - commune: Bavent
+    department: '14'
+  pcilab: 250
+2008_67717_INV_PCI_FRANCE_00007:
+  places:
+  - commune: Limoges
+    department: '87'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Porcelaine-de-Limoges-Michel-Bernardhaud
+2008_67717_INV_PCI_FRANCE_00008:
+  places:
+  - commune: Meudon
+    department: '92'
+  pcilab: 234
+2008_67717_INV_PCI_FRANCE_00009:
+  places:
+  - commune: Allaire
+    department: '56'
+  pcilab: 191
+2008_67717_INV_PCI_FRANCE_00010:
+  places:
+  - commune: Peillac
+    department: '56'
+  pcilab: 222
+2008_67717_INV_PCI_FRANCE_00011:
+  places:
+  - commune: Liffol-le-Grand
+    department: '88'
+  pcilab: 192
+2008_67717_INV_PCI_FRANCE_00012:
+  places:
+  - commune: Saint-Junien
+    department: '87'
+  pcilab: 208
+2008_67717_INV_PCI_FRANCE_00013:
+  places:
+  - commune: Vannes-le-Châtel
+    department: '54'
+  - commune: Nancy
+    department: '54'
+  pcilab: 196
+2008_67717_INV_PCI_FRANCE_00014:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 206
+2008_67717_INV_PCI_FRANCE_00015:
+  places:
+  - commune: Saint-Martin-de-la-Lieue
+    department: '14'
+  pcilab: 220
+2008_67717_INV_PCI_FRANCE_00016:
+  places:
+  - commune: La Gacilly
+    department: '56'
+  pcilab: 228
+2008_67717_INV_PCI_FRANCE_00017:
+  places:
+  - commune: Limoges
+    department: '87'
+  pcilab: 229
+2008_67717_INV_PCI_FRANCE_00018:
+  places:
+  - commune: Felletin
+    department: '23'
+  pcilab: 204
+2008_67717_INV_PCI_FRANCE_00019:
+  places:
+  - commune: Le Puy-en-Velay
+    department: '43'
+  pcilab: 197
+2008_67717_INV_PCI_FRANCE_00020:
+  places:
+  - commune: Bécherel
+    department: '35'
+  pcilab: 186
+2008_67717_INV_PCI_FRANCE_00021:
+  places:
+  - commune: Forcalquier
+    department: '04'
+  pcilab: 238
+2008_67717_INV_PCI_FRANCE_00022:
+  places:
+  - commune: Saint-Junien
+    department: '87'
+  pcilab: 209
+2008_67717_INV_PCI_FRANCE_00023:
+  places:
+  - commune: Le Ban-Saint-Martin
+    department: '57'
+  pcilab: 218
+2008_67717_INV_PCI_FRANCE_00024:
+  places:
+  - commune: Herserange
+    department: '54'
+  - commune: Longwy
+    department: '54'
+  pcilab: 230
+2008_67717_INV_PCI_FRANCE_00025:
+  places:
+  - commune: Dinan
+    department: '22'
+  pcilab: 210
+2008_67717_INV_PCI_FRANCE_00026:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 195
+2008_67717_INV_PCI_FRANCE_00027:
+  places:
+  - commune: Dinan
+    department: '22'
+  pcilab: 207
+2008_67717_INV_PCI_FRANCE_00028:
+  places:
+  - commune: Limoges
+    department: '87'
+  pcilab: 227
+2008_67717_INV_PCI_FRANCE_00030:
+  places:
+  - commune: Dinard
+    department: '35'
+  pcilab: 224
+2008_67717_INV_PCI_FRANCE_00031:
+  places:
+  - commune: Notre-Dame-d'Estrées-Corbon
+    department: '14'
+    label: Notre-Dame-d'Estrées
+  pcilab: 235
+2008_67717_INV_PCI_FRANCE_00032:
+  places:
+  - commune: Saint-Brieuc
+    department: '22'
+  pcilab: 183
+2008_67717_INV_PCI_FRANCE_00033:
+  places:
+  - commune: Saint-Junien
+    department: '87'
+  pcilab: 205
+2008_67717_INV_PCI_FRANCE_00034:
+  places:
+  - commune: Sainte-Soulle
+    department: '17'
+  pcilab: 213
+2008_67717_INV_PCI_FRANCE_00035:
+  places:
+  - commune: Aubusson
+    department: '23'
+  pcilab: 214
+2008_67717_INV_PCI_FRANCE_00036:
+  places:
+  - commune: Alençon
+    department: '61'
+  pcilab: 198
+2008_67717_INV_PCI_FRANCE_00037:
+  places:
+  - commune: Saumur
+    department: '49'
+  pcilab: 68
+2009_67717_INV_PCI_FRANCE_00038:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 79
+2009_67717_INV_PCI_FRANCE_00039:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 72
+2009_67717_INV_PCI_FRANCE_00042:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 55
+2009_67717_INV_PCI_FRANCE_00043:
+  places:
+  - commune: Tende
+    department: '06'
+  pcilab: 11
+2009_67717_INV_PCI_FRANCE_00044:
+  places:
+  - commune: Tende
+    department: '06'
+  pcilab: 9
+2009_67717_INV_PCI_FRANCE_00046:
+  places:
+  - commune: Tende
+    department: '06'
+  pcilab: 251
+2009_67717_INV_PCI_FRANCE_00047:
+  places:
+  - commune: Tende
+    department: '06'
+  pcilab: 10
+2009_67717_INV_PCI_FRANCE_00048:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 75
+2009_67717_INV_PCI_FRANCE_00049:
+  places:
+  - commune: Rubigny
+    department: 08
+  pcilab: 225
+2009_67717_INV_PCI_FRANCE_00050:
+  places:
+  - commune: Géronce
+    department: '64'
+  pcilab: 42
+2009_67717_INV_PCI_FRANCE_00053:
+  places:
+  - commune: Pau
+    department: '64'
+  pcilab: 187
+2009_67717_INV_PCI_FRANCE_00055:
+  places:
+  - department: '40'
+  - department: '33'
+  - department: '47'
+  - department: '32'
+  pcilab: 26
+2009_67717_INV_PCI_FRANCE_00056:
+  places:
+  - department: '64'
+  - department: '40'
+  - department: '33'
+  - department: '65'
+  - department: '32'
+  pcilab: 14
+2009_67717_INV_PCI_FRANCE_00057:
+  places:
+  - commune: Paris
+    department: '75'
+  - commune: Versailles
+    department: '78'
+  - commune: Tours
+    department: '37'
+  pcilab: 217
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-compagnonnage-AOCDTF-FCMB-UCDDU
+2009_67717_INV_PCI_FRANCE_00058:
+  places:
+  - commune: Dijon
+    department: '21'
+    label: Dijon (Cité de la gastronomie)
+  - commune: Lyon
+    department: '69'
+    label: Lyon (Cité de la gastronomie)
+  - commune: Rungis
+    department: '94'
+    label: Paris-Rungis (Cité de la gastronomie)
+  - commune: Tours
+    department: '37'
+    label: Tours (Cité de la gastronomie)
+  pcilab: 221
+  sources:
+  - publisher: Ministère de la Culture, communiqué du 19 juin 2013
+    url: https://www.culture.gouv.fr/fr/presse/archives-presse/archives-communiques-de-presse-2012-2018/annee-2013/Aurelie-FILIPPETTI-Stephane-LE-FOLL-et-Guillaume-GAROT-lancent-le-reseau-des-Cites-de-la-Gastronomie
+2009_67717_INV_PCI_FRANCE_00059:
+  places:
+  - commune: Château
+    department: '71'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-ceramique-d-art-Jean-Girel
+2009_67717_INV_PCI_FRANCE_00060:
+  places:
+  - commune: Chapaize
+    department: '71'
+  pcilab: 199
+2009_67717_INV_PCI_FRANCE_00061:
+  places:
+  - commune: Saint-André-le-Désert
+    department: '71'
+  pcilab: 193
+2009_67717_INV_PCI_FRANCE_00062:
+  places:
+  - commune: Navour-sur-Grosne
+    department: '71'
+    label: Donzy-le-National
+  pcilab: 202
+2009_67717_INV_PCI_FRANCE_00063:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 194
+2009_67717_INV_PCI_FRANCE_00064:
+  places:
+  - commune: Donzy-le-Pertuis
+    department: '71'
+  pcilab: 203
+2009_67717_INV_PCI_FRANCE_00065:
+  places:
+  - commune: Beuzec-Cap-Sizun
+    department: '29'
+  pcilab: 98
+2009_67717_INV_PCI_FRANCE_00066:
+  places:
+  - commune: Plovan
+    department: '29'
+  pcilab: 100
+2009_67717_INV_PCI_FRANCE_00067:
+  places:
+  - commune: Locronan
+    department: '29'
+  pcilab: 91
+2009_67717_INV_PCI_FRANCE_00068:
+  places:
+  - commune: Tréguennec
+    department: '29'
+  pcilab: 93
+2009_67717_INV_PCI_FRANCE_00069:
+  places:
+  - commune: Doué-en-Anjou
+    department: '49'
+    label: Doué-la-Fontaine
+  pcilab: 67
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fauconnerie-francaise
+2009_67717_INV_PCI_FRANCE_00070:
+  places:
+  - commune: La Haye-de-Routot
+    department: '27'
+  pcilab: 90
+2009_67717_INV_PCI_FRANCE_00071:
+  places:
+  - commune: Allouville-Bellefosse
+    department: '76'
+  pcilab: 77
+2009_67717_INV_PCI_FRANCE_00072:
+  places:
+  - commune: Caumont
+    department: '27'
+  pcilab: 76
+2009_67717_INV_PCI_FRANCE_00073:
+  places:
+  - commune: Bouquetot
+    department: '27'
+  pcilab: 87
+2009_67717_INV_PCI_FRANCE_00074:
+  places:
+  - commune: La Lande-Patry
+    department: '61'
+  pcilab: 92
+2009_67717_INV_PCI_FRANCE_00075:
+  places:
+  - commune: Le Pré-d'Auge
+    department: '14'
+  pcilab: 101
+2009_67717_INV_PCI_FRANCE_00076:
+  places:
+  - commune: Bagnoles de l'Orne Normandie
+    department: '61'
+    label: Saint-Michel-des-Andaines
+  pcilab: 108
+2010_67717_INV_PCI_FRANCE_00077:
+  places:
+  - commune: Saint-Jean-des-Champs
+    department: '50'
+    label: Saint-Ursin (Saint-Jean-des-Champs)
+  pcilab: 109
+2010_67717_INV_PCI_FRANCE_00078:
+  places:
+  - commune: Armendarits
+    department: '64'
+  pcilab: 254
+2010_67717_INV_PCI_FRANCE_00082:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 255
+2010_67717_INV_PCI_FRANCE_00083:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 256
+2010_67717_INV_PCI_FRANCE_00086:
+  places:
+  - commune: Tende
+    department: '06'
+  pcilab: 12
+2010_67717_INV_PCI_FRANCE_00087:
+  places:
+  - commune: Marseille
+    department: '13'
+  - commune: Cassis
+    department: '13'
+  pcilab: 190
+2010_67717_INV_PCI_FRANCE_00088:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 74
+2010_67717_INV_PCI_FRANCE_00089:
+  places:
+  - department: '24'
+  pcilab: 7
+2010_67717_INV_PCI_FRANCE_00090:
+  places:
+  - commune: Gavaudun
+    department: '47'
+  - commune: Cuzorn
+    department: '47'
+  pcilab: 6
+2010_67717_INV_PCI_FRANCE_00091:
+  places:
+  - commune: Saint-Ferme
+    department: '33'
+  - commune: Pellegrue
+    department: '33'
+  pcilab: 88
+2010_67717_INV_PCI_FRANCE_00092:
+  places:
+  - commune: Daglan
+    department: '24'
+  pcilab: 8
+2010_67717_INV_PCI_FRANCE_00093:
+  places:
+  - commune: Saint-Sulpice-de-Faleyrens
+    department: '33'
+  pcilab: 50
+2010_67717_INV_PCI_FRANCE_00094:
+  places:
+  - commune: Nontron
+    department: '24'
+  pcilab: 53
+2010_67717_INV_PCI_FRANCE_00095:
+  places:
+  - commune: Lavaur
+    department: '24'
+  pcilab: 89
+2010_67717_INV_PCI_FRANCE_00096:
+  places:
+  - commune: Blanquefort-sur-Briolance
+    department: '47'
+  pcilab: 51
+2010_67717_INV_PCI_FRANCE_00097:
+  places:
+  - commune: Bordeaux
+    department: '33'
+  pcilab: 47
+2010_67717_INV_PCI_FRANCE_00098:
+  places:
+  - commune: Périgueux
+    department: '24'
+  pcilab: 33
+2010_67717_INV_PCI_FRANCE_00099:
+  places:
+  - commune: Brantôme en Périgord
+    department: '24'
+    label: Brantôme
+  pcilab: 48
+2010_67717_INV_PCI_FRANCE_00100:
+  places:
+  - commune: Monsempron-Libos
+    department: '47'
+  pcilab: 46
+2010_67717_INV_PCI_FRANCE_00102:
+  places:
+  - commune: Bazas
+    department: '33'
+  pcilab: 226
+2010_67717_INV_PCI_FRANCE_00105:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 102
+2010_67717_INV_PCI_FRANCE_00106:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 96
+2010_67717_INV_PCI_FRANCE_00107:
+  places:
+  - commune: Carpentras
+    department: '84'
+  pcilab: 257
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Art-de-la-pierre-seche
+2010_67717_INV_PCI_FRANCE_00109:
+  places:
+  - department: '33'
+  - department: '40'
+  - department: '64'
+  pcilab: 258
+2010_67717_INV_PCI_FRANCE_00110:
+  places:
+  - commune: Bazas
+    department: '33'
+    label: Bazadais
+    approximate: true
+  pcilab: 52
+2010_67717_INV_PCI_FRANCE_00111:
+  places:
+  - commune: Capbreton
+    department: '40'
+  pcilab: 40
+2010_67717_INV_PCI_FRANCE_00112:
+  places:
+  - department: '64'
+  - department: '65'
+  pcilab: 18
+2010_67717_INV_PCI_FRANCE_00113:
+  places:
+  - area: Aquitaine
+  pcilab: 13
+2010_67717_INV_PCI_FRANCE_00115:
+  places:
+  - commune: Bayonne
+    department: '64'
+  - commune: Dax
+    department: '40'
+  - commune: Mont-de-Marsan
+    department: '40'
+  - commune: Vic-Fezensac
+    department: '32'
+  pcilab: 259
+2010_67717_INV_PCI_FRANCE_00119:
+  places:
+  - commune: Artigues-près-Bordeaux
+    department: '33'
+  pcilab: 240
+2010_67717_INV_PCI_FRANCE_00120:
+  places:
+  - commune: Saumur
+    department: '49'
+  pcilab: 182
+2010_67717_INV_PCI_FRANCE_00121:
+  places:
+  - commune: Nantes
+    department: '44'
+  pcilab: 239
+2010_67717_INV_PCI_FRANCE_00122:
+  places:
+  - commune: Périgueux
+    department: '24'
+  pcilab: 212
+2010_67717_INV_PCI_FRANCE_00123:
+  places:
+  - commune: Malicorne-sur-Sarthe
+    department: '72'
+  pcilab: 188
+2010_67717_INV_PCI_FRANCE_00124:
+  places:
+  - commune: Saint-Geniès
+    department: '24'
+  pcilab: 216
+2010_67717_INV_PCI_FRANCE_00125:
+  places:
+  - commune: Came
+    department: '64'
+  pcilab: 200
+2010_67717_INV_PCI_FRANCE_00126:
+  places:
+  - commune: Bourdettes
+    department: '64'
+  pcilab: 201
+2010_67717_INV_PCI_FRANCE_00127:
+  places:
+  - commune: Larressore
+    department: '64'
+  pcilab: 231
+2010_67717_INV_PCI_FRANCE_00128:
+  places:
+  - commune: Périgueux
+    department: '24'
+  pcilab: 189
+2010_67717_INV_PCI_FRANCE_00129:
+  places:
+  - commune: Pluméliau-Bieuzy
+    department: '56'
+    label: Bieuzy
+  pcilab: 105
+2010_67717_INV_PCI_FRANCE_00130:
+  places:
+  - commune: Saint-Cast-le-Guildo
+    department: '22'
+  pcilab: 106
+2010_67717_INV_PCI_FRANCE_00131:
+  places:
+  - commune: Huelgoat
+    department: '29'
+  pcilab: 95
+2010_67717_INV_PCI_FRANCE_00132:
+  places:
+  - commune: Trégunc
+    department: '29'
+  pcilab: 103
+2010_67717_INV_PCI_FRANCE_00134:
+  places:
+  - commune: Bayeux
+    department: '14'
+  pcilab: 73
+2010_67717_INV_PCI_FRANCE_00135:
+  places:
+  - commune: Arelaune-en-Seine
+    department: '76'
+    label: La Mailleraye-sur-Seine
+  - commune: Vatteville-la-Rue
+    department: '76'
+  pcilab: 86
+2010_67717_INV_PCI_FRANCE_00142:
+  places:
+  - commune: Clermont
+    department: '40'
+  - commune: Donzacq
+    department: '40'
+  - commune: Narrosse
+    department: '40'
+  - commune: Saint-Jean-de-Marsacq
+    department: '40'
+  - commune: Saint-Vincent-de-Tyrosse
+    department: '40'
+  - commune: Saubion
+    department: '40'
+  pcilab: 56
+2010_67717_INV_PCI_FRANCE_00143:
+  places:
+  - commune: Amou
+    department: '40'
+  pcilab: 44
+2011_67717_INV_PCI_FRANCE_00144:
+  places:
+  - commune: Gap
+    department: '05'
+  pcilab: 174
+2011_67717_INV_PCI_FRANCE_00145:
+  places:
+  - commune: Marseille
+    department: '13'
+  pcilab: 173
+2011_67717_INV_PCI_FRANCE_00146:
+  places:
+  - commune: Marseille
+    department: '13'
+  pcilab: 178
+2011_67717_INV_PCI_FRANCE_00147:
+  places:
+  - commune: Valognes
+    department: '50'
+    label: Est-Cotentin
+    approximate: true
+  pcilab: 260
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-boule-de-hasard
+2011_67717_INV_PCI_FRANCE_00149:
+  places:
+  - commune: Maripasoula
+    department: '973'
+  pcilab: 107
+2011_67717_INV_PCI_FRANCE_00150:
+  places:
+  - department: '13'
+  - department: '30'
+  - department: '34'
+  - department: '84'
+  pcilab: 66
+2012_67717_INV_PCI_FRANCE_00152:
+  places:
+  - commune: Morlanne
+    department: '64'
+  - commune: Saint-Médard
+    department: '64'
+  pcilab: 262
+2012_67717_INV_PCI_FRANCE_00153:
+  places:
+  - commune: Larrau
+    department: '64'
+  pcilab: 529
+2012_67717_INV_PCI_FRANCE_00154:
+  places:
+  - commune: Larrau
+    department: '64'
+  pcilab: 263
+2012_67717_INV_PCI_FRANCE_00155:
+  places:
+  - commune: Bayonne
+    department: '64'
+  - commune: Saint-Jean-de-Luz
+    department: '64'
+  - commune: Anglet
+    department: '64'
+  - commune: Bidache
+    department: '64'
+  pcilab: 161
+2012_67717_INV_PCI_FRANCE_00156:
+  places:
+  - commune: Hendaye
+    department: '64'
+  - commune: Anglet
+    department: '64'
+  - commune: Saint-Jean-de-Luz
+    department: '64'
+  pcilab: 162
+2012_67717_INV_PCI_FRANCE_00157:
+  places:
+  - area: Pays basque
+  pcilab: 163
+2012_67717_INV_PCI_FRANCE_00158:
+  places:
+  - department: '64'
+  - department: '40'
+  pcilab: 164
+2012_67717_INV_PCI_FRANCE_00159:
+  places:
+  - commune: Ciboure
+    department: '64'
+  - commune: La Bastide-Clairence
+    department: '64'
+  pcilab: 165
+2012_67717_INV_PCI_FRANCE_00160:
+  places:
+  - commune: Saint-Jean-de-Luz
+    department: '64'
+  - commune: Hasparren
+    department: '64'
+  - commune: Tardets-Sorholus
+    department: '64'
+  - commune: Ustaritz
+    department: '64'
+  - commune: Saint-Palais
+    department: '64'
+  - commune: Saint-Étienne-de-Baïgorry
+    department: '64'
+  - commune: Salies-de-Béarn
+    department: '64'
+  - commune: Sauveterre-de-Béarn
+    department: '64'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Rebot
+2012_67717_INV_PCI_FRANCE_00161:
+  places:
+  - department: '40'
+  pcilab: 167
+2012_67717_INV_PCI_FRANCE_00162:
+  places:
+  - commune: Saint-Paul-lès-Dax
+    department: '40'
+  - commune: Saint-Jean-de-Marsacq
+    department: '40'
+  - commune: Guiche
+    department: '64'
+  pcilab: 168
+2012_67717_INV_PCI_FRANCE_00163:
+  places:
+  - department: '40'
+  - department: '64'
+  pcilab: 170
+2012_67717_INV_PCI_FRANCE_00164:
+  places:
+  - commune: Ascain
+    department: '64'
+  - commune: Bayonne
+    department: '64'
+  - commune: Hasparren
+    department: '64'
+  - commune: Hendaye
+    department: '64'
+  - commune: La Bastide-Clairence
+    department: '64'
+  - commune: Saint-Étienne-de-Baïgorry
+    department: '64'
+  - commune: Saint-Pée-sur-Nivelle
+    department: '64'
+  - commune: Sare
+    department: '64'
+  - commune: Villefranque
+    department: '64'
+  pcilab: 171
+2012_67717_INV_PCI_FRANCE_00165:
+  places:
+  - commune: Gémenos
+    department: '13'
+  pcilab: 172
+2012_67717_INV_PCI_FRANCE_00166:
+  places:
+  - commune: Grasse
+    department: '06'
+  pcilab: 179
+2012_67717_INV_PCI_FRANCE_00167:
+  places:
+  - commune: Artignosc-sur-Verdon
+    department: '83'
+  pcilab: 176
+2012_67717_INV_PCI_FRANCE_00168:
+  places:
+  - commune: Levens
+    department: '06'
+  pcilab: 175
+2012_67717_INV_PCI_FRANCE_00169:
+  places:
+  - commune: La Ciotat
+    department: '13'
+  - commune: Marseille
+    department: '13'
+  pcilab: 177
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-Petanque
+2012_67717_INV_PCI_FRANCE_00170:
+  places:
+  - region: '53'
+  pcilab: 110
+2012_67717_INV_PCI_FRANCE_00171:
+  places:
+  - commune: La Bernerie-en-Retz
+    department: '44'
+  pcilab: 116
+2012_67717_INV_PCI_FRANCE_00172:
+  places:
+  - department: '22'
+  pcilab: 118
+2012_67717_INV_PCI_FRANCE_00173:
+  places:
+  - commune: Pont-de-Buis-lès-Quimerch
+    department: '29'
+  - commune: Telgruc-sur-Mer
+    department: '29'
+  - commune: Quimper
+    department: '29'
+  pcilab: 117
+2012_67717_INV_PCI_FRANCE_00174:
+  places:
+  - commune: Saint-Julien-de-Concelles
+    department: '44'
+  pcilab: 119
+2012_67717_INV_PCI_FRANCE_00175:
+  places:
+  - department: '49'
+  - department: '44'
+  - department: '37'
+  - department: '72'
+  - department: '53'
+  pcilab: 120
+2012_67717_INV_PCI_FRANCE_00176:
+  places:
+  - commune: Loireauxence
+    department: '44'
+    label: Belligné
+  - department: '49'
+  pcilab: 121
+2012_67717_INV_PCI_FRANCE_00177:
+  places:
+  - commune: Saint-Sébastien-sur-Loire
+    department: '44'
+  pcilab: 122
+2012_67717_INV_PCI_FRANCE_00178:
+  places:
+  - commune: Nantes
+    department: '44'
+  pcilab: 124
+2012_67717_INV_PCI_FRANCE_00179:
+  places:
+  - commune: Oudon
+    department: '44'
+  pcilab: 125
+2012_67717_INV_PCI_FRANCE_00180:
+  places:
+  - commune: Vallet
+    department: '44'
+    label: Vignoble nantais
+    approximate: true
+  pcilab: 123
+2012_67717_INV_PCI_FRANCE_00181:
+  places:
+  - commune: Vallet
+    department: '44'
+    label: Vignoble nantais
+    approximate: true
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Boule-terrain-plat
+2012_67717_INV_PCI_FRANCE_00182:
+  places:
+  - commune: Saint-Michel-Chef-Chef
+    department: '44'
+  pcilab: 126
+2012_67717_INV_PCI_FRANCE_00183:
+  places:
+  - department: '56'
+  pcilab: 127
+2012_67717_INV_PCI_FRANCE_00184:
+  places:
+  - commune: Morlaix
+    department: '29'
+  - commune: Landivisiau
+    department: '29'
+  - commune: Saint-Pol-de-Léon
+    department: '29'
+  - commune: Guérande
+    department: '44'
+  pcilab: 128
+2012_67717_INV_PCI_FRANCE_00185:
+  places:
+  - commune: Quimper
+    department: '29'
+    label: Pays de Quimper
+    approximate: true
+  pcilab: 129
+2012_67717_INV_PCI_FRANCE_00186:
+  places:
+  - region: '53'
+  pcilab: 130
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Billard-hollandais
+2012_67717_INV_PCI_FRANCE_00187:
+  places:
+  - department: '29'
+  pcilab: 131
+2012_67717_INV_PCI_FRANCE_00188:
+  places:
+  - commune: Fougères
+    department: '35'
+    label: Pays de Fougères
+    approximate: true
+  pcilab: 132
+2012_67717_INV_PCI_FRANCE_00189:
+  places:
+  - region: '53'
+  pcilab: 133
+2012_67717_INV_PCI_FRANCE_00190:
+  places:
+  - region: '53'
+  pcilab: 134
+2012_67717_INV_PCI_FRANCE_00191:
+  places:
+  - region: '53'
+  pcilab: 135
+2012_67717_INV_PCI_FRANCE_00192:
+  places:
+  - commune: Fougères
+    department: '35'
+    label: Pays de Fougères
+    approximate: true
+  pcilab: 136
+2012_67717_INV_PCI_FRANCE_00193:
+  places:
+  - department: '35'
+  pcilab: 137
+2012_67717_INV_PCI_FRANCE_00194:
+  places:
+  - department: '35'
+  pcilab: 138
+2012_67717_INV_PCI_FRANCE_00195:
+  places:
+  - region: '53'
+  pcilab: 139
+2012_67717_INV_PCI_FRANCE_00196:
+  places:
+  - region: '53'
+  pcilab: 160
+2012_67717_INV_PCI_FRANCE_00197:
+  places:
+  - commune: Lannion
+    department: '22'
+    label: Trégor
+    approximate: true
+  pcilab: 159
+2012_67717_INV_PCI_FRANCE_00198:
+  places:
+  - commune: Guerlesquin
+    department: '29'
+  pcilab: 268
+2012_67717_INV_PCI_FRANCE_00199:
+  places:
+  - commune: Pont-l'Abbé
+    department: '29'
+    label: Pays bigouden
+    approximate: true
+  pcilab: 269
+2012_67717_INV_PCI_FRANCE_00200:
+  places:
+  - commune: Assérac
+    department: '44'
+  pcilab: 270
+2012_67717_INV_PCI_FRANCE_00201:
+  places:
+  - commune: Saint-Pol-de-Léon
+    department: '29'
+  pcilab: 294
+2012_67717_INV_PCI_FRANCE_00202:
+  places:
+  - commune: Lannion
+    department: '22'
+    label: Trégor
+    approximate: true
+  pcilab: 271
+2012_67717_INV_PCI_FRANCE_00203:
+  places:
+  - commune: Saint-Jean-du-Doigt
+    department: '29'
+  - commune: Plougasnou
+    department: '29'
+  - commune: Garlan
+    department: '29'
+  - commune: Plouezoc'h
+    department: '29'
+  - commune: Lanmeur
+    department: '29'
+  - commune: Guimaëc
+    department: '29'
+  - commune: Morlaix
+    department: '29'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-galoche-sur-billot
+2012_67717_INV_PCI_FRANCE_00204:
+  places:
+  - commune: Guérande
+    department: '44'
+    label: Presqu'île guérandaise
+    approximate: true
+  pcilab: 273
+2012_67717_INV_PCI_FRANCE_00205:
+  places:
+  - commune: Plougastel-Daoulas
+    department: '29'
+  pcilab: 274
+2012_67717_INV_PCI_FRANCE_00206:
+  places:
+  - commune: Pontivy
+    department: '56'
+    label: Pays de Pontivy
+    approximate: true
+  pcilab: 275
+2012_67717_INV_PCI_FRANCE_00207:
+  places:
+  - commune: Plougasnou
+    department: '29'
+  pcilab: 276
+2012_67717_INV_PCI_FRANCE_00208:
+  places:
+  - department: '44'
+  - department: '85'
+  pcilab: 296
+2012_67717_INV_PCI_FRANCE_00209:
+  places:
+  - commune: Vallet
+    department: '44'
+    label: Vignoble nantais
+    approximate: true
+  pcilab: 298
+2012_67717_INV_PCI_FRANCE_00210:
+  places:
+  - department: '35'
+  pcilab: 299
+2012_67717_INV_PCI_FRANCE_00211:
+  places:
+  - department: '56'
+  pcilab: 300
+2012_67717_INV_PCI_FRANCE_00212:
+  places:
+  - commune: Guérande
+    department: '44'
+    label: Presqu'île guérandaise
+    approximate: true
+  - commune: Férel
+    department: '56'
+  pcilab: 301
+2012_67717_INV_PCI_FRANCE_00213:
+  places:
+  - commune: Paimbœuf
+    department: '44'
+    label: Sud-Estuaire
+    approximate: true
+  pcilab: 302
+2012_67717_INV_PCI_FRANCE_00214:
+  places:
+  - commune: Saint-Hernin
+    department: '29'
+  - commune: Carhaix-Plouguer
+    department: '29'
+  - commune: Motreff
+    department: '29'
+  - commune: Plounévézel
+    department: '29'
+  - commune: Landeleau
+    department: '29'
+  - commune: Kergloff
+    department: '29'
+  - commune: Le Moustoir
+    department: '22'
+  pcilab: 303
+2012_67717_INV_PCI_FRANCE_00215:
+  places:
+  - commune: Lanmeur
+    department: '29'
+  pcilab: 304
+2012_67717_INV_PCI_FRANCE_00216:
+  places:
+  - department: '35'
+  pcilab: 305
+2012_67717_INV_PCI_FRANCE_00217:
+  places:
+  - commune: Plouescat
+    department: '29'
+  - commune: Cléder
+    department: '29'
+  - commune: Plounévez-Lochrist
+    department: '29'
+  - commune: Sibiril
+    department: '29'
+  - commune: Tréflez
+    department: '29'
+  pcilab: 142
+2012_67717_INV_PCI_FRANCE_00218:
+  places:
+  - commune: Guissény
+    department: '29'
+  - commune: Plouguerneau
+    department: '29'
+  pcilab: 143
+2012_67717_INV_PCI_FRANCE_00219:
+  places:
+  - commune: Saint-André-des-Eaux
+    department: '44'
+    label: Bilac (Saint-André-des-Eaux)
+  pcilab: 144
+2012_67717_INV_PCI_FRANCE_00220:
+  places:
+  - commune: Marsac-sur-Don
+    department: '44'
+  pcilab: 145
+2012_67717_INV_PCI_FRANCE_00221:
+  places:
+  - commune: Mauron
+    department: '56'
+  pcilab: 146
+2012_67717_INV_PCI_FRANCE_00222:
+  places:
+  - commune: Guiscriff
+    department: '56'
+  pcilab: 147
+2012_67717_INV_PCI_FRANCE_00223:
+  places:
+  - commune: Muel
+    department: '35'
+  - commune: Gaël
+    department: '35'
+  - commune: Saint-Méen-le-Grand
+    department: '35'
+  pcilab: 148
+2012_67717_INV_PCI_FRANCE_00224:
+  places:
+  - commune: Plougastel-Daoulas
+    department: '29'
+  pcilab: 149
+2012_67717_INV_PCI_FRANCE_00225:
+  places:
+  - commune: Plounéour-Brignogan-Plages
+    department: '29'
+    label: Plounéour-Trez
+  pcilab: 150
+2012_67717_INV_PCI_FRANCE_00226:
+  places:
+  - commune: Forges de Lanouée
+    department: '56'
+    label: Pomeleuc (Lanouée)
+  pcilab: 151
+2012_67717_INV_PCI_FRANCE_00227:
+  places:
+  - commune: Trébédan
+    department: '22'
+  pcilab: 152
+2012_67717_INV_PCI_FRANCE_00228:
+  places:
+  - commune: Lesneven
+    department: '29'
+  - commune: Saint-Renan
+    department: '29'
+  pcilab: 153
+2012_67717_INV_PCI_FRANCE_00229:
+  places:
+  - commune: Landudec
+    department: '29'
+  pcilab: 154
+2012_67717_INV_PCI_FRANCE_00230:
+  places:
+  - commune: Fougères
+    department: '35'
+    label: Pays de Fougères
+    approximate: true
+  pcilab: 155
+2012_67717_INV_PCI_FRANCE_00231:
+  places:
+  - commune: Quimper
+    department: '29'
+    label: Pays glazik
+    approximate: true
+  pcilab: 156
+2012_67717_INV_PCI_FRANCE_00232:
+  places:
+  - commune: Carhaix-Plouguer
+    department: '29'
+    label: Poher
+    approximate: true
+  pcilab: 157
+2012_67717_INV_PCI_FRANCE_00233:
+  places:
+  - commune: Lannion
+    department: '22'
+    label: Trégor
+    approximate: true
+  pcilab: 158
+2012_67717_INV_PCI_FRANCE_00234:
+  places:
+  - commune: Quistinic
+    department: '56'
+  pcilab: 111
+2012_67717_INV_PCI_FRANCE_00235:
+  places:
+  - commune: Pont-Aven
+    department: '29'
+  pcilab: 114
+2012_67717_INV_PCI_FRANCE_00236:
+  places:
+  - commune: Berhet
+    department: '22'
+  pcilab: 112
+2012_67717_INV_PCI_FRANCE_00237:
+  places:
+  - commune: Quimper
+    department: '29'
+    label: Cornouaille
+    approximate: true
+  pcilab: 140
+2012_67717_INV_PCI_FRANCE_00238:
+  places:
+  - commune: Saint-Pol-de-Léon
+    department: '29'
+  - commune: Landivisiau
+    department: '29'
+  pcilab: 141
+2012_67717_INV_PCI_FRANCE_00239:
+  places:
+  - commune: Kerlouan
+    department: '29'
+    label: Pays pagan
+    approximate: true
+  pcilab: 115
+2012_67717_INV_PCI_FRANCE_00240:
+  places:
+  - commune: Douai
+    department: '59'
+  pcilab: 277
+2012_67717_INV_PCI_FRANCE_00241:
+  places:
+  - commune: Godewaersvelde
+    department: '59'
+  pcilab: 280
+2012_67717_INV_PCI_FRANCE_00242:
+  places:
+  - commune: Tourcoing
+    department: '59'
+  pcilab: 281
+2012_67717_INV_PCI_FRANCE_00243:
+  places:
+  - commune: Lille
+    department: '59'
+  pcilab: 278
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-colombophilie
+2012_67717_INV_PCI_FRANCE_00244:
+  places:
+  - commune: Arras
+    department: '62'
+  pcilab: 282
+2012_67717_INV_PCI_FRANCE_00245:
+  places:
+  - commune: Hucqueliers
+    department: '62'
+  - commune: Desvres
+    department: '62'
+  - commune: Samer
+    department: '62'
+  pcilab: 283
+2012_67717_INV_PCI_FRANCE_00246:
+  places:
+  - commune: Watten
+    department: '59'
+  pcilab: 284
+2012_67717_INV_PCI_FRANCE_00247:
+  places:
+  - commune: Hangest-en-Santerre
+    department: '80'
+  pcilab: 318
+2012_67717_INV_PCI_FRANCE_00248:
+  places:
+  - commune: Tours-en-Vimeu
+    department: '80'
+  pcilab: 279
+2012_67717_INV_PCI_FRANCE_00249:
+  places:
+  - commune: Amiens
+    department: '80'
+    label: Amiénois
+    approximate: true
+  pcilab: 286
+2012_67717_INV_PCI_FRANCE_00250:
+  places:
+  - commune: Boves
+    department: '80'
+  pcilab: 287
+2012_67717_INV_PCI_FRANCE_00251:
+  places:
+  - commune: Doullens
+    department: '80'
+  - commune: Bauvin
+    department: '59'
+  - department: '57'
+  - region: '11'
+  - department: '30'
+  - department: '974'
+  pcilab: 288
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-javelot-tir-sur-cible
+2012_67717_INV_PCI_FRANCE_00252:
+  places:
+  - commune: Albert
+    department: '80'
+  pcilab: 289
+2012_67717_INV_PCI_FRANCE_00253:
+  places:
+  - commune: Abbeville
+    department: '80'
+    label: Ponthieu
+    approximate: true
+  pcilab: 290
+2012_67717_INV_PCI_FRANCE_00254:
+  places:
+  - commune: Les Hauts-d'Anjou
+    department: '49'
+    label: Châteauneuf-sur-Sarthe
+  pcilab: 291
+2012_67717_INV_PCI_FRANCE_00255:
+  places:
+  - department: '49'
+  - department: '44'
+  pcilab: 292
+2012_67717_INV_PCI_FRANCE_00256:
+  places:
+  - commune: Rosières-en-Santerre
+    department: '80'
+    label: Santerre
+    approximate: true
+  - department: '60'
+  - commune: Paris
+    department: '75'
+  pcilab: 293
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-longue-paume
+2012_67717_INV_PCI_FRANCE_00258:
+  places:
+  - commune: Harbonnières
+    department: '80'
+  - area: Nord-Pas-de-Calais
+  pcilab: 307
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-balle-a-la-main
+2012_67717_INV_PCI_FRANCE_00259:
+  places:
+  - commune: La Haye-de-Routot
+    department: '27'
+  - department: '27'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-bezette-en-Normandie
+2012_67717_INV_PCI_FRANCE_00260:
+  places:
+  - commune: Lisieux
+    department: '14'
+    label: Pays d'Auge
+    approximate: true
+  - commune: L'Aigle
+    department: '61'
+    label: Pays d'Ouche
+    approximate: true
+  - commune: Mortagne-au-Perche
+    department: '61'
+    label: Perche
+    approximate: true
+  - commune: Caen
+    department: '14'
+    label: Plaine de Caen
+    approximate: true
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-grande-carambole-et-du-bastringue
+2012_67717_INV_PCI_FRANCE_00261:
+  places:
+  - commune: Vire Normandie
+    department: '14'
+    label: Bocage virois
+    approximate: true
+  - commune: Villedieu-les-Poêles-Rouffigny
+    department: '50'
+    label: Villedieu-les-Poêles
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-carambole-a-gouttiere
+2012_67717_INV_PCI_FRANCE_00262:
+  places:
+  - commune: Cherbourg-en-Cotentin
+    department: '50'
+    label: Haut-Cotentin
+    approximate: true
+  - commune: Bayeux
+    department: '14'
+    label: Bessin
+    approximate: true
+  - commune: Vire Normandie
+    department: '14'
+    label: Bocage virois
+    approximate: true
+  - commune: Saint-James
+    department: '50'
+  - commune: Pont-Audemer
+    department: '27'
+    label: Vallée de la Risle
+    approximate: true
+  - commune: Bourg-Achard
+    department: '27'
+    label: Roumois
+    approximate: true
+  pcilab: 311
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-crosse
+2012_67717_INV_PCI_FRANCE_00263:
+  places:
+  - commune: Yvetot
+    department: '76'
+    label: Pays de Caux
+    approximate: true
+  - commune: Valognes
+    department: '50'
+    label: Cotentin
+    approximate: true
+  - commune: Flers
+    department: '61'
+  - commune: Tinchebray-Bocage
+    department: '61'
+    label: Tinchebray
+  - commune: Avranches
+    department: '50'
+    label: Avranchin
+    approximate: true
+  - commune: Vire Normandie
+    department: '14'
+    label: Bocage virois
+    approximate: true
+  pcilab: 312
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-grande-choule
+2012_67717_INV_PCI_FRANCE_00264:
+  places:
+  - commune: Forges-les-Eaux
+    department: '76'
+    label: Pays de Bray
+    approximate: true
+  - commune: Cherbourg-en-Cotentin
+    department: '50'
+  pcilab: 313
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-du-camembert
+2012_67717_INV_PCI_FRANCE_00265:
+  places:
+  - commune: Saint-Floxel
+    department: '50'
+  - commune: Hémevez
+    department: '50'
+  - commune: Le Ham
+    department: '50'
+  - commune: Montebourg
+    department: '50'
+  pcilab: 320
+2012_67717_INV_PCI_FRANCE_00266:
+  places:
+  - commune: Saint-Floxel
+    department: '50'
+  - commune: Hémevez
+    department: '50'
+  - commune: Le Ham
+    department: '50'
+  - commune: Montebourg
+    department: '50'
+  pcilab: 319
+2012_67717_INV_PCI_FRANCE_00267:
+  places:
+  - commune: Gruissan
+    department: '11'
+  - commune: Narbonne
+    department: '11'
+  pcilab: 321
+2012_67717_INV_PCI_FRANCE_00268:
+  places:
+  - department: '49'
+  pcilab: 322
+2012_67717_INV_PCI_FRANCE_00269:
+  places:
+  - commune: La Mure
+    department: '38'
+  pcilab: 323
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-la-boule-lyonnaise
+2012_67717_INV_PCI_FRANCE_00270:
+  places:
+  - department: '26'
+  pcilab: 324
+2012_67717_INV_PCI_FRANCE_00271:
+  places:
+  - commune: Fontainebleau
+    department: '77'
+  - commune: Paris
+    department: '75'
+  pcilab: 325
+2012_67717_INV_PCI_FRANCE_00272:
+  places:
+  - commune: Le Mayet-de-Montagne
+    department: '03'
+    label: Montagne bourbonnaise
+    approximate: true
+  pcilab: 326
+2012_67717_INV_PCI_FRANCE_00273:
+  places:
+  - commune: Saint-Étienne-du-Bois
+    department: '01'
+  pcilab: 327
+2012_67717_INV_PCI_FRANCE_00274:
+  places:
+  - commune: Palavas-les-Flots
+    department: '34'
+  - commune: Balaruc-les-Bains
+    department: '34'
+  - commune: Frontignan
+    department: '34'
+  - commune: Sète
+    department: '34'
+  - commune: Mèze
+    department: '34'
+  - commune: Marseillan
+    department: '34'
+  - commune: Agde
+    department: '34'
+  - commune: Béziers
+    department: '34'
+  - commune: Le Grau-du-Roi
+    department: '30'
+  pcilab: 295
+2012_67717_INV_PCI_FRANCE_00275:
+  places:
+  - commune: Tain-l'Hermitage
+    department: '26'
+  - commune: Tournon-sur-Rhône
+    department: '07'
+  - commune: Givors
+    department: '69'
+  - commune: Lyon
+    department: '69'
+  pcilab: 328
+2012_67717_INV_PCI_FRANCE_00276:
+  places:
+  - commune: Deux Rivières
+    department: '89'
+    label: Accolay
+  - commune: Clamecy
+    department: '58'
+  pcilab: 329
+2012_67717_INV_PCI_FRANCE_00277:
+  places:
+  - commune: La Chapelle-d'Angillon
+    department: '18'
+  pcilab: 330
+2012_67717_INV_PCI_FRANCE_00278:
+  places:
+  - department: '67'
+  - department: '68'
+  - department: '21'
+  pcilab: 331
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-ninepin-bowling-classic
+2012_67717_INV_PCI_FRANCE_00279:
+  places:
+  - department: '54'
+  - department: '57'
+  - department: '88'
+  - department: '55'
+  pcilab: 332
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-ninepin-bowling-schere
+2012_67717_INV_PCI_FRANCE_00280:
+  places:
+  - department: '34'
+  - department: '32'
+  - department: '40'
+  - department: '31'
+  - department: '81'
+  pcilab: 333
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-quilles-de-six-au-maillet
+2012_67717_INV_PCI_FRANCE_00281:
+  places:
+  - department: '12'
+  - commune: Paris
+    department: '75'
+  - department: '34'
+  - department: '48'
+  - department: '31'
+  - department: '46'
+  - department: '81'
+  - department: '82'
+  pcilab: 335
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-jeu-de-quilles-de-huit
+2012_67717_INV_PCI_FRANCE_00282:
+  places:
+  - commune: Gruissan
+    department: '11'
+  - department: '13'
+  - department: '66'
+  - department: '06'
+  - department: '83'
+  - department: '69'
+  - area: Alsace
+  - department: '74'
+  - area: Picardie
+  pcilab: 336
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-rames-traditionnelles
+2012_67717_INV_PCI_FRANCE_00283:
+  places:
+  - commune: Morlanne
+    department: '64'
+  pcilab: 223
+2012_67717_INV_PCI_FRANCE_00284:
+  places:
+  - department: '971'
+  pcilab: 23
+2012_67717_INV_PCI_FRANCE_00285:
+  places:
+  - commune: Mauléon-Licharre
+    department: '64'
+    label: Soule
+    approximate: true
+  pcilab: 17
+2012_67717_INV_PCI_FRANCE_00286:
+  places:
+  - commune: Larrau
+    department: '64'
+  pcilab: 181
+2012_67717_INV_PCI_FRANCE_00287:
+  places:
+  - commune: Larrau
+    department: '64'
+  pcilab: 185
+2012_67717_INV_PCI_FRANCE_00288:
+  places:
+  - commune: Larrau
+    department: '64'
+  pcilab: 180
+2012_67717_INV_PCI_FRANCE_00289:
+  places:
+  - commune: Morlanne
+    department: '64'
+  pcilab: 215
+2012_67717_INV_PCI_FRANCE_00291:
+  places:
+  - department: '40'
+  - department: '64'
+  - department: '65'
+  pcilab: 169
+2012_67717_INV_PCI_FRANCE_00292:
+  places:
+  - area: Nord-Pas-de-Calais
+  - area: Champagne-Ardenne
+  - area: Bourgogne
+  - area: Rhône-Alpes
+  - region: '76'
+  pcilab: 22
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-culture-du-carillon
+2013_67717_INV_PCI_FRANCE_00293:
+  places:
+  - area: Pays basque
+  pcilab: 339
+2013_67717_INV_PCI_FRANCE_00294:
+  places:
+  - commune: Mont-de-Marsan
+    department: '40'
+  - commune: Toulouse
+    department: '31'
+  - department: '64'
+  pcilab: 342
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-flamenco-dans-le-sud-ouest-de-la-France
+2013_67717_INV_PCI_FRANCE_00295:
+  places:
+  - commune: Montaner
+    department: '64'
+  pcilab: 344
+2013_67717_INV_PCI_FRANCE_00299:
+  places:
+  - commune: Anglet
+    department: '64'
+  pcilab: 350
+2013_67717_INV_PCI_FRANCE_00300:
+  places:
+  - commune: Moumour
+    department: '64'
+  pcilab: 351
+2013_67717_INV_PCI_FRANCE_00301:
+  places:
+  - commune: Hasparren
+    department: '64'
+  - commune: Saint-Palais
+    department: '64'
+  pcilab: 361
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-des-xare
+2013_67717_INV_PCI_FRANCE_00303:
+  places:
+  - region: '53'
+  pcilab: 334
+2013_67717_INV_PCI_FRANCE_00304:
+  places:
+  - department: '35'
+  - department: '44'
+  pcilab: 337
+2013_67717_INV_PCI_FRANCE_00305:
+  places:
+  - department: '35'
+  - department: '22'
+  pcilab: 338
+2013_67717_INV_PCI_FRANCE_00306:
+  places:
+  - department: '22'
+  pcilab: 340
+2013_67717_INV_PCI_FRANCE_00307:
+  places:
+  - department: '29'
+  - department: '22'
+  - department: '56'
+  pcilab: 341
+2013_67717_INV_PCI_FRANCE_00308:
+  places:
+  - department: '29'
+  - department: '22'
+  - department: '56'
+  pcilab: 343
+2013_67717_INV_PCI_FRANCE_00309:
+  places:
+  - region: '53'
+  - department: '44'
+  pcilab: 347
+2013_67717_INV_PCI_FRANCE_00310:
+  places:
+  - region: '53'
+  - department: '44'
+  pcilab: 25
+2013_67717_INV_PCI_FRANCE_00311:
+  places:
+  - commune: Bovel
+    department: '35'
+  - commune: Bréal-sous-Montfort
+    department: '35'
+  - commune: Guichen
+    department: '35'
+  - commune: Pipriac
+    department: '35'
+  - commune: Saint-Carreuc
+    department: '22'
+  - commune: Yffiniac
+    department: '22'
+  - commune: Ploufragan
+    department: '22'
+  - commune: Rennes
+    department: '35'
+  - commune: Chanteloup
+    department: '35'
+  - commune: Saint-Laurent-sur-Oust
+    department: '56'
+  - commune: Bignan
+    department: '56'
+  - commune: Guégon
+    department: '56'
+  - commune: Plumergat
+    department: '56'
+  - commune: Clohars-Carnoët
+    department: '29'
+  - commune: Montertelot
+    department: '56'
+  - commune: Le Quiou
+    department: '22'
+  pcilab: 352
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-veillees-de-cafe-en-Bretagne
+2013_67717_INV_PCI_FRANCE_00312:
+  places:
+  - commune: Lannion
+    department: '22'
+    label: Trégor
+    approximate: true
+  pcilab: 353
+2013_67717_INV_PCI_FRANCE_00314:
+  places:
+  - commune: Arbois
+    department: '39'
+  pcilab: 65
+2013_67717_INV_PCI_FRANCE_00315:
+  places:
+  - department: '33'
+  - department: '32'
+  - department: '40'
+  - department: '47'
+  pcilab: 16
+2013_67717_INV_PCI_FRANCE_00316:
+  places:
+  - commune: Agon-Coutainville
+    department: '50'
+  - commune: Hauteville-sur-Mer
+    department: '50'
+  - commune: Granville
+    department: '50'
+  - commune: Saint-Pair-sur-Mer
+    department: '50'
+  - commune: Jullouville
+    department: '50'
+  pcilab: 232
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pecheries-fixes-du-littoral-de-la-manche.pdf
+2013_67717_INV_PCI_FRANCE_00317:
+  places:
+  - region: '53'
+  pcilab: 219
+2013_67717_INV_PCI_FRANCE_00319:
+  places:
+  - department: '56'
+  pcilab: 94
+2013_67717_INV_PCI_FRANCE_00320:
+  places:
+  - commune: Plouguerneau
+    department: '29'
+    label: Littoral et îles du Nord-Finistère
+    approximate: true
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Recolte-du-goemon-en-Bretagne
+2013_67717_INV_PCI_FRANCE_00325:
+  places:
+  - commune: Steenwerck
+    department: '59'
+  pcilab: 360
+2013_67717_INV_PCI_FRANCE_00326:
+  places:
+  - department: '971'
+  pcilab: 31
+2014_67717_INV_PCI_FRANCE_00052:
+  places:
+  - commune: Bosdarros
+    department: '64'
+  - commune: Labastide-Cézéracq
+    department: '64'
+  - commune: Tardets-Sorholus
+    department: '64'
+  pcilab: 252
+2014_67717_INV_PCI_FRANCE_00327:
+  places:
+  - commune: Grasse
+    department: '06'
+    label: Pays de Grasse
+    approximate: true
+  pcilab: 233
+2014_67717_INV_PCI_FRANCE_00328:
+  places:
+  - label: France entière
+    lat: 48.84992
+    lon: 2.63704
+    precision: approximate
+  pcilab: 69
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-savate
+2014_67717_INV_PCI_FRANCE_00332:
+  places:
+  - commune: Laruns
+    department: '64'
+    label: Vallée d'Ossau
+    approximate: true
+  pcilab: 366
+2014_67717_INV_PCI_FRANCE_00335:
+  places:
+  - region: '53'
+  - department: '44'
+  pcilab: 27
+2014_67717_INV_PCI_FRANCE_00336:
+  places:
+  - commune: Redon
+    department: '35'
+  pcilab: 28
+2014_67717_INV_PCI_FRANCE_00337:
+  places:
+  - region: '53'
+  - department: '44'
+  pcilab: 29
+2014_67717_INV_PCI_FRANCE_00338:
+  places:
+  - department: '22'
+  - department: '29'
+  - department: '35'
+  - department: '44'
+  - department: '56'
+  pcilab: 30
+2014_67717_INV_PCI_FRANCE_00339:
+  places:
+  - region: '53'
+  - department: '44'
+  pcilab: 15
+2014_67717_INV_PCI_FRANCE_00341:
+  places:
+  - commune: La Chapelle-des-Marais
+    department: '44'
+    label: Mayun (La Chapelle-des-Marais)
+  pcilab: 245
+2014_67717_INV_PCI_FRANCE_00342:
+  places:
+  - commune: Vannes
+    department: '56'
+    label: Pays de Vannes
+    approximate: true
+  - commune: Camors
+    department: '56'
+  pcilab: 375
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fabrication-des-sklisseuneu
+2014_67717_INV_PCI_FRANCE_00343:
+  places:
+  - commune: Combrit
+    department: '29'
+  - commune: Plogastel-Saint-Germain
+    department: '29'
+  pcilab: 241
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Vannerie-Basskoden
+2014_67717_INV_PCI_FRANCE_00344:
+  places:
+  - commune: Lannion
+    department: '22'
+    label: Trégor
+    approximate: true
+  pcilab: 243
+2014_67717_INV_PCI_FRANCE_00346:
+  places:
+  - commune: Renac
+    department: '35'
+  pcilab: 509
+2014_67717_INV_PCI_FRANCE_00347:
+  places:
+  - commune: Rouen
+    department: '76'
+  - commune: Angers
+    department: '49'
+  pcilab: 369
+2014_67717_INV_PCI_FRANCE_00355:
+  places:
+  - commune: Paris
+    department: '75'
+  - commune: Aubervilliers
+    department: '93'
+  pcilab: 387
+2014_67717_INV_PCI_FRANCE_00356:
+  places:
+  - commune: Paris
+    department: '75'
+  - commune: Villeneuve-Saint-Georges
+    department: '94'
+  pcilab: 388
+2014_67717_INV_PCI_FRANCE_00357:
+  places:
+  - region: '24'
+  - region: '11'
+  - region: '52'
+  pcilab: 32
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-art-des-sonneurs-de-trompe
+2014_67717_INV_PCI_FRANCE_00358:
+  places:
+  - region: '53'
+  - department: '85'
+  pcilab: 371
+2015_67717_INV_PCI_FRANCE_00360:
+  places:
+  - commune: Chamonix-Mont-Blanc
+    department: '74'
+  pcilab: 372
+2015_67717_INV_PCI_FRANCE_00361:
+  places:
+  - area: Picardie
+  - region: '11'
+  - area: Champagne-Ardenne
+  pcilab: 70
+2015_67717_INV_PCI_FRANCE_00362:
+  places:
+  - area: Picardie
+  - region: '11'
+  - area: Champagne-Ardenne
+  pcilab: 71
+2015_67717_INV_PCI_FRANCE_00363:
+  places:
+  - commune: Redon
+    department: '35'
+    label: Pays de Redon
+    approximate: true
+  pcilab: 242
+2015_67717_INV_PCI_FRANCE_00364:
+  places:
+  - commune: Rennes
+    department: '35'
+    label: Pays de Rennes
+    approximate: true
+  - commune: Redon
+    department: '35'
+    label: Pays de Redon
+    approximate: true
+  - commune: Josselin
+    department: '56'
+    label: Porhoët
+    approximate: true
+  - commune: Le Mené
+    department: '22'
+    label: Méné
+    approximate: true
+  - commune: Lamballe-Armor
+    department: '22'
+    label: Penthièvre
+    approximate: true
+  - commune: Loudéac
+    department: '22'
+    label: Pays de Loudéac
+    approximate: true
+  pcilab: 376
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Vannerie-carbasson
+2015_67717_INV_PCI_FRANCE_00365:
+  places:
+  - department: '35'
+  - department: '44'
+  pcilab: 244
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Vannerie-bretonne-a-montants-en-meridien
+2015_67717_INV_PCI_FRANCE_00366:
+  places:
+  - commune: Briançon
+    department: '05'
+    label: Briançonnais
+    approximate: true
+  pcilab: 377
+2015_67717_INV_PCI_FRANCE_00367:
+  places:
+  - commune: Briançon
+    department: '05'
+    label: Briançonnais
+    approximate: true
+  pcilab: 378
+2015_67717_INV_PCI_FRANCE_00368:
+  places:
+  - commune: Briançon
+    department: '05'
+    label: Briançonnais
+    approximate: true
+  pcilab: 379
+2015_67717_INV_PCI_FRANCE_00369:
+  places:
+  - commune: Briançon
+    department: '05'
+    label: Briançonnais
+    approximate: true
+  pcilab: 380
+2015_67717_INV_PCI_FRANCE_00372:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 383
+2015_67717_INV_PCI_FRANCE_00373:
+  places:
+  - commune: Briançon
+    department: '05'
+  pcilab: 384
+2016_67717_INV_PCI_FRANCE_00374:
+  places:
+  - commune: Milly-la-Forêt
+    department: '91'
+  - commune: Asnières-sur-Seine
+    department: '92'
+  - commune: Bois-Colombes
+    department: '92'
+  - commune: Clichy
+    department: '92'
+  - commune: Charenton-le-Pont
+    department: '94'
+  - commune: Nogent-sur-Marne
+    department: '94'
+  - commune: Saint-Maur-des-Fossés
+    department: '94'
+  - commune: Saint-Maurice
+    department: '94'
+  - commune: Vincennes
+    department: '94'
+  pcilab: 385
+2017_67717_INV_PCI_FRANCE_00375:
+  places:
+  - region: '11'
+  pcilab: 386
+2017_67717_INV_PCI_FRANCE_00377:
+  places:
+  - commune: Moissac
+    department: '82'
+  pcilab: 470
+2017_67717_INV_PCI_FRANCE_00378:
+  places:
+  - commune: Le Mérévillois
+    department: '91'
+    label: Méréville
+  pcilab: 469
+2017_67717_INV_PCI_FRANCE_00379:
+  places:
+  - commune: Salers
+    department: '15'
+  pcilab: 468
+2017_67717_INV_PCI_FRANCE_00380:
+  places:
+  - commune: Villars-les-Dombes
+    department: '01'
+    label: Dombes
+    approximate: true
+  pcilab: 467
+2017_67717_INV_PCI_FRANCE_00381:
+  places:
+  - commune: Morteau
+    department: '25'
+    label: Haut-Doubs
+    approximate: true
+  pcilab: 466
+2017_67717_INV_PCI_FRANCE_00382:
+  places:
+  - commune: Paris
+    department: '75'
+    label: Foire du Trône (Paris)
+  - commune: Rouen
+    department: '76'
+    label: Foire Saint-Romain (Rouen)
+  pcilab: 465
+  sources:
+  - publisher: Festival en France, Foire du Trône
+    url: https://www.festivalenfrance.com/festival/foire-du-trone/2025
+  - publisher: Festival en France, Foire Saint-Romain
+    url: https://www.festivalenfrance.com/festival/foire-saint-romain-de-rouen/2025
+2017_67717_INV_PCI_FRANCE_00383:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 464
+2017_67717_INV_PCI_FRANCE_00384:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 463
+2017_67717_INV_PCI_FRANCE_00385:
+  places:
+  - commune: Strasbourg
+    department: '67'
+  pcilab: 462
+2017_67717_INV_PCI_FRANCE_00386:
+  places:
+  - commune: La Chevrolière
+    department: '44'
+    label: Passay (lac de Grand-Lieu)
+  pcilab: 461
+2017_67717_INV_PCI_FRANCE_00387:
+  places:
+  - label: Tahiti
+    lat: -17.65
+    lon: -149.43
+    precision: region
+  pcilab: 460
+2017_67717_INV_PCI_FRANCE_00388:
+  places:
+  - commune: Maripasoula
+    department: '973'
+  - commune: Papaïchton
+    department: '973'
+  pcilab: 459
+2017_67717_INV_PCI_FRANCE_00390:
+  places:
+  - department: '974'
+  pcilab: 373
+2017_67717_INV_PCI_FRANCE_00391:
+  places:
+  - department: '974'
+  pcilab: 374
+2017_67717_INV_PCI_FRANCE_00393:
+  places:
+  - department: '48'
+  pcilab: 510
+2017_67717_INV_PCI_FRANCE_00396:
+  places:
+  - department: '12'
+  - department: '15'
+  - department: '19'
+  - department: '43'
+  - department: '46'
+  - department: '48'
+  - commune: Paris
+    department: '75'
+  pcilab: 455
+2017_67717_INV_PCI_FRANCE_00398:
+  places:
+  - commune: Mauléon-Licharre
+    department: '64'
+    label: Soule
+    approximate: true
+  pcilab: 315
+2017_67717_INV_PCI_FRANCE_00399:
+  places:
+  - commune: Mauléon-Licharre
+    department: '64'
+    label: Soule
+    approximate: true
+  pcilab: 297
+2018_67717_INV_PCI_FRANCE_00394:
+  places:
+  - commune: Flers-en-Escrebieux
+    department: '59'
+  pcilab: 456
+2018_67717_INV_PCI_FRANCE_00397:
+  places:
+  - commune: Armendarits
+    department: '64'
+  - commune: Beyrie-sur-Joyeuse
+    department: '64'
+  - commune: Cambo-les-Bains
+    department: '64'
+  - commune: Hélette
+    department: '64'
+  - commune: Iholdy
+    department: '64'
+  - commune: Itxassou
+    department: '64'
+  - commune: Saint-Esteben
+    department: '64'
+  - commune: Mendionde
+    department: '64'
+  pcilab: 314
+  sources:
+  - publisher: Ministère de la Culture, fiche Armendarits
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-Dieu-a-Armendarits
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-fete-Dieu-au-Pays-basque-Besta-Berri
+2018_67717_INV_PCI_FRANCE_00400:
+  places:
+  - commune: Ustaritz
+    department: '64'
+  - commune: Briscous
+    department: '64'
+  - commune: Cambo-les-Bains
+    department: '64'
+  - commune: Hasparren
+    department: '64'
+  - commune: Bayonne
+    department: '64'
+  pcilab: 316
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-tournees-du-carnaval-labourdin
+  - publisher: France Télévisions, communiqué de presse
+    url: https://www.francetvpro.fr/contenu-de-presse/11137
+2018_67717_INV_PCI_FRANCE_00401:
+  places:
+  - commune: Saint-Palais
+    department: '64'
+    label: Basse-Navarre
+    approximate: true
+  - commune: Hasparren
+    department: '64'
+    label: Labourd intérieur
+    approximate: true
+  pcilab: 317
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/La-parade-charivarique-en-Basse-Navarre-et-Labourd-Kabalkada-ou-Toberak
+  - publisher: Institut culturel basque (EKE)
+    url: https://files.eke.eus/pdf/toberak.pdf
+2018_67717_INV_PCI_FRANCE_00402:
+  places:
+  - commune: Gignac
+    department: '34'
+  pcilab: 473
+2018_67717_INV_PCI_FRANCE_00403:
+  places:
+  - department: '974'
+  pcilab: 367
+2018_67717_INV_PCI_FRANCE_00404:
+  places:
+  - label: France entière
+    lat: 48.85889
+    lon: 2.32004
+    precision: approximate
+  pcilab: 453
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-artisanat-de-la-perle-de-verre-en-France
+2018_67717_INV_PCI_FRANCE_00405:
+  places:
+  - commune: Mons-en-Barœul
+    department: '59'
+  pcilab: 451
+2018_67717_INV_PCI_FRANCE_00407:
+  places:
+  - commune: Billom
+    department: '63'
+  pcilab: 449
+2018_67717_INV_PCI_FRANCE_00408:
+  places:
+  - commune: Montbrison
+    department: '42'
+  pcilab: 448
+2018_67717_INV_PCI_FRANCE_00409:
+  places:
+  - commune: Apt
+    department: '84'
+  pcilab: 447
+2018_67717_INV_PCI_FRANCE_00410:
+  places:
+  - commune: Fougerolles-Saint-Valbert
+    department: '70'
+    label: Fougerolles
+  pcilab: 452
+2018_67717_INV_PCI_FRANCE_00411:
+  places:
+  - commune: Saint-Gilles-Croix-de-Vie
+    department: '85'
+  pcilab: 446
+2018_67717_INV_PCI_FRANCE_00412:
+  places:
+  - commune: Sanary-sur-Mer
+    department: '83'
+  - commune: Saint-Tropez
+    department: '83'
+  - commune: Bandol
+    department: '83'
+  - commune: Marseille
+    department: '13'
+  - commune: Sète
+    department: '34'
+  - commune: Beaucaire
+    department: '30'
+  pcilab: 445
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-art-de-la-navigation-sous-voile-latine
+2018_67717_INV_PCI_FRANCE_00413:
+  places:
+  - label: France entière
+    lat: 48.85889
+    lon: 2.32004
+    precision: approximate
+  pcilab: 444
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-savoir-faire-artisanaux-et-la-culture-de-la-baguette-de-pain
+2018_67717_INV_PCI_FRANCE_00415:
+  places:
+  - commune: Besançon
+    department: '25'
+  - commune: Morteau
+    department: '25'
+  pcilab: 441
+2018_67717_INV_PCI_FRANCE_00416:
+  places:
+  - commune: Banon
+    department: '04'
+    label: Haute-Provence occidentale
+    approximate: true
+  pcilab: 440
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-emplois-medicinaux-du-plantain-badasson-en-haute-provence-occidentale
+2018_67717_INV_PCI_FRANCE_00417:
+  places:
+  - department: '04'
+  pcilab: 439
+2018_67717_INV_PCI_FRANCE_00418:
+  places:
+  - department: '04'
+  pcilab: 438
+2018_67717_INV_PCI_FRANCE_00419:
+  places:
+  - commune: Saint-Rémy-de-Provence
+    department: '13'
+  - commune: Rognonas
+    department: '13'
+  - commune: Châteaurenard
+    department: '13'
+  - commune: Noves
+    department: '13'
+  pcilab: 511
+  sources:
+  - publisher: Presses universitaires de Provence (OpenEdition)
+    url: https://books.openedition.org/pup/15272
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Les-fetes-a-charrettes-entre-Alpilles-et-Durance
+2018_67717_INV_PCI_FRANCE_00427:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 430
+2019_67717_INV_PCI_FRANCE_00426:
+  places:
+  - commune: Paris
+    department: '75'
+  - commune: Villeneuve-Saint-Georges
+    department: '94'
+  pcilab: 431
+2019_67717_INV_PCI_FRANCE_00428:
+  places:
+  - department: '67'
+  - department: '54'
+  - department: '57'
+  - commune: Blangy-sur-Bresle
+    department: '76'
+    label: Vallée de la Bresle
+    approximate: true
+  pcilab: 429
+2019_67717_INV_PCI_FRANCE_00431:
+  places:
+  - commune: Saint-Jean-Pla-de-Corts
+    department: '66'
+  pcilab: 426
+2019_67717_INV_PCI_FRANCE_00433:
+  places:
+  - region: '11'
+  pcilab: 424
+2019_67717_INV_PCI_FRANCE_00434:
+  places:
+  - commune: Marseille
+    department: '13'
+  pcilab: 423
+2019_67717_INV_PCI_FRANCE_00435:
+  places:
+  - commune: Apt
+    department: '84'
+    label: Luberon
+    approximate: true
+  pcilab: 422
+2019_67717_INV_PCI_FRANCE_00436:
+  places:
+  - commune: Vannes
+    department: '56'
+    label: Golfe du Morbihan
+    approximate: true
+  pcilab: 421
+2019_67717_INV_PCI_FRANCE_00437:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 512
+2019_67717_INV_PCI_FRANCE_00438:
+  places:
+  - commune: Saint-Nectaire
+    department: '63'
+  pcilab: 420
+2019_67717_INV_PCI_FRANCE_00439:
+  places:
+  - commune: Domfront en Poiraie
+    department: '61'
+    label: Domfrontais
+    approximate: true
+  pcilab: 419
+2019_67717_INV_PCI_FRANCE_00440:
+  places:
+  - commune: Châteauneuf-du-Pape
+    department: '84'
+  pcilab: 418
+2019_67717_INV_PCI_FRANCE_00441:
+  places:
+  - commune: Cancale
+    department: '35'
+  pcilab: 417
+2019_67717_INV_PCI_FRANCE_00443:
+  places:
+  - commune: Nice
+    department: '06'
+  pcilab: 415
+2019_67717_INV_PCI_FRANCE_00444:
+  places:
+  - commune: Lunéville
+    department: '54'
+  pcilab: 508
+2019_67717_INV_PCI_FRANCE_00445:
+  places:
+  - commune: Loriol-sur-Drôme
+    department: '26'
+  - commune: Montélier
+    department: '26'
+  pcilab: 442
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Medias-creation-rapide/Les-fetes-des-bouviers-et-des-laboureurs-de-la-Drome.pdf
+  - publisher: RADdO-Ethnodoc
+    url: https://raddo-ethnodoc.com/opci/corpus/fonds/113
+2019_67717_INV_PCI_FRANCE_00446:
+  places:
+  - commune: Paris
+    department: '75'
+  - commune: Vincennes
+    department: '94'
+  pcilab: 414
+2019_67717_INV_PCI_FRANCE_00448:
+  places:
+  - department: '84'
+  - department: '30'
+  - department: '26'
+  pcilab: 412
+2019_67717_INV_PCI_FRANCE_00451:
+  places:
+  - commune: Lavelanet
+    department: 09
+    label: Pays d'Olmes
+    approximate: true
+  pcilab: 359
+2020_67717_INV_PCI_FRANCE_00452:
+  places:
+  - commune: Le Châtelard
+    department: '73'
+    label: Massif des Bauges
+    approximate: true
+  pcilab: 409
+2020_67717_INV_PCI_FRANCE_00453:
+  places:
+  - commune: Le Châtelard
+    department: '73'
+    label: Massif des Bauges
+    approximate: true
+  pcilab: 408
+2020_67717_INV_PCI_FRANCE_00454:
+  places:
+  - commune: Le Châtelard
+    department: '73'
+    label: Massif des Bauges
+    approximate: true
+  pcilab: 407
+2020_67717_INV_PCI_FRANCE_00455:
+  places:
+  - commune: Le Châtelard
+    department: '73'
+    label: Massif des Bauges
+    approximate: true
+  pcilab: 406
+2020_67717_INV_PCI_FRANCE_00456:
+  places:
+  - commune: Le Châtelard
+    department: '73'
+    label: Massif des Bauges
+    approximate: true
+  pcilab: 405
+2020_67717_INV_PCI_FRANCE_00457:
+  places:
+  - commune: Le Châtelard
+    department: '73'
+    label: Massif des Bauges
+    approximate: true
+  pcilab: 404
+2020_67717_INV_PCI_FRANCE_00458:
+  places:
+  - department: '29'
+  - department: '22'
+  - department: '56'
+  pcilab: 403
+2020_67717_INV_PCI_FRANCE_00459:
+  places:
+  - commune: Limoges
+    department: '87'
+  - commune: Hauts de Bienne
+    department: '39'
+    label: Morez
+  - commune: Bourg-en-Bresse
+    department: '01'
+  - commune: Nantes
+    department: '44'
+  - commune: Conques-en-Rouergue
+    department: '12'
+    label: Conques
+  - commune: Paris
+    department: '75'
+  pcilab: 507
+2020_67717_INV_PCI_FRANCE_00460:
+  places:
+  - commune: Le Mont-Saint-Michel
+    department: '50'
+  pcilab: 402
+2020_67717_INV_PCI_FRANCE_00461:
+  places:
+  - region: '53'
+  pcilab: 506
+2020_67717_INV_PCI_FRANCE_00462:
+  places:
+  - department: '40'
+  - department: '32'
+  pcilab: 400
+2020_67717_INV_PCI_FRANCE_00463:
+  places:
+  - label: Îles Marquises (Nuku Hiva)
+    lat: -8.873
+    lon: -140.125
+    precision: approximate
+  pcilab: 545
+2020_67717_INV_PCI_FRANCE_00464:
+  places:
+  - department: '974'
+  pcilab: 368
+2020_67717_INV_PCI_FRANCE_00465:
+  places:
+  - commune: Paris
+    department: '75'
+  - department: '36'
+  - commune: Épernay
+    department: '51'
+  - commune: Saillans
+    department: '26'
+  pcilab: 397
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-des-eventaillistes.pdf
+2020_67717_INV_PCI_FRANCE_00466:
+  places:
+  - commune: Cognac
+    department: '16'
+  pcilab: 395
+2020_67717_INV_PCI_FRANCE_00467:
+  places:
+  - department: '22'
+  - department: '29'
+  - department: '35'
+  - department: '44'
+  - department: '56'
+  pcilab: 396
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pardons-et-tromenies-en-bretagne.pdf
+2020_67717_INV_PCI_FRANCE_00472:
+  places:
+  - commune: Bayonne
+    department: '64'
+  pcilab: 472
+2020_67717_INV_PCI_FRANCE_00473:
+  places:
+  - commune: Saint-Jean-Pied-de-Port
+    department: '64'
+  - commune: Saint-Palais
+    department: '64'
+  - commune: Aldudes
+    department: '64'
+  - commune: Banca
+    department: '64'
+  - commune: Urepel
+    department: '64'
+  - commune: Macaye
+    department: '64'
+  - commune: Mendionde
+    department: '64'
+  - commune: Louhossoa
+    department: '64'
+  pcilab: 504
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-celebrations-de-libertimendua-et-santibate.pdf
+  - publisher: Argia
+    url: https://www.argia.eus/en/albistea/lau-libertimendu-izango-dira-lapurdi-eta-nafarroan-2019an-horietatik-bat-irunean
+  - publisher: Labayru
+    url: https://labayru.eus/en/basque-ethnography-at-a-glance/libertimendua
+2020_67717_INV_PCI_FRANCE_00475:
+  places:
+  - commune: Ustaritz
+    department: '64'
+  - commune: Saint-Jean-de-Luz
+    department: '64'
+  - commune: Ciboure
+    department: '64'
+  - commune: Bayonne
+    department: '64'
+  - commune: Hasparren
+    department: '64'
+  - commune: Saint-Palais
+    department: '64'
+  - commune: Tardets-Sorholus
+    department: '64'
+  pcilab: 394
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Medias-creation-rapide/La-tradition-carnavalesque-de-Zan-Pantzar-en-Pays-basque.pdf
+2020_67717_INV_PCI_FRANCE_00477:
+  places:
+  - commune: Eauze
+    department: '32'
+  - commune: Labastide-d'Armagnac
+    department: '40'
+  pcilab: 392
+2020_67717_INV_PCI_FRANCE_00478:
+  places:
+  - commune: Lalbenque
+    department: '46'
+  pcilab: 391
+2020_67717_INV_PCI_FRANCE_00480:
+  places:
+  - region: '11'
+  pcilab: 484
+2020_67717_INV_PCI_FRANCE_00481:
+  places:
+  - department: '46'
+  - department: '12'
+  - department: '48'
+  - department: '27'
+  - department: '72'
+  - department: '49'
+  - department: '10'
+  pcilab: 485
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-du-chanvre-textile.pdf
+2020_67717_INV_PCI_FRANCE_00482:
+  places:
+  - commune: Pénestin
+    department: '56'
+  pcilab: 503
+2020_67717_INV_PCI_FRANCE_00483:
+  places:
+  - commune: Paris
+    department: '75'
+  pcilab: 502
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoirs-et-techniques-de-notation-du-mouvement.pdf
+2020_67717_INV_PCI_FRANCE_00484:
+  places:
+  - commune: Torcy
+    department: '71'
+  - commune: Colpo
+    department: '56'
+  - commune: Cornimont
+    department: '88'
+  - commune: Kutzenhausen
+    department: '67'
+  - commune: Gouvieux
+    department: '60'
+  - commune: Vincennes
+    department: '94'
+  - commune: Paris
+    department: '75'
+  - commune: Saint-Jouin
+    department: '14'
+  - commune: Quincampoix
+    department: '76'
+  - commune: Saint-Sulpice-les-Feuilles
+    department: '87'
+  - commune: Pau
+    department: '64'
+  - commune: Bellegarde
+    department: '30'
+  - commune: La Saunière
+    department: '23'
+  - commune: Nice
+    department: '06'
+  - commune: Cabrières-d'Avignon
+    department: '84'
+  pcilab: 501
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-frivolite.pdf
+2020_67717_INV_PCI_FRANCE_00485:
+  places:
+  - commune: Aubusson
+    department: '23'
+  - commune: Felletin
+    department: '23'
+  pcilab: 500
+2020_67717_INV_PCI_FRANCE_00487:
+  places:
+  - commune: Peyrehorade
+    department: '40'
+    label: Barthes de l'Adour
+    approximate: true
+  - commune: Dax
+    department: '40'
+  - commune: Bayonne
+    department: '64'
+  pcilab: 498
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-peche-aux-engins-et-filets-dans-le-bassin-de-l-adour.pdf
+2020_67717_INV_PCI_FRANCE_00488:
+  places:
+  - commune: Capesterre-de-Marie-Galante
+    department: '971'
+  - commune: Grand-Bourg
+    department: '971'
+  - commune: Saint-Louis
+    department: '971'
+  pcilab: 497
+2020_67717_INV_PCI_FRANCE_00493:
+  places:
+  - label: Ouvéa
+    lat: -20.65
+    lon: 166.56
+    precision: commune
+  pcilab: 487
+2020_67717_INV_PCI_FRANCE_00494:
+  places:
+  - label: Lifou
+    lat: -20.92
+    lon: 167.24
+    precision: commune
+  pcilab: 488
+2021_67717_INV_PCI_FRANCE_00489:
+  places:
+  - commune: Briançon
+    department: '05'
+    label: Briançonnais
+    approximate: true
+  pcilab: 496
+2021_67717_INV_PCI_FRANCE_00490:
+  places:
+  - commune: La Roche-Bernard
+    department: '56'
+    label: Estuaire de la Vilaine
+    approximate: true
+  - commune: Corsept
+    department: '44'
+  - commune: Saint-Brevin-les-Pins
+    department: '44'
+  - commune: Saint-Nazaire
+    department: '44'
+  - commune: Pornichet
+    department: '44'
+  - commune: Le Croisic
+    department: '44'
+  - commune: Vertou
+    department: '44'
+  - commune: Beauvoir-sur-Mer
+    department: '85'
+  - commune: Port-des-Barques
+    department: '17'
+    label: Estuaire de la Charente
+    approximate: true
+  - commune: Talmont-sur-Gironde
+    department: '17'
+    label: Estuaire de la Gironde
+    approximate: true
+  - commune: Pauillac
+    department: '33'
+    label: Estuaire de la Gironde
+    approximate: true
+  - commune: Saubusse
+    department: '40'
+    label: Adour
+    approximate: true
+  pcilab: 481
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-peche-au-carrelet-sur-l-arc-atlantique.pdf
+2021_67717_INV_PCI_FRANCE_00491:
+  places:
+  - commune: Tarbes
+    department: '65'
+  - commune: Toulouse
+    department: '31'
+  - commune: Albi
+    department: '81'
+  - commune: Nice
+    department: '06'
+  - commune: Pau
+    department: '64'
+  - commune: Val-Cenis
+    department: '73'
+  - commune: Roscoff
+    department: '29'
+  pcilab: 482
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/fr/Media/Medias-creation-rapide/Festivals-de-tango-en-France.pdf
+2021_67717_INV_PCI_FRANCE_00492:
+  places:
+  - commune: Paris
+    department: '75'
+  - commune: Toulouse
+    department: '31'
+  - commune: Marseille
+    department: '13'
+  - commune: Lyon
+    department: '69'
+  - commune: Nantes
+    department: '44'
+  - commune: Metz
+    department: '57'
+  - commune: Strasbourg
+    department: '67'
+  - commune: Anglet
+    department: '64'
+  pcilab: 483
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Medias-creation-rapide/Milongas-bal-tango-en-France.pdf
+2021_67717_INV_PCI_FRANCE_00495:
+  places:
+  - commune: Saint-Joachim
+    department: '44'
+    label: Marais de Brière
+    approximate: true
+  pcilab: 489
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-apiculture-de-zone-humide-en-basse-loire.pdf
+2021_67717_INV_PCI_FRANCE_00496:
+  places:
+  - commune: Dunkerque
+    department: '59'
+  pcilab: 490
+2021_67717_INV_PCI_FRANCE_00497:
+  places:
+  - commune: Nantes
+    department: '44'
+  - commune: Paimbœuf
+    department: '44'
+    label: Estuaire de la Loire
+    approximate: true
+  pcilab: 491
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-peches-traditionnelles-en-basse-loire-aval.pdf
+2021_67717_INV_PCI_FRANCE_00498:
+  places:
+  - department: '64'
+  - department: '65'
+  - department: '31'
+  pcilab: 492
+2021_67717_INV_PCI_FRANCE_00499:
+  places:
+  - label: France entière
+    lat: 48.86272
+    lon: 2.28759
+    precision: approximate
+  pcilab: 493
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-carrosserie-automobile-artisanale-francaise.pdf
+2021_67717_INV_PCI_FRANCE_00500:
+  places:
+  - department: '31'
+  - department: '81'
+  - department: '11'
+  - department: 09
+  - department: '32'
+  - department: '30'
+  pcilab: 494
+2021_67717_INV_PCI_FRANCE_00501:
+  places:
+  - commune: Aubagne
+    department: '13'
+  - commune: Marseille
+    department: '13'
+  - commune: Aix-en-Provence
+    department: '13'
+  pcilab: 495
+2021_67717_INV_PCI_FRANCE_00502:
+  places:
+  - commune: Port-Vendres
+    department: '66'
+  - commune: Sète
+    department: '34'
+  - commune: Marseille
+    department: '13'
+  - commune: Toulon
+    department: '83'
+  - commune: Menton
+    department: '06'
+  - commune: Ajaccio
+    department: 2A
+  - commune: Bastia
+    department: 2B
+  pcilab: 528
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/pratiques-des-prud-homies-de-peche-en-mediterranee
+2021_67717_INV_PCI_FRANCE_00503:
+  places:
+  - commune: Mézières-en-Brenne
+    department: '36'
+    label: Brenne
+    approximate: true
+  pcilab: 525
+2021_67717_INV_PCI_FRANCE_00504:
+  places:
+  - region: '53'
+  pcilab: 533
+2021_67717_INV_PCI_FRANCE_00505:
+  places:
+  - department: '44'
+  pcilab: 558
+2021_67717_INV_PCI_FRANCE_00506:
+  places:
+  - department: '27'
+  - department: '76'
+  - department: '77'
+  - department: '59'
+  pcilab: 522
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-du-lin-textile
+2022_67717_INV_PCI_FRANCE_00507:
+  places:
+  - commune: Maripasoula
+    department: '973'
+  - commune: Papaïchton
+    department: '973'
+  - commune: Grand-Santi
+    department: '973'
+  - commune: Apatou
+    department: '973'
+  - commune: Saint-Laurent-du-Maroni
+    department: '973'
+  - commune: Mana
+    department: '973'
+  pcilab: 537
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-gi-pangi-rite-de-passage-feminin-businenge
+2022_67717_INV_PCI_FRANCE_00508:
+  places:
+  - region: '53'
+  pcilab: 515
+2022_67717_INV_PCI_FRANCE_00509:
+  places:
+  - department: '73'
+  - department: '74'
+  pcilab: 516
+2022_67717_INV_PCI_FRANCE_00511:
+  places:
+  - commune: Saint-Bonnet-Tronçais
+    department: '03'
+    label: Forêt de Tronçais
+    approximate: true
+  - commune: Jupilles
+    department: '72'
+    label: Forêt de Bercé
+    approximate: true
+  - commune: Loches
+    department: '37'
+    label: Forêt de Loches
+    approximate: true
+  pcilab: 548
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoirs-et-savoir-faire-de-la-futaie-reguliere-de-chene
+2022_67717_INV_PCI_FRANCE_00512:
+  places:
+  - department: '05'
+  - department: '26'
+  - department: '38'
+  - department: '07'
+  - department: '69'
+  pcilab: 543
+2022_67717_INV_PCI_FRANCE_00513:
+  places:
+  - commune: Calais
+    department: '62'
+  - commune: Étaples
+    department: '62'
+  pcilab: 535
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-art-de-charpenterie-de-marine-dans-le-nord-de-la-france
+2022_67717_INV_PCI_FRANCE_00514:
+  places:
+  - commune: Pornic
+    department: '44'
+  pcilab: 519
+2022_67717_INV_PCI_FRANCE_00515:
+  places:
+  - commune: Montaren-et-Saint-Médiers
+    department: '30'
+  pcilab: 539
+2022_67717_INV_PCI_FRANCE_00516:
+  places:
+  - area: Pays basque
+  pcilab: 524
+2022_67717_INV_PCI_FRANCE_00517:
+  places:
+  - commune: Béziers
+    department: '34'
+  pcilab: 549
+2022_67717_INV_PCI_FRANCE_00518:
+  places:
+  - commune: Saint-Paul
+    department: '974'
+    label: Saint-Gilles-les-Hauts (Saint-Paul)
+  - commune: Saint-Louis
+    department: '974'
+  pcilab: 521
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-bal-tamoul
+2023_67717_INV_PCI_FRANCE_00520:
+  places:
+  - department: '974'
+  pcilab: 544
+2023_67717_INV_PCI_FRANCE_00522:
+  places:
+  - region: '93'
+  pcilab: 555
+2023_67717_INV_PCI_FRANCE_00525:
+  places:
+  - commune: Montreuil
+    department: '93'
+  - commune: Versailles
+    department: '78'
+  - commune: Ainay-le-Vieil
+    department: '18'
+  pcilab: 531
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-art-de-l-espalier-tailles-de-formation-et-de-fructification
+2023_67717_INV_PCI_FRANCE_00526:
+  places:
+  - commune: Coupvray
+    department: '77'
+  - commune: Paris
+    department: '75'
+  pcilab: 532
+2023_67717_INV_PCI_FRANCE_00527:
+  places:
+  - commune: Gaillac
+    department: '81'
+  - commune: Salies-de-Béarn
+    department: '64'
+  - commune: Hendaye
+    department: '64'
+    label: Basse vallée de la Bidassoa (Hendaye)
+  - commune: Pontonx-sur-l'Adour
+    department: '40'
+    label: Pontonx
+  pcilab: 536
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pratiques-sociales-et-culturelles-des-confreries-oenogastronomiques-en-france
+2023_67717_INV_PCI_FRANCE_00528:
+  places:
+  - department: '976'
+  pcilab: 542
+2023_67717_INV_PCI_FRANCE_00529:
+  places:
+  - department: 2A
+  - department: 2B
+  pcilab: 550
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/recolte-a-l-ancienne-entretien-des-vieux-vergers-et-pressage-des-olives-en-corse
+2023_67717_INV_PCI_FRANCE_00530:
+  places:
+  - department: '73'
+  - department: '74'
+  - department: 2A
+  - department: 2B
+  - department: '10'
+  - department: '54'
+  - department: '88'
+  - department: '40'
+  - commune: Saint-Martin-Vésubie
+    department: '06'
+    label: Vésubie, Roya et Paillon
+    approximate: true
+  - department: 09
+  - department: '11'
+  - department: '31'
+  - department: '81'
+  - department: '66'
+  pcilab: 552
+2023_67717_INV_PCI_FRANCE_00531:
+  places:
+  - commune: Boulazac Isle Manoire
+    department: '24'
+    label: Boulazac
+  pcilab: 523
+2023_67717_INV_PCI_FRANCE_00532:
+  places:
+  - commune: Millau
+    department: '12'
+  pcilab: 553
+2024_67717_INV_PCI_FRANCE_00534:
+  places:
+  - commune: Fréhel
+    department: '22'
+  - commune: Pleudihen-sur-Rance
+    department: '22'
+  - commune: Plumaudan
+    department: '22'
+  - commune: Saint-Jouan-des-Guérets
+    department: '35'
+  - commune: Saint-Père-Marc-en-Poulet
+    department: '35'
+  pcilab: 551
+2024_67717_INV_PCI_FRANCE_00535:
+  places:
+  - label: Saint-Pierre
+    lat: 46.78
+    lon: -56.18
+    precision: commune
+  pcilab: 554
+2024_67717_INV_PCI_FRANCE_00536:
+  places:
+  - commune: Dijon
+    department: '21'
+  - commune: Fécamp
+    department: '76'
+  - commune: Voiron
+    department: '38'
+  - commune: Marseillan
+    department: '34'
+  pcilab: 557
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-connaissances-et-savoir-faire-des-liqueurs-en-france
+2024_67717_INV_PCI_FRANCE_00537:
+  places:
+  - commune: Guérande
+    department: '44'
+  - commune: Batz-sur-Mer
+    department: '44'
+  pcilab: 559
+2024_67717_INV_PCI_FRANCE_00538:
+  places:
+  - label: France entière
+    lat: 45.2939
+    lon: 3.38537
+    precision: approximate
+  pcilab: 560
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pratiques-sociales-et-culturelles-dans-les-bistrots-et-cafes-en-france
+2024_67717_INV_PCI_FRANCE_00539:
+  places:
+  - label: France entière
+    lat: 48.88633
+    lon: 2.29925
+    precision: approximate
+  pcilab: 561
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-de-la-decoupe-bouchere-a-la-francaise
+2024_67717_INV_PCI_FRANCE_00540:
+  places:
+  - commune: Saint-Vaast-la-Hougue
+    department: '50'
+  - commune: Port-en-Bessin-Huppain
+    department: '14'
+    label: Port-en-Bessin
+  - commune: Blainville-sur-Mer
+    department: '50'
+  - commune: Isigny-sur-Mer
+    department: '14'
+  pcilab: 562
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-art-de-la-charpenterie-de-marine-en-normandie
+2024_67717_INV_PCI_FRANCE_00541:
+  places:
+  - commune: Dzaoudzi
+    department: '976'
+    label: Labattoir (Dzaoudzi)
+  - commune: Pamandzi
+    department: '976'
+  - commune: Bouéni
+    department: '976'
+  - commune: Chirongui
+    department: '976'
+  - commune: Sada
+    department: '976'
+    label: Mangajou (Sada)
+  pcilab: 563
+2024_67717_INV_PCI_FRANCE_00542:
+  places:
+  - region: '53'
+  - commune: Boulogne-sur-Mer
+    department: '62'
+  - commune: Saint-Martin-de-Ré
+    department: '17'
+    label: Île de Ré
+  - commune: Marseille
+    department: '13'
+  - commune: Reims
+    department: '51'
+  pcilab: 564
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/le-chant-de-marin
+2024_67717_INV_PCI_FRANCE_00543:
+  places:
+  - commune: Buis-les-Baronnies
+    department: '26'
+    label: Baronnies provençales
+    approximate: true
+  pcilab: 540
+2024_67717_INV_PCI_FRANCE_00544:
+  places:
+  - commune: Les Abymes
+    department: '971'
+  - commune: Sainte-Anne
+    department: '971'
+  - commune: Le Gosier
+    department: '971'
+  - commune: Le Moule
+    department: '971'
+  pcilab: 565
+2024_67717_INV_PCI_FRANCE_00546:
+  places:
+  - commune: Ambert
+    department: '63'
+  - commune: Brousses-et-Villaret
+    department: '11'
+  - commune: Chahaignes
+    department: '72'
+  - commune: Couze-et-Saint-Front
+    department: '24'
+  - commune: Faÿ-lès-Nemours
+    department: '77'
+  - commune: Fontaine-de-Vaucluse
+    department: '84'
+  - commune: Gorges
+    department: '44'
+  - commune: Margaux-Cantenac
+    department: '33'
+  - commune: Marsac-en-Livradois
+    department: '63'
+  - commune: Pont-de-Barret
+    department: '26'
+  - commune: Poitiers
+    department: '86'
+  - commune: Puymoyen
+    department: '16'
+  - commune: Saint-Clément
+    department: '19'
+  - commune: Saint-Léonard-de-Noblat
+    department: '87'
+  - commune: Saint-Philippe
+    department: '974'
+  - commune: Saint-Sauveur
+    department: '29'
+  - commune: Sainte-Suzanne-et-Chammes
+    department: '53'
+  - commune: Salasc
+    department: '34'
+  pcilab: 566
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-connaissances-et-pratiques-lies-aux-papiers-faits-main-en-france
+2025_67717_INV_PCI_FRANCE_00547:
+  places:
+  - department: '976'
+  pcilab: 541
+2025_67717_INV_PCI_FRANCE_00549:
+  places:
+  - label: France entière
+    lat: 46.6
+    lon: 2.45
+    precision: approximate
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-demoscene-en-france-un-mouvement-de-creation-numerique-populaire-spontane
+2025_67717_INV_PCI_FRANCE_00550:
+  places:
+  - region: '84'
+  - area: Lorraine
+  - region: '27'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/l-affouage
+2025_67717_INV_PCI_FRANCE_00551:
+  places:
+  - commune: Nevers
+    department: '58'
+  - commune: Orléans
+    department: '45'
+  - commune: Tours
+    department: '37'
+  - commune: Saumur
+    department: '49'
+  - commune: Nantes
+    department: '44'
+  pcilab: 547
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoirs-nautiques-ligeriens
+2025_67717_INV_PCI_FRANCE_00552:
+  places:
+  - commune: Chirongui
+    department: '976'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-et-pratiques-lies-au-tani-malandi-argile-blanche-de-chirongui
+2025_67717_INV_PCI_FRANCE_00553:
+  places:
+  - department: '971'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-quadrilles-creoles-de-guadeloupe
+2025_67717_INV_PCI_FRANCE_00554:
+  places:
+  - department: '58'
+  - commune: Orléans
+    department: '45'
+    label: Orléanais
+    approximate: true
+  - commune: Tours
+    department: '37'
+    label: Touraine
+    approximate: true
+  - commune: Angers
+    department: '49'
+    label: Anjou
+    approximate: true
+  - department: '44'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/pratiques-de-peche-passives-sur-le-bassin-loire-le-guideau-et-le-filet-barrage
+2025_67717_INV_PCI_FRANCE_00555:
+  places:
+  - department: '25'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-comices-agricoles-du-doubs
+2025_67717_INV_PCI_FRANCE_00557:
+  places:
+  - commune: Paris
+    department: '75'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-haute-couture
+2025_67717_INV_PCI_FRANCE_00558:
+  places:
+  - region: '11'
+  - region: '84'
+  - region: '93'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-musiques-electroniques-francaises
+2025_67717_INV_PCI_FRANCE_00559:
+  places:
+  - commune: Cilaos
+    department: '974'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-jours-ou-broderie-de-cilaos
+2026_67717_INV_PCI_FRANCE_00561:
+  places:
+  - area: Alsace
+  - area: Champagne-Ardenne
+  - region: '53'
+  - region: '28'
+  - region: '84'
+  - region: '76'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-savoir-faire-de-la-construction-en-terre-crue-en-france
+2026_67717_INV_PCI_FRANCE_00562:
+  places:
+  - commune: Sorède
+    department: '66'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/la-fabrication-de-cravaches-et-de-fouets-a-sorede-pyrenees-orientales
+2026_67717_INV_PCI_FRANCE_00563:
+  places:
+  - commune: Saint-Jean-de-Boiseau
+    department: '44'
+  - commune: Mauges-sur-Loire
+    department: '49'
+    label: Montjean-sur-Loire
+  - commune: Chalonnes-sur-Loire
+    department: '49'
+  - commune: La Possonnière
+    department: '49'
+  - commune: Angers
+    department: '49'
+  - commune: Mûrs-Erigné
+    department: '49'
+  - commune: Gennes-Val-de-Loire
+    department: '49'
+    label: Le Thoureil
+  - commune: Saumur
+    department: '49'
+  - commune: Chouzé-sur-Loire
+    department: '37'
+  - commune: Savigny-en-Véron
+    department: '37'
+  - commune: Bréhémont
+    department: '37'
+  - commune: La Chapelle-aux-Naux
+    department: '37'
+  - commune: Saint-Étienne-de-Chigny
+    department: '37'
+  - commune: Savonnières
+    department: '37'
+  - commune: Tours
+    department: '37'
+  - commune: Rochecorbon
+    department: '37'
+  - commune: Saint-Dyé-sur-Loire
+    department: '41'
+  - commune: Meung-sur-Loire
+    department: '45'
+  - commune: Orléans
+    department: '45'
+  sources:
+  - publisher: Ministère de la Culture, fiche d'inventaire
+    url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/pratique-de-la-navigation-a-voile-carree-sur-la-loire

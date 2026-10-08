@@ -1,4 +1,155 @@
 {
+ "area:Alsace": {
+  "label": "Alsace",
+  "lat": 48.3121,
+  "lon": 7.433,
+  "precision": "region",
+  "overseas": false
+ },
+ "area:Aquitaine": {
+  "label": "Aquitaine",
+  "lat": 44.2987,
+  "lon": -0.1162,
+  "precision": "region",
+  "overseas": false
+ },
+ "area:Bourgogne": {
+  "label": "Bourgogne",
+  "lat": 47.2284,
+  "lon": 4.2909,
+  "precision": "region",
+  "overseas": false
+ },
+ "area:Champagne-Ardenne": {
+  "label": "Champagne-Ardenne",
+  "lat": 48.7761,
+  "lon": 4.5358,
+  "precision": "region",
+  "overseas": false
+ },
+ "area:Lorraine": {
+  "label": "Lorraine",
+  "lat": 48.7957,
+  "lon": 6.1747,
+  "precision": "region",
+  "overseas": false
+ },
+ "area:Nord-Pas-de-Calais": {
+  "label": "Nord-Pas-de-Calais",
+  "lat": 50.4416,
+  "lon": 2.7265,
+  "precision": "region",
+  "overseas": false
+ },
+ "area:Pays basque": {
+  "label": "Pays basque",
+  "lat": 43.3,
+  "lon": -1.2,
+  "precision": "region",
+  "overseas": false
+ },
+ "area:Picardie": {
+  "label": "Picardie",
+  "lat": 49.6496,
+  "lon": 2.7766,
+  "precision": "region",
+  "overseas": false
+ },
+ "area:Rhône-Alpes": {
+  "label": "Rhône-Alpes",
+  "lat": 45.4787,
+  "lon": 5.2119,
+  "precision": "region",
+  "overseas": false
+ },
+ "commune:01:bourg en bresse": {
+  "label": "Bourg-en-Bresse",
+  "lat": 46.2027,
+  "lon": 5.2469,
+  "precision": "commune",
+  "insee": "01053",
+  "overseas": false
+ },
+ "commune:01:saint etienne du bois": {
+  "label": "Saint-Étienne-du-Bois",
+  "lat": 46.2755,
+  "lon": 5.2793,
+  "precision": "commune",
+  "insee": "01350",
+  "overseas": false
+ },
+ "commune:01:villars les dombes": {
+  "label": "Villars-les-Dombes",
+  "lat": 46,
+  "lon": 5.0443,
+  "precision": "commune",
+  "insee": "01443",
+  "overseas": false
+ },
+ "commune:03:le mayet de montagne": {
+  "label": "Le Mayet-de-Montagne",
+  "lat": 46.0605,
+  "lon": 3.6491,
+  "precision": "commune",
+  "insee": "03165",
+  "overseas": false
+ },
+ "commune:03:saint bonnet troncais": {
+  "label": "Saint-Bonnet-Tronçais",
+  "lat": 46.6689,
+  "lon": 2.6964,
+  "precision": "commune",
+  "insee": "03221",
+  "overseas": false
+ },
+ "commune:04:banon": {
+  "label": "Banon",
+  "lat": 44.0244,
+  "lon": 5.6496,
+  "precision": "commune",
+  "insee": "04018",
+  "overseas": false
+ },
+ "commune:04:forcalquier": {
+  "label": "Forcalquier",
+  "lat": 43.9582,
+  "lon": 5.7842,
+  "precision": "commune",
+  "insee": "04088",
+  "overseas": false
+ },
+ "commune:05:briancon": {
+  "label": "Briançon",
+  "lat": 44.8995,
+  "lon": 6.6536,
+  "precision": "commune",
+  "insee": "05023",
+  "overseas": false
+ },
+ "commune:05:gap": {
+  "label": "Gap",
+  "lat": 44.5797,
+  "lon": 6.0616,
+  "precision": "commune",
+  "insee": "05061",
+  "overseas": false
+ },
+ "commune:06:grasse": {
+  "label": "Grasse",
+  "lat": 43.656,
+  "lon": 6.937,
+  "precision": "commune",
+  "insee": "06069",
+  "overseas": false
+ },
+ "commune:06:levens": {
+  "label": "Levens",
+  "lat": 43.8501,
+  "lon": 7.2358,
+  "precision": "commune",
+  "insee": "06075",
+  "overseas": false
+ },
  "commune:06:menton": {
   "label": "Menton",
   "lat": 43.7961,
@@ -15,12 +166,60 @@
   "insee": "06088",
   "overseas": false
  },
+ "commune:06:saint martin vesubie": {
+  "label": "Saint-Martin-Vésubie",
+  "lat": 44.0944,
+  "lon": 7.307,
+  "precision": "commune",
+  "insee": "06127",
+  "overseas": false
+ },
  "commune:06:tende": {
   "label": "Tende",
   "lat": 44.0971,
   "lon": 7.5499,
   "precision": "commune",
   "insee": "06163",
+  "overseas": false
+ },
+ "commune:07:tournon sur rhone": {
+  "label": "Tournon-sur-Rhône",
+  "lat": 45.0534,
+  "lon": 4.8156,
+  "precision": "commune",
+  "insee": "07324",
+  "overseas": false
+ },
+ "commune:08:rubigny": {
+  "label": "Rubigny",
+  "lat": 49.6891,
+  "lon": 4.2058,
+  "precision": "commune",
+  "insee": "08372",
+  "overseas": false
+ },
+ "commune:09:lavelanet": {
+  "label": "Lavelanet",
+  "lat": 42.934,
+  "lon": 1.8466,
+  "precision": "commune",
+  "insee": "09160",
+  "overseas": false
+ },
+ "commune:11:brousses et villaret": {
+  "label": "Brousses-et-Villaret",
+  "lat": 43.3433,
+  "lon": 2.2454,
+  "precision": "commune",
+  "insee": "11052",
+  "overseas": false
+ },
+ "commune:11:gruissan": {
+  "label": "Gruissan",
+  "lat": 43.1042,
+  "lon": 3.0871,
+  "precision": "commune",
+  "insee": "11170",
   "overseas": false
  },
  "commune:11:limoux": {
@@ -31,12 +230,84 @@
   "insee": "11206",
   "overseas": false
  },
+ "commune:11:narbonne": {
+  "label": "Narbonne",
+  "lat": 43.1493,
+  "lon": 3.0337,
+  "precision": "commune",
+  "insee": "11262",
+  "overseas": false
+ },
+ "commune:12:conques en rouergue": {
+  "label": "Conques-en-Rouergue",
+  "lat": 44.5817,
+  "lon": 2.3895,
+  "precision": "commune",
+  "insee": "12218",
+  "overseas": false
+ },
  "commune:12:marcillac vallon": {
   "label": "Marcillac-Vallon",
   "lat": 44.4776,
   "lon": 2.4612,
   "precision": "commune",
   "insee": "12138",
+  "overseas": false
+ },
+ "commune:12:millau": {
+  "label": "Millau",
+  "lat": 44.0982,
+  "lon": 3.1176,
+  "precision": "commune",
+  "insee": "12145",
+  "overseas": false
+ },
+ "commune:13:aix en provence": {
+  "label": "Aix-en-Provence",
+  "lat": 43.536,
+  "lon": 5.3879,
+  "precision": "commune",
+  "insee": "13001",
+  "overseas": false
+ },
+ "commune:13:aubagne": {
+  "label": "Aubagne",
+  "lat": 43.2904,
+  "lon": 5.5643,
+  "precision": "commune",
+  "insee": "13005",
+  "overseas": false
+ },
+ "commune:13:cassis": {
+  "label": "Cassis",
+  "lat": 43.2185,
+  "lon": 5.5503,
+  "precision": "commune",
+  "insee": "13022",
+  "overseas": false
+ },
+ "commune:13:chateaurenard": {
+  "label": "Châteaurenard",
+  "lat": 43.8829,
+  "lon": 4.8344,
+  "precision": "commune",
+  "insee": "13027",
+  "overseas": false
+ },
+ "commune:13:gemenos": {
+  "label": "Gémenos",
+  "lat": 43.2969,
+  "lon": 5.6518,
+  "precision": "commune",
+  "insee": "13042",
+  "overseas": false
+ },
+ "commune:13:la ciotat": {
+  "label": "La Ciotat",
+  "lat": 43.1882,
+  "lon": 5.6175,
+  "precision": "commune",
+  "insee": "13028",
   "overseas": false
  },
  "commune:13:marseille": {
@@ -55,12 +326,196 @@
   "insee": "13065",
   "overseas": false
  },
+ "commune:13:noves": {
+  "label": "Noves",
+  "lat": 43.86,
+  "lon": 4.9018,
+  "precision": "commune",
+  "insee": "13066",
+  "overseas": false
+ },
+ "commune:13:rognonas": {
+  "label": "Rognonas",
+  "lat": 43.8992,
+  "lon": 4.7948,
+  "precision": "commune",
+  "insee": "13083",
+  "overseas": false
+ },
+ "commune:13:saint remy de provence": {
+  "label": "Saint-Rémy-de-Provence",
+  "lat": 43.7815,
+  "lon": 4.8455,
+  "precision": "commune",
+  "insee": "13100",
+  "overseas": false
+ },
  "commune:13:tarascon": {
   "label": "Tarascon",
   "lat": 43.7972,
   "lon": 4.6852,
   "precision": "commune",
   "insee": "13108",
+  "overseas": false
+ },
+ "commune:14:bavent": {
+  "label": "Bavent",
+  "lat": 49.2281,
+  "lon": -0.18,
+  "precision": "commune",
+  "insee": "14046",
+  "overseas": false
+ },
+ "commune:14:bayeux": {
+  "label": "Bayeux",
+  "lat": 49.2772,
+  "lon": -0.7016,
+  "precision": "commune",
+  "insee": "14047",
+  "overseas": false
+ },
+ "commune:14:caen": {
+  "label": "Caen",
+  "lat": 49.1846,
+  "lon": -0.3722,
+  "precision": "commune",
+  "insee": "14118",
+  "overseas": false
+ },
+ "commune:14:isigny sur mer": {
+  "label": "Isigny-sur-Mer",
+  "lat": 49.2852,
+  "lon": -1.057,
+  "precision": "commune",
+  "insee": "14342",
+  "overseas": false
+ },
+ "commune:14:le pre d'auge": {
+  "label": "Le Pré-d'Auge",
+  "lat": 49.1523,
+  "lon": 0.138,
+  "precision": "commune",
+  "insee": "14520",
+  "overseas": false
+ },
+ "commune:14:lisieux": {
+  "label": "Lisieux",
+  "lat": 49.1478,
+  "lon": 0.2426,
+  "precision": "commune",
+  "insee": "14366",
+  "overseas": false
+ },
+ "commune:14:notre dame d'estrees corbon": {
+  "label": "Notre-Dame-d'Estrées-Corbon",
+  "lat": 49.1357,
+  "lon": -0.0145,
+  "precision": "commune",
+  "insee": "14474",
+  "overseas": false
+ },
+ "commune:14:port en bessin huppain": {
+  "label": "Port-en-Bessin-Huppain",
+  "lat": 49.3387,
+  "lon": -0.7727,
+  "precision": "commune",
+  "insee": "14515",
+  "overseas": false
+ },
+ "commune:14:saint jouin": {
+  "label": "Saint-Jouin",
+  "lat": 49.2194,
+  "lon": -0.0115,
+  "precision": "commune",
+  "insee": "14598",
+  "overseas": false
+ },
+ "commune:14:saint martin de la lieue": {
+  "label": "Saint-Martin-de-la-Lieue",
+  "lat": 49.111,
+  "lon": 0.2231,
+  "precision": "commune",
+  "insee": "14625",
+  "overseas": false
+ },
+ "commune:14:vire normandie": {
+  "label": "Vire Normandie",
+  "lat": 48.8199,
+  "lon": -0.87,
+  "precision": "commune",
+  "insee": "14762",
+  "overseas": false
+ },
+ "commune:15:salers": {
+  "label": "Salers",
+  "lat": 45.144,
+  "lon": 2.5016,
+  "precision": "commune",
+  "insee": "15219",
+  "overseas": false
+ },
+ "commune:16:cognac": {
+  "label": "Cognac",
+  "lat": 45.696,
+  "lon": -0.3376,
+  "precision": "commune",
+  "insee": "16102",
+  "overseas": false
+ },
+ "commune:16:puymoyen": {
+  "label": "Puymoyen",
+  "lat": 45.611,
+  "lon": 0.1704,
+  "precision": "commune",
+  "insee": "16271",
+  "overseas": false
+ },
+ "commune:17:port des barques": {
+  "label": "Port-des-Barques",
+  "lat": 45.9439,
+  "lon": -1.0869,
+  "precision": "commune",
+  "insee": "17484",
+  "overseas": false
+ },
+ "commune:17:saint martin de re": {
+  "label": "Saint-Martin-de-Ré",
+  "lat": 46.1987,
+  "lon": -1.3714,
+  "precision": "commune",
+  "insee": "17369",
+  "overseas": false
+ },
+ "commune:17:sainte soulle": {
+  "label": "Sainte-Soulle",
+  "lat": 46.1966,
+  "lon": -1.006,
+  "precision": "commune",
+  "insee": "17407",
+  "overseas": false
+ },
+ "commune:17:talmont sur gironde": {
+  "label": "Talmont-sur-Gironde",
+  "lat": 45.5288,
+  "lon": -0.9227,
+  "precision": "commune",
+  "insee": "17437",
+  "overseas": false
+ },
+ "commune:18:ainay le vieil": {
+  "label": "Ainay-le-Vieil",
+  "lat": 46.6573,
+  "lon": 2.5413,
+  "precision": "commune",
+  "insee": "18002",
+  "overseas": false
+ },
+ "commune:18:la chapelle d'angillon": {
+  "label": "La Chapelle-d'Angillon",
+  "lat": 47.3705,
+  "lon": 2.4416,
+  "precision": "commune",
+  "insee": "18047",
   "overseas": false
  },
  "commune:18:sainte solange": {
@@ -71,12 +526,252 @@
   "insee": "18235",
   "overseas": false
  },
+ "commune:19:saint clement": {
+  "label": "Saint-Clément",
+  "lat": 45.3344,
+  "lon": 1.6876,
+  "precision": "commune",
+  "insee": "19194",
+  "overseas": false
+ },
+ "commune:21:dijon": {
+  "label": "Dijon",
+  "lat": 47.3319,
+  "lon": 5.0322,
+  "precision": "commune",
+  "insee": "21231",
+  "overseas": false
+ },
+ "commune:22:berhet": {
+  "label": "Berhet",
+  "lat": 48.6975,
+  "lon": -3.3089,
+  "precision": "commune",
+  "insee": "22006",
+  "overseas": false
+ },
+ "commune:22:dinan": {
+  "label": "Dinan",
+  "lat": 48.4471,
+  "lon": -2.0533,
+  "precision": "commune",
+  "insee": "22050",
+  "overseas": false
+ },
+ "commune:22:frehel": {
+  "label": "Fréhel",
+  "lat": 48.6334,
+  "lon": -2.3713,
+  "precision": "commune",
+  "insee": "22179",
+  "overseas": false
+ },
+ "commune:22:lamballe armor": {
+  "label": "Lamballe-Armor",
+  "lat": 48.4859,
+  "lon": -2.5201,
+  "precision": "commune",
+  "insee": "22093",
+  "overseas": false
+ },
+ "commune:22:lannion": {
+  "label": "Lannion",
+  "lat": 48.7454,
+  "lon": -3.4697,
+  "precision": "commune",
+  "insee": "22113",
+  "overseas": false
+ },
+ "commune:22:le mene": {
+  "label": "Le Mené",
+  "lat": 48.2837,
+  "lon": -2.5144,
+  "precision": "commune",
+  "insee": "22046",
+  "overseas": false
+ },
+ "commune:22:le moustoir": {
+  "label": "Le Moustoir",
+  "lat": 48.2729,
+  "lon": -3.4855,
+  "precision": "commune",
+  "insee": "22157",
+  "overseas": false
+ },
+ "commune:22:le quiou": {
+  "label": "Le Quiou",
+  "lat": 48.3464,
+  "lon": -1.9963,
+  "precision": "commune",
+  "insee": "22263",
+  "overseas": false
+ },
+ "commune:22:loudeac": {
+  "label": "Loudéac",
+  "lat": 48.1737,
+  "lon": -2.7442,
+  "precision": "commune",
+  "insee": "22136",
+  "overseas": false
+ },
+ "commune:22:pleudihen sur rance": {
+  "label": "Pleudihen-sur-Rance",
+  "lat": 48.5138,
+  "lon": -1.9451,
+  "precision": "commune",
+  "insee": "22197",
+  "overseas": false
+ },
+ "commune:22:ploufragan": {
+  "label": "Ploufragan",
+  "lat": 48.4915,
+  "lon": -2.8001,
+  "precision": "commune",
+  "insee": "22215",
+  "overseas": false
+ },
+ "commune:22:plumaudan": {
+  "label": "Plumaudan",
+  "lat": 48.3542,
+  "lon": -2.1179,
+  "precision": "commune",
+  "insee": "22239",
+  "overseas": false
+ },
+ "commune:22:saint brieuc": {
+  "label": "Saint-Brieuc",
+  "lat": 48.5108,
+  "lon": -2.7657,
+  "precision": "commune",
+  "insee": "22278",
+  "overseas": false
+ },
+ "commune:22:saint carreuc": {
+  "label": "Saint-Carreuc",
+  "lat": 48.4017,
+  "lon": -2.7471,
+  "precision": "commune",
+  "insee": "22281",
+  "overseas": false
+ },
+ "commune:22:saint cast le guildo": {
+  "label": "Saint-Cast-le-Guildo",
+  "lat": 48.6077,
+  "lon": -2.2499,
+  "precision": "commune",
+  "insee": "22282",
+  "overseas": false
+ },
+ "commune:22:trebedan": {
+  "label": "Trébédan",
+  "lat": 48.4056,
+  "lon": -2.1622,
+  "precision": "commune",
+  "insee": "22342",
+  "overseas": false
+ },
+ "commune:22:yffiniac": {
+  "label": "Yffiniac",
+  "lat": 48.4692,
+  "lon": -2.6862,
+  "precision": "commune",
+  "insee": "22389",
+  "overseas": false
+ },
+ "commune:23:aubusson": {
+  "label": "Aubusson",
+  "lat": 45.9472,
+  "lon": 2.1701,
+  "precision": "commune",
+  "insee": "23008",
+  "overseas": false
+ },
+ "commune:23:felletin": {
+  "label": "Felletin",
+  "lat": 45.8942,
+  "lon": 2.187,
+  "precision": "commune",
+  "insee": "23079",
+  "overseas": false
+ },
+ "commune:23:la sauniere": {
+  "label": "La Saunière",
+  "lat": 46.1305,
+  "lon": 1.9417,
+  "precision": "commune",
+  "insee": "23169",
+  "overseas": false
+ },
+ "commune:24:boulazac isle manoire": {
+  "label": "Boulazac Isle Manoire",
+  "lat": 45.1385,
+  "lon": 0.7878,
+  "precision": "commune",
+  "insee": "24053",
+  "overseas": false
+ },
+ "commune:24:brantome en perigord": {
+  "label": "Brantôme en Périgord",
+  "lat": 45.3756,
+  "lon": 0.6596,
+  "precision": "commune",
+  "insee": "24064",
+  "overseas": false
+ },
+ "commune:24:couze et saint front": {
+  "label": "Couze-et-Saint-Front",
+  "lat": 44.8234,
+  "lon": 0.725,
+  "precision": "commune",
+  "insee": "24143",
+  "overseas": false
+ },
+ "commune:24:daglan": {
+  "label": "Daglan",
+  "lat": 44.7453,
+  "lon": 1.1896,
+  "precision": "commune",
+  "insee": "24150",
+  "overseas": false
+ },
+ "commune:24:lavaur": {
+  "label": "Lavaur",
+  "lat": 44.6263,
+  "lon": 1.0224,
+  "precision": "commune",
+  "insee": "24232",
+  "overseas": false
+ },
+ "commune:24:nontron": {
+  "label": "Nontron",
+  "lat": 45.5337,
+  "lon": 0.6823,
+  "precision": "commune",
+  "insee": "24311",
+  "overseas": false
+ },
+ "commune:24:perigueux": {
+  "label": "Périgueux",
+  "lat": 45.1939,
+  "lon": 0.7105,
+  "precision": "commune",
+  "insee": "24322",
+  "overseas": false
+ },
  "commune:24:saint aulaye puymangou": {
   "label": "Saint Aulaye-Puymangou",
   "lat": 45.1817,
   "lon": 0.1144,
   "precision": "commune",
   "insee": "24376",
+  "overseas": false
+ },
+ "commune:24:saint genies": {
+  "label": "Saint-Geniès",
+  "lat": 45.0027,
+  "lon": 1.2539,
+  "precision": "commune",
+  "insee": "24412",
   "overseas": false
  },
  "commune:24:sarlat la caneda": {
@@ -87,6 +782,246 @@
   "insee": "24520",
   "overseas": false
  },
+ "commune:25:besancon": {
+  "label": "Besançon",
+  "lat": 47.2602,
+  "lon": 6.0123,
+  "precision": "commune",
+  "insee": "25056",
+  "overseas": false
+ },
+ "commune:25:morteau": {
+  "label": "Morteau",
+  "lat": 47.0643,
+  "lon": 6.5891,
+  "precision": "commune",
+  "insee": "25411",
+  "overseas": false
+ },
+ "commune:26:buis les baronnies": {
+  "label": "Buis-les-Baronnies",
+  "lat": 44.2714,
+  "lon": 5.2811,
+  "precision": "commune",
+  "insee": "26063",
+  "overseas": false
+ },
+ "commune:26:loriol sur drome": {
+  "label": "Loriol-sur-Drôme",
+  "lat": 44.7495,
+  "lon": 4.8141,
+  "precision": "commune",
+  "insee": "26166",
+  "overseas": false
+ },
+ "commune:26:montelier": {
+  "label": "Montélier",
+  "lat": 44.9418,
+  "lon": 5.0201,
+  "precision": "commune",
+  "insee": "26197",
+  "overseas": false
+ },
+ "commune:26:pont de barret": {
+  "label": "Pont-de-Barret",
+  "lat": 44.5928,
+  "lon": 5.0037,
+  "precision": "commune",
+  "insee": "26249",
+  "overseas": false
+ },
+ "commune:26:saillans": {
+  "label": "Saillans",
+  "lat": 44.7208,
+  "lon": 5.1883,
+  "precision": "commune",
+  "insee": "26289",
+  "overseas": false
+ },
+ "commune:26:tain l'hermitage": {
+  "label": "Tain-l'Hermitage",
+  "lat": 45.068,
+  "lon": 4.8488,
+  "precision": "commune",
+  "insee": "26347",
+  "overseas": false
+ },
+ "commune:27:bouquetot": {
+  "label": "Bouquetot",
+  "lat": 49.3618,
+  "lon": 0.7683,
+  "precision": "commune",
+  "insee": "27102",
+  "overseas": false
+ },
+ "commune:27:bourg achard": {
+  "label": "Bourg-Achard",
+  "lat": 49.3452,
+  "lon": 0.8075,
+  "precision": "commune",
+  "insee": "27103",
+  "overseas": false
+ },
+ "commune:27:caumont": {
+  "label": "Caumont",
+  "lat": 49.3678,
+  "lon": 0.9078,
+  "precision": "commune",
+  "insee": "27133",
+  "overseas": false
+ },
+ "commune:27:la haye de routot": {
+  "label": "La Haye-de-Routot",
+  "lat": 49.4022,
+  "lon": 0.7267,
+  "precision": "commune",
+  "insee": "27319",
+  "overseas": false
+ },
+ "commune:27:pont audemer": {
+  "label": "Pont-Audemer",
+  "lat": 49.3476,
+  "lon": 0.5259,
+  "precision": "commune",
+  "insee": "27467",
+  "overseas": false
+ },
+ "commune:29:beuzec cap sizun": {
+  "label": "Beuzec-Cap-Sizun",
+  "lat": 48.0729,
+  "lon": -4.5116,
+  "precision": "commune",
+  "insee": "29008",
+  "overseas": false
+ },
+ "commune:29:carhaix plouguer": {
+  "label": "Carhaix-Plouguer",
+  "lat": 48.2708,
+  "lon": -3.5654,
+  "precision": "commune",
+  "insee": "29024",
+  "overseas": false
+ },
+ "commune:29:cleder": {
+  "label": "Cléder",
+  "lat": 48.6578,
+  "lon": -4.1239,
+  "precision": "commune",
+  "insee": "29030",
+  "overseas": false
+ },
+ "commune:29:clohars carnoet": {
+  "label": "Clohars-Carnoët",
+  "lat": 47.7981,
+  "lon": -3.5682,
+  "precision": "commune",
+  "insee": "29031",
+  "overseas": false
+ },
+ "commune:29:combrit": {
+  "label": "Combrit",
+  "lat": 47.8922,
+  "lon": -4.1607,
+  "precision": "commune",
+  "insee": "29037",
+  "overseas": false
+ },
+ "commune:29:garlan": {
+  "label": "Garlan",
+  "lat": 48.6055,
+  "lon": -3.7683,
+  "precision": "commune",
+  "insee": "29059",
+  "overseas": false
+ },
+ "commune:29:guerlesquin": {
+  "label": "Guerlesquin",
+  "lat": 48.5289,
+  "lon": -3.5832,
+  "precision": "commune",
+  "insee": "29067",
+  "overseas": false
+ },
+ "commune:29:guimaec": {
+  "label": "Guimaëc",
+  "lat": 48.6814,
+  "lon": -3.7008,
+  "precision": "commune",
+  "insee": "29073",
+  "overseas": false
+ },
+ "commune:29:guisseny": {
+  "label": "Guissény",
+  "lat": 48.615,
+  "lon": -4.4066,
+  "precision": "commune",
+  "insee": "29077",
+  "overseas": false
+ },
+ "commune:29:huelgoat": {
+  "label": "Huelgoat",
+  "lat": 48.3621,
+  "lon": -3.762,
+  "precision": "commune",
+  "insee": "29081",
+  "overseas": false
+ },
+ "commune:29:kergloff": {
+  "label": "Kergloff",
+  "lat": 48.2818,
+  "lon": -3.648,
+  "precision": "commune",
+  "insee": "29089",
+  "overseas": false
+ },
+ "commune:29:kerlouan": {
+  "label": "Kerlouan",
+  "lat": 48.6498,
+  "lon": -4.3925,
+  "precision": "commune",
+  "insee": "29091",
+  "overseas": false
+ },
+ "commune:29:landeleau": {
+  "label": "Landeleau",
+  "lat": 48.2497,
+  "lon": -3.7332,
+  "precision": "commune",
+  "insee": "29102",
+  "overseas": false
+ },
+ "commune:29:landivisiau": {
+  "label": "Landivisiau",
+  "lat": 48.5163,
+  "lon": -4.0615,
+  "precision": "commune",
+  "insee": "29105",
+  "overseas": false
+ },
+ "commune:29:landudec": {
+  "label": "Landudec",
+  "lat": 47.9986,
+  "lon": -4.3325,
+  "precision": "commune",
+  "insee": "29108",
+  "overseas": false
+ },
+ "commune:29:lanmeur": {
+  "label": "Lanmeur",
+  "lat": 48.644,
+  "lon": -3.7187,
+  "precision": "commune",
+  "insee": "29113",
+  "overseas": false
+ },
+ "commune:29:lesneven": {
+  "label": "Lesneven",
+  "lat": 48.5814,
+  "lon": -4.3104,
+  "precision": "commune",
+  "insee": "29124",
+  "overseas": false
+ },
  "commune:29:locronan": {
   "label": "Locronan",
   "lat": 48.0955,
@@ -95,12 +1030,300 @@
   "insee": "29134",
   "overseas": false
  },
+ "commune:29:morlaix": {
+  "label": "Morlaix",
+  "lat": 48.5971,
+  "lon": -3.8215,
+  "precision": "commune",
+  "insee": "29151",
+  "overseas": false
+ },
+ "commune:29:motreff": {
+  "label": "Motreff",
+  "lat": 48.2215,
+  "lon": -3.5602,
+  "precision": "commune",
+  "insee": "29152",
+  "overseas": false
+ },
+ "commune:29:plogastel saint germain": {
+  "label": "Plogastel-Saint-Germain",
+  "lat": 47.9748,
+  "lon": -4.2689,
+  "precision": "commune",
+  "insee": "29167",
+  "overseas": false
+ },
+ "commune:29:plouescat": {
+  "label": "Plouescat",
+  "lat": 48.6676,
+  "lon": -4.1851,
+  "precision": "commune",
+  "insee": "29185",
+  "overseas": false
+ },
+ "commune:29:plouezoc'h": {
+  "label": "Plouezoc'h",
+  "lat": 48.6442,
+  "lon": -3.8251,
+  "precision": "commune",
+  "insee": "29186",
+  "overseas": false
+ },
+ "commune:29:plougasnou": {
+  "label": "Plougasnou",
+  "lat": 48.6788,
+  "lon": -3.8142,
+  "precision": "commune",
+  "insee": "29188",
+  "overseas": false
+ },
+ "commune:29:plougastel daoulas": {
+  "label": "Plougastel-Daoulas",
+  "lat": 48.3628,
+  "lon": -4.3912,
+  "precision": "commune",
+  "insee": "29189",
+  "overseas": false
+ },
+ "commune:29:plouguerneau": {
+  "label": "Plouguerneau",
+  "lat": 48.6046,
+  "lon": -4.5104,
+  "precision": "commune",
+  "insee": "29195",
+  "overseas": false
+ },
+ "commune:29:plouneour brignogan plages": {
+  "label": "Plounéour-Brignogan-plages",
+  "lat": 48.6519,
+  "lon": -4.3246,
+  "precision": "commune",
+  "insee": "29021",
+  "overseas": false
+ },
+ "commune:29:plounevez lochrist": {
+  "label": "Plounévez-Lochrist",
+  "lat": 48.6213,
+  "lon": -4.1983,
+  "precision": "commune",
+  "insee": "29206",
+  "overseas": false
+ },
+ "commune:29:plounevezel": {
+  "label": "Plounévézel",
+  "lat": 48.3143,
+  "lon": -3.5653,
+  "precision": "commune",
+  "insee": "29205",
+  "overseas": false
+ },
+ "commune:29:plovan": {
+  "label": "Plovan",
+  "lat": 47.9337,
+  "lon": -4.3589,
+  "precision": "commune",
+  "insee": "29214",
+  "overseas": false
+ },
+ "commune:29:pont aven": {
+  "label": "Pont-Aven",
+  "lat": 47.8742,
+  "lon": -3.7651,
+  "precision": "commune",
+  "insee": "29217",
+  "overseas": false
+ },
+ "commune:29:pont de buis les quimerch": {
+  "label": "Pont-de-Buis-lès-Quimerch",
+  "lat": 48.2738,
+  "lon": -4.1109,
+  "precision": "commune",
+  "insee": "29302",
+  "overseas": false
+ },
+ "commune:29:pont l'abbe": {
+  "label": "Pont-l'Abbé",
+  "lat": 47.8674,
+  "lon": -4.2174,
+  "precision": "commune",
+  "insee": "29220",
+  "overseas": false
+ },
+ "commune:29:quimper": {
+  "label": "Quimper",
+  "lat": 47.9982,
+  "lon": -4.0972,
+  "precision": "commune",
+  "insee": "29232",
+  "overseas": false
+ },
+ "commune:29:roscoff": {
+  "label": "Roscoff",
+  "lat": 48.7135,
+  "lon": -3.9866,
+  "precision": "commune",
+  "insee": "29239",
+  "overseas": false
+ },
+ "commune:29:saint hernin": {
+  "label": "Saint-Hernin",
+  "lat": 48.2097,
+  "lon": -3.6134,
+  "precision": "commune",
+  "insee": "29250",
+  "overseas": false
+ },
+ "commune:29:saint jean du doigt": {
+  "label": "Saint-Jean-du-Doigt",
+  "lat": 48.6683,
+  "lon": -3.7619,
+  "precision": "commune",
+  "insee": "29251",
+  "overseas": false
+ },
+ "commune:29:saint pol de leon": {
+  "label": "Saint-Pol-de-Léon",
+  "lat": 48.6743,
+  "lon": -3.989,
+  "precision": "commune",
+  "insee": "29259",
+  "overseas": false
+ },
+ "commune:29:saint renan": {
+  "label": "Saint-Renan",
+  "lat": 48.4288,
+  "lon": -4.6212,
+  "precision": "commune",
+  "insee": "29260",
+  "overseas": false
+ },
+ "commune:29:saint sauveur": {
+  "label": "Saint-Sauveur",
+  "lat": 48.4485,
+  "lon": -3.9992,
+  "precision": "commune",
+  "insee": "29262",
+  "overseas": false
+ },
  "commune:29:scaer": {
   "label": "Scaër",
   "lat": 48.0268,
   "lon": -3.7267,
   "precision": "commune",
   "insee": "29274",
+  "overseas": false
+ },
+ "commune:29:sibiril": {
+  "label": "Sibiril",
+  "lat": 48.6666,
+  "lon": -4.0707,
+  "precision": "commune",
+  "insee": "29276",
+  "overseas": false
+ },
+ "commune:29:telgruc sur mer": {
+  "label": "Telgruc-sur-Mer",
+  "lat": 48.2367,
+  "lon": -4.3613,
+  "precision": "commune",
+  "insee": "29280",
+  "overseas": false
+ },
+ "commune:29:treflez": {
+  "label": "Tréflez",
+  "lat": 48.6254,
+  "lon": -4.2645,
+  "precision": "commune",
+  "insee": "29287",
+  "overseas": false
+ },
+ "commune:29:treguennec": {
+  "label": "Tréguennec",
+  "lat": 47.8831,
+  "lon": -4.3368,
+  "precision": "commune",
+  "insee": "29292",
+  "overseas": false
+ },
+ "commune:29:tregunc": {
+  "label": "Trégunc",
+  "lat": 47.8372,
+  "lon": -3.8463,
+  "precision": "commune",
+  "insee": "29293",
+  "overseas": false
+ },
+ "commune:2A:ajaccio": {
+  "label": "Ajaccio",
+  "lat": 41.9228,
+  "lon": 8.7058,
+  "precision": "commune",
+  "insee": "2A004",
+  "overseas": false
+ },
+ "commune:2A:carbuccia": {
+  "label": "Carbuccia",
+  "lat": 42.0343,
+  "lon": 8.9302,
+  "precision": "commune",
+  "insee": "2A062",
+  "overseas": false
+ },
+ "commune:2B:bastia": {
+  "label": "Bastia",
+  "lat": 42.6861,
+  "lon": 9.424,
+  "precision": "commune",
+  "insee": "2B033",
+  "overseas": false
+ },
+ "commune:2B:furiani": {
+  "label": "Furiani",
+  "lat": 42.6548,
+  "lon": 9.4213,
+  "precision": "commune",
+  "insee": "2B120",
+  "overseas": false
+ },
+ "commune:2B:sermano": {
+  "label": "Sermano",
+  "lat": 42.3155,
+  "lon": 9.2637,
+  "precision": "commune",
+  "insee": "2B275",
+  "overseas": false
+ },
+ "commune:30:beaucaire": {
+  "label": "Beaucaire",
+  "lat": 43.7815,
+  "lon": 4.5912,
+  "precision": "commune",
+  "insee": "30032",
+  "overseas": false
+ },
+ "commune:30:bellegarde": {
+  "label": "Bellegarde",
+  "lat": 43.7483,
+  "lon": 4.4967,
+  "precision": "commune",
+  "insee": "30034",
+  "overseas": false
+ },
+ "commune:30:le grau du roi": {
+  "label": "Le Grau-du-Roi",
+  "lat": 43.5149,
+  "lon": 4.1704,
+  "precision": "commune",
+  "insee": "30133",
+  "overseas": false
+ },
+ "commune:30:montaren et saint mediers": {
+  "label": "Montaren-et-Saint-Médiers",
+  "lat": 44.0449,
+  "lon": 4.383,
+  "precision": "commune",
+  "insee": "30174",
   "overseas": false
  },
  "commune:31:bagneres de luchon": {
@@ -119,12 +1342,100 @@
   "insee": "31555",
   "overseas": false
  },
+ "commune:32:eauze": {
+  "label": "Eauze",
+  "lat": 43.8614,
+  "lon": 0.1057,
+  "precision": "commune",
+  "insee": "32119",
+  "overseas": false
+ },
+ "commune:32:vic fezensac": {
+  "label": "Vic-Fezensac",
+  "lat": 43.7662,
+  "lon": 0.2903,
+  "precision": "commune",
+  "insee": "32462",
+  "overseas": false
+ },
+ "commune:33:artigues pres bordeaux": {
+  "label": "Artigues-près-Bordeaux",
+  "lat": 44.8592,
+  "lon": -0.4878,
+  "precision": "commune",
+  "insee": "33013",
+  "overseas": false
+ },
  "commune:33:bazas": {
   "label": "Bazas",
   "lat": 44.4409,
   "lon": -0.2177,
   "precision": "commune",
   "insee": "33036",
+  "overseas": false
+ },
+ "commune:33:bordeaux": {
+  "label": "Bordeaux",
+  "lat": 44.8624,
+  "lon": -0.5848,
+  "precision": "commune",
+  "insee": "33063",
+  "overseas": false
+ },
+ "commune:33:margaux cantenac": {
+  "label": "Margaux-Cantenac",
+  "lat": 45.0363,
+  "lon": -0.6788,
+  "precision": "commune",
+  "insee": "33268",
+  "overseas": false
+ },
+ "commune:33:pauillac": {
+  "label": "Pauillac",
+  "lat": 45.1983,
+  "lon": -0.755,
+  "precision": "commune",
+  "insee": "33314",
+  "overseas": false
+ },
+ "commune:33:pellegrue": {
+  "label": "Pellegrue",
+  "lat": 44.7403,
+  "lon": 0.0864,
+  "precision": "commune",
+  "insee": "33316",
+  "overseas": false
+ },
+ "commune:33:saint ferme": {
+  "label": "Saint-Ferme",
+  "lat": 44.6951,
+  "lon": 0.0593,
+  "precision": "commune",
+  "insee": "33400",
+  "overseas": false
+ },
+ "commune:33:saint sulpice de faleyrens": {
+  "label": "Saint-Sulpice-de-Faleyrens",
+  "lat": 44.8614,
+  "lon": -0.1893,
+  "precision": "commune",
+  "insee": "33480",
+  "overseas": false
+ },
+ "commune:34:agde": {
+  "label": "Agde",
+  "lat": 43.3084,
+  "lon": 3.4838,
+  "precision": "commune",
+  "insee": "34003",
+  "overseas": false
+ },
+ "commune:34:balaruc les bains": {
+  "label": "Balaruc-les-Bains",
+  "lat": 43.4476,
+  "lon": 3.6922,
+  "precision": "commune",
+  "insee": "34023",
   "overseas": false
  },
  "commune:34:bessan": {
@@ -135,12 +1446,44 @@
   "insee": "34031",
   "overseas": false
  },
+ "commune:34:beziers": {
+  "label": "Béziers",
+  "lat": 43.3481,
+  "lon": 3.2342,
+  "precision": "commune",
+  "insee": "34032",
+  "overseas": false
+ },
  "commune:34:cournonterral": {
   "label": "Cournonterral",
   "lat": 43.5712,
   "lon": 3.7072,
   "precision": "commune",
   "insee": "34088",
+  "overseas": false
+ },
+ "commune:34:frontignan": {
+  "label": "Frontignan",
+  "lat": 43.4486,
+  "lon": 3.7493,
+  "precision": "commune",
+  "insee": "34108",
+  "overseas": false
+ },
+ "commune:34:gignac": {
+  "label": "Gignac",
+  "lat": 43.6416,
+  "lon": 3.5661,
+  "precision": "commune",
+  "insee": "34114",
+  "overseas": false
+ },
+ "commune:34:marseillan": {
+  "label": "Marseillan",
+  "lat": 43.3543,
+  "lon": 3.556,
+  "precision": "commune",
+  "insee": "34150",
   "overseas": false
  },
  "commune:34:meze": {
@@ -159,12 +1502,212 @@
   "insee": "34166",
   "overseas": false
  },
+ "commune:34:palavas les flots": {
+  "label": "Palavas-les-Flots",
+  "lat": 43.5323,
+  "lon": 3.9346,
+  "precision": "commune",
+  "insee": "34192",
+  "overseas": false
+ },
  "commune:34:pezenas": {
   "label": "Pézenas",
   "lat": 43.4616,
   "lon": 3.418,
   "precision": "commune",
   "insee": "34199",
+  "overseas": false
+ },
+ "commune:34:salasc": {
+  "label": "Salasc",
+  "lat": 43.6249,
+  "lon": 3.3088,
+  "precision": "commune",
+  "insee": "34292",
+  "overseas": false
+ },
+ "commune:34:sete": {
+  "label": "Sète",
+  "lat": 43.3844,
+  "lon": 3.6441,
+  "precision": "commune",
+  "insee": "34301",
+  "overseas": false
+ },
+ "commune:35:becherel": {
+  "label": "Bécherel",
+  "lat": 48.296,
+  "lon": -1.9423,
+  "precision": "commune",
+  "insee": "35022",
+  "overseas": false
+ },
+ "commune:35:bovel": {
+  "label": "Bovel",
+  "lat": 47.9532,
+  "lon": -1.9557,
+  "precision": "commune",
+  "insee": "35035",
+  "overseas": false
+ },
+ "commune:35:breal sous montfort": {
+  "label": "Bréal-sous-Montfort",
+  "lat": 48.0444,
+  "lon": -1.8733,
+  "precision": "commune",
+  "insee": "35037",
+  "overseas": false
+ },
+ "commune:35:cancale": {
+  "label": "Cancale",
+  "lat": 48.6895,
+  "lon": -1.8598,
+  "precision": "commune",
+  "insee": "35049",
+  "overseas": false
+ },
+ "commune:35:chanteloup": {
+  "label": "Chanteloup",
+  "lat": 47.9559,
+  "lon": -1.6222,
+  "precision": "commune",
+  "insee": "35054",
+  "overseas": false
+ },
+ "commune:35:dinard": {
+  "label": "Dinard",
+  "lat": 48.629,
+  "lon": -2.0602,
+  "precision": "commune",
+  "insee": "35093",
+  "overseas": false
+ },
+ "commune:35:fougeres": {
+  "label": "Fougères",
+  "lat": 48.3512,
+  "lon": -1.1953,
+  "precision": "commune",
+  "insee": "35115",
+  "overseas": false
+ },
+ "commune:35:gael": {
+  "label": "Gaël",
+  "lat": 48.1167,
+  "lon": -2.2346,
+  "precision": "commune",
+  "insee": "35117",
+  "overseas": false
+ },
+ "commune:35:guichen": {
+  "label": "Guichen",
+  "lat": 47.9623,
+  "lon": -1.7969,
+  "precision": "commune",
+  "insee": "35126",
+  "overseas": false
+ },
+ "commune:35:muel": {
+  "label": "Muel",
+  "lat": 48.116,
+  "lon": -2.1575,
+  "precision": "commune",
+  "insee": "35201",
+  "overseas": false
+ },
+ "commune:35:pipriac": {
+  "label": "Pipriac",
+  "lat": 47.8147,
+  "lon": -1.9416,
+  "precision": "commune",
+  "insee": "35219",
+  "overseas": false
+ },
+ "commune:35:redon": {
+  "label": "Redon",
+  "lat": 47.6557,
+  "lon": -2.0787,
+  "precision": "commune",
+  "insee": "35236",
+  "overseas": false
+ },
+ "commune:35:renac": {
+  "label": "Renac",
+  "lat": 47.722,
+  "lon": -1.9769,
+  "precision": "commune",
+  "insee": "35237",
+  "overseas": false
+ },
+ "commune:35:rennes": {
+  "label": "Rennes",
+  "lat": 48.1159,
+  "lon": -1.6884,
+  "precision": "commune",
+  "insee": "35238",
+  "overseas": false
+ },
+ "commune:35:saint jouan des guerets": {
+  "label": "Saint-Jouan-des-Guérets",
+  "lat": 48.6043,
+  "lon": -1.9667,
+  "precision": "commune",
+  "insee": "35284",
+  "overseas": false
+ },
+ "commune:35:saint meen le grand": {
+  "label": "Saint-Méen-le-Grand",
+  "lat": 48.1923,
+  "lon": -2.1903,
+  "precision": "commune",
+  "insee": "35297",
+  "overseas": false
+ },
+ "commune:35:saint pere marc en poulet": {
+  "label": "Saint-Père-Marc-en-Poulet",
+  "lat": 48.5852,
+  "lon": -1.9281,
+  "precision": "commune",
+  "insee": "35306",
+  "overseas": false
+ },
+ "commune:36:mezieres en brenne": {
+  "label": "Mézières-en-Brenne",
+  "lat": 46.808,
+  "lon": 1.257,
+  "precision": "commune",
+  "insee": "36123",
+  "overseas": false
+ },
+ "commune:37:brehemont": {
+  "label": "Bréhémont",
+  "lat": 47.2886,
+  "lon": 0.359,
+  "precision": "commune",
+  "insee": "37038",
+  "overseas": false
+ },
+ "commune:37:chouze sur loire": {
+  "label": "Chouzé-sur-Loire",
+  "lat": 47.245,
+  "lon": 0.1164,
+  "precision": "commune",
+  "insee": "37074",
+  "overseas": false
+ },
+ "commune:37:la chapelle aux naux": {
+  "label": "La Chapelle-aux-Naux",
+  "lat": 47.3127,
+  "lon": 0.4186,
+  "precision": "commune",
+  "insee": "37056",
+  "overseas": false
+ },
+ "commune:37:loches": {
+  "label": "Loches",
+  "lat": 47.1223,
+  "lon": 0.9745,
+  "precision": "commune",
+  "insee": "37132",
   "overseas": false
  },
  "commune:37:manthelan": {
@@ -175,12 +1718,100 @@
   "insee": "37143",
   "overseas": false
  },
+ "commune:37:rochecorbon": {
+  "label": "Rochecorbon",
+  "lat": 47.4338,
+  "lon": 0.7605,
+  "precision": "commune",
+  "insee": "37203",
+  "overseas": false
+ },
+ "commune:37:saint etienne de chigny": {
+  "label": "Saint-Étienne-de-Chigny",
+  "lat": 47.3933,
+  "lon": 0.5002,
+  "precision": "commune",
+  "insee": "37217",
+  "overseas": false
+ },
+ "commune:37:savigny en veron": {
+  "label": "Savigny-en-Véron",
+  "lat": 47.2096,
+  "lon": 0.1189,
+  "precision": "commune",
+  "insee": "37242",
+  "overseas": false
+ },
+ "commune:37:savonnieres": {
+  "label": "Savonnières",
+  "lat": 47.3452,
+  "lon": 0.5574,
+  "precision": "commune",
+  "insee": "37243",
+  "overseas": false
+ },
+ "commune:37:tours": {
+  "label": "Tours",
+  "lat": 47.3943,
+  "lon": 0.6949,
+  "precision": "commune",
+  "insee": "37261",
+  "overseas": false
+ },
+ "commune:38:la mure": {
+  "label": "La Mure",
+  "lat": 44.9103,
+  "lon": 5.7861,
+  "precision": "commune",
+  "insee": "38269",
+  "overseas": false
+ },
+ "commune:38:voiron": {
+  "label": "Voiron",
+  "lat": 45.3805,
+  "lon": 5.5869,
+  "precision": "commune",
+  "insee": "38563",
+  "overseas": false
+ },
+ "commune:39:arbois": {
+  "label": "Arbois",
+  "lat": 46.8876,
+  "lon": 5.773,
+  "precision": "commune",
+  "insee": "39013",
+  "overseas": false
+ },
+ "commune:39:hauts de bienne": {
+  "label": "Hauts de Bienne",
+  "lat": 46.5165,
+  "lon": 6.0002,
+  "precision": "commune",
+  "insee": "39368",
+  "overseas": false
+ },
+ "commune:40:amou": {
+  "label": "Amou",
+  "lat": 43.5891,
+  "lon": -0.7464,
+  "precision": "commune",
+  "insee": "40002",
+  "overseas": false
+ },
  "commune:40:capbreton": {
   "label": "Capbreton",
   "lat": 43.6311,
   "lon": -1.4289,
   "precision": "commune",
   "insee": "40065",
+  "overseas": false
+ },
+ "commune:40:clermont": {
+  "label": "Clermont",
+  "lat": 43.6475,
+  "lon": -0.9188,
+  "precision": "commune",
+  "insee": "40084",
   "overseas": false
  },
  "commune:40:dax": {
@@ -191,12 +1822,212 @@
   "insee": "40088",
   "overseas": false
  },
+ "commune:40:donzacq": {
+  "label": "Donzacq",
+  "lat": 43.6529,
+  "lon": -0.8057,
+  "precision": "commune",
+  "insee": "40090",
+  "overseas": false
+ },
+ "commune:40:labastide d'armagnac": {
+  "label": "Labastide-d'Armagnac",
+  "lat": 43.9467,
+  "lon": -0.1589,
+  "precision": "commune",
+  "insee": "40131",
+  "overseas": false
+ },
+ "commune:40:mont de marsan": {
+  "label": "Mont-de-Marsan",
+  "lat": 43.8931,
+  "lon": -0.5009,
+  "precision": "commune",
+  "insee": "40192",
+  "overseas": false
+ },
+ "commune:40:narrosse": {
+  "label": "Narrosse",
+  "lat": 43.6924,
+  "lon": -1.005,
+  "precision": "commune",
+  "insee": "40202",
+  "overseas": false
+ },
  "commune:40:ousse suzan": {
   "label": "Ousse-Suzan",
   "lat": 43.9492,
   "lon": -0.7523,
   "precision": "commune",
   "insee": "40215",
+  "overseas": false
+ },
+ "commune:40:peyrehorade": {
+  "label": "Peyrehorade",
+  "lat": 43.5612,
+  "lon": -1.1106,
+  "precision": "commune",
+  "insee": "40224",
+  "overseas": false
+ },
+ "commune:40:pontonx sur l'adour": {
+  "label": "Pontonx-sur-l'Adour",
+  "lat": 43.7927,
+  "lon": -0.9367,
+  "precision": "commune",
+  "insee": "40230",
+  "overseas": false
+ },
+ "commune:40:saint jean de marsacq": {
+  "label": "Saint-Jean-de-Marsacq",
+  "lat": 43.6161,
+  "lon": -1.2545,
+  "precision": "commune",
+  "insee": "40264",
+  "overseas": false
+ },
+ "commune:40:saint paul les dax": {
+  "label": "Saint-Paul-lès-Dax",
+  "lat": 43.7485,
+  "lon": -1.0941,
+  "precision": "commune",
+  "insee": "40279",
+  "overseas": false
+ },
+ "commune:40:saint vincent de tyrosse": {
+  "label": "Saint-Vincent-de-Tyrosse",
+  "lat": 43.663,
+  "lon": -1.3013,
+  "precision": "commune",
+  "insee": "40284",
+  "overseas": false
+ },
+ "commune:40:saubion": {
+  "label": "Saubion",
+  "lat": 43.673,
+  "lon": -1.3323,
+  "precision": "commune",
+  "insee": "40291",
+  "overseas": false
+ },
+ "commune:40:saubusse": {
+  "label": "Saubusse",
+  "lat": 43.6737,
+  "lon": -1.1815,
+  "precision": "commune",
+  "insee": "40293",
+  "overseas": false
+ },
+ "commune:41:saint dye sur loire": {
+  "label": "Saint-Dyé-sur-Loire",
+  "lat": 47.6512,
+  "lon": 1.4961,
+  "precision": "commune",
+  "insee": "41207",
+  "overseas": false
+ },
+ "commune:42:montbrison": {
+  "label": "Montbrison",
+  "lat": 45.6016,
+  "lon": 4.0719,
+  "precision": "commune",
+  "insee": "42147",
+  "overseas": false
+ },
+ "commune:43:le puy en velay": {
+  "label": "Le Puy-en-Velay",
+  "lat": 45.0283,
+  "lon": 3.8973,
+  "precision": "commune",
+  "insee": "43157",
+  "overseas": false
+ },
+ "commune:44:asserac": {
+  "label": "Assérac",
+  "lat": 47.442,
+  "lon": -2.4127,
+  "precision": "commune",
+  "insee": "44006",
+  "overseas": false
+ },
+ "commune:44:batz sur mer": {
+  "label": "Batz-sur-Mer",
+  "lat": 47.2789,
+  "lon": -2.4701,
+  "precision": "commune",
+  "insee": "44010",
+  "overseas": false
+ },
+ "commune:44:corsept": {
+  "label": "Corsept",
+  "lat": 47.2672,
+  "lon": -2.0894,
+  "precision": "commune",
+  "insee": "44046",
+  "overseas": false
+ },
+ "commune:44:gorges": {
+  "label": "Gorges",
+  "lat": 47.1032,
+  "lon": -1.3134,
+  "precision": "commune",
+  "insee": "44064",
+  "overseas": false
+ },
+ "commune:44:guerande": {
+  "label": "Guérande",
+  "lat": 47.3358,
+  "lon": -2.4133,
+  "precision": "commune",
+  "insee": "44069",
+  "overseas": false
+ },
+ "commune:44:la bernerie en retz": {
+  "label": "La Bernerie-en-Retz",
+  "lat": 47.0862,
+  "lon": -2.0318,
+  "precision": "commune",
+  "insee": "44012",
+  "overseas": false
+ },
+ "commune:44:la chapelle des marais": {
+  "label": "La Chapelle-des-Marais",
+  "lat": 47.4362,
+  "lon": -2.2477,
+  "precision": "commune",
+  "insee": "44030",
+  "overseas": false
+ },
+ "commune:44:la chevroliere": {
+  "label": "La Chevrolière",
+  "lat": 47.0908,
+  "lon": -1.5965,
+  "precision": "commune",
+  "insee": "44041",
+  "overseas": false
+ },
+ "commune:44:le croisic": {
+  "label": "Le Croisic",
+  "lat": 47.2942,
+  "lon": -2.5245,
+  "precision": "commune",
+  "insee": "44049",
+  "overseas": false
+ },
+ "commune:44:loireauxence": {
+  "label": "Loireauxence",
+  "lat": 47.4352,
+  "lon": -1.0319,
+  "precision": "commune",
+  "insee": "44213",
+  "overseas": false
+ },
+ "commune:44:marsac sur don": {
+  "label": "Marsac-sur-Don",
+  "lat": 47.5948,
+  "lon": -1.6967,
+  "precision": "commune",
+  "insee": "44091",
   "overseas": false
  },
  "commune:44:nantes": {
@@ -207,12 +2038,276 @@
   "insee": "44109",
   "overseas": false
  },
+ "commune:44:oudon": {
+  "label": "Oudon",
+  "lat": 47.3532,
+  "lon": -1.2676,
+  "precision": "commune",
+  "insee": "44115",
+  "overseas": false
+ },
+ "commune:44:paimbœuf": {
+  "label": "Paimbœuf",
+  "lat": 47.2912,
+  "lon": -2.028,
+  "precision": "commune",
+  "insee": "44116",
+  "overseas": false
+ },
+ "commune:44:pornic": {
+  "label": "Pornic",
+  "lat": 47.1302,
+  "lon": -2.0569,
+  "precision": "commune",
+  "insee": "44131",
+  "overseas": false
+ },
+ "commune:44:pornichet": {
+  "label": "Pornichet",
+  "lat": 47.2599,
+  "lon": -2.3225,
+  "precision": "commune",
+  "insee": "44132",
+  "overseas": false
+ },
+ "commune:44:saint andre des eaux": {
+  "label": "Saint-André-des-Eaux",
+  "lat": 47.3272,
+  "lon": -2.3116,
+  "precision": "commune",
+  "insee": "44151",
+  "overseas": false
+ },
+ "commune:44:saint brevin les pins": {
+  "label": "Saint-Brevin-les-Pins",
+  "lat": 47.2441,
+  "lon": -2.154,
+  "precision": "commune",
+  "insee": "44154",
+  "overseas": false
+ },
+ "commune:44:saint jean de boiseau": {
+  "label": "Saint-Jean-de-Boiseau",
+  "lat": 47.1919,
+  "lon": -1.7198,
+  "precision": "commune",
+  "insee": "44166",
+  "overseas": false
+ },
+ "commune:44:saint joachim": {
+  "label": "Saint-Joachim",
+  "lat": 47.3731,
+  "lon": -2.2429,
+  "precision": "commune",
+  "insee": "44168",
+  "overseas": false
+ },
+ "commune:44:saint julien de concelles": {
+  "label": "Saint-Julien-de-Concelles",
+  "lat": 47.2469,
+  "lon": -1.4036,
+  "precision": "commune",
+  "insee": "44169",
+  "overseas": false
+ },
+ "commune:44:saint michel chef chef": {
+  "label": "Saint-Michel-Chef-Chef",
+  "lat": 47.1705,
+  "lon": -2.1238,
+  "precision": "commune",
+  "insee": "44182",
+  "overseas": false
+ },
+ "commune:44:saint nazaire": {
+  "label": "Saint-Nazaire",
+  "lat": 47.2768,
+  "lon": -2.2392,
+  "precision": "commune",
+  "insee": "44184",
+  "overseas": false
+ },
+ "commune:44:saint sebastien sur loire": {
+  "label": "Saint-Sébastien-sur-Loire",
+  "lat": 47.2065,
+  "lon": -1.5023,
+  "precision": "commune",
+  "insee": "44190",
+  "overseas": false
+ },
+ "commune:44:vallet": {
+  "label": "Vallet",
+  "lat": 47.1763,
+  "lon": -1.2645,
+  "precision": "commune",
+  "insee": "44212",
+  "overseas": false
+ },
+ "commune:44:vertou": {
+  "label": "Vertou",
+  "lat": 47.1532,
+  "lon": -1.4679,
+  "precision": "commune",
+  "insee": "44215",
+  "overseas": false
+ },
+ "commune:45:meung sur loire": {
+  "label": "Meung-sur-Loire",
+  "lat": 47.8396,
+  "lon": 1.6918,
+  "precision": "commune",
+  "insee": "45203",
+  "overseas": false
+ },
  "commune:45:orleans": {
   "label": "Orléans",
   "lat": 47.8734,
   "lon": 1.9122,
   "precision": "commune",
   "insee": "45234",
+  "overseas": false
+ },
+ "commune:46:lalbenque": {
+  "label": "Lalbenque",
+  "lat": 44.3356,
+  "lon": 1.563,
+  "precision": "commune",
+  "insee": "46148",
+  "overseas": false
+ },
+ "commune:47:blanquefort sur briolance": {
+  "label": "Blanquefort-sur-Briolance",
+  "lat": 44.6101,
+  "lon": 0.963,
+  "precision": "commune",
+  "insee": "47029",
+  "overseas": false
+ },
+ "commune:47:cuzorn": {
+  "label": "Cuzorn",
+  "lat": 44.5485,
+  "lon": 0.9504,
+  "precision": "commune",
+  "insee": "47077",
+  "overseas": false
+ },
+ "commune:47:gavaudun": {
+  "label": "Gavaudun",
+  "lat": 44.5662,
+  "lon": 0.8884,
+  "precision": "commune",
+  "insee": "47109",
+  "overseas": false
+ },
+ "commune:47:monsempron libos": {
+  "label": "Monsempron-Libos",
+  "lat": 44.5002,
+  "lon": 0.9282,
+  "precision": "commune",
+  "insee": "47179",
+  "overseas": false
+ },
+ "commune:49:angers": {
+  "label": "Angers",
+  "lat": 47.4819,
+  "lon": -0.5629,
+  "precision": "commune",
+  "insee": "49007",
+  "overseas": false
+ },
+ "commune:49:chalonnes sur loire": {
+  "label": "Chalonnes-sur-Loire",
+  "lat": 47.3496,
+  "lon": -0.7729,
+  "precision": "commune",
+  "insee": "49063",
+  "overseas": false
+ },
+ "commune:49:doue en anjou": {
+  "label": "Doué-en-Anjou",
+  "lat": 47.1988,
+  "lon": -0.3053,
+  "precision": "commune",
+  "insee": "49125",
+  "overseas": false
+ },
+ "commune:49:gennes val de loire": {
+  "label": "Gennes-Val-de-Loire",
+  "lat": 47.3424,
+  "lon": -0.2352,
+  "precision": "commune",
+  "insee": "49261",
+  "overseas": false
+ },
+ "commune:49:la possonniere": {
+  "label": "La Possonnière",
+  "lat": 47.3848,
+  "lon": -0.7059,
+  "precision": "commune",
+  "insee": "49247",
+  "overseas": false
+ },
+ "commune:49:les hauts d'anjou": {
+  "label": "Les Hauts-d'Anjou",
+  "lat": 47.697,
+  "lon": -0.5499,
+  "precision": "commune",
+  "insee": "49080",
+  "overseas": false
+ },
+ "commune:49:mauges sur loire": {
+  "label": "Mauges-sur-Loire",
+  "lat": 47.3435,
+  "lon": -0.9351,
+  "precision": "commune",
+  "insee": "49244",
+  "overseas": false
+ },
+ "commune:49:murs erigne": {
+  "label": "Mûrs-Erigné",
+  "lat": 47.3948,
+  "lon": -0.5529,
+  "precision": "commune",
+  "insee": "49223",
+  "overseas": false
+ },
+ "commune:49:saumur": {
+  "label": "Saumur",
+  "lat": 47.2645,
+  "lon": -0.0837,
+  "precision": "commune",
+  "insee": "49328",
+  "overseas": false
+ },
+ "commune:50:agon coutainville": {
+  "label": "Agon-Coutainville",
+  "lat": 49.0298,
+  "lon": -1.5807,
+  "precision": "commune",
+  "insee": "50003",
+  "overseas": false
+ },
+ "commune:50:avranches": {
+  "label": "Avranches",
+  "lat": 48.6759,
+  "lon": -1.3452,
+  "precision": "commune",
+  "insee": "50025",
+  "overseas": false
+ },
+ "commune:50:blainville sur mer": {
+  "label": "Blainville-sur-Mer",
+  "lat": 49.0716,
+  "lon": -1.5688,
+  "precision": "commune",
+  "insee": "50058",
+  "overseas": false
+ },
+ "commune:50:cherbourg en cotentin": {
+  "label": "Cherbourg-en-Cotentin",
+  "lat": 49.6277,
+  "lon": -1.6356,
+  "precision": "commune",
+  "insee": "50129",
   "overseas": false
  },
  "commune:50:granville": {
@@ -223,6 +2318,126 @@
   "insee": "50218",
   "overseas": false
  },
+ "commune:50:hauteville sur mer": {
+  "label": "Hauteville-sur-Mer",
+  "lat": 48.9748,
+  "lon": -1.541,
+  "precision": "commune",
+  "insee": "50231",
+  "overseas": false
+ },
+ "commune:50:hemevez": {
+  "label": "Hémevez",
+  "lat": 49.4624,
+  "lon": -1.4373,
+  "precision": "commune",
+  "insee": "50241",
+  "overseas": false
+ },
+ "commune:50:jullouville": {
+  "label": "Jullouville",
+  "lat": 48.7627,
+  "lon": -1.5291,
+  "precision": "commune",
+  "insee": "50066",
+  "overseas": false
+ },
+ "commune:50:le ham": {
+  "label": "Le Ham",
+  "lat": 49.4502,
+  "lon": -1.4113,
+  "precision": "commune",
+  "insee": "50227",
+  "overseas": false
+ },
+ "commune:50:le mont saint michel": {
+  "label": "Le Mont-Saint-Michel",
+  "lat": 48.6245,
+  "lon": -1.5278,
+  "precision": "commune",
+  "insee": "50353",
+  "overseas": false
+ },
+ "commune:50:montebourg": {
+  "label": "Montebourg",
+  "lat": 49.4989,
+  "lon": -1.3886,
+  "precision": "commune",
+  "insee": "50341",
+  "overseas": false
+ },
+ "commune:50:saint floxel": {
+  "label": "Saint-Floxel",
+  "lat": 49.4907,
+  "lon": -1.3558,
+  "precision": "commune",
+  "insee": "50467",
+  "overseas": false
+ },
+ "commune:50:saint james": {
+  "label": "Saint-James",
+  "lat": 48.5209,
+  "lon": -1.3638,
+  "precision": "commune",
+  "insee": "50487",
+  "overseas": false
+ },
+ "commune:50:saint jean des champs": {
+  "label": "Saint-Jean-des-Champs",
+  "lat": 48.8244,
+  "lon": -1.4661,
+  "precision": "commune",
+  "insee": "50493",
+  "overseas": false
+ },
+ "commune:50:saint pair sur mer": {
+  "label": "Saint-Pair-sur-Mer",
+  "lat": 48.8014,
+  "lon": -1.5441,
+  "precision": "commune",
+  "insee": "50532",
+  "overseas": false
+ },
+ "commune:50:saint vaast la hougue": {
+  "label": "Saint-Vaast-la-Hougue",
+  "lat": 49.5937,
+  "lon": -1.266,
+  "precision": "commune",
+  "insee": "50562",
+  "overseas": false
+ },
+ "commune:50:valognes": {
+  "label": "Valognes",
+  "lat": 49.5122,
+  "lon": -1.4758,
+  "precision": "commune",
+  "insee": "50615",
+  "overseas": false
+ },
+ "commune:50:villedieu les poeles rouffigny": {
+  "label": "Villedieu-les-Poêles-Rouffigny",
+  "lat": 48.8247,
+  "lon": -1.2399,
+  "precision": "commune",
+  "insee": "50639",
+  "overseas": false
+ },
+ "commune:51:epernay": {
+  "label": "Épernay",
+  "lat": 49.0391,
+  "lon": 3.9282,
+  "precision": "commune",
+  "insee": "51230",
+  "overseas": false
+ },
+ "commune:51:reims": {
+  "label": "Reims",
+  "lat": 49.2535,
+  "lon": 4.0551,
+  "precision": "commune",
+  "insee": "51454",
+  "overseas": false
+ },
  "commune:52:chaumont": {
   "label": "Chaumont",
   "lat": 48.0965,
@@ -231,12 +2446,260 @@
   "insee": "52121",
   "overseas": false
  },
+ "commune:53:sainte suzanne et chammes": {
+  "label": "Sainte-Suzanne-et-Chammes",
+  "lat": 48.0917,
+  "lon": -0.3821,
+  "precision": "commune",
+  "insee": "53255",
+  "overseas": false
+ },
+ "commune:54:herserange": {
+  "label": "Herserange",
+  "lat": 49.5187,
+  "lon": 5.793,
+  "precision": "commune",
+  "insee": "54261",
+  "overseas": false
+ },
+ "commune:54:longwy": {
+  "label": "Longwy",
+  "lat": 49.5217,
+  "lon": 5.7672,
+  "precision": "commune",
+  "insee": "54323",
+  "overseas": false
+ },
+ "commune:54:luneville": {
+  "label": "Lunéville",
+  "lat": 48.5963,
+  "lon": 6.5101,
+  "precision": "commune",
+  "insee": "54329",
+  "overseas": false
+ },
  "commune:54:nancy": {
   "label": "Nancy",
   "lat": 48.6881,
   "lon": 6.1734,
   "precision": "commune",
   "insee": "54395",
+  "overseas": false
+ },
+ "commune:54:vannes le chatel": {
+  "label": "Vannes-le-Châtel",
+  "lat": 48.5738,
+  "lon": 5.7849,
+  "precision": "commune",
+  "insee": "54548",
+  "overseas": false
+ },
+ "commune:56:allaire": {
+  "label": "Allaire",
+  "lat": 47.6312,
+  "lon": -2.1816,
+  "precision": "commune",
+  "insee": "56001",
+  "overseas": false
+ },
+ "commune:56:bignan": {
+  "label": "Bignan",
+  "lat": 47.8737,
+  "lon": -2.7498,
+  "precision": "commune",
+  "insee": "56017",
+  "overseas": false
+ },
+ "commune:56:camors": {
+  "label": "Camors",
+  "lat": 47.8293,
+  "lon": -3.0016,
+  "precision": "commune",
+  "insee": "56031",
+  "overseas": false
+ },
+ "commune:56:colpo": {
+  "label": "Colpo",
+  "lat": 47.8169,
+  "lon": -2.8108,
+  "precision": "commune",
+  "insee": "56042",
+  "overseas": false
+ },
+ "commune:56:ferel": {
+  "label": "Férel",
+  "lat": 47.4865,
+  "lon": -2.3385,
+  "precision": "commune",
+  "insee": "56058",
+  "overseas": false
+ },
+ "commune:56:forges de lanouee": {
+  "label": "Forges de Lanouée",
+  "lat": 48.0144,
+  "lon": -2.5781,
+  "precision": "commune",
+  "insee": "56102",
+  "overseas": false
+ },
+ "commune:56:guegon": {
+  "label": "Guégon",
+  "lat": 47.925,
+  "lon": -2.5903,
+  "precision": "commune",
+  "insee": "56070",
+  "overseas": false
+ },
+ "commune:56:guiscriff": {
+  "label": "Guiscriff",
+  "lat": 48.0391,
+  "lon": -3.62,
+  "precision": "commune",
+  "insee": "56081",
+  "overseas": false
+ },
+ "commune:56:josselin": {
+  "label": "Josselin",
+  "lat": 47.9548,
+  "lon": -2.5517,
+  "precision": "commune",
+  "insee": "56091",
+  "overseas": false
+ },
+ "commune:56:la gacilly": {
+  "label": "La Gacilly",
+  "lat": 47.7609,
+  "lon": -2.136,
+  "precision": "commune",
+  "insee": "56061",
+  "overseas": false
+ },
+ "commune:56:la roche bernard": {
+  "label": "La Roche-Bernard",
+  "lat": 47.5196,
+  "lon": -2.3025,
+  "precision": "commune",
+  "insee": "56195",
+  "overseas": false
+ },
+ "commune:56:mauron": {
+  "label": "Mauron",
+  "lat": 48.0839,
+  "lon": -2.3094,
+  "precision": "commune",
+  "insee": "56127",
+  "overseas": false
+ },
+ "commune:56:montertelot": {
+  "label": "Montertelot",
+  "lat": 47.8847,
+  "lon": -2.4111,
+  "precision": "commune",
+  "insee": "56139",
+  "overseas": false
+ },
+ "commune:56:peillac": {
+  "label": "Peillac",
+  "lat": 47.7169,
+  "lon": -2.2174,
+  "precision": "commune",
+  "insee": "56154",
+  "overseas": false
+ },
+ "commune:56:penestin": {
+  "label": "Pénestin",
+  "lat": 47.468,
+  "lon": -2.4619,
+  "precision": "commune",
+  "insee": "56155",
+  "overseas": false
+ },
+ "commune:56:plumeliau bieuzy": {
+  "label": "Pluméliau-Bieuzy",
+  "lat": 47.9726,
+  "lon": -2.9896,
+  "precision": "commune",
+  "insee": "56173",
+  "overseas": false
+ },
+ "commune:56:plumergat": {
+  "label": "Plumergat",
+  "lat": 47.7264,
+  "lon": -2.9318,
+  "precision": "commune",
+  "insee": "56175",
+  "overseas": false
+ },
+ "commune:56:pontivy": {
+  "label": "Pontivy",
+  "lat": 48.0663,
+  "lon": -2.9697,
+  "precision": "commune",
+  "insee": "56178",
+  "overseas": false
+ },
+ "commune:56:quistinic": {
+  "label": "Quistinic",
+  "lat": 47.9123,
+  "lon": -3.1374,
+  "precision": "commune",
+  "insee": "56188",
+  "overseas": false
+ },
+ "commune:56:saint laurent sur oust": {
+  "label": "Saint-Laurent-sur-Oust",
+  "lat": 47.7921,
+  "lon": -2.313,
+  "precision": "commune",
+  "insee": "56224",
+  "overseas": false
+ },
+ "commune:56:vannes": {
+  "label": "Vannes",
+  "lat": 47.6577,
+  "lon": -2.7485,
+  "precision": "commune",
+  "insee": "56260",
+  "overseas": false
+ },
+ "commune:57:le ban saint martin": {
+  "label": "Le Ban-Saint-Martin",
+  "lat": 49.1232,
+  "lon": 6.1434,
+  "precision": "commune",
+  "insee": "57049",
+  "overseas": false
+ },
+ "commune:57:metz": {
+  "label": "Metz",
+  "lat": 49.1048,
+  "lon": 6.1962,
+  "precision": "commune",
+  "insee": "57463",
+  "overseas": false
+ },
+ "commune:58:clamecy": {
+  "label": "Clamecy",
+  "lat": 47.4588,
+  "lon": 3.5188,
+  "precision": "commune",
+  "insee": "58079",
+  "overseas": false
+ },
+ "commune:58:nevers": {
+  "label": "Nevers",
+  "lat": 46.9852,
+  "lon": 3.1598,
+  "precision": "commune",
+  "insee": "58194",
+  "overseas": false
+ },
+ "commune:59:bauvin": {
+  "label": "Bauvin",
+  "lat": 50.5173,
+  "lon": 2.8932,
+  "precision": "commune",
+  "insee": "59052",
   "overseas": false
  },
  "commune:59:cassel": {
@@ -253,6 +2716,30 @@
   "lon": 3.1004,
   "precision": "commune",
   "insee": "59178",
+  "overseas": false
+ },
+ "commune:59:dunkerque": {
+  "label": "Dunkerque",
+  "lat": 51.0183,
+  "lon": 2.3431,
+  "precision": "commune",
+  "insee": "59183",
+  "overseas": false
+ },
+ "commune:59:flers en escrebieux": {
+  "label": "Flers-en-Escrebieux",
+  "lat": 50.4025,
+  "lon": 3.0497,
+  "precision": "commune",
+  "insee": "59234",
+  "overseas": false
+ },
+ "commune:59:godewaersvelde": {
+  "label": "Godewaersvelde",
+  "lat": 50.797,
+  "lon": 2.6424,
+  "precision": "commune",
+  "insee": "59262",
   "overseas": false
  },
  "commune:59:grand fort philippe": {
@@ -279,12 +2766,36 @@
   "insee": "59350",
   "overseas": false
  },
+ "commune:59:mons en barœul": {
+  "label": "Mons-en-Barœul",
+  "lat": 50.6436,
+  "lon": 3.1091,
+  "precision": "commune",
+  "insee": "59410",
+  "overseas": false
+ },
  "commune:59:steenvoorde": {
   "label": "Steenvoorde",
   "lat": 50.8225,
   "lon": 2.5762,
   "precision": "commune",
   "insee": "59580",
+  "overseas": false
+ },
+ "commune:59:steenwerck": {
+  "label": "Steenwerck",
+  "lat": 50.6829,
+  "lon": 2.7664,
+  "precision": "commune",
+  "insee": "59581",
+  "overseas": false
+ },
+ "commune:59:tourcoing": {
+  "label": "Tourcoing",
+  "lat": 50.721,
+  "lon": 3.1577,
+  "precision": "commune",
+  "insee": "59599",
   "overseas": false
  },
  "commune:59:valenciennes": {
@@ -303,6 +2814,14 @@
   "insee": "59009",
   "overseas": false
  },
+ "commune:59:watten": {
+  "label": "Watten",
+  "lat": 50.8317,
+  "lon": 2.2315,
+  "precision": "commune",
+  "insee": "59647",
+  "overseas": false
+ },
  "commune:59:wormhout": {
   "label": "Wormhout",
   "lat": 50.8749,
@@ -311,12 +2830,180 @@
   "insee": "59663",
   "overseas": false
  },
+ "commune:60:gouvieux": {
+  "label": "Gouvieux",
+  "lat": 49.19,
+  "lon": 2.4161,
+  "precision": "commune",
+  "insee": "60282",
+  "overseas": false
+ },
+ "commune:61:alencon": {
+  "label": "Alençon",
+  "lat": 48.431,
+  "lon": 0.0923,
+  "precision": "commune",
+  "insee": "61001",
+  "overseas": false
+ },
+ "commune:61:bagnoles de l'orne normandie": {
+  "label": "Bagnoles de l'Orne Normandie",
+  "lat": 48.5696,
+  "lon": -0.4174,
+  "precision": "commune",
+  "insee": "61483",
+  "overseas": false
+ },
+ "commune:61:domfront en poiraie": {
+  "label": "Domfront en Poiraie",
+  "lat": 48.5866,
+  "lon": -0.6554,
+  "precision": "commune",
+  "insee": "61145",
+  "overseas": false
+ },
+ "commune:61:flers": {
+  "label": "Flers",
+  "lat": 48.7389,
+  "lon": -0.5603,
+  "precision": "commune",
+  "insee": "61169",
+  "overseas": false
+ },
+ "commune:61:l'aigle": {
+  "label": "L'Aigle",
+  "lat": 48.7566,
+  "lon": 0.6118,
+  "precision": "commune",
+  "insee": "61214",
+  "overseas": false
+ },
+ "commune:61:la lande patry": {
+  "label": "La Lande-Patry",
+  "lat": 48.7529,
+  "lon": -0.5988,
+  "precision": "commune",
+  "insee": "61218",
+  "overseas": false
+ },
+ "commune:61:mortagne au perche": {
+  "label": "Mortagne-au-Perche",
+  "lat": 48.5189,
+  "lon": 0.5642,
+  "precision": "commune",
+  "insee": "61293",
+  "overseas": false
+ },
+ "commune:61:tinchebray bocage": {
+  "label": "Tinchebray-Bocage",
+  "lat": 48.7283,
+  "lon": -0.7337,
+  "precision": "commune",
+  "insee": "61486",
+  "overseas": false
+ },
+ "commune:62:arras": {
+  "label": "Arras",
+  "lat": 50.2893,
+  "lon": 2.7679,
+  "precision": "commune",
+  "insee": "62041",
+  "overseas": false
+ },
  "commune:62:boulogne sur mer": {
   "label": "Boulogne-sur-Mer",
   "lat": 50.7303,
   "lon": 1.6062,
   "precision": "commune",
   "insee": "62160",
+  "overseas": false
+ },
+ "commune:62:calais": {
+  "label": "Calais",
+  "lat": 50.9523,
+  "lon": 1.869,
+  "precision": "commune",
+  "insee": "62193",
+  "overseas": false
+ },
+ "commune:62:desvres": {
+  "label": "Desvres",
+  "lat": 50.6765,
+  "lon": 1.8323,
+  "precision": "commune",
+  "insee": "62268",
+  "overseas": false
+ },
+ "commune:62:etaples": {
+  "label": "Étaples",
+  "lat": 50.5247,
+  "lon": 1.6462,
+  "precision": "commune",
+  "insee": "62318",
+  "overseas": false
+ },
+ "commune:62:hucqueliers": {
+  "label": "Hucqueliers",
+  "lat": 50.5724,
+  "lon": 1.9161,
+  "precision": "commune",
+  "insee": "62463",
+  "overseas": false
+ },
+ "commune:62:samer": {
+  "label": "Samer",
+  "lat": 50.6328,
+  "lon": 1.7541,
+  "precision": "commune",
+  "insee": "62773",
+  "overseas": false
+ },
+ "commune:63:ambert": {
+  "label": "Ambert",
+  "lat": 45.5516,
+  "lon": 3.7556,
+  "precision": "commune",
+  "insee": "63003",
+  "overseas": false
+ },
+ "commune:63:billom": {
+  "label": "Billom",
+  "lat": 45.726,
+  "lon": 3.3232,
+  "precision": "commune",
+  "insee": "63040",
+  "overseas": false
+ },
+ "commune:63:marsac en livradois": {
+  "label": "Marsac-en-Livradois",
+  "lat": 45.4789,
+  "lon": 3.7237,
+  "precision": "commune",
+  "insee": "63211",
+  "overseas": false
+ },
+ "commune:63:saint nectaire": {
+  "label": "Saint-Nectaire",
+  "lat": 45.5925,
+  "lon": 2.9956,
+  "precision": "commune",
+  "insee": "63380",
+  "overseas": false
+ },
+ "commune:64:aldudes": {
+  "label": "Aldudes",
+  "lat": 43.0924,
+  "lon": -1.4331,
+  "precision": "commune",
+  "insee": "64016",
+  "overseas": false
+ },
+ "commune:64:anglet": {
+  "label": "Anglet",
+  "lat": 43.4893,
+  "lon": -1.5193,
+  "precision": "commune",
+  "insee": "64024",
   "overseas": false
  },
  "commune:64:aramits": {
@@ -335,12 +3022,92 @@
   "insee": "64040",
   "overseas": false
  },
+ "commune:64:armendarits": {
+  "label": "Armendarits",
+  "lat": 43.2963,
+  "lon": -1.1651,
+  "precision": "commune",
+  "insee": "64046",
+  "overseas": false
+ },
+ "commune:64:ascain": {
+  "label": "Ascain",
+  "lat": 43.3383,
+  "lon": -1.6283,
+  "precision": "commune",
+  "insee": "64065",
+  "overseas": false
+ },
+ "commune:64:banca": {
+  "label": "Banca",
+  "lat": 43.0919,
+  "lon": -1.3794,
+  "precision": "commune",
+  "insee": "64092",
+  "overseas": false
+ },
  "commune:64:bayonne": {
   "label": "Bayonne",
   "lat": 43.4844,
   "lon": -1.4611,
   "precision": "commune",
   "insee": "64102",
+  "overseas": false
+ },
+ "commune:64:beyrie sur joyeuse": {
+  "label": "Beyrie-sur-Joyeuse",
+  "lat": 43.3059,
+  "lon": -1.0921,
+  "precision": "commune",
+  "insee": "64120",
+  "overseas": false
+ },
+ "commune:64:bidache": {
+  "label": "Bidache",
+  "lat": 43.4676,
+  "lon": -1.1359,
+  "precision": "commune",
+  "insee": "64123",
+  "overseas": false
+ },
+ "commune:64:bosdarros": {
+  "label": "Bosdarros",
+  "lat": 43.2011,
+  "lon": -0.356,
+  "precision": "commune",
+  "insee": "64139",
+  "overseas": false
+ },
+ "commune:64:bourdettes": {
+  "label": "Bourdettes",
+  "lat": 43.1942,
+  "lon": -0.2706,
+  "precision": "commune",
+  "insee": "64145",
+  "overseas": false
+ },
+ "commune:64:briscous": {
+  "label": "Briscous",
+  "lat": 43.46,
+  "lon": -1.3274,
+  "precision": "commune",
+  "insee": "64147",
+  "overseas": false
+ },
+ "commune:64:cambo les bains": {
+  "label": "Cambo-les-Bains",
+  "lat": 43.3622,
+  "lon": -1.3886,
+  "precision": "commune",
+  "insee": "64160",
+  "overseas": false
+ },
+ "commune:64:came": {
+  "label": "Came",
+  "lat": 43.4822,
+  "lon": -1.0943,
+  "precision": "commune",
+  "insee": "64161",
   "overseas": false
  },
  "commune:64:ciboure": {
@@ -359,12 +3126,76 @@
   "insee": "64213",
   "overseas": false
  },
+ "commune:64:geronce": {
+  "label": "Géronce",
+  "lat": 43.2251,
+  "lon": -0.716,
+  "precision": "commune",
+  "insee": "64241",
+  "overseas": false
+ },
+ "commune:64:guiche": {
+  "label": "Guiche",
+  "lat": 43.5126,
+  "lon": -1.2119,
+  "precision": "commune",
+  "insee": "64250",
+  "overseas": false
+ },
+ "commune:64:hasparren": {
+  "label": "Hasparren",
+  "lat": 43.3951,
+  "lon": -1.3196,
+  "precision": "commune",
+  "insee": "64256",
+  "overseas": false
+ },
+ "commune:64:helette": {
+  "label": "Hélette",
+  "lat": 43.3095,
+  "lon": -1.2472,
+  "precision": "commune",
+  "insee": "64259",
+  "overseas": false
+ },
+ "commune:64:hendaye": {
+  "label": "Hendaye",
+  "lat": 43.3635,
+  "lon": -1.7627,
+  "precision": "commune",
+  "insee": "64260",
+  "overseas": false
+ },
+ "commune:64:iholdy": {
+  "label": "Iholdy",
+  "lat": 43.2743,
+  "lon": -1.1757,
+  "precision": "commune",
+  "insee": "64271",
+  "overseas": false
+ },
  "commune:64:itxassou": {
   "label": "Itxassou",
   "lat": 43.3096,
   "lon": -1.4046,
   "precision": "commune",
   "insee": "64279",
+  "overseas": false
+ },
+ "commune:64:la bastide clairence": {
+  "label": "La Bastide-Clairence",
+  "lat": 43.418,
+  "lon": -1.234,
+  "precision": "commune",
+  "insee": "64289",
+  "overseas": false
+ },
+ "commune:64:labastide cezeracq": {
+  "label": "Labastide-Cézéracq",
+  "lat": 43.3755,
+  "lon": -0.5419,
+  "precision": "commune",
+  "insee": "64288",
   "overseas": false
  },
  "commune:64:labastide monrejeau": {
@@ -375,12 +3206,108 @@
   "insee": "64290",
   "overseas": false
  },
+ "commune:64:larrau": {
+  "label": "Larrau",
+  "lat": 43.0059,
+  "lon": -0.9806,
+  "precision": "commune",
+  "insee": "64316",
+  "overseas": false
+ },
+ "commune:64:larressore": {
+  "label": "Larressore",
+  "lat": 43.3688,
+  "lon": -1.4446,
+  "precision": "commune",
+  "insee": "64317",
+  "overseas": false
+ },
  "commune:64:laruns": {
   "label": "Laruns",
   "lat": 42.907,
   "lon": -0.4087,
   "precision": "commune",
   "insee": "64320",
+  "overseas": false
+ },
+ "commune:64:louhossoa": {
+  "label": "Louhossoa",
+  "lat": 43.3172,
+  "lon": -1.3466,
+  "precision": "commune",
+  "insee": "64350",
+  "overseas": false
+ },
+ "commune:64:macaye": {
+  "label": "Macaye",
+  "lat": 43.3187,
+  "lon": -1.327,
+  "precision": "commune",
+  "insee": "64364",
+  "overseas": false
+ },
+ "commune:64:mauleon licharre": {
+  "label": "Mauléon-Licharre",
+  "lat": 43.214,
+  "lon": -0.8842,
+  "precision": "commune",
+  "insee": "64371",
+  "overseas": false
+ },
+ "commune:64:mendionde": {
+  "label": "Mendionde",
+  "lat": 43.3315,
+  "lon": -1.293,
+  "precision": "commune",
+  "insee": "64377",
+  "overseas": false
+ },
+ "commune:64:montaner": {
+  "label": "Montaner",
+  "lat": 43.346,
+  "lon": -0.0178,
+  "precision": "commune",
+  "insee": "64398",
+  "overseas": false
+ },
+ "commune:64:morlanne": {
+  "label": "Morlanne",
+  "lat": 43.5143,
+  "lon": -0.5446,
+  "precision": "commune",
+  "insee": "64406",
+  "overseas": false
+ },
+ "commune:64:moumour": {
+  "label": "Moumour",
+  "lat": 43.2134,
+  "lon": -0.6647,
+  "precision": "commune",
+  "insee": "64409",
+  "overseas": false
+ },
+ "commune:64:pau": {
+  "label": "Pau",
+  "lat": 43.3219,
+  "lon": -0.3435,
+  "precision": "commune",
+  "insee": "64445",
+  "overseas": false
+ },
+ "commune:64:saint esteben": {
+  "label": "Saint-Esteben",
+  "lat": 43.3249,
+  "lon": -1.2191,
+  "precision": "commune",
+  "insee": "64476",
+  "overseas": false
+ },
+ "commune:64:saint etienne de baigorry": {
+  "label": "Saint-Étienne-de-Baïgorry",
+  "lat": 43.1792,
+  "lon": -1.3543,
+  "precision": "commune",
+  "insee": "64477",
   "overseas": false
  },
  "commune:64:saint jean de luz": {
@@ -391,12 +3318,108 @@
   "insee": "64483",
   "overseas": false
  },
+ "commune:64:saint jean pied de port": {
+  "label": "Saint-Jean-Pied-de-Port",
+  "lat": 43.157,
+  "lon": -1.2338,
+  "precision": "commune",
+  "insee": "64485",
+  "overseas": false
+ },
+ "commune:64:saint medard": {
+  "label": "Saint-Médard",
+  "lat": 43.5353,
+  "lon": -0.5927,
+  "precision": "commune",
+  "insee": "64491",
+  "overseas": false
+ },
+ "commune:64:saint palais": {
+  "label": "Saint-Palais",
+  "lat": 43.3173,
+  "lon": -1.041,
+  "precision": "commune",
+  "insee": "64493",
+  "overseas": false
+ },
+ "commune:64:saint pee sur nivelle": {
+  "label": "Saint-Pée-sur-Nivelle",
+  "lat": 43.3469,
+  "lon": -1.5605,
+  "precision": "commune",
+  "insee": "64495",
+  "overseas": false
+ },
+ "commune:64:salies de bearn": {
+  "label": "Salies-de-Béarn",
+  "lat": 43.4683,
+  "lon": -0.9158,
+  "precision": "commune",
+  "insee": "64499",
+  "overseas": false
+ },
+ "commune:64:sare": {
+  "label": "Sare",
+  "lat": 43.2968,
+  "lon": -1.5822,
+  "precision": "commune",
+  "insee": "64504",
+  "overseas": false
+ },
+ "commune:64:sauveterre de bearn": {
+  "label": "Sauveterre-de-Béarn",
+  "lat": 43.4137,
+  "lon": -0.931,
+  "precision": "commune",
+  "insee": "64513",
+  "overseas": false
+ },
+ "commune:64:tardets sorholus": {
+  "label": "Tardets-Sorholus",
+  "lat": 43.1243,
+  "lon": -0.8384,
+  "precision": "commune",
+  "insee": "64533",
+  "overseas": false
+ },
+ "commune:64:urepel": {
+  "label": "Urepel",
+  "lat": 43.0617,
+  "lon": -1.4108,
+  "precision": "commune",
+  "insee": "64543",
+  "overseas": false
+ },
+ "commune:64:ustaritz": {
+  "label": "Ustaritz",
+  "lat": 43.4019,
+  "lon": -1.4704,
+  "precision": "commune",
+  "insee": "64547",
+  "overseas": false
+ },
+ "commune:64:villefranque": {
+  "label": "Villefranque",
+  "lat": 43.4452,
+  "lon": -1.4462,
+  "precision": "commune",
+  "insee": "64558",
+  "overseas": false
+ },
  "commune:65:lourdes": {
   "label": "Lourdes",
   "lat": 43.109,
   "lon": -0.0806,
   "precision": "commune",
   "insee": "65286",
+  "overseas": false
+ },
+ "commune:65:tarbes": {
+  "label": "Tarbes",
+  "lat": 43.2387,
+  "lon": 0.0653,
+  "precision": "commune",
+  "insee": "65440",
   "overseas": false
  },
  "commune:66:arles sur tech": {
@@ -423,12 +3446,28 @@
   "insee": "66136",
   "overseas": false
  },
+ "commune:66:port vendres": {
+  "label": "Port-Vendres",
+  "lat": 42.5034,
+  "lon": 3.1048,
+  "precision": "commune",
+  "insee": "66148",
+  "overseas": false
+ },
  "commune:66:prats de mollo la preste": {
   "label": "Prats-de-Mollo-la-Preste",
   "lat": 42.4174,
   "lon": 2.4229,
   "precision": "commune",
   "insee": "66150",
+  "overseas": false
+ },
+ "commune:66:saint jean pla de corts": {
+  "label": "Saint-Jean-Pla-de-Corts",
+  "lat": 42.5183,
+  "lon": 2.7938,
+  "precision": "commune",
+  "insee": "66178",
   "overseas": false
  },
  "commune:66:saint laurent de cerdans": {
@@ -439,12 +3478,52 @@
   "insee": "66179",
   "overseas": false
  },
+ "commune:66:sorede": {
+  "label": "Sorède",
+  "lat": 42.5083,
+  "lon": 2.988,
+  "precision": "commune",
+  "insee": "66196",
+  "overseas": false
+ },
+ "commune:67:kutzenhausen": {
+  "label": "Kutzenhausen",
+  "lat": 48.9409,
+  "lon": 7.8496,
+  "precision": "commune",
+  "insee": "67254",
+  "overseas": false
+ },
+ "commune:67:strasbourg": {
+  "label": "Strasbourg",
+  "lat": 48.5691,
+  "lon": 7.7621,
+  "precision": "commune",
+  "insee": "67482",
+  "overseas": false
+ },
  "commune:68:thann": {
   "label": "Thann",
   "lat": 47.8163,
   "lon": 7.0867,
   "precision": "commune",
   "insee": "68334",
+  "overseas": false
+ },
+ "commune:69:givors": {
+  "label": "Givors",
+  "lat": 45.5845,
+  "lon": 4.7561,
+  "precision": "commune",
+  "insee": "69091",
+  "overseas": false
+ },
+ "commune:69:lyon": {
+  "label": "Lyon",
+  "lat": 45.758,
+  "lon": 4.8351,
+  "precision": "commune",
+  "insee": "69123",
   "overseas": false
  },
  "commune:69:villefranche sur saone": {
@@ -455,12 +3534,116 @@
   "insee": "69264",
   "overseas": false
  },
+ "commune:70:fougerolles saint valbert": {
+  "label": "Fougerolles-Saint-Valbert",
+  "lat": 47.8925,
+  "lon": 6.4203,
+  "precision": "commune",
+  "insee": "70245",
+  "overseas": false
+ },
+ "commune:71:chapaize": {
+  "label": "Chapaize",
+  "lat": 46.5526,
+  "lon": 4.7345,
+  "precision": "commune",
+  "insee": "71087",
+  "overseas": false
+ },
+ "commune:71:chateau": {
+  "label": "Château",
+  "lat": 46.4216,
+  "lon": 4.5948,
+  "precision": "commune",
+  "insee": "71112",
+  "overseas": false
+ },
+ "commune:71:donzy le pertuis": {
+  "label": "Donzy-le-Pertuis",
+  "lat": 46.4486,
+  "lon": 4.7152,
+  "precision": "commune",
+  "insee": "71181",
+  "overseas": false
+ },
+ "commune:71:navour sur grosne": {
+  "label": "Navour-sur-Grosne",
+  "lat": 46.3547,
+  "lon": 4.5649,
+  "precision": "commune",
+  "insee": "71134",
+  "overseas": false
+ },
+ "commune:71:saint andre le desert": {
+  "label": "Saint-André-le-Désert",
+  "lat": 46.5021,
+  "lon": 4.5285,
+  "precision": "commune",
+  "insee": "71387",
+  "overseas": false
+ },
+ "commune:71:torcy": {
+  "label": "Torcy",
+  "lat": 46.7651,
+  "lon": 4.4596,
+  "precision": "commune",
+  "insee": "71540",
+  "overseas": false
+ },
+ "commune:72:chahaignes": {
+  "label": "Chahaignes",
+  "lat": 47.7514,
+  "lon": 0.5127,
+  "precision": "commune",
+  "insee": "72052",
+  "overseas": false
+ },
+ "commune:72:jupilles": {
+  "label": "Jupilles",
+  "lat": 47.7939,
+  "lon": 0.4083,
+  "precision": "commune",
+  "insee": "72153",
+  "overseas": false
+ },
+ "commune:72:malicorne sur sarthe": {
+  "label": "Malicorne-sur-Sarthe",
+  "lat": 47.8124,
+  "lon": -0.0874,
+  "precision": "commune",
+  "insee": "72179",
+  "overseas": false
+ },
+ "commune:73:le chatelard": {
+  "label": "Le Châtelard",
+  "lat": 45.6839,
+  "lon": 6.1252,
+  "precision": "commune",
+  "insee": "73081",
+  "overseas": false
+ },
  "commune:73:saint pierre d'albigny": {
   "label": "Saint-Pierre-d'Albigny",
   "lat": 45.5769,
   "lon": 6.1591,
   "precision": "commune",
   "insee": "73270",
+  "overseas": false
+ },
+ "commune:73:val cenis": {
+  "label": "Val-Cenis",
+  "lat": 45.2764,
+  "lon": 6.8916,
+  "precision": "commune",
+  "insee": "73290",
+  "overseas": false
+ },
+ "commune:74:chamonix mont blanc": {
+  "label": "Chamonix-Mont-Blanc",
+  "lat": 45.9296,
+  "lon": 6.9291,
+  "precision": "commune",
+  "insee": "74056",
   "overseas": false
  },
  "commune:75:paris": {
@@ -471,12 +3654,428 @@
   "insee": "75056",
   "overseas": false
  },
+ "commune:76:allouville bellefosse": {
+  "label": "Allouville-Bellefosse",
+  "lat": 49.5956,
+  "lon": 0.6636,
+  "precision": "commune",
+  "insee": "76001",
+  "overseas": false
+ },
+ "commune:76:arelaune en seine": {
+  "label": "Arelaune-en-Seine",
+  "lat": 49.4654,
+  "lon": 0.7492,
+  "precision": "commune",
+  "insee": "76401",
+  "overseas": false
+ },
+ "commune:76:blangy sur bresle": {
+  "label": "Blangy-sur-Bresle",
+  "lat": 49.9163,
+  "lon": 1.6316,
+  "precision": "commune",
+  "insee": "76101",
+  "overseas": false
+ },
+ "commune:76:fecamp": {
+  "label": "Fécamp",
+  "lat": 49.7479,
+  "lon": 0.4012,
+  "precision": "commune",
+  "insee": "76259",
+  "overseas": false
+ },
+ "commune:76:forges les eaux": {
+  "label": "Forges-les-Eaux",
+  "lat": 49.6104,
+  "lon": 1.5644,
+  "precision": "commune",
+  "insee": "76276",
+  "overseas": false
+ },
+ "commune:76:quincampoix": {
+  "label": "Quincampoix",
+  "lat": 49.5172,
+  "lon": 1.1738,
+  "precision": "commune",
+  "insee": "76517",
+  "overseas": false
+ },
+ "commune:76:rouen": {
+  "label": "Rouen",
+  "lat": 49.4412,
+  "lon": 1.0912,
+  "precision": "commune",
+  "insee": "76540",
+  "overseas": false
+ },
+ "commune:76:vatteville la rue": {
+  "label": "Vatteville-la-Rue",
+  "lat": 49.46,
+  "lon": 0.6745,
+  "precision": "commune",
+  "insee": "76727",
+  "overseas": false
+ },
+ "commune:76:yvetot": {
+  "label": "Yvetot",
+  "lat": 49.6183,
+  "lon": 0.7685,
+  "precision": "commune",
+  "insee": "76758",
+  "overseas": false
+ },
+ "commune:77:coupvray": {
+  "label": "Coupvray",
+  "lat": 48.8853,
+  "lon": 2.7935,
+  "precision": "commune",
+  "insee": "77132",
+  "overseas": false
+ },
+ "commune:77:fay les nemours": {
+  "label": "Faÿ-lès-Nemours",
+  "lat": 48.2265,
+  "lon": 2.6646,
+  "precision": "commune",
+  "insee": "77178",
+  "overseas": false
+ },
+ "commune:77:fontainebleau": {
+  "label": "Fontainebleau",
+  "lat": 48.4236,
+  "lon": 2.6817,
+  "precision": "commune",
+  "insee": "77186",
+  "overseas": false
+ },
+ "commune:78:versailles": {
+  "label": "Versailles",
+  "lat": 48.8039,
+  "lon": 2.1191,
+  "precision": "commune",
+  "insee": "78646",
+  "overseas": false
+ },
+ "commune:80:abbeville": {
+  "label": "Abbeville",
+  "lat": 50.1101,
+  "lon": 1.8319,
+  "precision": "commune",
+  "insee": "80001",
+  "overseas": false
+ },
+ "commune:80:albert": {
+  "label": "Albert",
+  "lat": 50.0035,
+  "lon": 2.6515,
+  "precision": "commune",
+  "insee": "80016",
+  "overseas": false
+ },
+ "commune:80:amiens": {
+  "label": "Amiens",
+  "lat": 49.8987,
+  "lon": 2.2847,
+  "precision": "commune",
+  "insee": "80021",
+  "overseas": false
+ },
+ "commune:80:boves": {
+  "label": "Boves",
+  "lat": 49.8392,
+  "lon": 2.388,
+  "precision": "commune",
+  "insee": "80131",
+  "overseas": false
+ },
+ "commune:80:doullens": {
+  "label": "Doullens",
+  "lat": 50.1515,
+  "lon": 2.3516,
+  "precision": "commune",
+  "insee": "80253",
+  "overseas": false
+ },
+ "commune:80:hangest en santerre": {
+  "label": "Hangest-en-Santerre",
+  "lat": 49.7523,
+  "lon": 2.6031,
+  "precision": "commune",
+  "insee": "80415",
+  "overseas": false
+ },
+ "commune:80:harbonnieres": {
+  "label": "Harbonnières",
+  "lat": 49.8491,
+  "lon": 2.6708,
+  "precision": "commune",
+  "insee": "80417",
+  "overseas": false
+ },
+ "commune:80:rosieres en santerre": {
+  "label": "Rosières-en-Santerre",
+  "lat": 49.8164,
+  "lon": 2.7018,
+  "precision": "commune",
+  "insee": "80680",
+  "overseas": false
+ },
+ "commune:80:tours en vimeu": {
+  "label": "Tours-en-Vimeu",
+  "lat": 50.0352,
+  "lon": 1.6818,
+  "precision": "commune",
+  "insee": "80765",
+  "overseas": false
+ },
+ "commune:81:albi": {
+  "label": "Albi",
+  "lat": 43.929,
+  "lon": 2.1323,
+  "precision": "commune",
+  "insee": "81004",
+  "overseas": false
+ },
+ "commune:81:gaillac": {
+  "label": "Gaillac",
+  "lat": 43.9119,
+  "lon": 1.8898,
+  "precision": "commune",
+  "insee": "81099",
+  "overseas": false
+ },
+ "commune:82:moissac": {
+  "label": "Moissac",
+  "lat": 44.1219,
+  "lon": 1.1002,
+  "precision": "commune",
+  "insee": "82112",
+  "overseas": false
+ },
+ "commune:83:artignosc sur verdon": {
+  "label": "Artignosc-sur-Verdon",
+  "lat": 43.6991,
+  "lon": 6.1087,
+  "precision": "commune",
+  "insee": "83005",
+  "overseas": false
+ },
+ "commune:83:bandol": {
+  "label": "Bandol",
+  "lat": 43.147,
+  "lon": 5.7488,
+  "precision": "commune",
+  "insee": "83009",
+  "overseas": false
+ },
+ "commune:83:saint tropez": {
+  "label": "Saint-Tropez",
+  "lat": 43.2619,
+  "lon": 6.6638,
+  "precision": "commune",
+  "insee": "83119",
+  "overseas": false
+ },
+ "commune:83:sanary sur mer": {
+  "label": "Sanary-sur-Mer",
+  "lat": 43.1374,
+  "lon": 5.7951,
+  "precision": "commune",
+  "insee": "83123",
+  "overseas": false
+ },
+ "commune:83:toulon": {
+  "label": "Toulon",
+  "lat": 43.1364,
+  "lon": 5.9334,
+  "precision": "commune",
+  "insee": "83137",
+  "overseas": false
+ },
+ "commune:84:apt": {
+  "label": "Apt",
+  "lat": 43.8815,
+  "lon": 5.3814,
+  "precision": "commune",
+  "insee": "84003",
+  "overseas": false
+ },
+ "commune:84:cabrieres d'avignon": {
+  "label": "Cabrières-d'Avignon",
+  "lat": 43.9034,
+  "lon": 5.1494,
+  "precision": "commune",
+  "insee": "84025",
+  "overseas": false
+ },
+ "commune:84:carpentras": {
+  "label": "Carpentras",
+  "lat": 44.0629,
+  "lon": 5.0584,
+  "precision": "commune",
+  "insee": "84031",
+  "overseas": false
+ },
+ "commune:84:chateauneuf du pape": {
+  "label": "Châteauneuf-du-Pape",
+  "lat": 44.0602,
+  "lon": 4.8263,
+  "precision": "commune",
+  "insee": "84037",
+  "overseas": false
+ },
+ "commune:84:fontaine de vaucluse": {
+  "label": "Fontaine-de-Vaucluse",
+  "lat": 43.9244,
+  "lon": 5.1307,
+  "precision": "commune",
+  "insee": "84139",
+  "overseas": false
+ },
+ "commune:85:beauvoir sur mer": {
+  "label": "Beauvoir-sur-Mer",
+  "lat": 46.9047,
+  "lon": -2.0648,
+  "precision": "commune",
+  "insee": "85018",
+  "overseas": false
+ },
+ "commune:85:saint gilles croix de vie": {
+  "label": "Saint-Gilles-Croix-de-Vie",
+  "lat": 46.688,
+  "lon": -1.9207,
+  "precision": "commune",
+  "insee": "85222",
+  "overseas": false
+ },
+ "commune:86:poitiers": {
+  "label": "Poitiers",
+  "lat": 46.5846,
+  "lon": 0.3715,
+  "precision": "commune",
+  "insee": "86194",
+  "overseas": false
+ },
+ "commune:87:limoges": {
+  "label": "Limoges",
+  "lat": 45.8567,
+  "lon": 1.226,
+  "precision": "commune",
+  "insee": "87085",
+  "overseas": false
+ },
  "commune:87:magnac laval": {
   "label": "Magnac-Laval",
   "lat": 46.2381,
   "lon": 1.1702,
   "precision": "commune",
   "insee": "87089",
+  "overseas": false
+ },
+ "commune:87:saint junien": {
+  "label": "Saint-Junien",
+  "lat": 45.8965,
+  "lon": 0.8853,
+  "precision": "commune",
+  "insee": "87154",
+  "overseas": false
+ },
+ "commune:87:saint leonard de noblat": {
+  "label": "Saint-Léonard-de-Noblat",
+  "lat": 45.8446,
+  "lon": 1.499,
+  "precision": "commune",
+  "insee": "87161",
+  "overseas": false
+ },
+ "commune:87:saint sulpice les feuilles": {
+  "label": "Saint-Sulpice-les-Feuilles",
+  "lat": 46.3146,
+  "lon": 1.393,
+  "precision": "commune",
+  "insee": "87182",
+  "overseas": false
+ },
+ "commune:88:cornimont": {
+  "label": "Cornimont",
+  "lat": 47.9613,
+  "lon": 6.8768,
+  "precision": "commune",
+  "insee": "88116",
+  "overseas": false
+ },
+ "commune:88:liffol le grand": {
+  "label": "Liffol-le-Grand",
+  "lat": 48.3161,
+  "lon": 5.5728,
+  "precision": "commune",
+  "insee": "88270",
+  "overseas": false
+ },
+ "commune:89:deux rivieres": {
+  "label": "Deux Rivières",
+  "lat": 47.6742,
+  "lon": 3.721,
+  "precision": "commune",
+  "insee": "89130",
+  "overseas": false
+ },
+ "commune:91:le merevillois": {
+  "label": "Le Mérévillois",
+  "lat": 48.3201,
+  "lon": 2.0963,
+  "precision": "commune",
+  "insee": "91390",
+  "overseas": false
+ },
+ "commune:91:milly la foret": {
+  "label": "Milly-la-Forêt",
+  "lat": 48.3966,
+  "lon": 2.4771,
+  "precision": "commune",
+  "insee": "91405",
+  "overseas": false
+ },
+ "commune:92:asnieres sur seine": {
+  "label": "Asnières-sur-Seine",
+  "lat": 48.9181,
+  "lon": 2.2935,
+  "precision": "commune",
+  "insee": "92004",
+  "overseas": false
+ },
+ "commune:92:bois colombes": {
+  "label": "Bois-Colombes",
+  "lat": 48.9151,
+  "lon": 2.2688,
+  "precision": "commune",
+  "insee": "92009",
+  "overseas": false
+ },
+ "commune:92:clichy": {
+  "label": "Clichy",
+  "lat": 48.9041,
+  "lon": 2.3041,
+  "precision": "commune",
+  "insee": "92024",
+  "overseas": false
+ },
+ "commune:92:meudon": {
+  "label": "Meudon",
+  "lat": 48.8028,
+  "lon": 2.2288,
+  "precision": "commune",
+  "insee": "92048",
+  "overseas": false
+ },
+ "commune:93:aubervilliers": {
+  "label": "Aubervilliers",
+  "lat": 48.9128,
+  "lon": 2.3886,
+  "precision": "commune",
+  "insee": "93001",
   "overseas": false
  },
  "commune:93:bobigny": {
@@ -487,12 +4086,124 @@
   "insee": "93008",
   "overseas": false
  },
+ "commune:93:montreuil": {
+  "label": "Montreuil",
+  "lat": 48.8637,
+  "lon": 2.4491,
+  "precision": "commune",
+  "insee": "93048",
+  "overseas": false
+ },
+ "commune:94:charenton le pont": {
+  "label": "Charenton-le-Pont",
+  "lat": 48.8229,
+  "lon": 2.405,
+  "precision": "commune",
+  "insee": "94018",
+  "overseas": false
+ },
+ "commune:94:nogent sur marne": {
+  "label": "Nogent-sur-Marne",
+  "lat": 48.837,
+  "lon": 2.4811,
+  "precision": "commune",
+  "insee": "94052",
+  "overseas": false
+ },
+ "commune:94:rungis": {
+  "label": "Rungis",
+  "lat": 48.7493,
+  "lon": 2.3499,
+  "precision": "commune",
+  "insee": "94065",
+  "overseas": false
+ },
+ "commune:94:saint maur des fosses": {
+  "label": "Saint-Maur-des-Fossés",
+  "lat": 48.7999,
+  "lon": 2.4921,
+  "precision": "commune",
+  "insee": "94068",
+  "overseas": false
+ },
+ "commune:94:saint maurice": {
+  "label": "Saint-Maurice",
+  "lat": 48.8179,
+  "lon": 2.4423,
+  "precision": "commune",
+  "insee": "94069",
+  "overseas": false
+ },
+ "commune:94:villeneuve saint georges": {
+  "label": "Villeneuve-Saint-Georges",
+  "lat": 48.7389,
+  "lon": 2.4493,
+  "precision": "commune",
+  "insee": "94078",
+  "overseas": false
+ },
+ "commune:94:vincennes": {
+  "label": "Vincennes",
+  "lat": 48.8471,
+  "lon": 2.4383,
+  "precision": "commune",
+  "insee": "94080",
+  "overseas": false
+ },
+ "commune:971:capesterre de marie galante": {
+  "label": "Capesterre-de-Marie-Galante",
+  "lat": 15.9176,
+  "lon": -61.2296,
+  "precision": "commune",
+  "insee": "97108",
+  "overseas": true
+ },
+ "commune:971:grand bourg": {
+  "label": "Grand-Bourg",
+  "lat": 15.9085,
+  "lon": -61.2929,
+  "precision": "commune",
+  "insee": "97112",
+  "overseas": true
+ },
+ "commune:971:le gosier": {
+  "label": "Le Gosier",
+  "lat": 16.2274,
+  "lon": -61.4749,
+  "precision": "commune",
+  "insee": "97113",
+  "overseas": true
+ },
+ "commune:971:le moule": {
+  "label": "Le Moule",
+  "lat": 16.3354,
+  "lon": -61.36,
+  "precision": "commune",
+  "insee": "97117",
+  "overseas": true
+ },
+ "commune:971:les abymes": {
+  "label": "Les Abymes",
+  "lat": 16.2678,
+  "lon": -61.4967,
+  "precision": "commune",
+  "insee": "97101",
+  "overseas": true
+ },
  "commune:971:saint louis": {
   "label": "Saint-Louis",
   "lat": 15.9654,
   "lon": -61.2732,
   "precision": "commune",
   "insee": "97126",
+  "overseas": true
+ },
+ "commune:971:sainte anne": {
+  "label": "Sainte-Anne",
+  "lat": 16.2565,
+  "lon": -61.3896,
+  "precision": "commune",
+  "insee": "97128",
   "overseas": true
  },
  "commune:972:le francois": {
@@ -503,6 +4214,14 @@
   "insee": "97210",
   "overseas": true
  },
+ "commune:973:apatou": {
+  "label": "Apatou",
+  "lat": 4.9019,
+  "lon": -54.2171,
+  "precision": "commune",
+  "insee": "97360",
+  "overseas": true
+ },
  "commune:973:cayenne": {
   "label": "Cayenne",
   "lat": 4.9464,
@@ -511,12 +4230,558 @@
   "insee": "97302",
   "overseas": true
  },
+ "commune:973:grand santi": {
+  "label": "Grand-Santi",
+  "lat": 4.3756,
+  "lon": -54.1149,
+  "precision": "commune",
+  "insee": "97357",
+  "overseas": true
+ },
+ "commune:973:mana": {
+  "label": "Mana",
+  "lat": 4.9955,
+  "lon": -53.6784,
+  "precision": "commune",
+  "insee": "97306",
+  "overseas": true
+ },
+ "commune:973:maripasoula": {
+  "label": "Maripasoula",
+  "lat": 3.049,
+  "lon": -53.8276,
+  "precision": "commune",
+  "insee": "97353",
+  "overseas": true
+ },
+ "commune:973:papaichton": {
+  "label": "Papaichton",
+  "lat": 4.0165,
+  "lon": -54.0463,
+  "precision": "commune",
+  "insee": "97362",
+  "overseas": true
+ },
+ "commune:973:saint laurent du maroni": {
+  "label": "Saint-Laurent-du-Maroni",
+  "lat": 4.9478,
+  "lon": -54.0105,
+  "precision": "commune",
+  "insee": "97311",
+  "overseas": true
+ },
+ "commune:974:cilaos": {
+  "label": "Cilaos",
+  "lat": -21.1403,
+  "lon": 55.4555,
+  "precision": "commune",
+  "insee": "97424",
+  "overseas": true
+ },
+ "commune:974:saint louis": {
+  "label": "Saint-Louis",
+  "lat": -21.2254,
+  "lon": 55.4224,
+  "precision": "commune",
+  "insee": "97414",
+  "overseas": true
+ },
+ "commune:974:saint paul": {
+  "label": "Saint-Paul",
+  "lat": -21.0366,
+  "lon": 55.3402,
+  "precision": "commune",
+  "insee": "97415",
+  "overseas": true
+ },
+ "commune:974:saint philippe": {
+  "label": "Saint-Philippe",
+  "lat": -21.3084,
+  "lon": 55.7436,
+  "precision": "commune",
+  "insee": "97417",
+  "overseas": true
+ },
+ "commune:976:boueni": {
+  "label": "Bouéni",
+  "lat": -12.9279,
+  "lon": 45.1021,
+  "precision": "commune",
+  "insee": "97604",
+  "overseas": true
+ },
+ "commune:976:chirongui": {
+  "label": "Chirongui",
+  "lat": -12.9179,
+  "lon": 45.1428,
+  "precision": "commune",
+  "insee": "97606",
+  "overseas": true
+ },
+ "commune:976:dzaoudzi": {
+  "label": "Dzaoudzi",
+  "lat": -12.7761,
+  "lon": 45.2769,
+  "precision": "commune",
+  "insee": "97608",
+  "overseas": true
+ },
+ "commune:976:pamandzi": {
+  "label": "Pamandzi",
+  "lat": -12.801,
+  "lon": 45.2842,
+  "precision": "commune",
+  "insee": "97615",
+  "overseas": true
+ },
+ "commune:976:sada": {
+  "label": "Sada",
+  "lat": -12.8642,
+  "lon": 45.1135,
+  "precision": "commune",
+  "insee": "97616",
+  "overseas": true
+ },
+ "department:04": {
+  "label": "Alpes-de-Haute-Provence",
+  "lat": 44.0751,
+  "lon": 6.1451,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:05": {
+  "label": "Hautes-Alpes",
+  "lat": 44.5794,
+  "lon": 6.1319,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:06": {
+  "label": "Alpes-Maritimes",
+  "lat": 43.8478,
+  "lon": 7.1058,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:07": {
+  "label": "Ardèche",
+  "lat": 44.783,
+  "lon": 4.4573,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:09": {
+  "label": "Ariège",
+  "lat": 42.9682,
+  "lon": 1.5247,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:10": {
+  "label": "Aube",
+  "lat": 48.3015,
+  "lon": 4.1841,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:11": {
+  "label": "Aude",
+  "lat": 43.1205,
+  "lon": 2.3339,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:12": {
+  "label": "Aveyron",
+  "lat": 44.2874,
+  "lon": 2.5989,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:13": {
+  "label": "Bouches-du-Rhône",
+  "lat": 43.5579,
+  "lon": 5.2297,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:15": {
+  "label": "Cantal",
+  "lat": 45.0472,
+  "lon": 2.6539,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:19": {
+  "label": "Corrèze",
+  "lat": 45.3149,
+  "lon": 1.8436,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:21": {
+  "label": "Côte-d'Or",
+  "lat": 47.3802,
+  "lon": 4.7907,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:22": {
+  "label": "Côtes-d'Armor",
+  "lat": 48.4836,
+  "lon": -2.8551,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:24": {
+  "label": "Dordogne",
+  "lat": 45.0635,
+  "lon": 0.7424,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:25": {
+  "label": "Doubs",
+  "lat": 47.2275,
+  "lon": 6.3671,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:26": {
+  "label": "Drôme",
+  "lat": 44.694,
+  "lon": 5.1332,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:27": {
+  "label": "Eure",
+  "lat": 49.1412,
+  "lon": 1.0036,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:29": {
+  "label": "Finistère",
+  "lat": 48.294,
+  "lon": -4.1351,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:2A": {
+  "label": "Corse-du-Sud",
+  "lat": 41.9023,
+  "lon": 8.9493,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:2B": {
+  "label": "Haute-Corse",
+  "lat": 42.4386,
+  "lon": 9.28,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:30": {
+  "label": "Gard",
+  "lat": 44.0235,
+  "lon": 4.1973,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:31": {
+  "label": "Haute-Garonne",
+  "lat": 43.3346,
+  "lon": 1.1378,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:32": {
+  "label": "Gers",
+  "lat": 43.6627,
+  "lon": 0.462,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:33": {
+  "label": "Gironde",
+  "lat": 44.817,
+  "lon": -0.3447,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:34": {
+  "label": "Hérault",
+  "lat": 43.5876,
+  "lon": 3.4228,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:35": {
+  "label": "Ille-et-Vilaine",
+  "lat": 48.1882,
+  "lon": -1.6349,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:36": {
+  "label": "Indre",
+  "lat": 46.7705,
+  "lon": 1.6106,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:37": {
+  "label": "Indre-et-Loire",
+  "lat": 47.2607,
+  "lon": 0.6648,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:38": {
+  "label": "Isère",
+  "lat": 45.3182,
+  "lon": 5.4878,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:40": {
+  "label": "Landes",
+  "lat": 43.81,
+  "lon": -0.7348,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:43": {
+  "label": "Haute-Loire",
+  "lat": 45.1401,
+  "lon": 3.7618,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:44": {
+  "label": "Loire-Atlantique",
+  "lat": 47.3381,
+  "lon": -1.6804,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:46": {
+  "label": "Lot",
+  "lat": 44.6449,
+  "lon": 1.633,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:47": {
+  "label": "Lot-et-Garonne",
+  "lat": 44.3916,
+  "lon": 0.4809,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:48": {
+  "label": "Lozère",
+  "lat": 44.5502,
+  "lon": 3.4896,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:49": {
+  "label": "Maine-et-Loire",
+  "lat": 47.3796,
+  "lon": -0.4871,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:53": {
+  "label": "Mayenne",
+  "lat": 48.1454,
+  "lon": -0.6711,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:54": {
+  "label": "Meurthe-et-Moselle",
+  "lat": 48.7823,
+  "lon": 6.1682,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:55": {
+  "label": "Meuse",
+  "lat": 49.0167,
+  "lon": 5.3826,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:56": {
+  "label": "Morbihan",
+  "lat": 47.8101,
+  "lon": -2.7807,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:57": {
+  "label": "Moselle",
+  "lat": 49.0468,
+  "lon": 6.6223,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:58": {
+  "label": "Nièvre",
+  "lat": 47.1441,
+  "lon": 3.4907,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:59": {
+  "label": "Nord",
+  "lat": 50.4173,
+  "lon": 3.2592,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:60": {
+  "label": "Oise",
+  "lat": 49.4298,
+  "lon": 2.4218,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:64": {
+  "label": "Pyrénées-Atlantiques",
+  "lat": 43.324,
+  "lon": -0.6631,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:65": {
+  "label": "Hautes-Pyrénées",
+  "lat": 43.1361,
+  "lon": 0.2095,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:66": {
+  "label": "Pyrénées-Orientales",
+  "lat": 42.6075,
+  "lon": 2.557,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:67": {
+  "label": "Bas-Rhin",
+  "lat": 48.6762,
+  "lon": 7.5462,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:68": {
+  "label": "Haut-Rhin",
+  "lat": 47.8007,
+  "lon": 7.2742,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:69": {
+  "label": "Rhône",
+  "lat": 45.8539,
+  "lon": 4.6639,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:72": {
+  "label": "Sarthe",
+  "lat": 48.0412,
+  "lon": 0.2257,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:73": {
+  "label": "Savoie",
+  "lat": 45.5427,
+  "lon": 6.1842,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:74": {
+  "label": "Haute-Savoie",
+  "lat": 46.0704,
+  "lon": 6.2975,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:76": {
+  "label": "Seine-Maritime",
+  "lat": 49.666,
+  "lon": 0.9833,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:77": {
+  "label": "Seine-et-Marne",
+  "lat": 48.6624,
+  "lon": 2.916,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:81": {
+  "label": "Tarn",
+  "lat": 43.8035,
+  "lon": 2.1128,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:82": {
+  "label": "Tarn-et-Garonne",
+  "lat": 44.0628,
+  "lon": 1.2157,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:83": {
+  "label": "Var",
+  "lat": 43.4315,
+  "lon": 6.2179,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:84": {
+  "label": "Vaucluse",
+  "lat": 44.0117,
+  "lon": 5.1626,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:85": {
+  "label": "Vendée",
+  "lat": 46.6513,
+  "lon": -1.2544,
+  "precision": "department",
+  "overseas": false
+ },
  "department:87": {
   "label": "Haute-Vienne",
   "lat": 45.8863,
   "lon": 1.2378,
   "precision": "department",
   "overseas": false
+ },
+ "department:88": {
+  "label": "Vosges",
+  "lat": 48.2336,
+  "lon": 6.322,
+  "precision": "department",
+  "overseas": false
+ },
+ "department:971": {
+  "label": "Guadeloupe",
+  "lat": 16.1547,
+  "lon": -61.5487,
+  "precision": "department",
+  "overseas": true
  },
  "department:972": {
   "label": "Martinique",
@@ -546,6 +4811,83 @@
   "precision": "department",
   "overseas": true
  },
+ "point:-17.65,-149.43": {
+  "label": "Tahiti",
+  "lat": -17.65,
+  "lon": -149.43,
+  "precision": "region",
+  "overseas": true
+ },
+ "point:-20.65,166.56": {
+  "label": "Ouvéa",
+  "lat": -20.65,
+  "lon": 166.56,
+  "precision": "commune",
+  "overseas": true
+ },
+ "point:-20.92,167.24": {
+  "label": "Lifou",
+  "lat": -20.92,
+  "lon": 167.24,
+  "precision": "commune",
+  "overseas": true
+ },
+ "point:-8.873,-140.125": {
+  "label": "Îles Marquises (Nuku Hiva)",
+  "lat": -8.873,
+  "lon": -140.125,
+  "precision": "approximate",
+  "overseas": true
+ },
+ "point:45.2939,3.38537": {
+  "label": "France entière",
+  "lat": 45.2939,
+  "lon": 3.3854,
+  "precision": "approximate",
+  "overseas": false
+ },
+ "point:46.6,2.45": {
+  "label": "France entière",
+  "lat": 46.6,
+  "lon": 2.45,
+  "precision": "approximate",
+  "overseas": false
+ },
+ "point:46.78,-56.18": {
+  "label": "Saint-Pierre",
+  "lat": 46.78,
+  "lon": -56.18,
+  "precision": "commune",
+  "overseas": true
+ },
+ "point:48.84992,2.63704": {
+  "label": "France entière",
+  "lat": 48.8499,
+  "lon": 2.637,
+  "precision": "approximate",
+  "overseas": false
+ },
+ "point:48.85889,2.32004": {
+  "label": "France entière",
+  "lat": 48.8589,
+  "lon": 2.32,
+  "precision": "approximate",
+  "overseas": false
+ },
+ "point:48.86272,2.28759": {
+  "label": "France entière",
+  "lat": 48.8627,
+  "lon": 2.2876,
+  "precision": "approximate",
+  "overseas": false
+ },
+ "point:48.88633,2.29925": {
+  "label": "France entière",
+  "lat": 48.8863,
+  "lon": 2.2992,
+  "precision": "approximate",
+  "overseas": false
+ },
  "region:11": {
   "label": "Île-de-France",
   "lat": 48.7615,
@@ -553,10 +4895,52 @@
   "precision": "region",
   "overseas": false
  },
+ "region:24": {
+  "label": "Centre-Val de Loire",
+  "lat": 47.5891,
+  "lon": 1.6559,
+  "precision": "region",
+  "overseas": false
+ },
+ "region:27": {
+  "label": "Bourgogne-Franche-Comté",
+  "lat": 47.2357,
+  "lon": 5.1286,
+  "precision": "region",
+  "overseas": false
+ },
+ "region:28": {
+  "label": "Normandie",
+  "lat": 49.2057,
+  "lon": 0.209,
+  "precision": "region",
+  "overseas": false
+ },
+ "region:52": {
+  "label": "Pays de la Loire",
+  "lat": 47.5619,
+  "lon": -0.678,
+  "precision": "region",
+  "overseas": false
+ },
  "region:53": {
   "label": "Bretagne",
   "lat": 48.2188,
   "lon": -2.7976,
+  "precision": "region",
+  "overseas": false
+ },
+ "region:76": {
+  "label": "Occitanie",
+  "lat": 43.5961,
+  "lon": 1.8843,
+  "precision": "region",
+  "overseas": false
+ },
+ "region:84": {
+  "label": "Auvergne-Rhône-Alpes",
+  "lat": 45.5281,
+  "lon": 4.5661,
   "precision": "region",
   "overseas": false
  },

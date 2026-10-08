@@ -4,10 +4,12 @@
 
 An interactive, bilingual (FR/EN) map and catalogue of France's national **Inventaire du patrimoine culturel immatériel** (PCI), the official inventory of intangible cultural heritage kept by the Ministère de la Culture.
 
-- **Inventory** (default view): all 543 published elements, searchable and filterable by theme, each linking to its official fiche. A pilot set of 35 elements is documented on the site: own-words summary (FR/EN), location on the map, and timing.
-- **Yearly events** (secondary view): the 30 documented events, with a "next occurrence" badge (including movable feasts such as Good Friday, computed from Easter), a 12-month strip and a "this month" filter. Every date shows its evidence: a short quote from the fiche with its page, and/or the organiser or tourism pages checked online (with the date checked), a confidence level, and the disclaimer: *typical timing from the official inventory; confirm exact dates with the organisers.*
-- Map with clustering; events are circles and practices are diamonds, coloured by theme (colour-blind-safe palette). "Near me" works on the device only; metropolitan France / overseas switch; shareable URLs; keyboard accessible.
-- Privacy: no cookies, analytics or trackers. Map tiles come from [OpenFreeMap](https://openfreemap.org), which sees visitors' IP addresses.
+- **Inventory** (default view): all 543 published elements, searchable and filterable by theme, **every one placed on the map** (several pins when an element lives in several places) with a picture where one could be found, each linking to its official fiche. 76 elements are also documented in detail: own-words summary (FR/EN) and timing.
+- **Places** come from the fiche's "Localisation" field as published on [PCI Lab](https://www.pci-lab.fr) (the ministry's online edition of the inventory) or from the fiche itself, read online; each element's sources are linked. Practices with no specific place get a single "France entière" pin marked approximate.
+- **Pictures**: Wikimedia Commons files with their author and licence, or else the fiche image shown on PCI Lab (linked from pci-lab.fr, not copied).
+- **Yearly events** (secondary view): the 71 documented events, with a "next occurrence" badge (including movable feasts such as Good Friday, computed from Easter), a 12-month strip and a "this month" filter. Every date shows its evidence: a short quote from the fiche with its page, and/or the organiser or tourism pages checked online (with the date checked), a confidence level, and the disclaimer: *typical timing from the official inventory; confirm exact dates with the organisers.*
+- Map with clusters drawn as donut charts of their themes; events are circles, practices diamonds and not-yet-documented elements rings, coloured by theme (colour-blind-safe palette). "Near me" works on the device only; metropolitan France / overseas switch; shareable URLs; keyboard accessible.
+- Privacy: no cookies, analytics or trackers. Map tiles come from [OpenFreeMap](https://openfreemap.org) and pictures from Wikimedia and PCI Lab; those servers see visitors' IP addresses.
 
 Independent portfolio and cultural-mediation project by Paul Benard (Master's in cultural heritage management, Paris 1 Panthéon-Sorbonne). Not affiliated with the Ministère de la Culture. Data notice: [`DATA_NOTICE.md`](DATA_NOTICE.md). Code: MIT. Roadmap: [`PLAN.md`](PLAN.md). Decisions: [`docs/decisions.md`](docs/decisions.md).
 
@@ -19,10 +21,11 @@ Requirements: Python 3.11+, Node 22, and `pdftotext` (poppler) for text extracti
 # data pipeline
 python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
 .venv/bin/pci fetch-index     # inventory page + official list PDF -> data/index.json
+.venv/bin/pci fetch-pcilab    # PCI Lab points + fiche localisations -> data/raw/pcilab.json (local, for writing data/places.yaml)
 .venv/bin/pci fetch-fiches    # pilot fiches (data/pilot.txt) -> data/raw/ (git-ignored, cached, 1 request / 5 s)
 .venv/bin/pci extract-text    # -> data/text/ (git-ignored)
-.venv/bin/pci geocode         # curated places -> data/geocode-cache.json (geo.api.gouv.fr)
-.venv/bin/pci build           # validate data/curated/*.yaml -> web/public/data/{elements,inventory}.json
+.venv/bin/pci geocode         # curated + data/places.yaml places -> data/geocode-cache.json (geo.api.gouv.fr)
+.venv/bin/pci build           # validate data/curated, places.yaml, images.yaml -> web/public/data/{elements,inventory}.json
 .venv/bin/pytest -q && .venv/bin/ruff check . && .venv/bin/ruff format --check .
 
 # website
@@ -35,7 +38,7 @@ npm run preview &             # serve the build on :4173, then:
 npm run screenshots           # Playwright screenshots in docs/screenshots + keyboard-only smoke test
 ```
 
-The committed data (`data/index.json`, `data/curated/`, `data/geocode-cache.json`, `web/public/data/`) is enough to build the site offline; the fetch commands are only needed to refresh or extend it. See [`CLAUDE.md`](CLAUDE.md) for the curation workflow.
+The committed data (`data/index.json`, `data/curated/`, `data/places.yaml`, `data/images.yaml`, `data/geocode-cache.json`, `web/public/data/`) is enough to build the site offline; the fetch commands are only needed to refresh or extend it. See [`CLAUDE.md`](CLAUDE.md) for the curation workflow.
 
 ### Deploy
 
@@ -45,9 +48,11 @@ The committed data (`data/index.json`, `data/curated/`, `data/geocode-cache.json
 
 Une carte et un catalogue interactifs et bilingues (FR/EN) de l'**Inventaire national du patrimoine culturel immatériel** (PCI) tenu par le ministère de la Culture.
 
-- **Inventaire** (vue par défaut) : les 543 éléments publiés, avec recherche et filtre par domaine, chacun renvoyant à sa fiche officielle. Une sélection pilote de 35 éléments est documentée sur le site : résumé rédigé par nos soins (FR/EN), localisation sur la carte et calendrier.
-- **Agenda annuel** (vue secondaire) : les 30 événements documentés, avec la prochaine occurrence (y compris les fêtes mobiles comme le Vendredi saint, calculées depuis Pâques), une frise des 12 mois et un filtre « ce mois-ci ». Chaque date affiche ses sources : citation courte de la fiche avec sa page et/ou pages d'organisateurs ou d'offices de tourisme consultées en ligne (avec la date de consultation), un niveau de fiabilité et l'avertissement : *dates indicatives tirées de l'Inventaire national ; vérifiez les dates exactes auprès des organisateurs.*
-- Carte avec regroupement des points ; événements en cercles, pratiques en losanges, couleur par domaine (palette adaptée au daltonisme). « Autour de moi » est calculé uniquement sur l'appareil ; bascule France métropolitaine / outre-mer ; adresses partageables ; utilisable au clavier.
-- Confidentialité : ni cookie, ni mesure d'audience, ni traceur. Les fonds de carte viennent d'[OpenFreeMap](https://openfreemap.org), qui voit l'adresse IP des visiteurs.
+- **Inventaire** (vue par défaut) : les 543 éléments publiés, avec recherche et filtre par domaine, **tous placés sur la carte** (plusieurs points quand un élément vit en plusieurs lieux), illustrés quand une image a pu être trouvée, chacun renvoyant à sa fiche officielle. 76 éléments sont en outre documentés en détail : résumé rédigé par nos soins (FR/EN) et calendrier.
+- **Lieux** : d'après le champ « Localisation » de la fiche publié sur [PCI Lab](https://www.pci-lab.fr) (l'édition en ligne de l'Inventaire par le ministère) ou d'après la fiche elle-même, lue en ligne ; les sources de chaque élément sont citées. Les pratiques sans lieu précis ont un seul point « France entière », signalé comme approximatif.
+- **Images** : fichiers Wikimedia Commons avec auteur et licence, ou à défaut l'image de la fiche affichée depuis PCI Lab (liée, non copiée).
+- **Agenda annuel** (vue secondaire) : les 71 événements documentés, avec la prochaine occurrence (y compris les fêtes mobiles comme le Vendredi saint, calculées depuis Pâques), une frise des 12 mois et un filtre « ce mois-ci ». Chaque date affiche ses sources : citation courte de la fiche avec sa page et/ou pages d'organisateurs ou d'offices de tourisme consultées en ligne (avec la date de consultation), un niveau de fiabilité et l'avertissement : *dates indicatives tirées de l'Inventaire national ; vérifiez les dates exactes auprès des organisateurs.*
+- Carte avec regroupements dessinés en anneaux par domaine ; événements en cercles, pratiques en losanges, éléments pas encore documentés en anneaux, couleur par domaine (palette adaptée au daltonisme). « Autour de moi » est calculé uniquement sur l'appareil ; bascule France métropolitaine / outre-mer ; adresses partageables ; utilisable au clavier.
+- Confidentialité : ni cookie, ni mesure d'audience, ni traceur. Les fonds de carte viennent d'[OpenFreeMap](https://openfreemap.org) et les images de Wikimedia et de PCI Lab ; ces serveurs voient l'adresse IP des visiteurs.
 
 Projet indépendant de portfolio et de médiation culturelle de Paul Benard (master de gestion du patrimoine culturel, Paris 1 Panthéon-Sorbonne), sans lien avec le ministère de la Culture. Données : voir [`DATA_NOTICE.md`](DATA_NOTICE.md). Code : licence MIT. Les commandes ci-dessus (section anglaise) installent, testent et construisent le projet ; le déploiement GitHub Pages s'active dans **Settings → Pages → Source : GitHub Actions**.

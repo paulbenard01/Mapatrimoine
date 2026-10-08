@@ -1,7 +1,9 @@
-// MapLibre map: clustered markers, shape = kind (circle event, diamond practice), colour = theme.
+// MapLibre map: clustered markers, shape = kind (circle event, diamond practice, ring not yet
+// documented), colour = theme.
 import type { FeatureCollection, Point } from "geojson";
 import {
   MapLibreMap,
+  Marker,
   NavigationControl,
   setWorkerUrl,
   type ErrorEvent,
@@ -15,7 +17,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 
 import { THEME_COLORS } from "./theme-colors";
-import { THEMES, type Element } from "./types";
+import { THEMES, type Location, type Theme } from "./types";
 
 export const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 
@@ -52,7 +54,59 @@ setWorkerUrl(workerUrl);
 
 const reducedMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-function markerImage(shape: "circle" | "diamond", fill: string, size = 26): ImageData {
+/** One element as the map needs it; an element with several places gets one marker per place. */
+export interface MapEntry {
+  id: string;
+  title: string;
+  icon: string; // `${kind}-${theme}`, kind = event | practice | located
+  theme: Theme;
+  locations: Location[];
+}
+
+/** Cluster size in px: the same steps size the HTML donut and the invisible click target. */
+const clusterRadius = (count: number) => (count >= 50 ? 26 : count >= 15 ? 22 : count >= 5 ? 19 : 16);
+
+function donutSegment(start: number, end: number, r: number, r0: number, color: string): string {
+  if (end - start === 1) end -= 0.00001;
+  const a0 = 2 * Math.PI * (start - 0.25);
+  const a1 = 2 * Math.PI * (end - 0.25);
+  const [x0, y0, x1, y1] = [Math.cos(a0), Math.sin(a0), Math.cos(a1), Math.sin(a1)];
+  const large = end - start > 0.5 ? 1 : 0;
+  return (
+    `<path d="M ${r + r0 * x0} ${r + r0 * y0} L ${r + r * x0} ${r + r * y0} ` +
+    `A ${r} ${r} 0 ${large} 1 ${r + r * x1} ${r + r * y1} L ${r + r0 * x1} ${r + r0 * y1} ` +
+    `A ${r0} ${r0} 0 ${large} 0 ${r + r0 * x0} ${r + r0 * y0}" fill="${color}"/>`
+  );
+}
+
+/** A cluster as a donut chart of its themes, with the number of markers in the middle. */
+function donut(props: Record<string, unknown>): HTMLElement {
+  const counts = THEMES.map((t) => Number(props[t] ?? 0));
+  const total = counts.reduce((a, b) => a + b, 0);
+  const r = clusterRadius(total);
+  const r0 = Math.round(r * 0.58);
+  let start = 0;
+  const segments = counts
+    .map((n, i) => {
+      if (!n) return "";
+      const end = start + n / total;
+      const path = donutSegment(start, end, r, r0, THEME_COLORS[THEMES[i]]);
+      start = end;
+      return path;
+    })
+    .join("");
+  const el = document.createElement("div");
+  el.className = "cluster-donut";
+  el.innerHTML =
+    `<svg width="${2 * r}" height="${2 * r}" viewBox="-1 -1 ${2 * r + 2} ${2 * r + 2}" aria-hidden="true">` +
+    segments +
+    `<circle cx="${r}" cy="${r}" r="${r0}" fill="#fff"/>` +
+    `<circle cx="${r}" cy="${r}" r="${r}" fill="none" stroke="#1b1b1f" stroke-width="1.5"/>` +
+    `<text x="${r}" y="${r}" text-anchor="middle" dominant-baseline="central">${total}</text></svg>`;
+  return el;
+}
+
+function markerImage(shape: "circle" | "diamond" | "ring", fill: string, size = 26): ImageData {
   const ratio = 2;
   const canvas = document.createElement("canvas");
   canvas.width = canvas.height = size * ratio;
@@ -61,6 +115,21 @@ function markerImage(shape: "circle" | "diamond", fill: string, size = 26): Imag
   const c = size / 2;
   const r = size / 2 - 3;
   ctx.beginPath();
+  if (shape === "ring") {
+    // Not documented yet: a smaller white disc with a thick theme-coloured ring.
+    ctx.arc(c, c, r - 4, 0, Math.PI * 2);
+    ctx.fillStyle = "#ffffff";
+    ctx.fill();
+    ctx.lineWidth = 4;
+    ctx.strokeStyle = fill;
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.arc(c, c, r - 1.5, 0, Math.PI * 2);
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = "#1b1b1f";
+    ctx.stroke();
+    return ctx.getImageData(0, 0, size * ratio, size * ratio);
+  }
   if (shape === "circle") {
     ctx.arc(c, c, r - 1, 0, Math.PI * 2);
   } else {
@@ -79,7 +148,7 @@ function markerImage(shape: "circle" | "diamond", fill: string, size = 26): Imag
 }
 
 export interface MapView {
-  setElements(elements: Element[]): void;
+  setEntries(entries: MapEntry[]): void;
   select(id: string | null, fly: boolean): void;
   fit(bounds: Bounds): void;
   resize(): void;
@@ -108,22 +177,25 @@ export function createMap(
   if (import.meta.env.DEV) (window as unknown as { __map: MapLibreMap }).__map = map;
   map.addControl(new NavigationControl({ showCompass: false }), "top-right");
 
-  let pending: Element[] = [];
+  let pending: MapEntry[] = [];
   let selected: string | null = null;
   let flyOnLoad = false;
   let ready = false;
-  let byId = new Map<string, Element>();
+  let byId = new Map<string, MapEntry>();
 
-  const toGeoJSON = (elements: Element[]): FeatureCollection => ({
+  const toGeoJSON = (entries: MapEntry[]): FeatureCollection => ({
     type: "FeatureCollection",
-    features: elements.flatMap((element) =>
-      element.locations.map((loc) => ({
+    features: entries.flatMap((entry) =>
+      entry.locations.map((loc) => ({
         type: "Feature" as const,
         geometry: { type: "Point" as const, coordinates: [loc.lon, loc.lat] },
+        // Documented elements draw above the located-only ones.
         properties: {
-          id: element.id,
-          icon: `${element.kind}-${element.theme}`,
-          title: element.title_fr,
+          id: entry.id,
+          icon: entry.icon,
+          theme: entry.theme,
+          title: entry.title,
+          rank: entry.icon.startsWith("located") ? 0 : 1,
         },
       })),
     ),
@@ -138,6 +210,7 @@ export function createMap(
     for (const theme of THEMES) {
       map.addImage(`event-${theme}`, markerImage("circle", THEME_COLORS[theme]), { pixelRatio: 2 });
       map.addImage(`practice-${theme}`, markerImage("diamond", THEME_COLORS[theme]), { pixelRatio: 2 });
+      map.addImage(`located-${theme}`, markerImage("ring", THEME_COLORS[theme], 22), { pixelRatio: 2 });
     }
     map.addSource("elements", {
       type: "geojson",
@@ -145,31 +218,21 @@ export function createMap(
       cluster: true,
       clusterRadius: 38,
       clusterMaxZoom: 8,
+      // Markers per theme, for the donut charts.
+      clusterProperties: Object.fromEntries(
+        THEMES.map((t) => [t, ["+", ["case", ["==", ["get", "theme"], t], 1, 0]]]),
+      ),
     });
+    // Invisible click target under each HTML donut (the donut ignores pointer events).
     map.addLayer({
       id: "clusters",
       type: "circle",
       source: "elements",
       filter: ["has", "point_count"],
       paint: {
-        "circle-color": "#2b2d42",
-        "circle-radius": ["step", ["get", "point_count"], 15, 5, 19, 15, 24],
-        "circle-stroke-color": "#ffffff",
-        "circle-stroke-width": 2,
+        "circle-opacity": 0,
+        "circle-radius": ["step", ["get", "point_count"], 16, 5, 19, 15, 22, 50, 26],
       },
-    });
-    map.addLayer({
-      id: "cluster-count",
-      type: "symbol",
-      source: "elements",
-      filter: ["has", "point_count"],
-      layout: {
-        "text-field": ["get", "point_count_abbreviated"],
-        "text-font": ["Noto Sans Bold"],
-        "text-size": 13,
-        "text-allow-overlap": true,
-      },
-      paint: { "text-color": "#ffffff" },
     });
     map.addLayer({
       id: "selected-halo",
@@ -190,12 +253,42 @@ export function createMap(
       filter: ["!", ["has", "point_count"]],
       layout: {
         "icon-image": ["get", "icon"],
+        "symbol-sort-key": ["get", "rank"],
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
       },
     });
     ready = true;
     view.select(selected, flyOnLoad);
+  });
+
+  // Donut markers for the clusters currently in view, keyed by cluster id.
+  let donuts = new Map<number, Marker>();
+  let donutsOnScreen = new Map<number, Marker>();
+  const clearDonuts = () => {
+    for (const marker of donutsOnScreen.values()) marker.remove();
+    donuts = new Map();
+    donutsOnScreen = new Map();
+  };
+  map.on("render", () => {
+    if (!ready || !map.isSourceLoaded("elements")) return;
+    const next = new Map<number, Marker>();
+    for (const feature of map.querySourceFeatures("elements")) {
+      const props = feature.properties;
+      if (!props?.cluster) continue;
+      const id = props.cluster_id as number;
+      if (next.has(id)) continue;
+      let marker = donuts.get(id);
+      if (!marker) {
+        const lngLat = (feature.geometry as Point).coordinates as [number, number];
+        marker = new Marker({ element: donut(props) }).setLngLat(lngLat);
+        donuts.set(id, marker);
+      }
+      next.set(id, marker);
+      if (!donutsOnScreen.has(id)) marker.addTo(map);
+    }
+    for (const [id, marker] of donutsOnScreen) if (!next.has(id)) marker.remove();
+    donutsOnScreen = next;
   });
 
   // Lets automated screenshots wait for rendered tiles.
@@ -220,10 +313,13 @@ export function createMap(
   }
 
   const view: MapView = {
-    setElements(elements) {
-      pending = elements;
-      byId = new Map(elements.map((e) => [e.id, e]));
-      if (ready) (map.getSource("elements") as GeoJSONSource).setData(toGeoJSON(elements));
+    setEntries(entries) {
+      pending = entries;
+      byId = new Map(entries.map((e) => [e.id, e]));
+      if (ready) {
+        clearDonuts(); // cluster ids are reassigned when the data changes
+        (map.getSource("elements") as GeoJSONSource).setData(toGeoJSON(entries));
+      }
     },
     select(id, fly) {
       selected = id;
@@ -232,9 +328,9 @@ export function createMap(
         return;
       }
       map.setFilter("selected-halo", ["all", ["!", ["has", "point_count"]], ["==", ["get", "id"], id ?? ""]]);
-      const element = id ? byId.get(id) : undefined;
-      if (!element || !fly) return;
-      const locs = element.locations;
+      const entry = id ? byId.get(id) : undefined;
+      if (!entry || !fly) return;
+      const locs = entry.locations;
       if (locs.length === 1) {
         map.easeTo({
           center: [locs[0].lon, locs[0].lat],

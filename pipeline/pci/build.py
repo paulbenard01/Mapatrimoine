@@ -12,6 +12,15 @@ from pci import DATA, ROOT, SCHEMA
 from pci.fiches import MANIFEST_PATH, TEXT_DIR
 from pci.geocode import load_cache, lookup
 from pci.index import INDEX_PATH
+from pci.places import (
+    IMAGES_PATH,
+    PLACES_PATH,
+    check_images,
+    check_places,
+    load_yaml,
+    location_sources,
+    picture,
+)
 
 CURATED_DIR = DATA / "curated"
 OUTPUT_PATH = ROOT / "web" / "public" / "data" / "elements.json"
@@ -148,28 +157,51 @@ def build(output: Path = OUTPUT_PATH) -> list[dict]:
     return elements
 
 
-def inventory(index: dict[str, dict]) -> list[dict]:
-    """Every published element of the national inventory (structured facts only)."""
-    return [
-        {
-            "id": e["id"],
-            "title_fr": e["title"],
-            "themes": e["themes"],
-            "year_included": e["year_included"],
-            "fiche_url": e["fiche_url"],
-        }
-        for e in index.values()
-        if not e["unpublished"]
-    ]
+def inventory(index: dict[str, dict], places: dict, images: dict, cache: dict) -> list[dict]:
+    """Every published element of the national inventory (structured facts only), with
+    its places on the map (documented elements carry theirs in elements.json) and image."""
+    entries = []
+    for e in index.values():
+        if e["unpublished"]:
+            continue
+        located = places.get(e["id"])
+        image = images.get(e["id"])
+        entries.append(
+            {
+                "id": e["id"],
+                "title_fr": e["title"],
+                "themes": e["themes"],
+                "year_included": e["year_included"],
+                "fiche_url": e["fiche_url"],
+                "locations": [lookup(p, cache) for p in located["places"]] if located else [],
+                "location_sources": location_sources(located) if located else [],
+                "image": picture(image, e["title"]) if image else None,
+            }
+        )
+    return entries
 
 
 def build_inventory(output: Path = INVENTORY_PATH) -> int:
     index = {e["id"]: e for e in json.loads(INDEX_PATH.read_text(encoding="utf-8"))["elements"]}
-    entries = inventory(index)
+    published = {i for i, e in index.items() if not e["unpublished"]}
+    places, images = load_yaml(PLACES_PATH), load_yaml(IMAGES_PATH)
+    curated = {c["id"] for c in load_curated()}
+    problems = check_places(places, published) + check_images(images, published)
+    problems += [
+        f"{i}: curated elements keep their places in data/curated" for i in places if i in curated
+    ]
+    if problems:
+        raise BuildError("\n".join(problems))
+    try:
+        entries = inventory(index, places, images, load_cache())
+    except Exception as exc:  # noqa: BLE001 - a place missing from the geocode cache
+        raise BuildError(str(exc)) from exc
     payload = {"source": "data/index.json", "count": len(entries), "elements": entries}
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
     return len(entries)
 
 
 def all_places() -> list[dict]:
-    return [place for curated in load_curated() for place in curated["places"]]
+    curated = [place for c in load_curated() for place in c["places"]]
+    located = [place for entry in load_yaml(PLACES_PATH).values() for place in entry["places"]]
+    return curated + located

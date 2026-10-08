@@ -7,6 +7,7 @@ import {
   mergeEntries,
   monthCounts,
   occursInMonth,
+  placesOf,
   sortItems,
   themeCounts,
   type Filters,
@@ -37,6 +38,9 @@ const inventoryOf = (e: Element): InventoryEntry => ({
   themes: [e.theme],
   year_included: e.year_included,
   fiche_url: e.source.fiche_url,
+  locations: [],
+  location_sources: [],
+  image: null,
 });
 
 const inventory: Filters = { view: "inventory", q: "", themes: [], month: null, zone: "all", radiusKm: null };
@@ -64,12 +68,25 @@ const lace: InventoryEntry = {
   themes: ["know-how", "social-festive"],
   year_included: 2008,
   fiche_url: null,
+  locations: [{ label: "Le Puy-en-Velay", lat: 45.04, lon: 3.88, precision: "commune" }],
+  location_sources: [{ kind: "pcilab", url: "https://www.pci-lab.fr/x", publisher: "PCI Lab" }],
+  image: null,
 };
-const entries = mergeEntries([...curated.map(inventoryOf), lace], curated);
+const unplaced: InventoryEntry = {
+  id: "braille",
+  title_fr: "L'apprentissage et l'usage du braille",
+  themes: ["know-how"],
+  year_included: 2020,
+  fiche_url: null,
+  locations: [],
+  location_sources: [],
+  image: null,
+};
+const entries = mergeEntries([...curated.map(inventoryOf), lace, unplaced], curated);
 
 describe("entries", () => {
   test("every inventory entry is kept; curated ones are enriched", () => {
-    expect(entries).toHaveLength(6);
+    expect(entries).toHaveLength(7);
     expect(entries.find((e) => e.id === "dentelle")?.element).toBeNull();
     expect(entries.find((e) => e.id === "La Sanch")?.element?.kind).toBe("event");
   });
@@ -94,10 +111,18 @@ describe("annotate", () => {
     expect(n.daysUntil).toBe(0);
   });
 
-  test("undocumented entries have no date and no distance", () => {
-    const d = annotate(entries, TODAY, { lat: 45, lon: 3 }).find((i) => i.entry.id === "dentelle")!;
+  test("undocumented entries have no date; located ones have a distance", () => {
+    const items = annotate(entries, TODAY, { lat: 45, lon: 3 });
+    const d = items.find((i) => i.entry.id === "dentelle")!;
     expect(d.next).toBeNull();
-    expect(d.distanceKm).toBeNull();
+    expect(d.distanceKm).toBeCloseTo(69, 0);
+    expect(items.find((i) => i.entry.id === "braille")!.distanceKm).toBeNull();
+  });
+
+  test("a documented element's own places win over located ones", () => {
+    const withBoth = mergeEntries([{ ...inventoryOf(sanch), locations: lace.locations }], [sanch]);
+    expect(placesOf(withBoth[0])[0].label).toBe("Perpignan");
+    expect(placesOf(entries.find((e) => e.id === "dentelle")!)[0].label).toBe("Le Puy-en-Velay");
   });
 });
 
@@ -106,7 +131,7 @@ describe("filters", () => {
   const ids = (f: Filters) => applyFilters(items, f, null).map((i) => i.entry.id);
 
   test("the inventory view lists everything; the agenda view only events", () => {
-    expect(ids(inventory)).toHaveLength(6);
+    expect(ids(inventory)).toHaveLength(7);
     expect(ids(agenda).sort()).toEqual(["Carnaval en kabwet", "La Sanch", "La fête du Citron", "Les fêtes de Noël en Provence"]);
   });
 
@@ -118,13 +143,14 @@ describe("filters", () => {
   });
 
   test("themes match any of an entry's themes", () => {
-    expect(ids({ ...inventory, themes: ["know-how"] })).toEqual(["dentelle"]);
+    expect(ids({ ...inventory, themes: ["know-how"] })).toEqual(["dentelle", "braille"]);
     expect(ids({ ...inventory, themes: ["rituals"] })).toEqual(["La Sanch"]);
   });
 
-  test("zone keeps mapped elements only", () => {
+  test("zone keeps located elements only, documented or not", () => {
     expect(ids({ ...inventory, zone: "overseas" })).toEqual(["Carnaval en kabwet"]);
-    expect(ids({ ...inventory, zone: "metro" })).toHaveLength(4);
+    expect(ids({ ...inventory, zone: "metro" })).toHaveLength(5);
+    expect(ids({ ...inventory, zone: "metro" })).toContain("dentelle");
   });
 
   test("month filter (agenda) keeps events with a day in that month", () => {
@@ -136,7 +162,7 @@ describe("filters", () => {
     const here = { lat: 42.7, lon: 2.9 };
     const near = applyFilters(annotate(entries, TODAY, here), { ...inventory, radiusKm: 50 }, here);
     expect(near.map((i) => i.entry.id)).toEqual(["La Sanch"]);
-    expect(ids({ ...inventory, radiusKm: 50 })).toHaveLength(6);
+    expect(ids({ ...inventory, radiusKm: 50 })).toHaveLength(7);
   });
 
   test("month counts ignore the month filter and practices", () => {
@@ -146,7 +172,7 @@ describe("filters", () => {
   test("theme counts ignore the theme filter and count every listed theme", () => {
     const counts = themeCounts(items, { ...inventory, themes: ["rituals"] }, null);
     expect(counts.get("social-festive")).toBe(5);
-    expect(counts.get("know-how")).toBe(1);
+    expect(counts.get("know-how")).toBe(2);
     expect(counts.get("rituals")).toBe(1);
   });
 
@@ -173,7 +199,7 @@ describe("sort", () => {
     const here = { lat: 15.9, lon: -61.3 };
     const sorted = sortItems(annotate(entries, TODAY, here), "distance").map((i) => i.entry.id);
     expect(sorted[0]).toBe("Carnaval en kabwet");
-    expect(sorted.at(-1)).toBe("dentelle");
+    expect(sorted.at(-1)).toBe("braille");
   });
 });
 

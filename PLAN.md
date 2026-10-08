@@ -10,9 +10,11 @@ Milestones for PCI Map. Tick a box only when its "done when" criterion is met an
 - [x] **M3 recurrence engine (TS)**: `nextOccurrence`, `occurrencesInYear`, Gregorian Easter; tests for Easter 2024-2027, Good Friday 2025/2026, nth/last weekday, year boundary, today = event day.
 - [x] **M4 site**: inventory-first list (all 543 elements) + agenda view, map (clustered, shape+colour markers), list synced, detail panel, next-occurrence badges, month strip, near me, URL state, FR/EN i18n, accessibility, overseas switch, GitHub Pages workflow. Done when `npm run build` passes, Playwright screenshots (desktop and 390 px) are in `docs/screenshots/` and reviewed, keyboard-only use of list and filters works, README documents everything.
 
+- [x] **Batch 3, whole inventory on the map** (Paul's request): every published element placed (several pins when it spans several places) from PCI Lab's "Localisation" field or the fiche read online, with sources; donut-chart clusters by theme; one picture per element where possible (Wikimedia Commons first, else the fiche image shown on PCI Lab). Done when a test proves every published element is curated or in `data/places.yaml`, and the build validates places and images.
+
 ## Later sessions (do not build now)
 
 - [ ] **M5 live events layer**: DATAtourisme and/or OpenAgenda, fetched at build time by a scheduled GitHub Action using repository secrets, never from the browser. Check access terms first.
 - [ ] **M6 mediation sheet**: printable bilingual sheet per element (3 discussion questions, 5 vocabulary terms), drafts for Paul to review.
-- [ ] **M7 scale-up**: from the pilot to all published elements, with a review workflow (`review_status`, `lang_review`).
+- [ ] **M7 scale-up**: summaries and timing for all published elements (places and pictures are done), with a review workflow (`review_status`, `lang_review`); Paul to spot-check `data/places.yaml` and the picture choices.
 - [ ] **M8 portfolio write-up**.
