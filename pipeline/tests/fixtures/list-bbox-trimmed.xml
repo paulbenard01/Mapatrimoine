@@ -1,0 +1,15 @@
+<!-- Trimmed `pdftotext -bbox` output of the July 2024 official list (names removed). -->
+<doc>
+  <page width="595.320000" height="841.920000">
+    <word xMin="56.664000" yMin="522.026320" xMax="261.555360" yMax="534.545680">2008_67717_INV_PCI_FRANCE_00004</word>
+    <word xMin="301.990000" yMin="522.026320" xMax="504.838960" yMax="534.545680">2008_67717_INV_PCI_FRANCE_00014</word>
+    <word xMin="61.000000" yMin="534.506320" xMax="100.000000" yMax="547.025680">Fiche</word>
+    <word xMin="105.734880" yMin="534.506320" xMax="153.041280" yMax="547.025680">dépubliée</word>
+    <word xMin="56.664000" yMin="600.000000" xMax="261.555360" yMax="612.000000">2008_67717_INV_PCI_FRANCE_00005</word>
+  </page>
+  <page width="595.320000" height="841.920000">
+    <word xMin="56.664000" yMin="680.000000" xMax="261.555360" yMax="692.000000">2010_67717_INV_PCI_FRANCE_00070</word>
+    <word xMin="301.990000" yMin="687.000000" xMax="504.838960" yMax="699.000000">2010_67717_INV_PCI_FRANCE_00085</word>
+    <word xMin="355.609360" yMin="699.776320" xMax="402.915760" yMax="712.295680">dépubliée</word>
+  </page>
+</doc>

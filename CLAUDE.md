@@ -33,7 +33,7 @@ docs/screenshots/         Playwright screenshots
 ```sh
 # pipeline
 python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
-.venv/bin/pci fetch-index      # -> data/index.json
+.venv/bin/pci fetch-index      # inventory page + official list PDF -> data/index.json
 .venv/bin/pci fetch-fiches     # pilot fiches -> data/raw/ (cached)
 .venv/bin/pci extract-text     # -> data/text/
 .venv/bin/pci build            # validate data/curated + geocode -> web/public/data/elements.json
