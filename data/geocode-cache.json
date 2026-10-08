@@ -4840,7 +4840,7 @@
   "overseas": true
  },
  "point:45.2939,3.38537": {
-  "label": "France entière (point PCI Lab)",
+  "label": "France entière",
   "lat": 45.2939,
   "lon": 3.3854,
   "precision": "approximate",
@@ -4861,28 +4861,28 @@
   "overseas": true
  },
  "point:48.84992,2.63704": {
-  "label": "France entière (point PCI Lab)",
+  "label": "France entière",
   "lat": 48.8499,
   "lon": 2.637,
   "precision": "approximate",
   "overseas": false
  },
  "point:48.85889,2.32004": {
-  "label": "France entière (point PCI Lab)",
+  "label": "France entière",
   "lat": 48.8589,
   "lon": 2.32,
   "precision": "approximate",
   "overseas": false
  },
  "point:48.86272,2.28759": {
-  "label": "France entière (point PCI Lab)",
+  "label": "France entière",
   "lat": 48.8627,
   "lon": 2.2876,
   "precision": "approximate",
   "overseas": false
  },
  "point:48.88633,2.29925": {
-  "label": "France entière (point PCI Lab)",
+  "label": "France entière",
   "lat": 48.8863,
   "lon": 2.2992,
   "precision": "approximate",

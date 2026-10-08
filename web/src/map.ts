@@ -3,6 +3,7 @@
 import type { FeatureCollection, Point } from "geojson";
 import {
   MapLibreMap,
+  Marker,
   NavigationControl,
   setWorkerUrl,
   type ErrorEvent,
@@ -16,7 +17,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 
 import { THEME_COLORS } from "./theme-colors";
-import { THEMES, type Location } from "./types";
+import { THEMES, type Location, type Theme } from "./types";
 
 export const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 
@@ -58,7 +59,51 @@ export interface MapEntry {
   id: string;
   title: string;
   icon: string; // `${kind}-${theme}`, kind = event | practice | located
+  theme: Theme;
   locations: Location[];
+}
+
+/** Cluster size in px: the same steps size the HTML donut and the invisible click target. */
+const clusterRadius = (count: number) => (count >= 50 ? 26 : count >= 15 ? 22 : count >= 5 ? 19 : 16);
+
+function donutSegment(start: number, end: number, r: number, r0: number, color: string): string {
+  if (end - start === 1) end -= 0.00001;
+  const a0 = 2 * Math.PI * (start - 0.25);
+  const a1 = 2 * Math.PI * (end - 0.25);
+  const [x0, y0, x1, y1] = [Math.cos(a0), Math.sin(a0), Math.cos(a1), Math.sin(a1)];
+  const large = end - start > 0.5 ? 1 : 0;
+  return (
+    `<path d="M ${r + r0 * x0} ${r + r0 * y0} L ${r + r * x0} ${r + r * y0} ` +
+    `A ${r} ${r} 0 ${large} 1 ${r + r * x1} ${r + r * y1} L ${r + r0 * x1} ${r + r0 * y1} ` +
+    `A ${r0} ${r0} 0 ${large} 0 ${r + r0 * x0} ${r + r0 * y0}" fill="${color}"/>`
+  );
+}
+
+/** A cluster as a donut chart of its themes, with the number of markers in the middle. */
+function donut(props: Record<string, unknown>): HTMLElement {
+  const counts = THEMES.map((t) => Number(props[t] ?? 0));
+  const total = counts.reduce((a, b) => a + b, 0);
+  const r = clusterRadius(total);
+  const r0 = Math.round(r * 0.58);
+  let start = 0;
+  const segments = counts
+    .map((n, i) => {
+      if (!n) return "";
+      const end = start + n / total;
+      const path = donutSegment(start, end, r, r0, THEME_COLORS[THEMES[i]]);
+      start = end;
+      return path;
+    })
+    .join("");
+  const el = document.createElement("div");
+  el.className = "cluster-donut";
+  el.innerHTML =
+    `<svg width="${2 * r}" height="${2 * r}" viewBox="-1 -1 ${2 * r + 2} ${2 * r + 2}" aria-hidden="true">` +
+    segments +
+    `<circle cx="${r}" cy="${r}" r="${r0}" fill="#fff"/>` +
+    `<circle cx="${r}" cy="${r}" r="${r}" fill="none" stroke="#1b1b1f" stroke-width="1.5"/>` +
+    `<text x="${r}" y="${r}" text-anchor="middle" dominant-baseline="central">${total}</text></svg>`;
+  return el;
 }
 
 function markerImage(shape: "circle" | "diamond" | "ring", fill: string, size = 26): ImageData {
@@ -145,7 +190,13 @@ export function createMap(
         type: "Feature" as const,
         geometry: { type: "Point" as const, coordinates: [loc.lon, loc.lat] },
         // Documented elements draw above the located-only ones.
-        properties: { id: entry.id, icon: entry.icon, title: entry.title, rank: entry.icon.startsWith("located") ? 0 : 1 },
+        properties: {
+          id: entry.id,
+          icon: entry.icon,
+          theme: entry.theme,
+          title: entry.title,
+          rank: entry.icon.startsWith("located") ? 0 : 1,
+        },
       })),
     ),
   });
@@ -167,31 +218,21 @@ export function createMap(
       cluster: true,
       clusterRadius: 38,
       clusterMaxZoom: 8,
+      // Markers per theme, for the donut charts.
+      clusterProperties: Object.fromEntries(
+        THEMES.map((t) => [t, ["+", ["case", ["==", ["get", "theme"], t], 1, 0]]]),
+      ),
     });
+    // Invisible click target under each HTML donut (the donut ignores pointer events).
     map.addLayer({
       id: "clusters",
       type: "circle",
       source: "elements",
       filter: ["has", "point_count"],
       paint: {
-        "circle-color": "#2b2d42",
-        "circle-radius": ["step", ["get", "point_count"], 15, 5, 19, 15, 24],
-        "circle-stroke-color": "#ffffff",
-        "circle-stroke-width": 2,
+        "circle-opacity": 0,
+        "circle-radius": ["step", ["get", "point_count"], 16, 5, 19, 15, 22, 50, 26],
       },
-    });
-    map.addLayer({
-      id: "cluster-count",
-      type: "symbol",
-      source: "elements",
-      filter: ["has", "point_count"],
-      layout: {
-        "text-field": ["get", "point_count_abbreviated"],
-        "text-font": ["Noto Sans Bold"],
-        "text-size": 13,
-        "text-allow-overlap": true,
-      },
-      paint: { "text-color": "#ffffff" },
     });
     map.addLayer({
       id: "selected-halo",
@@ -221,6 +262,35 @@ export function createMap(
     view.select(selected, flyOnLoad);
   });
 
+  // Donut markers for the clusters currently in view, keyed by cluster id.
+  let donuts = new Map<number, Marker>();
+  let donutsOnScreen = new Map<number, Marker>();
+  const clearDonuts = () => {
+    for (const marker of donutsOnScreen.values()) marker.remove();
+    donuts = new Map();
+    donutsOnScreen = new Map();
+  };
+  map.on("render", () => {
+    if (!ready || !map.isSourceLoaded("elements")) return;
+    const next = new Map<number, Marker>();
+    for (const feature of map.querySourceFeatures("elements")) {
+      const props = feature.properties;
+      if (!props?.cluster) continue;
+      const id = props.cluster_id as number;
+      if (next.has(id)) continue;
+      let marker = donuts.get(id);
+      if (!marker) {
+        const lngLat = (feature.geometry as Point).coordinates as [number, number];
+        marker = new Marker({ element: donut(props) }).setLngLat(lngLat);
+        donuts.set(id, marker);
+      }
+      next.set(id, marker);
+      if (!donutsOnScreen.has(id)) marker.addTo(map);
+    }
+    for (const [id, marker] of donutsOnScreen) if (!next.has(id)) marker.remove();
+    donutsOnScreen = next;
+  });
+
   // Lets automated screenshots wait for rendered tiles.
   map.on("idle", () => container.setAttribute("data-idle", "true"));
   map.on("movestart", () => container.removeAttribute("data-idle"));
@@ -246,7 +316,10 @@ export function createMap(
     setEntries(entries) {
       pending = entries;
       byId = new Map(entries.map((e) => [e.id, e]));
-      if (ready) (map.getSource("elements") as GeoJSONSource).setData(toGeoJSON(entries));
+      if (ready) {
+        clearDonuts(); // cluster ids are reassigned when the data changes
+        (map.getSource("elements") as GeoJSONSource).setData(toGeoJSON(entries));
+      }
     },
     select(id, fly) {
       selected = id;

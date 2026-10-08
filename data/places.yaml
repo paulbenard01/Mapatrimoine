@@ -1914,7 +1914,7 @@
   pcilab: 233
 2014_67717_INV_PCI_FRANCE_00328:
   places:
-  - label: France entière (point PCI Lab)
+  - label: France entière
     lat: 48.84992
     lon: 2.63704
     precision: approximate
@@ -2347,7 +2347,7 @@
   pcilab: 367
 2018_67717_INV_PCI_FRANCE_00404:
   places:
-  - label: France entière (point PCI Lab)
+  - label: France entière
     lat: 48.85889
     lon: 2.32004
     precision: approximate
@@ -2406,7 +2406,7 @@
     url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-art-de-la-navigation-sous-voile-latine
 2018_67717_INV_PCI_FRANCE_00413:
   places:
-  - label: France entière (point PCI Lab)
+  - label: France entière
     lat: 48.85889
     lon: 2.32004
     precision: approximate
@@ -2990,7 +2990,7 @@
   pcilab: 492
 2021_67717_INV_PCI_FRANCE_00499:
   places:
-  - label: France entière (point PCI Lab)
+  - label: France entière
     lat: 48.86272
     lon: 2.28759
     precision: approximate
@@ -3283,7 +3283,7 @@
   pcilab: 559
 2024_67717_INV_PCI_FRANCE_00538:
   places:
-  - label: France entière (point PCI Lab)
+  - label: France entière
     lat: 45.2939
     lon: 3.38537
     precision: approximate
@@ -3293,7 +3293,7 @@
     url: https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/les-pratiques-sociales-et-culturelles-dans-les-bistrots-et-cafes-en-france
 2024_67717_INV_PCI_FRANCE_00539:
   places:
-  - label: France entière (point PCI Lab)
+  - label: France entière
     lat: 48.88633
     lon: 2.29925
     precision: approximate

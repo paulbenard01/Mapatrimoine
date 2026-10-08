@@ -119,6 +119,7 @@ function mapEntry(item: Item): MapEntry {
     id: entry.id,
     title: entry.title_fr,
     icon: `${element?.kind ?? "located"}-${entry.themes[0]}`,
+    theme: entry.themes[0],
     locations: placesOf(entry),
   };
 }
@@ -513,22 +514,38 @@ function figure(picture: Picture | null): HTMLElement | null {
   return h(
     "figure",
     { class: "picture" },
-    h("img", { src: picture.src, alt: picture.alt, loading: "lazy", decoding: "async", referrerpolicy: "no-referrer" }),
-    h(
-      "figcaption",
-      {},
-      picture.source === "commons" ? s.photoCommons : s.photoFiche,
-      " : ",
-      h("a", { href: picture.page, target: "_blank", rel: "noopener" }, picture.credit),
-      picture.licence
-        ? [
-            ", ",
-            picture.licence_url
-              ? h("a", { href: picture.licence_url, target: "_blank", rel: "noopener" }, picture.licence)
-              : picture.licence,
-          ]
-        : null,
-    ),
+    h("img", {
+      src: picture.src,
+      alt: picture.alt,
+      loading: "lazy",
+      decoding: "async",
+      referrerpolicy: "no-referrer",
+      // A broken image link must not leave an empty frame.
+      onerror: (e: Event) => (e.target as HTMLElement).closest("figure")?.remove(),
+    }),
+    picture.source === "commons"
+      ? h(
+          "figcaption",
+          {},
+          s.photoBy,
+          h("a", { href: picture.page, target: "_blank", rel: "noopener" }, picture.credit),
+          picture.licence
+            ? [
+                " (",
+                picture.licence_url
+                  ? h("a", { href: picture.licence_url, target: "_blank", rel: "noopener" }, picture.licence)
+                  : picture.licence,
+                ")",
+              ]
+            : null,
+          ", Wikimedia Commons",
+        )
+      : h(
+          "figcaption",
+          {},
+          `${s.ficheImageVia} `,
+          h("a", { href: picture.page, target: "_blank", rel: "noopener" }, "PCI Lab"),
+        ),
   );
 }
 
