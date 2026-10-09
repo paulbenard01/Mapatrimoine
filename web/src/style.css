@@ -1747,3 +1747,17 @@ body.lesson-mode #app {
     color: #000;
   }
 }
+
+/* Cards: keep long summaries short; the full text is one click away. */
+.card-summary {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+/* In a story the filters, search and result count do not apply. */
+.story-mode .filters,
+.story-mode .panel > .count,
+.story-mode .search-wrap {
+  display: none;
+}
