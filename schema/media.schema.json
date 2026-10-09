@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/paulbenard01/Mapatrimoine/schema/media.schema.json",
+  "title": "PCI Map audio and video links",
+  "description": "One entry of data/media.yaml: up to four links to recordings or films of an element held by public archives or institutions (INA, BnF Gallica, Dastum, UNESCO, museums, ethnopôles...). Links only: nothing is copied.",
+  "type": "array",
+  "minItems": 1,
+  "maxItems": 4,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "url",
+      "publisher",
+      "kind"
+    ],
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 200,
+        "description": "Title as the archive gives it (original language)."
+      },
+      "url": {
+        "type": "string",
+        "pattern": "^https://"
+      },
+      "publisher": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 120
+      },
+      "kind": {
+        "enum": [
+          "audio",
+          "video"
+        ]
+      },
+      "year": {
+        "type": "integer",
+        "minimum": 1890,
+        "maximum": 2100,
+        "description": "Recording or broadcast year when the archive gives it."
+      },
+      "note": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "fr",
+          "en"
+        ],
+        "properties": {
+          "fr": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 240
+          },
+          "en": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 240
+          }
+        },
+        "description": "What it shows or plays, in own words."
+      },
+      "checked_at": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      }
+    }
+  }
+}

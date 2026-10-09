@@ -1,0 +1,403 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/paulbenard01/Mapatrimoine/schema/lesson.schema.json",
+  "title": "PCI Map lesson plan",
+  "description": "data/lessons/<id>.yaml: a one-hour lesson built on the map and its elements, for one education level. Written for this site; drafts until Paul reviews them.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "level",
+    "title",
+    "grade",
+    "duration_min",
+    "summary",
+    "curriculum",
+    "objectives",
+    "materials",
+    "elements",
+    "steps",
+    "assessment",
+    "differentiation",
+    "going_further",
+    "lang_review",
+    "review_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]{3,40}$"
+    },
+    "level": {
+      "enum": [
+        "primary",
+        "middle",
+        "high",
+        "university"
+      ]
+    },
+    "title": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 100
+        },
+        "en": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 100
+        }
+      }
+    },
+    "grade": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 120
+        },
+        "en": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 120
+        }
+      },
+      "description": "Class or year, e.g. CM1-CM2 (cycle 3)."
+    },
+    "duration_min": {
+      "const": 60
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "string",
+          "minLength": 100,
+          "maxLength": 700
+        },
+        "en": {
+          "type": "string",
+          "minLength": 100,
+          "maxLength": 700
+        }
+      }
+    },
+    "curriculum": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "string",
+          "minLength": 60,
+          "maxLength": 900
+        },
+        "en": {
+          "type": "string",
+          "minLength": 60,
+          "maxLength": 900
+        }
+      },
+      "description": "How the lesson fits the national programmes, in own words."
+    },
+    "objectives": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 5,
+          "items": {
+            "type": "string",
+            "minLength": 15,
+            "maxLength": 220
+          }
+        },
+        "en": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 5,
+          "items": {
+            "type": "string",
+            "minLength": 15,
+            "maxLength": 220
+          }
+        }
+      }
+    },
+    "materials": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 220
+          }
+        },
+        "en": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 220
+          }
+        }
+      }
+    },
+    "elements": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 12,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^\\d{4}_\\d+_INV_PCI_FRANCE_\\d{5}$"
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "minutes",
+          "title",
+          "teacher",
+          "students"
+        ],
+        "properties": {
+          "minutes": {
+            "type": "integer",
+            "minimum": 3,
+            "maximum": 30
+          },
+          "title": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "fr",
+              "en"
+            ],
+            "properties": {
+              "fr": {
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 90
+              },
+              "en": {
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 90
+              }
+            }
+          },
+          "teacher": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "fr",
+              "en"
+            ],
+            "properties": {
+              "fr": {
+                "type": "string",
+                "minLength": 40,
+                "maxLength": 1200
+              },
+              "en": {
+                "type": "string",
+                "minLength": 40,
+                "maxLength": 1200
+              }
+            },
+            "description": "What the teacher does and says."
+          },
+          "students": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "fr",
+              "en"
+            ],
+            "properties": {
+              "fr": {
+                "type": "string",
+                "minLength": 40,
+                "maxLength": 1200
+              },
+              "en": {
+                "type": "string",
+                "minLength": 40,
+                "maxLength": 1200
+              }
+            },
+            "description": "What the students do: the exercise itself."
+          },
+          "prompts": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "fr",
+              "en"
+            ],
+            "properties": {
+              "fr": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 6,
+                "items": {
+                  "type": "string",
+                  "minLength": 10,
+                  "maxLength": 400
+                }
+              },
+              "en": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 6,
+                "items": {
+                  "type": "string",
+                  "minLength": 10,
+                  "maxLength": 400
+                }
+              }
+            },
+            "description": "Questions or cards handed to the students."
+          }
+        }
+      }
+    },
+    "assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "string",
+          "minLength": 60,
+          "maxLength": 900
+        },
+        "en": {
+          "type": "string",
+          "minLength": 60,
+          "maxLength": 900
+        }
+      }
+    },
+    "differentiation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "string",
+          "minLength": 60,
+          "maxLength": 900
+        },
+        "en": {
+          "type": "string",
+          "minLength": 60,
+          "maxLength": 900
+        }
+      }
+    },
+    "going_further": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "string",
+          "minLength": 60,
+          "maxLength": 900
+        },
+        "en": {
+          "type": "string",
+          "minLength": 60,
+          "maxLength": 900
+        }
+      }
+    },
+    "answer_key": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "string",
+          "minLength": 40,
+          "maxLength": 1500
+        },
+        "en": {
+          "type": "string",
+          "minLength": 40,
+          "maxLength": 1500
+        }
+      },
+      "description": "Expected answers for the teacher."
+    },
+    "lang_review": {
+      "enum": [
+        "draft",
+        "reviewed"
+      ]
+    },
+    "review_status": {
+      "enum": [
+        "unreviewed",
+        "reviewed"
+      ]
+    }
+  }
+}

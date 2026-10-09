@@ -2,7 +2,7 @@ import "@fontsource-variable/atkinson-hyperlegible-next";
 import "@fontsource-variable/bricolage-grotesque";
 import "./style.css";
 import { STRINGS, THEME_LABELS, badgeText, describeRule, formatDay, formatKm, monthNames } from "./i18n";
-import { AREAS, createMap, type MapEntry, type MapView } from "./map";
+import { AREAS, createMap, type Bounds, type MapEntry, type MapView } from "./map";
 import {
   SORTS,
   annotate,
@@ -21,6 +21,7 @@ import {
 import { RADII, parseState, resolveToday, serializeState, type State } from "./state";
 import { THEME_COLORS } from "./theme-colors";
 import { h, svg, type Child } from "./dom";
+import { renderLesson } from "./lesson";
 import { renderSheet } from "./sheet";
 import { upcomingPeriods } from "./recurrence";
 import {
@@ -31,6 +32,8 @@ import {
   type Location,
   type MediationSheet,
   type Picture,
+  type Resources,
+  type Story,
   type Theme,
 } from "./types";
 
@@ -69,6 +72,8 @@ let sheetReturnKey: string | null = null; // where focus goes when the sheet clo
 let entries: Entry[] = [];
 let sheets: Record<string, MediationSheet> = {};
 let announced: Announced | null = null;
+let resources: Resources = { media: {}, lessons: [], stories: [] };
+let lastStoryKey = ""; // story + step last shown, to fly the map only on change
 let mapView: MapView | null = null;
 let mapFailed = false;
 
@@ -158,6 +163,9 @@ const ICONS = {
   agenda: "M4 6h16v14H4zM4 10h16M8 3v4M16 3v4",
   resources: "M4 5a2 2 0 0 1 2-2h5v16H6a2 2 0 0 0-2 2zM20 5a2 2 0 0 0-2-2h-5v16h5a2 2 0 0 1 2 2z",
   unesco: "M3 10 12 4l9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18",
+  audio: "M9 18V5l11-2v13M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM20 16a3 3 0 1 1-6 0 3 3 0 0 1 6 0z",
+  video: "M3 6h12v12H3zM15 10l6-3v10l-6-3",
+  story: "M4 19c3-6 6-9 8-9s3 3 6 3 2-4 2-6M4 19h4M17 4h3v3",
 };
 
 /** Which page the bottom navigation highlights (phones); derived from the shareable state. */
@@ -762,6 +770,7 @@ function renderDetail(item: Item): HTMLElement {
           )
         : null,
       h("p", { class: "note" }, entry.summary ? s.shortOnly : s.notDocumented),
+      mediaSection(entry.id),
       openSheetButton(entry.id),
       ficheLink,
     );
@@ -847,6 +856,7 @@ function renderDetail(item: Item): HTMLElement {
             : null,
         )
       : h("p", { class: "badge practice" }, s.practiceNoDate),
+    mediaSection(entry.id),
     openSheetButton(entry.id),
     ficheLink,
   );
@@ -855,6 +865,7 @@ function renderDetail(item: Item): HTMLElement {
 // A selection restored from the URL must not steal focus on page load.
 let lastSelected: string | null = state.selected;
 let lastSheet = false;
+let lastLesson: string | null = null;
 
 /** Sheet mode replaces the page with the printable sheet; the map stays alive underneath. */
 function renderSheetMode(item: Item | undefined): boolean {
@@ -883,6 +894,330 @@ function renderSheetMode(item: Item | undefined): boolean {
   return true;
 }
 
+// ---------- media links (public archives) ----------
+function mediaSection(id: string): HTMLElement | null {
+  const links = resources.media[id];
+  if (!links?.length) return null;
+  const s = STRINGS[state.lang];
+  return h(
+    "section",
+    { class: "media", "aria-labelledby": "media-title" },
+    h("h3", { id: "media-title" }, s.mediaTitle),
+    h(
+      "ul",
+      {},
+      links.map((m) =>
+        h(
+          "li",
+          {},
+          icon(m.kind === "audio" ? ICONS.audio : ICONS.video, "media-icon"),
+          h(
+            "span",
+            {},
+            h("a", { href: m.url, target: "_blank", rel: "noopener" }, m.title),
+            h("span", { class: "media-meta" }, ` · ${m.publisher}${m.year ? `, ${m.year}` : ""} · ${m.kind === "audio" ? s.audio : s.video}`),
+            m.note ? h("span", { class: "media-note" }, m.note[state.lang]) : null,
+          ),
+        ),
+      ),
+    ),
+    h("p", { class: "note" }, s.mediaNote),
+  );
+}
+
+// ---------- stories: guided tours across elements ----------
+const findStory = (id: string | null) => (id ? resources.stories.find((st) => st.id === id) : undefined);
+
+function startStory(id: string) {
+  openMenu = null;
+  setState({ story: id, step: 0, view: "inventory", selected: null, sheet: false, pane: "list" });
+  showMap();
+  window.scrollTo({ top: 0 });
+}
+
+function leaveStory() {
+  setState({ story: null, step: 0 });
+  showMap();
+}
+
+/** Bounds of every place in a story, to frame the whole tour on its introduction. */
+function storyBounds(items: Item[]): Bounds | null {
+  const locs = items.flatMap((i) => placesOf(i.entry));
+  if (!locs.length) return null;
+  const lons = locs.map((l) => l.lon);
+  const lats = locs.map((l) => l.lat);
+  return [
+    [Math.min(...lons), Math.min(...lats)],
+    [Math.max(...lons), Math.max(...lats)],
+  ];
+}
+
+function renderStory(story: Story, all: Item[]): HTMLElement {
+  const s = STRINGS[state.lang];
+  const lang = state.lang;
+  const last = story.steps.length + 1;
+  const step = Math.min(state.step, last);
+  const byId = new Map(all.map((i) => [i.entry.id, i]));
+  const go = (n: number) => setState({ step: Math.max(0, Math.min(last, n)) });
+  let body: Child[];
+  if (step === 0) {
+    body = [
+      h("p", { class: "story-tagline" }, story.tagline[lang]),
+      ...story.intro[lang].split(/\n\s*\n/).map((p) => h("p", {}, p)),
+      h("p", { class: "note" }, s.storySteps(story.steps.length)),
+    ];
+  } else if (step === last) {
+    const others = resources.stories.filter((o) => o.id !== story.id);
+    body = [
+      h("h3", { class: "story-heading" }, s.storyEnd),
+      ...story.outro[lang].split(/\n\s*\n/).map((p) => h("p", {}, p)),
+      others.length
+        ? h(
+            "div",
+            { class: "story-others" },
+            h("p", { class: "note" }, s.storyOthers),
+            h(
+              "div",
+              { class: "chips" },
+              others.map((o) =>
+                h("button", { type: "button", "data-key": `story-${o.id}`, onclick: () => startStory(o.id) }, o.title[lang]),
+              ),
+            ),
+          )
+        : null,
+    ];
+  } else {
+    const st = story.steps[step - 1];
+    const item = byId.get(st.element);
+    const entry = item?.entry;
+    body = [
+      h("h3", { class: "story-heading" }, st.heading[lang]),
+      entry
+        ? h(
+            "div",
+            { class: "story-element" },
+            entry.image ? figure(entry.image) : null,
+            h(
+              "p",
+              { class: "story-element-title" },
+              shapeIcon(shapeOf(item!.element), entry.themes[0]),
+              h("span", { lang: "fr" }, entry.title_fr),
+              unescoTag(entry),
+            ),
+            h("p", { class: "result-meta" }, placeNames(placesOf(entry))),
+          )
+        : null,
+      ...st.text[lang].split(/\n\s*\n/).map((p) => h("p", {}, p)),
+      st.look_for ? h("p", { class: "story-look" }, h("strong", {}, `${s.storyLookFor} `), st.look_for[lang]) : null,
+      entry
+        ? h(
+            "p",
+            {},
+            h(
+              "button",
+              {
+                type: "button",
+                class: "link",
+                "data-key": "story-open-element",
+                onclick: () => {
+                  setState({ story: null, step: 0, selected: entry.id }, { fly: true });
+                },
+              },
+              s.storyOpenElement,
+            ),
+          )
+        : null,
+    ];
+  }
+  return h(
+    "section",
+    { class: "story", "aria-labelledby": "story-title" },
+    h(
+      "div",
+      { class: "story-top" },
+      h("button", { type: "button", class: "back", "data-key": "story-leave", onclick: leaveStory }, `← ${s.storyLeave}`),
+      h("p", { class: "story-kicker" }, story.kind === "place" ? s.storyPlace : s.storyTheme),
+      h("h2", { id: "story-title", tabindex: "-1" }, story.title[lang]),
+      h(
+        "ol",
+        { class: "story-progress", "aria-label": s.storyProgress },
+        Array.from({ length: last + 1 }, (_, i) =>
+          h(
+            "li",
+            {},
+            h(
+              "button",
+              {
+                type: "button",
+                "data-key": `story-step-${i}`,
+                "aria-current": i === step ? "step" : null,
+                "aria-label": i === 0 ? s.storyIntro : i === last ? s.storyEnd : `${i}. ${story.steps[i - 1].heading[lang]}`,
+                onclick: () => go(i),
+              },
+              i === 0 ? "★" : i === last ? "✓" : String(i),
+            ),
+          ),
+        ),
+      ),
+    ),
+    h("div", { class: "story-body", "aria-live": "polite" }, body),
+    h(
+      "div",
+      { class: "story-nav" },
+      h("button", { type: "button", "data-key": "story-prev", disabled: step === 0, onclick: () => go(step - 1) }, `← ${s.storyPrev}`),
+      step < last
+        ? h("button", { type: "button", class: "primary", "data-key": "story-next", onclick: () => go(step + 1) }, step === 0 ? s.storyStart : `${s.storyNext} →`)
+        : h("button", { type: "button", class: "primary", "data-key": "story-done", onclick: leaveStory }, s.storyDone),
+    ),
+  );
+}
+
+function storyChips(): HTMLElement | null {
+  if (!resources.stories.length || state.view !== "inventory") return null;
+  const s = STRINGS[state.lang];
+  return h(
+    "div",
+    { class: "story-strip" },
+    h("p", { class: "story-strip-title" }, icon(ICONS.story, "inline-icon"), s.storiesShort),
+    h(
+      "div",
+      { class: "story-strip-row" },
+      resources.stories.map((st) =>
+        h("button", { type: "button", "data-key": `story-${st.id}`, onclick: () => startStory(st.id) }, st.title[state.lang]),
+      ),
+    ),
+  );
+}
+
+// ---------- lessons ----------
+function renderLessonMode(): boolean {
+  const lesson = state.lesson ? resources.lessons.find((l) => l.id === state.lesson) : undefined;
+  if (state.lesson && !lesson && resources.lessons.length) state.lesson = null;
+  document.body.classList.toggle("lesson-mode", Boolean(lesson));
+  let root = document.getElementById("lesson-root");
+  if (!lesson) {
+    root?.remove();
+    return false;
+  }
+  if (!root) {
+    root = h("div", { id: "lesson-root" });
+    app.append(root);
+  }
+  const titles = new Map(entries.map((e) => [e.id, e.title_fr]));
+  root.replaceChildren(
+    renderLesson(
+      lesson,
+      state.lang,
+      titles,
+      import.meta.env.BASE_URL,
+      () => setState({ lesson: null }),
+      () => setState({ lang: state.lang === "fr" ? "en" : "fr" }),
+    ),
+  );
+  return true;
+}
+
+function lessonsSection(): HTMLElement | null {
+  if (!resources.lessons.length) return null;
+  const s = STRINGS[state.lang];
+  const lang = state.lang;
+  return h(
+    "section",
+    { class: "res-section", "aria-labelledby": "lessons-title" },
+    h("header", {}, h("h3", { id: "lessons-title" }, s.lessonsTitle), h("p", { class: "count" }, s.lessonsCount(resources.lessons.length))),
+    h("p", { class: "section-note" }, s.lessonsIntro),
+    h(
+      "ul",
+      { class: "cards" },
+      resources.lessons.map((l) =>
+        h(
+          "li",
+          {},
+          h(
+            "article",
+            { class: "card lesson-card" },
+            h("span", { class: `level-tag level-${l.level}` }, s.levels[l.level]),
+            h("h4", {}, l.title[lang]),
+            h("p", { class: "card-meta" }, `${l.grade[lang]} · ${s.minutes(l.duration_min)}`),
+            h("p", { class: "card-summary" }, l.summary[lang]),
+            h(
+              "div",
+              { class: "card-actions" },
+              h(
+                "button",
+                { type: "button", class: "primary", "data-key": `lesson-${l.id}`, onclick: () => setState({ lesson: l.id }) },
+                s.openLesson,
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  );
+}
+
+function storiesSection(): HTMLElement | null {
+  if (!resources.stories.length) return null;
+  const s = STRINGS[state.lang];
+  const lang = state.lang;
+  const group = (kind: "theme" | "place", title: string) => {
+    const items = resources.stories.filter((st) => st.kind === kind);
+    if (!items.length) return null;
+    return [
+      h("h4", { class: "res-subtitle" }, title),
+      h(
+        "ul",
+        { class: "cards" },
+        items.map((st) =>
+          h(
+            "li",
+            {},
+            h(
+              "article",
+              { class: "card story-card" },
+              h("span", { class: "card-theme" }, icon(ICONS.story, "inline-icon"), s.storySteps(st.steps.length)),
+              h("h4", {}, st.title[lang]),
+              h("p", { class: "card-summary" }, st.tagline[lang]),
+              h(
+                "div",
+                { class: "card-actions" },
+                h("button", { type: "button", class: "primary", "data-key": `story-${st.id}`, onclick: () => startStory(st.id) }, s.startStory),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ];
+  };
+  return h(
+    "section",
+    { class: "res-section", "aria-labelledby": "stories-title" },
+    h("header", {}, h("h3", { id: "stories-title" }, s.storiesTitle), h("p", { class: "count" }, s.storiesCount(resources.stories.length))),
+    h("p", { class: "section-note" }, s.storiesIntro),
+    group("theme", s.storiesThemes),
+    group("place", s.storiesPlaces),
+  );
+}
+
+function openDataSection(): HTMLElement {
+  const s = STRINGS[state.lang];
+  const base = import.meta.env.BASE_URL;
+  return h(
+    "section",
+    { class: "res-section open-data", "aria-labelledby": "open-data-title" },
+    h("header", {}, h("h3", { id: "open-data-title" }, s.openDataTitle)),
+    h("p", { class: "section-note" }, s.openDataIntro(entries.length)),
+    h(
+      "div",
+      { class: "card-actions" },
+      h("a", { class: "button primary", href: `${base}data/open/pci-inventaire.csv`, download: "pci-inventaire.csv" }, s.downloadCsv),
+      h("a", { class: "button", href: `${base}data/open/pci-inventaire.json`, download: "pci-inventaire.json" }, s.downloadJson),
+    ),
+    h("p", { class: "hint" }, s.openDataFields),
+    h("p", { class: "hint" }, s.openDataLicence),
+  );
+}
+
 // ---------- resources page ----------
 function openWorksheet(id: string) {
   sheetReturnKey = `sheet-${id}`;
@@ -904,7 +1239,17 @@ function renderResources(all: Item[]): HTMLElement {
       { class: "resources-inner" },
       h("h2", { id: "resources-title" }, s.resourcesTitle),
       h("p", { class: "lead" }, s.resourcesIntro),
-      h("h3", { class: "res-kicker" }, s.worksheetsTitle),
+      h(
+        "nav",
+        { class: "res-jump", "aria-label": s.resourcesTitle },
+        resources.lessons.length ? h("a", { href: "#lessons-title" }, s.lessonsTitle) : null,
+        resources.stories.length ? h("a", { href: "#stories-title" }, s.storiesTitle) : null,
+        h("a", { href: "#worksheets-title" }, s.worksheetsTitle),
+        h("a", { href: "#open-data-title" }, s.openDataTitle),
+      ),
+      lessonsSection(),
+      storiesSection(),
+      h("h3", { class: "res-kicker", id: "worksheets-title" }, s.worksheetsTitle),
       h("p", { class: "count", role: "status", "aria-live": "polite" }, s.worksheetsCount(withSheet.length)),
       withSheet.length
         ? [
@@ -912,6 +1257,7 @@ function renderResources(all: Item[]): HTMLElement {
             sheetSection("other-sheets", s.otherSheets, s.worksheetsIntro, withSheet.filter((i) => !i.entry.unesco), false),
           ]
         : h("p", { class: "empty" }, s.noResults),
+      openDataSection(),
     ),
   );
 }
@@ -1091,20 +1437,27 @@ function render() {
   const listScroll = document.querySelector(".panel")?.scrollTop ?? 0;
 
   const all = annotate(entries, today, position);
+  const story = findStory(state.story);
+  if (state.story && !story && resources.stories.length) state.story = null;
+  if (story && state.view !== "inventory") state.view = "inventory";
   const onResources = state.view === "resources";
-  const visible = onResources ? [] : sortItems(applyFilters(all, state, position), state.sort);
+  const storyItems = story
+    ? story.steps.map((st) => all.find((i) => i.entry.id === st.element)).filter((i): i is Item => Boolean(i))
+    : [];
+  const visible = onResources ? [] : story ? storyItems : sortItems(applyFilters(all, state, position), state.sort);
   const selectedItem = state.selected ? all.find((i) => i.entry.id === state.selected) : undefined;
   if (state.selected && !selectedItem && entries.length) state.selected = null;
   const mapped = visible.filter((i) => placesOf(i.entry).length).map(mapEntry);
   if (!onResources) mapView?.setEntries(mapped);
 
   const tab = currentTab();
-  app.className = `tab-${tab} view-${state.view}`;
+  app.className = `tab-${tab} view-${state.view}${story ? " story-mode" : ""}`;
   const events = entries.filter((e) => e.element?.kind === "event").length;
 
   const panelHead = h(
     "div",
     { class: "panel-head" },
+    !story && !state.selected ? storyChips() : null,
     state.view === "agenda" ? [h("p", { class: "agenda-intro" }, s.agendaIntro(events)), monthStrip(all)] : null,
     tab === "near"
       ? h("section", { class: "near-box", "aria-label": s.nearMe }, h("h2", { class: "count" }, s.nearMe), nearControls())
@@ -1117,12 +1470,16 @@ function render() {
   const results = h(
     "div",
     { class: "results-area", id: "results", tabindex: "-1" },
-    selectedItem && !onResources ? renderDetail(selectedItem) : [legend(), renderList(visible)],
+    story
+      ? renderStory(story, all)
+      : selectedItem && !onResources
+        ? renderDetail(selectedItem)
+        : [legend(), renderList(visible)],
   );
 
   const header = renderHeader();
   const toolbar = renderToolbar(all);
-  const resources = onResources ? renderResources(all) : h("section", { class: "resources", hidden: true });
+  const resourcesPage = onResources ? renderResources(all) : h("section", { class: "resources", hidden: true });
   const bottomNav = renderBottomNav();
   const shell = app.querySelector<HTMLElement>(".shell");
   if (!shell) {
@@ -1143,7 +1500,7 @@ function render() {
         ),
         mapBox,
       ),
-      resources,
+      resourcesPage,
       bottomNav,
     );
     mapView = createMap(
@@ -1163,7 +1520,7 @@ function render() {
   } else {
     app.querySelector("header.top")!.replaceWith(header);
     app.querySelector(".toolbar")!.replaceWith(toolbar);
-    app.querySelector(".resources")!.replaceWith(resources);
+    app.querySelector(".resources")!.replaceWith(resourcesPage);
     app.querySelector(".bottom-nav")!.replaceWith(bottomNav);
     shell.className = `shell pane-${state.pane}`;
     shell.hidden = onResources;
@@ -1175,6 +1532,41 @@ function render() {
   const count = panel.querySelector<HTMLElement>("p.count")!;
   const countText = s.resultsCount(visible.length, mapped.length);
   if (count.textContent !== countText) count.textContent = countText;
+
+  if (story) {
+    const key = `${story.id}:${state.step}`;
+    if (key !== lastStoryKey) {
+      lastStoryKey = key;
+      const current = story.steps[state.step - 1]?.element ?? null;
+      requestAnimationFrame(() => {
+        if (current) mapView?.select(current, true);
+        else {
+          mapView?.select(null, false);
+          const bounds = storyBounds(storyItems);
+          if (bounds) mapView?.fit(bounds);
+        }
+      });
+      document.getElementById("story-title")?.focus({ preventScroll: true });
+      if (panel.scrollHeight > panel.clientHeight) panel.scrollTop = 0;
+    }
+  } else lastStoryKey = "";
+
+  if (renderLessonMode()) {
+    const lesson = resources.lessons.find((l) => l.id === state.lesson)!;
+    document.title = `${lesson.title[state.lang]} · ${s.lessonKicker}`;
+    if (!lastLesson) {
+      window.scrollTo({ top: 0 });
+      document.getElementById("lesson-title")?.focus({ preventScroll: true });
+    } else if (focusKey) document.querySelector<HTMLElement>(`[data-key="${focusKey}"]`)?.focus();
+    lastLesson = state.lesson;
+    return;
+  }
+  if (lastLesson) {
+    const key = `lesson-${lastLesson}`;
+    lastLesson = null;
+    document.querySelector<HTMLElement>(`[data-key="${key}"]`)?.focus();
+    return;
+  }
 
   const sheetMode = renderSheetMode(selectedItem);
   if (sheetMode) {
@@ -1235,13 +1627,16 @@ function closeMenusOnOutsideInput() {
 async function init() {
   closeMenusOnOutsideInput();
   const base = import.meta.env.BASE_URL;
-  const [inventory, curated, mediation, listed] = await Promise.all([
+  const [inventory, curated, mediation, extra, listed] = await Promise.all([
     fetch(`${base}data/inventory.json`).then((r) => r.json() as Promise<{ elements: InventoryEntry[] }>),
     fetch(`${base}data/elements.json`).then((r) => r.json() as Promise<{ elements: Element[] }>),
     // Optional: the site works without mediation sheets.
     fetch(`${base}data/mediation.json`)
       .then((r) => (r.ok ? (r.json() as Promise<{ sheets: Record<string, MediationSheet> }>) : { sheets: {} }))
       .catch(() => ({ sheets: {} })),
+    fetch(`${base}data/resources.json`)
+      .then((r) => (r.ok ? (r.json() as Promise<Resources>) : null))
+      .catch(() => null),
     fetch(`${base}data/announced.json`)
       .then((r) => (r.ok ? (r.json() as Promise<Announced>) : null))
       .catch(() => null),
@@ -1249,6 +1644,7 @@ async function init() {
   entries = mergeEntries(inventory.elements, curated.elements);
   sheets = mediation.sheets;
   announced = listed;
+  if (extra) resources = extra;
   render();
   if (state.zone === "overseas") mapView?.fit(AREAS[presentAreas()[0] ?? "guadeloupe"]);
   if (state.selected) mapView?.select(state.selected, true);

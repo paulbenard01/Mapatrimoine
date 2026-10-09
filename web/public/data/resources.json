@@ -1,0 +1,642 @@
+{
+"media": {},
+"lessons": [
+{
+"id": "primaire-detectives-patrimoine-vivant",
+"level": "primary",
+"title": {
+"fr": "Détectives du patrimoine vivant",
+"en": "Living heritage detectives"
+},
+"grade": {
+"fr": "CM1-CM2 (cycle 3)",
+"en": "Years 5-6 / grades 4-5 (French cycle 3, CM1-CM2)"
+},
+"duration_min": 60,
+"summary": {
+"fr": "La classe devient une agence de détectives. Chaque équipe reçoit un dossier mystère : un objet, un son ou une odeur, un geste et un lieu. Il faut deviner la tradition, la confirmer sur la carte, puis chercher les preuves qu'elle est vivante : qui la fait vivre, comment on l'apprend, ce qui a changé. Les équipes présentent leur tradition en mimant son geste, épinglent la carte de classe et écrivent une carte postale envoyée depuis la tradition. On termine avec « Autour de moi » pour découvrir le patrimoine vivant près de l'école.",
+"en": "The class becomes a detective agency. Each team gets a mystery file: an object, a sound or smell, a gesture and a place. They must guess the tradition, confirm it on the map, then gather proof that it is alive: who keeps it going, how people learn it, what has changed. Teams present their tradition by miming its gesture, pin it on the class map and write a postcard sent from the tradition. The lesson ends with \"Autour de moi\" (Near me) to discover living heritage close to the school."
+},
+"curriculum": {
+"fr": "La séance s'inscrit dans le parcours d'éducation artistique et culturelle (PEAC) : rencontrer des pratiques culturelles vivantes et en parler. En géographie de CM1, elle prolonge l'étude des lieux où l'on habite et apprend à se repérer sur une carte de France qui inclut les territoires d'outre-mer. En enseignement moral et civique, elle fait travailler la coopération en équipe et le respect des cultures des autres. Elle mobilise aussi le langage oral (présenter, justifier une hypothèse), la lecture de documents (texte, image) et l'écriture d'un court texte. L'écoute de musiques (éducation musicale) peut s'ajouter si la classe dispose d'enregistrements.",
+"en": "The lesson belongs to the arts and culture education pathway (PEAC): meeting living cultural practices and talking about them. In Year 5 (CM1) geography, it extends the study of the places where we live and practises finding places on a map of France that includes the overseas territories. In moral and civic education, it builds teamwork and respect for other people's cultures. It also draws on speaking (presenting, justifying a guess), reading documents (text and image) and writing a short text. Listening to music (music education) can be added if the class has recordings."
+},
+"objectives": {
+"fr": [
+"Faire des hypothèses à partir d'indices et les vérifier avec un outil numérique (recherche et carte).",
+"Comprendre qu'une tradition est « vivante » parce que des personnes la font, l'apprennent et la transmettent.",
+"Situer des traditions de l'Hexagone et des outre-mer sur une carte de France.",
+"Présenter oralement une tradition et écrire un court texte qui dit qui la fait vivre."
+],
+"en": [
+"Make guesses from clues and check them with a digital tool (search and map).",
+"Understand that a tradition is \"living\" because people practise it, learn it and pass it on.",
+"Locate traditions from mainland France and the overseas territories on a map of France.",
+"Present a tradition orally and write a short text saying who keeps it alive."
+]
+},
+"materials": {
+"fr": [
+"Le site PCI Map vidéoprojeté, et une tablette ou un ordinateur par équipe (https://paulbenard01.github.io/Mapatrimoine/).",
+"Six enveloppes « dossier mystère » contenant chacune quatre cartes-indices découpées (objet, son ou odeur, geste, lieu), plus un dossier bonus.",
+"Une grande carte de France muette avec les outre-mer en encadré (format A2 ou A1) et des gommettes ou épingles.",
+"Une « fiche détective » par équipe : hypothèses, nom de la tradition, lieu, trois preuves de vie.",
+"Des cartes A5 cartonnées pour les cartes postales, crayons de couleur.",
+"Facultatif : les fiches imprimables des éléments (?id=<id>&sheet=1) pour les équipes sans écran."
+],
+"en": [
+"The PCI Map site on the projector, and one tablet or computer per team (https://paulbenard01.github.io/Mapatrimoine/).",
+"Six \"mystery file\" envelopes, each holding four cut-out clue cards (object, sound or smell, gesture, place), plus a bonus file.",
+"A large blank map of France with the overseas territories in insets (A2 or A1) and stickers or pins.",
+"One \"detective sheet\" per team: guesses, name of the tradition, place, three proofs of life.",
+"A5 card for the postcards, coloured pencils.",
+"Optional: the printable element sheets (?id=<id>&sheet=1) for teams without a screen."
+]
+},
+"elements": [
+"2014_67717_INV_PCI_FRANCE_00350",
+"2012_67717_INV_PCI_FRANCE_00284",
+"2018_67717_INV_PCI_FRANCE_00413",
+"2017_67717_INV_PCI_FRANCE_00376",
+"2019_67717_INV_PCI_FRANCE_00449",
+"2008_67717_INV_PCI_FRANCE_00035",
+"2012_67717_INV_PCI_FRANCE_00169"
+],
+"steps": [
+{
+"minutes": 7,
+"title": {
+"fr": "Briefing : qu'est-ce qu'un patrimoine vivant ?",
+"en": "Briefing: what is living heritage?"
+},
+"teacher": {
+"fr": "Projeter deux images côte à côte : un château et un défilé de fête. « Les deux sont du patrimoine. Quelle différence ? » Faire émerger l'idée : le château, on le visite ; la fête, il faut que des gens la refassent chaque année, sinon elle disparaît. Annoncer : « Le ministère de la Culture a fait la liste de plus de 500 traditions vivantes en France. Six d'entre elles ont laissé des indices. Votre agence doit les retrouver. » Montrer rapidement la carte du site, la barre de recherche et un point qu'on ouvre. Former six équipes de quatre et distribuer les rôles : lecteur des indices, pilote de la tablette, secrétaire, porte-parole.",
+"en": "Project two images side by side: a castle and a festival parade. \"Both are heritage. What is the difference?\" Draw out the idea: you visit a castle; a festival needs people to do it again every year, or it disappears. Announce: \"France's Ministry of Culture has listed more than 500 living traditions. Six of them have left clues. Your agency must track them down.\" Briefly show the site's map, the search bar and how to open a point. Form six teams of four and hand out roles: clue reader, tablet pilot, secretary, spokesperson."
+},
+"students": {
+"fr": "Les élèves comparent les deux images et proposent des exemples de choses qui n'existent que si on les fait : un jeu de cour, une recette de famille, une chanson d'anniversaire. Chaque équipe choisit un nom d'agence et répartit les quatre rôles. Elle reçoit son enveloppe fermée et sa fiche détective.",
+"en": "Pupils compare the two images and suggest things that only exist if people do them: a playground game, a family recipe, a birthday song. Each team picks an agency name and shares out the four roles. It receives its sealed envelope and its detective sheet."
+},
+"prompts": {
+"fr": [
+"Citez une chose que votre famille ou votre école fait chaque année et qui disparaîtrait si plus personne ne la faisait."
+],
+"en": [
+"Name something your family or school does every year that would disappear if nobody did it any more."
+]
+}
+},
+{
+"minutes": 15,
+"title": {
+"fr": "L'enquête : quatre indices, une tradition",
+"en": "The investigation: four clues, one tradition"
+},
+"teacher": {
+"fr": "Expliquer la règle : on ouvre les indices un par un, dans l'ordre objet, son ou odeur, geste, lieu. Après chaque indice, le secrétaire note une hypothèse. Quand l'équipe pense avoir trouvé, le pilote vérifie sur le site avec un mot-clé tiré des indices (par exemple « géant », « tambour », « citron », « laine ») ou en zoomant sur le lieu. Une tradition est « résolue » quand l'équipe montre l'élément ouvert sur l'écran. Passer dans les équipes, relancer avec des questions (« Quel mot de l'indice pourriez-vous chercher ? ») sans donner la réponse. Pour garder l'esprit collectif : chaque dossier résolu fait avancer toute l'agence, pas une seule équipe.",
+"en": "Explain the rule: open the clues one at a time, in the order object, sound or smell, gesture, place. After each clue, the secretary writes down a guess. When the team thinks it has found the answer, the pilot checks on the site with a keyword taken from the clues (for example \"géant\", \"tambour\", \"citron\", \"laine\") or by zooming in on the place. A case is \"solved\" when the team shows the element open on the screen. Circulate and nudge with questions (\"Which word from the clue could you search for?\") without giving the answer. To keep it collective, every solved case moves the whole agency forward, not just one team."
+},
+"students": {
+"fr": "Le lecteur lit le premier indice à voix haute ; l'équipe discute et le secrétaire écrit une première idée, même farfelue. On ouvre l'indice suivant et on corrige ou on garde l'hypothèse. Dès qu'un mot-clé paraît utile, le pilote le tape dans la recherche du site, ouvre les résultats et vérifie que tous les indices collent (lieu, objet, geste). L'équipe recopie sur la fiche détective le titre exact de la tradition, son lieu, et note quel indice a été décisif. Les équipes qui ont fini tôt reçoivent le dossier bonus.",
+"en": "The reader reads the first clue aloud; the team talks it over and the secretary writes a first idea, however wild. They open the next clue and change or keep the guess. As soon as a keyword looks useful, the pilot types it into the site's search, opens the results and checks that every clue fits (place, object, gesture). The team copies the exact title of the tradition and its place onto the detective sheet and notes which clue was decisive. Teams that finish early get the bonus file."
+},
+"prompts": {
+"fr": [
+"Dossier A. Objet : un chevalier de plus de 8 mètres qui a une femme et trois enfants. Son : des tambours. Geste : on soulève les tout-petits pour embrasser le plus petit de la famille. Lieu : une ville du Nord, début juillet.",
+"Dossier B. Objet : des tambours appelés ka. Son : une voix lance une phrase, le cercle répond et frappe dans ses mains. Geste : une seule personne danse face au tambour, qui suit ses pas. Lieu : une île en forme de papillon.",
+"Dossier C. Objet : farine, eau, sel, levure, et c'est tout. Son : une croûte qui craque sous les doigts. Geste : des entailles faites à la lame juste avant le four. Lieu : partout en France, sans doute tout près de l'école.",
+"Dossier D. Objet : un voilier sans quille ni gouvernail. Son : toute une île qui encourage les courses. Geste : des équipiers s'avancent au-dessus de l'eau sur de longues perches de bois pour que le bateau ne chavire pas. Lieu : la Martinique.",
+"Dossier E. Objet : des sculptures géantes de deux couleurs seulement, jaune et orange. Odeur : ça sent l'agrume ! Geste : fixer des fruits un par un avec des élastiques. Lieu : une ville au bord de la mer, près de l'Italie, en hiver.",
+"Dossier F. Objet : un grand modèle dessiné où chaque numéro désigne une couleur de laine. Son : le peigne qui tasse la laine, rang après rang. Geste : on fabrique l'image à l'envers, sans la voir avant la fin. Lieu : la Creuse."
+],
+"en": [
+"File A. Object: a knight more than 8 metres tall, with a wife and three children. Sound: drums. Gesture: toddlers are lifted up to kiss the youngest of the family. Place: a town in the North, early July.",
+"File B. Object: drums called ka. Sound: one voice calls out a line, the circle answers and claps. Gesture: one person at a time dances facing the drum, which follows their steps. Place: a butterfly-shaped island.",
+"File C. Object: flour, water, salt, yeast, and nothing else. Sound: a crust crackling under your fingers. Gesture: slashes cut with a blade just before the oven. Place: all over France, probably very close to your school.",
+"File D. Object: a sailing boat with no keel and no rudder. Sound: a whole island cheering on the races. Gesture: crew members move out over the water on long wooden poles so the boat does not capsize. Place: Martinique.",
+"File E. Object: giant sculptures in just two colours, yellow and orange. Smell: citrus! Gesture: fixing fruit one by one with rubber bands. Place: a seaside town near Italy, in winter.",
+"File F. Object: a large drawn model where each number stands for a colour of wool. Sound: the comb packing down the wool, row after row. Gesture: the picture is made back to front, unseen until the end. Place: the Creuse."
+]
+}
+},
+{
+"minutes": 8,
+"title": {
+"fr": "La preuve de vie : qui la fait vivre ?",
+"en": "Proof of life: who keeps it alive?"
+},
+"teacher": {
+"fr": "« Trouver le nom ne suffit pas : un détective du patrimoine vivant doit prouver que la tradition est vivante. » Demander aux équipes d'ouvrir la page de leur élément (résumé, photo, lieux, et la fiche imprimable avec ?id=<id>&sheet=1, dont le texte « contexte » est accessible aux bons lecteurs). Elles cherchent trois preuves, une par question de la carte. Passer dans les équipes et aider à lire : souligner avec elles les mots qui désignent des personnes (habitants, boulangers, équipiers, lissiers…).",
+"en": "\"Finding the name is not enough: a living heritage detective must prove that the tradition is alive.\" Ask teams to open their element's page (summary, photo, places, and the printable sheet at ?id=<id>&sheet=1, whose \"context\" text suits confident readers). They look for three proofs, one for each question on the card. Go round the teams and help with reading: underline with them the words that name people (residents, bakers, crew members, weavers…)."
+},
+"students": {
+"fr": "L'équipe observe d'abord la photo : qui voit-on, que font ces personnes ? Puis elle lit le résumé et, si possible, la fiche. Le secrétaire remplit les trois cases « preuves de vie » de la fiche détective avec une phrase courte chacune, dans ses propres mots. Le porte-parole prépare la présentation et l'équipe choisit le geste à mimer devant la classe.",
+"en": "The team first looks at the photo: who can we see, what are they doing? Then it reads the summary and, if possible, the sheet. The secretary fills in the three \"proof of life\" boxes on the detective sheet, one short sentence each, in the team's own words. The spokesperson prepares the presentation and the team chooses the gesture it will mime for the class."
+},
+"prompts": {
+"fr": [
+"Preuve 1 : qui fait vivre cette tradition aujourd'hui ? (des habitants, des artisans, des associations, des familles…)",
+"Preuve 2 : comment l'apprend-on ? (en famille, en regardant les plus anciens, dans une école, en atelier…)",
+"Preuve 3 : qu'est-ce qui a changé depuis le début, ou qu'est-ce qui pourrait la faire disparaître ?"
+],
+"en": [
+"Proof 1: who keeps this tradition going today? (residents, craftspeople, associations, families…)",
+"Proof 2: how do people learn it? (in the family, by watching older people, at a school, in a workshop…)",
+"Proof 3: what has changed since it began, or what could make it disappear?"
+]
+}
+},
+{
+"minutes": 12,
+"title": {
+"fr": "Rapport à l'agence : mime, révélation, épingle",
+"en": "Report to the agency: mime, reveal, pin"
+},
+"teacher": {
+"fr": "Chaque équipe vient au tableau (environ 1 min 30). Règle du jeu : elle mime d'abord le geste de sa tradition ; la classe propose ce que c'est. Puis le porte-parole révèle le nom, montre l'élément sur la carte projetée et lit ses trois preuves de vie. Le pilote colle une gommette sur la grande carte de classe, avec une étiquette. Après les six rapports, faire observer la carte : « Où sont nos six traditions ? Y en a-t-il loin de l'Hexagone ? Qu'ont-elles en commun ? » Conclure : toutes ont besoin de personnes qui apprennent et transmettent, et toutes ont changé.",
+"en": "Each team comes to the front (about 90 seconds). Rule of the game: it first mimes its tradition's gesture; the class guesses what it is. Then the spokesperson reveals the name, shows the element on the projected map and reads the three proofs of life. The pilot sticks a dot on the big class map, with a label. After the six reports, get the class to look at the map: \"Where are our six traditions? Are any far from mainland France? What do they have in common?\" Conclude: they all need people who learn and pass them on, and they have all changed."
+},
+"students": {
+"fr": "Chaque équipe mime son geste (tenir l'équilibre au bout d'une perche, entailler une baguette, danser face à un tambour, fixer un citron, tisser à l'envers, soulever un tout-petit vers un géant), puis présente sa tradition et ses preuves. Les autres élèves devinent, écoutent et, sur leur propre fiche, cochent pour chaque tradition qui la fait vivre : familles, artisans, associations, une ville, une école.",
+"en": "Each team mimes its gesture (balancing at the end of a pole, slashing a baguette, dancing in front of a drum, fixing a lemon, weaving back to front, lifting a toddler towards a giant), then presents its tradition and its proofs. The other pupils guess, listen and, on their own sheet, tick for each tradition who keeps it alive: families, craftspeople, associations, a town, a school."
+}
+},
+{
+"minutes": 12,
+"title": {
+"fr": "Une carte postale envoyée depuis la tradition",
+"en": "A postcard sent from the tradition"
+},
+"teacher": {
+"fr": "Distribuer une carte A5 par élève (ou par binôme). Consigne : « Vous êtes sur place, au cœur de la tradition. Écrivez à quelqu'un de la classe d'à côté. » Au recto, un dessin du moment le plus fort (pas forcément la photo du site : le geste, l'objet, la foule). Au verso, un texte de quatre à six lignes qui doit contenir trois choses : où l'on est, ce qu'on voit ou entend, et qui fait vivre la tradition ou comment on l'apprend. Rappeler qu'on décrit des gens d'aujourd'hui : on évite « autrefois, les gens… » et on parle au présent.",
+"en": "Give out one A5 card per pupil (or per pair). Instructions: \"You are there, right in the middle of the tradition. Write to someone in the class next door.\" On the front, a drawing of the most striking moment (not necessarily the site's photo: the gesture, the object, the crowd). On the back, a text of four to six lines that must include three things: where you are, what you see or hear, and who keeps the tradition alive or how it is learnt. Remind them that they are describing people today: avoid \"in the old days, people…\" and write in the present tense."
+},
+"students": {
+"fr": "Chaque élève écrit et illustre sa carte postale à partir de la tradition de son équipe ou d'une autre entendue pendant les rapports. Exemple de début : « Bonjour de Douai ! Les tambours viennent de commencer… » Les élèves relisent avec la fiche détective pour vérifier que les trois éléments obligatoires y sont, puis glissent la carte dans la boîte aux lettres de la classe.",
+"en": "Each pupil writes and illustrates a postcard about their team's tradition or another one heard during the reports. A possible opening: \"Greetings from Douai! The drums have just started…\" Pupils re-read with the detective sheet to check that the three required elements are there, then post the card in the class letterbox."
+},
+"prompts": {
+"fr": [
+"Ma carte dit où je suis, ce que je vois ou entends, et qui fait vivre la tradition ou comment on l'apprend."
+],
+"en": [
+"My card says where I am, what I see or hear, and who keeps the tradition alive or how it is learnt."
+]
+}
+},
+{
+"minutes": 6,
+"title": {
+"fr": "Et autour de l'école ?",
+"en": "And around our school?"
+},
+"teacher": {
+"fr": "Sur le site projeté, activer « Autour de moi » (la position reste sur l'appareil, elle n'est envoyée nulle part) ou choisir le département dans « Territoire ». Lire avec la classe les trois éléments les plus proches de l'école et leur résumé. Faire voter la classe pour celui qui sera le prochain dossier de l'agence, puis lancer la mission famille (voir « Pour aller plus loin »). Si la baguette a été résolue, rappeler qu'une boulangerie du quartier fait elle aussi partie de ce patrimoine.",
+"en": "On the projected site, turn on \"Autour de moi\" (Near me; the location stays on the device and is never sent) or pick the department under \"Territoire\". Read with the class the three elements closest to the school and their summaries. Have the class vote for the one that will be the agency's next case, then launch the family mission (see \"Going further\"). If the baguette case was solved, point out that a local bakery is part of this heritage too."
+},
+"students": {
+"fr": "Les élèves découvrent les traditions proches de l'école, disent si l'une d'elles leur est familière (fête du village, jeu, savoir-faire) et votent pour le prochain dossier. Chacun note sur sa fiche le nom de la tradition choisie et une question à poser à la maison.",
+"en": "Pupils discover the traditions near the school, say whether any of them is familiar (village festival, game, craft) and vote for the next case. Each pupil writes on their sheet the name of the chosen tradition and one question to ask at home."
+}
+}
+],
+"assessment": {
+"fr": "L'enseignant vérifie trois choses. Sur la fiche détective : le titre et le lieu exacts de la tradition, et un raisonnement visible (hypothèses corrigées au fil des indices). Pendant les rapports : l'équipe sait dire au moins une personne ou un groupe qui fait vivre la tradition et une façon de l'apprendre. Sur la carte postale : les trois éléments obligatoires sont présents et le texte parle de gens d'aujourd'hui. Un ticket de sortie oral possible : « Qu'est-ce qui rend une tradition vivante ? » ; réponse attendue : des personnes qui la pratiquent, l'apprennent et la transmettent, même si elle change.",
+"en": "The teacher checks three things. On the detective sheet: the exact title and place of the tradition, and visible reasoning (guesses revised as clues are revealed). During the reports: the team can name at least one person or group who keeps the tradition alive and one way it is learnt. On the postcard: the three required elements are there and the text is about people today. A possible oral exit ticket: \"What makes a tradition living?\"; expected answer: people who practise it, learn it and pass it on, even as it changes."
+},
+"differentiation": {
+"fr": "Soutien : donner aux équipes qui bloquent une carte « mot-clé » à taper dans la recherche (géant, gwoka, baguette, yole, citron, tapisserie), confier le dossier C (baguette), le plus familier, à une équipe fragile, et proposer pour la carte postale un début de phrase pour chaque ligne. Les élèves qui lisent difficilement s'appuient sur la photo et le résumé court, lus par le lecteur de l'équipe. Approfondissement : le dossier bonus (Objet : une petite boule en buis appelée cochonnet. Son : le clac des boules de métal. Geste : on lance depuis un petit cercle. Lieu : née en Provence) ; écrire soi-même un dossier mystère en quatre indices sur une autre tradition de la carte, pour l'échanger avec une autre équipe.",
+"en": "Support: give teams who are stuck a \"keyword\" card to type into the search (géant, gwoka, baguette, yole, citron, tapisserie), give file C (baguette), the most familiar, to a team that needs it, and offer a sentence starter for each line of the postcard. Pupils who struggle with reading rely on the photo and the short summary, read aloud by the team's reader. Stretch: the bonus file (Object: a small boxwood ball called the jack. Sound: the clack of metal balls. Gesture: you throw from a small circle. Place: born in Provence); write a four-clue mystery file about another tradition on the map and swap it with another team."
+},
+"going_further": {
+"fr": "Mission famille : interroger un adulte de la maison sur une tradition qu'il pratique ou a apprise (un jeu, une recette, une fête, une chanson) avec deux questions, « Qui te l'a apprise ? » et « Est-ce qu'elle a changé ? », puis rapporter un indice (dessin, objet, mot) pour un futur dossier mystère de la classe. En classe, compléter la carte murale au fil de l'année avec les traditions trouvées près de l'école. Si une tradition proche a lieu pendant l'année scolaire (voir l'onglet Agenda), préparer une sortie ou inviter quelqu'un qui la pratique à venir montrer son geste. Les postales peuvent être réellement envoyées à une classe d'une autre région.",
+"en": "Family mission: interview an adult at home about a tradition they practise or learnt (a game, a recipe, a festival, a song) with two questions, \"Who taught it to you?\" and \"Has it changed?\", then bring back a clue (drawing, object, word) for a future class mystery file. In class, keep adding to the wall map during the year with traditions found near the school. If a nearby tradition takes place during the school year (see the Agenda tab), plan an outing or invite someone who practises it to come and show their gesture. The postcards can really be posted to a class in another region."
+},
+"answer_key": {
+"fr": "A : les fêtes de Gayant à Douai (Nord). Une famille de géants (le père, la mère, trois enfants dont le petit Binbin) portée par une association aux règles transmises de génération en génération ; refaits après les guerres. B : le gwoka de la Guadeloupe. Chant, tambours ka et danse, appris en famille, entre amis, dans des écoles et associations ; né chez les personnes mises en esclavage, il s'invente aujourd'hui aussi sur scène. C : les savoir-faire et la culture de la baguette, partout en France. Boulangers formés entre l'école et le fournil ; chaque boulanger a son tour de main ; fragilisée par la fermeture de boulangeries. D : la yole ronde de la Martinique. Construite sans plan par des charpentiers, menée par des équipages d'associations ; relancée quand les bateaux à moteur l'avaient remplacée. E : la fête du Citron de Menton. Inventée dans les années 1930, renouvelée chaque année ; services de la ville et « fruiteurs » qui fixent les agrumes, dont beaucoup viennent d'Espagne. F : la tapisserie d'Aubusson. Lissiers formés en atelier en environ trois ans ; peu d'ateliers, relève fragile. Bonus : la pétanque.",
+"en": "A: the Gayant festival in Douai (Nord). A family of giants (father, mother, three children including little Binbin) carried by an association whose rules pass down the generations; rebuilt after wars. B: gwoka from Guadeloupe. Song, ka drums and dance, learnt in families, among friends, in schools and associations; born among enslaved people, it is now also reinvented on stage. C: the craft and culture of the baguette, all over France. Bakers trained between school and bakehouse; every baker has their own touch; threatened by bakery closures. D: the yole ronde of Martinique. Built without plans by boatbuilders, raced by crews from associations; revived after motorboats had replaced it. E: the Menton Lemon Festival. Invented in the 1930s, renewed every year; town services and seasonal workers who fix the citrus fruit, much of it from Spain. F: Aubusson tapestry. Weavers trained in workshops over about three years; few workshops, fragile succession. Bonus: pétanque."
+},
+"lang_review": "draft",
+"review_status": "unreviewed"
+}
+],
+"stories": [
+{
+"id": "flandre-et-nord",
+"kind": "place",
+"title": {
+"fr": "La Flandre et le Nord, pays des géants",
+"en": "Flanders and the Nord, land of giants"
+},
+"tagline": {
+"fr": "Du port de Grand-Fort-Philippe aux rues de Douai, des géants qu'on baptise, des bandes de carnaval et des jeux de boules nés dans la cour des estaminets.",
+"en": "From the harbour of Grand-Fort-Philippe to the streets of Douai: giants who are christened, carnival bands and bowling games born in the yards of estaminets."
+},
+"intro": {
+"fr": "Dans le Nord de la France, de la côte de la mer du Nord aux villes de l'ancien bassin industriel, les habitants se donnent rendez-vous autour de figures qu'ils portent, font danser et considèrent comme des membres de la famille : les géants. Autour d'eux gravitent des carnavals, des danses, des bandes de musiciens et de carnavaleux, mais aussi des jeux plus discrets, pratiqués entre voisins. Ce parcours suit la côte, monte vers les monts de Flandre, longe la frontière belge puis descend vers la métropole lilloise et Douai. Le fil conducteur : une sociabilité qui se vit en groupe, dehors ou au café, et qui se transmet en portant, en jouant, en défilant ensemble.",
+"en": "In northern France, from the North Sea coast to the towns of the old industrial basin, people gather around figures they carry, make dance and treat as members of the family: the giants. Around them move carnivals, dances, bands of musicians and revellers, and quieter games played among neighbours. This tour follows the coast, climbs to the hills of Flanders, runs along the Belgian border, then heads down to the Lille area and Douai. The common thread: a sociability lived as a group, outdoors or in the café, and passed on by carrying, playing and parading together."
+},
+"steps": [
+{
+"element": "2013_67717_INV_PCI_FRANCE_00323",
+"heading": {
+"fr": "Grand-Fort-Philippe, la géante Matelote",
+"en": "Grand-Fort-Philippe, the giant Matelote"
+},
+"text": {
+"fr": "Le voyage commence à l'embouchure de l'Aa, dans le port de pêche de Grand-Fort-Philippe. Au printemps, la géante Matelote, habillée en femme de marin avec bonnet de dentelle et tablier noir, reçoit les géants des communes voisines. La fête met en scène la vie de sa famille : fiançailles, mariage, naissances, avec de vrais actes signés en mairie lors de baptêmes civils. Les géants de la famille gardent la mémoire du métier, comme le géant qui tient une pomme de touline, nœud de marin. Des harengs sont lancés à la foule depuis le balcon de la mairie. D'emblée, une idée s'impose : ici, un géant n'est pas un décor, c'est un personnage de la communauté.",
+"en": "The journey starts at the mouth of the Aa, in the fishing port of Grand-Fort-Philippe. In spring, the giant Matelote, dressed as a sailor's wife with a lace bonnet and black apron, welcomes giants from neighbouring towns. The festival stages her family's life: engagement, wedding, births, with real certificates signed at the town hall during civil christenings. The family's giants carry the memory of the trade, such as the one holding a monkey's fist, a sailor's knot. Herrings are thrown to the crowd from the town hall balcony. One idea comes through at once: here a giant is not a decoration but a member of the community."
+},
+"look_for": {
+"fr": "Le costume de Matelote, coiffe de dentelle blanche et châle, et les objets de marin que portent les autres géants de sa famille.",
+"en": "Matelote's costume, with its white lace cap and shawl, and the seafaring objects carried by the other giants of her family."
+}
+},
+{
+"element": "2021_67717_INV_PCI_FRANCE_00496",
+"heading": {
+"fr": "Dunkerque, la danse d'épées",
+"en": "Dunkirk, the sword dance"
+},
+"text": {
+"fr": "Quelques kilomètres plus à l'est, sur la place Jean-Bart de Dunkerque, huit danseurs vêtus de blanc et de bleu forment une ronde en tenant chacun la pointe de l'épée de son voisin. Au son des fifres et des tambours, ils enchaînent pendant un quart d'heure des figures qui passent dessus, dessous, autour des lames, jusqu'à l'étoile finale sur laquelle monte le capitaine. Recréée en 1990, la danse se rattache à une famille de danses d'épées connue dans toute l'Europe ; elle a lieu le deuxième dimanche après le mardi gras, en plein cœur de la saison du carnaval. Une tradition peut donc renaître : la danse vit grâce à une association de bénévoles qui forme aussi des enfants.",
+"en": "A few kilometres east, on the Place Jean-Bart in Dunkirk, eight dancers in white and blue form a ring, each holding the tip of a neighbour's sword. To fifes and drums, for a quarter of an hour they move through figures that pass over, under and around the blades, ending with a star on which the captain climbs. Revived in 1990, the dance belongs to a family of sword dances found across Europe; it takes place on the second Sunday after Shrove Tuesday, right in the middle of carnival season. So a tradition can be reborn: the dance lives through a volunteer association that also trains children."
+},
+"look_for": {
+"fr": "L'étoile formée par les épées entrecroisées à la fin de la danse, et le capitaine qui monte dessus en brandissant le drapeau.",
+"en": "The star made of interlocked swords at the end of the dance, and the captain climbing onto it waving the flag."
+}
+},
+{
+"element": "2014_67717_INV_PCI_FRANCE_00354",
+"heading": {
+"fr": "Wormhout, faire la bande",
+"en": "Wormhout, joining the band"
+},
+"text": {
+"fr": "En s'enfonçant dans les terres, on arrive à Wormhout, où le carnaval suit le modèle du littoral dunkerquois. Un millier de carnavaleux, maquillés et vêtus de leur « klet'che » coloré, suivent la bande des Mitrons et le tambour-major costumé en soldat d'Empire. On s'arrête devant la mairie pour le jet de harengs, on se serre dans le « chahut », on se retrouve ensuite dans les « chapelles », maisons ouvertes aux amis. Les géants de la ville sont de la fête, et le samedi est réservé aux enfants, avec des bonbons à la place des harengs. Après la ronde ordonnée des épées, voici la foule qui marche, chante et pousse d'un même élan.",
+"en": "Heading inland, we reach Wormhout, where carnival follows the model of the Dunkirk coast. About a thousand carnival-goers, made up and dressed in their colourful \"klet'che\", follow the Mitrons band and a drum major dressed as an Empire soldier. There is the herring throw at the town hall, the crush of the \"chahut\", then gatherings in the \"chapelles\", homes opened to friends. The town's giants join in, and Saturday is the children's carnival, with sweets instead of herrings. After the orderly ring of swords, here is a crowd that walks, sings and pushes as one."
+},
+"look_for": {
+"fr": "Le chahut : les premiers rangs de la bande s'arrêtent et résistent à la poussée de ceux qui suivent.",
+"en": "The chahut: the front rows of the band stop and hold firm against the push of those behind."
+}
+},
+{
+"element": "2013_67717_INV_PCI_FRANCE_00322",
+"heading": {
+"fr": "Cassel, Reuze Papa et Reuze Maman",
+"en": "Cassel, Reuze Papa and Reuze Maman"
+},
+"text": {
+"fr": "Perchée sur son mont, Cassel fête deux carnavals, le plus grand le lundi de Pâques. Les tambours réveillent la ville dès l'aube, puis Reuze Papa et Reuze Maman, dont le nom vient du mot flamand pour « géant », dansent sur la grand-place, entourés du cheval-jupon et du char du Four merveilleux. Devant certaines maisons, les deux géants se font face pour une « ritournelle ». Les géants d'origine, nés au XIXe siècle et cachés pendant les deux guerres, sont aujourd'hui conservés au musée ; des répliques fidèles ont pris le relais. Le carnaval de Cassel fait partie des géants et dragons processionnels inscrits par l'UNESCO. On voit ici comment une ville protège l'objet tout en gardant le geste vivant.",
+"en": "Perched on its hill, Cassel holds two carnivals, the larger on Easter Monday. Drums wake the town at dawn, then Reuze Papa and Reuze Maman, named after the Flemish word for \"giant\", dance on the main square with the hobby horse and the float of the Marvellous Oven. Outside certain houses the two giants face each other for a \"ritournelle\". The original giants, born in the 19th century and hidden during both world wars, are now kept in the museum; faithful replicas have taken over. Cassel's carnival is part of the processional giants and dragons inscribed by UNESCO. Here we see how a town protects the object while keeping the gesture alive."
+},
+"look_for": {
+"fr": "La ritournelle, quand les deux géants se font face et « s'embrassent » devant une maison qu'on veut honorer.",
+"en": "The ritournelle, when the two giants face each other and \"kiss\" outside a house the town wants to honour."
+}
+},
+{
+"element": "2013_67717_INV_PCI_FRANCE_00324",
+"heading": {
+"fr": "Steenvoorde, la ronde européenne des géants",
+"en": "Steenvoorde, the European round of giants"
+},
+"text": {
+"fr": "Au pied des monts, Steenvoorde fête depuis l'après-guerre un carnaval d'été autour de ses géants, dont Jean le Bûcheron, casqué, la hache à l'épaule, héros légendaire du village. Certaines années, une ronde européenne y réunit jusqu'à une centaine de géants portés venus de plusieurs pays. On dit ici qu'un géant qui n'est pas porté ne danse pas, et donc ne vit pas : d'où l'importance des porteurs, et d'une section d'enfants qui apprend le portage avec un petit géant. Le soir, la fête se prolonge en musique dans les estaminets. Après Cassel, Steenvoorde montre l'autre visage de la tradition : l'ouverture, l'échange avec des villes de Belgique et d'ailleurs.",
+"en": "At the foot of the hills, Steenvoorde has held a summer carnival since the post-war years around its giants, including Jean the Woodcutter, helmeted, axe on shoulder, the village's legendary hero. In some years a European round brings together up to a hundred carried giants from several countries. People here say that a giant who is not carried does not dance, and so does not live: hence the importance of carriers, and of a children's section that learns to carry with a small giant. In the evening the party carries on with music in the estaminets. After Cassel, Steenvoorde shows another side of tradition: openness and exchange with towns in Belgium and beyond."
+},
+"look_for": {
+"fr": "Les jambes des porteurs sous la jupe des géants, et la façon dont ils les font tourner et danser.",
+"en": "The carriers' legs under the giants' skirts, and how they make the giants spin and dance."
+}
+},
+{
+"element": "2012_67717_INV_PCI_FRANCE_00241",
+"heading": {
+"fr": "Godewaersvelde, la boule flamande",
+"en": "Godewaersvelde, Flemish bowls"
+},
+"text": {
+"fr": "Tout près de la frontière belge, Godewaersvelde garde un jeu de précision longtemps pratiqué dans la cour des cafés et des estaminets : la boule flamande. Sur une piste légèrement creusée, la bourloire, on fait rouler non pas une boule mais un disque de bois, plus lourd d'un côté, qui décrit une courbe avant de s'arrêter près de l'étaque, rondelle de cuivre incrustée dans le sol. Deux équipes, rouge et bleue, s'affrontent sous la conduite d'un meneur qui décide de la stratégie. Autrefois en terre battue mêlée de bouse, la piste est aujourd'hui en ciment et couverte. Après les grands cortèges, voici la sociabilité de tous les jours, entre voisins.",
+"en": "Close to the Belgian border, Godewaersvelde keeps a game of precision long played in the yards of cafés and estaminets: Flemish bowls. On a slightly hollowed track, the bourloire, players roll not a ball but a wooden disc, heavier on one side, which curves before stopping near the étaque, a copper disc set into the ground. Two teams, red and blue, compete under a leader who decides the strategy. Once made of beaten earth mixed with dung, the track is now concrete and covered. After the great parades, this is everyday sociability, among neighbours."
+},
+"look_for": {
+"fr": "La trajectoire en courbe du disque, qui penche du côté le plus lourd avant de s'arrêter.",
+"en": "The curving path of the disc, leaning towards its heavier side before it stops."
+}
+},
+{
+"element": "2012_67717_INV_PCI_FRANCE_00242",
+"heading": {
+"fr": "Tourcoing, la bourle",
+"en": "Tourcoing, the bourle"
+},
+"text": {
+"fr": "Dans la métropole lilloise, autour de Tourcoing et de Wattrelos, un jeu cousin se pratique de part et d'autre de la frontière : la bourle. Son nom vient du picard « bourler », tomber, car le disque de bois cerclé d'acier finit presque toujours sa course couché sur le côté. Les bourloires se trouvaient jadis au fond des cabarets ou dans la cour des estaminets, et l'on y jouait le dimanche après la messe ; aujourd'hui, des sociétés ouvrent leurs pistes presque toute la semaine. De Godewaersvelde à Tourcoing, le même principe change de nom, de bois et de langue : flamand d'un côté, picard de l'autre. Le voyage peut finir avec les plus anciens géants du parcours.",
+"en": "In the Lille area, around Tourcoing and Wattrelos, a related game is played on both sides of the border: the bourle. Its name comes from the Picard \"bourler\", to fall, because the steel-rimmed wooden disc nearly always ends up on its side. Bourle tracks used to lie at the back of taverns or in the yards of estaminets, and people played on Sunday after mass; today clubs open their tracks almost every day of the week. From Godewaersvelde to Tourcoing, the same idea changes its name, its wood and its language: Flemish on one side, Picard on the other. The journey can now end with the oldest giants of the tour."
+},
+"look_for": {
+"fr": "Le moment où la bourle ralentit, oscille, puis tombe sur le flanc près de l'étaque.",
+"en": "The moment the bourle slows, wobbles and falls on its side near the étaque."
+}
+},
+{
+"element": "2014_67717_INV_PCI_FRANCE_00350",
+"heading": {
+"fr": "Douai, la famille Gayant",
+"en": "Douai, the Gayant family"
+},
+"text": {
+"fr": "À Douai, un géant est attesté dès 1530 et sa compagne l'année suivante ; leurs trois enfants sont venus plus tard. Chaque été, début juillet, Monsieur Gayant, plus de huit mètres, Madame Gayant et leurs enfants Jacquot, Fillon et le petit Binbin défilent trois jours au son des tambours. Les tout-petits sont soulevés pour embrasser Binbin. Détruits plusieurs fois, notamment par les guerres, les géants ont toujours été refaits. Ils sont portés par une corporation aux règles transmises surtout en famille, où l'on commence comme quêteur. Les fêtes de Gayant, inscrites par l'UNESCO avec Cassel, bouclent le parcours : une ville entière qui se reconnaît dans une famille de géants.",
+"en": "In Douai, a giant is recorded as early as 1530 and his companion the following year; their three children came later. Every summer, in early July, Monsieur Gayant, over eight metres tall, Madame Gayant and their children Jacquot, Fillon and little Binbin parade for three days to the beat of drums. Toddlers are lifted up to kiss Binbin. Destroyed several times, not least by wars, the giants have always been rebuilt. They are carried by a guild whose rules pass down mostly within families, where one starts as a collector. The Gayant festival, inscribed by UNESCO alongside Cassel, closes the tour: a whole town that recognises itself in a family of giants."
+},
+"look_for": {
+"fr": "Le rigodon, la danse des géants lancée au signal des chefs de protocole, et le baiser de Binbin aux tout-petits.",
+"en": "The rigodon, the giants' dance launched at the protocol leaders' signal, and Binbin's kiss for the little ones."
+}
+}
+],
+"outro": {
+"fr": "De la côte à Douai, les géants ont des noms, des familles, des actes de baptême, des répliques et des porteurs formés dès l'enfance ; les carnavals ont leurs bandes, leurs chapelles, leurs chahuts ; les jeux de boules leurs pistes au fond des cafés. Certaines traditions sont très anciennes, d'autres renaissent ou se transforment, et toutes passent volontiers la frontière belge. Selon vous, qu'est-ce qui fait qu'un objet porté devient un membre de la communauté ?",
+"en": "From the coast to Douai, giants have names, families, christening certificates, replicas and carriers trained from childhood; carnivals have their bands, their chapelles and their crushes; bowling games have their tracks at the back of cafés. Some traditions are very old, others are revived or changed, and all of them cross the Belgian border readily. What, in your view, turns a carried object into a member of the community?"
+},
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+{
+"id": "geants-et-betes",
+"kind": "theme",
+"title": {
+"fr": "Géants et bêtes de fête",
+"en": "Festive giants and beasts"
+},
+"tagline": {
+"fr": "De la Flandre au Languedoc, des géants d'osier et des animaux de toile portés à bras d'hommes font de la rue une scène et de la ville une famille.",
+"en": "From Flanders to Languedoc, wicker giants and canvas beasts carried by hidden bearers turn the street into a stage and the town into a family."
+},
+"intro": {
+"fr": "Dans le nord de la France, on les appelle géants ; dans le Midi, animaux totémiques. Hauts de plusieurs mètres, faits d'osier, de bois, de toile ou d'aluminium, ils ne vivent que portés : des hommes et des femmes cachés sous leur structure les font marcher, tourner, danser ou charger la foule. Chacun incarne une ville, raconte sa légende de fondation et rassemble ses habitants le temps d'une fête. Ce parcours descend de Douai à Pézenas, avec un détour par Paris, pour suivre ces figures que l'on cache pendant les guerres, que l'on reconstruit après chaque destruction et que l'on confie aux plus jeunes. Plusieurs d'entre elles sont inscrites ensemble par l'UNESCO, avec leurs cousines de Belgique, parmi les « Géants et dragons processionnels ».",
+"en": "In northern France they are called giants; in the South, totem animals. Several metres tall, made of wicker, wood, canvas or aluminium, they only come alive when carried: men and women hidden inside make them walk, spin, dance or charge at the crowd. Each one embodies a town, tells its founding legend and brings its people together for a festival. This tour runs from Douai down to Pézenas, with a detour through Paris, following figures that were hidden during wars, rebuilt after every destruction and handed on to the young. Several of them are inscribed together by UNESCO, alongside their Belgian cousins, as \"Processional giants and dragons\"."
+},
+"steps": [
+{
+"element": "2014_67717_INV_PCI_FRANCE_00350",
+"heading": {
+"fr": "Douai, une famille de géants depuis 1530",
+"en": "Douai, a family of giants since 1530"
+},
+"text": {
+"fr": "Le parcours commence par l'ancêtre. Un géant est attesté à Douai dès 1530, sa compagne l'année suivante ; les enfants, Jacquot, Fillon et le petit Binbin, sont venus plus tard. Chaque été, autour du premier dimanche après le 5 juillet, Monsieur Gayant, chevalier de plus de huit mètres, sort trois jours durant avec toute sa famille au son des tambours. Ils dansent dans la cour de la mairie, visitent les quartiers et les maisons de retraite, et le dernier soir la foule fait tout pour les garder dehors. Détruits plusieurs fois, ils ont toujours été refaits, et une corporation de porteurs se transmet leurs règles et leurs grades. Ici, le géant n'est pas un héros isolé : c'est une famille, à l'image de la ville qui l'entoure.",
+"en": "The tour begins with the ancestor. A giant is recorded in Douai as early as 1530, his partner a year later; the children, Jacquot, Fillon and little Binbin, came afterwards. Every summer, around the first Sunday after 5 July, Monsieur Gayant, a knight over eight metres tall, goes out for three days with his whole family to the beat of drums. They dance in the town-hall courtyard, call on the districts and care homes, and on the last evening the crowd does everything it can to keep them outside. Destroyed several times, they have always been rebuilt, and a guild of bearers hands down their rules and ranks. Here the giant is not a lone hero but a family, mirroring the town around it."
+},
+"look_for": {
+"fr": "Le moment où les géants doivent rentrer, le dernier soir : observez comment la foule les retient et ce que ce refus de les laisser partir dit de l'attachement des Douaisiens.",
+"en": "The moment the giants have to go home on the last evening: watch how the crowd holds them back and what this reluctance says about Douai's attachment to them."
+}
+},
+{
+"element": "2013_67717_INV_PCI_FRANCE_00322",
+"heading": {
+"fr": "Cassel, Reuze Papa et Reuze Maman sur leur mont",
+"en": "Cassel, Reuze Papa and Reuze Maman on their hill"
+},
+"text": {
+"fr": "À une soixantaine de kilomètres, sur son mont de Flandre, Cassel a ses propres géants : Reuze Papa, né en 1827, et Reuze Maman, en 1860. Le lundi de Pâques, les tambours réveillent la ville à l'aube, puis le couple danse sur la Grand-Place, entouré du cheval-jupon, du coq-jupon, des grosses têtes et du char du Four merveilleux ; le cortège s'arrête devant des maisons pour des ritournelles. Cachés pendant les deux guerres mondiales, les géants d'origine ont dansé jusqu'en 2001 ; ils reposent aujourd'hui au musée et des répliques fidèles ont pris le relais. Comme à Douai, la figure survit en changeant de corps : ce qui se transmet, ce n'est pas l'objet, mais la manière de le faire vivre.",
+"en": "Some sixty kilometres away, on its Flemish hilltop, Cassel has giants of its own: Reuze Papa, made in 1827, and Reuze Maman, in 1860. On Easter Monday, drums wake the town at dawn, then the couple dance on the main square among the hobby horse, the hobby cockerel, the big heads and the Wonderful Oven float; the procession stops outside houses for short refrains. Hidden through both world wars, the original giants danced until 2001; they now rest in the museum and faithful replicas have taken over. As in Douai, the figure lives on by changing bodies: what is handed down is not the object itself but the way of bringing it to life."
+},
+"look_for": {
+"fr": "Les arrêts du cortège devant les maisons et les ritournelles qu'on y chante, ainsi que le retour des géants vers le musée de la Grand-Place, le soir.",
+"en": "The stops outside houses and the refrains sung there, and the giants' walk back to the museum on the main square in the evening."
+}
+},
+{
+"element": "2013_67717_INV_PCI_FRANCE_00324",
+"heading": {
+"fr": "Steenvoorde, quand les géants du monde se rassemblent",
+"en": "Steenvoorde, where giants from abroad gather"
+},
+"text": {
+"fr": "Steenvoorde, petite ville de Flandre intérieure, fête son carnaval d'été le dernier dimanche d'avril autour de six géants, dont Jean le Bûcheron, casqué, la hache à l'épaule, qui aurait secouru le village au temps de Charlemagne. Depuis 1989, certaines années, la fête devient une ronde européenne qui peut réunir une centaine de géants venus de plusieurs pays, autour du 1er mai. L'idée est née d'une inquiétude : à la fin des années 1980, les géants sur roulettes se multipliaient et les porteurs se faisaient rares. Ici, on répète qu'un géant non porté ne danse pas, donc ne vit pas. Les enfants apprennent le portage avec un petit géant, Jacobus. Après les familles de Douai et de Cassel, voici le réseau : les géants se rendent visite.",
+"en": "Steenvoorde, a small town in inland Flanders, holds its summer carnival on the last Sunday of April around six giants, among them Jean the Woodcutter, helmeted with an axe on his shoulder, who is said to have rescued the village in Charlemagne's day. Since 1989, in some years, the festival becomes a European round that can gather around a hundred giants from several countries, close to 1 May. The idea grew out of a worry: in the late 1980s, giants on wheels were spreading and bearers were getting scarce. People here say that a giant that is not carried cannot dance, and so is not alive. Children learn to carry with a small giant, Jacobus. After the families of Douai and Cassel, here is the network: giants pay each other visits."
+},
+"look_for": {
+"fr": "Les pieds des porteurs sous la robe des géants : comptez combien de personnes il faut pour faire danser chacun d'eux, et comparez avec les géants montés sur roues.",
+"en": "The bearers' feet under the giants' skirts: count how many people it takes to make each one dance, and compare them with giants mounted on wheels."
+}
+},
+{
+"element": "2014_67717_INV_PCI_FRANCE_00355",
+"heading": {
+"fr": "Paris, le lion qui danse à deux",
+"en": "Paris, the lion danced by two"
+},
+"text": {
+"fr": "Détour par l'Île-de-France, où une autre bête de fête parcourt les rues. Dans le XIIIe arrondissement, à Belleville ou à Aubervilliers, des écoles issues des communautés asiatiques font danser le lion, surtout au Nouvel An chinois, mais aussi pour un mariage ou l'ouverture d'une boutique. Deux danseurs se partagent le costume, l'un à la tête, l'autre au corps ; ils imitent l'animal au plus près, au rythme d'un orchestre de percussions, et racontent une petite histoire en quelques minutes. La danse, héritière du kung-fu, demande agilité et entente parfaite. Le principe rejoint celui des géants du Nord : un corps collectif, des porteurs invisibles, un animal qui apporte vœux et prospérité à ceux qu'il visite. Il annonce aussi les bêtes du Midi qui suivent.",
+"en": "A detour through the Paris region, where another festive beast takes to the streets. In the 13th arrondissement, in Belleville or Aubervilliers, schools rooted in Asian communities perform the lion dance, mainly at Chinese New Year but also for a wedding or a shop opening. Two dancers share the costume, one at the head, the other at the body; they imitate the animal as closely as they can to a percussion band, telling a short story in a few minutes. Drawing on kung fu, the dance demands agility and perfect understanding between partners. The principle echoes the northern giants: a collective body, invisible bearers, an animal that brings good wishes and prosperity to those it visits. It also heralds the beasts of the South that come next."
+},
+"look_for": {
+"fr": "Le dialogue entre le lion et les percussions : chaque coup de tambour ou de cymbale répond à un mouvement de tête, un clignement d'yeux ou un bond.",
+"en": "The dialogue between the lion and the percussion: each drumbeat or cymbal crash answers a toss of the head, a blink of the eyes or a leap."
+}
+},
+{
+"element": "2019_67717_INV_PCI_FRANCE_00425",
+"heading": {
+"fr": "Tarascon, le monstre dompté qui charge encore",
+"en": "Tarascon, the tamed monster that still charges"
+},
+"text": {
+"fr": "Sur les bords du Rhône, la légende raconte qu'un monstre terrorisait le pays jusqu'à ce que sainte Marthe le dompte. Les jeux de la Tarasque, attribués au roi René au XVe siècle, ont disparu à la fin du XIXe siècle avant d'être rétablis après la Seconde Guerre mondiale, chaque dernier week-end de juin. Bénie le vendredi, la bête, longue de six mètres et lourde d'environ 600 kilos, est poussée à vive allure par ses chevaliers : elle charge, recule, tourne sur elle-même et fait crier la foule. Tartarin, le héros d'Alphonse Daudet, s'est ajouté à la fête. Avec la Tarasque, le géant protecteur devient menace apprivoisée : la ville rejoue la peur pour mieux la tenir en respect, et les jeunes apprennent le métier aux côtés des anciens.",
+"en": "On the banks of the Rhône, legend has it that a monster terrorised the land until Saint Martha tamed it. The Tarasque games, attributed to King René in the 15th century, died out at the end of the 19th century and were revived after the Second World War, every last weekend of June. Blessed on the Friday, the beast, six metres long and weighing about 600 kilos, is pushed at speed by its knights: it charges, backs off, spins round and sets the crowd screaming. Tartarin, Alphonse Daudet's hero, has joined the festival. With the Tarasque, the protective giant becomes a tamed threat: the town replays fear in order to keep it at bay, and young people learn the craft beside their elders."
+},
+"look_for": {
+"fr": "La queue de la Tarasque quand elle tourne sur elle-même, et la façon dont le public s'écarte puis revient : un jeu entre peur et plaisir.",
+"en": "The Tarasque's tail as it spins round, and the way the crowd scatters and then comes back: a game between fear and delight."
+}
+},
+{
+"element": "2019_67717_INV_PCI_FRANCE_00422",
+"heading": {
+"fr": "Mèze, le Bœuf qui meurt et renaît",
+"en": "Mèze, the Ox that dies and is reborn"
+},
+"text": {
+"fr": "Au bord de l'étang de Thau, Mèze a pour animal-totem un Bœuf. Selon les versions de sa légende, il rappelle l'union ancienne des cultivateurs et des pêcheurs qui ont fondé la ville ; sa première mention écrite date de 1701. En août, huit porteurs cachés sous la carcasse le font courir, tituber et se cabrer sur les quais, guidés par le Cornac vêtu de blanc ; il tend le cou vers les balcons pour quêter des pièces et danse avec le Chivalet, un cheval-jupon. La fête s'achève par sa mise à mort symbolique sur l'esplanade, mais il renaît au corso de mai. Après la bête domptée de Tarascon, voici la bête sacrifiée : un cycle de mort et de retour qui dit la continuité de la communauté.",
+"en": "On the shore of the Thau lagoon, Mèze has an Ox as its totem animal. In the various versions of its legend, it recalls the ancient bond between the farmers and fishermen who founded the town; it is first mentioned in writing in 1701. In August, eight bearers hidden under its frame make it run, stagger and rear along the quays, guided by the Cornac dressed in white; it stretches its neck up to the balconies to collect coins and dances with the Chivalet, a hobby horse. The festival ends with its symbolic killing on the esplanade, yet it comes back to life at the May parade. After Tarascon's tamed beast comes the sacrificed one: a cycle of death and return that speaks of the community's continuity."
+},
+"look_for": {
+"fr": "Les enfants qui font la queue pour entrer dans la gueule du Bœuf, et le geste final du Cornac sur l'esplanade.",
+"en": "Children queuing to step into the Ox's mouth, and the Cornac's final gesture on the esplanade."
+}
+},
+{
+"element": "2019_67717_INV_PCI_FRANCE_00429",
+"heading": {
+"fr": "Pézenas, le Poulain du Mardi gras",
+"en": "Pézenas, the Mardi Gras Poulain"
+},
+"text": {
+"fr": "Le parcours s'achève à une vingtaine de kilomètres de Mèze, à Pézenas, avec l'un des plus anciens animaux totémiques du Midi. Le jour du Mardi gras, au son des fifres et des tambours qui jouent son air, le Poulain sort de la cour de l'hôtel de ville. Cheval de toile bleue porté par neuf hommes harnachés qui marchent du même pied, il allonge et rétracte le cou, guidé par un meneur au tambourin ; sur son dos sont juchés deux mannequins, Estieino et Estieineta. Une légende contestée le rattache au passage du roi Louis VIII en 1226. Sa carcasse est aujourd'hui en aluminium, mais elle garde les dimensions anciennes pour passer dans les ruelles. Le soir, on lui chante encore un adieu en occitan, même si les plus jeunes en connaissent moins les paroles.",
+"en": "The tour ends about twenty kilometres from Mèze, in Pézenas, with one of the oldest totem animals of the South. On Mardi Gras, to fifes and drums playing its own tune, the Poulain leaves the town-hall courtyard. A horse of blue canvas carried by nine harnessed men who keep in step, it stretches and pulls back its neck, guided by a leader with a tambourine; two dummies, Estieino and Estieineta, sit on its back. A disputed legend links it to a visit by King Louis VIII in 1226. Its frame is now aluminium, but it keeps the old dimensions so it can pass through the narrow lanes. In the evening an Occitan farewell is still sung to it, even if the youngest know fewer of the words."
+},
+"look_for": {
+"fr": "Le rigaudon, ce passage vif où meneur, porteurs et public lancent tous les jambes en l'air au même rythme.",
+"en": "The rigaudon, the lively passage where the leader, the bearers and the crowd all kick their legs up to the same beat."
+}
+}
+],
+"outro": {
+"fr": "De Douai à Pézenas, ces figures ont survécu aux guerres, aux interdictions et aux changements de matériaux, parce qu'une communauté a choisi, à chaque génération, de les porter de nouveau. Elles changent de corps, d'osier en aluminium, de roues en épaules, et accueillent de nouveaux venus, du lion parisien aux géants invités de toute l'Europe. Et chez vous : quel personnage ou quel animal pourrait représenter votre ville, et qui accepterait de le porter ?",
+"en": "From Douai to Pézenas, these figures have outlived wars, bans and changes of material because, in each generation, a community chose to carry them again. They change bodies, from wicker to aluminium, from wheels to shoulders, and welcome newcomers, from the Parisian lion to giants visiting from all over Europe. And where you live: which character or animal could stand for your town, and who would agree to carry it?"
+},
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+{
+"id": "pays-basque",
+"kind": "place",
+"title": {
+"fr": "Le Pays basque, de la côte à la Soule",
+"en": "The Basque Country, from the coast to the Soule"
+},
+"tagline": {
+"fr": "Des fêtes de Bayonne aux pastorales de Soule : un voyage où l'on joue, chante et se mesure ensemble, en basque comme en français.",
+"en": "From the Bayonne festival to the pastorales of the Soule: a journey where people play, sing and test their strength together, in Basque as well as French."
+},
+"intro": {
+"fr": "Le Pays basque nord, Iparralde, réunit trois provinces historiques : le Labourd sur la côte, la Basse-Navarre et la Soule vers la montagne. Ce parcours part de l'Adour et de l'océan pour remonter vers les villages de l'intérieur. En chemin, les mêmes fils reviennent : des fêtes portées par des bénévoles et des associations, des jeux nés du travail de la ferme ou du port, la langue basque chantée, improvisée, mise en scène. Chaque élément a son histoire propre, parfois très récente ; ensemble, ils montrent comment une société se rassemble, se donne en spectacle et se transmet ses savoirs.",
+"en": "The northern Basque Country, Iparralde, brings together three historic provinces: Labourd on the coast, Lower Navarre and the Soule towards the mountains. This tour starts on the Adour and the ocean and heads inland to the villages. Along the way the same threads keep returning: festivals run by volunteers and associations, games born of farm or harbour work, and the Basque language sung, improvised and staged. Each element has its own history, sometimes a very recent one; together they show how a society gathers, performs for itself and passes on what it knows."
+},
+"steps": [
+{
+"element": "2010_67717_INV_PCI_FRANCE_00116",
+"heading": {
+"fr": "Bayonne en blanc et rouge",
+"en": "Bayonne in white and red"
+},
+"text": {
+"fr": "Le voyage commence au confluent de l'Adour et de la Nive. Créées en 1932, les fêtes de Bayonne occupent cinq jours d'été, du mercredi au dimanche : bandas dans les rues, chants, défilés, peñas ouvertes à tous. Chaque midi, la foule assiste au réveil du roi Léon, grand mannequin qui rythme les journées. La tenue blanche au foulard rouge ne date que des années 1990, inspirée de Pampelune : preuve qu'une tradition peut être jeune et pourtant profondément partagée. Cette fête urbaine, immense, donne le ton du parcours : ici, la fête est une affaire collective, faite de musique, de rendez-vous et de gestes que chacun reconnaît. Descendons maintenant vers la côte, où la fête prend la couleur de la mer.",
+"en": "The journey begins where the Nive meets the Adour. Created in 1932, the Bayonne festival fills five summer days, Wednesday to Sunday: bandas in the streets, songs, parades and peñas open to all. Every day at noon the crowd gathers for the waking of King Léon, a giant figure who sets the rhythm of the day. The white outfit with a red scarf only dates from the 1990s, borrowed from Pamplona: proof that a tradition can be young and still deeply shared. This huge urban festival sets the tone for the tour: here, celebrating is a collective affair, made of music, meeting points and gestures everyone recognises. Now we head down the coast, where the festival takes on the colours of the sea."
+},
+"look_for": {
+"fr": "Le réveil du roi Léon à midi et les bandas : écoutez les cuivres reprendre les mêmes airs que la foule chante en chœur.",
+"en": "King Léon waking at noon, and the bandas: listen to the brass picking up tunes the whole crowd sings along to."
+}
+},
+{
+"element": "2013_67717_INV_PCI_FRANCE_00298",
+"heading": {
+"fr": "Saint-Jean-de-Luz et Ciboure, la fête de la Mer",
+"en": "Saint-Jean-de-Luz and Ciboure, the Sea festival"
+},
+"text": {
+"fr": "De part et d'autre de la Nivelle, Saint-Jean-de-Luz et Ciboure accueillent à tour de rôle les fêtes de la Mer et du Ttoro, en général au début de septembre. Le ttoro, soupe de poissons née à bord des bateaux, fait l'objet d'un concours, aux côtés d'un concours de pêche. Puis viennent la levée des couleurs, la messe, la bénédiction des bateaux et une gerbe lancée en mer pour les marins disparus. La fête relie ainsi le plaisir de la table et le souvenir des risques du métier. Les traînières, longues barques à rames, rappellent que la force et l'endurance se mesurent aussi sur l'eau. Le piment qui relève le ttoro nous conduit vers l'intérieur des terres, à Espelette.",
+"en": "On either side of the Nivelle estuary, Saint-Jean-de-Luz and Ciboure take turns hosting the Sea and Ttoro festival, usually in early September. Ttoro, a fish soup first cooked on board, has its own contest alongside a fishing competition. Then come the flag-raising, mass, the blessing of the boats and a wreath thrown into the sea for sailors lost at sea. The festival thus links the pleasure of eating with the memory of a dangerous trade. The traînières, long rowing boats, show that strength and stamina are measured on the water too. The chilli that seasons the ttoro leads us inland, to Espelette."
+},
+"look_for": {
+"fr": "Le moment où la gerbe est jetée à la mer, et le silence qui l'entoure, juste après l'agitation des concours.",
+"en": "The moment the wreath is thrown into the sea, and the hush around it, just after the bustle of the contests."
+}
+},
+{
+"element": "2014_67717_INV_PCI_FRANCE_00330",
+"heading": {
+"fr": "Espelette fête son piment",
+"en": "Espelette celebrates its chilli"
+},
+"text": {
+"fr": "À quelques kilomètres de la côte, Espelette célèbre chaque fin d'octobre la récolte de son piment depuis 1969. Marché de produits locaux, messe solennelle, intronisations par la confrérie au château et défilés animés par des bandas : la fête met en scène un produit devenu emblème, séché en cordes sur les façades. Comme à Bayonne, une association et des bénévoles font vivre l'événement ; comme sur la côte, un geste religieux s'y mêle à la fête profane. Le piment, protégé par une appellation d'origine depuis 2000, montre aussi comment un savoir agricole devient un repère d'identité pour tout un territoire. Le village voisin d'Itxassou fait de même avec un autre fruit.",
+"en": "A few kilometres inland, Espelette has celebrated its chilli harvest every late October since 1969. A local produce market, a solemn mass, inductions by the brotherhood at the castle and parades led by bandas: the festival showcases a crop that has become an emblem, dried in strings on house fronts. As in Bayonne, an association and volunteers keep the event going; as on the coast, a religious moment blends into the secular festival. Protected by an appellation of origin since 2000, the chilli also shows how farming know-how becomes a marker of identity for a whole area. The neighbouring village of Itxassou does the same with another fruit."
+},
+"look_for": {
+"fr": "Les cordes de piments rouges suspendues aux façades et sur les étals, fraîches ou déjà séchées.",
+"en": "Strings of red chillies hanging from house fronts and market stalls, some fresh, some already dried."
+}
+},
+{
+"element": "2013_67717_INV_PCI_FRANCE_00296",
+"heading": {
+"fr": "Itxassou, la cerise et la place du village",
+"en": "Itxassou, the cherry and the village court"
+},
+"text": {
+"fr": "Le premier dimanche de juin, Itxassou fête sa cerise, une tradition portée par une association locale depuis les années 1950. La semaine précédente, des bénévoles préparent des gâteaux basques à la crème ou à la cerise ; le dimanche commence par une messe bilingue, en basque et en français. Une partie de pelote à main nue suit, puis un grand repas servi sur des tables dressées dans le mur à gauche, où l'on goûte la confiture avec le fromage de brebis. Danses, jeux d'enfants et démonstrations de force basque complètent la journée. Cette petite fête réunit presque tout ce que l'on va découvrir ensuite : le fronton et la pelote, les épreuves de force, la langue.",
+"en": "On the first Sunday of June, Itxassou celebrates its cherry, a tradition run by a local association since the 1950s. In the week before, volunteers bake Basque cakes filled with cream or cherry jam; the Sunday opens with a bilingual mass, in Basque and French. A game of bare-hand pelota follows, then a big meal on tables set up inside the pelota court, where cherry jam is eaten with sheep's cheese. Dancing, children's games and Basque strength displays round off the day. This small festival gathers almost everything we will meet next: the court and pelota, the strength trials and the language."
+},
+"look_for": {
+"fr": "La pelote jouée le matin, puis les mêmes murs transformés en salle de banquet pour plusieurs centaines de convives.",
+"en": "The pelota game in the morning, then the same walls turned into a banqueting hall for several hundred guests."
+}
+},
+{
+"element": "2012_67717_INV_PCI_FRANCE_00158",
+"heading": {
+"fr": "La pelote à main nue en trinquet",
+"en": "Bare-hand pelota in the trinquet"
+},
+"text": {
+"fr": "La pelote basque désigne une famille de jeux qui combinent trois terrains (place libre, mur à gauche, trinquet) et divers instruments. La main nue en trinquet se joue dans une salle fermée, seul ou à deux contre deux : on frappe la pelote de la paume contre le mur de face, au-dessus d'une raie métallique. Deux « chicanes » rendent le jeu imprévisible : le pan coupé, angle biseauté, et le xilo, trou carré dans le mur. On ne dit pas « match » mais « partie », et le public suit depuis les galeries. Après la fête, voici l'exigence de l'entraînement : le jeu villageois est devenu un sport codifié, pratiqué bien au-delà du Pays basque.",
+"en": "Basque pelota is a family of games combining three kinds of court (open square, left-wall court, trinquet) with various implements. Bare-hand pelota in the trinquet is played in an enclosed hall, one against one or two against two: players strike the ball with the palm against the front wall, above a metal line. Two obstacles make play unpredictable: the bevelled corner and the xilo, a square hole in the wall. People speak of a \"partie\", a game, rather than a match, and spectators follow from the galleries. After the festivals, this is the discipline of training: a village game has become a codified sport played far beyond the Basque Country."
+},
+"look_for": {
+"fr": "Le claquement sec de la pelote sur le mur, et ce qui se passe quand elle touche le pan coupé ou le xilo.",
+"en": "The sharp crack of the ball on the wall, and what happens when it hits the bevelled corner or the xilo."
+}
+},
+{
+"element": "2012_67717_INV_PCI_FRANCE_00157",
+"heading": {
+"fr": "La force basque, mémoire des travaux des champs",
+"en": "Basque strength, a memory of farm work"
+},
+"text": {
+"fr": "Chaque semaine en été, concours et démonstrations de force basque, herri kirolak, animent les fêtes de village. Les épreuves reprennent des gestes de la ferme d'avant la mécanisation : lever une pierre sur l'épaule, faire pivoter une charrette autour de son timon, hisser une botte de paille avec une poulie, tirer à la corde en équipe, ramasser des épis de maïs à la course. Une fédération en harmonise les règles, et des femmes concourent en championnat depuis 2008. Comme la pelote, ces jeux ont quitté le travail quotidien pour devenir spectacle et compétition, sans perdre le lien avec la vie rurale. Après les corps qui se mesurent, place aux voix qui se répondent.",
+"en": "Every week in summer, Basque strength contests and displays, herri kirolak, liven up village festivals. The trials replay farm tasks from before mechanisation: lifting a stone onto the shoulder, swinging a cart round its shaft, hoisting a bale of straw on a pulley, team tug-of-war, racing to pick up ears of maize. A federation harmonises the rules, and women have competed in championships since 2008. Like pelota, these games have left daily work behind to become show and competition, without losing their link to rural life. After bodies testing their strength, we turn to voices answering each other."
+},
+"look_for": {
+"fr": "Le tir à la corde : observez comment l'équipe se couche presque au sol et bouge au même rythme.",
+"en": "The tug-of-war: watch how the team leans almost to the ground and moves to a single rhythm."
+}
+},
+{
+"element": "2022_67717_INV_PCI_FRANCE_00516",
+"heading": {
+"fr": "Le bertsularisme, l'improvisation chantée",
+"en": "Bertsolaritza, improvised song"
+},
+"text": {
+"fr": "Le bertsularisme est une joute verbale improvisée, rimée, mesurée et chantée sans accompagnement, entièrement en basque. Un meneur ou une meneuse impose un thème et un rôle ; le ou la bertsolari compose sur-le-champ, sur un air connu, sous l'oreille d'un public qui applaudit et devient parfois le sujet des couplets. On l'entend dans les fêtes de village, au carnaval et lors de championnats, et des écoles le transmettent aux plus jeunes. Après la force des bras, c'est l'agilité de l'esprit et de la langue qui se mesure, toujours face à un public. La langue basque, présente à chaque étape, devient ici le cœur même de la pratique, comme dans notre dernière étape, en Soule.",
+"en": "Bertsolaritza is an improvised verbal contest, rhymed, metred and sung unaccompanied, entirely in Basque. A host sets a theme and a role; the bertsolari composes on the spot to a known tune, before an audience that applauds and sometimes becomes the subject of the verses. It is heard at village festivals, at carnival and in championships, and schools pass it on to young people. After strength of arm comes agility of mind and tongue, still measured in front of an audience. The Basque language, present at every stop, here becomes the very heart of the practice, as it does at our last stop, in the Soule."
+},
+"look_for": {
+"fr": "Le court silence entre l'annonce du thème et le premier vers chanté, puis la rime finale qui déclenche les applaudissements.",
+"en": "The brief silence between the theme being announced and the first sung line, then the closing rhyme that sets off the applause."
+}
+},
+{
+"element": "2012_67717_INV_PCI_FRANCE_00285",
+"heading": {
+"fr": "La pastorale souletine, tout un village sur scène",
+"en": "The Soule pastorale, a whole village on stage"
+},
+"text": {
+"fr": "Le voyage s'achève en Soule, la plus orientale des provinces. Chaque année, les habitants d'un village différent montent une pastorale, théâtre en plein air en basque, joué sur une estrade sans décor dressée sur la place, le fronton ou un pré. Anges, Satans et humains y rejouent la lutte du Bien et du Mal ; les deux camps se distinguent par le bleu et le rouge, par leurs portes, leurs pas et leurs airs. Les Satans, danseurs et bouffons, font rire entre les scènes. Un metteur en scène, l'errejent, guide une année de préparation. Fête, jeu, chant et langue s'y rejoignent : c'est tout le parcours réuni sur une seule scène.",
+"en": "The journey ends in the Soule, the easternmost province. Each year the people of a different village stage a pastorale, open-air theatre in Basque, played on a bare platform set up on the square, the pelota court or a meadow. Angels, Satans and humans act out the struggle between Good and Evil; the two camps are told apart by blue and red, by their doors, their steps and their tunes. The Satans, dancers and jesters, make people laugh between scenes. A director, the errejent, guides a whole year of preparation. Festival, play, song and language meet here: the whole tour gathered on a single stage."
+},
+"look_for": {
+"fr": "La démarche des deux camps : pas mesurés pour les « Bleus », pas rapides martelés d'un coup de bâton pour les « Rouges ».",
+"en": "How the two camps walk: measured steps for the \"Blues\", quick steps hammered out with a stick for the \"Reds\"."
+}
+}
+],
+"outro": {
+"fr": "De Bayonne à la Soule, on a vu des fêtes récentes et des formes très anciennes, des pratiques nées du port ou de la ferme devenues sports, spectacles ou championnats. Partout, des bénévoles, des associations et des écoles font le travail de transmission, et la langue basque circule de la messe bilingue à l'improvisation chantée. Qu'est-ce qui, selon vous, fait tenir ensemble ces pratiques si différentes : un territoire, une langue, ou l'envie de se retrouver ?",
+"en": "From Bayonne to the Soule, we have seen recent festivals and very old forms, practices born of the harbour or the farm that became sports, shows or championships. Everywhere, volunteers, associations and schools do the work of passing things on, and the Basque language travels from the bilingual mass to improvised song. What, in your view, holds such different practices together: a territory, a language, or the wish to come together?"
+},
+"lang_review": "draft",
+"review_status": "unreviewed"
+}
+]
+}

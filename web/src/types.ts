@@ -138,3 +138,63 @@ export interface Announced {
   generated_on: string;
   elements: Record<string, AnnouncedEvent[]>;
 }
+
+type Bi = { fr: string; en: string };
+
+/** A link to a public recording or film of an element (data/media.yaml). */
+export interface MediaLink {
+  title: string;
+  url: string;
+  publisher: string;
+  kind: "audio" | "video";
+  year?: number;
+  note?: Bi;
+}
+
+export interface LessonStep {
+  minutes: number;
+  title: Bi;
+  teacher: Bi;
+  students: Bi;
+  prompts?: { fr: string[]; en: string[] };
+}
+
+/** A one-hour lesson plan (data/lessons/<id>.yaml). */
+export interface Lesson {
+  id: string;
+  level: "primary" | "middle" | "high" | "university";
+  title: Bi;
+  grade: Bi;
+  duration_min: number;
+  summary: Bi;
+  curriculum: Bi;
+  objectives: { fr: string[]; en: string[] };
+  materials: { fr: string[]; en: string[] };
+  elements: string[];
+  steps: LessonStep[];
+  assessment: Bi;
+  differentiation: Bi;
+  going_further: Bi;
+  answer_key?: Bi;
+  lang_review: "draft" | "reviewed";
+  review_status: "unreviewed" | "reviewed";
+}
+
+/** A guided tour across several elements (data/stories/<id>.yaml). */
+export interface Story {
+  id: string;
+  kind: "theme" | "place";
+  title: Bi;
+  tagline: Bi;
+  intro: Bi;
+  steps: { element: string; heading: Bi; text: Bi; look_for?: Bi }[];
+  outro: Bi;
+  lang_review: "draft" | "reviewed";
+  review_status: "unreviewed" | "reviewed";
+}
+
+export interface Resources {
+  media: Record<string, MediaLink[]>;
+  lessons: Lesson[];
+  stories: Story[];
+}

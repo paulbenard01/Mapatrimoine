@@ -1,0 +1,236 @@
+id: primaire-detectives-patrimoine-vivant
+level: primary
+title:
+  fr: Détectives du patrimoine vivant
+  en: Living heritage detectives
+grade:
+  fr: CM1-CM2 (cycle 3)
+  en: Years 5-6 / grades 4-5 (French cycle 3, CM1-CM2)
+duration_min: 60
+summary:
+  fr: >-
+    La classe devient une agence de détectives. Chaque équipe reçoit un dossier mystère : un objet, un son ou une odeur, un geste et un lieu. Il faut deviner la tradition, la confirmer sur la carte, puis chercher les preuves qu'elle est vivante : qui la fait vivre, comment on l'apprend, ce qui a changé. Les équipes présentent leur tradition en mimant son geste, épinglent la carte de classe et écrivent une carte postale envoyée depuis la tradition. On termine avec « Autour de moi » pour découvrir le patrimoine vivant près de l'école.
+  en: >-
+    The class becomes a detective agency. Each team gets a mystery file: an object, a sound or smell, a gesture and a place. They must guess the tradition, confirm it on the map, then gather proof that it is alive: who keeps it going, how people learn it, what has changed. Teams present their tradition by miming its gesture, pin it on the class map and write a postcard sent from the tradition. The lesson ends with "Autour de moi" (Near me) to discover living heritage close to the school.
+curriculum:
+  fr: >-
+    La séance s'inscrit dans le parcours d'éducation artistique et culturelle (PEAC) : rencontrer des pratiques culturelles vivantes et en parler. En géographie de CM1, elle prolonge l'étude des lieux où l'on habite et apprend à se repérer sur une carte de France qui inclut les territoires d'outre-mer. En enseignement moral et civique, elle fait travailler la coopération en équipe et le respect des cultures des autres. Elle mobilise aussi le langage oral (présenter, justifier une hypothèse), la lecture de documents (texte, image) et l'écriture d'un court texte. L'écoute de musiques (éducation musicale) peut s'ajouter si la classe dispose d'enregistrements.
+  en: >-
+    The lesson belongs to the arts and culture education pathway (PEAC): meeting living cultural practices and talking about them. In Year 5 (CM1) geography, it extends the study of the places where we live and practises finding places on a map of France that includes the overseas territories. In moral and civic education, it builds teamwork and respect for other people's cultures. It also draws on speaking (presenting, justifying a guess), reading documents (text and image) and writing a short text. Listening to music (music education) can be added if the class has recordings.
+objectives:
+  fr:
+    - >-
+      Faire des hypothèses à partir d'indices et les vérifier avec un outil numérique (recherche et carte).
+    - >-
+      Comprendre qu'une tradition est « vivante » parce que des personnes la font, l'apprennent et la transmettent.
+    - >-
+      Situer des traditions de l'Hexagone et des outre-mer sur une carte de France.
+    - >-
+      Présenter oralement une tradition et écrire un court texte qui dit qui la fait vivre.
+  en:
+    - >-
+      Make guesses from clues and check them with a digital tool (search and map).
+    - >-
+      Understand that a tradition is "living" because people practise it, learn it and pass it on.
+    - >-
+      Locate traditions from mainland France and the overseas territories on a map of France.
+    - >-
+      Present a tradition orally and write a short text saying who keeps it alive.
+materials:
+  fr:
+    - >-
+      Le site PCI Map vidéoprojeté, et une tablette ou un ordinateur par équipe (https://paulbenard01.github.io/Mapatrimoine/).
+    - >-
+      Six enveloppes « dossier mystère » contenant chacune quatre cartes-indices découpées (objet, son ou odeur, geste, lieu), plus un dossier bonus.
+    - >-
+      Une grande carte de France muette avec les outre-mer en encadré (format A2 ou A1) et des gommettes ou épingles.
+    - >-
+      Une « fiche détective » par équipe : hypothèses, nom de la tradition, lieu, trois preuves de vie.
+    - >-
+      Des cartes A5 cartonnées pour les cartes postales, crayons de couleur.
+    - >-
+      Facultatif : les fiches imprimables des éléments (?id=<id>&sheet=1) pour les équipes sans écran.
+  en:
+    - >-
+      The PCI Map site on the projector, and one tablet or computer per team (https://paulbenard01.github.io/Mapatrimoine/).
+    - >-
+      Six "mystery file" envelopes, each holding four cut-out clue cards (object, sound or smell, gesture, place), plus a bonus file.
+    - >-
+      A large blank map of France with the overseas territories in insets (A2 or A1) and stickers or pins.
+    - >-
+      One "detective sheet" per team: guesses, name of the tradition, place, three proofs of life.
+    - >-
+      A5 card for the postcards, coloured pencils.
+    - >-
+      Optional: the printable element sheets (?id=<id>&sheet=1) for teams without a screen.
+elements:
+  - 2014_67717_INV_PCI_FRANCE_00350
+  - 2012_67717_INV_PCI_FRANCE_00284
+  - 2018_67717_INV_PCI_FRANCE_00413
+  - 2017_67717_INV_PCI_FRANCE_00376
+  - 2019_67717_INV_PCI_FRANCE_00449
+  - 2008_67717_INV_PCI_FRANCE_00035
+  - 2012_67717_INV_PCI_FRANCE_00169
+steps:
+  - minutes: 7
+    title:
+      fr: "Briefing : qu'est-ce qu'un patrimoine vivant ?"
+      en: "Briefing: what is living heritage?"
+    teacher:
+      fr: >-
+        Projeter deux images côte à côte : un château et un défilé de fête. « Les deux sont du patrimoine. Quelle différence ? » Faire émerger l'idée : le château, on le visite ; la fête, il faut que des gens la refassent chaque année, sinon elle disparaît. Annoncer : « Le ministère de la Culture a fait la liste de plus de 500 traditions vivantes en France. Six d'entre elles ont laissé des indices. Votre agence doit les retrouver. » Montrer rapidement la carte du site, la barre de recherche et un point qu'on ouvre. Former six équipes de quatre et distribuer les rôles : lecteur des indices, pilote de la tablette, secrétaire, porte-parole.
+      en: >-
+        Project two images side by side: a castle and a festival parade. "Both are heritage. What is the difference?" Draw out the idea: you visit a castle; a festival needs people to do it again every year, or it disappears. Announce: "France's Ministry of Culture has listed more than 500 living traditions. Six of them have left clues. Your agency must track them down." Briefly show the site's map, the search bar and how to open a point. Form six teams of four and hand out roles: clue reader, tablet pilot, secretary, spokesperson.
+    students:
+      fr: >-
+        Les élèves comparent les deux images et proposent des exemples de choses qui n'existent que si on les fait : un jeu de cour, une recette de famille, une chanson d'anniversaire. Chaque équipe choisit un nom d'agence et répartit les quatre rôles. Elle reçoit son enveloppe fermée et sa fiche détective.
+      en: >-
+        Pupils compare the two images and suggest things that only exist if people do them: a playground game, a family recipe, a birthday song. Each team picks an agency name and shares out the four roles. It receives its sealed envelope and its detective sheet.
+    prompts:
+      fr:
+        - >-
+          Citez une chose que votre famille ou votre école fait chaque année et qui disparaîtrait si plus personne ne la faisait.
+      en:
+        - >-
+          Name something your family or school does every year that would disappear if nobody did it any more.
+  - minutes: 15
+    title:
+      fr: "L'enquête : quatre indices, une tradition"
+      en: "The investigation: four clues, one tradition"
+    teacher:
+      fr: >-
+        Expliquer la règle : on ouvre les indices un par un, dans l'ordre objet, son ou odeur, geste, lieu. Après chaque indice, le secrétaire note une hypothèse. Quand l'équipe pense avoir trouvé, le pilote vérifie sur le site avec un mot-clé tiré des indices (par exemple « géant », « tambour », « citron », « laine ») ou en zoomant sur le lieu. Une tradition est « résolue » quand l'équipe montre l'élément ouvert sur l'écran. Passer dans les équipes, relancer avec des questions (« Quel mot de l'indice pourriez-vous chercher ? ») sans donner la réponse. Pour garder l'esprit collectif : chaque dossier résolu fait avancer toute l'agence, pas une seule équipe.
+      en: >-
+        Explain the rule: open the clues one at a time, in the order object, sound or smell, gesture, place. After each clue, the secretary writes down a guess. When the team thinks it has found the answer, the pilot checks on the site with a keyword taken from the clues (for example "géant", "tambour", "citron", "laine") or by zooming in on the place. A case is "solved" when the team shows the element open on the screen. Circulate and nudge with questions ("Which word from the clue could you search for?") without giving the answer. To keep it collective, every solved case moves the whole agency forward, not just one team.
+    students:
+      fr: >-
+        Le lecteur lit le premier indice à voix haute ; l'équipe discute et le secrétaire écrit une première idée, même farfelue. On ouvre l'indice suivant et on corrige ou on garde l'hypothèse. Dès qu'un mot-clé paraît utile, le pilote le tape dans la recherche du site, ouvre les résultats et vérifie que tous les indices collent (lieu, objet, geste). L'équipe recopie sur la fiche détective le titre exact de la tradition, son lieu, et note quel indice a été décisif. Les équipes qui ont fini tôt reçoivent le dossier bonus.
+      en: >-
+        The reader reads the first clue aloud; the team talks it over and the secretary writes a first idea, however wild. They open the next clue and change or keep the guess. As soon as a keyword looks useful, the pilot types it into the site's search, opens the results and checks that every clue fits (place, object, gesture). The team copies the exact title of the tradition and its place onto the detective sheet and notes which clue was decisive. Teams that finish early get the bonus file.
+    prompts:
+      fr:
+        - >-
+          Dossier A. Objet : un chevalier de plus de 8 mètres qui a une femme et trois enfants. Son : des tambours. Geste : on soulève les tout-petits pour embrasser le plus petit de la famille. Lieu : une ville du Nord, début juillet.
+        - >-
+          Dossier B. Objet : des tambours appelés ka. Son : une voix lance une phrase, le cercle répond et frappe dans ses mains. Geste : une seule personne danse face au tambour, qui suit ses pas. Lieu : une île en forme de papillon.
+        - >-
+          Dossier C. Objet : farine, eau, sel, levure, et c'est tout. Son : une croûte qui craque sous les doigts. Geste : des entailles faites à la lame juste avant le four. Lieu : partout en France, sans doute tout près de l'école.
+        - >-
+          Dossier D. Objet : un voilier sans quille ni gouvernail. Son : toute une île qui encourage les courses. Geste : des équipiers s'avancent au-dessus de l'eau sur de longues perches de bois pour que le bateau ne chavire pas. Lieu : la Martinique.
+        - >-
+          Dossier E. Objet : des sculptures géantes de deux couleurs seulement, jaune et orange. Odeur : ça sent l'agrume ! Geste : fixer des fruits un par un avec des élastiques. Lieu : une ville au bord de la mer, près de l'Italie, en hiver.
+        - >-
+          Dossier F. Objet : un grand modèle dessiné où chaque numéro désigne une couleur de laine. Son : le peigne qui tasse la laine, rang après rang. Geste : on fabrique l'image à l'envers, sans la voir avant la fin. Lieu : la Creuse.
+      en:
+        - >-
+          File A. Object: a knight more than 8 metres tall, with a wife and three children. Sound: drums. Gesture: toddlers are lifted up to kiss the youngest of the family. Place: a town in the North, early July.
+        - >-
+          File B. Object: drums called ka. Sound: one voice calls out a line, the circle answers and claps. Gesture: one person at a time dances facing the drum, which follows their steps. Place: a butterfly-shaped island.
+        - >-
+          File C. Object: flour, water, salt, yeast, and nothing else. Sound: a crust crackling under your fingers. Gesture: slashes cut with a blade just before the oven. Place: all over France, probably very close to your school.
+        - >-
+          File D. Object: a sailing boat with no keel and no rudder. Sound: a whole island cheering on the races. Gesture: crew members move out over the water on long wooden poles so the boat does not capsize. Place: Martinique.
+        - >-
+          File E. Object: giant sculptures in just two colours, yellow and orange. Smell: citrus! Gesture: fixing fruit one by one with rubber bands. Place: a seaside town near Italy, in winter.
+        - >-
+          File F. Object: a large drawn model where each number stands for a colour of wool. Sound: the comb packing down the wool, row after row. Gesture: the picture is made back to front, unseen until the end. Place: the Creuse.
+  - minutes: 8
+    title:
+      fr: "La preuve de vie : qui la fait vivre ?"
+      en: "Proof of life: who keeps it alive?"
+    teacher:
+      fr: >-
+        « Trouver le nom ne suffit pas : un détective du patrimoine vivant doit prouver que la tradition est vivante. » Demander aux équipes d'ouvrir la page de leur élément (résumé, photo, lieux, et la fiche imprimable avec ?id=<id>&sheet=1, dont le texte « contexte » est accessible aux bons lecteurs). Elles cherchent trois preuves, une par question de la carte. Passer dans les équipes et aider à lire : souligner avec elles les mots qui désignent des personnes (habitants, boulangers, équipiers, lissiers…).
+      en: >-
+        "Finding the name is not enough: a living heritage detective must prove that the tradition is alive." Ask teams to open their element's page (summary, photo, places, and the printable sheet at ?id=<id>&sheet=1, whose "context" text suits confident readers). They look for three proofs, one for each question on the card. Go round the teams and help with reading: underline with them the words that name people (residents, bakers, crew members, weavers…).
+    students:
+      fr: >-
+        L'équipe observe d'abord la photo : qui voit-on, que font ces personnes ? Puis elle lit le résumé et, si possible, la fiche. Le secrétaire remplit les trois cases « preuves de vie » de la fiche détective avec une phrase courte chacune, dans ses propres mots. Le porte-parole prépare la présentation et l'équipe choisit le geste à mimer devant la classe.
+      en: >-
+        The team first looks at the photo: who can we see, what are they doing? Then it reads the summary and, if possible, the sheet. The secretary fills in the three "proof of life" boxes on the detective sheet, one short sentence each, in the team's own words. The spokesperson prepares the presentation and the team chooses the gesture it will mime for the class.
+    prompts:
+      fr:
+        - >-
+          Preuve 1 : qui fait vivre cette tradition aujourd'hui ? (des habitants, des artisans, des associations, des familles…)
+        - >-
+          Preuve 2 : comment l'apprend-on ? (en famille, en regardant les plus anciens, dans une école, en atelier…)
+        - >-
+          Preuve 3 : qu'est-ce qui a changé depuis le début, ou qu'est-ce qui pourrait la faire disparaître ?
+      en:
+        - >-
+          Proof 1: who keeps this tradition going today? (residents, craftspeople, associations, families…)
+        - >-
+          Proof 2: how do people learn it? (in the family, by watching older people, at a school, in a workshop…)
+        - >-
+          Proof 3: what has changed since it began, or what could make it disappear?
+  - minutes: 12
+    title:
+      fr: "Rapport à l'agence : mime, révélation, épingle"
+      en: "Report to the agency: mime, reveal, pin"
+    teacher:
+      fr: >-
+        Chaque équipe vient au tableau (environ 1 min 30). Règle du jeu : elle mime d'abord le geste de sa tradition ; la classe propose ce que c'est. Puis le porte-parole révèle le nom, montre l'élément sur la carte projetée et lit ses trois preuves de vie. Le pilote colle une gommette sur la grande carte de classe, avec une étiquette. Après les six rapports, faire observer la carte : « Où sont nos six traditions ? Y en a-t-il loin de l'Hexagone ? Qu'ont-elles en commun ? » Conclure : toutes ont besoin de personnes qui apprennent et transmettent, et toutes ont changé.
+      en: >-
+        Each team comes to the front (about 90 seconds). Rule of the game: it first mimes its tradition's gesture; the class guesses what it is. Then the spokesperson reveals the name, shows the element on the projected map and reads the three proofs of life. The pilot sticks a dot on the big class map, with a label. After the six reports, get the class to look at the map: "Where are our six traditions? Are any far from mainland France? What do they have in common?" Conclude: they all need people who learn and pass them on, and they have all changed.
+    students:
+      fr: >-
+        Chaque équipe mime son geste (tenir l'équilibre au bout d'une perche, entailler une baguette, danser face à un tambour, fixer un citron, tisser à l'envers, soulever un tout-petit vers un géant), puis présente sa tradition et ses preuves. Les autres élèves devinent, écoutent et, sur leur propre fiche, cochent pour chaque tradition qui la fait vivre : familles, artisans, associations, une ville, une école.
+      en: >-
+        Each team mimes its gesture (balancing at the end of a pole, slashing a baguette, dancing in front of a drum, fixing a lemon, weaving back to front, lifting a toddler towards a giant), then presents its tradition and its proofs. The other pupils guess, listen and, on their own sheet, tick for each tradition who keeps it alive: families, craftspeople, associations, a town, a school.
+  - minutes: 12
+    title:
+      fr: "Une carte postale envoyée depuis la tradition"
+      en: "A postcard sent from the tradition"
+    teacher:
+      fr: >-
+        Distribuer une carte A5 par élève (ou par binôme). Consigne : « Vous êtes sur place, au cœur de la tradition. Écrivez à quelqu'un de la classe d'à côté. » Au recto, un dessin du moment le plus fort (pas forcément la photo du site : le geste, l'objet, la foule). Au verso, un texte de quatre à six lignes qui doit contenir trois choses : où l'on est, ce qu'on voit ou entend, et qui fait vivre la tradition ou comment on l'apprend. Rappeler qu'on décrit des gens d'aujourd'hui : on évite « autrefois, les gens… » et on parle au présent.
+      en: >-
+        Give out one A5 card per pupil (or per pair). Instructions: "You are there, right in the middle of the tradition. Write to someone in the class next door." On the front, a drawing of the most striking moment (not necessarily the site's photo: the gesture, the object, the crowd). On the back, a text of four to six lines that must include three things: where you are, what you see or hear, and who keeps the tradition alive or how it is learnt. Remind them that they are describing people today: avoid "in the old days, people…" and write in the present tense.
+    students:
+      fr: >-
+        Chaque élève écrit et illustre sa carte postale à partir de la tradition de son équipe ou d'une autre entendue pendant les rapports. Exemple de début : « Bonjour de Douai ! Les tambours viennent de commencer… » Les élèves relisent avec la fiche détective pour vérifier que les trois éléments obligatoires y sont, puis glissent la carte dans la boîte aux lettres de la classe.
+      en: >-
+        Each pupil writes and illustrates a postcard about their team's tradition or another one heard during the reports. A possible opening: "Greetings from Douai! The drums have just started…" Pupils re-read with the detective sheet to check that the three required elements are there, then post the card in the class letterbox.
+    prompts:
+      fr:
+        - >-
+          Ma carte dit où je suis, ce que je vois ou entends, et qui fait vivre la tradition ou comment on l'apprend.
+      en:
+        - >-
+          My card says where I am, what I see or hear, and who keeps the tradition alive or how it is learnt.
+  - minutes: 6
+    title:
+      fr: "Et autour de l'école ?"
+      en: "And around our school?"
+    teacher:
+      fr: >-
+        Sur le site projeté, activer « Autour de moi » (la position reste sur l'appareil, elle n'est envoyée nulle part) ou choisir le département dans « Territoire ». Lire avec la classe les trois éléments les plus proches de l'école et leur résumé. Faire voter la classe pour celui qui sera le prochain dossier de l'agence, puis lancer la mission famille (voir « Pour aller plus loin »). Si la baguette a été résolue, rappeler qu'une boulangerie du quartier fait elle aussi partie de ce patrimoine.
+      en: >-
+        On the projected site, turn on "Autour de moi" (Near me; the location stays on the device and is never sent) or pick the department under "Territoire". Read with the class the three elements closest to the school and their summaries. Have the class vote for the one that will be the agency's next case, then launch the family mission (see "Going further"). If the baguette case was solved, point out that a local bakery is part of this heritage too.
+    students:
+      fr: >-
+        Les élèves découvrent les traditions proches de l'école, disent si l'une d'elles leur est familière (fête du village, jeu, savoir-faire) et votent pour le prochain dossier. Chacun note sur sa fiche le nom de la tradition choisie et une question à poser à la maison.
+      en: >-
+        Pupils discover the traditions near the school, say whether any of them is familiar (village festival, game, craft) and vote for the next case. Each pupil writes on their sheet the name of the chosen tradition and one question to ask at home.
+assessment:
+  fr: >-
+    L'enseignant vérifie trois choses. Sur la fiche détective : le titre et le lieu exacts de la tradition, et un raisonnement visible (hypothèses corrigées au fil des indices). Pendant les rapports : l'équipe sait dire au moins une personne ou un groupe qui fait vivre la tradition et une façon de l'apprendre. Sur la carte postale : les trois éléments obligatoires sont présents et le texte parle de gens d'aujourd'hui. Un ticket de sortie oral possible : « Qu'est-ce qui rend une tradition vivante ? » ; réponse attendue : des personnes qui la pratiquent, l'apprennent et la transmettent, même si elle change.
+  en: >-
+    The teacher checks three things. On the detective sheet: the exact title and place of the tradition, and visible reasoning (guesses revised as clues are revealed). During the reports: the team can name at least one person or group who keeps the tradition alive and one way it is learnt. On the postcard: the three required elements are there and the text is about people today. A possible oral exit ticket: "What makes a tradition living?"; expected answer: people who practise it, learn it and pass it on, even as it changes.
+differentiation:
+  fr: >-
+    Soutien : donner aux équipes qui bloquent une carte « mot-clé » à taper dans la recherche (géant, gwoka, baguette, yole, citron, tapisserie), confier le dossier C (baguette), le plus familier, à une équipe fragile, et proposer pour la carte postale un début de phrase pour chaque ligne. Les élèves qui lisent difficilement s'appuient sur la photo et le résumé court, lus par le lecteur de l'équipe. Approfondissement : le dossier bonus (Objet : une petite boule en buis appelée cochonnet. Son : le clac des boules de métal. Geste : on lance depuis un petit cercle. Lieu : née en Provence) ; écrire soi-même un dossier mystère en quatre indices sur une autre tradition de la carte, pour l'échanger avec une autre équipe.
+  en: >-
+    Support: give teams who are stuck a "keyword" card to type into the search (géant, gwoka, baguette, yole, citron, tapisserie), give file C (baguette), the most familiar, to a team that needs it, and offer a sentence starter for each line of the postcard. Pupils who struggle with reading rely on the photo and the short summary, read aloud by the team's reader. Stretch: the bonus file (Object: a small boxwood ball called the jack. Sound: the clack of metal balls. Gesture: you throw from a small circle. Place: born in Provence); write a four-clue mystery file about another tradition on the map and swap it with another team.
+going_further:
+  fr: >-
+    Mission famille : interroger un adulte de la maison sur une tradition qu'il pratique ou a apprise (un jeu, une recette, une fête, une chanson) avec deux questions, « Qui te l'a apprise ? » et « Est-ce qu'elle a changé ? », puis rapporter un indice (dessin, objet, mot) pour un futur dossier mystère de la classe. En classe, compléter la carte murale au fil de l'année avec les traditions trouvées près de l'école. Si une tradition proche a lieu pendant l'année scolaire (voir l'onglet Agenda), préparer une sortie ou inviter quelqu'un qui la pratique à venir montrer son geste. Les postales peuvent être réellement envoyées à une classe d'une autre région.
+  en: >-
+    Family mission: interview an adult at home about a tradition they practise or learnt (a game, a recipe, a festival, a song) with two questions, "Who taught it to you?" and "Has it changed?", then bring back a clue (drawing, object, word) for a future class mystery file. In class, keep adding to the wall map during the year with traditions found near the school. If a nearby tradition takes place during the school year (see the Agenda tab), plan an outing or invite someone who practises it to come and show their gesture. The postcards can really be posted to a class in another region.
+answer_key:
+  fr: >-
+    A : les fêtes de Gayant à Douai (Nord). Une famille de géants (le père, la mère, trois enfants dont le petit Binbin) portée par une association aux règles transmises de génération en génération ; refaits après les guerres. B : le gwoka de la Guadeloupe. Chant, tambours ka et danse, appris en famille, entre amis, dans des écoles et associations ; né chez les personnes mises en esclavage, il s'invente aujourd'hui aussi sur scène. C : les savoir-faire et la culture de la baguette, partout en France. Boulangers formés entre l'école et le fournil ; chaque boulanger a son tour de main ; fragilisée par la fermeture de boulangeries. D : la yole ronde de la Martinique. Construite sans plan par des charpentiers, menée par des équipages d'associations ; relancée quand les bateaux à moteur l'avaient remplacée. E : la fête du Citron de Menton. Inventée dans les années 1930, renouvelée chaque année ; services de la ville et « fruiteurs » qui fixent les agrumes, dont beaucoup viennent d'Espagne. F : la tapisserie d'Aubusson. Lissiers formés en atelier en environ trois ans ; peu d'ateliers, relève fragile. Bonus : la pétanque.
+  en: >-
+    A: the Gayant festival in Douai (Nord). A family of giants (father, mother, three children including little Binbin) carried by an association whose rules pass down the generations; rebuilt after wars. B: gwoka from Guadeloupe. Song, ka drums and dance, learnt in families, among friends, in schools and associations; born among enslaved people, it is now also reinvented on stage. C: the craft and culture of the baguette, all over France. Bakers trained between school and bakehouse; every baker has their own touch; threatened by bakery closures. D: the yole ronde of Martinique. Built without plans by boatbuilders, raced by crews from associations; revived after motorboats had replaced it. E: the Menton Lemon Festival. Invented in the 1930s, renewed every year; town services and seasonal workers who fix the citrus fruit, much of it from Spain. F: Aubusson tapestry. Weavers trained in workshops over about three years; few workshops, fragile succession. Bonus: pétanque.
+lang_review: draft
+review_status: unreviewed

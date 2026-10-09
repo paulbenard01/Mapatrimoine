@@ -82,8 +82,15 @@ def main(argv: list[str] | None = None) -> int:
         write_review()
         print(f"review status -> {REVIEW_PATH.relative_to(REVIEW_PATH.parents[1])}")
         return 0
-    from pci.build import BuildError, build, build_inventory
+    from pci.build import OUTPUT_PATH, BuildError, build, build_inventory
     from pci.mediation import MediationError, build_mediation
+    from pci.opendata import build_opendata
+    from pci.resources import ResourcesError, build_resources
+
+    def json_inventory() -> list[dict]:
+        import json
+
+        return json.loads((OUTPUT_PATH.parent / "inventory.json").read_text())["elements"]
 
     try:
         elements = build()
@@ -95,12 +102,19 @@ def main(argv: list[str] | None = None) -> int:
         summarised = {e["id"] for e in elements} | set(load_yaml(SUMMARIES_PATH))
         inscribed = set(load_yaml(UNESCO_PATH).get("elements") or {})
         sheets = build_mediation(summarised, unesco=inscribed)
-    except (BuildError, MediationError) as exc:
+        resources = build_resources({e["id"] for e in json_inventory()})
+        build_opendata(OUTPUT_PATH.parent)
+    except (BuildError, MediationError, ResourcesError) as exc:
         print(f"build failed:\n{exc}", file=sys.stderr)
         return 1
     print(f"{len(elements)} curated elements -> web/public/data/elements.json")
     print(f"{count} inventory entries -> web/public/data/inventory.json")
     print(f"{sheets} mediation sheets -> web/public/data/mediation.json")
+    print(
+        f"{resources['media']} elements with media, {resources['lessons']} lessons, "
+        f"{resources['stories']} stories -> web/public/data/resources.json"
+    )
+    print(f"{count} rows -> web/public/data/open/pci-inventaire.{{csv,json}}")
     return 0
 
 
