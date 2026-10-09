@@ -122,6 +122,7 @@ export const en: Strings = {
     "The CSV (UTF-8, one row per element) separates multiple values with \"|\"; the JSON keeps every place and the full dating rule. Pictures are not included (each has its own credits and licence).",
   openDataLicence:
     "Licence Ouverte 2.0 (Etalab). Source: French Ministry of Culture, national ICH inventory; places from PCI Lab and the fiches; summaries written for PCI Map (drafts). Please credit \"PCI Map\".",
+  showSheets: (n: number) => `Show the ${n} sheets`,
   sheetQuestions: "Questions to discuss",
   sheetVocabulary: "Vocabulary",
   sheetTerm: "Word and definition",

@@ -1761,3 +1761,9 @@ body.lesson-mode #app {
 .story-mode .search-wrap {
   display: none;
 }
+.more-sheets > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--accent);
+  padding: 6px 0 10px;
+}

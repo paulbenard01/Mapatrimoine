@@ -120,6 +120,7 @@ export const fr = {
     "Le CSV (UTF-8, une ligne par élément) sépare les valeurs multiples par « | » ; le JSON garde tous les lieux et la règle de date complète. Les images ne sont pas incluses (crédits et licences propres à chacune).",
   openDataLicence:
     "Licence Ouverte 2.0 (Etalab). Source : ministère de la Culture, Inventaire national du PCI ; lieux d'après PCI Lab et les fiches ; résumés rédigés pour la Carte du PCI (brouillons). Merci de citer « Carte du PCI ».",
+  showSheets: (n: number) => `Afficher les ${n} fiches`,
   sheetQuestions: "Questions pour en parler",
   sheetVocabulary: "Vocabulaire",
   sheetTerm: "Mot et définition",

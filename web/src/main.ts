@@ -73,6 +73,7 @@ let entries: Entry[] = [];
 let sheets: Record<string, MediationSheet> = {};
 let announced: Announced | null = null;
 let resources: Resources = { media: {}, lessons: [], stories: [] };
+let otherSheetsOpen = false;
 let lastStoryKey = ""; // story + step last shown, to fly the map only on change
 let mapView: MapView | null = null;
 let mapFailed = false;
@@ -1270,7 +1271,19 @@ function sheetSection(id: string, title: string, intro: string, items: Item[], h
     { class: `res-section${highlight ? " highlight" : ""}`, "aria-labelledby": id },
     h("header", {}, h("h3", { id }, title), h("p", { class: "count" }, s.worksheetsCount(items.length))),
     h("p", { class: "section-note" }, intro),
-    h("ul", { class: "cards" }, items.map(worksheetCard)),
+    highlight || state.q.trim() || state.themes.length
+      ? h("ul", { class: "cards" }, items.map(worksheetCard))
+      : // The long list of other sheets stays folded until asked for (or filtered).
+        h(
+          "details",
+          {
+            class: "more-sheets",
+            open: otherSheetsOpen,
+            ontoggle: (e: Event) => (otherSheetsOpen = (e.target as HTMLDetailsElement).open),
+          },
+          h("summary", { "data-key": "more-sheets" }, s.showSheets(items.length)),
+          h("ul", { class: "cards" }, items.map(worksheetCard)),
+        ),
   );
 }
 
