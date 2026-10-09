@@ -1,0 +1,70 @@
+id: 2020_67717_INV_PCI_FRANCE_00485
+audience: general
+questions:
+  fr:
+    - "Le lissier tisse sur l'envers, d'après un carton inversé, sans voir l'endroit de son œuvre avant la fin : comment peut-il savoir que le dessin sera juste ?"
+    - "Une tapisserie naît d'un dialogue entre un artiste et un lissier : quelle part de l'œuvre revient à celui qui choisit les laines, les couleurs et la façon de tisser ?"
+    - "Fileurs, teinturiers, cartonniers, lissiers et restaurateurs travaillent dans deux petites villes de la Creuse : pourquoi est-il important que toute la chaîne reste au même endroit ?"
+    - "La tapisserie d'Aubusson est reconnue par l'UNESCO depuis 2009 : comment cette reconnaissance peut-elle aider à attirer des jeunes vers un métier lent et exigeant ?"
+    - "Avez-vous déjà tissé, tricoté, brodé ou cousu, ou vu quelqu'un de votre entourage le faire : qu'avez-vous appris en le regardant ?"
+  en:
+    - "The weaver works on the back, from a reversed cartoon, without seeing the front of the work until the end; how can he or she know the design will come out right?"
+    - "A tapestry grows out of a dialogue between an artist and a weaver; what share of the work belongs to the person who chooses the wools, the colours and the weaving technique?"
+    - "Spinners, dyers, cartoon makers, weavers and restorers work in two small towns in the Creuse; why does it matter that the whole chain stays in one place?"
+    - "Aubusson tapestry has been recognised by UNESCO since 2009; how might this recognition help draw young people to a slow and demanding craft?"
+    - "Have you ever woven, knitted, embroidered or sewn, or watched someone close to you do it? What did you learn by watching?"
+vocabulary:
+  - fr: lissier, lissière
+    en: tapestry weaver
+    def_fr: Artisan d'art qui tisse la tapisserie à la main et « met en laine » l'œuvre d'un artiste en choisissant fibres, couleurs et effets.
+    def_en: Craftsperson who weaves the tapestry by hand and "puts into wool" an artist's work, choosing fibres, colours and effects.
+  - fr: métier de basse lisse
+    en: low-warp loom
+    def_fr: Métier à tisser horizontal ; des pédales actionnées au pied écartent les fils de chaîne pairs et impairs pour laisser passer la laine.
+    def_en: Horizontal loom; foot pedals pull apart the odd and even warp threads so that the wool can pass between them.
+  - fr: carton
+    en: cartoon
+    def_fr: Modèle à la taille réelle de la tapisserie, dessiné à l'envers, placé sous les fils et suivi par le lissier pendant le tissage.
+    def_en: Full-size model of the tapestry, drawn in mirror image, placed under the threads and followed by the weaver while weaving.
+  - fr: chaîne
+    en: warp
+    def_fr: Fils tendus, généralement en coton, montés sur le métier avant le tissage ; dans une tapisserie, ils sont entièrement recouverts par la laine.
+    def_en: Stretched threads, usually cotton, set on the loom before weaving; in a tapestry they are completely covered by the wool.
+  - fr: trame
+    en: weft
+    def_fr: Fils de laine ou de soie colorés que le lissier passe entre les fils de chaîne et qui forment l'image.
+    def_en: Coloured wool or silk threads that the weaver passes between the warp threads and that make up the image.
+  - fr: flûte
+    en: bobbin (flûte)
+    def_fr: Petite navette en bois autour de laquelle on enroule le fil d'une couleur, glissée à la main entre les fils de chaîne.
+    def_en: Small wooden bobbin wound with thread of one colour, slipped by hand between the warp threads.
+  - fr: chapelet de couleurs
+    en: colour string
+    def_fr: Série d'échantillons de laines rassemblant toutes les couleurs choisies pour une tapisserie, complétée parfois pendant le tissage.
+    def_en: Set of wool samples bringing together all the colours chosen for a tapestry, sometimes added to during weaving.
+  - fr: pliée
+    en: rolled section (pliée)
+    def_fr: Bande d'environ vingt centimètres de tapisserie terminée, que l'on enroule autour du rouleau du métier avant de tisser la suivante.
+    def_en: Strip of about twenty centimetres of finished tapestry, rolled around the loom's beam before the next one is woven.
+context:
+  fr: >-
+    À Aubusson et Felletin, dans la Creuse, on tisse des tapisseries depuis plus de cinq siècles. Leur origine reste discutée : peut-être une influence flamande, peut-être une reconversion de l'industrie locale du drap. Ce qui rend ce territoire unique, c'est qu'il réunit encore toute la filière : filatures, teinturiers, manufactures, ateliers, cartonniers et restaurateurs, qui échangent leurs savoirs au quotidien.
+    Le lissier travaille sur un métier horizontal de basse lisse, assis, en suivant un carton placé sous les fils. Il tisse l'œuvre à l'envers, bande après bande, en sentant la tension de chaque fil. Au XXe siècle, des artistes ont renouvelé la tapisserie en dessinant eux-mêmes des cartons pensés pour le tissage. Aujourd'hui, une tapisserie peut copier une œuvre ancienne ou interpréter une création contemporaine. Le métier s'apprend sur des années ; à Aubusson, la Cité internationale de la tapisserie expose, soutient la création et participe à la formation des futurs lissiers.
+  en: >-
+    In Aubusson and Felletin, in the Creuse, tapestries have been woven for more than five centuries. Their origin is still debated: perhaps a Flemish influence, perhaps a conversion of the local cloth industry. What makes the area unique is that it still holds the whole chain: spinning mills, dyers, manufactures, workshops, cartoon makers and restorers, who share their knowledge every day.
+    The weaver works seated at a horizontal low-warp loom, following a cartoon placed under the threads. The work is woven from the back, strip by strip, feeling the tension of each thread. In the 20th century, artists renewed tapestry by drawing cartoons designed for weaving. Today a tapestry may copy an old work or interpret a contemporary design. The craft takes years to learn; in Aubusson, the international tapestry centre shows tapestries, supports new work and helps train future weavers.
+unesco:
+  fr: >-
+    La tapisserie d'Aubusson est inscrite depuis 2009 sur la Liste représentative du patrimoine culturel immatériel de l'humanité, à la suite d'un dossier présenté par la France seule. L'inscription porte sur le savoir-faire pratiqué à Aubusson, Felletin et dans d'autres communes de la Creuse, du carton dessiné par un artiste au tissage à la main. Elle reconnaît une pratique vivante plutôt que des objets de musée, et engage à assurer la transmission du métier, notamment en suscitant l'intérêt des jeunes pour cet artisanat lent et coûteux.
+  en: >-
+    Aubusson tapestry has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2009, following a file submitted by France alone. The inscription covers the skills practised in Aubusson, Felletin and other towns of the Creuse, from the cartoon drawn by an artist to weaving by hand. It recognises a living practice rather than museum objects, and commits to securing the passing on of the craft, notably by interesting young people in this slow and costly work.
+activity:
+  title_fr: Tisser d'après un carton
+  title_en: Weaving from a cartoon
+  fr: >-
+    Par deux, un élève dessine un motif simple aux couleurs franches sur une feuille quadrillée : c'est le carton. L'autre fend une feuille de papier en lanières verticales (la chaîne) et tisse dedans des bandes de papier de couleur (la trame) pour reproduire le motif, en le retournant comme un lissier qui travaille sur l'envers. Échangez les rôles, puis comparez le carton et le tissage : qu'a-t-il fallu interpréter, simplifier ou décider seul ?
+  en: >-
+    In pairs, one student draws a simple, boldly coloured pattern on squared paper: this is the cartoon. The other cuts a sheet of paper into vertical strips (the warp) and weaves coloured paper strips through it (the weft) to reproduce the pattern, flipping it like a weaver working from the back. Swap roles, then compare cartoon and weaving: what had to be interpreted, simplified or decided alone?
+  levels: [primary, middle]
+lang_review: draft
+review_status: unreviewed
