@@ -1,9 +1,11 @@
-// Printable bilingual mediation sheet (M6): French and English side by side on one A4 page.
+// Printable bilingual mediation sheet (M6): French and English side by side.
+// Standard sheets fit one A4 page; extended sheets (elements inscribed by UNESCO) add
+// context, UNESCO and activity sections and may run to a second page.
 import { h, type Child } from "./dom";
 import { STRINGS, THEME_LABELS, describeRule, formatDay } from "./i18n";
 import type { Item } from "./model";
 import type { Lang } from "./state";
-import type { Element, MediationSheet, Picture } from "./types";
+import type { MediationSheet, Picture } from "./types";
 
 const both = (pick: (lang: Lang) => string) => `${pick("fr")} · ${pick("en")}`;
 
@@ -28,8 +30,9 @@ function picture(p: Picture | null, base: string): HTMLElement | null {
   );
 }
 
-function when(element: Element, item: Item): HTMLElement | null {
-  if (element.kind !== "event" || !element.recurrence) return null;
+function when(item: Item): HTMLElement | null {
+  const element = item.element;
+  if (!element || element.kind !== "event" || !element.recurrence) return null;
   const rule = (lang: Lang) => describeRule(element.recurrence!, lang);
   const line = (lang: Lang) => [
     h("p", {}, rule(lang)),
@@ -38,6 +41,8 @@ function when(element: Element, item: Item): HTMLElement | null {
   return h("div", { class: "sheet-when" }, h("h2", {}, both((l) => STRINGS[l].when)), columns(line("fr"), line("en")));
 }
 
+const paragraphs = (text: string) => text.split(/\n\s*\n/).map((t) => h("p", {}, t));
+
 export function renderSheet(
   item: Item,
   sheet: MediationSheet,
@@ -45,14 +50,25 @@ export function renderSheet(
   base: string,
   onBack: () => void,
 ): HTMLElement {
-  const element = item.element!;
+  const { entry, element } = item;
   const { fr, en } = STRINGS;
   const s = STRINGS[ui];
+  const extended = Boolean(sheet.context);
   const draft = sheet.review_status !== "reviewed" || sheet.lang_review !== "reviewed";
-  const kind = (l: Lang) => (element.kind === "event" ? STRINGS[l].event : STRINGS[l].practice);
+  const kind = element?.kind ?? entry.kind ?? null;
+  const kindLabel = (l: Lang) => (kind === "event" ? STRINGS[l].event : kind === "practice" ? STRINGS[l].practice : "");
+  const theme = entry.themes[0];
+  const summary = element?.summary ?? entry.summary;
+  const places = element?.locations ?? entry.locations;
+  const meta = [
+    kind ? both(kindLabel) : null,
+    `${THEME_LABELS.fr[theme]} · ${THEME_LABELS.en[theme]}`,
+    `${both((l) => STRINGS[l].yearIncluded)} ${entry.year_included}`,
+  ].filter(Boolean);
+  const ficheUrl = element?.source.fiche_url ?? entry.fiche_url;
   return h(
     "article",
-    { class: "sheet", "aria-labelledby": "sheet-title" },
+    { class: `sheet${extended ? " extended" : ""}`, "aria-labelledby": "sheet-title" },
     h(
       "div",
       { class: "sheet-tools" },
@@ -63,24 +79,40 @@ export function renderSheet(
       "header",
       { class: "sheet-head" },
       h("p", { class: "sheet-kicker" }, `${both((l) => STRINGS[l].sheetKicker)} — ${both((l) => STRINGS[l].appTitle)}`),
-      h("h1", { id: "sheet-title", lang: "fr", tabindex: "-1" }, element.title_fr),
-      h(
-        "p",
-        { class: "sheet-meta" },
-        `${both(kind)} — ${THEME_LABELS.fr[element.theme]} · ${THEME_LABELS.en[element.theme]} — ${both((l) => STRINGS[l].yearIncluded)} ${element.year_included}`,
-      ),
+      h("h1", { id: "sheet-title", lang: "fr", tabindex: "-1" }, entry.title_fr),
+      h("p", { class: "sheet-meta" }, meta.join(" — ")),
+      entry.unesco
+        ? h(
+            "p",
+            { class: "sheet-unesco-line" },
+            h("span", { class: "unesco-tag" }, "UNESCO"),
+            ` ${both((l) => STRINGS[l].unescoLine(STRINGS[l].unescoLists[entry.unesco!.list], entry.unesco!.year))}`,
+          )
+        : null,
     ),
     draft ? h("p", { class: "sheet-draft" }, both((l) => STRINGS[l].sheetDraft)) : null,
-    picture(item.entry.image, base),
-    h(
-      "div",
-      { class: "sheet-where" },
-      h("h2", {}, both((l) => STRINGS[l].where)),
-      h("p", {}, element.locations.map((l) => l.label).join(" · ")),
-    ),
-    when(element, item),
-    h("h2", {}, both((l) => STRINGS[l].sheetOverview)),
-    columns(h("p", {}, element.summary.fr), h("p", {}, element.summary.en)),
+    picture(entry.image, base),
+    places.length
+      ? h(
+          "div",
+          { class: "sheet-where" },
+          h("h2", {}, both((l) => STRINGS[l].where)),
+          h("p", {}, [...new Set(places.map((l) => l.label))].join(" · ")),
+        )
+      : null,
+    when(item),
+    summary ? [h("h2", {}, both((l) => STRINGS[l].sheetOverview)), columns(h("p", {}, summary.fr), h("p", {}, summary.en))] : null,
+    sheet.context
+      ? [h("h2", {}, both((l) => STRINGS[l].sheetContext)), columns(paragraphs(sheet.context.fr), paragraphs(sheet.context.en))]
+      : null,
+    sheet.unesco
+      ? h(
+          "section",
+          { class: "sheet-unesco" },
+          h("h2", {}, both((l) => STRINGS[l].sheetUnesco)),
+          columns(paragraphs(sheet.unesco.fr), paragraphs(sheet.unesco.en)),
+        )
+      : null,
     h("h2", {}, both((l) => STRINGS[l].sheetQuestions)),
     columns(
       h("ol", {}, sheet.questions.fr.map((q) => h("li", {}, q))),
@@ -104,12 +136,29 @@ export function renderSheet(
         ),
       ),
     ),
+    sheet.activity
+      ? h(
+          "section",
+          { class: "sheet-activity" },
+          h("h2", {}, both((l) => STRINGS[l].sheetActivity)),
+          h(
+            "p",
+            { class: "sheet-levels" },
+            both((l) => sheet.activity!.levels.map((v) => STRINGS[l].levels[v]).join(", ")),
+          ),
+          columns(
+            [h("h3", {}, sheet.activity.title_fr), h("p", {}, sheet.activity.fr)],
+            [h("h3", {}, sheet.activity.title_en), h("p", {}, sheet.activity.en)],
+          ),
+        )
+      : null,
     h(
       "footer",
       { class: "sheet-foot" },
-      h("p", {}, `${both((l) => STRINGS[l].sheetSource)} : `, h("a", { href: element.source.fiche_url }, element.source.fiche_url)),
+      ficheUrl ? h("p", {}, `${both((l) => STRINGS[l].sheetSource)} : `, h("a", { href: ficheUrl }, ficheUrl)) : null,
+      entry.unesco ? h("p", {}, "UNESCO : ", h("a", { href: entry.unesco.url }, entry.unesco.url)) : null,
       columns(h("p", {}, fr.sheetMadeBy), h("p", {}, en.sheetMadeBy)),
-      element.kind === "event" ? columns(h("p", {}, fr.disclaimer), h("p", {}, en.disclaimer)) : null,
+      kind === "event" && element ? columns(h("p", {}, fr.disclaimer), h("p", {}, en.disclaimer)) : null,
     ),
   );
 }

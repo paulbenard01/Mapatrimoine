@@ -1,0 +1,72 @@
+id: 2010_67717_INV_PCI_FRANCE_00107
+audience: general
+questions:
+  fr:
+    - Observez un vieux mur en pierre sèche, sans aucun mortier. Comment les pierres tiennent-elles ensemble, et pourquoi l'eau passe-t-elle à travers sans le faire tomber ?
+    - Pourquoi, selon vous, le maçon cherche-t-il d'abord à utiliser les pierres trouvées sur place plutôt que d'en faire venir d'une carrière ?
+    - Ce savoir-faire s'apprenait surtout en regardant faire un maître ; aujourd'hui il existe aussi des chantiers-écoles et un diplôme. Qu'est-ce que chacune de ces façons d'apprendre apporte ?
+    - L'UNESCO a reconnu un savoir-faire partagé par treize pays d'Europe plutôt que des murs ou des cabanes célèbres. Que nous dit ce choix sur ce qu'est le patrimoine immatériel ?
+    - Quels murs, chemins ou cabanes de pierre connaissez-vous près de chez vous, et qui les a construits ou les entretient ?
+  en:
+    - Look at an old dry stone wall with no mortar at all. How do the stones hold together, and why can water run through without bringing it down?
+    - Why do you think the mason first tries to use stones found on site rather than bringing them in from a quarry?
+    - This skill was mostly learnt by watching a master at work; today there are also training sites and a qualification. What does each way of learning bring?
+    - UNESCO has recognised a skill shared by thirteen European countries rather than famous walls or huts. What does this choice tell us about what intangible heritage is?
+    - Which stone walls, paths or huts do you know near your home, and who built them or looks after them?
+vocabulary:
+  - fr: pierre sèche
+    en: dry stone
+    def_fr: Technique qui consiste à bâtir en assemblant des pierres sans mortier ni ciment, en les calant les unes contre les autres.
+    def_en: Building technique in which stones are fitted and wedged against each other with no mortar or cement.
+  - fr: mur de soutènement
+    en: retaining wall
+    def_fr: Mur qui retient la terre d'une pente, par exemple pour créer une terrasse cultivable ou soutenir le bord d'une route.
+    def_en: Wall that holds back the earth of a slope, for instance to create a terrace for farming or to support the edge of a road.
+  - fr: calade
+    en: calade (stone paving)
+    def_fr: Sol ou chemin pavé de pierres posées de chant, sans mortier, typique des villages et des rues en pente de Provence.
+    def_en: Ground or path paved with stones set on edge without mortar, typical of villages and sloping streets in Provence.
+  - fr: gabarit
+    en: batter frame
+    def_fr: Cadre en bois qui sert à tendre un cordeau pour aligner les pierres et donner la bonne pente.
+    def_en: Wooden frame used to stretch a line that keeps the stones aligned and gives the right slope.
+  - fr: parement
+    en: face
+    def_fr: Face visible du mur, faite des pierres les mieux choisies et alignées le long du cordeau.
+    def_en: The visible side of the wall, made of the best-chosen stones aligned along the line.
+  - fr: bourrage
+    en: hearting
+    def_fr: Petites pierres glissées dans les vides à l'arrière du parement, pour bloquer les grosses pierres et laisser l'eau s'écouler.
+    def_en: Small stones packed into the gaps behind the face, to lock the larger stones in place and let water drain away.
+  - fr: couronnement
+    en: coping
+    def_fr: Rangée de pierres qui termine le haut du mur, le met de niveau, lie l'ensemble et le protège des dégradations.
+    def_en: Row of stones that finishes the top of the wall, levels it, ties it together and protects it from damage.
+  - fr: chantier-école
+    en: training worksite
+    def_fr: Chantier réel où des débutants apprennent les gestes du métier aux côtés de professionnels ou de paysans expérimentés.
+    def_en: Real worksite where beginners learn the craft's gestures alongside experienced professionals or farmers.
+context:
+  fr: >-
+    Bâtir en pierre sèche, c'est assembler des pierres sans aucun liant, en les choisissant et en les calant de façon que l'ouvrage tienne par son seul poids. Dans le Vaucluse et les départements voisins, des maçons spécialisés construisent et restaurent ainsi des murs de soutènement pour les terrasses et les routes, des cabanes agricoles et des calades. Le chantier suit des étapes précises : étudier le terrain, préparer l'assise, récupérer les pierres sur place quand c'est possible, tendre un cordeau sur un gabarit en bois, poser et caler les pierres couche par couche, garnir les vides, puis couronner le mur. Ces murs souples suivent les mouvements du sol et laissent passer l'eau.
+
+    La technique remonte à des temps très anciens et s'est beaucoup développée au Moyen Âge avec l'aménagement de terrasses agricoles. Les outils d'extraction et de transport ont changé, mais la pose des pierres presque pas. Le métier connaît un nouvel essor, porté par la restauration des villages, le souci de durabilité et des formations reconnues depuis 2010.
+  en: >-
+    Building in dry stone means assembling stones without any binder, choosing and wedging them so that the structure holds by its own weight. In Vaucluse and neighbouring departments, specialist masons build and restore retaining walls for terraces and roads, farm huts and cobbled paths in this way. The work follows precise steps: study the ground, prepare the base, gather stones on site where possible, stretch a line from a wooden frame, lay and wedge the stones course by course, fill the gaps, then cap the wall. These flexible walls follow the movements of the ground and let water through.
+
+    The technique goes back to very ancient times and spread widely in the Middle Ages as farm terraces were built. Quarrying and transport tools have changed, but the laying of stones has hardly changed at all. The trade is enjoying a revival, driven by the restoration of villages, concern for sustainability and recognised training courses since 2010.
+unesco:
+  fr: >-
+    La France fait partie depuis 2018 du dossier sur l'art de la construction en pierre sèche, inscrit sur la Liste représentative du patrimoine culturel immatériel de l'humanité. Élargi en 2024, ce dossier multinational réunit aujourd'hui treize États européens, dont l'Espagne, l'Italie, la Grèce, la Suisse et l'Irlande. L'inscription ne classe pas des murs comme des monuments : elle reconnaît un savoir-faire vivant, transmis par la pratique, et engage les communautés et les États à le sauvegarder, notamment en formant de nouveaux bâtisseurs.
+  en: >-
+    Since 2018 France has been part of the file on the art of dry stone construction, inscribed on the Representative List of the Intangible Cultural Heritage of Humanity. Widened in 2024, this multinational file now brings together thirteen European States, including Spain, Italy, Greece, Switzerland and Ireland. The inscription does not list walls as monuments: it recognises a living skill passed on through practice, and commits communities and States to safeguarding it, notably by training new builders.
+activity:
+  title_fr: Dessiner un mur en coupe
+  title_en: Draw a wall in cross-section
+  fr: >-
+    Montrez une photo de mur en pierre sèche, ou observez-en un près de l'école. Chaque élève dessine ensuite le mur vu en coupe, comme s'il était tranché, et y place les mots du vocabulaire : assise, parement, bourrage, couronnement, terre retenue. Avec des flèches bleues, il montre le chemin de l'eau de pluie. Comparez enfin avec la coupe d'un mur en béton : lequel laisse passer l'eau, lequel peut se réparer pierre par pierre, lequel abrite plantes et petits animaux ?
+  en: >-
+    Show a photo of a dry stone wall, or look at one near the school. Each pupil then draws the wall in cross-section, as if it had been sliced through, and labels it with the vocabulary words: base, face, hearting, coping, retained earth. With blue arrows, they show the path of rainwater. Finally, compare with a cross-section of a concrete wall: which one lets water through, which one can be repaired stone by stone, which one shelters plants and small animals?
+  levels: [primary, middle, high]
+lang_review: draft
+review_status: unreviewed

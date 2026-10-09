@@ -1,0 +1,68 @@
+id: 2008_67717_INV_PCI_FRANCE_00037
+audience: general
+questions:
+  fr:
+    - "Les aides du cavalier sont si discrètes qu'un spectateur les remarque à peine : comment le cheval peut-il comprendre des signaux presque invisibles ?"
+    - "On dit qu'ici les élèves sont à la fois des cavaliers et des chevaux, et qu'un cheval expérimenté aide un jeune cavalier : que signifie apprendre d'un animal ?"
+    - "Cette équitation recherche la légèreté et la coopération plutôt que la contrainte : comment cette idée a-t-elle évolué avec notre regard actuel sur le bien-être animal ?"
+    - "Le cheval ne sert presque plus à se déplacer ni à faire la guerre : qu'est-ce qui fait qu'une pratique née à la cour et dans l'armée continue de se transmettre ?"
+    - "Avez-vous déjà appris un geste qu'aucun livre ne pouvait vraiment expliquer, seulement une personne à vos côtés ? Lequel ?"
+  en:
+    - "The rider's aids are so discreet that an onlooker barely notices them; how can the horse understand almost invisible signals?"
+    - "Here, pupils are said to be both riders and horses, and an experienced horse helps a young rider; what does it mean to learn from an animal?"
+    - "This horsemanship seeks lightness and cooperation rather than constraint; how has this idea changed with today's concern for animal welfare?"
+    - "Horses are hardly used for travel or war any more; why does a practice born at court and in the army keep being passed on?"
+    - "Have you ever learnt a movement that no book could really explain, only a person at your side? Which one?"
+vocabulary:
+  - fr: écuyer
+    en: riding master
+    def_fr: "Cavalier de haut niveau qui dresse les chevaux et enseigne ; au Cadre noir, chacun poursuit aussi son propre perfectionnement auprès d'un aîné."
+    def_en: "High-level rider who trains horses and teaches; in the Cadre Noir each also continues to improve alongside a more senior rider."
+  - fr: Cadre noir
+    en: Cadre Noir
+    def_fr: "Corps des écuyers de l'École nationale d'équitation de Saumur, reconnaissable à sa tenue noire ; il forme des cavaliers et présente son travail au public."
+    def_en: "Body of riding masters of the national riding school in Saumur, known by its black uniform; it trains riders and shows its work to the public."
+  - fr: légèreté
+    en: lightness
+    def_fr: "Idéal où le cheval répond à des demandes infimes et se meut avec l'aisance qu'il a en liberté."
+    def_en: "Ideal in which the horse answers the slightest request and moves with the ease it shows when free."
+  - fr: aides
+    en: aids
+    def_fr: "Signaux que le cavalier adresse au cheval par sa posture, ses mains et ses jambes ; ici, ils doivent rester aussi discrets que possible."
+    def_en: "Signals the rider gives the horse through posture, hands and legs; here they should stay as discreet as possible."
+  - fr: dressage
+    en: schooling
+    def_fr: "Éducation progressive du cheval pour qu'il exécute des mouvements précis ; il faut trois à cinq ans pour lui apprendre tous les airs."
+    def_en: "Gradual education of the horse so that it performs precise movements; teaching it all the airs takes three to five years."
+  - fr: airs relevés
+    en: airs above the ground
+    def_fr: "Figures spectaculaires où le cheval se dresse ou saute sur place, héritées de l'équitation de cour."
+    def_en: "Spectacular figures in which the horse rises or leaps on the spot, inherited from court horsemanship."
+  - fr: manège
+    en: riding hall
+    def_fr: "Grande salle couverte, au sol meuble, où l'on travaille les chevaux à l'abri ; en extérieur, on parle de carrière."
+    def_en: "Large covered hall with a soft floor where horses are worked under shelter; the outdoor equivalent is an arena."
+  - fr: carrousel
+    en: carousel
+    def_fr: "Présentation publique où plusieurs cavaliers évoluent ensemble selon des figures réglées ; celui de Saumur remonte à 1828."
+    def_en: "Public display in which several riders move together in set figures; Saumur's dates back to 1828."
+context:
+  fr: >-
+    L'équitation de tradition française cherche à obtenir du cheval des mouvements fluides et une coopération sans contrainte, grâce à des aides très discrètes et à une connaissance fine du corps et du caractère de l'animal. Longtemps liée aux usages de la cour, elle s'est maintenue après la Révolution dans l'armée et dans les manèges civils. À Saumur, dans le Maine-et-Loire, les instructeurs de l'école de cavalerie présentent leur travail au public depuis 1828 ; intégrés en 1972 à l'École nationale d'équitation, ils forment aujourd'hui le Cadre noir. La tradition se transmet surtout de l'écuyer à l'élève, et un cheval bien dressé participe lui-même à la formation des cavaliers. Concurrencée par les règlements sportifs et d'autres styles d'équitation, elle est aussi pratiquée ailleurs en France par des enseignants qui en transmettent l'esprit.
+  en: >-
+    French-tradition horsemanship seeks fluid movement and cooperation from the horse without constraint, through very discreet aids and close knowledge of the animal's body and character. Long tied to court customs, it survived after the Revolution in the army and in civilian riding schools. In Saumur, in the Maine-et-Loire, the instructors of the cavalry school have shown their work to the public since 1828; merged into the national riding school in 1972, they now form the Cadre Noir. The tradition passes mainly from riding master to pupil, and a well-schooled horse itself takes part in training riders. Challenged by sports rules and other riding styles, it is also practised elsewhere in France by teachers who pass on its spirit.
+unesco:
+  fr: >-
+    L'équitation de tradition française est inscrite depuis 2011 sur la Liste représentative du patrimoine culturel immatériel de l'humanité, dans un dossier présenté par la France seule. L'inscription concerne une manière de monter, pratiquée en France et au-delà, dont le Cadre noir de Saumur est la communauté la plus connue, avec autour de lui éleveurs, selliers, maréchaux-ferrants ou vétérinaires. Elle ne consacre pas une école comme « la meilleure » : elle reconnaît une relation vivante entre humains et chevaux et engage à la transmettre, notamment en la montrant au public.
+  en: >-
+    Equitation in the French tradition has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2011, in a file presented by France alone. The inscription concerns a way of riding practised in France and beyond, whose best-known community is the Cadre Noir of Saumur, surrounded by breeders, saddlers, farriers and vets. It does not crown one school as "the best": it recognises a living relationship between people and horses and commits to passing it on, in particular by showing it to the public.
+activity:
+  title_fr: Guider sans parler ni tirer
+  title_en: Guiding without words or pulling
+  fr: >-
+    Dans un espace dégagé, formez des paires. L'un ferme les yeux ; l'autre se place derrière lui et le guide en marchant lentement, uniquement par de légères pressions des doigts sur les épaules, sans parler ni pousser. Fixez ensemble trois signaux (avancer, tourner, s'arrêter), faites un petit parcours, puis inversez les rôles. Racontez ensuite : quels signaux étaient clairs, lesquels trop forts ? En quoi la confiance a-t-elle changé au fil de l'exercice ? Faites le lien avec la recherche de légèreté.
+  en: >-
+    In a clear space, form pairs. One closes their eyes; the other stands behind and guides them, walking slowly, only with light finger pressure on the shoulders, without speaking or pushing. Agree on three signals together (go, turn, stop), walk a short course, then swap roles. Afterwards, share: which signals were clear, which too strong? How did trust change during the exercise? Link this to the search for lightness.
+  levels: [primary, middle, high]
+lang_review: draft
+review_status: unreviewed

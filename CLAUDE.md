@@ -26,6 +26,7 @@ data/images.yaml          one picture per element: Commons file or PCI Lab fiche
 data/mediation/<id>.yaml  printable mediation sheets: 3 questions + 5 terms, FR/EN (committed, drafts)
 data/summaries.yaml       short own-words summaries (kind, FR/EN) for every non-curated element (committed, drafts)
 data/announced.yaml       search terms matching DATAtourisme listings to documented events (committed)
+data/unesco.yaml          France's UNESCO ICH inscriptions and the inventory fiches they cover (committed)
 data/geocode-cache.json   geocoding cache (committed)
 data/pilot.txt            pilot element IDs; data/fiches-manifest.json fetch/text status (committed)
 data/raw/, data/text/     downloaded PDFs, extracted text, PCI Lab crawl, gazetteer cache (ignored)
@@ -72,9 +73,10 @@ npm run screenshots   # needs `npm run preview` running; writes docs/screenshots
 
 ## Mediation sheets
 
-- `data/mediation/<id>.yaml` (schema `schema/mediation.schema.json`), only for curated elements: `audience`, `questions` {fr, en} (exactly 3 open questions each, ending with "?"), `vocabulary` (exactly 5 `{fr, en, def_fr, def_en}`, definitions at most 30 words, own words), `lang_review: draft`, `review_status: unreviewed`.
+- `data/mediation/<id>.yaml` (schema `schema/mediation.schema.json`), for any element with a summary (curated or `data/summaries.yaml`): `audience`, `questions` {fr, en} (exactly 3 open questions each, ending with "?"), `vocabulary` (exactly 5 `{fr, en, def_fr, def_en}`, definitions at most 30 words, own words), `lang_review: draft`, `review_status: unreviewed`.
+- Elements in `data/unesco.yaml` must have an **extended** sheet: 5 questions, 8 terms, plus `context` {fr, en} (history and context), `unesco` {fr, en} (what the inscription covers and means, from the UNESCO page, own words) and `activity` {title_fr, title_en, fr, en, levels: primary|middle|high|university|adult}. Only those elements may have extended sections. `pci build` enforces both.
 - Questions invite observation, comparison with the reader's own experience and reflection on transmission; never quiz trivia, never questions about named people. Keep definitions factual and consistent with the curated summary.
-- The site prints the sheet with the summary, picture, places and timing; it must fit one A4 page.
+- The site prints the sheet with the summary, picture, places and timing; standard sheets must fit one A4 page, extended ones two.
 
 ## Short summaries (M7) and review
 
@@ -86,6 +88,17 @@ npm run screenshots   # needs `npm run preview` running; writes docs/screenshots
 
 - `pci announced` matches the daily DATAtourisme events export (data.gouv.fr, Licence Ouverte 2.0, no key) to documented events: title contains one of the element's `terms` in `data/announced.yaml` and lies within `radius_km` (default 20) of its places. Exhibitions are skipped. Only title, periods, commune, first web link and publishing office are kept, never contacts or descriptions.
 - The Pages workflow runs it daily before the build; if DATAtourisme is unreachable it keeps the committed `announced.json`. The browser hides periods that have ended (`upcomingPeriods` in recurrence.ts).
+
+## UNESCO
+
+- `data/unesco.yaml`: `inscriptions` (key -> name_en, name_fr, list RL|USL|GSP, year, url on ich.unesco.org, multinational) and `elements` (inventory id -> inscription key). Match a fiche only when it clearly is (part of) the inscribed element; list doubtful cases under `uncertain` and inscriptions without a fiche under `unmatched`. Never invent a UNESCO URL.
+- The site shows a UNESCO tag in lists and cards, a box in the detail panel, a "UNESCO" filter (`?unesco=1`) and a highlighted section on the Resources page.
+
+## Site layout
+
+- Top bar: brand, search (titles and summaries, every view), FR/EN, About. Toolbar: tabs Explorer / Agenda / Ressources (`view=inventory|agenda|resources`) and compact menus (Domaines, Territoire, Autour de moi), the UNESCO toggle and the sort. The left panel holds only the count, legend and list or detail.
+- Phones: a bottom bar with Explorer (map), Rechercher (search + list), Autour de moi (`sort=distance`), Agenda and Ressources, derived from the URL state (`currentTab()` in main.ts).
+- Fonts are self-hosted with @fontsource (Bricolage Grotesque for headings, Atkinson Hyperlegible Next for text); never load fonts from a third-party CDN.
 
 ## Places and images for the rest of the inventory
 

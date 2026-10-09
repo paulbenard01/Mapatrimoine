@@ -1,0 +1,68 @@
+id: 2008_67717_INV_PCI_FRANCE_00002
+audience: general
+questions:
+  fr:
+    - "Dans la paghjella, les voix se décalent et se répondent en écho au lieu de chanter à l'unisson : quel effet ce décalage produit-il sur vous à l'écoute ?"
+    - "À Furiani, les anciens restent aux côtés des débutants pendant au moins deux ans : qu'apprend-on en chantant à côté de quelqu'un, que l'on ne trouve pas dans un livre ?"
+    - "Chaque versu emprunte ou garde ses propres tournures : faut-il protéger les différences entre villages, ou laisser les chants se mélanger ?"
+    - "Les cérémonies de la Semaine sainte attirent aujourd'hui des visiteurs : comment un chant de prière peut-il accueillir un public sans devenir un spectacle ?"
+    - "Une inscription par l'UNESCO peut-elle convaincre des jeunes de rester ou de revenir chanter dans leur village ? Qu'est-ce qui, selon vous, compte davantage ?"
+  en:
+    - "In paghjella the voices shift and answer each other like echoes instead of singing in unison; what effect does this shifting have on you as a listener?"
+    - "In Furiani, older singers stay beside beginners for at least two years; what do you learn by singing next to someone that you cannot learn from a book?"
+    - "Each versu borrows or keeps its own turns of melody; should the differences between villages be protected, or should songs be allowed to mix?"
+    - "Holy Week ceremonies now draw visitors; how can a song of prayer welcome an audience without turning into a show?"
+    - "Can a UNESCO inscription persuade young people to stay or come back to sing in their village? What do you think matters more?"
+vocabulary:
+  - fr: chantre
+    en: cantor
+    def_fr: "Chanteur chargé du chant liturgique dans une église ou une confrérie ; en Corse, ce rôle se transmet souvent dans les mêmes familles."
+    def_en: "Singer in charge of liturgical song in a church or confraternity; in Corsica the role is often handed down within the same families."
+  - fr: tuilage
+    en: overlapping
+    def_fr: "Façon dont les voix se chevauchent et se décalent autour de la ligne principale, créant des échos plutôt qu'un accord parfaitement simultané."
+    def_en: "The way the voices overlap and shift around the main line, creating echoes rather than a perfectly simultaneous chord."
+  - fr: versu composite
+    en: composite versu
+    def_fr: "Manière de chanter qui ajoute à sa propre matrice mélodique des éléments venus d'autres versi."
+    def_en: "Way of singing that adds elements from other versi to its own melodic pattern."
+  - fr: a cappella
+    en: a cappella
+    def_fr: "Chant sans aucun instrument ; la paghjella n'utilise ni accompagnement, ni diapason, ni partition."
+    def_en: "Singing with no instrument at all; paghjella uses no accompaniment, tuning fork or score."
+  - fr: presbytère
+    en: presbytery
+    def_fr: "Maison du prêtre de la paroisse ; à Furiani, celui de la confrérie sert aussi d'oratoire, avec stalles et autel."
+    def_en: "House of the parish priest; in Furiani the confraternity's presbytery also serves as an oratory, with stalls and an altar."
+  - fr: stalle
+    en: stall
+    def_fr: "Siège de bois aligné le long des murs, où les chantres prennent place pour les offices."
+    def_en: "Wooden seat set along the walls where the cantors sit for services."
+  - fr: Semaine sainte
+    en: Holy Week
+    def_fr: "Semaine qui précède Pâques, temps fort des confréries corses, avec offices chantés et processions ; c'est aussi le moment privilégié de l'apprentissage."
+    def_en: "Week before Easter, a high point for Corsican confraternities, with sung services and processions; it is also the main time for learning."
+  - fr: transmission orale
+    en: oral transmission
+    def_fr: "Passage d'un savoir de personne à personne, par l'écoute, l'imitation et la répétition, sans support écrit."
+    def_en: "Passing knowledge from person to person through listening, imitation and repetition, without anything written down."
+context:
+  fr: >-
+    Le versu dit du Nebbiu est porté par la confrérie Saint-Jean-Baptiste de Furiani, près de Bastia, en Haute-Corse. Ses chantres interprètent en paghjella un répertoire religieux en latin et en grec, surtout lors des cérémonies de la Semaine sainte. Comme ailleurs en Corse, trois voix d'hommes entrent successivement, sans instrument, et se répondent en écho. Ce versu est « composite » : il mêle à sa propre ligne mélodique des éléments empruntés à d'autres villages. L'apprentissage est oral : le prieur enseigne les chants aux débutants pendant au moins deux ans, et les anciens chantent à leurs côtés pour les faire progresser, dans le presbytère qui sert d'oratoire à la confrérie. Après des périodes d'interruption au XXe siècle, la pratique a repris ; depuis 2007, les confréries peuvent de nouveau utiliser leurs chants et rites anciens.
+  en: >-
+    The so-called Nebbiu versu is carried by the confraternity of Saint John the Baptist in Furiani, near Bastia, in Haute-Corse. Its cantors sing a religious repertoire in Latin and Greek in paghjella, above all during the Holy Week ceremonies. As elsewhere in Corsica, three male voices come in one after the other, without instruments, and answer each other like echoes. This versu is "composite": it blends elements borrowed from other villages into its own melodic line. Learning is oral: the prior teaches the songs to beginners over at least two years, and older singers sing beside them to help them improve, in the presbytery that serves as the confraternity's oratory. After periods of interruption in the 20th century the practice resumed; since 2007 confraternities may again use their old chants and rites.
+unesco:
+  fr: >-
+    Depuis 2009, le cantu in paghjella de Corse figure sur la Liste de sauvegarde urgente de l'UNESCO, à la suite d'un dossier présenté par la France. L'inscription concerne la paghjella dans son ensemble, profane et religieuse, et les communautés de chanteurs de toute l'île, dont les confréries comme celle de Furiani. Elle reconnaît une tradition orale vivante mais fragile : moins de transmission entre générations, des jeunes partis et le risque d'un chant réduit à une attraction touristique. En échange, l'État s'engage à soutenir sa sauvegarde et à rendre des rapports réguliers.
+  en: >-
+    Since 2009 Corsica's cantu in paghjella has been on UNESCO's Urgent Safeguarding List, following a file presented by France. The inscription covers paghjella as a whole, secular and religious, and the communities of singers across the island, including confraternities such as Furiani's. It recognises a living but fragile oral tradition: less transmission between generations, young people moving away and the risk of the song being reduced to a tourist attraction. In return, the State commits to supporting its safeguarding and to regular reporting.
+activity:
+  title_fr: Le jeu de la mélodie qui voyage
+  title_en: The travelling melody game
+  fr: >-
+    Un élève apprend à l'oreille une courte phrase chantée (quatre ou cinq notes, sur « la » ou sur un mot latin) et la chante à l'oreille de son voisin, qui la transmet au suivant, sans aucune écriture. Faites partir la même phrase de deux bouts de la classe : deux « villages ». Enregistrez la version d'arrivée de chaque côté et comparez-les avec l'original. Qu'est-ce qui a changé, qu'est-ce qui a résisté ? Discutez : comment naissent les versi propres à chaque village ?
+  en: >-
+    One pupil learns a short sung phrase by ear (four or five notes, on "la" or on a Latin word) and sings it into a neighbour's ear, who passes it on to the next, with nothing written down. Start the same phrase from two ends of the room: two "villages". Record the version that arrives on each side and compare them with the original. What changed, what held firm? Discuss: how do versi peculiar to each village come about?
+  levels: [primary, middle]
+lang_review: draft
+review_status: unreviewed

@@ -43,7 +43,15 @@ const inventoryOf = (e: Element): InventoryEntry => ({
   image: null,
 });
 
-const inventory: Filters = { view: "inventory", q: "", themes: [], month: null, zone: "all", radiusKm: null };
+const inventory: Filters = {
+  view: "inventory",
+  q: "",
+  themes: [],
+  month: null,
+  zone: "all",
+  radiusKm: null,
+  unesco: false,
+};
 const agenda: Filters = { ...inventory, view: "agenda" };
 const TODAY = "2026-10-08";
 
@@ -71,6 +79,13 @@ const lace: InventoryEntry = {
   locations: [{ label: "Le Puy-en-Velay", lat: 45.04, lon: 3.88, precision: "commune" }],
   location_sources: [{ kind: "pcilab", url: "https://www.pci-lab.fr/x", publisher: "PCI Lab" }],
   image: null,
+  unesco: {
+    name_en: "Example inscription",
+    name_fr: null,
+    list: "RL",
+    year: 2010,
+    url: "https://ich.unesco.org/en/RL/example",
+  },
   kind: "practice",
   summary: {
     fr: "Dentelle faite à la main avec des fuseaux de bois sur un carreau.",
@@ -141,6 +156,11 @@ describe("filters", () => {
     expect(ids(agenda).sort()).toEqual(["Carnaval en kabwet", "La Sanch", "La fête du Citron", "Les fêtes de Noël en Provence"]);
   });
 
+  test("the UNESCO filter keeps inscribed elements only", () => {
+    expect(ids({ ...inventory, unesco: true })).toEqual(["dentelle"]);
+    expect(ids({ ...agenda, unesco: true })).toEqual([]);
+  });
+
   test("search ignores case and accents", () => {
     expect(fold("Fêtes de NOËL")).toBe("fetes de noel");
     expect(ids({ ...inventory, q: "noel provence" })).toEqual(["Les fêtes de Noël en Provence"]);
@@ -148,7 +168,9 @@ describe("filters", () => {
     // Summaries are searched in both languages.
     expect(ids({ ...inventory, q: "bobbins" })).toEqual(["dentelle"]);
     expect(ids({ ...inventory, q: "fuseaux bois" })).toEqual(["dentelle"]);
-    expect(ids({ ...agenda, q: "puy dentelle" })).toHaveLength(4); // no search box in the agenda
+    // The search also narrows the agenda (the lace is a practice, so nothing is left).
+    expect(ids({ ...agenda, q: "puy dentelle" })).toEqual([]);
+    expect(ids({ ...agenda, q: "sanch" })).toHaveLength(1);
   });
 
   test("themes match any of an entry's themes", () => {

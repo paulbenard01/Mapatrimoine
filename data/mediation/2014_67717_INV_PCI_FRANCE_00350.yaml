@@ -2,33 +2,71 @@ id: 2014_67717_INV_PCI_FRANCE_00350
 audience: general
 questions:
   fr:
-    - "Pourquoi, selon vous, les géants de Douai forment-ils une famille, avec un père, une mère et trois enfants, plutôt qu'un personnage isolé ?"
+    - Pourquoi, selon vous, les géants de Douai forment-ils une famille, avec un père, une mère et trois enfants, plutôt qu'un personnage isolé ?
+    - "Les tout-petits sont soulevés pour embrasser Binbin, et la photo devient « leur premier Gayant » : à quoi sert ce genre de rituel dans la vie d'une ville ?"
     - "On devient porteur de Gayant surtout par lien de parenté, après avoir commencé comme quêteur : que gagne et que risque une tradition transmise de cette façon ?"
-    - "Quel personnage, monument ou figure sert d'emblème à votre ville, et comment les habitants le font-ils vivre ?"
+    - Les géants ont été détruits plusieurs fois puis refaits par les habitants ; qu'est-ce que la reconnaissance de l'UNESCO ajoute, ou non, à cet attachement ?
+    - Quel personnage, monument ou figure sert d'emblème à votre ville, et comment les habitants le font-ils vivre ?
   en:
-    - "Why do you think the Douai giants form a family, with a father, a mother and three children, rather than a single figure?"
+    - Why do you think the Douai giants form a family, with a father, a mother and three children, rather than a single figure?
+    - Toddlers are lifted up to kiss Binbin, and the photo becomes "their first Gayant"; what is this kind of ritual for in the life of a town?
     - "People become Gayant carriers mostly through family ties, after starting as collectors: what does a tradition gain, and risk, when it is passed on this way?"
-    - "Which character, monument or figure is the emblem of your own town, and how do local people keep it alive?"
+    - The giants have been destroyed several times and rebuilt by local people; what does UNESCO recognition add, or not add, to this attachment?
+    - Which character, monument or figure is the emblem of your own town, and how do local people keep it alive?
 vocabulary:
   - fr: porteur
     en: carrier
-    def_fr: "Homme qui porte le géant sur ses épaules, caché sous sa jupe ; Monsieur et Madame Gayant ont chacun une équipe de six porteurs."
-    def_en: "Man who carries the giant on his shoulders, hidden under its skirt; Monsieur and Madame Gayant each have a team of six carriers."
+    def_fr: Homme qui porte le géant sur ses épaules, caché sous sa jupe ; Monsieur et Madame Gayant ont chacun une équipe de six porteurs.
+    def_en: Man who carries the giant on his shoulders, hidden under its skirt; Monsieur and Madame Gayant each have a team of six carriers.
   - fr: panier
     en: basket frame
-    def_fr: "Structure en bois et osier qui forme le bas du géant et donne sa forme à la jupe ; une ouverture permet au porteur de voir devant lui."
-    def_en: "Wood and wicker frame forming the lower part of the giant and shaping its skirt; an opening lets the carrier see ahead."
+    def_fr: Structure en bois et osier qui forme le bas du géant et donne sa forme à la jupe ; une ouverture permet au porteur de voir devant lui.
+    def_en: Wood and wicker frame forming the lower part of the giant and shaping its skirt; an opening lets the carrier see ahead.
   - fr: rigodon
     en: rigodon
-    def_fr: "Danse des géants, lancée au signal des chefs de protocole, au son des tambours ou de l'air de Gayant."
-    def_en: "The giants' dance, started at a signal from the heads of protocol, to the drums or the Gayant tune."
+    def_fr: Danse des géants, lancée au signal des chefs de protocole, au son des tambours ou de l'air de Gayant.
+    def_en: The giants' dance, started at a signal from the heads of protocol, to the drums or the Gayant tune.
   - fr: Binbin
     en: Binbin
-    def_fr: "Le plus jeune géant de la famille, un bébé qui louche ; on lui fait embrasser les tout-petits, baiser censé les protéger du strabisme."
-    def_en: "The youngest giant of the family, a cross-eyed baby; toddlers are lifted up to kiss him, which is meant to protect them from a squint."
+    def_fr: Le plus jeune géant de la famille, un bébé qui louche ; on lui fait embrasser les tout-petits, baiser censé les protéger du strabisme.
+    def_en: The youngest giant of the family, a cross-eyed baby; toddlers are lifted up to kiss him, which is meant to protect them from a squint.
   - fr: cheval-jupon
     en: hobby horse
-    def_fr: "Cheval d'osier porté par un homme qui semble le monter ; à Douai, le Sot des Canonniers fait rire par ses ruades et écarte la foule."
-    def_en: "Wicker horse worn by a man who seems to ride it; in Douai the Sot des Canonniers makes people laugh with its kicks and clears the way."
+    def_fr: Cheval d'osier porté par un homme qui semble le monter ; à Douai, le Sot des Canonniers fait rire par ses ruades et écarte la foule.
+    def_en: Wicker horse worn by a man who seems to ride it; in Douai the Sot des Canonniers makes people laugh with its kicks and clears the way.
+  - fr: quêteur
+    en: collector
+    def_fr: Membre de la Famille Gayant qui recueille les dons des habitants pendant les fêtes ; c'est par ce rôle que l'on commence avant de devenir porteur.
+    def_en: Member of the Gayant Family who collects donations from residents during the festival; it is the first role before becoming a carrier.
+  - fr: chef de lunette
+    en: lookout carrier
+    def_fr: Porteur placé à l'avant du géant, qui voit la rue par une ouverture dans la jupe et guide l'équipe.
+    def_en: Carrier placed at the front of the giant, who sees the street through an opening in the skirt and guides the team.
+  - fr: Roue de la Fortune
+    en: Wheel of Fortune
+    def_fr: Char tiré par un cheval où six personnages tournent devant une Fortune aux yeux bandés ; dernier des anciens chars du cortège.
+    def_en: Horse-drawn float on which six figures turn past a blindfolded Fortune; the last of the old floats of the procession.
+context:
+  fr: >-
+    À Douai, dans le Nord, la famille de géants Gayant sort chaque année trois jours de suite, du dimanche au mardi qui suivent le 5 juillet, au cœur de deux semaines de fête. Monsieur Gayant, chevalier de plus de huit mètres, et Madame Gayant, plus de six mètres, sont accompagnés de leurs trois enfants, Jacquot, Fillon et le petit Binbin, des tambours, d'un cheval-jupon et d'un char ancien. Ils dansent dans la cour de la mairie, défilent, visitent les quartiers et les maisons de retraite ; le dernier soir, la foule tente de les retenir dehors le plus longtemps possible.
+
+    Un géant est attesté à Douai dès 1530, sa compagne l'année suivante, et les enfants sont venus plus tard. Supprimés ou détruits plusieurs fois, par les guerres notamment, ils ont toujours été refaits. Ils sont portés par la Famille Gayant, une corporation aux règles et aux grades transmis surtout de père en fils.
+  en: >-
+    In Douai, in northern France, the Gayant family of giants comes out every year for three days in a row, from the Sunday to the Tuesday after 5 July, at the heart of two weeks of festivities. Monsieur Gayant, a knight over eight metres tall, and Madame Gayant, over six metres, are joined by their three children, Jacquot, Fillon and little Binbin, by drummers, a hobby horse and an old float. They dance in the town-hall courtyard, parade, visit the districts and care homes; on the last evening the crowd tries to keep them out in the street as long as possible.
+
+    A giant is recorded in Douai as early as 1530, his partner the following year, and the children came later. Banned or destroyed several times, not least by wars, they have always been rebuilt. They are carried by the Gayant Family, a guild whose rules and ranks are passed down mostly from father to son.
+unesco:
+  fr: >-
+    Les fêtes de Gayant font partie de l'élément « Géants et dragons processionnels de Belgique et de France », proclamé chef-d'œuvre en 2005 et inscrit en 2008 sur la Liste représentative du patrimoine culturel immatériel de l'humanité. Ce dossier commun aux deux pays réunit plusieurs villes, dont Douai, Cassel, Pézenas et Tarascon en France. L'inscription reconnaît une tradition vivante portée par les habitants, pas un musée de figures anciennes. Elle engage à la sauvegarder face à des pressions comme la transformation des centres-villes ou le tourisme, qui pourraient affaiblir son caractère populaire.
+  en: >-
+    The Gayant festival is part of the element "Processional giants and dragons in Belgium and France", proclaimed a masterpiece in 2005 and inscribed in 2008 on the Representative List of the Intangible Cultural Heritage of Humanity. This file, shared by both countries, brings together several towns, including Douai, Cassel, Pézenas and Tarascon in France. The inscription recognises a living tradition carried by residents, not a museum of old figures. It commits to safeguarding it against pressures such as changing town centres or tourism, which could weaken its popular character.
+activity:
+  title_fr: Le conseil de la Famille Gayant
+  title_en: The Gayant Family council
+  fr: >-
+    Jouez une réunion de la Famille Gayant. Une place de porteur se libère : trois candidats se présentent (le neveu d'un porteur, une jeune femme inscrite depuis longtemps sur la liste d'attente, un nouvel habitant passionné). Par petits groupes, préparez les arguments de chaque candidat et ceux des membres du conseil, puis débattez dix minutes et votez. Concluez en listant ce qu'une tradition doit garder et ce qu'elle peut changer pour rester vivante.
+  en: >-
+    Act out a meeting of the Gayant Family. A carrier's place has come free and three candidates apply (a carrier's nephew, a young woman who has been on the waiting list for years, an enthusiastic newcomer to the town). In small groups, prepare each candidate's case and the views of council members, then debate for ten minutes and vote. Finish by listing what a tradition must keep and what it can change to stay alive.
+  levels: [middle, high, adult]
 lang_review: draft
 review_status: unreviewed

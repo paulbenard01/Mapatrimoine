@@ -3,32 +3,70 @@ audience: general
 questions:
   fr:
     - "Pourquoi, selon vous, la fête se termine-t-elle sur la place principale par le rasage de l'ours, qui le rend à nouveau humain ?"
+    - "À Prats-de-Mollo, être noirci de suie par l'ours était autrefois évité et c'est aujourd'hui un honneur : comment le sens d'un même geste peut-il changer ?"
     - "Autrefois « victimes » désignées de l'ours, les femmes participent et organisent aujourd'hui la fête : comment un rituel ancien peut-il faire évoluer les rôles de chacun ?"
-    - "Quelles fêtes de votre région marquent la fin de l'hiver ou mettent en scène un animal ?"
+    - "La fête se partage désormais avec deux villages d'Andorre sur la liste de l'UNESCO : qu'est-ce que cette reconnaissance commune peut apporter à des villages de montagne ?"
+    - Quelles fêtes de votre région marquent la fin de l'hiver ou mettent en scène un animal ?
   en:
-    - "Why do you think the festival ends in the main square with the shaving of the bear, which makes him human again?"
+    - Why do you think the festival ends in the main square with the shaving of the bear, which makes him human again?
+    - In Prats-de-Mollo, being blackened with soot by the bear used to be avoided and is now an honour; how can the meaning of the same gesture change?
     - "Once the bear's chosen “victims”, women now take part in and organise the festival: how can an old ritual change the roles people play?"
-    - "Which festivals in your own region mark the end of winter or feature an animal?"
+    - The festival now shares its UNESCO listing with two villages in Andorra; what can this joint recognition bring to mountain villages?
+    - Which festivals in your own region mark the end of winter or feature an animal?
 vocabulary:
   - fr: ours
     en: bear
-    def_fr: "Personnage central : un homme vêtu de peaux de mouton, le corps et le visage noircis d'huile et de suie, qui descend de la montagne et sème le désordre."
-    def_en: "The central character: a man dressed in sheepskins, his body and face blackened with oil and soot, who comes down from the mountain and causes chaos."
+    def_fr: "Personnage central : un jeune homme vêtu de peaux de mouton, le corps et le visage noircis d'huile et de suie, qui descend de la montagne et sème le désordre."
+    def_en: "The central character: a young man dressed in sheepskins, his body and face blackened with oil and soot, who comes down from the mountain and causes chaos."
   - fr: chasseur
     en: hunter
-    def_fr: "Personnage qui poursuit l'ours dans les rues en tirant des coups de fusil, sans cesse déjoué, jusqu'à sa capture."
-    def_en: "Character who chases the bear through the streets firing shots, outwitted again and again until the bear is caught."
+    def_fr: Personnage qui poursuit l'ours dans les rues en tirant à blanc ; à Prats-de-Mollo, les chasseurs sont devenus ses assistants et veillent à la sécurité.
+    def_en: Character who chases the bear through the streets firing blanks; in Prats-de-Mollo the hunters have become his helpers and look after safety.
   - fr: barbier
     en: barber
-    def_fr: "Personnage chargé du rasage final de l'ours, geste qui le dépouille de son animalité et le fait revenir dans la communauté."
-    def_en: "Character in charge of the bear's final shave, the act that strips away his animal nature and brings him back into the community."
+    def_fr: Personnage chargé du rasage final de l'ours, geste qui le dépouille de son animalité et le fait revenir dans la communauté.
+    def_en: Character in charge of the bear's final shave, the act that strips away his animal nature and brings him back into the community.
   - fr: mâchurage
     en: mâchurage
-    def_fr: "Fait de noircir de suie le visage des spectateurs, surtout à Prats-de-Mollo ; être mâchuré est aujourd'hui vécu comme un honneur."
-    def_en: "Smearing spectators' faces with soot, especially in Prats-de-Mollo; being blackened is now seen as an honour."
+    def_fr: Fait de noircir de suie le visage des spectateurs, surtout à Prats-de-Mollo ; être mâchuré est aujourd'hui vécu comme un honneur.
+    def_en: Smearing spectators' faces with soot, especially in Prats-de-Mollo; being blackened is now seen as an honour.
   - fr: cobla
     en: cobla
-    def_fr: "Orchestre catalan traditionnel d'une dizaine de musiciens, qui joue les airs de l'ours et les sardanes dansées par les habitants."
-    def_en: "Traditional Catalan band of about ten musicians, playing the bear tunes and the sardanes danced by local people."
+    def_fr: Orchestre catalan traditionnel d'une dizaine de musiciens, qui joue les airs de l'ours et les sardanes dansées par les habitants.
+    def_en: Traditional Catalan band of about ten musicians, playing the bear tunes and the sardanes danced by local people.
+  - fr: Trappeur et Roseta
+    en: Trapper and Roseta
+    def_fr: À Arles-sur-Tech, chef des chasseurs et son épouse (jouée par un homme) ; ils capturent l'ours, récitent son histoire en catalan et le rasent.
+    def_en: In Arles-sur-Tech, the chief hunter and his wife (played by a man); they capture the bear, tell his story in Catalan and shave him.
+  - fr: patte de l'ours
+    en: bear's paw
+    def_fr: Coffret contenant une patte d'ours que les maires des trois communes se transmettent chaque hiver pour ouvrir la fête suivante.
+    def_en: Box holding a bear's paw that the mayors of the three towns hand on to one another each winter to open the next festival.
+  - fr: Chandeleur
+    en: Candlemas
+    def_fr: Fête du 2 février, date ancienne des fêtes de l'ours ; selon une croyance répandue, l'ours sortait ce jour-là de son hibernation.
+    def_en: Feast on 2 February, the old date of the bear festivals; a widespread belief held that bears came out of hibernation that day.
+context:
+  fr: >-
+    Dans le Haut-Vallespir (Pyrénées-Orientales), trois communes de culture catalane, Arles-sur-Tech, Prats-de-Mollo-la-Preste et Saint-Laurent-de-Cerdans, organisent chaque fin d'hiver une « chasse à l'ours ». Des jeunes hommes déguisés en ours descendent des hauteurs, courent dans les rues, attrapent les habitants et surtout les jeunes filles, poursuivis par des chasseurs. Après des scènes de capture et de fuite rejouées de place en place, l'ours est rasé sur la place principale et redevient homme. Chaque village a ses variantes.
+
+    Autrefois fixées à la Chandeleur, ces fêtes anciennes ont lieu aujourd'hui des dimanches de février. Méprisé dans les années 1960, le rôle de l'ours est devenu très recherché, la fête attire des milliers de visiteurs, la sécurité est mieux encadrée et les femmes y prennent une place croissante.
+  en: >-
+    In the Haut-Vallespir (Pyrénées-Orientales), three Catalan-speaking towns, Arles-sur-Tech, Prats-de-Mollo-la-Preste and Saint-Laurent-de-Cerdans, hold a "bear hunt" at the end of every winter. Young men dressed as bears come down from the heights, run through the streets and grab residents, above all young women, while hunters chase them. After scenes of capture and escape replayed from square to square, the bear is shaved in the main square and becomes a man again. Each town has its own version.
+
+    Once held on Candlemas, these old festivals now take place on Sundays in February. Looked down on in the 1960s, the bear's role has become highly sought after, the festivals draw thousands of visitors, safety is better organised and women play a growing part.
+unesco:
+  fr: >-
+    Les fêtes de l'Ours dans les Pyrénées sont inscrites depuis 2022 sur la Liste représentative du patrimoine culturel immatériel de l'humanité. Le dossier est commun à la France et à l'Andorre : il réunit cinq villages de culture catalane, les trois du Haut-Vallespir et deux villages andorrans. L'inscription reconnaît une pratique vivante, transmise par les familles, les associations et les écoles, et non un spectacle figé. Les deux pays et les communautés s'engagent à la sauvegarder, par exemple en documentant les fêtes et en encourageant la participation des jeunes.
+  en: >-
+    The Bear festivities in the Pyrenees have been on the Representative List of the Intangible Cultural Heritage of Humanity since 2022. The file is shared by France and Andorra: it brings together five Catalan-speaking villages, the three in the Haut-Vallespir and two in Andorra. The inscription recognises a living practice, passed on through families, associations and schools, not a fixed show. Both countries and the communities commit to safeguarding it, for instance by documenting the festivals and encouraging young people to take part.
+activity:
+  title_fr: Raconter la chasse en bande dessinée
+  title_en: Tell the hunt as a comic strip
+  fr: >-
+    Par groupes de trois, imaginez une bande dessinée de six cases qui raconte la fête de l'ours dans l'ordre : l'ours se prépare, descend de la montagne, poursuit la foule, est capturé, est rasé, puis tout le monde danse. Dessinez les personnages (ours, chasseurs, barbiers, musiciens) et ajoutez une phrase par case. Comparez ensuite vos planches : quelles étapes avez-vous jugées les plus importantes ? Terminez en discutant de ce que la transformation de l'ours en homme peut symboliser.
+  en: >-
+    In groups of three, plan a six-panel comic strip telling the bear festival in order: the bear gets ready, comes down from the mountain, chases the crowd, is captured, is shaved, and then everyone dances. Draw the characters (bear, hunters, barbers, musicians) and add one sentence per panel. Then compare your strips: which stages did you think mattered most? Finish by discussing what the bear's transformation back into a man might stand for.
+  levels: [primary, middle]
 lang_review: draft
 review_status: unreviewed

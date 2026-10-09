@@ -3,17 +3,25 @@ audience: general
 questions:
   fr:
     - "Dans une ronde de fest-noz, chacun tient la main ou le bras de ses voisins : qu'est-ce que cette façon de danser dit du lien entre les participants ?"
+    - "Dans le kan ha diskan, deux chanteurs se relaient sans jamais laisser de silence : pourquoi la danse a-t-elle besoin de cette voix continue ?"
     - "Le fest-noz est passé des noces et des veillées paysannes aux salles des fêtes, puis aux mélanges avec le rock ou l'électro : qu'est-ce qui doit rester pour qu'il demeure un fest-noz ?"
-    - "Où, près de chez vous, des personnes de tous âges se retrouvent-elles pour danser ou chanter ensemble ?"
+    - Qu'est-ce que l'inscription par l'UNESCO peut apporter à une fête qui vit déjà sans fédération ni organisateur central, et que peut-elle changer ?
+    - Où, près de chez vous, des personnes de tous âges se retrouvent-elles pour danser ou chanter ensemble ?
   en:
     - "In a fest-noz round dance, everyone holds their neighbours by the hand or arm: what does this way of dancing say about the bond between the dancers?"
+    - "In kan ha diskan, two singers take turns without ever leaving a silence: why does the dance need this unbroken voice?"
     - "The fest-noz moved from country weddings and evening gatherings to village halls, then to blends with rock or electronic music: what must remain for it still to be a fest-noz?"
-    - "Where, near you, do people of all ages get together to dance or sing?"
+    - What can a UNESCO inscription bring to a festivity that already thrives with no federation or central organiser, and what might it change?
+    - Where, near you, do people of all ages get together to dance or sing?
 vocabulary:
   - fr: kan ha diskan
     en: kan ha diskan
     def_fr: "Chant à danser en breton, a cappella : deux chanteurs se répondent, chacun reprenant la fin de la phrase de l'autre pour ne jamais laisser de silence."
     def_en: "Unaccompanied dance singing in Breton: two singers answer each other, each picking up the end of the other's line so the song never stops."
+  - fr: tuilage
+    en: overlapping
+    def_fr: Technique du kan ha diskan où le second chanteur entre sur les dernières syllabes du premier, comme des tuiles qui se chevauchent sur un toit.
+    def_en: Kan ha diskan technique in which the second singer comes in on the last syllables of the first, like tiles overlapping on a roof.
   - fr: sonneur
     en: piper
     def_fr: "Musicien qui joue d'un instrument traditionnel pour faire danser ; les sonneurs vont souvent par deux, par exemple biniou et bombarde."
@@ -26,9 +34,35 @@ vocabulary:
     en: round dance
     def_fr: "La forme de danse la plus ancienne du fest-noz : les danseurs, liés par la main ou le bras, avancent en cercle ou en chaîne."
     def_en: "The oldest form of fest-noz dance: dancers, linked by the hand or arm, move together in a circle or a chain."
+  - fr: festoù-noz
+    en: festoù-noz
+    def_fr: Pluriel breton de fest-noz ; on compte aujourd'hui des centaines de ces soirées chaque année, en ville comme à la campagne.
+    def_en: Breton plural of fest-noz; hundreds of these evenings now take place every year, in towns as well as in the countryside.
   - fr: cercle celtique
     en: Celtic circle
     def_fr: "Association bretonne qui pratique et transmet danses et costumes traditionnels ; ces cercles ont porté le renouveau culturel du XXe siècle."
     def_en: "Breton association that practises and passes on traditional dances and costumes; these circles drove the 20th-century cultural revival."
+  - fr: collectage
+    en: field collecting
+    def_fr: Enregistrement de chants, airs et danses auprès des anciens qui les pratiquent, pour les conserver dans des archives et les transmettre.
+    def_en: Recording songs, tunes and dances from the older people who perform them, so they can be kept in archives and passed on.
+context:
+  fr: >-
+    Le fest-noz (« fête de nuit » en breton) est une soirée où l'on danse ensemble les danses traditionnelles de Bretagne, au son de chanteurs ou de musiciens. Dans les campagnes, ces rassemblements accompagnaient autrefois les noces, les grands travaux agricoles, les pardons ou les veillées. Quand cette société rurale s'est transformée au XXe siècle, ils ont failli disparaître avec leurs répertoires. Au milieu du siècle, en Centre-Bretagne, des militants de la culture bretonne ont réinventé le fest-noz sous la forme d'un bal public, organisé par une association dans une salle des fêtes, avec l'aide des anciens chanteurs et musiciens. Aujourd'hui, des centaines de festoù-noz ont lieu chaque année, de quelques dizaines à plusieurs milliers de participants. On y pratique des rondes très anciennes, des danses à figures et des danses en couple ; les musiciens mêlent volontiers le répertoire au rock, au jazz ou à l'électro. On y vient pour danser, écouter, se retrouver ou parler breton, à tout âge.
+  en: >-
+    The fest-noz ("night festival" in Breton) is an evening of collective dancing to the traditional dances of Brittany, led by singers or musicians. In the countryside such gatherings once went with weddings, big farm tasks, pardons (pilgrimages) or evening get-togethers. When rural society changed in the 20th century, they almost vanished along with their repertoires. Around the middle of the century, in central Brittany, Breton culture activists reinvented the fest-noz as a public dance, run by an association in a village hall, with the help of older singers and musicians. Today hundreds of festoù-noz take place every year, with anything from a few dozen to several thousand people. Very old round dances sit alongside figure dances and couple dances, and musicians happily blend the repertoire with rock, jazz or electronic music. People come to dance, listen, meet friends or speak Breton, whatever their age.
+unesco:
+  fr: >-
+    Le fest-noz est inscrit depuis 2012 sur la Liste représentative du patrimoine culturel immatériel de l'humanité, dans un dossier présenté par la France seule. L'inscription ne désigne pas un lieu ni un groupe en particulier : elle reconnaît une pratique vivante, partagée par des milliers de danseurs, chanteurs et musiciens dans toute la Bretagne, qui sert aussi à accueillir les nouveaux habitants. Elle n'en fait pas une fête « meilleure » que d'autres ; elle engage les communautés et l'État à soutenir sa transmission, par l'immersion dans la danse comme par les archives, les cours et l'école.
+  en: >-
+    The fest-noz has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2012, in a file submitted by France alone. The inscription does not single out one place or group: it recognises a living practice shared by thousands of dancers, singers and musicians across Brittany, which also helps newcomers settle in. It does not make the fest-noz "better" than other festivities; it commits the communities and the State to support its transmission, through immersion in the dance as well as archives, classes and schools.
+activity:
+  title_fr: Apprendre une ronde en chaîne
+  title_en: Learn a chain dance
+  fr: >-
+    Poussez les tables et formez une chaîne en vous tenant par le petit doigt. Sur un air de dañs plinn ou d'an dro trouvé en ligne, apprenez un pas simple en observant et en imitant un camarade, sans explication orale, comme on apprend en fest-noz. Puis essayez de chanter vous-mêmes une phrase courte à deux voix qui se relaient, en reprenant la fin de la phrase de l'autre. Pour finir, discutez : qu'avez-vous ressenti en dansant liés aux autres ? Était-il plus facile d'apprendre en regardant ou en écoutant ?
+  en: >-
+    Push the tables aside and form a chain, holding each other by the little finger. To a dañs plinn or an dro tune found online, learn a simple step by watching and copying a classmate, without spoken explanations, the way people learn at a fest-noz. Then try to sing a short phrase yourselves with two voices taking turns, each picking up the end of the other's line. To finish, discuss: how did it feel to dance linked to others? Was it easier to learn by watching or by listening?
+  levels: [primary, middle, high, adult]
 lang_review: draft
 review_status: unreviewed

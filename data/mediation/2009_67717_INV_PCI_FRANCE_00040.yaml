@@ -3,11 +3,15 @@ audience: general
 questions:
   fr:
     - "Dans le maloya, un soliste lance le chant et un chœur lui répond : que peut exprimer ce dialogue entre une voix et un groupe ?"
+    - "Longtemps transmis dans des familles, lors de cérémonies en hommage aux ancêtres, le maloya s'enseigne aussi au conservatoire depuis 1987 : qu'est-ce que l'école peut transmettre, et que garde la famille ?"
     - "Longtemps confiné aux plantations et aux cérémonies familiales, le maloya se joue aujourd'hui sur scène et se mêle au rock ou au reggae ; qu'est-ce que ces fusions lui apportent ou lui font perdre ?"
+    - "Que change, pour une musique née de l'esclavage et longtemps tenue à l'écart, le fait d'être reconnue par l'UNESCO comme patrimoine de l'humanité ?"
     - "Quelle musique ou quelle danse raconte, selon vous, l'histoire de votre région ou de votre famille ?"
   en:
     - "In maloya, a soloist leads the song and a chorus answers: what can this dialogue between one voice and a group express?"
+    - "Long handed down within families at ceremonies honouring the ancestors, maloya has also been taught at the conservatory since 1987; what can school pass on, and what stays with the family?"
     - "Long confined to the plantations and family ceremonies, maloya is now played on stage and blended with rock or reggae; what do these fusions bring to it, or take away?"
+    - "What does it change for a music born of slavery, long kept on the margins, to be recognised by UNESCO as heritage of humanity?"
     - "Which music or dance do you feel tells the story of your own region or family?"
 vocabulary:
   - fr: roulèr
@@ -30,5 +34,35 @@ vocabulary:
     en: indentured labour
     def_fr: "Système de travail sous contrat qui a fait venir à La Réunion, surtout au XIXe siècle, des travailleurs d'Inde et d'ailleurs pour les plantations."
     def_en: "Contract-labour system that brought workers from India and elsewhere to Réunion, mainly in the 19th century, to work on the plantations."
+  - fr: tchéga
+    en: tchéga
+    def_fr: "Nom sous lequel des récits de voyageurs des XVIIe et XVIIIe siècles décrivent les danses des esclaves de l'île, ancêtres du maloya."
+    def_en: "Name under which 17th- and 18th-century travellers' accounts describe the dances of the island's slaves, forerunners of maloya."
+  - fr: bitasion
+    en: bitasion
+    def_fr: "Mot créole désignant les logements des ouvriers agricoles et des ouvriers d'usine sucrière, où le maloya a longtemps été joué à l'abri des regards."
+    def_en: "Creole word for the housing of farm workers and sugar-mill workers, where maloya was long played out of public view."
+  - fr: malogué
+    en: malogué
+    def_fr: "Mélange de maloya et de reggae, l'une des nombreuses formes métissées apparues sur scène, à côté du maloya-rock ou du maloya-jazz."
+    def_en: "Blend of maloya and reggae, one of many mixed forms that have appeared on stage, alongside maloya-rock and maloya-jazz."
+context:
+  fr: >-
+    Le maloya est la musique, le chant et la danse de La Réunion. Il est né chez les esclaves venus d'Afrique de l'Est et de Madagascar, puis s'est créolisé dans les plantations sucrières au temps de l'engagisme, au contact de travailleurs venus d'Inde. Longtemps lié aux cérémonies d'hommage aux ancêtres et joué dans les logements des ouvriers, il prend la forme d'un dialogue entre un soliste et un chœur, porté par les percussions et l'arc musical. À partir des années 1970, il gagne l'espace public ; associé aux revendications politiques des années 1960 à 1980, il devient l'expression majeure de l'identité réunionnaise. On compte aujourd'hui environ 300 groupes, souvent professionnels, qui l'ouvrent au rock, au reggae, au jazz ou à la musique indienne. Le conservatoire de La Réunion l'enseigne depuis 1987, et des écoles le font découvrir aux élèves.
+  en: >-
+    Maloya is the music, song and dance of Réunion. It was born among slaves brought from East Africa and Madagascar, then creolised on the sugar plantations in the era of indentured labour, in contact with workers from India. Long tied to ceremonies honouring the ancestors and played in workers' housing, it takes the form of a dialogue between a soloist and a chorus, driven by percussion and the musical bow. From the 1970s it moved into public space; linked to political protest from the 1960s to the 1980s, it became the leading expression of Réunion identity. Today some 300 groups, often professional, open it up to rock, reggae, jazz or Indian music. The Réunion conservatory has taught it since 1987, and schools introduce it to pupils.
+unesco:
+  fr: >-
+    Le maloya est inscrit depuis 2009 sur la Liste représentative du patrimoine culturel immatériel de l'humanité, dans un dossier présenté par la France seule. L'inscription concerne l'île de La Réunion et toute sa population, qui a fait sienne cette musique créée par les esclaves des plantations. Elle reconnaît une expression vivante, qui change sans cesse, et non un répertoire figé. Elle souligne aussi des fragilités, comme la disparition de grands praticiens et le recul des cultes aux ancêtres, et engage à soutenir sa transmission, notamment par l'enseignement.
+  en: >-
+    Maloya has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2009, in a file presented by France alone. The inscription concerns the island of Réunion and its whole population, which has made its own this music created by plantation slaves. It recognises a living expression that keeps changing, not a fixed repertoire. It also points to weaknesses, such as the loss of leading practitioners and the decline of ancestor rites, and commits to supporting its transmission, notably through teaching.
+activity:
+  title_fr: Écrire un chant à répondre
+  title_en: Writing a call-and-response song
+  fr: >-
+    Écoutez un maloya traditionnel et repérez le soliste et le chœur. Par groupes, choisissez un thème qui vous touche (le quartier, un souvenir, une injustice) et écrivez quatre courtes phrases pour le soliste et une réponse brève que le chœur répète après chacune. Ajoutez un rythme de base avec les mains, une boîte et une bouteille remplie de riz en guise de kayanm. Chaque groupe interprète son chant ; la classe entière fait le chœur. Discutez : à quoi sert la réponse du groupe ?
+  en: >-
+    Listen to a traditional maloya and pick out the soloist and the chorus. In groups, choose a theme that matters to you (your neighbourhood, a memory, an injustice) and write four short lines for the soloist and a brief answer that the chorus repeats after each. Add a basic beat with hands, a box and a bottle filled with rice as a kayanm. Each group performs its song, with the whole class as chorus. Discuss: what is the group's answer for?
+  levels: [primary, middle, high]
 lang_review: draft
 review_status: unreviewed

@@ -1,0 +1,72 @@
+id: 2009_67717_INV_PCI_FRANCE_00058
+audience: general
+questions:
+  fr:
+    - Observez une table dressée pour une fête, avec plusieurs verres, couverts et assiettes par convive. Que dit ce soin de la façon dont on accueille les invités ?
+    - Pourquoi, selon vous, parler de ce que l'on mange, des recettes et de ceux qui les ont transmises fait-il partie du repas lui-même ?
+    - Comment le repas de fête change-t-il aujourd'hui avec les cuisines du monde, les régimes particuliers ou le souci de l'environnement, tout en gardant sa structure ?
+    - L'UNESCO a reconnu une manière de partager un repas plutôt que des plats ou des chefs. Qu'est-ce que ce choix change dans la façon de voir la gastronomie ?
+    - Quel repas de fête vous a marqué, et qu'est-ce qui le rendait différent d'un repas de tous les jours ?
+  en:
+    - Look at a table laid for a celebration, with several glasses, pieces of cutlery and plates per guest. What does this care say about how guests are welcomed?
+    - Why do you think talking about what you eat, about recipes and about who handed them down is part of the meal itself?
+    - How is the festive meal changing today with food from around the world, special diets or concern for the environment, while keeping its structure?
+    - UNESCO recognised a way of sharing a meal rather than particular dishes or chefs. What does this choice change in how we see gastronomy?
+    - Which festive meal do you remember, and what made it different from an everyday meal?
+vocabulary:
+  - fr: convive
+    en: guest
+    def_fr: Personne qui partage un repas avec d'autres ; au repas gastronomique, les convives sont réunis par une occasion à célébrer ensemble.
+    def_en: Person who shares a meal with others; at a gastronomic meal, the guests are brought together by an occasion to celebrate.
+  - fr: menu
+    en: menu
+    def_fr: Liste des plats prévus pour le repas, choisie à l'avance ; pour une fête, il sort volontairement de l'ordinaire.
+    def_en: List of the dishes planned for the meal, chosen in advance; for a celebration it deliberately departs from the everyday.
+  - fr: service
+    en: course
+    def_fr: Chacune des étapes du repas, servies l'une après l'autre dans un ordre fixe, de l'entrée au dessert, en passant par le fromage.
+    def_en: Each stage of the meal, served one after the other in a set order, from the starter to dessert, by way of cheese.
+  - fr: apéritif
+    en: aperitif
+    def_fr: Moment d'accueil qui ouvre le repas, avec une boisson et de petites bouchées, avant de passer à table.
+    def_en: Welcoming moment that opens the meal, with a drink and small bites, before everyone sits down at the table.
+  - fr: accord mets et vins
+    en: food and wine pairing
+    def_fr: Choix d'un vin adapté à chaque plat, pour que les saveurs se mettent en valeur et montent en intensité au fil du repas.
+    def_en: Choosing a wine to suit each dish, so that the flavours enhance each other and grow in intensity as the meal goes on.
+  - fr: dresser la table
+    en: lay the table
+    def_fr: Disposer nappe, serviettes, assiettes, verres et couverts selon un ordre précis, souvent autour d'un décor central de fleurs ou de bougies.
+    def_en: Setting out tablecloth, napkins, plates, glasses and cutlery in a precise order, often around a centrepiece of flowers or candles.
+  - fr: terroir
+    en: terroir
+    def_fr: Territoire dont le sol, le climat et les savoir-faire des producteurs donnent à un produit un goût et une identité propres.
+    def_en: Area whose soil, climate and producers' know-how give a product its own taste and identity.
+  - fr: dégustation
+    en: tasting
+    def_fr: "Manière attentive de goûter : regarder, sentir, faire tourner le vin dans le verre, puis savourer et en parler."
+    def_en: "Attentive way of tasting: looking, smelling, swirling the wine in the glass, then savouring it and talking about it."
+context:
+  fr: >-
+    Le repas gastronomique des Français n'est pas un plat ni une recette : c'est une façon de célébrer ensemble les grands moments de la vie, naissances, mariages, anniversaires, réussites ou retrouvailles. Il réunit famille, amis, associations ou parfois tout un village, à la maison, au restaurant ou dans une salle des fêtes. Tout y prend plus de temps qu'au quotidien : on choisit le menu à l'avance, on cherche de bons produits, souvent locaux, on dresse une belle table, puis on enchaîne au moins quatre services, de l'apéritif au digestif, en accordant les vins aux plats.
+
+    Ses racines remontent aux XVIe et XVIIe siècles, quand se fixe un ordre des plats encore suivi aujourd'hui ; il mêle l'héritage paysan, les manières de la cour, l'invention du restaurant et les apports des migrations. Le contenu de l'assiette varie selon les régions et les familles, mais la structure demeure. La parole y tient une grande place : on parle de ce que l'on mange, des recettes et de ceux qui les ont transmises.
+  en: >-
+    The gastronomic meal of the French is not a dish or a recipe: it is a way of celebrating life's great moments together, such as births, weddings, birthdays, successes or reunions. It brings together family, friends, associations or sometimes a whole village, at home, in a restaurant or in a village hall. Everything takes longer than on ordinary days: the menu is chosen in advance, good and often local produce is sought out, a fine table is laid, and at least four courses follow one another, from aperitif to after-dinner drink, with wines matched to the dishes.
+
+    Its roots go back to the 16th and 17th centuries, when an order of dishes still followed today took shape; it blends peasant heritage, courtly manners, the invention of the restaurant and the contributions of migration. What is on the plate varies by region and family, but the structure remains. Talk matters a great deal: people discuss what they are eating, the recipes and those who passed them on.
+unesco:
+  fr: >-
+    Le repas gastronomique des Français est inscrit depuis 2010 sur la Liste représentative du patrimoine culturel immatériel de l'humanité ; c'est un dossier propre à la France. L'inscription ne désigne pas une cuisine « meilleure » que les autres et ne protège aucun plat : elle reconnaît une pratique sociale vivante, partagée dans tout le pays et transmise surtout en famille. Elle engage l'État et les communautés à la sauvegarder, notamment en la faisant connaître aux jeunes générations, à l'école comme à la maison.
+  en: >-
+    The gastronomic meal of the French has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2010, in a file covering France alone. The inscription does not call French cooking "better" than any other and protects no dish: it recognises a living social practice, shared across the country and mainly handed down within families. It commits the State and the communities to safeguarding it, notably by passing it on to young people, at school as well as at home.
+activity:
+  title_fr: Le menu d'une fête de famille
+  title_en: The menu of a family celebration
+  fr: >-
+    Avant la séance, chaque élève interroge un parent ou un proche sur un repas de fête dont il se souvient : l'occasion, les convives, les plats dans l'ordre, la table, ce que l'on y disait. En classe, chacun recopie ce menu sur une carte illustrée. On compare ensuite les cartes au tableau : quelles étapes reviennent partout, qu'est-ce qui varie selon les régions ou les pays d'origine des familles ? Pour finir, la classe compose ensemble le menu d'un repas de fête qui rassemblerait toutes ces traditions.
+  en: >-
+    Before the session, each pupil asks a parent or relative about a festive meal they remember: the occasion, the guests, the dishes in order, the table, what people talked about. In class, everyone copies this menu onto an illustrated card. The cards are then compared on the board: which stages appear everywhere, and what varies with the regions or countries the families come from? To finish, the class writes together the menu of a festive meal that would bring all these traditions together.
+  levels: [primary, middle]
+lang_review: draft
+review_status: unreviewed

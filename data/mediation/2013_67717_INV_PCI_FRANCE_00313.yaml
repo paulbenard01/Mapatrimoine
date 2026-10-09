@@ -2,12 +2,16 @@ id: 2013_67717_INV_PCI_FRANCE_00313
 audience: general
 questions:
   fr:
+    - Observez la préparation du tronc devant les thermes, fendu avec des coins puis cerclé de fer. Pourquoi, selon vous, ce travail se fait-il en public plutôt qu'à l'abri d'un atelier ?
     - Pourquoi, selon vous, certains rapportent-ils chez eux un morceau de bois calciné du brandon une fois le feu éteint ?
     - Comment faire vivre une fête du feu dans les petits villages de montagne qui se dépeuplent et manquent de bras ?
+    - Les fêtes du feu de la Saint-Jean sont reconnues ensemble pour l'Andorre, l'Espagne et la France. Qu'est-ce que ce dossier commun change pour une fête de petite ville comme celle de Luchon ?
     - Quels feux, lumières ou fêtes marquent le passage des saisons dans votre région ?
   en:
+    - Look at the trunk being prepared in front of the spa, split with wedges and then bound with iron hoops. Why do you think this work is done in public rather than inside a workshop?
     - Why do you think some people take home a piece of charred wood from the brandon once the fire has died down?
     - How can a fire festival be kept alive in small mountain villages that are losing their people and lack helping hands?
+    - The Saint John's fire festivals are recognised together for Andorra, Spain and France. What does this shared file change for a small-town festival like the one in Luchon?
     - Which fires, lights or festivals mark the turning of the seasons in your own region?
 vocabulary:
   - fr: brandon
@@ -18,6 +22,10 @@ vocabulary:
     en: summer solstice
     def_fr: Jour le plus long de l'année, vers le 21 juin ; les feux de la Saint-Jean, le 24 juin, en prolongent la célébration.
     def_en: The longest day of the year, around 21 June; the Saint John's fires on 24 June carry on its celebration.
+  - fr: Saint-Pierre
+    en: Saint Peter's Day
+    def_fr: Fête chrétienne du 29 juin ; à Luchon, un second brandon est allumé ce jour-là, quelques jours après celui de la Saint-Jean.
+    def_en: Christian feast on 29 June; in Luchon a second brandon is lit on that day, a few days after the Saint John's one.
   - fr: coin
     en: wedge
     def_fr: Pièce de fer qui sert à fendre le tronc, ou de bois qui garde les fentes ouvertes ; des cercles de fer évitent que le tronc n'éclate.
@@ -30,5 +38,35 @@ vocabulary:
     en: mounted guides
     def_fr: Compagnie de Luchon qui menait autrefois touristes et curistes en montagne ; elle défile le soir du brandon en faisant claquer ses fouets.
     def_en: Luchon company that once led tourists and spa visitors into the mountains; it parades on brandon night, cracking its whips.
+  - fr: claquement de fouet
+    en: whip-cracking
+    def_fr: Art des guides à cheval de faire claquer leur fouet en rythme ; chacun a sa manière propre, comme un langage personnel.
+    def_en: The mounted guides' skill of cracking their whips in rhythm; each guide has a personal style, almost a language of their own.
+  - fr: station thermale
+    en: spa town
+    def_fr: Ville dont l'activité repose sur des sources d'eau chaude utilisées pour les soins ; Luchon en est une depuis l'Antiquité romaine.
+    def_en: Town whose life centres on hot springs used for health treatments; Luchon has been one since Roman times.
+context:
+  fr: >-
+    À Bagnères-de-Luchon, petite ville thermale de Haute-Garonne proche de la frontière espagnole, la Saint-Jean se fête autour du brandon. Avant la fête, un sapin de dix à douze mètres, fourni par les forestiers, est écorcé puis fendu sur une grande partie de sa longueur par les charpentiers de la ville, sous les yeux des passants, et laissé debout pour sécher. Le soir de la fête, ses fentes sont garnies de copeaux et de paille. Un défilé remonte l'allée principale avec la fanfare, les danseurs du groupe folklorique et les guides à cheval qui font claquer leurs fouets, puis le maire et le curé allument ensemble le tronc, qui brûle près d'une heure avant de s'effondrer.
+
+    Le culte du feu au solstice est plus ancien que le christianisme, qui l'a rattaché à la Saint-Jean. Un second brandon brûle à la Saint-Pierre, et plusieurs villages voisins gardent aussi la coutume. La fête se transmet surtout en famille et par les associations locales.
+  en: >-
+    In Bagnères-de-Luchon, a small spa town in Haute-Garonne near the Spanish border, Saint John's Day is celebrated around the brandon. Ahead of the festival, a fir tree ten to twelve metres tall, supplied by the forestry service, is stripped and split along much of its length by the town's carpenters, in full view of passers-by, then left standing to dry. On the evening of the festival its splits are packed with wood shavings and straw. A parade climbs the main avenue with the brass band, the dancers of the folk group and the mounted guides cracking their whips; then the mayor and the priest light the trunk together, and it burns for about an hour before collapsing.
+
+    Fire worship at the solstice is older than Christianity, which linked it to Saint John's Day. A second brandon burns on Saint Peter's Day, and several neighbouring villages keep the custom too. The festival is passed on mainly within families and through local associations.
+unesco:
+  fr: >-
+    Depuis 2015, les fêtes du feu du solstice d'été dans les Pyrénées figurent sur la Liste représentative du patrimoine culturel immatériel de l'humanité. Le dossier est commun à l'Andorre, à l'Espagne et à la France et rassemble de nombreuses villes et villages des deux versants, dont Luchon. L'inscription ne désigne pas la plus belle fête : elle reconnaît une pratique vivante, qui renforce les liens entre habitants et se transmet d'abord en famille. Elle engage les communautés et les trois États à la sauvegarder et à rendre compte régulièrement de son état.
+  en: >-
+    Since 2015 the summer solstice fire festivals in the Pyrenees have been on the Representative List of the Intangible Cultural Heritage of Humanity. The file is shared by Andorra, Spain and France and brings together many towns and villages on both sides of the mountains, Luchon among them. The inscription does not single out the finest festival: it recognises a living practice that strengthens ties between residents and is handed down first within families. It commits the communities and the three States to safeguarding it and to reporting regularly on its condition.
+activity:
+  title_fr: Cartographier les feux de part et d'autre des Pyrénées
+  title_en: Map the fires on both sides of the Pyrenees
+  fr: >-
+    Sur une grande feuille, dessinez à main levée la chaîne des Pyrénées, la frontière, l'Andorre, la Catalogne, l'Aragon et la Haute-Garonne. Placez Luchon, puis quelques villages voisins où brûle aussi un feu de la Saint-Jean, et indiquez par des flammes de couleur les régions des trois pays où la fête existe. Discutez ensuite : pourquoi une même fête se retrouve-t-elle des deux côtés d'une frontière ? Pour finir, chaque élève écrit en trois lignes ce que serait un feu de saison dans sa propre ville.
+  en: >-
+    On a large sheet, sketch the Pyrenees, the border, Andorra, Catalonia, Aragon and Haute-Garonne. Mark Luchon, then a few neighbouring villages where a Saint John's fire also burns, and use coloured flames to show the regions of the three countries where the festival exists. Then discuss: why is the same festival found on both sides of a border? To finish, each pupil writes three lines about what a seasonal fire would look like in their own town.
+  levels: [primary, middle]
 lang_review: draft
 review_status: unreviewed

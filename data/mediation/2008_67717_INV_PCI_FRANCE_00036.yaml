@@ -1,0 +1,68 @@
+id: 2008_67717_INV_PCI_FRANCE_00036
+audience: general
+questions:
+  fr:
+    - "Pour lisser la dentelle, les dentellières utilisent une pince de homard : que nous apprend ce choix d'outil sur la façon dont un métier invente ses propres instruments ?"
+    - "Autrefois, chaque étape était confiée à une ouvrière différente ; aujourd'hui chaque dentellière les maîtrise toutes : qu'est-ce que cela change pour le métier et pour celles qui l'exercent ?"
+    - "La dentelle mécanique a presque fait disparaître le point d'Alençon, mais aucune machine ne sait l'imiter : que reste-t-il de propre à la main à l'ère des machines ?"
+    - "Une dizaine de spécialistes seulement maîtrisent ce point : l'inscription par l'UNESCO peut-elle suffire à assurer la relève, et que faudrait-il d'autre ?"
+    - "Quel savoir-faire très long à apprendre aimeriez-vous maîtriser, et combien d'années seriez-vous prêt à y consacrer ?"
+  en:
+    - "To smooth the lace, lace-makers use a lobster claw; what does this choice of tool tell us about how a craft invents its own instruments?"
+    - "Each stage used to be given to a different worker; today each lace-maker masters them all; what does this change for the craft and for those who practise it?"
+    - "Machine-made lace almost wiped out point d'Alençon, yet no machine can imitate it; what remains unique to the hand in the age of machines?"
+    - "Only about ten specialists master this stitch; can UNESCO inscription alone secure the next generation, and what else would be needed?"
+    - "Which skill that takes very long to learn would you like to master, and how many years would you be willing to give it?"
+vocabulary:
+  - fr: dentelle à l'aiguille
+    en: needle lace
+    def_fr: "Dentelle faite avec une aiguille et un seul fil, point par point, à la différence de la dentelle aux fuseaux qui croise de nombreux fils."
+    def_en: "Lace made with a needle and a single thread, stitch by stitch, unlike bobbin lace, which crosses many threads."
+  - fr: parchemin
+    en: parchment
+    def_fr: "Support de peau sur lequel le dessin est reporté puis piqué, et auquel la dentelle reste fixée pendant tout le travail."
+    def_en: "Skin support onto which the design is transferred and pricked, and to which the lace stays attached throughout the work."
+  - fr: piquage
+    en: pricking
+    def_fr: "Perforation régulière du parchemin le long du dessin, qui guide ensuite la pose des premiers fils."
+    def_en: "Regular perforation of the parchment along the design, which then guides the laying of the first threads."
+  - fr: trace
+    en: outline
+    def_fr: "Armature de fils posée sur le parchemin piqué ; elle dessine les contours du motif."
+    def_en: "Framework of threads laid on the pricked parchment; it draws the outlines of the pattern."
+  - fr: réseau
+    en: mesh ground
+    def_fr: "Fond de mailles fines et régulières, presque transparent, qui relie les motifs entre eux."
+    def_en: "Ground of fine, regular, almost transparent mesh that links the motifs together."
+  - fr: modes
+    en: fillings
+    def_fr: "Ornements variés logés à l'intérieur des motifs, aux noms imagés comme cristaux de neige ou mosaïque."
+    def_en: "Varied ornaments set inside the motifs, with picturesque names such as snow crystals or mosaic."
+  - fr: brode
+    en: raised work
+    def_fr: "Points serrés posés sur la trace pour donner du relief aux contours du motif."
+    def_en: "Close stitches laid over the outline to give relief to the edges of the motif."
+  - fr: levage
+    en: lifting
+    def_fr: "Étape où la dentelle terminée est détachée du parchemin à la lame de rasoir, en coupant les fils qui l'y retenaient."
+    def_en: "Stage in which the finished lace is freed from the parchment with a razor blade, by cutting the threads that held it."
+context:
+  fr: >-
+    Le point d'Alençon, dans l'Orne, est une dentelle à l'aiguille réalisée entièrement à la main avec un seul fil. On y pratique des travaux d'aiguille dès le XVIe siècle ; la création des manufactures royales de dentelle en 1665 en fait une production de prestige destinée aux cours européennes. Une pièce passe par une dizaine d'étapes : dessin, piquage du parchemin, trace, réseau, remplis, modes, brode, levage, éboutage, puis lissage avec une pince de homard. Il faut en moyenne sept heures pour un centimètre carré. Concurrencé par la dentelle mécanique, le savoir-faire a failli disparaître ; un atelier conservatoire national, créé en 1976 et rattaché au Mobilier national, en assure aujourd'hui la transmission. Une dizaine de dentellières en maîtrisent toutes les étapes après sept à dix ans d'apprentissage, et créent aussi des pièces contemporaines. Le musée des Beaux-Arts et de la Dentelle d'Alençon en conserve une riche collection.
+  en: >-
+    Point d'Alençon, in the Orne, is a needle lace made entirely by hand with a single thread. Needlework was practised there from the 16th century; the creation of royal lace manufactories in 1665 turned it into a prestige production for European courts. A piece goes through about ten stages: drawing, pricking the parchment, outline, mesh ground, shading, fillings, raised work, lifting, trimming, then smoothing with a lobster claw. One square centimetre takes about seven hours on average. Challenged by machine lace, the craft almost died out; a national conservatory workshop, set up in 1976 under the Mobilier national, now ensures its transmission. About ten lace-makers master every stage after seven to ten years of training, and also create contemporary pieces. Alençon's Museum of Fine Arts and Lace holds a rich collection.
+unesco:
+  fr: >-
+    Le savoir-faire de la dentelle au point d'Alençon est inscrit depuis 2010 sur la Liste représentative du patrimoine culturel immatériel de l'humanité, à la suite d'un dossier présenté par la France seule. L'inscription porte sur la technique elle-même, pratiquée à Alençon, et sur sa transmission orale et gestuelle de la dentellière expérimentée à l'apprentie. Elle ne distingue pas un objet précieux : elle reconnaît un geste vivant, encore transmis, et engage les pouvoirs publics et les praticiennes à le faire connaître et à le transmettre.
+  en: >-
+    The craftsmanship of Alençon needle lace-making has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2010, following a file presented by France alone. The inscription covers the technique itself, practised in Alençon, and its oral and hands-on transmission from experienced lace-maker to apprentice. It does not single out a precious object: it recognises a living skill that is still being passed on, and commits public bodies and practitioners to making it known and handing it down.
+activity:
+  title_fr: Sept heures par centimètre carré
+  title_en: Seven hours per square centimetre
+  fr: >-
+    Mesurez un objet familier : un mouchoir, un col, un marque-page. Calculez sa surface en centimètres carrés, puis le temps qu'il faudrait pour le réaliser en point d'Alençon, à raison de sept heures par centimètre carré. Convertissez en journées de sept heures, puis en semaines de travail. Par groupes, proposez ensuite un prix « juste » et défendez-le devant la classe. Pour finir, discutez : que paie-t-on quand on achète un objet fait main, et qui peut se l'offrir ?
+  en: >-
+    Measure a familiar object: a handkerchief, a collar, a bookmark. Work out its area in square centimetres, then how long it would take to make in point d'Alençon, at seven hours per square centimetre. Convert this into seven-hour days, then into working weeks. In groups, propose a "fair" price and defend it to the class. To finish, discuss: what are you paying for when you buy something handmade, and who can afford it?
+  levels: [middle, high]
+lang_review: draft
+review_status: unreviewed

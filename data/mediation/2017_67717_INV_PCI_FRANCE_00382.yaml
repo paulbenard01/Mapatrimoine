@@ -1,0 +1,72 @@
+id: 2017_67717_INV_PCI_FRANCE_00382
+audience: general
+questions:
+  fr:
+    - Un manège de chevaux de bois se démonte en dizaines de pièces et se range dans un espace réduit ; que nous apprend ce souci du montage et du rangement sur la vie en voyage ?
+    - Les forains apprennent leur métier en famille, dès l'enfance, sans école ; quels avantages et quelles difficultés voyez-vous dans cette transmission ?
+    - Petites fêtes de village qui disparaissent, foires écartées des centres-villes, attractions toujours plus techniques ; comment une culture itinérante peut-elle s'adapter à ces changements ?
+    - La culture foraine est inscrite par l'UNESCO avec la Belgique ; qu'est-ce que cette reconnaissance peut changer dans le regard porté sur les gens du voyage ?
+    - Quel souvenir gardez-vous d'une fête foraine, et qu'est-ce qui rend ce moment différent du reste de l'année ?
+  en:
+    - A wooden-horse carousel comes apart into dozens of pieces and packs into a small space; what does this care for assembly and packing tell us about life on the road?
+    - Showpeople learn their trade in the family, from childhood, without a school; what advantages and difficulties do you see in this way of passing it on?
+    - Village fairs are disappearing, fairs are pushed out of town centres, rides are ever more technical; how can a travelling culture adapt to these changes?
+    - Funfair culture was inscribed by UNESCO together with Belgium; what can this recognition change in how travelling people are seen?
+    - What memory do you have of a funfair, and what makes that moment different from the rest of the year?
+vocabulary:
+  - fr: forain
+    en: showman / showwoman
+    def_fr: Personne qui exploite une attraction ou un stand et voyage de fête en fête ; les forains se nomment eux-mêmes « voyageurs ».
+    def_en: Person who runs a ride or stall and travels from fair to fair; showpeople call themselves "travellers".
+  - fr: tournée
+    en: circuit
+    def_fr: Itinéraire suivi chaque année d'une fête à l'autre, souvent du printemps à l'automne ; c'est elle qui situe un forain dans sa communauté.
+    def_en: Route followed every year from one fair to the next, often from spring to autumn; it is what places a showman in the community.
+  - fr: métier
+    en: métier (ride and kit)
+    def_fr: "Chez les forains : l'attraction elle-même avec tout ce qui l'accompagne sur la route, caravane, groupe électrogène et remorques."
+    def_en: "Among showpeople: the ride itself together with everything that goes with it on the road, caravan, generator and trailers."
+  - fr: place
+    en: pitch
+    def_fr: Emplacement précis occupé dans une foire, souvent retrouvé d'année en année ; il compte parfois plus que l'attraction elle-même.
+    def_en: Exact spot taken at a fair, often the same year after year; it can matter more than the ride itself.
+  - fr: verdine
+    en: verdine (wooden wagon)
+    def_fr: Ancienne roulotte en bois des forains, remplacée peu à peu par des caravanes modernes, parfois très confortables.
+    def_en: Showpeople's old wooden wagon, gradually replaced by modern caravans, some of them very comfortable.
+  - fr: chevaux de bois
+    en: wooden horses
+    def_fr: Manège traditionnel dont chaque cheval est assemblé à partir de nombreuses pièces pour rester léger et résister aux intempéries.
+    def_en: Traditional carousel whose every horse is assembled from many pieces to stay light and withstand the weather.
+  - fr: baraque
+    en: booth
+    def_fr: Stand de loterie, de tir ou de confiserie ; les « gens de baraques » forment un des groupes du monde forain, à côté des manèges.
+    def_en: Lottery, shooting or sweet stall; the "booth people" are one of the groups within the funfair world, alongside the ride owners.
+  - fr: montage
+    en: build-up
+    def_fr: Installation d'une attraction sur la place de la fête, qui peut prendre de quelques heures à plusieurs jours pour les grands manèges.
+    def_en: Setting up a ride on the fairground, which can take from a few hours to several days for the largest rides.
+context:
+  fr: >-
+    La fête foraine réunit en plein air, pour quelques jours ou quelques semaines, des manèges, des loteries, des stands de tir et de friandises, tenus chacun par une famille indépendante. Héritière des foires médiévales, elle a lieu dans toute la France, des petites fêtes de village aux grandes foires des villes. Les forains vivent en caravane et suivent chaque année une tournée, souvent de février à novembre, en revenant aux mêmes endroits.
+
+    Cette vie itinérante a forgé une culture propre, marquée notamment par les traditions tsiganes : un vocabulaire particulier, des valeurs comme la parole donnée et l'entraide, et un savoir-faire transmis oralement des parents aux enfants. Les forains ont aussi toujours adopté les nouveautés techniques, du cinéma ambulant aux attractions à sensations. Leurs tournées évoluent avec la disparition de fêtes de village et le déplacement de foires hors des centres-villes.
+  en: >-
+    A funfair gathers rides, lotteries, shooting galleries and sweet stalls in the open air for a few days or weeks, each run by an independent family. Descended from medieval fairs, it takes place all over France, from small village fêtes to big city fairs. Showpeople live in caravans and follow a circuit every year, often from February to November, coming back to the same places.
+
+    This travelling life has shaped a culture of its own, marked in particular by Romani traditions: a special vocabulary, values such as keeping one's word and mutual help, and skills passed on orally from parents to children. Showpeople have also always taken up new technology, from travelling cinema to thrill rides. Their circuits are changing as village fêtes disappear and fairs are moved out of town centres.
+unesco:
+  fr: >-
+    La culture foraine est inscrite depuis 2024 sur la Liste représentative du patrimoine culturel immatériel de l'humanité, dans un dossier commun à la Belgique et à la France. L'inscription porte sur un mode de vie et des savoirs : voyager en famille selon une tournée, monter et entretenir les attractions, les transmettre d'une génération à l'autre, et cultiver la solidarité. Elle ne classe pas les fêtes les plus spectaculaires ; elle reconnaît une culture vivante et engage les deux pays et les forains à soutenir sa transmission.
+  en: >-
+    Funfair culture has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2024, in a file shared by Belgium and France. The inscription covers a way of life and a body of skills: travelling as a family along a circuit, building up and maintaining rides, passing them on from one generation to the next, and fostering solidarity. It does not rank the most spectacular fairs; it recognises a living culture and commits both countries and the showpeople to supporting its transmission.
+activity:
+  title_fr: Enquête de mémoire sur la fête foraine
+  title_en: A memory survey on the funfair
+  fr: >-
+    Chaque élève interroge un parent, un grand-parent ou un voisin sur ses souvenirs de fête foraine, à l'aide de cinq questions préparées en classe (où, quand, avec qui, quelle attraction, qu'est-ce qui a changé depuis). On ne note pas de nom, seulement l'âge approximatif et la ville. En classe, regroupez les réponses sur une frise par décennie et repérez les attractions qui ont disparu, celles qui durent et les émotions qui reviennent le plus souvent.
+  en: >-
+    Each pupil interviews a parent, grandparent or neighbour about their funfair memories, using five questions prepared in class (where, when, with whom, which ride, what has changed since). No names are written down, only rough age and town. Back in class, group the answers on a timeline by decade and spot which rides have disappeared, which ones last, and which feelings come up most often.
+  levels: [primary, middle, high]
+lang_review: draft
+review_status: unreviewed

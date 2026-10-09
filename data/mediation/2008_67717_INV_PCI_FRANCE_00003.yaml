@@ -1,0 +1,68 @@
+id: 2008_67717_INV_PCI_FRANCE_00003
+audience: general
+questions:
+  fr:
+    - "À Sermanu, la même paghjella se chante à la messe des morts, à la fête du saint patron et au champ de foire : comment un même chant peut-il changer de sens selon le lieu ?"
+    - "On dit que la seconda doit lancer une première note parfaite : pourquoi tout le chant dépend-il de ce premier son ?"
+    - "Après la disparition des confréries dans les années 1950, des familles de chantres ont continué à transmettre le versu : que se passe-t-il quand une tradition ne repose plus que sur quelques familles ?"
+    - "Des enregistrements anciens de Sermanu sont conservés dans un musée : un chant enregistré est-il sauvegardé, ou faut-il qu'il soit encore chanté pour rester vivant ?"
+    - "Quel chant, quelle musique ou quelle fête rattachez-vous à un lieu précis, au point de ne pas l'imaginer ailleurs ?"
+  en:
+    - "In Sermanu the same paghjella is sung at the mass for the dead, at the patron saint's feast and at the fairground; how can one song change meaning with the place?"
+    - "The seconda is said to need a perfect first note; why does the whole song depend on that first sound?"
+    - "After the confraternities disappeared in the 1950s, families of cantors kept passing on the versu; what happens when a tradition rests on only a few families?"
+    - "Old recordings from Sermanu are kept in a museum; is a recorded song safeguarded, or must it still be sung to stay alive?"
+    - "Which song, music or festival do you link to one particular place, so much that you cannot picture it anywhere else?"
+vocabulary:
+  - fr: versu entier
+    en: whole versu
+    def_fr: "Versu qui suit sa propre matrice mélodique sans emprunter à d'autres villages ; celui de Sermanu en est un exemple."
+    def_en: "Versu that follows its own melodic pattern without borrowing from other villages; Sermanu's is an example."
+  - fr: Messa di i vivi
+    en: Mass of the living
+    def_fr: "Messe ordinaire chantée en paghjella, du Kyrie à l'Agnus Dei, lors des offices et des fêtes patronales."
+    def_en: "Ordinary mass sung in paghjella, from the Kyrie to the Agnus Dei, at services and patronal feasts."
+  - fr: Messa di i morti
+    en: Mass of the dead
+    def_fr: "Messe des funérailles et des défunts, avec des chants comme le Requiem ou le Dies irae, chantée en paghjella."
+    def_en: "Mass for funerals and the departed, with chants such as the Requiem or the Dies irae, sung in paghjella."
+  - fr: fête patronale
+    en: patronal feast
+    def_fr: "Fête du saint protecteur d'un village ou d'une chapelle ; à Sermanu, saint Alexis en juillet et saint Augustin en août."
+    def_en: "Feast of the patron saint of a village or chapel; in Sermanu, Saint Alexis in July and Saint Augustine in August."
+  - fr: veillée
+    en: evening gathering
+    def_fr: "Soirée passée ensemble à la maison ou au village, où l'on chante, raconte et échange ; un lieu ancien d'apprentissage de la paghjella."
+    def_en: "Evening spent together at home or in the village, singing, telling stories and talking; a long-standing place for learning paghjella."
+  - fr: champ de foire
+    en: fairground
+    def_fr: "Lieu des grandes foires rurales où se rencontraient bergers et marchands de plusieurs vallées ; les chanteurs de micro-régions différentes s'y écoutaient et s'y mesuraient."
+    def_en: "Site of large rural fairs where shepherds and traders from several valleys met; singers from different areas listened to each other and competed there."
+  - fr: collectage
+    en: field recording
+    def_fr: "Enregistrement de chants ou de récits fait sur place, auprès de ceux qui les pratiquent, pour les étudier et les conserver."
+    def_en: "Recording of songs or stories made on the spot, with the people who practise them, so as to study and keep them."
+  - fr: imprégnation
+    en: immersion
+    def_fr: "Apprentissage sans leçon formelle, en entendant chanter autour de soi depuis l'enfance, lors des offices et des fêtes."
+    def_en: "Learning without formal lessons, by hearing singing around you from childhood, at services and festivals."
+context:
+  fr: >-
+    Sermanu est un petit village de Haute-Corse. Son versu, dit « entier » parce qu'il suit sa propre ligne mélodique, accompagne les messes des vivants et des morts, les fêtes des chapelles Saint-Alexis (17 juillet) et Saint-Augustin (28 août), les processions, les veillées et la grande foire du Niolu en septembre. Trois voix d'hommes entrent toujours dans le même ordre : la seconda, puis le bassu, puis la terza. Jusqu'aux années 1960, le chant se transmettait dans quelques familles de chantres, par imprégnation, lors des cérémonies et des fêtes ; après la disparition des confréries, de nouvelles générations se le sont réapproprié à partir des années 1970. Des collectages réalisés entre 1948 et 1970 sont conservés au musée de Corte, et des ateliers de chant traditionnel sont proposés dans la même ville.
+  en: >-
+    Sermanu is a small village in Haute-Corse. Its versu, called "whole" because it follows its own melodic line, accompanies the masses for the living and the dead, the feasts of the chapels of Saint Alexis (17 July) and Saint Augustine (28 August), processions, evening gatherings and the great Niolu fair in September. Three male voices always come in in the same order: the seconda, then the bassu, then the terza. Until the 1960s the song passed down within a few families of cantors, through immersion at ceremonies and festivals; after the confraternities disappeared, new generations took it up again from the 1970s. Field recordings made between 1948 and 1970 are kept at the museum in Corte, a town that also offers traditional singing workshops.
+unesco:
+  fr: >-
+    En 2009, l'UNESCO a inscrit le cantu in paghjella profane et liturgique de Corse sur sa Liste de sauvegarde urgente, sur proposition de la France. L'inscription vaut pour toute la Corse et pour les chanteurs qui font vivre les différents versi, comme celui de Sermanu. Elle ne classe pas un monument : elle reconnaît une pratique orale dont la vitalité recule, faute de relève suffisante, et oblige l'État à agir avec les communautés pour sa transmission. La France rend compte de ces mesures à l'UNESCO à intervalles réguliers.
+  en: >-
+    In 2009 UNESCO inscribed Corsica's secular and liturgical cantu in paghjella on its Urgent Safeguarding List, at France's proposal. The inscription applies to the whole of Corsica and to the singers who keep the different versi alive, such as Sermanu's. It does not list a monument: it recognises an oral practice whose vitality is declining for lack of enough newcomers, and requires the State to work with the communities on its transmission. France reports to UNESCO on these measures at regular intervals.
+activity:
+  title_fr: Le calendrier chanté d'un village
+  title_en: A village's singing calendar
+  fr: >-
+    Tracez au tableau une frise de l'année, de janvier à décembre. Placez-y les occasions où l'on chante la paghjella à Sermanu : Semaine sainte, fêtes de juillet et d'août, foire de septembre, funérailles (à tout moment). Puis, par deux, faites la même frise pour votre commune ou votre famille : fêtes, cérémonies, rassemblements où l'on chante encore ensemble. Comparez les deux calendriers : quelles occasions de chanter collectivement subsistent, lesquelles ont disparu ?
+  en: >-
+    Draw a timeline of the year on the board, from January to December. Place on it the occasions when paghjella is sung in Sermanu: Holy Week, the July and August feasts, the September fair, funerals (at any time). Then, in pairs, make the same timeline for your own town or family: festivals, ceremonies, gatherings where people still sing together. Compare the two calendars: which occasions for singing together survive, and which have disappeared?
+  levels: [middle, high, adult]
+lang_review: draft
+review_status: unreviewed

@@ -88,7 +88,13 @@ def main(argv: list[str] | None = None) -> int:
     try:
         elements = build()
         count = build_inventory()
-        sheets = build_mediation({e["id"] for e in elements})
+        from pci.places import load_yaml
+        from pci.summaries import SUMMARIES_PATH
+        from pci.unesco import UNESCO_PATH
+
+        summarised = {e["id"] for e in elements} | set(load_yaml(SUMMARIES_PATH))
+        inscribed = set(load_yaml(UNESCO_PATH).get("elements") or {})
+        sheets = build_mediation(summarised, unesco=inscribed)
     except (BuildError, MediationError) as exc:
         print(f"build failed:\n{exc}", file=sys.stderr)
         return 1
