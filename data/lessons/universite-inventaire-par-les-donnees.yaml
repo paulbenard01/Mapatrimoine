@@ -1,0 +1,244 @@
+id: universite-inventaire-par-les-donnees
+level: university
+title:
+  fr: "Ce que l'inventaire dit, et ce qu'il tait : séminaire de données sur le PCI en France"
+  en: "What the inventory says, and leaves out: a data seminar on French intangible heritage"
+grade:
+  fr: Licence 2-3 ou master (patrimoine, ethnologie, géographie, gestion culturelle)
+  en: Second or third-year undergraduates, or master's students (heritage, anthropology, geography, cultural management)
+duration_min: 60
+summary:
+  fr: >-
+    Un séminaire qui traite l'Inventaire national du PCI comme un objet d'étude. Les étudiants parient d'abord sur ce qu'il contient, puis testent leurs hypothèses dans un tableur avec les données ouvertes du site : domaines au fil des années depuis 2008, place de l'outre-mer, événements et pratiques, part de l'UNESCO, géographie d'une vague d'inscriptions. Ils lisent ensuite deux fiches comme des documents (Granville, 2013 ; mawlida shenge de Mayotte, 2022) et discutent patrimonialisation, porte-parole des communautés et angles morts. Ils rédigent une note de synthèse appuyée sur leurs propres chiffres.
+  en: >-
+    A seminar that treats France's national ICH inventory as an object of study. Students first bet on what it contains, then test their hypotheses in a spreadsheet using the site's open data: themes over the years since 2008, the place of the overseas territories, events and practices, the UNESCO share, the geography of one wave of entries. They then read two fiches as documents (Granville, 2013; mawlida shenge from Mayotte, 2022) and discuss heritagisation, who speaks for communities and blind spots. They write a short memo built on their own figures.
+curriculum:
+  fr: >-
+    En licence (L2-L3) ou en master de patrimoine, d'ethnologie, de géographie culturelle ou de gestion de projets culturels, la séance s'insère dans un cours de méthodologie (critique des sources, analyse de données) ou dans un enseignement sur les politiques patrimoniales : la Convention de l'UNESCO de 2003 et l'inventaire national conduit par le ministère de la Culture depuis 2008. Elle mobilise des compétences attendues à ce niveau : exploiter un jeu de données ouvert, croiser sources quantitatives et qualitatives, distinguer la donnée de son interprétation, produire un écrit argumenté et sourcé. Elle ouvre aux débats de fond de la discipline : patrimonialisation, représentativité, participation des communautés.
+  en: >-
+    In undergraduate (second or third year) or master's programmes in heritage studies, anthropology, cultural geography or cultural management, the session fits a methods course (source criticism, data analysis) or a course on heritage policy: the 2003 UNESCO Convention and the national inventory run by the French Ministry of Culture since 2008. It draws on skills expected at this level: working with an open dataset, combining quantitative and qualitative sources, separating data from interpretation, and producing a reasoned, sourced piece of writing. It opens onto core debates in the field: heritagisation, representativeness and community participation.
+objectives:
+  fr:
+    - >-
+      Formuler des hypothèses sur la représentation du PCI français et les tester avec un tableur (tableaux croisés, filtres, nuage de points).
+    - >-
+      Distinguer dans un jeu de données ce qui vient de la source officielle et ce qu'y ajoute un tiers (classement, géocodage, résumés).
+    - >-
+      Lire une fiche d'inventaire comme un document : structure, définition de la communauté, consentement, menaces, silences.
+    - >-
+      Discuter la patrimonialisation et la question de savoir qui parle au nom d'une communauté, à partir de cas précis.
+    - >-
+      Rédiger une note de synthèse qui articule un chiffre calculé, une observation de fiche et un angle mort.
+  en:
+    - >-
+      Frame hypotheses on how French ICH is represented and test them in a spreadsheet (pivot tables, filters, scatter plot).
+    - >-
+      Tell apart, within a dataset, what comes from the official source and what a third party adds (classification, geocoding, summaries).
+    - >-
+      Read an inventory fiche as a document: structure, definition of the community, consent, threats, silences.
+    - >-
+      Discuss heritagisation and the question of who speaks for a community, using specific cases.
+    - >-
+      Write a short memo combining a computed figure, an observation from a fiche and a blind spot.
+materials:
+  fr:
+    - >-
+      Un ordinateur par binôme avec un tableur (LibreOffice Calc ou équivalent) et le fichier pci-inventaire.csv, téléchargé depuis l'onglet Ressources (?view=resources), rubrique « Données ouvertes ».
+    - >-
+      PCI Map vidéoprojeté (https://paulbenard01.github.io/Mapatrimoine/) pour la mise en commun et la recherche.
+    - >-
+      Les fiches officielles, ouvertes depuis les pages des éléments : carnaval de Granville (?id=2013_67717_INV_PCI_FRANCE_00321) et mawlida shenge (?id=2022_67717_INV_PCI_FRANCE_00510).
+    - >-
+      Cinq cartes de test (importation et quatre hypothèses), deux cartes de lecture de fiche, un tableau partagé (tableau blanc ou document en ligne) pour les paris et les résultats.
+  en:
+    - >-
+      One computer per pair with a spreadsheet (LibreOffice Calc or similar) and pci-inventaire.csv, downloaded from the Resources tab (?view=resources), "Données ouvertes" (open data) section.
+    - >-
+      PCI Map on the projector (https://paulbenard01.github.io/Mapatrimoine/) for the plenary and searches.
+    - >-
+      The official fiches, opened from the element pages: the Carnival of Granville (?id=2013_67717_INV_PCI_FRANCE_00321) and the mawlida shenge (?id=2022_67717_INV_PCI_FRANCE_00510).
+    - >-
+      Five test cards (import plus four hypotheses), two fiche-reading cards, a shared board (whiteboard or online document) for bets and results.
+elements:
+  - 2013_67717_INV_PCI_FRANCE_00321
+  - 2022_67717_INV_PCI_FRANCE_00510
+  - 2012_67717_INV_PCI_FRANCE_00170
+  - 2020_67717_INV_PCI_FRANCE_00479
+  - 2025_67717_INV_PCI_FRANCE_00549
+  - 2009_67717_INV_PCI_FRANCE_00040
+  - 2018_67717_INV_PCI_FRANCE_00413
+  - 2025_67717_INV_PCI_FRANCE_00559
+steps:
+  - minutes: 7
+    title:
+      fr: "Paris avant les données"
+      en: "Bets before the data"
+    teacher:
+      fr: >-
+        Poser le cadre : « Un inventaire n'est pas un miroir, c'est une représentation produite par des acteurs, à des dates, selon une méthode. » Présenter le fichier : 543 lignes, une par élément. Distinguer les colonnes qui viennent de la source officielle (identifiant, titre, domaine, année d'inventaire, lien vers la fiche) de celles qu'ajoute PCI Map : rapprochement avec l'UNESCO, classement événement ou pratique, lieux géocodés, résumés, statut « documenté ». Puis lancer les paris : chaque étudiant écrit ses estimations sans regarder les données ; on les affiche au tableau partagé.
+      en: >-
+        Set the frame: "An inventory is not a mirror; it is a representation made by actors, at given dates, following a method." Introduce the file: 543 rows, one per element. Separate the columns that come from the official source (ID, title, domain, inventory year, link to the fiche) from those PCI Map adds: matching with UNESCO, event or practice classification, geocoded places, summaries, "documented" status. Then open the bets: each student writes down estimates without looking at the data; they go up on the shared board.
+    students:
+      fr: >-
+        Chaque étudiant répond seul en deux minutes aux quatre questions de pari, puis compare avec son binôme et choisit le pari qui lui semble le plus risqué. Les binômes reçoivent leur carte de test (deux ou trois binômes par test, pour pouvoir recouper les résultats) et ouvrent le fichier selon la carte d'importation.
+      en: >-
+        Each student answers the four betting questions alone in two minutes, then compares with their partner and picks the riskiest bet. Pairs receive their test card (two or three pairs per test, so results can be cross-checked) and open the file following the import card.
+    prompts:
+      fr:
+        - >-
+          Paris : 1. Quel domaine domine l'inventaire ? 2. Quelle part des éléments est située outre-mer ? 3. Quelle part sont des événements datables plutôt que des pratiques ? 4. Quelle part est inscrite à l'UNESCO ? Bonus : l'inventaire a-t-il grandi régulièrement depuis 2008 ?
+        - >-
+          Importation : ouvrir le CSV en UTF-8, séparateur virgule ; pour les colonnes lat et lon, choisir la langue « Anglais (États-Unis) » afin que 48.85 soit lu comme un nombre. Colonnes : C domaines (séparés par |), D année, E type, G liste UNESCO, H année UNESCO, J lieux, K lat, L lon. Formules en version française ; en anglais : LEFT, FIND, IF, OR.
+      en:
+        - >-
+          Bets: 1. Which domain dominates the inventory? 2. What share of elements is overseas? 3. What share are datable events rather than practices? 4. What share is inscribed with UNESCO? Bonus: has the inventory grown steadily since 2008?
+        - >-
+          Import: open the CSV as UTF-8, comma-separated; for the lat and lon columns, choose the "English (US)" language so that 48.85 is read as a number. Columns: C domains (separated by |), D year, E kind, G UNESCO list, H UNESCO year, J places, K lat, L lon. Formulas use English names (LEFT, FIND, IF, OR); French versions: GAUCHE, TROUVE, SI, OU.
+  - minutes: 15
+    title:
+      fr: "Atelier tableur : quatre hypothèses à l'épreuve"
+      en: "Spreadsheet workshop: four hypotheses put to the test"
+    teacher:
+      fr: >-
+        Passer de binôme en binôme. Vérifier d'abord l'importation (les coordonnées sont-elles des nombres ?) et la colonne « premier domaine », dont dépendent les autres tests. Exiger pour chaque résultat trois éléments écrits : le chiffre, la manipulation qui le produit (pour qu'un autre binôme puisse la refaire), et une réserve sur ce que le chiffre ne prouve pas. Signaler les pièges : un élément peut avoir plusieurs lieux mais le fichier ne donne les coordonnées que du premier ; l'année est celle de l'identifiant de la fiche ; le type événement ou pratique est un classement de PCI Map, pas du ministère.
+      en: >-
+        Go from pair to pair. First check the import (are the coordinates numbers?) and the "first domain" column, which the other tests depend on. For each result, require three written items: the figure, the steps that produce it (so another pair can redo them), and a caveat on what the figure does not prove. Point out the traps: an element may have several places, but the file only gives coordinates for the first; the year is the one in the fiche's ID; the event-or-practice kind is PCI Map's classification, not the ministry's.
+    students:
+      fr: >-
+        Chaque binôme mène le test de sa carte. Tous commencent par créer la colonne R (premier domaine) et la colonne S (période), puis réalisent le tableau croisé, le filtre ou le graphique demandé. Ils notent sur le tableau partagé un chiffre clé, la manipulation en une ligne et une réserve. Les binômes rapides passent à un deuxième test et vérifient le résultat d'un autre groupe.
+      en: >-
+        Each pair runs the test on its card. All start by creating column R (first domain) and column S (period), then build the pivot table, filter or chart required. They post on the shared board one key figure, the steps in one line and one caveat. Fast pairs move on to a second test and check another group's result.
+    prompts:
+      fr:
+        - >-
+          Test 1, le PCI change-t-il de visage ? R2 =GAUCHE(C2;TROUVE("|";C2&"|")-1) ; S2 =SI(D2<=2011;"2008-11";SI(D2<=2016;"2012-16";SI(D2<=2021;"2017-21";"2022-26"))). Tableau croisé : lignes S, colonnes R, nombre d'identifiants, en % de la ligne. Quel domaine progresse, lequel recule ? Que se passe-t-il en 2012 ?
+        - >-
+          Test 2, où est l'outre-mer ? T2 =OU(K2<41;K2>51,2;L2<-5,3;L2>9,7) : VRAI si le premier lieu est hors de l'Hexagone et de la Corse. Comptez les VRAI, croisez avec la période (S), triez les VRAI par lieu (J) : quels territoires, depuis quand ? Comparez avec la part de l'outre-mer dans la population (chiffre INSEE à chercher).
+        - >-
+          Test 3, événements, pratiques, UNESCO. Tableau croisé : lignes R, colonnes E. Puis filtre G non vide : part de chaque domaine parmi les éléments UNESCO, comparée à l'inventaire entier. Comparez enfin D et H : l'inscription à l'inventaire précède-t-elle celle de l'UNESCO ?
+        - >-
+          Test 4, une carte sans fond de carte. Nuage de points : L en abscisse, K en ordonnée, lignes où T = FAUX. Filtrez ensuite D = 2012 et R = games : combien de ces jeux ont leur premier lieu entre 47 et 48,95 de latitude et entre -5,2 et -1 de longitude (Bretagne et ses marges) ? Boom des jeux ou campagne d'enquête ?
+      en:
+        - >-
+          Test 1, is ICH changing face? R2 =LEFT(C2,FIND("|",C2&"|")-1); S2 =IF(D2<=2011,"2008-11",IF(D2<=2016,"2012-16",IF(D2<=2021,"2017-21","2022-26"))). Pivot table: rows S, columns R, count of IDs, as % of row. Which domain grows, which shrinks? What happens in 2012?
+        - >-
+          Test 2, where are the overseas territories? T2 =OR(K2<41,K2>51.2,L2<-5.3,L2>9.7): TRUE if the first place is outside mainland France and Corsica. Count the TRUEs, cross with the period (S), sort the TRUEs by place (J): which territories, since when? Compare with the overseas share of the population (look up the INSEE figure).
+        - >-
+          Test 3, events, practices, UNESCO. Pivot table: rows R, columns E. Then filter G not empty: each domain's share among UNESCO elements, compared with the whole inventory. Finally compare D and H: does inventory inclusion come before UNESCO inscription?
+        - >-
+          Test 4, a map without a base map. Scatter plot: L on the x-axis, K on the y-axis, rows where T = FALSE. Then filter D = 2012 and R = games: how many of these games have their first place between latitude 47 and 48.95 and longitude -5.2 and -1 (Brittany and its edges)? A games boom or a survey campaign?
+  - minutes: 10
+    title:
+      fr: "Mise en commun : ce que montrent les chiffres, et ce qu'ils ne prouvent pas"
+      en: "Plenary: what the figures show, and what they do not prove"
+    teacher:
+      fr: >-
+        Faire présenter chaque test en 90 secondes : chiffre, manipulation, réserve. Confronter aux paris du début : où s'est-on le plus trompé, et pourquoi ? Projeter la carte du site pour comparer avec le nuage de points. Ajouter deux observations critiques : les sept éléments « France entière » sont épinglés près de Paris ou au centre du pays, ce qui fausse toute lecture régionale naïve ; une grappe d'entrées la même année ne dit rien de la vitalité des pratiques, elle documente surtout l'histoire de l'inventaire. Conclure : l'inventaire est cumulatif et déclaratif, il enregistre des démarches.
+      en: >-
+        Have each test presented in 90 seconds: figure, steps, caveat. Set them against the opening bets: where were we most wrong, and why? Project the site's map to compare with the scatter plot. Add two critical points: the seven "France entière" (nationwide) elements are pinned near Paris or in the centre of the country, which skews any naive regional reading; a cluster of entries in one year says nothing about how alive the practices are, it mainly documents the history of the inventory. Conclude: the inventory is cumulative and based on applications; it records initiatives.
+    students:
+      fr: >-
+        Les binômes présentent leurs résultats ; ceux qui ont mené le même test confirment ou corrigent. Chacun complète une grille à trois colonnes (constat chiffré, interprétation possible, autre interprétation concurrente) et formule pour au moins un résultat une question qu'il faudrait poser à la fiche elle-même ou aux services du ministère.
+      en: >-
+        Pairs present their results; those who ran the same test confirm or correct them. Everyone fills in a three-column grid (finding with figure, possible interpretation, competing interpretation) and, for at least one result, writes a question that would need to be asked of the fiche itself or of the ministry's services.
+  - minutes: 14
+    title:
+      fr: "Lire une fiche comme un document"
+      en: "Reading a fiche as a document"
+    teacher:
+      fr: >-
+        Répartir les binômes : la moitié sur la fiche du carnaval de Granville (2013), l'autre sur celle du mawlida shenge (Mayotte, 2022), ouvertes depuis la page de chaque élément. Dix minutes de lecture ciblée avec la carte, puis chaque binôme rejoint un binôme de l'autre fiche pour comparer pendant quatre minutes. Consignes éthiques : les fiches contiennent des noms de personnes et des coordonnées ; on ne les recopie pas, on décrit des catégories d'acteurs. Faire remarquer que le modèle de fiche a changé : rubriques libres dans l'une, plan numéroté de I à VI dans l'autre.
+      en: >-
+        Split the pairs: half on the Carnival of Granville fiche (2013), half on the mawlida shenge fiche (Mayotte, 2022), opened from each element's page. Ten minutes of targeted reading with the card, then each pair joins a pair from the other fiche to compare for four minutes. Ethical rule: the fiches contain people's names and contact details; do not copy them, describe categories of actors. Point out that the fiche template has changed: free headings in one, a plan numbered I to VI in the other.
+    students:
+      fr: >-
+        Les binômes relèvent les intitulés de rubrique, puis répondent aux questions de leur carte en citant la rubrique (sans recopier de phrases). Lors de l'échange, ils comparent : qui est la communauté, qui la représente, où apparaît le consentement, quelles transformations sont admises, quelles menaces sont nommées. Ils terminent en notant ensemble une chose qu'aucune des deux fiches ne peut dire.
+      en: >-
+        Pairs list the section headings, then answer their card's questions, citing the section (without copying sentences). In the exchange, they compare: who the community is, who represents it, where consent appears, which changes are accepted, which threats are named. They finish by noting together one thing neither fiche can say.
+    prompts:
+      fr:
+        - >-
+          Granville (2013). Comment la fiche définit-elle la communauté et ses cercles de participation ? Qui organise, qui autorise, qui finance ? Quelles transformations du carnaval admet-elle ? Y a-t-il une rubrique sur le consentement ou sur les menaces ?
+        - >-
+          Mawlida shenge (2022). Qui compose la communauté selon la rubrique I.3, et quels autres acteurs y sont rangés ? Quelles évolutions (III.2) et quelles menaces (IV.1) ? Que dit IV.3 du rôle de l'inventaire lui-même ? Que contient V.2 ?
+        - >-
+          Pour les deux : qu'est-ce qu'une fiche écrite ne peut pas transmettre (un son, un geste, un désaccord interne, ceux qui ne participent pas) ?
+      en:
+        - >-
+          Granville (2013). How does the fiche define the community and its circles of participation? Who organises, who authorises, who pays? Which changes to the carnival does it accept? Is there a section on consent or on threats?
+        - >-
+          Mawlida shenge (2022). Who makes up the community according to section I.3, and which other actors are listed there? What changes (III.2) and what threats (IV.1)? What does IV.3 say about the role of the inventory itself? What does V.2 contain?
+        - >-
+          For both: what can a written fiche not convey (a sound, a gesture, an internal disagreement, those who do not take part)?
+  - minutes: 8
+    title:
+      fr: "Discussion : qui parle pour qui, et qu'est-ce qui reste hors champ ?"
+      en: "Discussion: who speaks for whom, and what stays out of frame?"
+    teacher:
+      fr: >-
+        Animer une discussion en trois temps, une affirmation à la fois. Faire chercher en direct sur le site « Île-de-France » puis « numérique » : l'inventaire contient des fêtes de diasporas (Nouvel An chinois, Norouz, Yennayer, fado) et une pratique numérique récente (la démoscène). Les étudiants découvrent qu'il est plus ouvert qu'ils ne le pensaient, mais aussi que ce qui y entre dépend de qui monte un dossier. Relier aux notions : patrimonialisation, porte-parole, participation au sens de la Convention de 2003, représentativité.
+      en: >-
+        Lead a three-part discussion, one statement at a time. Have students search the site live for "Île-de-France" then "numérique": the inventory includes diaspora festivals (Chinese New Year, Norouz, Yennayer, fado) and a recent digital practice (the demoscene). Students find that it is more open than they assumed, but also that what gets in depends on who prepares an application. Link to the concepts: heritagisation, spokespeople, participation in the sense of the 2003 Convention, representativeness.
+    students:
+      fr: >-
+        Les étudiants prennent position sur chaque affirmation en s'appuyant sur un chiffre de l'atelier ou une rubrique de fiche, et répondent à un argument précédent avant d'en avancer un nouveau. Un étudiant volontaire tient au tableau la liste des angles morts proposés et des acteurs qui pourraient les combler.
+      en: >-
+        Students take a position on each statement, backed by a figure from the workshop or a section of a fiche, and respond to a previous argument before making a new one. A volunteer keeps a list on the board of the blind spots raised and of the actors who might fill them.
+    prompts:
+      fr:
+        - >-
+          « Un inventaire ne se contente pas de décrire : il fabrique du patrimoine. » Appuyez-vous sur la rubrique IV.3 de la fiche mawlida et sur la vague de 2012.
+        - >-
+          Quand la communauté, c'est toute une île et sa diaspora, ou toute une ville, qui peut parler en son nom ? Un comité élu, une association, un chercheur, une collectivité ?
+        - >-
+          Une absence de l'inventaire signifie-t-elle une absence de pratique ? Proposez une pratique qui pourrait manquer et expliquez pourquoi elle n'y est peut-être pas.
+      en:
+        - >-
+          "An inventory does not just describe: it makes heritage." Use section IV.3 of the mawlida fiche and the 2012 wave.
+        - >-
+          When the community is a whole island and its diaspora, or a whole town, who can speak for it? An elected committee, an association, a researcher, a local authority?
+        - >-
+          Does absence from the inventory mean absence of the practice? Suggest a practice that might be missing and explain why it may not be there.
+  - minutes: 6
+    title:
+      fr: "Note de synthèse"
+      en: "Short memo"
+    teacher:
+      fr: >-
+        Donner la consigne d'écriture et la grille : un chiffre calculé en séance et sa manipulation, une observation précise sur une fiche, un angle mort argumenté, une proposition pour l'inventaire ou pour sa médiation. Les étudiants commencent en séance et rendent la version finale, de 600 à 800 mots, à la séance suivante.
+      en: >-
+        Give the writing task and the rubric: one figure computed in class with its steps, one precise observation on a fiche, one argued blind spot, one proposal for the inventory or for how it is presented to the public. Students start in class and hand in the final 600-to-800-word version at the next session.
+    students:
+      fr: >-
+        Les étudiants rédigent l'introduction et le plan de leur note, avec la problématique et les trois preuves qu'ils comptent mobiliser. Ils échangent leur plan avec leur binôme, qui vérifie que chaque affirmation repose sur un chiffre reproductible ou une rubrique de fiche précise.
+      en: >-
+        Students draft the introduction and outline of their memo, with the research question and the three pieces of evidence they intend to use. They swap outlines with their partner, who checks that each claim rests on a reproducible figure or a specific section of a fiche.
+    prompts:
+      fr:
+        - >-
+          « L'Inventaire national est-il un portrait du patrimoine culturel immatériel en France ? » Note de 600 à 800 mots : un chiffre reproductible, une observation de fiche, un angle mort, une proposition.
+      en:
+        - >-
+          "Is the national inventory a portrait of intangible cultural heritage in France?" A 600-to-800-word memo: one reproducible figure, one observation from a fiche, one blind spot, one proposal.
+assessment:
+  fr: >-
+    Pendant l'atelier : chaque binôme affiche un chiffre exact, une manipulation qu'un autre binôme peut refaire et une réserve pertinente. Pendant la lecture de fiche : réponses référencées par rubrique, sans données personnelles recopiées. Dans la note, évaluée sur grille : exactitude et reproductibilité du chiffre ; distinction entre donnée officielle et ajout de PCI Map ; usage maîtrisé des notions (patrimonialisation, communauté, consentement, représentativité) ; présence d'une interprétation concurrente ; qualité de la proposition. Un étudiant a réussi s'il évite de conclure de la composition de l'inventaire à la vitalité réelle des pratiques.
+  en: >-
+    During the workshop: each pair posts an accurate figure, steps another pair can redo and a relevant caveat. During the fiche reading: answers referenced by section, with no personal data copied. The memo, marked against a rubric: accuracy and reproducibility of the figure; distinction between official data and PCI Map's additions; confident use of the concepts (heritagisation, community, consent, representativeness); a competing interpretation; quality of the proposal. A student has succeeded if they avoid inferring the real vitality of practices from the inventory's make-up.
+differentiation:
+  fr: >-
+    Soutien : un fichier préparé où les colonnes R, S et T sont déjà calculées, pour se concentrer sur l'interprétation ; un tutoriel d'une page sur les tableaux croisés ; lecture de fiche limitée à deux rubriques. Approfondissement : refaire les tests avec Python ou R sur la version JSON, qui garde tous les lieux de chaque élément ; étudier les éléments à plusieurs lieux ; comparer la part des domaines avec celle de la Liste représentative de l'UNESCO à l'échelle mondiale ; lire l'ensemble des fiches d'une même année pour vérifier l'hypothèse d'une campagne thématique.
+  en: >-
+    Support: a prepared file with columns R, S and T already computed, to focus on interpretation; a one-page pivot-table tutorial; fiche reading limited to two sections. Stretch: redo the tests in Python or R on the JSON version, which keeps every place for each element; study elements with several places; compare domain shares with UNESCO's Representative List worldwide; read all the fiches from one year to test the survey-campaign hypothesis.
+going_further:
+  fr: >-
+    Prolonger par un entretien avec un acteur d'un élément proche de l'université (« Autour de moi ») : comment la fiche a-t-elle été préparée, qui y a participé, qu'aurait-il fallu y mettre ? Comparer le site avec PCI Lab et avec la page de l'inventaire du ministère : quelles informations chaque outil met-il en avant ? En master, en tirer un sujet de mémoire, par exemple la place des pratiques des diasporas ou de l'outre-mer dans l'inventaire, ou l'effet d'une inscription à l'inventaire sur une association de porteurs.
+  en: >-
+    Follow up with an interview with someone involved in an element near the university ("Autour de moi"): how was the fiche prepared, who took part, what should have been in it? Compare the site with PCI Lab and with the ministry's inventory page: what does each tool foreground? At master's level, turn it into a dissertation topic, such as the place of diaspora or overseas practices in the inventory, or the effect of inventory inclusion on a bearers' association.
+answer_key:
+  fr: >-
+    543 éléments ; 6 ont deux domaines. Premier domaine : savoir-faire 178 (33 %), jeux 125 (23 %), pratiques sociales et festives 102 (19 %), rituels 55, arts du spectacle 50, pratiques physiques 21, traditions orales 12. Périodes : 137, 222, 127, 57 entrées ; rituels 27 % des entrées 2008-11 puis moins de 9 % ; savoir-faire 39 %, 14 %, 55 %, 40 %. 2012 : 141 entrées dont 119 jeux, 69 de ces jeux dans le rectangle breton : indice d'une campagne thématique, à vérifier dans les fiches. Outre-mer : 29 (5,3 %) ; 2, 3, 12 puis 12 par période, soit 21 % des entrées 2022-26 ; La Réunion 8, Guadeloupe 6, Mayotte 5, Guyane 4. Événements : 113 (21 %), dont 75 pratiques festives. UNESCO : 34 éléments (6,3 %), aucun jeu ni tradition orale, 14 savoir-faire ; 28 sur 34 entrés à l'inventaire l'année de l'inscription ou avant. Fiches : Granville, rubriques libres ; toute la ville participe à des degrés divers, comités de quartier et d'amis, comité d'organisation élu, la ville partie prenante ; pas de rubrique consentement ni menaces. Mawlida, plan I à VI ; communauté = population mahoraise et diaspora, plus associations, écoles coraniques, médias, chercheurs ; menaces : chapiteaux loués, coûts, subventions, moindre pratique des jeunes ; IV.3 fait de l'inventaire la première mesure de sauvegarde ; V.2 liste soutiens et consentements.
+  en: >-
+    543 elements; 6 have two domains. First domain: know-how 178 (33%), games 125 (23%), social and festive practices 102 (19%), rituals 55, performing arts 50, physical practices 21, oral traditions 12. Periods: 137, 222, 127, 57 entries; rituals 27% of 2008-11 entries, then under 9%; know-how 39%, 14%, 55%, 40%. 2012: 141 entries including 119 games, 69 of them in the Brittany box: a sign of a thematic survey campaign, to check in the fiches. Overseas: 29 (5.3%); 2, 3, 12 then 12 per period, i.e. 21% of 2022-26 entries; Réunion 8, Guadeloupe 6, Mayotte 5, French Guiana 4. Events: 113 (21%), 75 of them festive practices. UNESCO: 34 elements (6.3%), no games or oral traditions, 14 know-how; 28 of 34 entered the inventory in or before their inscription year. Fiches: Granville, free headings; the whole town takes part to varying degrees, district and friends' committees, an elected organising committee, the town a stakeholder; no section on consent or threats. Mawlida, plan I to VI; community = Mayotte's population and diaspora, plus associations, Koranic schools, media, researchers; threats: rented marquees, costs, subsidies, fewer young performers; IV.3 makes the inventory the first safeguarding measure; V.2 lists support and consent.
+lang_review: draft
+review_status: unreviewed
