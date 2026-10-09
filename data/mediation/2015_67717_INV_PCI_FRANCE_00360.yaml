@@ -1,0 +1,72 @@
+id: 2015_67717_INV_PCI_FRANCE_00360
+audience: general
+questions:
+  fr:
+    - La corde qui relie les alpinistes d'une même cordée est souvent présentée comme le symbole de l'esprit d'équipe ; que signifie confier sa sécurité à quelqu'un d'autre ?
+    - Les alpinistes se donnent pour règle d'utiliser des moyens techniques modestes et de ne pas laisser de traces ; pourquoi s'imposer volontairement ces limites ?
+    - Avec le recul des glaciers et l'arrivée de nouveaux publics, comment l'alpinisme et les savoirs des guides peuvent-ils évoluer sans perdre leurs valeurs ?
+    - L'UNESCO a reconnu l'alpinisme comme un patrimoine vivant et non comme un simple sport ; quelle différence cela fait-il, selon vous ?
+    - Avez-vous déjà vécu une sortie en nature où il fallait s'entraider et décider ensemble ? Qu'en avez-vous retenu ?
+  en:
+    - The rope linking climbers on the same rope team is often presented as the symbol of team spirit; what does it mean to entrust your safety to someone else?
+    - Climbers make it a rule to use modest technical means and leave no traces; why would people choose to set themselves these limits?
+    - With glaciers shrinking and new groups of people taking it up, how can alpinism and guides' knowledge change without losing their values?
+    - UNESCO recognised alpinism as living heritage rather than as a mere sport; what difference do you think this makes?
+    - Have you ever been on an outing in nature where you had to help one another and decide together? What did you take from it?
+vocabulary:
+  - fr: cordée
+    en: rope team
+    def_fr: Groupe d'alpinistes reliés par une même corde pendant une ascension, chacun assurant la sécurité des autres.
+    def_en: Group of climbers tied to the same rope during an ascent, each one looking after the others' safety.
+  - fr: guide de haute montagne
+    en: high-mountain guide
+    def_fr: Professionnel diplômé qui conduit des clients en montagne ; le métier est né des paysans des vallées alpines au XVIIIe siècle.
+    def_en: Qualified professional who leads clients in the mountains; the trade grew out of Alpine valley farmers in the 18th century.
+  - fr: compagnie des guides
+    en: guides' company
+    def_fr: Association locale de guides qui organise leur travail et leurs traditions ; celle de Chamonix est la plus ancienne et la plus importante.
+    def_en: Local association of guides that organises their work and traditions; the one in Chamonix is the oldest and largest.
+  - fr: piolet
+    en: ice axe
+    def_fr: Outil à manche et à lame qui sert à tailler, à s'ancrer et à s'arrêter sur la neige ou la glace.
+    def_en: Tool with a shaft and a blade used to cut steps, anchor oneself and stop a slide on snow or ice.
+  - fr: crampons
+    en: crampons
+    def_fr: Pièces métalliques à pointes fixées sous les chaussures pour marcher et grimper sur la glace et la neige dure.
+    def_en: Spiked metal frames fixed under boots to walk and climb on ice and hard snow.
+  - fr: refuge
+    en: mountain hut
+    def_fr: Bâtiment gardé ou non en haute montagne, où les alpinistes dorment et partagent un repas avant une ascension.
+    def_en: Building high in the mountains, staffed or not, where climbers sleep and share a meal before an ascent.
+  - fr: ouvrir une voie
+    en: open a route
+    def_fr: Réussir pour la première fois un itinéraire d'ascension, que d'autres pourront ensuite répéter.
+    def_en: To climb a route up a mountain for the first time, so that others can then repeat it.
+  - fr: club alpin
+    en: alpine club
+    def_fr: Association d'amateurs, apparue au XIXe siècle, qui organise des sorties, forme les débutants et diffuse les règles et les valeurs de l'alpinisme.
+    def_en: Association of amateurs, first created in the 19th century, that runs outings, trains beginners and spreads the rules and values of alpinism.
+context:
+  fr: >-
+    L'alpinisme est l'art de gravir des sommets et des parois de haute montagne, en rocher, en neige ou en glace. Il est né à la fin du XVIIIe siècle dans le massif du Mont-Blanc : la première ascension du sommet, en 1786, est souvent vue comme son acte fondateur, et les paysans de Chamonix sont devenus les premiers guides en conduisant des visiteurs sur leurs montagnes. Il s'est ensuite répandu dans toute l'Europe puis dans le monde.
+
+    Ses pratiquants y voient plus qu'un sport : un savoir-faire, une connaissance fine du terrain et de la météo, et une éthique partagée. On cherche à grimper de façon autonome avec des moyens modestes, à respecter ses limites, à ne pas laisser de traces et à porter secours aux autres. En France, environ 150 000 personnes le pratiquent, dans des clubs alpins ou avec des guides ; la pratique s'ouvre aux femmes, aux jeunes et à de nouveaux milieux.
+  en: >-
+    Alpinism is the art of climbing high-mountain summits and faces, on rock, snow or ice. It was born in the late 18th century in the Mont Blanc massif: the first ascent of the summit, in 1786, is often seen as its founding act, and Chamonix farmers became the first guides by leading visitors up their mountains. It then spread across Europe and around the world.
+
+    Its practitioners see it as more than a sport: a set of skills, close knowledge of the terrain and the weather, and a shared ethic. The aim is to climb self-reliantly with modest means, to respect one's limits, to leave no traces and to help others. In France about 150,000 people practise it, in alpine clubs or with guides; it is opening up to women, young people and new social groups.
+unesco:
+  fr: >-
+    L'alpinisme est inscrit depuis 2019 sur la Liste représentative du patrimoine culturel immatériel de l'humanité. Le dossier est commun à la France, à l'Italie et à la Suisse, trois pays autour du Mont-Blanc dont les clubs se rencontrent depuis longtemps ; Chamonix-Mont-Blanc a porté la candidature côté français. L'inscription reconnaît des savoirs, des valeurs et un esprit de cordée transmis par les clubs et les guides, pas des records ni des sommets. Elle engage les pays et les communautés à faire vivre et à transmettre cette culture.
+  en: >-
+    Alpinism has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2019. The file is shared by France, Italy and Switzerland, three countries around Mont Blanc whose clubs have long met one another; Chamonix-Mont-Blanc led the bid on the French side. The inscription recognises knowledge, values and a rope-team spirit passed on by clubs and guides, not records or summits. It commits the countries and communities to keeping this culture alive and handing it on.
+activity:
+  title_fr: Écrire la charte de notre cordée
+  title_en: Write our rope team's charter
+  fr: >-
+    Par groupes de quatre, imaginez que vous formez une cordée qui prépare une course en montagne. Listez d'abord ce qu'il faut savoir avant de partir (météo, itinéraire, matériel, forme de chacun), puis rédigez une charte de dix règles maximum : comment décider ensemble, quand renoncer, comment aider un membre en difficulté, comment respecter la montagne. Chaque groupe lit sa charte ; comparez-les et repérez les valeurs communes à toutes les cordées de la classe.
+  en: >-
+    In groups of four, imagine you are a rope team preparing a mountain climb. First list what you need to know before setting off (weather, route, gear, how fit everyone is), then write a charter of at most ten rules: how to decide together, when to turn back, how to help a member in trouble, how to respect the mountain. Each group reads out its charter; compare them and pick out the values that every rope team in the class shares.
+  levels: [middle, high, adult]
+lang_review: draft
+review_status: unreviewed

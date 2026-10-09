@@ -15,9 +15,9 @@ export function h(tag: string, attrs: Attrs = {}, ...children: (Child | Child[])
 }
 
 const SVG_NS = "http://www.w3.org/2000/svg";
-export function svg(markup: string, cls: string): SVGElement {
+export function svg(markup: string, cls: string, viewBox = "0 0 20 20"): SVGElement {
   const el = document.createElementNS(SVG_NS, "svg");
-  el.setAttribute("viewBox", "0 0 20 20");
+  el.setAttribute("viewBox", viewBox);
   el.setAttribute("class", cls);
   el.setAttribute("aria-hidden", "true");
   el.setAttribute("focusable", "false");

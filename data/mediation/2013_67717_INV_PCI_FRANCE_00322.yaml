@@ -3,17 +3,29 @@ audience: general
 questions:
   fr:
     - Que racontent, selon vous, les costumes de Reuze Papa en légionnaire romain et de Reuze Maman, d'abord représentée en femme de pêcheur ?
+    - Le soir, la foule retient les géants devant le musée pour que la danse dure encore. Que dit ce geste du lien entre les habitants et leurs géants ?
     - Que révèle, selon vous, la liste d'attente des volontaires qui souhaitent devenir porteurs des géants de Cassel ?
+    - Aujourd'hui, des copies dansent à la place des géants d'origine, gardés au musée. L'UNESCO protège-t-elle des objets ou ce que les habitants en font, et pourquoi ?
     - Quel personnage, animal ou figure sert d'emblème à votre ville ou à votre quartier les jours de fête ?
   en:
     - What do you think the costumes say, with Reuze Papa dressed as a Roman legionary and Reuze Maman first shown as a fisherman's wife?
+    - In the evening the crowd holds the giants back in front of the museum so that the dance lasts longer. What does this say about the bond between residents and their giants?
     - What do you think the waiting list of volunteers who want to carry the Cassel giants reveals?
+    - Today replicas dance in place of the original giants, now kept in the museum. Does UNESCO protect objects or what people do with them, and why?
     - Which character, animal or figure stands for your own town or neighbourhood on festival days?
 vocabulary:
   - fr: Reuze
     en: Reuze
     def_fr: Mot flamand qui signifie « géant » ; il désigne les deux géants de Cassel et l'air que l'on chante en les faisant danser.
     def_en: Flemish word meaning "giant"; it names the two Cassel giants and the tune sung while they dance.
+  - fr: porteur
+    en: bearer
+    def_fr: Personne qui porte le géant sur ses épaules, à l'intérieur de sa structure ; à Cassel, deux équipes de huit se relaient selon les carnavals.
+    def_en: Person who carries the giant on their shoulders from inside its frame; in Cassel two teams of eight share the two carnivals.
+  - fr: panier
+    en: basket frame
+    def_fr: Partie basse du géant, en bois et en osier tressé, cachée sous la jupe, dans laquelle se placent les porteurs.
+    def_en: Lower part of the giant, made of wood and woven wicker and hidden under the skirt, inside which the bearers stand.
   - fr: ritournelle
     en: ritournelle
     def_fr: Danse où les deux géants se font face et « s'embrassent », dédiée aux habitants d'une maison que l'on veut honorer.
@@ -30,5 +42,31 @@ vocabulary:
     en: ducasse (funfair)
     def_fr: Mot du Nord pour la kermesse et la fête foraine ; à Cassel, manèges et marchands de gaufres s'installent sur la grand-place.
     def_en: Northern French word for a fair and funfair; in Cassel, rides and waffle stalls set up on the main square.
+  - fr: réplique
+    en: replica
+    def_fr: Copie fidèle d'un objet ancien, faite avec les mêmes matériaux et techniques, pour que l'original puisse être conservé à l'abri.
+    def_en: Faithful copy of an old object, made with the same materials and techniques, so that the original can be kept safe.
+context:
+  fr: >-
+    Cassel, petite ville perchée sur un mont de la Flandre française, fête deux carnavals : un petit carnaval d'hiver, le dimanche avant Mardi gras, où le géant Reuze Papa sort seul, et le grand carnaval du lundi de Pâques, avec Reuze Maman et des groupes invités. Ce jour-là, les tambours réveillent la ville dès l'aube, les masques jouent à l'intrigue, puis le char du Four merveilleux, le cheval-jupon, le coq-jupon et les grosses têtes accompagnent les deux géants dans les rues. Le cortège s'arrête devant des maisons pour des ritournelles, et le soir la foule raccompagne les géants jusqu'au musée de la grand-place.
+
+    Reuze Papa est né en 1827 et Reuze Maman en 1860. Cachés pendant les deux guerres mondiales, les géants d'origine ont dansé jusqu'en 2001 ; ils sont aujourd'hui conservés au musée, et des répliques fabriquées à l'identique, en osier, bois et carton, ont pris le relais. La ville et une association de bénévoles entretiennent la fête et forment les porteurs.
+  en: >-
+    Cassel, a small town on a hilltop in French Flanders, holds two carnivals: a small winter carnival on the Sunday before Shrove Tuesday, when the giant Reuze Papa goes out alone, and the big Easter Monday carnival, with Reuze Maman and visiting groups. On that day drums wake the town at dawn, masked people play at teasing, and then the Wonderful Oven float, the hobby horse, the hobby cockerel and the big heads go through the streets with the two giants. The procession stops in front of houses for ritournelles, and in the evening the crowd walks the giants back to the museum on the main square.
+
+    Reuze Papa was made in 1827 and Reuze Maman in 1860. Hidden during both world wars, the original giants danced until 2001; they are now kept in the museum, and replicas made to the same pattern, of wicker, wood and cardboard, have taken over. The town and a volunteer association look after the festival and train the bearers.
+unesco:
+  fr: >-
+    Le carnaval de Cassel fait partie des « Géants et dragons processionnels de Belgique et de France », proclamés par l'UNESCO en 2005 puis inscrits en 2008 sur la Liste représentative du patrimoine culturel immatériel de l'humanité. Ce dossier commun aux deux pays réunit quelques villes, dont Cassel, Douai, Pézenas et Tarascon en France. L'inscription ne fait pas des géants des pièces de musée : elle reconnaît des fêtes vivantes, emblèmes d'une communauté, et engage habitants et États à les sauvegarder, par exemple face aux transformations des centres-villes ou au tourisme.
+  en: >-
+    The Cassel carnival is part of the "Processional giants and dragons in Belgium and France", proclaimed by UNESCO in 2005 and then inscribed in 2008 on the Representative List of the Intangible Cultural Heritage of Humanity. This file, shared by the two countries, covers a handful of towns, including Cassel, Douai, Pézenas and Tarascon in France. The inscription does not turn the giants into museum pieces: it recognises living festivals that stand for a community, and commits residents and States to safeguarding them, for instance against changes to town centres or the pressure of tourism.
+activity:
+  title_fr: Le parcours et les ritournelles de nos géants
+  title_en: The route and ritournelles of our giants
+  fr: >-
+    Imaginez que deux géants traversent votre quartier ou votre école. Sur un plan dessiné au tableau, tracez leur parcours et choisissez cinq arrêts pour une ritournelle : devant quels lieux, en l'honneur de quels métiers ou de quels groupes (cantine, gardiens, bénévoles, anciens) ? Chaque groupe justifie un arrêt en une phrase. Apprenez ensuite le refrain du Reuze, « Keere u e's om », et dansez-le en ronde. Pour finir, discutez : pourquoi rendre hommage à des personnes par une danse plutôt que par un discours ?
+  en: >-
+    Imagine two giants walking through your neighbourhood or school. On a map drawn on the board, trace their route and choose five stops for a ritournelle: in front of which places, and in honour of which jobs or groups (canteen staff, caretakers, volunteers, elders)? Each group explains one stop in a sentence. Then learn the refrain of the Reuze song, "Keere u e's om", and dance it in a circle. To finish, discuss: why honour people with a dance rather than a speech?
+  levels: [primary, middle]
 lang_review: draft
 review_status: unreviewed

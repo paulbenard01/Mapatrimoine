@@ -22,6 +22,7 @@ from pci.places import (
     picture,
 )
 from pci.summaries import SUMMARIES_PATH, check_summaries, summary_record
+from pci.unesco import UNESCO_PATH, check_unesco, unesco_records
 
 CURATED_DIR = DATA / "curated"
 OUTPUT_PATH = ROOT / "web" / "public" / "data" / "elements.json"
@@ -159,7 +160,12 @@ def build(output: Path = OUTPUT_PATH) -> list[dict]:
 
 
 def inventory(
-    index: dict[str, dict], places: dict, images: dict, cache: dict, summaries: dict | None = None
+    index: dict[str, dict],
+    places: dict,
+    images: dict,
+    cache: dict,
+    summaries: dict | None = None,
+    unesco: dict | None = None,
 ) -> list[dict]:
     """Every published element of the national inventory (structured facts only), with
     its places on the map (documented elements carry theirs in elements.json) and image."""
@@ -180,6 +186,7 @@ def inventory(
                 "locations": [lookup(p, cache) for p in located["places"]] if located else [],
                 "location_sources": location_sources(located) if located else [],
                 "image": picture(image, e["title"]) if image else None,
+                "unesco": (unesco or {}).get(e["id"]),
                 "kind": short["kind"] if short else None,
                 **(summary_record(short, located, e["fiche_url"]) if short else {}),
             }
@@ -195,13 +202,15 @@ def build_inventory(output: Path = INVENTORY_PATH) -> int:
     curated = {c["id"] for c in load_curated()}
     problems = check_places(places, published) + check_images(images, published)
     problems += check_summaries(summaries, published, curated, places)
+    unesco = load_yaml(UNESCO_PATH)
+    problems += check_unesco(unesco, published)
     problems += [
         f"{i}: curated elements keep their places in data/curated" for i in places if i in curated
     ]
     if problems:
         raise BuildError("\n".join(problems))
     try:
-        entries = inventory(index, places, images, load_cache(), summaries)
+        entries = inventory(index, places, images, load_cache(), summaries, unesco_records(unesco))
     except Exception as exc:  # noqa: BLE001 - a place missing from the geocode cache
         raise BuildError(str(exc)) from exc
     payload = {"source": "data/index.json", "count": len(entries), "elements": entries}

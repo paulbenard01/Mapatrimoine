@@ -1,0 +1,269 @@
+# France's elements on the UNESCO intangible cultural heritage lists, matched to
+# inventory fiches (data/index.json).
+# Source: https://ich.unesco.org/en/state/france-FR (fetched 2026-10-09): "30 elements
+# inscribed", latest are from the 2024 session (19.COM). UNESCO lists no French
+# inscription from the 2025 session (20.COM). French names come from
+# https://ich.unesco.org/fr/etat/france-FR. Multinational = more than one State linked
+# on the element page.
+# For extended multinational files, `year` is the year UNESCO now shows (that of the
+# latest extension). France was already in earlier versions: falconry since 2010,
+# dry stone walling since 2018.
+# Pending nominations on the UNESCO page, not inscribed (no flag yet): "The Biou of Arbois"
+# (2026, RL; inventory 2013_67717_INV_PCI_FRANCE_00314) and a new "Transhumance" file (2026).
+elements:
+  # Processional giants: UNESCO names Cassel, Douai, Pézenas and Tarascon for France
+  2013_67717_INV_PCI_FRANCE_00322: {unesco: processional-giants}   # Carnaval de Cassel (Reuze Papa, Reuze Maman)
+  2014_67717_INV_PCI_FRANCE_00350: {unesco: processional-giants}   # Fêtes de Gayant à Douai
+  2019_67717_INV_PCI_FRANCE_00425: {unesco: processional-giants}   # Fêtes de la Tarasque (Tarascon)
+  2019_67717_INV_PCI_FRANCE_00429: {unesco: processional-giants}   # Carnaval de Pézenas (le Poulain)
+  2009_67717_INV_PCI_FRANCE_00040: {unesco: maloya}
+  2008_67717_INV_PCI_FRANCE_00035: {unesco: aubusson-tapestry}
+  2020_67717_INV_PCI_FRANCE_00485: {unesco: aubusson-tapestry}     # Savoir-faire des lissiers d'Aubusson-Felletin
+  2009_67717_INV_PCI_FRANCE_00049: {unesco: timber-framing-scribing}
+  # Cantu in paghjella: the three 2008 fiches describe local versi of the paghjella
+  2008_67717_INV_PCI_FRANCE_00001: {unesco: cantu-in-paghjella}
+  2008_67717_INV_PCI_FRANCE_00002: {unesco: cantu-in-paghjella}
+  2008_67717_INV_PCI_FRANCE_00003: {unesco: cantu-in-paghjella}
+  2009_67717_INV_PCI_FRANCE_00058: {unesco: gastronomic-meal}
+  2008_67717_INV_PCI_FRANCE_00036: {unesco: alencon-lace}
+  2009_67717_INV_PCI_FRANCE_00057: {unesco: compagnonnage}
+  2008_67717_INV_PCI_FRANCE_00037: {unesco: french-equitation}
+  2014_67717_INV_PCI_FRANCE_00340: {unesco: fest-noz}
+  2011_67717_INV_PCI_FRANCE_00148: {unesco: limousin-ostensions}
+  2012_67717_INV_PCI_FRANCE_00284: {unesco: gwoka}
+  # Solstice fires: the French nomination text cites "Le Brandon de la Saint-Jean (et de la Saint-Pierre) (Luchon)"
+  2013_67717_INV_PCI_FRANCE_00313: {unesco: pyrenees-solstice-fires}
+  2013_67717_INV_PCI_FRANCE_00321: {unesco: granville-carnival}
+  2014_67717_INV_PCI_FRANCE_00327: {unesco: grasse-perfume}
+  2015_67717_INV_PCI_FRANCE_00360: {unesco: alpinism}
+  2017_67717_INV_PCI_FRANCE_00385: {unesco: cathedral-workshops}   # Fondation de l'Œuvre Notre-Dame, Strasbourg
+  2018_67717_INV_PCI_FRANCE_00415: {unesco: mechanical-watchmaking}
+  2014_67717_INV_PCI_FRANCE_00357: {unesco: horn-players}
+  2017_67717_INV_PCI_FRANCE_00376: {unesco: martinique-yole}
+  2018_67717_INV_PCI_FRANCE_00404: {unesco: glass-beads}
+  2009_67717_INV_PCI_FRANCE_00069: {unesco: falconry}
+  # Bear festivities: five villages, three in Haut-Vallespir (France) and two in Andorra
+  2014_67717_INV_PCI_FRANCE_00349: {unesco: pyrenees-bear-festivities}
+  2018_67717_INV_PCI_FRANCE_00413: {unesco: baguette}
+  2019_67717_INV_PCI_FRANCE_00428: {unesco: handmade-glass}        # Gestes des métiers d'art verriers
+  2017_67717_INV_PCI_FRANCE_00384: {unesco: parisian-zinc-roofers}
+  2010_67717_INV_PCI_FRANCE_00107: {unesco: dry-stone}
+  2017_67717_INV_PCI_FRANCE_00382: {unesco: funfair-culture}
+inscriptions:
+  processional-giants:
+    name_en: Processional giants and dragons in Belgium and France
+    name_fr: Géants et dragons processionnels de Belgique et de France
+    list: RL
+    year: 2008   # originally proclaimed in 2005
+    url: https://ich.unesco.org/en/RL/processional-giants-and-dragons-in-belgium-and-france-00153
+    multinational: true   # Belgium, France
+  maloya:
+    name_en: Maloya
+    name_fr: Le Maloya
+    list: RL
+    year: 2009
+    url: https://ich.unesco.org/en/RL/maloya-00249
+    multinational: false
+  aubusson-tapestry:
+    name_en: Aubusson tapestry
+    name_fr: La tapisserie d’Aubusson
+    list: RL
+    year: 2009
+    url: https://ich.unesco.org/en/RL/aubusson-tapestry-00250
+    multinational: false
+  timber-framing-scribing:
+    name_en: Scribing tradition in French timber framing
+    name_fr: La tradition du tracé dans la charpente française
+    list: RL
+    year: 2009
+    url: https://ich.unesco.org/en/RL/scribing-tradition-in-french-timber-framing-00251
+    multinational: false
+  cantu-in-paghjella:
+    name_en: Cantu in paghjella, a secular and liturgical oral tradition of Corsica
+    name_fr: Le Cantu in paghjella profane et liturgique de Corse de tradition orale
+    list: USL
+    year: 2009
+    url: https://ich.unesco.org/en/USL/cantu-in-paghjella-a-secular-and-liturgical-oral-tradition-of-corsica-00315
+    multinational: false
+  gastronomic-meal:
+    name_en: Gastronomic meal of the French
+    name_fr: Le repas gastronomique des Français
+    list: RL
+    year: 2010
+    url: https://ich.unesco.org/en/RL/gastronomic-meal-of-the-french-00437
+    multinational: false
+  alencon-lace:
+    name_en: Craftsmanship of Alençon needle lace-making
+    name_fr: Le savoir-faire de la dentelle au point d’Alençon
+    list: RL
+    year: 2010
+    url: https://ich.unesco.org/en/RL/craftsmanship-of-alencon-needle-lace-making-00438
+    multinational: false
+  compagnonnage:
+    name_en: Compagnonnage, network for on-the-job transmission of knowledge and identities
+    name_fr: Le compagnonnage, réseau de transmission des savoirs et des identités par le métier
+    list: RL
+    year: 2010
+    url: https://ich.unesco.org/en/RL/compagnonnage-network-for-on-the-job-transmission-of-knowledge-and-identities-00441
+    multinational: false
+  french-equitation:
+    name_en: Equitation in the French tradition
+    name_fr: L’équitation de tradition française
+    list: RL
+    year: 2011
+    url: https://ich.unesco.org/en/RL/equitation-in-the-french-tradition-00440
+    multinational: false
+  fest-noz:
+    name_en: Fest-Noz, festive gathering based on the collective practice of traditional dances of Brittany
+    name_fr: Le fest-noz, rassemblement festif basé sur la pratique collective des danses traditionnelles de Bretagne
+    list: RL
+    year: 2012
+    url: https://ich.unesco.org/en/RL/fest-noz-festive-gathering-based-on-the-collective-practice-of-traditional-dances-of-brittany-00707
+    multinational: false
+  limousin-ostensions:
+    name_en: Limousin septennial ostensions
+    name_fr: Les ostensions septennales limousines
+    list: RL
+    year: 2013
+    url: https://ich.unesco.org/en/RL/limousin-septennial-ostensions-00885
+    multinational: false
+  gwoka:
+    name_en: "Gwoka: music, song, dance and cultural practice representative of Guadeloupean identity"
+    name_fr: "Le gwoka : musique, chants, danses et pratique culturelle représentatifs de l’identité guadeloupéenne"
+    list: RL
+    year: 2014
+    url: https://ich.unesco.org/en/RL/gwoka-music-song-dance-and-cultural-practice-representative-of-guadeloupean-identity-00991
+    multinational: false
+  pyrenees-solstice-fires:
+    name_en: Summer solstice fire festivals in the Pyrenees
+    name_fr: Les fêtes du feu du solstice d'été dans les Pyrénées
+    list: RL
+    year: 2015
+    url: https://ich.unesco.org/en/RL/summer-solstice-fire-festivals-in-the-pyrenees-01073
+    multinational: true   # Andorra, Spain, France
+  granville-carnival:
+    name_en: Carnival of Granville
+    name_fr: Le carnaval de Granville
+    list: RL
+    year: 2016
+    url: https://ich.unesco.org/en/RL/carnival-of-granville-01077
+    multinational: false
+  grasse-perfume:
+    name_en: "The skills related to perfume in Pays de Grasse: the cultivation of perfume plants, the knowledge and processing of natural raw materials, and the art of perfume composition"
+    name_fr: "Les savoir-faire liés au parfum en Pays de Grasse : la culture de la plante à parfum, la connaissance des matières premières naturelles et leur transformation, l'art de composer le parfum"
+    list: RL
+    year: 2018
+    url: https://ich.unesco.org/en/RL/the-skills-related-to-perfume-in-pays-de-grasse-the-cultivation-of-perfume-plants-the-knowledge-and-processing-of-natural-raw-materials-and-the-art-of-perfume-composition-01207
+    multinational: false
+  alpinism:
+    name_en: Alpinism
+    name_fr: L'alpinisme
+    list: RL
+    year: 2019
+    url: https://ich.unesco.org/en/RL/alpinism-01471
+    multinational: true   # France, Italy, Switzerland
+  cathedral-workshops:
+    name_en: Craft techniques and customary practices of cathedral workshops, or Bauhütten, in Europe, know-how, transmission, development of knowledge and innovation
+    name_fr: Les techniques artisanales et les pratiques coutumières des ateliers de cathédrales, ou "Bauhütten", en Europe, savoir-faire, transmission, développement des savoirs, innovation
+    list: GSP
+    year: 2020
+    url: https://ich.unesco.org/en/BSP/craft-techniques-and-customary-practices-of-cathedral-workshops-or-bauhutten-in-europe-know-how-transmission-development-of-knowledge-and-innovation-01558
+    multinational: true   # Austria, France, Germany, Norway, Switzerland
+  mechanical-watchmaking:
+    name_en: Craftsmanship of mechanical watchmaking and art mechanics
+    name_fr: Les savoir-faire en mécanique horlogère et mécanique d'art
+    list: RL
+    year: 2020
+    url: https://ich.unesco.org/en/RL/craftsmanship-of-mechanical-watchmaking-and-art-mechanics-01560
+    multinational: true   # France, Switzerland
+  horn-players:
+    name_en: Musical art of horn players, an instrumental technique linked to singing, breath control, vibrato, resonance of place and conviviality
+    name_fr: L'art musical des sonneurs de trompe, une technique instrumentale liée au chant, à la maîtrise du souffle, au vibrato, à la résonance des lieux et à la convivialité
+    list: RL
+    year: 2020
+    url: https://ich.unesco.org/en/RL/musical-art-of-horn-players-an-instrumental-technique-linked-to-singing-breath-control-vibrato-resonance-of-place-and-conviviality-01581
+    multinational: true   # Belgium, France, Italy, Luxembourg
+  martinique-yole:
+    name_en: The Martinique yole, from construction to sailing practices, a model for heritage safeguarding
+    name_fr: La yole de Martinique, de la construction aux pratiques de navigation, un modèle de sauvegarde du patrimoine
+    list: GSP
+    year: 2020
+    url: https://ich.unesco.org/en/BSP/the-martinique-yole-from-construction-to-sailing-practices-a-model-for-heritage-safeguarding-01582
+    multinational: false
+  glass-beads:
+    name_en: The art of glass beads
+    name_fr: L'art de la perle de verre
+    list: RL
+    year: 2020
+    url: https://ich.unesco.org/en/RL/the-art-of-glass-beads-01591
+    multinational: true   # France, Italy
+  falconry:
+    name_en: Falconry, a living human heritage
+    name_fr: La fauconnerie, un patrimoine humain vivant
+    list: RL
+    year: 2021   # current extended file; France has been part of it since 2010
+    url: https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708
+    multinational: true   # 24 States
+  tocati:
+    name_en: Tocatì, a shared programme for the safeguarding of traditional games and sports
+    name_fr: Tocatì, un programme partagé pour la sauvegarde des jeux et sports traditionnels
+    list: GSP
+    year: 2022
+    url: https://ich.unesco.org/en/BSP/tocati-a-shared-programme-for-the-safeguarding-of-traditional-games-and-sports-01709
+    multinational: true   # Belgium, Croatia, Cyprus, France, Italy
+  pyrenees-bear-festivities:
+    name_en: Bear festivities in the Pyrenees
+    name_fr: Les fêtes de l’Ours dans les Pyrénées
+    list: RL
+    year: 2022
+    url: https://ich.unesco.org/en/RL/bear-festivities-in-the-pyrenees-01846
+    multinational: true   # Andorra, France
+  baguette:
+    name_en: Artisanal know-how and culture of baguette bread
+    name_fr: Les savoir-faire artisanaux et la culture de la baguette de pain
+    list: RL
+    year: 2022
+    url: https://ich.unesco.org/en/RL/artisanal-know-how-and-culture-of-baguette-bread-01883
+    multinational: false
+  handmade-glass:
+    name_en: Knowledge, craft and skills of handmade glass production
+    name_fr: Connaissances, techniques et savoir-faire du verre artisanal
+    list: RL
+    year: 2023
+    url: https://ich.unesco.org/en/RL/knowledge-craft-and-skills-of-handmade-glass-production-01961
+    multinational: true   # Czechia, Finland, France, Germany, Hungary, Spain
+  transhumance:
+    name_en: Transhumance, the seasonal droving of livestock
+    name_fr: La Transhumance, déplacement saisonnier de troupeaux
+    list: RL
+    year: 2023
+    url: https://ich.unesco.org/en/RL/transhumance-the-seasonal-droving-of-livestock-01964
+    multinational: true   # 10 States incl. France
+  parisian-zinc-roofers:
+    name_en: Skills of Parisian zinc roofers and ornamentalists
+    name_fr: Les savoir-faire des couvreurs-zingueurs parisiens et des ornemanistes
+    list: RL
+    year: 2024
+    url: https://ich.unesco.org/en/RL/skills-of-parisian-zinc-roofers-and-ornamentalists-02105
+    multinational: false
+  dry-stone:
+    name_en: Art of dry stone construction, knowledge and techniques
+    name_fr: "L’art de la construction en pierre sèche : savoir-faire et techniques"
+    list: RL
+    year: 2024   # current extended file; France was already in the 2018 "Art of dry stone walling"
+    url: https://ich.unesco.org/en/RL/art-of-dry-stone-construction-knowledge-and-techniques-02106
+    multinational: true   # 13 States
+  funfair-culture:
+    name_en: Funfair culture
+    name_fr: La culture foraine
+    list: RL
+    year: 2024
+    url: https://ich.unesco.org/en/RL/funfair-culture-02108
+    multinational: true   # Belgium, France
+uncertain:
+  - {id: 2008_67717_INV_PCI_FRANCE_00018, unesco: aubusson-tapestry, why: "Felletin spinning mill supplies tapestry wool; UNESCO mentions spinning only as related work, not as the inscribed craft. Not matched."}
+  - {id: 2008_67717_INV_PCI_FRANCE_00013, unesco: handmade-glass, why: "Daum crystal (pâte de verre) is handmade glass, but the French part of the file rests on the 'gestes des métiers d'art verriers' fiche (00428). Not matched."}
+  - {id: 2008_67717_INV_PCI_FRANCE_00025, unesco: mechanical-watchmaking, why: "Clock restoration workshop in Dinan; horology but outside the Doubs/Jura arc craft the inscription describes. Not matched."}
+  - {id: 2010_67717_INV_PCI_FRANCE_00114, unesco: transhumance, why: "Aramits shepherds' festival marks the return from summer pastures; a related festivity, not a transhumance fiche. Not matched."}
+  - {id: 2013_67717_INV_PCI_FRANCE_00324, unesco: processional-giants, why: "Steenvoorde giants (and other Nord giants fiches: 00323, 00351-00354, 00371) are not among the French towns UNESCO names (Cassel, Douai, Pézenas, Tarascon). Not matched."}
+unmatched: [tocati, transhumance]

@@ -32,7 +32,7 @@ export function parseState(search: string, languages: readonly string[]): State 
   const p = new URLSearchParams(search);
   const month = Number(p.get("month"));
   const radius = Number(p.get("r"));
-  const view = oneOf<View>(p.get("view"), ["inventory", "agenda"], "inventory");
+  const view = oneOf<View>(p.get("view"), ["inventory", "agenda", "resources"], "inventory");
   const themes = (p.get("theme") ?? "")
     .split(",")
     .filter((t): t is Theme => (THEMES as readonly string[]).includes(t));
@@ -44,6 +44,7 @@ export function parseState(search: string, languages: readonly string[]): State 
     month: view === "agenda" && Number.isInteger(month) && month >= 1 && month <= 12 ? month : null,
     zone: oneOf<Zone>(p.get("zone"), ["all", "metro", "overseas"], "all"),
     radiusKm: (RADII as readonly number[]).includes(radius) ? radius : null,
+    unesco: p.get("unesco") === "1",
     sort: oneOf<Sort>(p.get("sort"), SORTS[view], SORTS[view][0]),
     selected: p.get("id"),
     sheet: p.get("id") !== null && p.get("sheet") === "1",
@@ -61,6 +62,7 @@ export function serializeState(state: State, extra: Record<string, string> = {})
   if (state.month !== null) p.set("month", String(state.month));
   if (state.zone !== "all") p.set("zone", state.zone);
   if (state.radiusKm !== null) p.set("r", String(state.radiusKm));
+  if (state.unesco) p.set("unesco", "1");
   if (state.sort !== SORTS[state.view][0]) p.set("sort", state.sort);
   if (state.selected) p.set("id", state.selected);
   if (state.selected && state.sheet) p.set("sheet", "1");

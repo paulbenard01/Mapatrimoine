@@ -3,11 +3,15 @@ audience: general
 questions:
   fr:
     - "Pourquoi, selon vous, la Tarasque fait-elle sans cesse demi-tour pour foncer vers la foule au lieu d'avancer sagement avec le défilé ?"
+    - "Les Tarascaïres doivent faire peur sans jamais toucher personne : que faut-il apprendre, et de qui, pour savoir retenir une bête de 600 kilos au dernier moment ?"
     - "Pourquoi peut-il être délicat de faire revivre aujourd'hui les farces d'autrefois, comme arroser les spectateurs ou les faire tomber avec une corde ?"
+    - "La Tarasque fait partie d'une inscription UNESCO partagée avec des géants de Belgique et du Nord de la France : qu'est-ce que ces fêtes ont en commun, et qu'est-ce que la reconnaissance change pour Tarascon ?"
     - "Quel monstre ou quelle créature de légende est lié à un lieu de votre région, et quelle histoire raconte-t-on à son sujet ?"
   en:
     - "Why do you think the Tarasque keeps turning back to charge at the crowd instead of moving calmly along with the parade?"
+    - "The Tarascaïres must frighten people without ever touching anyone; what must be learnt, and from whom, to hold back a 600-kilo beast at the last moment?"
     - "Why might it be tricky today to revive the old pranks, such as soaking spectators or tripping them up with a rope?"
+    - "The Tarasque belongs to a UNESCO inscription shared with giants from Belgium and northern France; what do these festivals have in common, and what does recognition change for Tarascon?"
     - "Which monster or legendary creature is linked to a place in your region, and what story is told about it?"
 vocabulary:
   - fr: "Tarasque"
@@ -30,5 +34,37 @@ vocabulary:
     en: "pégoulade"
     def_fr: "Ancien défilé nocturne aux flambeaux, abandonné aujourd'hui, où la Tarasque crachait des artifices par les naseaux."
     def_en: "Former night-time torchlit parade, no longer held, in which the Tarasque spouted fireworks from its nostrils."
+  - fr: "virevolte"
+    en: "spin (virevolte)"
+    def_fr: "Jeu où les Tarascaïres lancent la bête puis la laissent tourner seule sur elle-même comme une toupie, prêts à l'arrêter."
+    def_en: "Game in which the Tarascaïres launch the beast and let it spin on its own like a top, ready to stop it."
+  - fr: "Lagadigadeo"
+    en: "Lagadigadeo"
+    def_fr: "Refrain en occitan de la chanson de la Tarasque, chanté par les Tarascaïres ou joué par les musiciens qu'elle croise."
+    def_en: "Occitan refrain of the Tarasque song, sung by the Tarascaïres or played by the bands it meets along the way."
+  - fr: "animal totémique"
+    en: "totem animal"
+    def_fr: "Grande bête de toile ou de bois portée ou poussée dans une fête, qui incarne une ville et son histoire ; le sud de la France en compte des dizaines."
+    def_en: "Large cloth or wooden beast carried or pushed in a festival, embodying a town and its history; southern France has dozens of them."
+context:
+  fr: >-
+    Selon la légende, la Tarasque était un monstre qui terrorisait les bords du Rhône jusqu'à ce que sainte Marthe la dompte. Les jeux de la Tarasque sont attribués au roi René, comte de Provence au XVe siècle ; longtemps irréguliers, ils ont disparu à la fin du XIXe siècle avant d'être rétablis après la Seconde Guerre mondiale, chaque dernier week-end de juin. Le personnage de Tartarin, héros d'Alphonse Daudet, s'y est ajouté à la même époque.
+    Aujourd'hui, la ville et de nombreuses associations organisent quatre jours de fête autour d'un thème qui change chaque année : bénédiction de la Tarasque le vendredi, tour du canton, défilés costumés, courses camarguaises, concerts et grand repas le lundi. La bête, longue de six mètres et lourde d'environ 600 kilos, est poussée à vive allure par ses chevaliers : elle charge, recule, tourne sur elle-même et fait crier petits et grands. Les jeunes Tarascaïres apprennent le métier aux côtés des anciens, parfois de père en fils, et les enfants ont désormais leur propre occasion de la pousser.
+  en: >-
+    According to legend, the Tarasque was a monster that terrorised the banks of the Rhône until Saint Martha tamed it. The Tarasque games are credited to King René, Count of Provence in the 15th century; long irregular, they faded at the end of the 19th century and were revived after the Second World War, every last weekend of June. The character of Tartarin, Alphonse Daudet's hero, joined them at the same time.
+    Today the town and many associations organise four days of festivities around a theme that changes every year: the blessing of the Tarasque on Friday, a tour of the surrounding villages, costumed parades, Camargue bull games, concerts and a big shared meal on Monday. The beast, six metres long and weighing about 600 kilos, is pushed at speed by its knights: it charges, backs off, spins round and makes young and old shriek. Young Tarascaïres learn alongside older ones, sometimes father to son, and children now have their own chance to push it.
+unesco:
+  fr: >-
+    Les Géants et dragons processionnels de Belgique et de France ont été proclamés chefs-d'œuvre par l'UNESCO en 2005, puis intégrés en 2008 à la Liste représentative du patrimoine culturel immatériel de l'humanité. Ce dossier commun aux deux pays réunit des effigies de plusieurs villes belges et, en France, de Cassel, Douai, Pézenas et Tarascon. L'inscription reconnaît des fêtes vivantes qui relient chaque figure à l'histoire et aux légendes de sa ville, et engage les communautés et les États à les transmettre ; elle ne fige pas la fête et ne la place pas au-dessus des autres.
+  en: >-
+    The Processional giants and dragons of Belgium and France were proclaimed masterpieces by UNESCO in 2005, then placed on the Representative List of the Intangible Cultural Heritage of Humanity in 2008. This joint file of the two countries brings together effigies from several Belgian towns and, in France, from Cassel, Douai, Pézenas and Tarascon. The inscription recognises living festivals that tie each figure to its town's history and legends, and commits communities and States to passing them on; it neither freezes the festival nor ranks it above others.
+activity:
+  title_fr: Inventer la créature de sa ville
+  title_en: Invent your town's creature
+  fr: >-
+    Par groupes, imaginez une créature de légende pour votre ville ou votre quartier, inspirée d'un lieu réel (rivière, colline, vieille rue). Dessinez-la, écrivez en dix lignes la légende qui explique son origine, puis fixez les règles de sa sortie annuelle : qui la porte ou la pousse, quel jour, quelle musique, quel jeu avec le public sans danger. Chaque groupe présente sa créature ; discutez ensuite de ce qui fait qu'une fête inventée peut devenir une tradition.
+  en: >-
+    In groups, imagine a legendary creature for your town or neighbourhood, inspired by a real place (a river, a hill, an old street). Draw it, write a ten-line legend explaining where it came from, then set the rules for its yearly outing: who carries or pushes it, on what day, with what music, and what safe game it plays with the crowd. Each group presents its creature; then discuss what it takes for an invented festival to become a tradition.
+  levels: [primary, middle]
 lang_review: draft
 review_status: unreviewed

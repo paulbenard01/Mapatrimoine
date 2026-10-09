@@ -1,0 +1,68 @@
+id: 2008_67717_INV_PCI_FRANCE_00001
+audience: general
+questions:
+  fr:
+    - "Les chantres se tiennent en cercle et certains posent une main sur l'oreille : que permet ce geste quand on chante sans partition ni chef de chœur ?"
+    - "Les trois voix entrent toujours dans le même ordre, la seconda d'abord : que dit cette règle de la confiance entre les chanteurs ?"
+    - "La confrérie de Carbuccia a repris vie en 1995 après une longue interruption : qu'est-ce qui pousse une génération à relancer un chant que ses parents ne pratiquaient plus ?"
+    - "L'UNESCO a placé la paghjella sur une liste de sauvegarde urgente : en quoi cette reconnaissance peut-elle aider des chantres de village, et que ne peut-elle pas faire à leur place ?"
+    - "Avez-vous déjà appris un chant ou une prière uniquement à l'oreille, auprès d'une personne plus âgée ? Qu'en avez-vous retenu ?"
+  en:
+    - "The cantors stand in a circle and some put a hand to their ear; what does this gesture make possible when singing without a score or a conductor?"
+    - "The three voices always come in in the same order, the seconda first; what does this rule say about trust between the singers?"
+    - "The Carbuccia confraternity came back to life in 1995 after a long break; what drives a generation to revive a song its parents no longer practised?"
+    - "UNESCO placed the paghjella on a list for urgent safeguarding; how can this recognition help village cantors, and what can it not do for them?"
+    - "Have you ever learnt a song or a prayer only by ear, from an older person? What did you keep from it?"
+vocabulary:
+  - fr: versu
+    en: versu
+    def_fr: "Manière propre à un village ou à une famille de chanter les mêmes textes ; mot corse jamais vraiment traduit, souvent décrit comme une carte d'identité sonore."
+    def_en: "A village's or a family's own way of singing the same texts; a Corsican word never really translated, often described as a sound identity card."
+  - fr: versu composite
+    en: composite versu
+    def_fr: "Versu qui, en plus de sa propre matrice mélodique, emprunte des tournures à d'autres versi ; c'est le cas à Carbuccia."
+    def_en: "Versu that borrows turns of melody from other versi on top of its own melodic pattern, as in Carbuccia."
+  - fr: a seconda
+    en: seconda
+    def_fr: "Voix principale, qui commence toujours le chant ; sa première note fixe la hauteur sur laquelle les autres voix vont se placer."
+    def_en: "Main voice, which always starts the song; its first note sets the pitch on which the other voices will settle."
+  - fr: u bassu
+    en: bassu
+    def_fr: "Voix grave, qui entre en deuxième et soutient la seconda."
+    def_en: "Low voice, which comes in second and supports the seconda."
+  - fr: a terza
+    en: terza
+    def_fr: "Voix la plus aiguë, qui entre en dernier et orne l'ensemble."
+    def_en: "Highest voice, which comes in last and adorns the whole."
+  - fr: riccucata
+    en: riccucata
+    def_fr: "Ornement vocal, petite inflexion autour de notes de passage qui ouvre la place aux autres voix ; c'est souvent à elle qu'on reconnaît un chanteur."
+    def_en: "Vocal ornament, a small inflection around passing notes that makes room for the other voices; a singer is often recognised by it."
+  - fr: confrérie
+    en: confraternity
+    def_fr: "Association de laïcs catholiques qui prient ensemble, animent les offices et les processions et, en Corse, portent une grande part du chant sacré."
+    def_en: "Association of Catholic lay people who pray together and lead services and processions; in Corsica they carry much of the sacred singing."
+  - fr: prieur
+    en: prior
+    def_fr: "Responsable de la confrérie ; à Carbuccia, c'est lui qui transmet oralement le répertoire aux nouveaux chantres, pendant au moins deux ans."
+    def_en: "Head of the confraternity; in Carbuccia he passes the repertoire on orally to new cantors, over at least two years."
+context:
+  fr: >-
+    Carbuccia est un village de la vallée de la Gravona, en Corse-du-Sud. Sa confrérie, fondée au XVIe siècle, a cessé de fonctionner après la Seconde Guerre mondiale puis a été remise en activité en 1995. Ses chantres y interprètent en paghjella, chant d'hommes a cappella à trois voix, les messes des vivants et des morts et les offices de la Semaine sainte, sur des textes en latin et en grec. Les voix entrent l'une après l'autre et se croisent en écho plutôt qu'à l'unisson ; les chanteurs se placent en cercle pour s'entendre sans partition ni diapason. Le versu de Carbuccia est dit « composite » : il ajoute à sa propre ligne mélodique des emprunts à d'autres villages. Le prieur l'enseigne de bouche à oreille, surtout pendant la Semaine sainte, dans l'église et l'oratoire de la confrérie ; l'ancien répertoire est peu à peu repris et enregistré.
+  en: >-
+    Carbuccia is a village in the Gravona valley, in Corse-du-Sud. Its confraternity, founded in the 16th century, stopped working after the Second World War and was revived in 1995. Its cantors sing the masses for the living and the dead and the Holy Week services in paghjella, an unaccompanied three-voice male song, on texts in Latin and Greek. The voices come in one after the other and cross like echoes rather than in unison; the singers stand in a circle to hear each other without score or tuning fork. The Carbuccia versu is called "composite": it adds borrowings from other villages to its own melodic line. The prior teaches it by ear, mostly during Holy Week, in the church and the confraternity's oratory; the old repertoire is gradually being taken up again and recorded.
+unesco:
+  fr: >-
+    Le cantu in paghjella profane et liturgique de Corse est inscrit depuis 2009 sur la Liste du patrimoine culturel immatériel nécessitant une sauvegarde urgente. Le dossier, porté par la France seule, couvre la paghjella de toute l'île, dont les versi de villages comme Carbuccia. Cette liste ne distingue pas un chant « meilleur » que d'autres : elle signale une pratique vivante dont la transmission est menacée, ici par le départ des jeunes et l'appauvrissement du répertoire. L'État s'engage à mettre en œuvre un plan de sauvegarde avec les chanteurs et à en rendre compte régulièrement à l'UNESCO.
+  en: >-
+    Cantu in paghjella, a secular and liturgical oral tradition of Corsica, has been on the List of Intangible Cultural Heritage in Need of Urgent Safeguarding since 2009. The file, submitted by France alone, covers paghjella across the whole island, including village versi such as Carbuccia's. This list does not single out a "better" song: it flags a living practice whose transmission is under threat, here from young people leaving and a shrinking repertoire. The State commits to carrying out a safeguarding plan with the singers and to reporting regularly to UNESCO.
+activity:
+  title_fr: Chanter en cercle, l'oreille dans la main
+  title_en: Singing in a circle, hand to ear
+  fr: >-
+    Écoutez d'abord un court enregistrement de paghjella en repérant l'ordre d'entrée des trois voix. Formez ensuite des cercles de trois. Sur une simple voyelle, un élève tient une note (la seconda), un deuxième entre plus bas, un troisième plus haut. Essayez une fois en ligne, face à la classe, puis en cercle, une main en coque derrière l'oreille. Comparez : qu'entend-on mieux ? Pour finir, chaque groupe invente un signe discret pour lancer et arrêter le chant sans chef.
+  en: >-
+    First listen to a short paghjella recording and note the order in which the three voices come in. Then form circles of three. On a single vowel, one pupil holds a note (the seconda), a second joins lower, a third higher. Try it once in a line facing the class, then in a circle with one hand cupped behind the ear. Compare: what can you hear better? To finish, each group invents a discreet sign to start and stop the song without a conductor.
+  levels: [primary, middle, high]
+lang_review: draft
+review_status: unreviewed

@@ -88,6 +88,16 @@ export interface InventoryEntry {
   summary?: Summary;
   summary_source?: { publisher: string; url: string };
   review_status?: "unreviewed" | "reviewed";
+  /** Inscription on a UNESCO intangible heritage list that this element is (part of). */
+  unesco?: Unesco | null;
+}
+
+export interface Unesco {
+  name_en: string;
+  name_fr: string | null;
+  list: "RL" | "USL" | "GSP";
+  year: number;
+  url: string;
 }
 
 export interface VocabularyTerm {
@@ -102,9 +112,15 @@ export interface MediationSheet {
   audience: "general" | "school" | "family";
   questions: { fr: string[]; en: string[] };
   vocabulary: VocabularyTerm[];
+  /** Extended sheets (elements inscribed by UNESCO). */
+  context?: { fr: string; en: string };
+  unesco?: { fr: string; en: string };
+  activity?: { title_fr: string; title_en: string; fr: string; en: string; levels: Level[] };
   lang_review: "draft" | "reviewed";
   review_status: "unreviewed" | "reviewed";
 }
+
+export type Level = "primary" | "middle" | "high" | "university" | "adult";
 
 /** An event listed by a tourist office in DATAtourisme and matched to a documented element (M5). */
 export interface AnnouncedEvent {

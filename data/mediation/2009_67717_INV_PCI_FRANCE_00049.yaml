@@ -1,0 +1,68 @@
+id: 2009_67717_INV_PCI_FRANCE_00049
+audience: general
+questions:
+  fr:
+    - "Le charpentier trace d'abord toute la charpente au sol, grandeur nature, avant de tailler une seule pièce : pourquoi dessiner avant de construire ?"
+    - "Avec un compas et un cordeau, on peut obtenir des formes que les chiffres rendent mal : que gagne-t-on à raisonner avec des tracés plutôt qu'avec des calculs ?"
+    - "Chez les compagnons, progresser dans le trait, c'est aussi progresser comme personne : comment un savoir technique peut-il devenir une école de caractère ?"
+    - "Les machines à commande numérique taillent désormais les pièces à partir d'un fichier : faut-il encore apprendre le trait à la main, et que perdrait-on à l'abandonner ?"
+    - "Avez-vous déjà monté un meuble ou une maquette dont les pièces devaient s'emboîter du premier coup ? Qu'est-ce qui a rendu cela possible, ou impossible ?"
+  en:
+    - "The carpenter first draws the whole frame full size on the floor before cutting a single piece; why draw before building?"
+    - "With a compass and a chalk line you can get shapes that numbers handle poorly; what do you gain by reasoning with drawings rather than calculations?"
+    - "Among the compagnons, progressing in layout drawing also means growing as a person; how can a technical skill become a school of character?"
+    - "Computer-controlled machines now cut the timbers from a file; should layout still be learnt by hand, and what would be lost by giving it up?"
+    - "Have you ever assembled furniture or a model whose parts had to fit together first time? What made that possible, or impossible?"
+vocabulary:
+  - fr: trait de charpente
+    en: carpentry layout
+    def_fr: "Ensemble des méthodes de dessin géométrique qui permettent de déterminer la forme exacte de chaque pièce d'une charpente avant de la tailler."
+    def_en: "Set of geometric drawing methods used to work out the exact shape of every timber in a frame before cutting it."
+  - fr: épure
+    en: working drawing
+    def_fr: "Dessin précis de la charpente, à l'échelle ou grandeur nature, d'où l'on relève les longueurs, les angles et les coupes."
+    def_en: "Precise drawing of the frame, to scale or full size, from which lengths, angles and cuts are taken."
+  - fr: aire d'épure
+    en: layout floor
+    def_fr: "Grand plancher ou sol maçonné, généralement couvert, sur lequel on trace l'épure en vraie grandeur."
+    def_en: "Large wooden or masonry floor, usually under cover, on which the working drawing is laid out full size."
+  - fr: rabattement
+    en: folding down
+    def_fr: "Opération qui consiste à faire pivoter un plan incliné sur le dessin pour en lire les dimensions réelles."
+    def_en: "Operation that swings an inclined plane down onto the drawing so its real dimensions can be read."
+  - fr: vraie grandeur
+    en: true length
+    def_fr: "Dimension réelle d'une pièce ou d'une surface, que le dessin en plan ne montre pas directement quand elle est inclinée."
+    def_en: "Real size of a timber or surface, which a plan view does not show directly when it is inclined."
+  - fr: cordeau
+    en: chalk line
+    def_fr: "Ficelle tendue, parfois enduite de craie, qui sert à tracer de longues lignes droites sur le sol ou sur le bois."
+    def_en: "Stretched string, sometimes coated with chalk, used to mark long straight lines on the floor or on timber."
+  - fr: levage
+    en: raising
+    def_fr: "Moment où les pièces préparées au sol sont montées et assemblées à leur place définitive, sur le bâtiment."
+    def_en: "Moment when the timbers prepared on the ground are lifted and assembled in their final place on the building."
+  - fr: chef-d'œuvre
+    en: masterpiece
+    def_fr: "Maquette en bois aux assemblages complexes, taillée d'après une épure, par laquelle un charpentier démontre sa maîtrise du trait."
+    def_en: "Wooden model with complex joints, cut from a working drawing, by which a carpenter shows mastery of layout."
+context:
+  fr: >-
+    Le trait de charpente rassemble des méthodes de dessin utilisées en France depuis le XIIIe siècle pour représenter avec exactitude les volumes d'un bâtiment, leurs rencontres et chacune des pièces de bois qui les composent. À partir de l'épure, tracée à l'échelle ou en vraie grandeur sur une aire couverte, le charpentier prépare au sol toutes les pièces, même les plus complexes, en sachant qu'elles s'emboîteront au moment du levage. Ce savoir s'enseigne à part, distinct de l'architecture ; il s'exerce sur des maquettes et des chefs-d'œuvre en bois. Les compagnons du Tour de France lui donnent aussi un sens symbolique, lié à leurs étapes d'initiation. La fiche le décrit dans une entreprise de charpente en chêne de Champagne-Ardenne, tournée vers la restauration. Le trait reste enseigné dans les centres de compagnons, des lycées professionnels et des entreprises, mais la généralisation des machines numériques fait craindre son recul.
+  en: >-
+    Carpentry layout gathers drawing methods used in France since the 13th century to represent exactly the volumes of a building, where they meet, and each of the timbers that make them up. From the working drawing, laid out to scale or full size on a covered floor, the carpenter prepares every piece on the ground, even the most complex, knowing it will fit at the raising. This knowledge is taught separately from architecture and is practised on wooden models and masterpieces. The compagnons of the Tour de France also give it a symbolic meaning linked to their stages of initiation. The fiche describes it in an oak-framing business in Champagne-Ardenne focused on restoration. Layout is still taught in compagnon centres, vocational schools and firms, but the spread of computer-controlled machines raises fears of its decline.
+unesco:
+  fr: >-
+    La tradition du tracé dans la charpente française est inscrite depuis 2009 sur la Liste représentative du patrimoine culturel immatériel de l'humanité, dans un dossier présenté par la France seule. Elle concerne les charpentiers, et en particulier les compagnons, qui pratiquent et enseignent ce savoir dans des dizaines de centres de formation et d'entreprises. L'UNESCO n'y protège aucun bâtiment : elle reconnaît une manière de penser et de préparer la construction, transmise par la pratique, et engage à en assurer l'enseignement et la transmission face aux nouvelles technologies.
+  en: >-
+    The scribing tradition in French timber framing has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2009, in a file presented by France alone. It concerns carpenters, and the compagnons in particular, who practise and teach this knowledge in dozens of training centres and firms. UNESCO protects no building here: it recognises a way of thinking about and preparing construction, passed on through practice, and commits to keeping it taught and transmitted in the face of new technologies.
+activity:
+  title_fr: Une maquette de toit tirée de l'épure
+  title_en: A roof model drawn from the layout
+  fr: >-
+    Sur une feuille, dessinez en plan le toit d'une petite maison rectangulaire à quatre pentes (vu d'en haut, ses arêtes forment des diagonales). Choisissez une hauteur de faîtage, puis, par rabattement au compas et à la règle, tracez chaque pan en vraie grandeur. Découpez les quatre pans dans du carton, sans retoucher les mesures, et assemblez-les au ruban adhésif. Le toit se ferme-t-il du premier coup ? Comparez les maquettes, repérez les écarts et cherchez d'où vient l'erreur.
+  en: >-
+    On a sheet of paper, draw the plan of a small rectangular house with a four-sided hipped roof (seen from above, its ridges form diagonals). Choose a ridge height, then, by folding down with compass and ruler, draw each roof face at true size. Cut the four faces out of card, without adjusting the measurements, and tape them together. Does the roof close first time? Compare the models, spot the gaps and work out where the error comes from.
+  levels: [middle, high, university]
+lang_review: draft
+review_status: unreviewed

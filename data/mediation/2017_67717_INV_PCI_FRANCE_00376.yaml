@@ -2,33 +2,71 @@ id: 2017_67717_INV_PCI_FRANCE_00376
 audience: general
 questions:
   fr:
-    - "Que montre, selon vous, l'image des équipiers avancés au bout de leurs bois au-dessus de la mer pour faire contrepoids au vent ?"
+    - Que montre, selon vous, l'image des équipiers avancés au bout de leurs bois au-dessus de la mer pour faire contrepoids au vent ?
+    - Les charpentiers construisent la coque sans plan, avec des gestes appris en famille ; que perd-on et que gagne-t-on quand un savoir-faire passe par l'œil et la main plutôt que par l'écrit ?
     - "Autrefois bateau de pêche, la yole est devenue une embarcation de course suivie par toute l'île : que gagne et que risque un savoir-faire quand il devient un sport et un spectacle ?"
-    - "Quel bateau, sport ou savoir-faire lié à l'eau fait la fierté de votre région ?"
+    - L'UNESCO présente la sauvegarde de la yole comme un modèle à partager ; quelles idées d'autres traditions menacées pourraient-elles y puiser ?
+    - Quel bateau, sport ou savoir-faire lié à l'eau fait la fierté de votre région ?
   en:
-    - "What do you think the sight of crew members far out on their poles above the sea, balancing against the wind, tells us?"
+    - What do you think the sight of crew members far out on their poles above the sea, balancing against the wind, tells us?
+    - Boatbuilders make the hull without plans, using skills learnt in the family; what is lost and what is gained when a skill passes through eye and hand rather than writing?
     - "Once a fishing boat, the yole has become a racing boat followed by the whole island: what does a skill gain, and risk, when it turns into a sport and a show?"
-    - "Which boat, water sport or maritime skill is the pride of your own region?"
+    - UNESCO presents the safeguarding of the yole as a model to share; what ideas could other endangered traditions draw from it?
+    - Which boat, water sport or maritime skill is the pride of your own region?
 vocabulary:
   - fr: bois dressé
     en: bwa dressé
-    def_fr: "Long bois calé contre la coque, sur lequel l'équipier s'avance plus ou moins loin selon la force du vent ; par extension, l'équipier lui-même."
-    def_en: "Long pole wedged against the hull, along which a crew member moves further out as the wind strengthens; by extension, the crew member too."
+    def_fr: Long bois calé contre la coque, sur lequel l'équipier s'avance plus ou moins loin selon la force du vent ; par extension, l'équipier lui-même.
+    def_en: Long pole wedged against the hull, along which a crew member moves further out as the wind strengthens; by extension, the crew member too.
   - fr: patron
     en: skipper
     def_fr: "Seul maître à bord : il choisit l'équipage et la voile et dirige la yole à la pagaie, car elle n'a pas de gouvernail."
     def_en: "The only master on board: the skipper picks the crew and sail and steers with a paddle, as the yole has no rudder."
   - fr: charpentier de marine
     en: boatbuilder
-    def_fr: "Artisan, souvent marin-pêcheur, qui construit la coque en bois massif sans plan ni maquette, avec des gestes transmis en famille."
-    def_en: "Craftsman, often a fisherman, who builds the solid-wood hull with no plans or model, using skills handed down in the family."
+    def_fr: Artisan, souvent marin-pêcheur, qui construit la coque en bois massif sans plan ni maquette, avec des gestes transmis en famille.
+    def_en: Craftsman, often a fisherman, who builds the solid-wood hull with no plans or model, using skills handed down in the family.
   - fr: gommier
     en: gommier
-    def_fr: "Embarcation des Caraïbes, du nom de l'arbre dans lequel elle était taillée ; trop instable sous une grande voile, elle a laissé place à la yole."
-    def_en: "Caribbean boat named after the tree it was carved from; too unstable under a large sail, it gave way to the yole."
+    def_fr: Embarcation des Caraïbes, du nom de l'arbre dans lequel elle était taillée ; trop instable sous une grande voile, elle a laissé place à la yole.
+    def_en: Caribbean boat named after the tree it was carved from; too unstable under a large sail, it gave way to the yole.
   - fr: Tour des yoles
     en: Tour des yoles
-    def_fr: "Course de yoles en plusieurs étapes autour de la Martinique, grand rendez-vous sportif et culturel que le public suit le long des côtes."
-    def_en: "Multi-stage yole race around Martinique, a major sporting and cultural event that spectators follow along the coast."
+    def_fr: Course de yoles en plusieurs étapes autour de la Martinique, grand rendez-vous sportif et culturel que le public suit le long des côtes.
+    def_en: Multi-stage yole race around Martinique, a major sporting and cultural event that spectators follow along the coast.
+  - fr: premier corde
+    en: first rope man
+    def_fr: Équipier placé tout à l'avant, attaché au mât, qui annonce au patron les rafales, les changements de vent et la position des bouées.
+    def_en: Crew member at the very front, tied to the mast, who warns the skipper of gusts, wind shifts and the position of the buoys.
+  - fr: écopeur
+    en: bailer
+    def_fr: Équipier chargé de vider régulièrement l'eau qui entre dans la coque pendant la course.
+    def_en: Crew member whose job is to keep bailing out the water that comes into the hull during a race.
+  - fr: bébé-yole
+    en: baby yole
+    def_fr: Yole plus petite, d'un peu plus de six mètres, sur laquelle courent notamment les jeunes ; une course sur deux environ leur est réservée.
+    def_en: Smaller yole, just over six metres long, raced especially by young people; about half the races each year are for them.
+context:
+  fr: >-
+    La yole ronde est un voilier traditionnel de Martinique, sans quille, sans lest ni gouvernail, long d'environ dix mètres. Héritière de techniques venues des peuples amérindiens, d'Afrique et d'Europe, elle servait d'abord aux marins-pêcheurs pour pêcher et transporter. Les pêcheurs ont commencé à faire la course pour rentrer les premiers au port, puis les communes ont organisé des régates lors de leurs fêtes.
+
+    Pour tenir debout ce bateau très instable, des équipiers, les « bois dressés », s'avancent au-dessus de l'eau sur de longs leviers de bois, tandis que le patron gouverne à la pagaie. Les coques sont encore construites en bois massif, sans plan, par des charpentiers de marine. Aujourd'hui, la yole est un sport amateur, organisé en associations et en fédération ; ses régates, surtout sur la côte atlantique, sont suivies avec passion par toute l'île.
+  en: >-
+    The yole ronde is a traditional sailing boat from Martinique, about ten metres long, with no keel, no ballast and no rudder. Heir to techniques brought by Amerindian, African and European peoples, it was first used by fishermen for fishing and transport. Fishermen began racing to be first back to shore, and then towns organised regattas during their festivals.
+
+    To keep this very unstable boat upright, crew members called "bois dressés" move out over the water on long wooden levers, while the skipper steers with a paddle. Hulls are still built from solid wood, without plans, by local boatbuilders. Today the yole is an amateur sport, organised in associations and a federation; its regattas, mostly on the Atlantic coast, are followed passionately by the whole island.
+unesco:
+  fr: >-
+    Depuis 2020, la yole de Martinique figure sur le Registre des bonnes pratiques de sauvegarde de l'UNESCO, une liste différente de la Liste représentative. Le dossier, présenté par la France seule, ne récompense pas le bateau lui-même mais le programme de sauvegarde mis en place par les Martiniquais : quand les embarcations à moteur ont remplacé les yoles, au milieu du XXe siècle, les pêcheurs puis les associations ont relancé les courses, la construction et la transmission. Cette inscription signale une démarche qui peut inspirer d'autres communautés.
+  en: >-
+    Since 2020 the Martinique yole has been on UNESCO's Register of Good Safeguarding Practices, a different list from the Representative List. The file, submitted by France alone, does not reward the boat itself but the safeguarding programme built by Martinicans: when motorboats replaced yoles in the mid-20th century, fishermen and then associations revived the races, the building and the passing on of skills. This inscription points to an approach that can inspire other communities.
+activity:
+  title_fr: L'expérience du levier
+  title_en: The lever experiment
+  fr: >-
+    Posez une règle de 30 cm en équilibre sur un crayon. D'un côté, placez une gomme qui représente la force du vent dans la voile. De l'autre, déplacez une pièce de monnaie : l'équipier sur son bois. Notez à quelle distance la pièce équilibre la gomme, puis ajoutez une deuxième gomme (le vent forcit) et cherchez la nouvelle position. Dessinez vos résultats et expliquez avec vos mots pourquoi les bois dressés s'avancent plus loin quand le vent souffle fort.
+  en: >-
+    Balance a 30 cm ruler on a pencil. On one side put an eraser, standing for the wind in the sail. On the other, move a coin along: the crew member on his pole. Note how far out the coin must be to balance the eraser, then add a second eraser (the wind gets stronger) and find the new position. Draw your results and explain in your own words why the bois dressés move further out when the wind blows hard.
+  levels: [primary, middle]
 lang_review: draft
 review_status: unreviewed

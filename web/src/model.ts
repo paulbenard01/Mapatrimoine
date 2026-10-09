@@ -2,22 +2,24 @@
 import { daysBetween, isMovableFeast, isOngoing, nextOccurrence, type Occurrence } from "./recurrence";
 import type { Element, InventoryEntry, Location, Theme } from "./types";
 
-export type View = "inventory" | "agenda";
+export type View = "inventory" | "agenda" | "resources";
 export type Zone = "all" | "metro" | "overseas";
 export type Sort = "name" | "year" | "date" | "distance";
 
 export const SORTS: Record<View, Sort[]> = {
   inventory: ["name", "year", "distance"],
   agenda: ["date", "distance"],
+  resources: ["name"],
 };
 
 export interface Filters {
   view: View;
-  q: string; // inventory search (the agenda view has no search box)
+  q: string; // search titles and summaries (every view)
   themes: Theme[]; // empty = all
   month: number | null; // 1-12, agenda only
   zone: Zone; // applies to located elements only
   radiusKm: number | null; // only applied when a position is known
+  unesco: boolean; // only elements inscribed on a UNESCO list
 }
 
 export interface Position {
@@ -128,7 +130,8 @@ function matches(item: Item, f: Filters, position: Position | null, skip: Skip =
   const { entry, element } = item;
   if (f.view === "agenda" && element?.kind !== "event") return false;
   if (!skip.themes && f.themes.length && !entry.themes.some((t) => f.themes.includes(t))) return false;
-  if (f.view === "inventory" && f.q.trim()) {
+  if (f.unesco && !entry.unesco) return false;
+  if (f.q.trim()) {
     const words = fold(f.q).split(/\s+/).filter(Boolean);
     // Titles and summaries in both languages, so "dance" or "danse" finds the same elements.
     const summary = element?.summary ?? entry.summary;

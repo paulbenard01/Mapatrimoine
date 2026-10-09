@@ -3,11 +3,15 @@ audience: general
 questions:
   fr:
     - "Pourquoi, selon vous, le meneur fait-il semblant d'offrir de l'avoine au Poulain dans son tambourin, et qui commande vraiment l'animal ?"
+    - "Neuf porteurs invisibles marchent du même pas sous la toile en voyant à peine devant eux : comment apprend-on ce rôle, et pourquoi certains parlent-ils d'une initiation ?"
     - "Comment faire vivre des danses et des chansons de carnaval en occitan quand la langue se transmet moins et que le soufflet a quitté les maisons ?"
+    - "Le Poulain partage une inscription UNESCO avec la Tarasque et des géants du Nord et de Belgique : qu'est-ce que cette reconnaissance apporte à une fête qui appartient d'abord aux Piscénois ?"
     - "À quelles occasions, dans votre ville ou votre région, peut-on se moquer publiquement des élus et de la vie locale ?"
   en:
     - "Why do you think the leader pretends to offer the Poulain oats in his tambourine, and who really controls the animal?"
+    - "Nine unseen bearers walk in step under the cloth, barely able to see ahead; how is this role learnt, and why do some describe it as an initiation?"
     - "How can carnival dances and songs in Occitan stay alive when fewer people learn the language and bellows are no longer found at home?"
+    - "The Poulain shares a UNESCO inscription with the Tarasque and with giants from northern France and Belgium; what does this recognition bring to a festival that belongs first to the people of Pézenas?"
     - "On what occasions, in your town or region, is it acceptable to poke fun at local politicians and local life in public?"
 vocabulary:
   - fr: "Poulain"
@@ -30,5 +34,37 @@ vocabulary:
     en: "bufatièra (bellows dance)"
     def_fr: "Danse des Soufflets : en file, chaque danseur souffle avec un soufflet sur le derrière de celui qui le précède."
     def_en: "The bellows dance: in a line, each dancer puffs air with bellows at the backside of the person in front."
+  - fr: "porteurs"
+    en: "bearers"
+    def_fr: "Les neuf hommes cachés sous le Poulain, sanglés dans des harnais, qui marchent du même pied pour porter ses quelque 360 kilos."
+    def_en: "The nine men hidden under the Poulain, strapped into harnesses, who walk in step to carry its roughly 360 kilos."
+  - fr: "Air du Poulain"
+    en: "Poulain tune"
+    def_fr: "Mélodie propre à l'animal, jouée par une vingtaine de fifres, tambours et grosses caisses ; l'entendre annonce que le Poulain va sortir."
+    def_en: "The animal's own melody, played by some twenty fifes, side drums and bass drums; hearing it means the Poulain is about to come out."
+  - fr: "rigaudon"
+    en: "rigaudon"
+    def_fr: "Passage vif de la musique où le meneur, les porteurs et la foule lancent les jambes en l'air au même rythme."
+    def_en: "Lively section of the music in which the leader, the bearers and the crowd all kick their legs high to the same beat."
+context:
+  fr: >-
+    À Pézenas, dans l'Hérault, le carnaval s'étale sur plusieurs journées. Il s'ouvre avec la fête de la Saint-Blaise, autour du 3 février, rétablie en 2006 après plus d'un siècle d'oubli. Viennent ensuite le spectacle des Machous, où des habitants se moquent de la vie politique locale, le charivari du lundi animé par des jeunes, avec les danses des Soufflets et du Feu aux fesses, puis le carnaval des enfants. Le sommet est le Mardi gras, quand le Poulain sort de la cour de l'hôtel de ville, l'après-midi puis le soir, au son des fifres et des tambours, suivi d'une foule costumée.
+    Une légende, apparue au début du XVIIIe siècle et contestée par les historiens, relie le Poulain à un séjour du roi Louis VIII en 1226. L'animal est l'un des plus anciens des animaux totémiques du Midi. Sa carcasse, désormais en aluminium, garde les dimensions anciennes pour passer dans les ruelles. Le soir, quand il rentre dans son local, on chante encore un adieu au carnaval en occitan, même si les plus jeunes en connaissent moins les paroles.
+  en: >-
+    In Pézenas, in the Hérault, carnival spreads over several days. It opens with the Saint Blaise festival around 3 February, revived in 2006 after more than a century. Then come the Machous show, in which residents poke fun at local politics, the Monday charivari run by young people with the bellows dance and other carnival dances, and the children's carnival. The high point is Shrove Tuesday, when the Poulain leaves the town-hall courtyard in the afternoon and again at night, to fifes and drums, followed by a costumed crowd.
+    A legend that appeared in the early 18th century, and which historians dispute, links the Poulain to a stay by King Louis VIII in 1226. The animal is one of the oldest totem animals of southern France. Its frame, now made of aluminium, keeps the old dimensions so it can pass through the narrow streets. At night, when it goes back to its shelter, people still sing a farewell to carnival in Occitan, though the young know fewer of the words.
+unesco:
+  fr: >-
+    Le Poulain fait partie des Géants et dragons processionnels de Belgique et de France, proclamés chefs-d'œuvre par l'UNESCO en 2005 puis intégrés en 2008 à la Liste représentative du patrimoine culturel immatériel de l'humanité. Ce dossier commun aux deux pays réunit des effigies de plusieurs villes belges et, en France, de Cassel, Douai, Pézenas et Tarascon. L'inscription reconnaît des fêtes vivantes portées par les habitants et engage communautés et États à les transmettre ; elle ne transforme pas le carnaval en spectacle figé.
+  en: >-
+    The Poulain is one of the Processional giants and dragons of Belgium and France, proclaimed masterpieces by UNESCO in 2005 and placed on the Representative List of the Intangible Cultural Heritage of Humanity in 2008. This joint file of the two countries brings together effigies from several Belgian towns and, in France, from Cassel, Douai, Pézenas and Tarascon. The inscription recognises living festivals carried by local people and commits communities and States to passing them on; it does not turn the carnival into a frozen show.
+activity:
+  title_fr: Guider le Poulain
+  title_en: Guiding the Poulain
+  fr: >-
+    Dans la cour ou le gymnase, formez des équipes de cinq : quatre « porteurs » en file, mains sur les épaules, et un « meneur ». Seul le premier porteur garde les yeux ouverts, en regardant à travers ses mains en lunettes ; les autres les ferment. Sans parler, le meneur guide l'équipe autour de quelques plots en frappant un rythme et en faisant des gestes. Changez les rôles, puis discutez : qu'est-ce qui permet d'avancer ensemble, et que ressent-on à l'intérieur de la bête ?
+  en: >-
+    In the playground or gym, form teams of five: four "bearers" in a line with hands on shoulders, and one "leader". Only the first bearer keeps their eyes open, looking through their hands like goggles; the others close theirs. Without speaking, the leader steers the team around a few cones by clapping a rhythm and using gestures. Swap roles, then discuss: what lets the team move together, and what does it feel like inside the beast?
+  levels: [primary, middle, high]
 lang_review: draft
 review_status: unreviewed

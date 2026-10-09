@@ -2,52 +2,199 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/paulbenard01/Mapatrimoine/schema/mediation.schema.json",
   "title": "PCI Map mediation sheet",
-  "description": "Content of the printable bilingual mediation sheet of one inventory element (data/mediation/<id>.yaml). Written for this site; drafts until Paul reviews them.",
+  "description": "Content of the printable bilingual mediation sheet of one inventory element (data/mediation/<id>.yaml). Standard sheets have 3 questions and 5 terms; sheets for elements inscribed by UNESCO are extended (5 questions, 8 terms, context, UNESCO and activity sections), checked by pci.mediation. Written for this site; drafts until Paul reviews them.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "audience", "questions", "vocabulary", "lang_review", "review_status"],
+  "required": [
+    "id",
+    "audience",
+    "questions",
+    "vocabulary",
+    "lang_review",
+    "review_status"
+  ],
   "properties": {
-    "id": {"type": "string", "pattern": "^\\d{4}_\\d+_INV_PCI_FRANCE_\\d{5}$"},
+    "id": {
+      "type": "string",
+      "pattern": "^\\d{4}_\\d+_INV_PCI_FRANCE_\\d{5}$"
+    },
     "audience": {
       "description": "Who the questions are pitched at.",
-      "enum": ["general", "school", "family"]
+      "enum": [
+        "general",
+        "school",
+        "family"
+      ]
     },
     "questions": {
-      "description": "Three open discussion questions, the same three in each language.",
+      "description": "Open discussion questions, the same ones in each language (3, or 5 on extended sheets).",
       "type": "object",
       "additionalProperties": false,
-      "required": ["fr", "en"],
+      "required": [
+        "fr",
+        "en"
+      ],
       "properties": {
-        "fr": {"$ref": "#/$defs/three"},
-        "en": {"$ref": "#/$defs/three"}
-      }
-    },
-    "vocabulary": {
-      "description": "Five terms needed to talk about the element, each defined in both languages.",
-      "type": "array",
-      "minItems": 5,
-      "maxItems": 5,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["fr", "en", "def_fr", "def_en"],
-        "properties": {
-          "fr": {"type": "string", "minLength": 2, "maxLength": 60},
-          "en": {"type": "string", "minLength": 2, "maxLength": 60},
-          "def_fr": {"type": "string", "minLength": 10, "maxLength": 240},
-          "def_en": {"type": "string", "minLength": 10, "maxLength": 240}
+        "fr": {
+          "$ref": "#/$defs/questions"
+        },
+        "en": {
+          "$ref": "#/$defs/questions"
         }
       }
     },
-    "lang_review": {"enum": ["draft", "reviewed"]},
-    "review_status": {"enum": ["unreviewed", "reviewed"]}
+    "vocabulary": {
+      "description": "Terms needed to talk about the element, each defined in both languages (5, or 8 on extended sheets).",
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "fr",
+          "en",
+          "def_fr",
+          "def_en"
+        ],
+        "properties": {
+          "fr": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 60
+          },
+          "en": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 60
+          },
+          "def_fr": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 240
+          },
+          "def_en": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 240
+          }
+        }
+      }
+    },
+    "context": {
+      "description": "Extended sheets: history and context in own words (one or two paragraphs).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "string",
+          "minLength": 250,
+          "maxLength": 1100
+        },
+        "en": {
+          "type": "string",
+          "minLength": 250,
+          "maxLength": 1100
+        }
+      }
+    },
+    "unesco": {
+      "description": "Extended sheets: what the UNESCO inscription covers, when, and what it means for the bearers, in own words.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "string",
+          "minLength": 150,
+          "maxLength": 800
+        },
+        "en": {
+          "type": "string",
+          "minLength": 150,
+          "maxLength": 800
+        }
+      }
+    },
+    "activity": {
+      "description": "Extended sheets: one hands-on activity for a class or group.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title_fr",
+        "title_en",
+        "fr",
+        "en",
+        "levels"
+      ],
+      "properties": {
+        "title_fr": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 80
+        },
+        "title_en": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 80
+        },
+        "fr": {
+          "type": "string",
+          "minLength": 150,
+          "maxLength": 800
+        },
+        "en": {
+          "type": "string",
+          "minLength": 150,
+          "maxLength": 800
+        },
+        "levels": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "primary",
+              "middle",
+              "high",
+              "university",
+              "adult"
+            ]
+          }
+        }
+      }
+    },
+    "lang_review": {
+      "enum": [
+        "draft",
+        "reviewed"
+      ]
+    },
+    "review_status": {
+      "enum": [
+        "unreviewed",
+        "reviewed"
+      ]
+    }
   },
   "$defs": {
-    "three": {
+    "questions": {
       "type": "array",
       "minItems": 3,
-      "maxItems": 3,
-      "items": {"type": "string", "minLength": 15, "maxLength": 240, "pattern": "\\?$"}
+      "maxItems": 5,
+      "items": {
+        "type": "string",
+        "minLength": 15,
+        "maxLength": 240,
+        "pattern": "\\?$"
+      }
     }
   }
 }

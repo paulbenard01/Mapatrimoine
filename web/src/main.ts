@@ -1,3 +1,5 @@
+import "@fontsource-variable/atkinson-hyperlegible-next";
+import "@fontsource-variable/bricolage-grotesque";
 import "./style.css";
 import { STRINGS, THEME_LABELS, badgeText, describeRule, formatDay, formatKm, monthNames } from "./i18n";
 import { AREAS, createMap, type MapEntry, type MapView } from "./map";
@@ -61,7 +63,9 @@ const today = resolveToday(location.search, new Date());
 const todayOverride = new URLSearchParams(location.search).get("today");
 let position: Position | null = null; // memory only; never stored or sent
 let geoStatus: "idle" | "locating" | "denied" = "idle";
-let moreOpen = false;
+let openMenu: string | null = null; // which toolbar drop-down is open
+let cameFromMap = false; // phones: the detail was opened from the map page
+let sheetReturnKey: string | null = null; // where focus goes when the sheet closes
 let entries: Entry[] = [];
 let sheets: Record<string, MediationSheet> = {};
 let announced: Announced | null = null;
@@ -144,31 +148,264 @@ function pressed(key: string, on: boolean, label: Child | Child[], onClick: () =
   return h("button", { type: "button", "data-key": key, "aria-pressed": String(on), onclick: onClick }, label);
 }
 
-function themeChips(items: Item[], withCounts: boolean): HTMLElement {
+const icon = (path: string, cls = "icon") =>
+  svg(`<path d="${path}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`, cls, "0 0 24 24");
+
+const ICONS = {
+  explore: "M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2zM9 4v14M15 6v14",
+  search: "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+  near: "M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21zM12 7.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4z",
+  agenda: "M4 6h16v14H4zM4 10h16M8 3v4M16 3v4",
+  resources: "M4 5a2 2 0 0 1 2-2h5v16H6a2 2 0 0 0-2 2zM20 5a2 2 0 0 0-2-2h-5v16h5a2 2 0 0 1 2 2z",
+  unesco: "M3 10 12 4l9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18",
+};
+
+/** Which page the bottom navigation highlights (phones); derived from the shareable state. */
+type Tab = "explore" | "search" | "near" | "agenda" | "resources";
+function currentTab(): Tab {
+  if (state.view === "resources") return "resources";
+  if (state.view === "agenda") return "agenda";
+  if (state.pane === "map") return "explore";
+  return state.sort === "distance" ? "near" : "search";
+}
+
+function goTab(tab: Tab) {
+  openMenu = null;
+  cameFromMap = false;
+  const leave = { selected: null, sheet: false };
+  if (tab === "explore") setState({ ...leave, view: "inventory", pane: "map" });
+  else if (tab === "search")
+    setState({ ...leave, view: "inventory", pane: "list", sort: state.sort === "distance" ? "name" : state.sort });
+  else if (tab === "near") setState({ ...leave, view: "inventory", pane: "list", sort: "distance" });
+  else if (tab === "agenda") setState({ ...leave, view: "agenda", pane: "list" });
+  else setState({ ...leave, view: "resources" });
+  if (tab === "explore") showMap();
+  if (tab === "search") document.getElementById("search")?.focus();
+  window.scrollTo({ top: 0 });
+}
+
+/** The map is zero-sized while hidden: resize it, then frame the selected area again. */
+function showMap() {
+  requestAnimationFrame(() => {
+    mapView?.resize();
+    if (!state.selected) mapView?.fit(AREAS[state.zone === "overseas" ? (presentAreas()[0] ?? "guadeloupe") : "metro"]);
+  });
+}
+
+/** A toolbar drop-down. Only one is open at a time; Escape or a click outside closes it. */
+function menu(key: string, label: string, active: string | number | null, body: () => Child | Child[]): HTMLElement {
+  const open = openMenu === key;
+  return h(
+    "div",
+    { class: "menu" },
+    h(
+      "button",
+      {
+        type: "button",
+        class: `menu-button${active ? " active" : ""}`,
+        "data-key": `menu-${key}`,
+        "aria-expanded": String(open),
+        "aria-controls": `menu-${key}-body`,
+        onclick: () => {
+          openMenu = open ? null : key;
+          render();
+        },
+      },
+      label,
+      active ? h("span", { class: "chip-count" }, String(active)) : null,
+      h("span", { class: "caret", "aria-hidden": "true" }, "▾"),
+    ),
+    open ? h("div", { class: "menu-body", id: `menu-${key}-body`, role: "group", "aria-label": label }, body()) : null,
+  );
+}
+
+function themeChips(items: Item[]): HTMLElement {
   const s = STRINGS[state.lang];
   const counts = themeCounts(items, state, position);
   const toggle = (t: Theme) =>
     setState({ themes: state.themes.includes(t) ? state.themes.filter((x) => x !== t) : [...state.themes, t] });
   return h(
-    "fieldset",
-    { class: "group" },
-    h("legend", {}, s.themes),
+    "div",
+    { class: "chips" },
+    pressed("theme-all", state.themes.length === 0, s.allThemes, () => setState({ themes: [] })),
+    THEMES.filter((t) => entries.some((e) => e.themes.includes(t))).map((t) =>
+      pressed(
+        `theme-${t}`,
+        state.themes.includes(t),
+        [
+          h("span", { class: "swatch", style: `background:${THEME_COLORS[t]}` }),
+          THEME_LABELS[state.lang][t],
+          h("span", { class: "chip-count" }, String(counts.get(t) ?? 0)),
+        ],
+        () => toggle(t),
+      ),
+    ),
+  );
+}
+
+function zoneChips(): Child[] {
+  const s = STRINGS[state.lang];
+  return [
     h(
       "div",
       { class: "chips" },
-      pressed("theme-all", state.themes.length === 0, s.allThemes, () => setState({ themes: [] })),
-      THEMES.filter((t) => entries.some((e) => e.themes.includes(t))).map((t) =>
-        pressed(
-          `theme-${t}`,
-          state.themes.includes(t),
-          [
-            h("span", { class: "swatch", style: `background:${THEME_COLORS[t]}` }),
-            THEME_LABELS[state.lang][t],
-            withCounts ? h("span", { class: "chip-count" }, String(counts.get(t) ?? 0)) : null,
-          ],
-          () => toggle(t),
-        ),
+      pressed("zone-all", state.zone === "all", s.zoneAll, () => setState({ zone: "all" })),
+      pressed("zone-metro", state.zone === "metro", s.zoneMetro, () => setState({ zone: "metro" })),
+      pressed("zone-overseas", state.zone === "overseas", s.zoneOverseas, () => setState({ zone: "overseas" })),
+    ),
+    state.zone === "overseas" && !mapFailed
+      ? h(
+          "div",
+          { class: "chips territories", role: "group", "aria-label": s.territory },
+          presentAreas().map((a) =>
+            h("button", { type: "button", "data-key": `area-${a}`, onclick: () => mapView?.fit(AREAS[a]) }, OVERSEAS[a].name),
+          ),
+        )
+      : null,
+    h("p", { class: "hint" }, s.mappedOnlyHint),
+  ];
+}
+
+/** Locate / forget, radius and the privacy note. Used in the toolbar menu and the "near me" page. */
+function nearControls(): Child[] {
+  const s = STRINGS[state.lang];
+  return [
+    h(
+      "div",
+      { class: "row chips" },
+      position
+        ? h("button", { type: "button", "data-key": "forget", onclick: forgetPosition }, s.forgetLocation)
+        : h(
+            "button",
+            { type: "button", "data-key": "locate", onclick: locate, disabled: geoStatus === "locating" },
+            icon(ICONS.near, "inline-icon"),
+            geoStatus === "locating" ? s.locating : s.locateMe,
+          ),
+      position
+        ? h(
+            "label",
+            { class: "inline" },
+            `${s.radius} `,
+            h(
+              "select",
+              {
+                "data-key": "radius",
+                onchange: (e: Event) => {
+                  const v = (e.target as HTMLSelectElement).value;
+                  setState({ radiusKm: v ? Number(v) : null });
+                },
+              },
+              h("option", { value: "", selected: state.radiusKm === null }, s.anyDistance),
+              RADII.map((r) => h("option", { value: r, selected: state.radiusKm === r }, `${r} km`)),
+            ),
+          )
+        : null,
+    ),
+    h("p", { class: "hint" }, geoStatus === "denied" ? s.locationDenied : s.nearMeHint),
+  ];
+}
+
+function sortSelect(): HTMLElement {
+  const s = STRINGS[state.lang];
+  const labels: Record<Sort, string> = { name: s.sortName, year: s.sortYear, date: s.sortDate, distance: s.sortDistance };
+  return h(
+    "label",
+    {},
+    s.sort,
+    h(
+      "select",
+      { "data-key": "sort", onchange: (e: Event) => setState({ sort: (e.target as HTMLSelectElement).value as Sort }) },
+      SORTS[state.view].map((v) =>
+        h("option", { value: v, selected: state.sort === v, disabled: v === "distance" && !position }, labels[v]),
       ),
+    ),
+  );
+}
+
+function activeFilters(): number {
+  return (
+    state.themes.length +
+    (state.zone !== "all" ? 1 : 0) +
+    (state.unesco ? 1 : 0) +
+    (state.radiusKm !== null && position ? 1 : 0) +
+    (state.q.trim() ? 1 : 0) +
+    (state.month !== null ? 1 : 0)
+  );
+}
+
+function renderToolbar(items: Item[]): HTMLElement {
+  const s = STRINGS[state.lang];
+  const events = entries.filter((e) => e.element?.kind === "event").length;
+  const worksheets = Object.keys(sheets).length;
+  const tab = (key: "inventory" | "agenda" | "resources", label: string, n: number, path: string) =>
+    h(
+      "button",
+      {
+        type: "button",
+        "data-key": `view-${key}`,
+        "aria-current": state.view === key ? "page" : null,
+        onclick: () => {
+          openMenu = null;
+          const wasResources = state.view === "resources";
+          setState({ view: key, selected: null, sheet: false, ...(key === "inventory" && state.pane === "map" ? {} : {}) });
+          if (wasResources && key !== "resources") showMap();
+        },
+      },
+      icon(path, "inline-icon"),
+      label,
+      h("span", { class: "chip-count" }, String(n)),
+    );
+  const unescoCount = entries.filter((e) => e.unesco).length;
+  return h(
+    "nav",
+    { class: "toolbar", "aria-label": s.filters },
+    h(
+      "div",
+      { class: "tabs" },
+      tab("inventory", s.viewInventory, entries.length, ICONS.explore),
+      tab("agenda", s.viewAgenda, events, ICONS.agenda),
+      tab("resources", s.viewResources, worksheets, ICONS.resources),
+    ),
+    h(
+      "div",
+      { class: "filters" },
+      menu("themes", s.themes, state.themes.length || null, () => themeChips(items)),
+      state.view !== "resources"
+        ? menu("zone", s.zone, state.zone !== "all" ? (state.zone === "metro" ? s.zoneMetroShort : s.zoneOverseas) : null, zoneChips)
+        : null,
+      state.view !== "resources" ? menu("near", s.nearMe, position ? "✓" : null, nearControls) : null,
+      unescoCount
+        ? h(
+            "button",
+            {
+              type: "button",
+              class: "unesco-toggle",
+              "data-key": "unesco",
+              "aria-pressed": String(state.unesco),
+              title: s.unescoFilterHint,
+              onclick: () => setState({ unesco: !state.unesco }),
+            },
+            icon(ICONS.unesco, "inline-icon"),
+            s.unescoFilter,
+            h("span", { class: "chip-count" }, String(unescoCount)),
+          )
+        : null,
+      state.view !== "resources" ? sortSelect() : null,
+      activeFilters()
+        ? h(
+            "button",
+            {
+              type: "button",
+              class: "link",
+              "data-key": "reset",
+              onclick: () => {
+                openMenu = null;
+                setState({ q: "", themes: [], month: null, zone: "all", radiusKm: null, unesco: false, sort: SORTS[state.view][0] });
+              },
+            },
+            s.resetFilters,
+          )
+        : null,
     ),
   );
 }
@@ -181,10 +418,9 @@ function monthStrip(items: Item[]): HTMLElement {
   const longMonths = monthNames(state.lang, "long");
   const currentMonth = monthOf(today);
   return h(
-    "fieldset",
-    { class: "group months" },
-    h("legend", {}, s.months),
-    h("p", { class: "hint", id: "month-hint" }, s.monthStripLabel),
+    "div",
+    { class: "months", role: "group", "aria-label": s.months },
+    h("p", { class: "sr-only", id: "month-hint" }, s.monthStripLabel),
     h(
       "div",
       { class: "month-strip", "aria-describedby": "month-hint" },
@@ -207,186 +443,12 @@ function monthStrip(items: Item[]): HTMLElement {
     ),
     h(
       "div",
-      { class: "chips" },
+      { class: "month-tools" },
       pressed("this-month", state.month === currentMonth, s.thisMonth, () =>
         setState({ month: state.month === currentMonth ? null : currentMonth }),
       ),
       pressed("all-months", state.month === null, s.allMonths, () => setState({ month: null })),
     ),
-  );
-}
-
-function moreFilters(items: Item[]): HTMLElement {
-  const s = STRINGS[state.lang];
-  const sortLabels: Record<Sort, string> = {
-    name: s.sortName,
-    year: s.sortYear,
-    date: s.sortDate,
-    distance: s.sortDistance,
-  };
-  const active =
-    (state.zone !== "all" ? 1 : 0) +
-    (state.radiusKm !== null && position ? 1 : 0) +
-    (state.view === "agenda" ? state.themes.length : 0);
-  return h(
-    "div",
-    { class: "more" },
-    h(
-      "button",
-      {
-        type: "button",
-        class: "more-toggle",
-        "data-key": "more-toggle",
-        "aria-expanded": String(moreOpen),
-        "aria-controls": "more-body",
-        onclick: () => {
-          moreOpen = !moreOpen;
-          render();
-        },
-      },
-      `${moreOpen ? "▾" : "▸"} ${s.moreFilters}${active ? ` (${active})` : ""}`,
-    ),
-    h(
-      "div",
-      { id: "more-body", class: "more-body", hidden: !moreOpen },
-      state.view === "agenda" ? themeChips(items, false) : null,
-      h(
-        "fieldset",
-        { class: "group" },
-        h("legend", {}, s.zone),
-        h(
-          "div",
-          { class: "chips" },
-          pressed("zone-all", state.zone === "all", s.zoneAll, () => setState({ zone: "all" })),
-          pressed("zone-metro", state.zone === "metro", s.zoneMetro, () => setState({ zone: "metro" })),
-          pressed("zone-overseas", state.zone === "overseas", s.zoneOverseas, () => setState({ zone: "overseas" })),
-        ),
-        state.zone === "overseas" && !mapFailed
-          ? h(
-              "div",
-              { class: "chips territories", role: "group", "aria-label": s.territory },
-              presentAreas().map((a) =>
-                h("button", { type: "button", "data-key": `area-${a}`, onclick: () => mapView?.fit(AREAS[a]) }, OVERSEAS[a].name),
-              ),
-            )
-          : null,
-      ),
-      h(
-        "fieldset",
-        { class: "group" },
-        h("legend", {}, s.nearMe),
-        h(
-          "div",
-          { class: "chips" },
-          position
-            ? h("button", { type: "button", "data-key": "forget", onclick: forgetPosition }, s.forgetLocation)
-            : h(
-                "button",
-                { type: "button", "data-key": "locate", onclick: locate, disabled: geoStatus === "locating" },
-                geoStatus === "locating" ? s.locating : s.nearMe,
-              ),
-          position
-            ? h(
-                "label",
-                { class: "inline" },
-                `${s.radius} `,
-                h(
-                  "select",
-                  {
-                    "data-key": "radius",
-                    onchange: (e: Event) => {
-                      const v = (e.target as HTMLSelectElement).value;
-                      setState({ radiusKm: v ? Number(v) : null });
-                    },
-                  },
-                  h("option", { value: "", selected: state.radiusKm === null }, s.anyDistance),
-                  RADII.map((r) => h("option", { value: r, selected: state.radiusKm === r }, `${r} km`)),
-                ),
-              )
-            : null,
-        ),
-        h("p", { class: "hint" }, geoStatus === "denied" ? s.locationDenied : s.nearMeHint),
-        state.view === "inventory" ? h("p", { class: "hint" }, s.mappedOnlyHint) : null,
-      ),
-      h(
-        "div",
-        { class: "group sort" },
-        h(
-          "label",
-          { class: "inline" },
-          `${s.sort} `,
-          h(
-            "select",
-            {
-              "data-key": "sort",
-              onchange: (e: Event) => setState({ sort: (e.target as HTMLSelectElement).value as Sort }),
-            },
-            SORTS[state.view].map((v) =>
-              h("option", { value: v, selected: state.sort === v, disabled: v === "distance" && !position }, sortLabels[v]),
-            ),
-          ),
-        ),
-        h(
-          "button",
-          {
-            type: "button",
-            class: "link",
-            "data-key": "reset",
-            onclick: () =>
-              setState({ q: "", themes: [], month: null, zone: "all", radiusKm: null, sort: SORTS[state.view][0] }),
-          },
-          s.resetFilters,
-        ),
-      ),
-    ),
-  );
-}
-
-function renderControls(items: Item[]): HTMLElement {
-  const s = STRINGS[state.lang];
-  const documented = entries.filter((e) => e.element).length;
-  const located = entries.filter((e) => placesOf(e).length).length;
-  const events = entries.filter((e) => e.element?.kind === "event").length;
-  return h(
-    "section",
-    { class: "controls", "aria-label": s.filters },
-    h(
-      "div",
-      { class: "views", role: "group", "aria-label": s.viewLabel },
-      pressed(
-        "view-inventory",
-        state.view === "inventory",
-        [s.viewInventory, h("span", { class: "chip-count" }, String(entries.length))],
-        () => setState({ view: "inventory" }),
-      ),
-      pressed(
-        "view-agenda",
-        state.view === "agenda",
-        [s.viewAgenda, h("span", { class: "chip-count" }, String(events))],
-        () => setState({ view: "agenda" }),
-      ),
-    ),
-    h("p", { class: "intro" }, state.view === "inventory" ? s.coverage(entries.length, located, documented) : s.agendaIntro(events)),
-    state.view === "inventory"
-      ? [
-          h(
-            "div",
-            { class: "search" },
-            h("label", { for: "search" }, s.search),
-            h("input", {
-              id: "search",
-              type: "search",
-              "data-key": "search",
-              value: state.q,
-              placeholder: s.searchPlaceholder,
-              autocomplete: "off",
-              oninput: (e: Event) => setState({ q: (e.target as HTMLInputElement).value }),
-            }),
-          ),
-          themeChips(items, true),
-        ]
-      : monthStrip(items),
-    moreFilters(items),
   );
 }
 
@@ -400,6 +462,31 @@ function legend(): HTMLElement {
     h("span", {}, shapeIcon("practice", "rituals"), s.practice),
     state.view === "inventory" ? h("span", {}, shapeIcon("undocumented", "rituals"), s.notDocumentedShort) : null,
     state.view === "agenda" ? h("span", {}, movableIcon(), s.movableShort) : null,
+  );
+}
+
+function unescoTag(entry: InventoryEntry): HTMLElement | null {
+  if (!entry.unesco) return null;
+  const s = STRINGS[state.lang];
+  return h("span", { class: "unesco-tag", title: s.unescoLine(s.unescoLists[entry.unesco.list], entry.unesco.year) }, "UNESCO");
+}
+
+function unescoBox(entry: InventoryEntry): HTMLElement | null {
+  const u = entry.unesco;
+  if (!u) return null;
+  const s = STRINGS[state.lang];
+  const name = state.lang === "fr" ? (u.name_fr ?? u.name_en) : u.name_en;
+  return h(
+    "div",
+    { class: "unesco-box" },
+    icon(ICONS.unesco, "unesco-icon"),
+    h(
+      "p",
+      { style: "margin:0" },
+      h("strong", {}, s.unescoLine(s.unescoLists[u.list], u.year)),
+      " · ",
+      h("a", { href: u.url, target: "_blank", rel: "noopener", lang: state.lang === "fr" && u.name_fr ? "fr" : "en" }, name),
+    ),
   );
 }
 
@@ -447,7 +534,7 @@ function renderList(items: Item[]): HTMLElement {
           h(
             "span",
             { class: "result-body" },
-            h("span", { class: "result-title", lang: "fr" }, entry.title_fr),
+            h("span", { class: "result-title", lang: "fr" }, entry.title_fr, unescoTag(entry) ? [" ", unescoTag(entry)] : null),
             h("span", { class: "result-meta" }, meta.join(" · ")),
             // Next dates belong to the agenda; the inventory view stays a catalogue.
             state.view === "agenda" ? badge(item) : null,
@@ -468,6 +555,13 @@ function backButton(): HTMLElement {
       "data-key": "back",
       onclick: () => {
         const id = state.selected;
+        if (cameFromMap) {
+          // Phones: the detail was opened from a marker, so go back to the map.
+          cameFromMap = false;
+          setState({ selected: null, pane: "map" });
+          showMap();
+          return;
+        }
         setState({ selected: null });
         document.querySelector<HTMLElement>(`[data-key="item-${id}"]`)?.focus();
       },
@@ -596,6 +690,28 @@ function announcedSection(id: string): HTMLElement | null {
   );
 }
 
+function openSheetButton(id: string): HTMLElement | null {
+  if (!sheets[id]) return null;
+  const s = STRINGS[state.lang];
+  return h(
+    "p",
+    {},
+    h(
+      "button",
+      {
+        type: "button",
+        class: "open-sheet",
+        "data-key": "open-sheet",
+        onclick: () => {
+          sheetReturnKey = "open-sheet";
+          setState({ sheet: true });
+        },
+      },
+      s.openSheet,
+    ),
+  );
+}
+
 function renderDetail(item: Item): HTMLElement {
   const s = STRINGS[state.lang];
   const { entry, element, next } = item;
@@ -611,6 +727,7 @@ function renderDetail(item: Item): HTMLElement {
       backButton(),
       h("h2", { id: "detail-title", lang: "fr", tabindex: "-1" }, entry.title_fr),
       themeLine(entry, null),
+      unescoBox(entry),
       figure(entry.image),
       entry.summary ? h("p", { class: "summary", lang: state.lang }, entry.summary[state.lang]) : null,
       entry.summary && entry.summary_source
@@ -645,6 +762,7 @@ function renderDetail(item: Item): HTMLElement {
           )
         : null,
       h("p", { class: "note" }, entry.summary ? s.shortOnly : s.notDocumented),
+      openSheetButton(entry.id),
       ficheLink,
     );
   }
@@ -660,6 +778,7 @@ function renderDetail(item: Item): HTMLElement {
     backButton(),
     h("h2", { id: "detail-title", lang: "fr", tabindex: "-1" }, entry.title_fr),
     themeLine(entry, element),
+    unescoBox(entry),
     figure(entry.image),
     h("p", { class: "summary", lang: state.lang }, summary),
     draft ? h("p", { class: "note" }, s.summaryDraft) : null,
@@ -728,17 +847,7 @@ function renderDetail(item: Item): HTMLElement {
             : null,
         )
       : h("p", { class: "badge practice" }, s.practiceNoDate),
-    sheets[entry.id]
-      ? h(
-          "p",
-          {},
-          h(
-            "button",
-            { type: "button", class: "open-sheet", "data-key": "open-sheet", onclick: () => setState({ sheet: true }) },
-            s.openSheet,
-          ),
-        )
-      : null,
+    openSheetButton(entry.id),
     ficheLink,
   );
 }
@@ -749,7 +858,7 @@ let lastSheet = false;
 
 /** Sheet mode replaces the page with the printable sheet; the map stays alive underneath. */
 function renderSheetMode(item: Item | undefined): boolean {
-  const sheet = state.sheet && item?.element ? sheets[item.entry.id] : undefined;
+  const sheet = state.sheet && item ? sheets[item.entry.id] : undefined;
   if (state.sheet && !sheet && entries.length) state.sheet = false;
   document.body.classList.toggle("sheet-mode", Boolean(sheet));
   let root = document.getElementById("sheet-root");
@@ -763,11 +872,212 @@ function renderSheetMode(item: Item | undefined): boolean {
   }
   root.replaceChildren(
     renderSheet(item!, sheet, state.lang, import.meta.env.BASE_URL, () => {
-      setState({ sheet: false });
-      requestAnimationFrame(() => mapView?.resize());
+      // Back to where the sheet was opened: the resources page or the element's detail.
+      if (state.view === "resources") setState({ sheet: false, selected: null });
+      else {
+        setState({ sheet: false });
+        requestAnimationFrame(() => mapView?.resize());
+      }
     }),
   );
   return true;
+}
+
+// ---------- resources page ----------
+function openWorksheet(id: string) {
+  sheetReturnKey = `sheet-${id}`;
+  setState({ selected: id, sheet: true });
+}
+
+function renderResources(all: Item[]): HTMLElement {
+  const s = STRINGS[state.lang];
+  // Same filters as the map (themes, search, territory, UNESCO), limited to elements with a sheet.
+  const withSheet = sortItems(
+    applyFilters(all, { ...state, view: "inventory", radiusKm: null }, null).filter((i) => sheets[i.entry.id]),
+    "name",
+  );
+  return h(
+    "section",
+    { class: "resources", id: "resources", "aria-labelledby": "resources-title" },
+    h(
+      "div",
+      { class: "resources-inner" },
+      h("h2", { id: "resources-title" }, s.resourcesTitle),
+      h("p", { class: "lead" }, s.resourcesIntro),
+      h("h3", { class: "res-kicker" }, s.worksheetsTitle),
+      h("p", { class: "count", role: "status", "aria-live": "polite" }, s.worksheetsCount(withSheet.length)),
+      withSheet.length
+        ? [
+            sheetSection("unesco-sheets", s.unescoSheets, s.unescoSheetsIntro, withSheet.filter((i) => i.entry.unesco), true),
+            sheetSection("other-sheets", s.otherSheets, s.worksheetsIntro, withSheet.filter((i) => !i.entry.unesco), false),
+          ]
+        : h("p", { class: "empty" }, s.noResults),
+    ),
+  );
+}
+
+function sheetSection(id: string, title: string, intro: string, items: Item[], highlight: boolean): HTMLElement | null {
+  const s = STRINGS[state.lang];
+  if (!items.length) return null;
+  return h(
+    "section",
+    { class: `res-section${highlight ? " highlight" : ""}`, "aria-labelledby": id },
+    h("header", {}, h("h3", { id }, title), h("p", { class: "count" }, s.worksheetsCount(items.length))),
+    h("p", { class: "section-note" }, intro),
+    h("ul", { class: "cards" }, items.map(worksheetCard)),
+  );
+}
+
+function worksheetCard({ entry, element }: Item): HTMLElement {
+  const s = STRINGS[state.lang];
+  const theme = entry.themes[0];
+  const kind = element?.kind ?? entry.kind;
+  const places = placeNames(element?.locations ?? entry.locations);
+  const sheet = sheets[entry.id];
+  return h(
+    "li",
+    {},
+    h(
+      "article",
+      { class: "card" },
+      h(
+        "span",
+        { class: "card-theme" },
+        h("span", { class: "swatch", style: `background:${THEME_COLORS[theme]}` }),
+        THEME_LABELS[state.lang][theme],
+        unescoTag(entry),
+      ),
+      h("h4", { lang: "fr" }, entry.title_fr),
+      h("p", { class: "card-meta" }, [kind === "event" ? s.event : kind === "practice" ? s.practice : "", places].filter(Boolean).join(" · ")),
+      sheet.activity
+        ? h(
+            "p",
+            { class: "card-activity" },
+            h("strong", {}, `${s.sheetActivity} : `),
+            state.lang === "fr" ? sheet.activity.title_fr : sheet.activity.title_en,
+            ` (${sheet.activity.levels.map((l) => s.levels[l]).join(", ")})`,
+          )
+        : null,
+      h(
+        "div",
+        { class: "card-actions" },
+        h(
+          "button",
+          { type: "button", class: "primary", "data-key": `sheet-${entry.id}`, onclick: () => openWorksheet(entry.id) },
+          s.openWorksheet,
+        ),
+        h(
+          "button",
+          {
+            type: "button",
+            "data-key": `seemap-${entry.id}`,
+            onclick: () => {
+              setState({ view: "inventory", selected: entry.id, pane: "list" }, { fly: true });
+              showMap();
+            },
+          },
+          s.seeElement,
+        ),
+      ),
+    ),
+  );
+}
+
+// ---------- bottom navigation (phones) ----------
+function renderBottomNav(): HTMLElement {
+  const s = STRINGS[state.lang];
+  const tab = currentTab();
+  const item = (key: Tab, label: string, path: string) =>
+    h(
+      "button",
+      {
+        type: "button",
+        "data-key": `nav-${key}`,
+        "aria-current": tab === key ? "page" : null,
+        onclick: () => goTab(key),
+      },
+      icon(path, "nav-icon"),
+      label,
+    );
+  return h(
+    "nav",
+    { class: "bottom-nav", "aria-label": s.mainNav },
+    item("explore", s.navExplore, ICONS.explore),
+    item("search", s.navSearch, ICONS.search),
+    item("near", s.navNear, ICONS.near),
+    item("agenda", s.navAgenda, ICONS.agenda),
+    item("resources", s.navResources, ICONS.resources),
+  );
+}
+
+const brandMark = () =>
+  svg(
+    '<rect x="1" y="1" width="30" height="30" rx="9" fill="#ffffff" fill-opacity="0.08"/>' +
+      '<circle cx="12.5" cy="13" r="6.5" fill="#f2b84b" stroke="#13294b" stroke-width="1.5"/>' +
+      '<path d="M21 13.5 26.5 19 21 24.5 15.5 19Z" fill="#7cc4a8" stroke="#13294b" stroke-width="1.5"/>' +
+      '<circle cx="11" cy="23" r="3.2" fill="none" stroke="#c6d2e6" stroke-width="2"/>',
+    "brand-mark",
+    "0 0 32 32",
+  );
+
+function renderHeader(): HTMLElement {
+  const s = STRINGS[state.lang];
+  const documented = entries.filter((e) => e.element).length;
+  const located = entries.filter((e) => placesOf(e).length).length;
+  return h(
+    "header",
+    { class: "top" },
+    h("a", { class: "skip", href: "#results" }, s.skipToList),
+    h(
+      "div",
+      { class: "brand" },
+      brandMark(),
+      h("div", {}, h("h1", {}, s.appTitle), h("p", {}, s.appSubtitle)),
+    ),
+    h(
+      "div",
+      { class: "search-wrap", role: "search" },
+      icon(ICONS.search, "search-icon"),
+      h("label", { for: "search", class: "sr-only" }, s.search),
+      h("input", {
+        id: "search",
+        type: "search",
+        "data-key": "search",
+        value: state.q,
+        placeholder: s.searchPlaceholder,
+        autocomplete: "off",
+        oninput: (e: Event) => setState({ q: (e.target as HTMLInputElement).value }),
+      }),
+    ),
+    h(
+      "div",
+      { class: "top-actions" },
+      h(
+        "button",
+        {
+          type: "button",
+          "data-key": "lang",
+          lang: s.switchToLang,
+          "aria-label": `${s.language} : ${s.switchTo}`,
+          onclick: () => setState({ lang: state.lang === "fr" ? "en" : "fr" }),
+        },
+        s.switchToShort,
+      ),
+      h(
+        "details",
+        { class: "about" },
+        h("summary", { "data-key": "about" }, s.aboutShort),
+        h(
+          "div",
+          { class: "about-panel" },
+          h("p", {}, s.coverage(entries.length, located, documented)),
+          h("p", {}, s.aboutText),
+          h("p", {}, s.pilotNote),
+          h("p", {}, s.disclaimer),
+        ),
+      ),
+    ),
+  );
 }
 
 function render() {
@@ -781,94 +1091,83 @@ function render() {
   const listScroll = document.querySelector(".panel")?.scrollTop ?? 0;
 
   const all = annotate(entries, today, position);
-  const visible = sortItems(applyFilters(all, state, position), state.sort);
+  const onResources = state.view === "resources";
+  const visible = onResources ? [] : sortItems(applyFilters(all, state, position), state.sort);
   const selectedItem = state.selected ? all.find((i) => i.entry.id === state.selected) : undefined;
   if (state.selected && !selectedItem && entries.length) state.selected = null;
   const mapped = visible.filter((i) => placesOf(i.entry).length).map(mapEntry);
+  if (!onResources) mapView?.setEntries(mapped);
 
-  mapView?.setEntries(mapped);
+  const tab = currentTab();
+  app.className = `tab-${tab} view-${state.view}`;
+  const events = entries.filter((e) => e.element?.kind === "event").length;
 
-  const header = h(
-    "header",
-    { class: "top" },
-    h("a", { class: "skip", href: "#results" }, s.skipToList),
-    h("div", { class: "brand" }, h("h1", {}, s.appTitle), h("p", {}, s.appSubtitle)),
-    h(
-      "div",
-      { class: "top-actions" },
-      h(
-        "button",
-        {
-          type: "button",
-          "data-key": "lang",
-          lang: s.switchToLang,
-          "aria-label": `${s.language} : ${s.switchTo}`,
-          onclick: () => setState({ lang: state.lang === "fr" ? "en" : "fr" }),
-        },
-        s.switchTo,
-      ),
-      h(
-        "details",
-        { class: "about" },
-        h("summary", { "data-key": "about" }, s.about),
-        h("div", { class: "about-panel" }, h("p", {}, s.aboutText), h("p", {}, s.pilotNote), h("p", {}, s.disclaimer)),
-      ),
-    ),
-  );
-
-  const paneSwitch = h(
+  const panelHead = h(
     "div",
-    { class: "pane-switch", role: "group", "aria-label": `${s.showList} / ${s.showMap}` },
-    pressed("pane-list", state.pane === "list", s.showList, () => setState({ pane: "list" })),
-    pressed("pane-map", state.pane === "map", s.showMap, () => {
-      setState({ pane: "map" });
-      // The map was hidden (zero size) on narrow screens: resize, then frame the area again.
-      requestAnimationFrame(() => {
-        mapView?.resize();
-        mapView?.fit(AREAS[state.zone === "overseas" ? (presentAreas()[0] ?? "guadeloupe") : "metro"]);
-      });
-    }),
+    { class: "panel-head" },
+    state.view === "agenda" ? [h("p", { class: "agenda-intro" }, s.agendaIntro(events)), monthStrip(all)] : null,
+    tab === "near"
+      ? h("section", { class: "near-box", "aria-label": s.nearMe }, h("h2", { class: "count" }, s.nearMe), nearControls())
+      : null,
+    state.sort === "distance" && !position && tab !== "near"
+      ? h("p", { class: "hint" }, s.sortDistanceNeedsLocation)
+      : null,
   );
 
   const results = h(
     "div",
     { class: "results-area", id: "results", tabindex: "-1" },
-    state.sort === "distance" && !position ? h("p", { class: "hint" }, s.sortDistanceNeedsLocation) : null,
-    selectedItem ? renderDetail(selectedItem) : [legend(), renderList(visible)],
+    selectedItem && !onResources ? renderDetail(selectedItem) : [legend(), renderList(visible)],
   );
 
-  const controls = renderControls(all);
-  const shell = app.querySelector(".shell");
+  const header = renderHeader();
+  const toolbar = renderToolbar(all);
+  const resources = onResources ? renderResources(all) : h("section", { class: "resources", hidden: true });
+  const bottomNav = renderBottomNav();
+  const shell = app.querySelector<HTMLElement>(".shell");
   if (!shell) {
     const mapBox = h("div", { class: "map", id: "map" });
     app.replaceChildren(
       header,
+      toolbar,
       h(
         "main",
-        { class: `shell pane-${state.pane}` },
+        { class: `shell pane-${state.pane}`, hidden: onResources },
         h(
           "div",
           { class: "panel" },
-          paneSwitch,
-          controls,
+          panelHead,
           // One persistent live region, updated in place, so screen readers announce changes.
           h("p", { class: "count", role: "status", "aria-live": "polite" }),
           results,
         ),
         mapBox,
       ),
+      resources,
+      bottomNav,
     );
-    mapView = createMap(mapBox, s.mapLabel, (id) => setState({ selected: id, pane: "list" }), () => {
-      mapFailed = true;
-      mapBox.replaceChildren(h("p", { class: "map-error" }, STRINGS[state.lang].mapUnavailable));
-      render();
-    });
+    mapView = createMap(
+      mapBox,
+      s.mapLabel,
+      (id) => {
+        cameFromMap = state.pane === "map";
+        setState({ selected: id, pane: "list" });
+      },
+      () => {
+        mapFailed = true;
+        mapBox.replaceChildren(h("p", { class: "map-error" }, STRINGS[state.lang].mapUnavailable));
+        render();
+      },
+    );
     mapView?.setEntries(mapped);
   } else {
     app.querySelector("header.top")!.replaceWith(header);
+    app.querySelector(".toolbar")!.replaceWith(toolbar);
+    app.querySelector(".resources")!.replaceWith(resources);
+    app.querySelector(".bottom-nav")!.replaceWith(bottomNav);
     shell.className = `shell pane-${state.pane}`;
-    shell.querySelector(".controls")!.replaceWith(controls);
-    shell.querySelector(".pane-switch")!.replaceWith(paneSwitch);
+    shell.hidden = onResources;
+    shell.querySelector(".panel-head")!.replaceWith(panelHead);
     shell.querySelector(".results-area")!.replaceWith(results);
     if (mapFailed) shell.querySelector(".map")!.replaceChildren(h("p", { class: "map-error" }, s.mapUnavailable));
   }
@@ -891,15 +1190,16 @@ function render() {
   if (lastSheet) {
     lastSheet = false;
     lastSelected = state.selected;
-    document.querySelector<HTMLElement>('[data-key="open-sheet"]')?.focus();
+    document.querySelector<HTMLElement>(`[data-key="${sheetReturnKey ?? "open-sheet"}"]`)?.focus();
+    sheetReturnKey = null;
     return;
   }
 
   // Keep keyboard focus, caret and scroll where they were.
-  if (state.selected !== lastSelected && state.selected) {
+  if (state.selected !== lastSelected && state.selected && !onResources) {
     // Bring the detail into view inside the scrolling panel (desktop) or the page (mobile).
     if (panel.scrollHeight > panel.clientHeight) panel.scrollTop = results.offsetTop - panel.offsetTop;
-    else window.scrollTo({ top: results.getBoundingClientRect().top + window.scrollY });
+    else window.scrollTo({ top: results.getBoundingClientRect().top + window.scrollY - 70 });
     document.getElementById("detail-title")?.focus({ preventScroll: true });
   } else {
     panel.scrollTop = listScroll;
@@ -912,7 +1212,28 @@ function render() {
   lastSelected = state.selected;
 }
 
+// Toolbar menus close on Escape or a click elsewhere. composedPath() still lists the menu
+// when the clicked chip was replaced by the re-render it triggered.
+function closeMenusOnOutsideInput() {
+  document.addEventListener("click", (e) => {
+    if (!openMenu) return;
+    const inMenu = e.composedPath().some((n) => n instanceof Element && n.classList.contains("menu"));
+    if (!inMenu) {
+      openMenu = null;
+      render();
+    }
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape" || !openMenu) return;
+    const key = openMenu;
+    openMenu = null;
+    render();
+    document.querySelector<HTMLElement>(`[data-key="menu-${key}"]`)?.focus();
+  });
+}
+
 async function init() {
+  closeMenusOnOutsideInput();
   const base = import.meta.env.BASE_URL;
   const [inventory, curated, mediation, listed] = await Promise.all([
     fetch(`${base}data/inventory.json`).then((r) => r.json() as Promise<{ elements: InventoryEntry[] }>),

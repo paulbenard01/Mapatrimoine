@@ -1,0 +1,70 @@
+id: 2018_67717_INV_PCI_FRANCE_00413
+audience: general
+questions:
+  fr:
+    - "Regardez de près la croûte d'une baguette : que nous apprennent ses entailles, sa couleur et le bruit qu'elle fait sous les doigts sur la façon dont elle a été faite ?"
+    - "Avec seulement quatre ingrédients, pourquoi deux boulangers ne font-ils jamais tout à fait la même baguette, et que doit-on apprendre avec les mains plutôt que dans un livre ?"
+    - "Aller chercher la baguette est souvent le premier achat qu'un enfant fait seul : que nous dit ce petit rituel sur la place de la boulangerie dans un quartier ou un village ?"
+    - "Les boulangeries de village ferment, les habitudes de petit-déjeuner changent : qu'est-ce que la reconnaissance de l'UNESCO peut changer pour la baguette, et qu'est-ce qu'elle ne peut pas changer ?"
+    - "Chez vous, qui achète le pain, à quel moment de la journée, et comment est-il mangé ou partagé ?"
+  en:
+    - "Look closely at a baguette's crust; what do its cuts, its colour and the sound it makes under your fingers tell you about how it was made?"
+    - "With only four ingredients, why do two bakers never make quite the same baguette, and what has to be learnt with the hands rather than from a book?"
+    - "Fetching the baguette is often the first purchase a child makes alone; what does this small ritual say about the place of the bakery in a neighbourhood or a village?"
+    - "Village bakeries are closing and breakfast habits are changing; what can UNESCO recognition change for the baguette, and what can it not change?"
+    - "In your home, who buys the bread, at what time of day, and how is it eaten or shared?"
+vocabulary:
+  - fr: pétrissage
+    en: kneading
+    def_fr: Étape où l'on mélange et travaille la pâte jusqu'à ce qu'elle soit lisse, souple et à la bonne température.
+    def_en: Stage in which the dough is mixed and worked until it is smooth, supple and at the right temperature.
+  - fr: pointage
+    en: first rise
+    def_fr: Première fermentation de toute la pâte, avant de la diviser ; plus elle est longue, plus la baguette développe ses arômes.
+    def_en: First fermentation of the whole batch of dough before it is divided; the longer it lasts, the more flavour the baguette develops.
+  - fr: pâton
+    en: dough piece
+    def_fr: Morceau de pâte pesé et arrondi qui deviendra une baguette ; on le laisse se détendre avant de le façonner.
+    def_en: Weighed and rounded piece of dough that will become one baguette; it is left to relax before shaping.
+  - fr: façonnage
+    en: shaping
+    def_fr: Geste délicat qui consiste à aplatir le pâton, l'enrouler sur lui-même puis l'allonger à la main ; il demande une longue pratique.
+    def_en: Delicate gesture of flattening the dough piece, rolling it up and then stretching it out by hand; it takes long practice.
+  - fr: apprêt
+    en: final proof
+    def_fr: Dernière fermentation, pendant laquelle la baguette façonnée gonfle avant d'être entaillée puis enfournée.
+    def_en: Last fermentation, during which the shaped baguette swells before being scored and put in the oven.
+  - fr: grigne
+    en: ear (grigne)
+    def_fr: Arête dorée de la croûte qui s'ouvre le long des entailles faites à la lame juste avant la cuisson ; c'est la signature du boulanger.
+    def_en: Golden ridge of crust that opens along the cuts made with a blade just before baking; it is the baker's signature.
+  - fr: fournil
+    en: bakehouse
+    def_fr: Partie de la boulangerie où l'on pétrit, façonne et cuit le pain, séparée du magasin où il est vendu.
+    def_en: Part of the bakery where bread is kneaded, shaped and baked, separate from the shop where it is sold.
+  - fr: levain
+    en: sourdough starter
+    def_fr: Mélange de farine et d'eau où vivent naturellement levures et bactéries ; avec ou à la place de la levure, il fait lever la pâte.
+    def_en: Mixture of flour and water in which yeasts and bacteria live naturally; with or instead of baker's yeast, it makes the dough rise.
+context:
+  fr: >-
+    La baguette se fait avec quatre ingrédients seulement : farine, eau, sel, levure ou levain. Pourtant, sa fabrication suit une longue suite d'étapes, du pétrissage à la fermentation, au façonnage à la main, aux entailles faites à la lame, puis à la cuisson dans un four à vapeur. Le résultat varie avec la température, l'humidité et le tour de main de chaque boulanger. Les pains longs apparaissent à Paris au XVIIIe siècle sous le nom de flûtes ; le mot baguette devient courant après la Première Guerre mondiale.
+    Aujourd'hui, la baguette rythme la vie quotidienne dans toute la France : achetée chaque jour à la boulangerie, rompue et partagée à table, déclinée en tartines, mouillettes ou casse-croûte. Le métier s'apprend surtout en alternance entre l'école et le fournil. Il est fragilisé par la fermeture de boulangeries, en particulier à la campagne, par des procédés trop rapides et par l'évolution des habitudes alimentaires.
+  en: >-
+    The baguette uses only four ingredients: flour, water, salt and yeast or sourdough. Yet making it involves a long sequence of steps, from kneading and fermentation to hand shaping, scoring with a blade and baking in a steam oven. The result changes with temperature, humidity and each baker's touch. Long loaves appeared in Paris in the 18th century under the name of flûtes; the word baguette became common after the First World War.
+    Today the baguette sets the rhythm of daily life all over France: bought every day at the bakery, broken and shared at the table, turned into breakfast tartines, egg soldiers or sandwiches. The trade is learnt mainly through apprenticeships that alternate between school and bakehouse. It is weakened by bakery closures, especially in the countryside, by over-hasty methods and by changing eating habits.
+unesco:
+  fr: >-
+    Les savoir-faire artisanaux et la culture de la baguette de pain sont inscrits depuis 2022 sur la Liste représentative du patrimoine culturel immatériel de l'humanité, à la suite d'un dossier présenté par la France seule. L'inscription ne porte pas sur un produit ni sur une recette officielle : elle reconnaît à la fois les gestes des boulangers et les habitudes sociales liées à la baguette, comme le passage quotidien à la boulangerie. Elle engage l'État et la profession à soutenir la transmission du métier et la vitalité des boulangeries de proximité.
+  en: >-
+    The artisanal know-how and culture of baguette bread have been on the Representative List of the Intangible Cultural Heritage of Humanity since 2022, following a file submitted by France alone. The inscription is not about a product or an official recipe: it recognises both the bakers' skills and the social habits around the baguette, such as the daily trip to the bakery. It commits the State and the profession to supporting the passing on of the trade and the vitality of local bakeries.
+activity:
+  title_fr: Enquête sur le pain de la famille
+  title_en: A family bread survey
+  fr: >-
+    Chaque élève interroge un parent ou un grand-parent avec cinq questions préparées en classe : où achetait-on le pain quand il était enfant, qui allait le chercher, quel pain préférait-on, comment mangeait-on les restes, la boulangerie était-elle un lieu de rencontre ? De retour en classe, regroupez les réponses par époque sur un grand tableau et comparez avec vos propres habitudes. Qu'est-ce qui a changé, qu'est-ce qui reste, et pourquoi ?
+  en: >-
+    Each student interviews a parent or grandparent using five questions prepared in class: where did they buy bread as a child, who went to fetch it, which bread did they prefer, how were leftovers eaten, was the bakery a place to meet people? Back in class, group the answers by period on a large chart and compare them with your own habits. What has changed, what has stayed, and why?
+  levels: [primary, middle, adult]
+lang_review: draft
+review_status: unreviewed

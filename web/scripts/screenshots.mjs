@@ -24,7 +24,8 @@ async function shot(name, query, viewport, before) {
   page.on("pageerror", (e) => console.error(`[${name}] page error:`, e.message));
   page.on("console", (m) => m.type() === "error" && console.error(`[${name}] console:`, m.text()));
   await page.goto(`${BASE}?today=${TODAY}&${query}`, { waitUntil: "load" });
-  await page.waitForSelector("p.count");
+  await page.waitForSelector("header.top");
+  await page.waitForFunction(() => !document.querySelector(".panel p.count")?.textContent?.startsWith("0") );
   if (before) await before(page);
   await page
     .waitForSelector('.map[data-idle="true"]', { state: "attached", timeout: 30000 })
@@ -46,18 +47,25 @@ await shot("desktop-undocumented-fr", `lang=fr&id=${LACE}`, desktop);
 await shot("desktop-agenda-en", "lang=en&view=agenda", desktop);
 await shot("desktop-agenda-february-fr", "lang=fr&view=agenda&month=2", desktop);
 await shot("desktop-overseas-fr", "lang=fr&zone=overseas", desktop, async (page) => {
-  await page.click(".more-toggle");
+  await page.click('[data-key="menu-zone"]');
 });
+await shot("desktop-themes-menu-fr", "lang=fr", desktop, async (page) => {
+  await page.click('[data-key="menu-themes"]');
+});
+await shot("desktop-unesco-fr", "lang=fr&unesco=1", desktop);
+await shot("desktop-resources-fr", "lang=fr&view=resources", desktop);
 await shot("mobile-inventory-fr", "lang=fr", mobile);
 await shot("mobile-agenda-en", "lang=en&view=agenda", mobile);
 await shot("mobile-map-en", "lang=en&pane=map", mobile);
+await shot("mobile-near-fr", "lang=fr&sort=distance", mobile);
+await shot("mobile-resources-fr", "lang=fr&view=resources", mobile);
 await shot("mobile-detail-fr", `lang=fr&id=${SANCH}`, mobile);
 
 // Keyboard-only smoke test: search, filters, list and detail without a mouse.
 const page = await browser.newPage({ viewport: desktop, locale: "en-GB" });
 await page.goto(`${BASE}?today=${TODAY}&lang=en`, { waitUntil: "load" });
 await page.waitForSelector("p.count");
-const results = async () => (await page.textContent("p.count")).trim();
+const results = async () => (await page.textContent(".panel p.count")).trim();
 const focused = () =>
   page.evaluate(() => document.activeElement?.getAttribute("data-key") ?? document.activeElement?.id ?? document.activeElement?.tagName);
 const tabTo = async (key, max = 120) => {
@@ -88,13 +96,13 @@ const shiftTabTo = async (key, max = 120) => {
 await shiftTabTo("search");
 for (let i = 0; i < 5; i++) await page.keyboard.press("Backspace");
 log.cleared = await results();
-await shiftTabTo("view-agenda");
+await tabTo("view-agenda");
 await page.keyboard.press("Enter");
 log.agenda = await results();
 await tabTo("month-4");
 await page.keyboard.press(" ");
 log.april = await results();
-await tabTo("more-toggle");
+await shiftTabTo("menu-zone");
 await page.keyboard.press("Enter");
 await tabTo("zone-overseas");
 await page.keyboard.press("Enter");

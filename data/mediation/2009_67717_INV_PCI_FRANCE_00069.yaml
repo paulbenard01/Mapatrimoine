@@ -1,0 +1,72 @@
+id: 2009_67717_INV_PCI_FRANCE_00069
+audience: general
+questions:
+  fr:
+    - Observez un faucon coiffé de son chaperon sur le poing ganté du fauconnier. Pourquoi, selon vous, lui cacher la vue l'aide-t-il à rester calme ?
+    - Un oiseau de proie n'est jamais domestiqué et ne rapporte pas le gibier. Quelle relation le fauconnier construit-il alors avec lui, jour après jour ?
+    - Comment une chasse autrefois réservée aux nobles est-elle devenue aujourd'hui l'affaire de passionnés attentifs à la protection des rapaces et des milieux naturels ?
+    - La fauconnerie est inscrite par l'UNESCO dans un dossier partagé par plus de vingt pays. Que peuvent apprendre des fauconniers de pays et de paysages si différents les uns des autres ?
+    - Quel savoir-faire demande dans votre vie une patience quotidienne, auprès d'un animal, d'une plante ou d'un instrument ?
+  en:
+    - Look at a falcon wearing its hood on the falconer's gloved fist. Why do you think covering its eyes helps it stay calm?
+    - A bird of prey is never domesticated and does not bring back the game. What kind of relationship does the falconer build with it, day after day?
+    - How did a form of hunting once reserved for nobles become a pursuit of enthusiasts who care about protecting birds of prey and their habitats?
+    - Falconry is inscribed by UNESCO in a file shared by more than twenty countries. What can falconers from such different countries and landscapes learn from one another?
+    - Which skill in your own life demands daily patience, with an animal, a plant or an instrument?
+vocabulary:
+  - fr: chaperon
+    en: hood
+    def_fr: Petite coiffe de cuir posée sur la tête du faucon pour lui masquer la vue et le garder calme ; elle viendrait du Proche-Orient au temps des croisades.
+    def_en: Small leather cap over the falcon's head that blocks its sight and keeps it calm; it reportedly came from the Near East during the Crusades.
+  - fr: leurre
+    en: lure
+    def_fr: Objet que le fauconnier fait tournoyer au bout d'une corde pour faire revenir l'oiseau vers lui ; le mot est passé dans la langue courante.
+    def_en: Object the falconer swings on a cord to call the bird back; the word has passed into everyday language.
+  - fr: affaitage
+    en: manning and training
+    def_fr: Dressage patient d'un oiseau de proie, qui l'habitue à l'homme, au poing et au leurre, jusqu'à chasser en confiance avec le fauconnier.
+    def_en: Patient training of a bird of prey, getting it used to people, the fist and the lure, until it hunts with the falconer in trust.
+  - fr: haut vol
+    en: high flight
+    def_fr: Chasse avec des faucons en terrain très ouvert ; l'oiseau monte haut au-dessus du fauconnier, puis pique sur le gibier levé par le chien.
+    def_en: Hunting with falcons in wide open country; the bird climbs high above the falconer, then dives on the game flushed by the dog.
+  - fr: bas vol
+    en: low flight
+    def_fr: Chasse avec des oiseaux aux ailes courtes, comme l'autour, lâchés du poing sur un gibier tout proche, souvent en bois ou en bocage.
+    def_en: Hunting with short-winged birds such as the goshawk, released from the fist at nearby game, often in woods or hedged farmland.
+  - fr: autoursier
+    en: austringer
+    def_fr: Fauconnier qui chasse avec un autour, rapace de bas vol rapide et adroit en sous-bois.
+    def_en: Falconer who hunts with a goshawk, a low-flight bird of prey that is fast and agile among trees.
+  - fr: jets et longe
+    en: jesses and leash
+    def_fr: Fines lanières de cuir attachées aux pattes de l'oiseau, et lien qui permet de le tenir au poing ou au perchoir.
+    def_en: Thin leather straps tied to the bird's legs, and the line used to hold it on the fist or the perch.
+  - fr: télémétrie
+    en: telemetry
+    def_fr: Petit émetteur radio fixé à l'oiseau, à côté des sonnettes traditionnelles, pour retrouver un faucon égaré.
+    def_en: Small radio transmitter fitted to the bird, next to the traditional bells, to find a falcon that has strayed.
+context:
+  fr: >-
+    La fauconnerie, ou chasse au vol, consiste à prendre du gibier sauvage dans son milieu naturel avec un oiseau de proie dressé. Née sans doute dans les steppes d'Asie il y a plusieurs millénaires, elle est attestée en France au moins depuis le Ve siècle et fut longtemps un emblème de la noblesse, comme le montrent la tapisserie de Bayeux ou les traités médiévaux. L'arrivée des armes à feu la fit presque disparaître, avant que des passionnés ne la redécouvrent dans la seconde moitié du XIXe siècle ; elle est reconnue comme mode de chasse légal en 1954.
+
+    Lors de l'inventaire, elle comptait environ deux cents pratiquants dans toute la France. Les faucons servent au haut vol dans les grandes plaines, les autours et les buses au bas vol dans les bois et le bocage. L'apprentissage dure au moins deux saisons aux côtés d'un fauconnier expérimenté. Les fauconniers ont aussi œuvré à la protection légale des rapaces et à leur reproduction en captivité.
+  en: >-
+    Falconry is the art of taking wild game in its natural setting with a trained bird of prey. Probably born in the steppes of Asia several thousand years ago, it is recorded in France since at least the 5th century and was long a symbol of nobility, as the Bayeux Tapestry and medieval treatises show. The arrival of firearms almost wiped it out, until enthusiasts rediscovered it in the second half of the 19th century; it became a legal form of hunting in 1954.
+
+    When the inventory was made it had about two hundred practitioners across France. Falcons are used for high flight over the great plains, goshawks and hawks for low flight in woods and hedged farmland. Learning takes at least two seasons alongside an experienced falconer. Falconers have also worked for the legal protection of birds of prey and for breeding them in captivity.
+unesco:
+  fr: >-
+    La fauconnerie figure sur la Liste représentative du patrimoine culturel immatériel de l'humanité depuis 2010, et la France fait partie du dossier dès cette date. Ce dossier multinational s'est élargi plusieurs fois ; dans sa version de 2021, il réunit 24 États d'Europe, d'Asie, du Moyen-Orient et d'Afrique du Nord. L'inscription ne récompense pas une chasse prestigieuse : elle reconnaît une pratique vivante, transmise de génération en génération, et engage les communautés et les États à la sauvegarder, ce qui suppose aussi de protéger les oiseaux et leurs milieux.
+  en: >-
+    Falconry has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2010, with France part of the file from the start. This multinational file has been widened several times; its 2021 version brings together 24 States in Europe, Asia, the Middle East and North Africa. The inscription does not reward a prestigious form of hunting: it recognises a living practice handed down from generation to generation, and commits communities and States to safeguarding it, which also means protecting the birds and their habitats.
+activity:
+  title_fr: Les mots venus de la fauconnerie
+  title_en: Words that came from falconry
+  fr: >-
+    Écrivez au tableau quelques mots courants issus du vocabulaire des fauconniers : leurre, hagard, niais, débonnaire, chaperon. Par deux, les élèves devinent d'abord leur sens actuel, puis imaginent ce qu'ils pouvaient vouloir dire pour un faucon. On compare ensuite avec leur sens d'origine, à chercher dans un dictionnaire. Pour finir, chaque élève écrit un court texte de cinq lignes qui raconte une journée d'apprentissage avec un oiseau en utilisant au moins trois de ces mots.
+  en: >-
+    Write on the board a few everyday words that come from falconers' vocabulary: lure, haggard, hood, and in French leurre, niais, débonnaire. In pairs, pupils first guess their present meaning, then imagine what they might have meant for a falcon. Then compare with their original meaning, looked up in a dictionary. To finish, each pupil writes a short five-line text about a day of training with a bird, using at least three of these words.
+  levels: [middle, high]
+lang_review: draft
+review_status: unreviewed

@@ -1,0 +1,70 @@
+id: 2018_67717_INV_PCI_FRANCE_00415
+audience: general
+questions:
+  fr:
+    - "Observez le dos ouvert d'une montre ou d'une horloge mécanique : quelles pièces bougent, à quel rythme, et comment l'énergie d'un ressort ou d'un poids devient-elle un tic-tac régulier ?"
+    - "Une montre peut compter plusieurs centaines de pièces faites par des métiers différents : que faut-il pour que tant de spécialistes travaillent ensemble sans jamais se voir ?"
+    - "Pourquoi, selon vous, fabrique-t-on encore des montres mécaniques à la main alors qu'un téléphone donne l'heure exacte, et qu'est-ce que la crise du quartz a changé pour les horlogers ?"
+    - "Ce savoir-faire est reconnu par l'UNESCO au nom de la France et de la Suisse : qu'est-ce que cela dit d'un métier qui traverse chaque jour une frontière ?"
+    - "Y a-t-il chez vous une horloge, une pendule ou une montre ancienne que l'on remonte ou que l'on fait réparer : qui s'en occupe, et pourquoi la garde-t-on ?"
+  en:
+    - "Look at the open back of a mechanical watch or clock; which parts move, at what pace, and how does the energy of a spring or weight become a regular tick?"
+    - "A watch can contain several hundred parts made by different trades; what does it take for so many specialists to work together without ever meeting?"
+    - "Why do you think mechanical watches are still made by hand when a phone gives the exact time, and what did the quartz crisis change for watchmakers?"
+    - "UNESCO recognises this craft on behalf of both France and Switzerland; what does that say about a trade that crosses a border every day?"
+    - "Is there a clock or an old watch in your home that someone winds or has repaired? Who looks after it, and why is it kept?"
+vocabulary:
+  - fr: établissage
+    en: établissage (putting-out system)
+    def_fr: Organisation où chaque petit atelier indépendant fabrique une partie de la montre, puis un donneur d'ordre rassemble et assemble les pièces.
+    def_en: Way of organising work in which each small independent workshop makes one part of the watch, then a contractor gathers and assembles the parts.
+  - fr: mouvement
+    en: movement
+    def_fr: "Ensemble des pièces qui font fonctionner une montre ou une horloge : moteur, rouages, échappement, organe régulateur et aiguilles."
+    def_en: All the parts that make a watch or clock work; the mainspring or weight, the gear train, the escapement, the regulator and the hands.
+  - fr: échappement
+    en: escapement
+    def_fr: Mécanisme qui libère l'énergie pas à pas et entretient les oscillations du régulateur ; c'est lui qui produit le tic-tac.
+    def_en: Mechanism that releases energy step by step and keeps the regulator swinging; it is what makes the tick-tock.
+  - fr: balancier-spiral
+    en: balance and hairspring
+    def_fr: Petite roue qui oscille, retenue par un ressort très fin enroulé ; dans une montre, il joue le rôle du pendule d'une horloge.
+    def_en: Small oscillating wheel held by a very fine coiled spring; in a watch it plays the role of a clock's pendulum.
+  - fr: complication
+    en: complication
+    def_fr: Fonction ajoutée à la simple indication de l'heure, comme la date, les phases de la lune ou la réserve de marche.
+    def_en: Function added to simply telling the time, such as the date, the phases of the moon or the power reserve.
+  - fr: rhabilleur
+    en: watch repairer (rhabilleur)
+    def_fr: Horloger qui examine une montre ou une horloge, trouve la pièce défaillante, la répare et entretient le mécanisme.
+    def_en: Watchmaker who examines a watch or clock, finds the faulty part, repairs it and services the mechanism.
+  - fr: guillochage
+    en: guilloché engraving
+    def_fr: Décor de fines lignes entrecroisées gravées dans le métal du cadran ou du boîtier à l'aide d'une machine guidée à la main.
+    def_en: Decoration of fine interlacing lines engraved into the metal of the dial or case with a hand-guided machine.
+  - fr: chronomètre
+    en: chronometer
+    def_fr: Montre dont la précision a été contrôlée pendant plusieurs jours par un organisme habilité, comme l'observatoire de Besançon.
+    def_en: Watch whose accuracy has been tested over several days by an authorised body, such as the Besançon observatory.
+context:
+  fr: >-
+    La mécanique horlogère rassemble tous les savoirs nécessaires pour fabriquer, décorer, réparer et restaurer horloges, pendules, montres et chronomètres. Son principe reste le même depuis des siècles : un ressort ou un poids fournit l'énergie, un pendule ou un balancier-spiral en règle la libération. Autour de ce principe travaillent de nombreux métiers, de l'ingénieur au faiseur d'aiguilles, au graveur et au restaurateur.
+    En France, cette activité se concentre dans le Doubs, à Besançon et dans le Pays horloger, autour de Morteau. Au XVIIIe siècle, des paysans de la montagne y fabriquaient des pièces pendant les longs hivers pour des donneurs d'ordre suisses ; l'horlogerie s'est ensuite installée en ville. La montre à quartz, dans les années 1970, a provoqué de nombreuses fermetures. Aujourd'hui, de petites entreprises, des artisans, des écoles, des laboratoires et des musées font vivre ce savoir-faire, en lien étroit avec l'Arc jurassien suisse, où beaucoup d'horlogers formés dans le Doubs vont travailler chaque jour.
+  en: >-
+    Watch and clock mechanics brings together all the skills needed to make, decorate, repair and restore clocks, watches and chronometers. Its principle has not changed for centuries: a spring or a weight supplies energy, and a pendulum or a balance and hairspring controls its release. Around this principle work many trades, from engineers to hand makers, engravers and restorers.
+    In France the craft is concentrated in the Doubs, in Besançon and the Pays horloger around Morteau. In the 18th century, mountain farmers there made parts during the long winters for Swiss contractors; watchmaking then spread to the towns. The quartz watch caused many closures in the 1970s. Today small firms, craftspeople, schools, laboratories and museums keep the skills alive, closely tied to the Swiss Jura arc, where many watchmakers trained in the Doubs commute every day.
+unesco:
+  fr: >-
+    Les savoir-faire en mécanique horlogère et mécanique d'art sont inscrits depuis 2020 sur la Liste représentative du patrimoine culturel immatériel de l'humanité, dans un dossier commun de la France et de la Suisse centré sur l'Arc jurassien. L'inscription couvre la fabrication des objets qui mesurent le temps, mais aussi les automates, boîtes à musique et autres mécanismes d'art. Elle reconnaît un savoir-faire vivant et les valeurs qui l'accompagnent, comme la patience et la précision ; elle engage les deux pays à en soutenir la transmission, sans constituer un label de marque ou de luxe.
+  en: >-
+    The craftsmanship of mechanical watchmaking and art mechanics has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2020, in a joint file from France and Switzerland centred on the Jura arc. The inscription covers making objects that measure time, as well as automata, music boxes and other art mechanisms. It recognises a living skill and the values that go with it, such as patience and precision; it commits both countries to supporting its transmission and is not a brand or luxury label.
+activity:
+  title_fr: La chaîne de l'établissage
+  title_en: The établissage chain
+  fr: >-
+    Formez quatre ateliers qui ne peuvent communiquer que par écrit. Le premier dessine et découpe un cadran en carton selon un cahier des charges (diamètre, chiffres), le deuxième fabrique deux aiguilles, le troisième décore un boîtier, le quatrième, l'établisseur, assemble le tout avec une attache parisienne. Comparez les pendules obtenues : les pièces s'ajustent-elles ? Discutez de ce qu'exige la division du travail : précision, confiance, consignes claires.
+  en: >-
+    Form four workshops that may only communicate in writing. The first draws and cuts out a cardboard dial to a written specification (size, numerals), the second makes two hands, the third decorates a case, and the fourth, the assembler, puts everything together with a paper fastener. Compare the clocks: do the parts fit? Discuss what dividing the work requires: precision, trust and clear instructions.
+  levels: [primary, middle, high]
+lang_review: draft
+review_status: unreviewed

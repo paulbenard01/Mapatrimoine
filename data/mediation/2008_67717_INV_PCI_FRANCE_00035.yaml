@@ -1,0 +1,68 @@
+id: 2008_67717_INV_PCI_FRANCE_00035
+audience: general
+questions:
+  fr:
+    - "Le lissier tisse l'image à l'envers et ne la découvre de face qu'à la tombée du métier : que demande ce travail sans voir le résultat ?"
+    - "Un même carton d'artiste est traduit en laine par d'autres mains : qui est, selon vous, l'auteur de la tapisserie terminée ?"
+    - "Il faut environ trois ans pour devenir lissier, et l'apprenti ne produit rien de vendable pendant longtemps : comment rendre ce métier attirant pour les jeunes aujourd'hui ?"
+    - "Seules les tapisseries tissées sur place peuvent porter le nom d'Aubusson : pourquoi le lien entre un savoir-faire et un territoire compte-t-il autant ?"
+    - "Avez-vous chez vous un objet fait à la main, lentement, par quelqu'un que vous connaissez ? Qu'est-ce qui le rend différent d'un objet acheté ?"
+  en:
+    - "The weaver works the image from the back and only sees it from the front when it comes off the loom; what does working without seeing the result demand?"
+    - "An artist's cartoon is turned into wool by other hands; who do you think is the author of the finished tapestry?"
+    - "It takes about three years to become a weaver, and an apprentice makes nothing saleable for a long time; how can the trade be made attractive to young people today?"
+    - "Only tapestries woven locally may bear the name Aubusson; why does the link between a craft and a place matter so much?"
+    - "Is there an object at home made slowly by hand by someone you know? What makes it different from something bought?"
+vocabulary:
+  - fr: lissier, lissière
+    en: tapestry weaver
+    def_fr: "Artisan qui tisse les tapisseries sur le métier ; le nom vient des lisses, les fils qui soulèvent la chaîne."
+    def_en: "Craftsperson who weaves tapestries on the loom; the French name comes from the heddles that lift the warp."
+  - fr: basse lisse
+    en: low warp
+    def_fr: "Technique de tissage sur métier horizontal, où le lissier ouvre la chaîne avec des pédales ; c'est la technique habituelle à Aubusson."
+    def_en: "Weaving on a horizontal loom, where the weaver opens the warp with pedals; it is the usual technique in Aubusson."
+  - fr: carton
+    en: cartoon
+    def_fr: "Modèle grandeur nature placé sous la chaîne ; chaque zone porte un numéro qui renvoie à une couleur de laine."
+    def_en: "Full-size model placed under the warp; each area carries a number that refers to a wool colour."
+  - fr: cartonnier
+    en: cartoon maker
+    def_fr: "Artiste qui adapte l'œuvre d'un peintre aux contraintes du tissage et dresse la liste numérotée des couleurs."
+    def_en: "Artist who adapts a painter's work to the constraints of weaving and draws up the numbered list of colours."
+  - fr: chaîne
+    en: warp
+    def_fr: "Nappe de fils de coton tendus dans la longueur du métier, que la laine de la trame vient recouvrir entièrement."
+    def_en: "Sheet of cotton threads stretched along the loom, entirely covered by the wool of the weft."
+  - fr: trame
+    en: weft
+    def_fr: "Fils de laine passés en largeur entre les fils de chaîne ; ce sont eux qui forment l'image."
+    def_en: "Wool threads passed across between the warp threads; they are what forms the image."
+  - fr: flûte
+    en: bobbin
+    def_fr: "Petite navette de bois sur laquelle est enroulée la laine d'une couleur, que le lissier glisse entre les fils."
+    def_en: "Small wooden shuttle wound with wool of one colour, which the weaver slides between the threads."
+  - fr: tombée du métier
+    en: cutting from the loom
+    def_fr: "Moment où l'on coupe les fils pour retirer la tapisserie terminée et la voir enfin à l'endroit."
+    def_en: "Moment when the threads are cut to take the finished tapestry off the loom and at last see it the right way round."
+context:
+  fr: >-
+    À Aubusson et à Felletin, dans la Creuse, on tisse des tapisseries depuis près de six siècles ; en 1665, les ateliers d'Aubusson ont reçu le titre de manufacture royale. Le travail commence par un carton, modèle à taille réelle où chaque numéro désigne une couleur de laine, préparé par un cartonnier à partir de l'œuvre d'un artiste. Le lissier tisse ensuite sur un métier horizontal, de basse lisse : il actionne des pédales pour séparer les fils de chaîne et glisse entre eux des flûtes chargées de laine, en serrant chaque passage au peigne. L'image se construit à l'envers ; elle n'apparaît qu'à la tombée du métier. Les laines sont filées et teintes localement, dans des centaines de nuances. Le métier s'apprend surtout en atelier, en environ trois ans, et la relève reste fragile : peu d'ateliers subsistent et les lissiers expérimentés vieillissent.
+  en: >-
+    In Aubusson and Felletin, in the Creuse, tapestries have been woven for nearly six centuries; in 1665 the Aubusson workshops were granted the title of royal manufactory. The work starts with a cartoon, a full-size model in which each number stands for a wool colour, prepared by a cartoon maker from an artist's work. The weaver then works on a horizontal low-warp loom, using pedals to separate the warp threads and sliding wool-laden bobbins between them, packing each pass with a comb. The image is built from the back and only appears when the piece is cut from the loom. The wool is spun and dyed locally in hundreds of shades. The trade is learnt mainly in the workshop, over about three years, and new blood remains scarce: few workshops survive and experienced weavers are ageing.
+unesco:
+  fr: >-
+    La tapisserie d'Aubusson est inscrite depuis 2009 sur la Liste représentative du patrimoine culturel immatériel de l'humanité. Le dossier, présenté par la France seule, porte sur le savoir-faire des lissiers et des métiers liés (laine, teinture, cartons) à Aubusson, à Felletin et dans d'autres localités de la Creuse. L'UNESCO ne reconnaît pas des objets ni des collections, mais une technique transmise de main en main. L'inscription engage à susciter l'intérêt des jeunes, à faire connaître ce savoir-faire et à maintenir assez d'activité pour que la transmission ne soit pas interrompue.
+  en: >-
+    Aubusson tapestry has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2009. The file, presented by France alone, concerns the skills of the weavers and related trades (wool, dyeing, cartoons) in Aubusson, Felletin and other places in the Creuse. UNESCO does not recognise objects or collections but a technique handed down from hand to hand. The inscription commits to stirring young people's interest, making the craft known and keeping enough activity going so that transmission is not broken.
+activity:
+  title_fr: Tisser à l'envers, d'après un carton numéroté
+  title_en: Weaving backwards from a numbered cartoon
+  fr: >-
+    Sur une feuille quadrillée, chaque élève dessine un motif simple (vingt cases sur vingt) et remplace les couleurs par des numéros : c'est son carton. Il le confie à un camarade, le « lissier », qui doit reproduire le motif aux crayons de couleur sur une autre grille, mais en miroir, comme vu de dos, et rangée par rangée en partant du bas. Retournez ensuite la feuille contre une vitre pour comparer avec le modèle. Discutez des erreurs, du temps passé et de la part d'interprétation laissée au lissier.
+  en: >-
+    On squared paper, each pupil draws a simple design (twenty squares by twenty) and replaces the colours with numbers: this is their cartoon. They hand it to a classmate, the "weaver", who must copy the design in coloured pencil on another grid, but mirrored, as seen from the back, row by row starting from the bottom. Then hold the sheet against a window to compare it with the model. Discuss the mistakes, the time taken and how much interpretation is left to the weaver.
+  levels: [primary, middle]
+lang_review: draft
+review_status: unreviewed

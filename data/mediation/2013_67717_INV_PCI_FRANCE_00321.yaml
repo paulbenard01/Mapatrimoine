@@ -4,10 +4,14 @@ questions:
   fr:
     - Pourquoi, selon vous, le Roi carnaval reçoit-il les clés de la ville avant d'être jugé puis brûlé dans le bassin du port ?
     - Que permet un carnaval où chaque comité choisit librement de quoi se moquer, dans des règles fixées par les carnavaliers eux-mêmes ?
+    - "Le carnaval se prépare pendant six mois dans des ateliers partagés : qu'est-ce que ce long travail collectif apporte à ceux qui y participent ?"
+    - Qu'est-ce qui change pour une fête locale lorsqu'elle est reconnue par l'UNESCO et attire plus de 100 000 visiteurs ?
     - Dans votre ville ou votre région, quelle fête permet de rire ouvertement de l'actualité ou des puissants ?
   en:
     - Why do you think the Carnival King is handed the keys to the town before being tried and burnt in the harbour basin?
     - What does a carnival make possible when each committee freely chooses what to mock, within rules set by the carnival-goers themselves?
+    - The carnival takes six months of preparation in shared workshops; what does this long collective effort give to those who take part?
+    - What changes for a local festival once UNESCO recognises it and it draws more than 100,000 visitors?
     - In your own town or region, which festival lets people laugh openly at current events or at those in power?
 vocabulary:
   - fr: cavalcade
@@ -30,5 +34,35 @@ vocabulary:
     en: confetti battle
     def_fr: Grande mêlée joyeuse sur la place de la mairie le soir du Mardi gras ; cinq à six tonnes de confettis sont lancées pendant le carnaval.
     def_en: Huge good-humoured scrum on the town-hall square on the evening of Shrove Tuesday; five to six tonnes of confetti are thrown during the carnival.
+  - fr: comité
+    en: committee
+    def_fr: Groupe d'habitants (quartier, amis, collègues, association) qui conçoit, finance et anime un char ; sa composition change chaque année.
+    def_en: Group of residents (a district, friends, colleagues, an association) who design, fund and run a float; its members change every year.
+  - fr: module
+    en: module
+    def_fr: Petit dispositif léger, souvent préparé par un groupe informel, qui s'intercale entre les chars dans les cavalcades.
+    def_en: Small, light display, often made by an informal group, that slots in between the floats in the parades.
+  - fr: Mardi gras
+    en: Shrove Tuesday
+    def_fr: Dernier jour avant le Carême chrétien ; sa date dépend de celle de Pâques et change chaque année.
+    def_en: Last day before Christian Lent; its date depends on Easter and changes every year.
+context:
+  fr: >-
+    Granville est un port normand qui a longtemps vécu de la grande pêche à la morue au large de Terre-Neuve. Le carnaval y est né au XIXe siècle, quand les marins fêtaient leur départ pour de longs mois de campagne. Aujourd'hui, environ 2 500 habitants le préparent de septembre à février : six comités de quartier et une trentaine de comités d'amis, de collègues ou d'associations construisent chacun un char dans des ateliers prêtés par la ville. Pendant cinq jours avant Mardi gras, le carnaval « prend possession » de la ville : remise des clés au Roi carnaval, cavalcades de jour et de nuit, bals pour tous les âges, jugement et crémation du Roi sur le port, bataille de confettis et nuit des intrigues. Hormis quelques rituels fixes, la fête se renouvelle sans cesse : les thèmes des chars suivent l'actualité, et chacun participe selon ses moyens.
+  en: >-
+    Granville is a Normandy port that long lived from cod fishing off Newfoundland. Its carnival began in the 19th century, when sailors celebrated before leaving for months at sea. Today around 2,500 residents prepare it from September to February: six district committees and some thirty committees of friends, colleagues or associations each build a float in workshops lent by the town. For five days before Shrove Tuesday the carnival "takes over" the town: the keys are handed to the Carnival King, parades run by day and by night, there are balls for every age, the King is tried and burnt in the harbour, and the festival ends with a confetti battle and a night of masked teasing. Apart from a few fixed rituals, the festival keeps renewing itself: floats follow the news, and everyone takes part as they can.
+unesco:
+  fr: >-
+    Le carnaval de Granville est inscrit depuis 2016 sur la Liste représentative du patrimoine culturel immatériel de l'humanité. L'inscription ne récompense pas un spectacle : elle reconnaît une pratique vivante, portée par toute une population qui la transmet de génération en génération et la fait évoluer. Elle engage aussi la communauté et l'État à la sauvegarder, par exemple en soutenant les ateliers, la transmission des savoir-faire de construction et la participation des jeunes.
+  en: >-
+    The Carnival of Granville has been on the Representative List of the Intangible Cultural Heritage of Humanity since 2016. The inscription does not reward a show: it recognises a living practice, carried by a whole community that hands it down from generation to generation and keeps changing it. It also commits the community and the State to safeguarding it, for instance by supporting the workshops, the passing on of float-building skills and the involvement of young people.
+activity:
+  title_fr: Concevoir le char de la classe
+  title_en: Design the class float
+  fr: >-
+    Par groupes de quatre, choisissez un sujet d'actualité (école, quartier, environnement) dont vous voulez rire avec bienveillance. Dessinez votre char vu de côté, donnez-lui un titre et prévoyez les costumes du groupe qui l'accompagne. Chaque groupe présente son projet en deux minutes ; la classe compose ensuite l'ordre de la cavalcade. Pour finir, discutez : où passe la limite entre se moquer et blesser ?
+  en: >-
+    In groups of four, pick a current topic (school, neighbourhood, environment) you want to poke gentle fun at. Draw your float from the side, give it a title and plan the costumes of the group walking with it. Each group presents its project in two minutes; the class then decides the order of the parade. To finish, discuss: where is the line between teasing and hurting?
+  levels: [primary, middle]
 lang_review: draft
 review_status: unreviewed
