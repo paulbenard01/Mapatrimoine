@@ -23,4 +23,5 @@ Milestones for PCI Map. Tick a box only when its "done when" criterion is met an
   - [x] short summary tier (`data/summaries.yaml`) for the elements not curated yet, shown and searchable on the site
   - [ ] timing and evidence for the events among them (promote to `data/curated`)
   - [ ] Paul's review of drafts
+- [x] **Layout rework and UNESCO** (Paul's request): top-bar search, toolbar menus, bottom navigation on phones, new fonts; Resources page; UNESCO tag and filter for 34 elements; extended worksheets for every UNESCO element (99 sheets in all).
 - [ ] **M8 portfolio write-up**: draft case study (EN/FR) in `docs/portfolio.md`; Paul to rewrite in his own voice and fill the *[Paul]* parts.

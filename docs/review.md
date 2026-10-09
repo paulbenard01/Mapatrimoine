@@ -20,7 +20,7 @@ How to review an element: open its page on the site, check the summary, places a
 | Documented (summary, timing) | 76 |
 | — timing reviewed | 0 |
 | — EN summary reviewed | 0 |
-| With a mediation sheet | 76 |
+| With a mediation sheet | 99 |
 | — sheet reviewed | 0 |
 | Short summary only (no timing yet) | 467 |
 | — events | 42 |
