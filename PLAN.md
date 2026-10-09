@@ -23,4 +23,4 @@ Milestones for PCI Map. Tick a box only when its "done when" criterion is met an
   - [x] short summary tier (`data/summaries.yaml`) for the elements not curated yet, shown and searchable on the site
   - [ ] timing and evidence for the events among them (promote to `data/curated`)
   - [ ] Paul's review of drafts
-- [ ] **M8 portfolio write-up**.
+- [ ] **M8 portfolio write-up**: draft case study (EN/FR) in `docs/portfolio.md`; Paul to rewrite in his own voice and fill the *[Paul]* parts.

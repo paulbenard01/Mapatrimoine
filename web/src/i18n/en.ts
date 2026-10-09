@@ -7,7 +7,7 @@ export const en: Strings = {
   viewInventory: "Inventory",
   viewAgenda: "Yearly events",
   coverage: (total: number, located: number, documented: number) =>
-    `${total} elements are listed in the national inventory; ${located} are placed on the map. ${documented} are documented in detail (summary, dates); the others link to their official fiche.`,
+    `${total} elements are listed in the national inventory; ${located} are placed on the map. ${documented} are documented in detail (dates and sources); the others have a short description and link to their official fiche.`,
   agendaIntro: (n: number) =>
     `Only part of the inventory has dates: these are the ${n} yearly events documented so far.`,
   search: "Search the inventory",
@@ -43,7 +43,7 @@ export const en: Strings = {
   legend: "Key",
   documented: "Documented",
   moreFilters: "Area, distance and sorting",
-  notDocumentedShort: "Located, not documented yet",
+  notDocumentedShort: "Short description, dates not documented",
   movableShort: "Movable feast",
   resultsCount: (n: number, mapped: number) =>
     n === 0 ? "No elements" : `${n} element${n === 1 ? "" : "s"}, ${mapped} on the map`,
@@ -126,7 +126,7 @@ export const en: Strings = {
   about: "About and privacy",
   aboutText:
     "Data: national inventory of intangible cultural heritage, French Ministry of Culture; places from PCI Lab (Ministry of Culture and CIRDOC) and online sources; photos from Wikimedia Commons or the inventory fiches. Summaries written for this site. No cookies, no analytics, no trackers. Map tiles (OpenFreeMap) and images (Wikimedia, PCI Lab) load from their servers, which see visitors' IP addresses, like any web server.",
-  pilotNote: "Work in progress: every element is placed on the map; only some are documented in detail.",
+  pilotNote: "Work in progress: every element is placed on the map and briefly described; only some are documented in detail (dates and sources). Texts are drafts under review.",
   ficheNotRead: "Summary and timing based on online sources: the official fiche could not be consulted.",
   ruleEveryN: (n: number) => `Every ${n} years`,
   announcedDates: "No fixed rule: dates announced by the organisers for each edition",

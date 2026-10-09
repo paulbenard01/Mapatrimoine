@@ -5,7 +5,7 @@ export const fr = {
   viewInventory: "Inventaire",
   viewAgenda: "Agenda annuel",
   coverage: (total: number, located: number, documented: number) =>
-    `${total} éléments inscrits à l'Inventaire national, dont ${located} placés sur la carte. ${documented} sont documentés en détail (résumé, dates) ; les autres renvoient à leur fiche officielle.`,
+    `${total} éléments inscrits à l'Inventaire national, dont ${located} placés sur la carte. ${documented} sont documentés en détail (dates et sources) ; les autres ont une courte présentation et renvoient à leur fiche officielle.`,
   agendaIntro: (n: number) =>
     `Seule une partie de l'Inventaire est datable : voici les ${n} rendez-vous annuels documentés à ce jour.`,
   search: "Rechercher un élément",
@@ -41,7 +41,7 @@ export const fr = {
   legend: "Légende",
   documented: "Documenté",
   moreFilters: "Territoire, distance et tri",
-  notDocumentedShort: "Localisé, pas encore documenté",
+  notDocumentedShort: "Présentation courte, dates non documentées",
   movableShort: "Fête mobile",
   resultsCount: (n: number, mapped: number) =>
     n === 0 ? "Aucun élément" : `${n} élément${n > 1 ? "s" : ""}, dont ${mapped} sur la carte`,
@@ -125,7 +125,7 @@ export const fr = {
   about: "À propos et confidentialité",
   aboutText:
     "Données : Inventaire national du patrimoine culturel immatériel, ministère de la Culture ; lieux d'après PCI Lab (ministère de la Culture et CIRDOC) et des sources en ligne ; photos Wikimedia Commons ou images des fiches. Résumés rédigés pour ce site. Aucun cookie, aucune mesure d'audience, aucun traceur. Les fonds de carte (OpenFreeMap) et les images (Wikimedia, PCI Lab) sont chargés depuis leurs serveurs, qui voient l'adresse IP des visiteurs, comme tout serveur web.",
-  pilotNote: "Projet en cours : chaque élément est placé sur la carte ; une partie seulement est documentée en détail.",
+  pilotNote: "Projet en cours : chaque élément est placé sur la carte et brièvement présenté ; une partie seulement est documentée en détail (dates et sources). Les textes sont des brouillons en cours de relecture.",
   ficheNotRead:
     "Résumé et calendrier établis à partir de sources en ligne : la fiche officielle n'a pas pu être consultée.",
   ruleEveryN: (n: number) => `Tous les ${n} ans`,
