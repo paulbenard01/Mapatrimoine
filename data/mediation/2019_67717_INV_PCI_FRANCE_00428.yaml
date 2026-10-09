@@ -1,0 +1,70 @@
+id: 2019_67717_INV_PCI_FRANCE_00428
+audience: general
+questions:
+  fr:
+    - "Regardez un verrier souffler une pièce (en vrai ou en vidéo) : pourquoi fait-il tourner sa canne sans arrêt, et que se passerait-il s'il s'arrêtait ?"
+    - "Autour d'un four, une équipe se passe le verre chaud en quelques secondes : comment apprend-on à travailler ainsi ensemble sans presque se parler ?"
+    - "Les verriers disent que leurs gestes ne s'apprennent qu'avec des années de pratique : pourquoi est-ce un défi pour transmettre le métier aujourd'hui ?"
+    - "Ce savoir-faire est reconnu par l'UNESCO avec cinq autres pays européens : qu'est-ce qu'un métier partagé par plusieurs pays gagne à être reconnu ensemble ?"
+    - "Quel objet en verre utilisez-vous chaque jour, et à quoi voit-on s'il a été fait à la main ou à la machine ?"
+  en:
+    - "Watch a glassblower shape a piece (live or on video); why does he or she keep turning the blowpipe, and what would happen if it stopped?"
+    - "Around a furnace, a team passes hot glass from hand to hand within seconds; how do people learn to work together like this, barely speaking?"
+    - "Glassmakers say their gestures can only be learnt through years of practice; why is that a challenge for passing on the craft today?"
+    - "UNESCO recognises this skill together with five other European countries; what does a craft shared by several countries gain from being recognised jointly?"
+    - "Which glass object do you use every day, and how can you tell whether it was made by hand or by machine?"
+vocabulary:
+  - fr: canne à souffler
+    en: blowpipe
+    def_fr: Long tube de métal creux avec lequel le verrier prélève le verre en fusion et souffle dedans pour former une pièce creuse.
+    def_en: Long hollow metal tube with which the glassblower gathers molten glass and blows into it to form a hollow piece.
+  - fr: cueillage
+    en: gathering
+    def_fr: Geste qui consiste à prélever dans le four, en tournant la canne, la juste quantité de verre en fusion pour l'objet à faire.
+    def_en: Gesture of taking from the furnace, while turning the pipe, just the right amount of molten glass for the object to be made.
+  - fr: paraison
+    en: parison
+    def_fr: Boule de verre chaud au bout de la canne, déjà centrée et creusée d'une première bulle d'air, avant sa mise en forme.
+    def_en: Ball of hot glass at the end of the pipe, already centred and holding a first air bubble, before it is shaped.
+  - fr: marbre
+    en: marver
+    def_fr: Table en acier sur laquelle on roule le verre chaud pour le centrer, l'égaliser et refroidir légèrement sa surface.
+    def_en: Steel table on which hot glass is rolled to centre it, even it out and slightly cool its surface.
+  - fr: pontil
+    en: pontil (punty)
+    def_fr: Tige de métal que l'on soude sous la pièce pour la tenir pendant les finitions, une fois détachée de la canne.
+    def_en: Metal rod stuck under the piece to hold it during finishing, once it has been taken off the blowpipe.
+  - fr: place
+    en: team (place)
+    def_fr: Équipe de verriers travaillant autour d'un même four, chacun avec son rôle, du cueilleur au chef de place.
+    def_en: Team of glassmakers working around one furnace, each with a role, from the gatherer to the head of the team.
+  - fr: taille
+    en: cutting
+    def_fr: Travail à froid qui creuse dans le verre ou le cristal des motifs géométriques à l'aide de meules arrosées d'eau, avant le polissage.
+    def_en: Cold work that carves geometric patterns into glass or crystal with water-cooled grinding wheels, before polishing.
+  - fr: gravure à la roue
+    en: wheel engraving
+    def_fr: Décor très fin tracé dans le verre froid par un petit disque de cuivre qui tourne, enduit de poudre abrasive.
+    def_en: Very fine decoration traced into cold glass by a small spinning copper disc coated with abrasive powder.
+context:
+  fr: >-
+    Les gestes des verriers viennent d'une tradition née au Proche-Orient il y a environ 3 500 ans. Ils couvrent trois métiers : le verrier à la main, qui souffle le verre à la canne au sortir du four ; le verrier au chalumeau, qui façonne à la flamme des tubes et des baguettes, jusqu'à la verrerie de laboratoire ; et le verrier décorateur, qui taille, grave ou dore le verre une fois froid. Les outils et les fours ont beaucoup changé, mais les gestes eux-mêmes sont restés étonnamment stables.
+    En France, ils se pratiquent surtout dans des régions marquées par l'histoire du verre, comme la Lorraine et l'Alsace ou la vallée de la Bresle en Normandie, mais aussi dans de petits ateliers dispersés partout. Grandes manufactures, verreries ouvertes au public et ateliers de création coexistent. Le verre chaud se travaille en équipe, très vite, dans une coordination silencieuse. La difficulté principale aujourd'hui est la transmission : il faut des années pour former un verrier accompli.
+  en: >-
+    Glassmakers' gestures come from a tradition born in the Near East some 3,500 years ago. They span three crafts: the glassblower, who blows glass on a pipe straight from the furnace; the lampworker, who shapes rods and tubes in a flame, including laboratory glassware; and the glass decorator, who cuts, engraves or gilds glass once it is cold. Tools and furnaces have changed a great deal, but the gestures themselves have stayed remarkably stable.
+    In France they are practised mainly in regions shaped by the history of glass, such as Lorraine and Alsace or the Bresle valley in Normandy, but also in small studios everywhere. Large manufactures, glassworks open to visitors and creative studios exist side by side. Hot glass is worked in teams, very fast and in silent coordination. The main difficulty today is transmission: it takes years to train an accomplished glassmaker.
+unesco:
+  fr: >-
+    Les connaissances, techniques et savoir-faire du verre artisanal sont inscrits depuis 2023 sur la Liste représentative du patrimoine culturel immatériel de l'humanité. Le dossier est commun à six pays européens : l'Allemagne, l'Espagne, la Finlande, la France, la Hongrie et la Tchéquie. Il couvre le travail du verre à chaud et à froid, du verre creux au verre plat, dans des verreries souvent petites ou moyennes. L'inscription reconnaît un savoir-faire vivant et la solidarité de ceux qui le pratiquent ; elle engage les États à soutenir sa transmission, sans désigner de meilleure verrerie.
+  en: >-
+    The knowledge, craft and skills of handmade glass production have been on the Representative List of the Intangible Cultural Heritage of Humanity since 2023. The file is shared by six European countries: Czechia, Finland, France, Germany, Hungary and Spain. It covers hot and cold glasswork, from hollow to flat glass, in glassworks that are often small or medium-sized. The inscription recognises a living skill and the solidarity of those who practise it; it commits the States to supporting its transmission, without naming any best glassworks.
+activity:
+  title_fr: Peut-on écrire un geste ?
+  title_en: Can a gesture be written down?
+  fr: >-
+    Par trois, choisissez un geste simple de la vie quotidienne : lacer une chaussure, plier un avion en papier, faire un nœud. Le premier exécute le geste lentement, le deuxième écrit les instructions sans dessin, le troisième, qui n'a rien vu, essaie de le refaire en lisant seulement le texte. Notez ce qui manquait aux mots : rythme, force, sensation. Discutez ensuite : pourquoi les verriers apprennent-ils surtout en regardant et en recommençant, aux côtés d'un ancien ?
+  en: >-
+    In threes, choose a simple everyday gesture: tying a shoelace, folding a paper plane, making a knot. The first person performs it slowly, the second writes instructions without any drawing, and the third, who saw nothing, tries to repeat it using only the text. Note what the words were missing: rhythm, pressure, feel. Then discuss: why do glassmakers learn mainly by watching and trying again, alongside an experienced worker?
+  levels: [middle, high, adult]
+lang_review: draft
+review_status: unreviewed
