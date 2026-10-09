@@ -20,8 +20,10 @@ import { RADII, parseState, resolveToday, serializeState, type State } from "./s
 import { THEME_COLORS } from "./theme-colors";
 import { h, svg, type Child } from "./dom";
 import { renderSheet } from "./sheet";
+import { upcomingPeriods } from "./recurrence";
 import {
   THEMES,
+  type Announced,
   type Element,
   type InventoryEntry,
   type Location,
@@ -62,6 +64,7 @@ let geoStatus: "idle" | "locating" | "denied" = "idle";
 let moreOpen = false;
 let entries: Entry[] = [];
 let sheets: Record<string, MediationSheet> = {};
+let announced: Announced | null = null;
 let mapView: MapView | null = null;
 let mapFailed = false;
 
@@ -553,6 +556,46 @@ function placesFact(places: Location[]): Child[] {
   ];
 }
 
+/** Dates listed by tourist offices (DATAtourisme), matched at build time (M5). */
+function announcedSection(id: string): HTMLElement | null {
+  const s = STRINGS[state.lang];
+  const events = (announced?.elements[id] ?? [])
+    .map((e) => ({ ...e, periods: upcomingPeriods(e.periods, today) }))
+    .filter((e) => e.periods.length)
+    .sort((a, b) => a.periods[0].start.localeCompare(b.periods[0].start));
+  if (!announced || !events.length) return null;
+  const span = (p: { start: string; end: string }) =>
+    p.start === p.end ? formatDay(p.start, state.lang) : `${formatDay(p.start, state.lang)} – ${formatDay(p.end, state.lang)}`;
+  return h(
+    "div",
+    { class: "announced" },
+    h("h4", {}, s.announced),
+    h(
+      "ul",
+      {},
+      events.map((e) =>
+        h(
+          "li",
+          {},
+          h("strong", {}, span(e.periods[0])),
+          e.periods.length > 1 ? ` (${s.moreDates(e.periods.length - 1)})` : "",
+          " · ",
+          h("span", { lang: "fr" }, e.title),
+          e.commune ? `, ${e.commune}` : "",
+          e.url ? [" · ", h("a", { href: e.url, target: "_blank", rel: "noopener" }, s.details)] : null,
+        ),
+      ),
+    ),
+    h(
+      "p",
+      { class: "note" },
+      `${s.announcedCredit} `,
+      h("a", { href: announced.source_url, target: "_blank", rel: "noopener" }, formatDay(announced.generated_on, state.lang)),
+      `. ${s.announcedCheck}`,
+    ),
+  );
+}
+
 function renderDetail(item: Item): HTMLElement {
   const s = STRINGS[state.lang];
   const { entry, element, next } = item;
@@ -569,6 +612,18 @@ function renderDetail(item: Item): HTMLElement {
       h("h2", { id: "detail-title", lang: "fr", tabindex: "-1" }, entry.title_fr),
       themeLine(entry, null),
       figure(entry.image),
+      entry.summary ? h("p", { class: "summary", lang: state.lang }, entry.summary[state.lang]) : null,
+      entry.summary && entry.summary_source
+        ? h(
+            "p",
+            { class: "note" },
+            `${s.summaryFrom} `,
+            h("a", { href: entry.summary_source.url, target: "_blank", rel: "noopener" }, entry.summary_source.publisher),
+            ". ",
+            entry.review_status === "reviewed" ? "" : s.summaryUnreviewed,
+            state.lang === "en" && entry.summary.lang_review === "draft" ? ` ${s.summaryDraft}.` : "",
+          )
+        : null,
       h(
         "dl",
         { class: "facts" },
@@ -589,7 +644,7 @@ function renderDetail(item: Item): HTMLElement {
             sources[0].kind === "pcilab" ? ` ${s.placesFromPcilab}` : ".",
           )
         : null,
-      h("p", { class: "note" }, s.notDocumented),
+      h("p", { class: "note" }, entry.summary ? s.shortOnly : s.notDocumented),
       ficheLink,
     );
   }
@@ -626,6 +681,7 @@ function renderDetail(item: Item): HTMLElement {
           h("p", {}, badge(item)),
           element.recurrence ? h("p", {}, describeRule(element.recurrence, state.lang)) : null,
           next && item.movable ? h("p", { class: "note" }, movableIcon(), ` ${s.movableFeast}`) : null,
+          announcedSection(entry.id),
           t
             ? h(
                 "div",
@@ -858,16 +914,20 @@ function render() {
 
 async function init() {
   const base = import.meta.env.BASE_URL;
-  const [inventory, curated, mediation] = await Promise.all([
+  const [inventory, curated, mediation, listed] = await Promise.all([
     fetch(`${base}data/inventory.json`).then((r) => r.json() as Promise<{ elements: InventoryEntry[] }>),
     fetch(`${base}data/elements.json`).then((r) => r.json() as Promise<{ elements: Element[] }>),
     // Optional: the site works without mediation sheets.
     fetch(`${base}data/mediation.json`)
       .then((r) => (r.ok ? (r.json() as Promise<{ sheets: Record<string, MediationSheet> }>) : { sheets: {} }))
       .catch(() => ({ sheets: {} })),
+    fetch(`${base}data/announced.json`)
+      .then((r) => (r.ok ? (r.json() as Promise<Announced>) : null))
+      .catch(() => null),
   ]);
   entries = mergeEntries(inventory.elements, curated.elements);
   sheets = mediation.sheets;
+  announced = listed;
   render();
   if (state.zone === "overseas") mapView?.fit(AREAS[presentAreas()[0] ?? "guadeloupe"]);
   if (state.selected) mapView?.select(state.selected, true);

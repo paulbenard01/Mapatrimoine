@@ -1,0 +1,75 @@
+# Search terms for announced dates (milestone M5).
+# `pci announced` keeps a DATAtourisme event when its title contains one of the terms
+# (case and accents ignored) and it lies within `radius_km` (default 20) of one of the
+# element's places. Only documented events (data/curated, kind: event) are matched.
+2009_67717_INV_PCI_FRANCE_00041: {terms: [candelaria, chandeleur mexicaine]}
+2009_67717_INV_PCI_FRANCE_00045: {terms: [trois sapins, cremation des sapins]}
+2010_67717_INV_PCI_FRANCE_00079: {terms: [dia de los muertos, dia de muertos, fete des morts mexicaine]}
+2010_67717_INV_PCI_FRANCE_00080: {terms: [vievola, festa t'vieola]}
+2010_67717_INV_PCI_FRANCE_00081: {terms: [guadalupe]}
+2010_67717_INV_PCI_FRANCE_00084: {terms: [saint-leon, saint leon], radius_km: 10}
+2010_67717_INV_PCI_FRANCE_00101: {terms: [jeux anciens, ringueta]}
+2010_67717_INV_PCI_FRANCE_00103: {terms: [boeufs gras, bœufs gras]}
+2010_67717_INV_PCI_FRANCE_00104: {terms: [saint-jean, saint jean], radius_km: 5}
+2010_67717_INV_PCI_FRANCE_00108: {terms: [fetes de laruns, fete de laruns, 15 aout a laruns, notre-dame de laruns]}
+2010_67717_INV_PCI_FRANCE_00114: {terms: [fete des bergers]}
+2010_67717_INV_PCI_FRANCE_00116: {terms: [fetes de bayonne]}
+2010_67717_INV_PCI_FRANCE_00117: {terms: [feria de dax, fetes de dax]}
+2010_67717_INV_PCI_FRANCE_00118: {terms: [foire d'ousse-suzan, foire d'ousse suzan, assemblada]}
+2010_67717_INV_PCI_FRANCE_00133: {terms: [latiere]}
+2011_67717_INV_PCI_FRANCE_00148: {terms: [ostension], radius_km: 80}
+2012_67717_INV_PCI_FRANCE_00151: {terms: [fetes de la mer, fete de la mer], radius_km: 5}
+2012_67717_INV_PCI_FRANCE_00257: {terms: [carnaval de limoux, carnaval limouxin, fecos]}
+2013_67717_INV_PCI_FRANCE_00296: {terms: [fete de la cerise]}
+2013_67717_INV_PCI_FRANCE_00297: {terms: [barricot, barricòt]}
+2013_67717_INV_PCI_FRANCE_00298: {terms: [fetes de la mer, fete de la mer, ttoro], radius_km: 5}
+2013_67717_INV_PCI_FRANCE_00302: {terms: [bourrou]}
+2013_67717_INV_PCI_FRANCE_00313: {terms: [brandon]}
+2013_67717_INV_PCI_FRANCE_00318: {terms: [arbre de mai]}
+2013_67717_INV_PCI_FRANCE_00321: {terms: [carnaval de granville]}
+2013_67717_INV_PCI_FRANCE_00322: {terms: [carnaval de cassel, reuze]}
+2013_67717_INV_PCI_FRANCE_00323: {terms: [matelote]}
+2013_67717_INV_PCI_FRANCE_00324: {terms: [carnaval international d'ete, carnaval d'ete de steenvoorde, ronde europeenne]}
+2014_67717_INV_PCI_FRANCE_00329: {terms: [jour des limites, tribut des trois vaches, junte de roncal]}
+2014_67717_INV_PCI_FRANCE_00330: {terms: [fete du piment]}
+2014_67717_INV_PCI_FRANCE_00331: {terms: [tribut des trois vaches, junte de roncal]}
+2014_67717_INV_PCI_FRANCE_00345: {terms: [carnaval de manthelan]}
+2014_67717_INV_PCI_FRANCE_00348: {terms: [nouvel an chinois, nouvel an lunaire, fete du printemps chinois]}
+2014_67717_INV_PCI_FRANCE_00349: {terms: [fete de l'ours, fetes de l'ours, festa de l'ors]}
+2014_67717_INV_PCI_FRANCE_00350: {terms: [gayant]}
+2014_67717_INV_PCI_FRANCE_00351: {terms: [carnaval de lesquin]}
+2014_67717_INV_PCI_FRANCE_00352: {terms: [carnaval de lomme]}
+2014_67717_INV_PCI_FRANCE_00353: {terms: [saint-nicolas, saint nicolas], radius_km: 5}
+2014_67717_INV_PCI_FRANCE_00354: {terms: [carnaval de wormhout]}
+2014_67717_INV_PCI_FRANCE_00359: {terms: [kabwet, kabwèt, carnaval de marie-galante]}
+2015_67717_INV_PCI_FRANCE_00370: {terms: [lavage de la madeleine, lavagem]}
+2015_67717_INV_PCI_FRANCE_00371: {terms: [fete de la mer], radius_km: 5}
+2017_67717_INV_PCI_FRANCE_00389: {terms: [touloulou, carnaval de guyane, carnaval de cayenne]}
+2017_67717_INV_PCI_FRANCE_00392: {terms: [vaisakhi, baisakhi]}
+2018_67717_INV_PCI_FRANCE_00395: {terms: [fetes johanniques, fetes de jeanne d'arc]}
+2018_67717_INV_PCI_FRANCE_00406: {terms: [grand pardon]}
+2018_67717_INV_PCI_FRANCE_00414: {terms: [fetes de saint-nicolas, defile de saint-nicolas, defile de la saint-nicolas, grand defile de saint-nicolas], radius_km: 8}
+2018_67717_INV_PCI_FRANCE_00420: {terms: [pastorale, santons, gros souper, cacho-fio], radius_km: 60}
+2018_67717_INV_PCI_FRANCE_00421: {terms: [carnaval de nice]}
+2019_67717_INV_PCI_FRANCE_00422: {terms: [boeuf de meze, fete du boeuf, fetes du boeuf]}
+2019_67717_INV_PCI_FRANCE_00423: {terms: [carnaval de montblanc]}
+2019_67717_INV_PCI_FRANCE_00424: {terms: [tribus lupis]}
+2019_67717_INV_PCI_FRANCE_00425: {terms: [tarasque], radius_km: 5}
+2019_67717_INV_PCI_FRANCE_00429: {terms: [carnaval de pezenas, poulain de pezenas]}
+2019_67717_INV_PCI_FRANCE_00430: {terms: [ane de bessan, saint-laurent, saint laurent], radius_km: 5}
+2019_67717_INV_PCI_FRANCE_00432: {terms: [sainte-agathe, sainte agathe], radius_km: 10}
+2019_67717_INV_PCI_FRANCE_00447: {terms: [norouz, nowruz, nouvel an persan], radius_km: 40}
+2019_67717_INV_PCI_FRANCE_00449: {terms: [fete du citron]}
+2019_67717_INV_PCI_FRANCE_00450: {terms: [olives vertes]}
+2020_67717_INV_PCI_FRANCE_00471: {terms: [fete des rois, errege]}
+2020_67717_INV_PCI_FRANCE_00474: {terms: [fete des fleurs, fetes des fleurs, corso fleuri], radius_km: 40}
+2020_67717_INV_PCI_FRANCE_00479: {terms: [yennayer], radius_km: 40}
+2020_67717_INV_PCI_FRANCE_00486: {terms: [conscrits]}
+2022_67717_INV_PCI_FRANCE_00519: {terms: [jeux floraux]}
+2023_67717_INV_PCI_FRANCE_00521: {terms: [carnaval de nantes]}
+2023_67717_INV_PCI_FRANCE_00523: {terms: [sanch, procession de la sanch]}
+2023_67717_INV_PCI_FRANCE_00524: {terms: [saint-cordon, saint cordon]}
+2024_67717_INV_PCI_FRANCE_00545: {terms: [neuf lieues, 9 lieues]}
+2025_67717_INV_PCI_FRANCE_00560: {terms: [carnaval de scaer, carnaval a l'ouest]}
+2026_67717_INV_PCI_FRANCE_00564: {terms: [sainte-solange, sainte solange, pelerinage]}
+2026_67717_INV_PCI_FRANCE_00565: {terms: [procession mariale, procession aux flambeaux]}

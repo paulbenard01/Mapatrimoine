@@ -12,11 +12,15 @@ Milestones for PCI Map. Tick a box only when its "done when" criterion is met an
 
 - [x] **Batch 3, whole inventory on the map** (Paul's request): every published element placed (several pins when it spans several places) from PCI Lab's "Localisation" field or the fiche read online, with sources; donut-chart clusters by theme; one picture per element where possible (Wikimedia Commons first, else the fiche image shown on PCI Lab). Done when a test proves every published element is curated or in `data/places.yaml`, and the build validates places and images.
 
-## Later sessions (do not build now)
+## Later milestones
 
-- [ ] **M5 live events layer**: DATAtourisme and/or OpenAgenda, fetched at build time by a scheduled GitHub Action using repository secrets, never from the browser. Check access terms first.
-- [ ] **M6 mediation sheet**: printable bilingual sheet per element (3 discussion questions, 5 vocabulary terms), drafts for Paul to review.
+- [x] **M5 live events layer**: DATAtourisme's daily events export (open data on data.gouv.fr, Licence Ouverte 2.0, no key or secret needed), fetched at build time by the scheduled Pages workflow, never from the browser; matched to documented events by search terms and distance (`data/announced.yaml`). OpenAgenda not used (API key per account, per-agenda reads).
+- [x] **M6 mediation sheet**: printable bilingual sheet per element (3 discussion questions, 5 vocabulary terms), drafts for Paul to review.
   - [x] schema, `pci build` validation, `mediation.json`, sheet view (`?id=…&sheet=1`), one-page A4 print, tests
-  - [ ] sheets for every curated element
+  - [x] sheets for all 76 documented elements (each checked to print on one A4 page)
 - [ ] **M7 scale-up**: summaries and timing for all published elements (places and pictures are done), with a review workflow (`review_status`, `lang_review`); Paul to spot-check `data/places.yaml` and the picture choices.
+  - [x] review report (`pci review` → `docs/review.md`, kept current by a test)
+  - [x] short summary tier (`data/summaries.yaml`) for the elements not curated yet, shown and searchable on the site
+  - [ ] timing and evidence for the events among them (promote to `data/curated`)
+  - [ ] Paul's review of drafts
 - [ ] **M8 portfolio write-up**.

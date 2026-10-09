@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Daily rebuild after DATAtourisme's export (about 03:00 UTC) to refresh announced dates.
+  schedule:
+    - cron: "17 5 * * *"
 
 permissions:
   contents: read
@@ -22,6 +25,19 @@ jobs:
         working-directory: web
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Announced dates from DATAtourisme (open data, no key)
+        working-directory: .
+        run: |
+          pip install -e .
+          if pci fetch-datatourisme && pci announced; then
+            echo "announced dates refreshed"
+          else
+            echo "::warning::DATAtourisme unavailable; keeping the committed announced.json"
+            git checkout -- web/public/data/announced.json
+          fi
       - uses: actions/setup-node@v4
         with:
           node-version: "22"

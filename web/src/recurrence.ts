@@ -148,3 +148,8 @@ export function isOngoing(occ: Occurrence, today: string): boolean {
 export function isMovableFeast(rule: Rule): boolean {
   return rule.type === "easter_offset";
 }
+
+/** Announced periods (from DATAtourisme) that have not ended yet, earliest first. */
+export function upcomingPeriods<P extends { start: string; end: string }>(periods: P[], today: string): P[] {
+  return periods.filter((p) => p.end >= today).sort((a, b) => a.start.localeCompare(b.start));
+}

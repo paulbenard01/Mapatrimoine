@@ -42,7 +42,7 @@ export interface Element {
   domain: string;
   year_included: number;
   kind: "event" | "practice";
-  summary: { fr: string; en: string; lang_review: "draft" | "reviewed" };
+  summary: Summary;
   locations: Location[];
   recurrence: Rule | null;
   timing: Timing | null;
@@ -68,6 +68,12 @@ export interface Picture {
 }
 
 /** Any element of the national inventory, as listed on culture.gouv.fr. */
+export interface Summary {
+  fr: string;
+  en: string;
+  lang_review: "draft" | "reviewed";
+}
+
 export interface InventoryEntry {
   id: string;
   title_fr: string;
@@ -77,6 +83,11 @@ export interface InventoryEntry {
   locations: Location[]; // empty when no place could be established
   location_sources: LocationSource[]; // empty for documented elements (see Element)
   image: Picture | null;
+  /** Short summary tier (data/summaries.yaml) for elements not curated yet; never dated. */
+  kind?: "event" | "practice" | null;
+  summary?: Summary;
+  summary_source?: { publisher: string; url: string };
+  review_status?: "unreviewed" | "reviewed";
 }
 
 export interface VocabularyTerm {
@@ -93,4 +104,21 @@ export interface MediationSheet {
   vocabulary: VocabularyTerm[];
   lang_review: "draft" | "reviewed";
   review_status: "unreviewed" | "reviewed";
+}
+
+/** An event listed by a tourist office in DATAtourisme and matched to a documented element (M5). */
+export interface AnnouncedEvent {
+  title: string;
+  commune: string;
+  periods: { start: string; end: string }[];
+  url: string | null;
+  publisher: string;
+}
+
+export interface Announced {
+  source: string;
+  source_url: string;
+  licence: string;
+  generated_on: string;
+  elements: Record<string, AnnouncedEvent[]>;
 }

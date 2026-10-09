@@ -14,6 +14,7 @@ from pci.build import load_curated
 from pci.index import INDEX_PATH
 from pci.mediation import MEDIATION_DIR, load_sheets
 from pci.places import IMAGES_PATH, PLACES_PATH, load_yaml
+from pci.summaries import SUMMARIES_PATH
 
 REVIEW_PATH = ROOT / "docs" / "review.md"
 SITE = "https://paulbenard01.github.io/Mapatrimoine/"
@@ -49,11 +50,12 @@ def collect(mediation_dir: Path = MEDIATION_DIR) -> dict:
         "sheets": sheets,
         "places": places,
         "images": images,
+        "summaries": load_yaml(SUMMARIES_PATH),
     }
 
 
 def coverage(data: dict) -> list[tuple[str, int]]:
-    curated, sheets = data["curated"], data["sheets"]
+    curated, sheets, short = data["curated"], data["sheets"], data["summaries"]
     total = len(data["published"])
     places_from = Counter("PCI Lab" if p.get("pcilab") else "web" for p in data["places"].values())
     pictures = Counter(i["source"] for i in data["images"].values())
@@ -75,7 +77,11 @@ def coverage(data: dict) -> list[tuple[str, int]]:
         ),
         ("With a mediation sheet", len(sheets)),
         ("  sheet reviewed", sum(s["review_status"] == "reviewed" for s in sheets.values())),
-        ("Not documented yet", total - len(curated)),
+        ("Short summary only (no timing yet)", len(short)),
+        ("  events", sum(e["kind"] == "event" for e in short.values())),
+        ("  practices", sum(e["kind"] == "practice" for e in short.values())),
+        ("  summary reviewed", sum(e["review_status"] == "reviewed" for e in short.values())),
+        ("No summary yet", total - len(curated) - len(short)),
     ]
 
 
@@ -125,10 +131,32 @@ def render(data: dict) -> str:
             f"| {_mark(c['summary']['lang_review'] == 'reviewed')} | {sheet_cell} "
             f"| {_mark(bool(sheet) and sheet['review_status'] == 'reviewed')} |"
         )
-    lines += ["", "## Not documented yet, by theme", "", "| Theme | Elements |", "|---|---:|"]
+    short = data["summaries"]
+    lines += [
+        "",
+        "## Short summaries",
+        "",
+        "Elements not curated yet carry a short summary in `data/summaries.yaml` "
+        "(no timing). Columns: facts reviewed, English reviewed.",
+        "",
+        "| Element | Kind | Facts | EN |",
+        "|---|---|:-:|:-:|",
+    ]
+    for ident, entry in short.items():
+        title = published.get(ident, {}).get("title", ident)
+        lines.append(
+            f"| [{_cell(title)}]({SITE}?id={ident}) | {entry['kind']} "
+            f"| {_mark(entry['review_status'] == 'reviewed')} "
+            f"| {_mark(entry['summary']['lang_review'] == 'reviewed')} |"
+        )
+    lines += ["", "## Not curated yet, by theme", ""]
+    lines += ["| Theme | Short summary | No summary |", "|---|---:|---:|"]
     themes = Counter(e["theme"] for i, e in published.items() if i not in curated)
+    with_short = Counter(e["theme"] for i, e in published.items() if i in short)
     for theme, n in sorted(themes.items(), key=lambda t: (-t[1], t[0])):
-        lines.append(f"| {THEME_NAMES.get(theme, theme)} | {n} |")
+        lines.append(
+            f"| {THEME_NAMES.get(theme, theme)} | {with_short[theme]} | {n - with_short[theme]} |"
+        )
     return "\n".join(lines) + "\n"
 
 

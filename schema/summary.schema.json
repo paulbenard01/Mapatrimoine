@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/paulbenard01/Mapatrimoine/schema/summary.schema.json",
+  "title": "PCI Map short summary",
+  "description": "One entry of data/summaries.yaml: a short own-words summary of an element that is not curated in data/curated yet (no timing). Written from the fiche text published on PCI Lab or from the official fiche; drafts until Paul reviews them.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["kind", "summary", "read", "review_status"],
+  "properties": {
+    "kind": {
+      "description": "event = recurring, datable tradition; practice = know-how or practice with no public date.",
+      "enum": ["event", "practice"]
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fr", "en", "lang_review"],
+      "properties": {
+        "fr": {"type": "string", "minLength": 40, "maxLength": 400},
+        "en": {"type": "string", "minLength": 40, "maxLength": 400},
+        "lang_review": {"enum": ["draft", "reviewed"]}
+      }
+    },
+    "read": {
+      "description": "Where the fiche text was read: pcilab = the element's PCI Lab page (data/places.yaml gives its id); fiche = the official fiche PDF.",
+      "enum": ["pcilab", "fiche"]
+    },
+    "review_status": {"enum": ["unreviewed", "reviewed"]}
+  }
+}

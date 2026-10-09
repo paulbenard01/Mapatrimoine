@@ -1,5 +1,6 @@
 import { describe, expect, test } from "vitest";
 import {
+  upcomingPeriods,
   daysBetween,
   easterSunday,
   formatDate,
@@ -169,5 +170,18 @@ describe("unknown and helpers", () => {
   test("parseDate rejects impossible dates", () => {
     expect(() => parseDate("2026-02-30")).toThrow();
     expect(() => parseDate("08/10/2026")).toThrow();
+  });
+});
+
+describe("announced periods", () => {
+  test("keeps periods that have not ended, earliest first", () => {
+    const periods = [
+      { start: "2027-01-10", end: "2027-01-10" },
+      { start: "2026-10-01", end: "2026-10-31" }, // ongoing on today
+      { start: "2026-09-01", end: "2026-09-02" }, // over
+    ];
+    expect(upcomingPeriods(periods, "2026-10-09").map((p) => p.start)).toEqual(["2026-10-01", "2027-01-10"]);
+    expect(upcomingPeriods(periods, "2027-01-10")).toHaveLength(1);
+    expect(upcomingPeriods(periods, "2027-01-11")).toEqual([]);
   });
 });
