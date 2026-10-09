@@ -14,7 +14,6 @@ export function renderLesson(
 ): HTMLElement {
   const s = STRINGS[lang];
   const t = <T>(v: { fr: T; en: T }) => v[lang];
-  const draft = lesson.review_status !== "reviewed" || lesson.lang_review !== "reviewed";
   let clock = 0;
   return h(
     "article",
@@ -29,11 +28,10 @@ export function renderLesson(
     h(
       "header",
       { class: "lesson-head" },
-      h("p", { class: "sheet-kicker" }, `${s.lessonKicker} · ${s.levels[lesson.level === "high" ? "high" : lesson.level]} — ${s.appTitle}`),
+      h("p", { class: "sheet-kicker" }, `${s.lessonKicker} · ${s.levels[lesson.level]} — ${s.appTitle}`),
       h("h1", { id: "lesson-title", tabindex: "-1" }, t(lesson.title)),
       h("p", { class: "lesson-meta" }, `${t(lesson.grade)} · ${s.minutes(lesson.duration_min)}`),
     ),
-    draft ? h("p", { class: "sheet-draft" }, s.lessonDraft) : null,
     h("p", { class: "lesson-summary" }, t(lesson.summary)),
     h(
       "div",

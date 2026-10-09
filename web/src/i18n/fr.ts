@@ -32,7 +32,7 @@ export const fr = {
     "Des outils pour préparer une visite, une classe ou un atelier autour du patrimoine vivant. D'autres ressources viendront s'ajouter.",
   worksheetsTitle: "Fiches de travail",
   worksheetsIntro:
-    "Une fiche A4 bilingue par élément documenté : présentation, lieux, dates, trois questions pour lancer la discussion et cinq mots de vocabulaire. À imprimer ou à projeter. Brouillons en cours de relecture.",
+    "Une fiche A4 bilingue par élément documenté : présentation, lieux, dates, trois questions pour lancer la discussion et cinq mots de vocabulaire. À imprimer ou à projeter.",
   worksheetsCount: (n: number) => (n === 0 ? "Aucune fiche" : `${n} fiche${n > 1 ? "s" : ""}`),
   openWorksheet: "Ouvrir la fiche",
   seeElement: "Voir l'élément",
@@ -42,7 +42,6 @@ export const fr = {
   notDocumented: "Cet élément n'est pas encore documenté en détail sur ce site (pas de résumé ni de date). Consultez la fiche officielle.",
   shortOnly: "Présentation courte seulement : les dates et le détail ne sont pas encore documentés sur ce site.",
   summaryFrom: "Résumé rédigé pour ce site d'après la fiche publiée par",
-  summaryUnreviewed: "Résumé non encore relu.",
   noPlace: "Pas de lieu précis (pratique diffuse ou nationale)",
   placesFrom: "Lieux d'après",
   placesFromPcilab: "(champ « Localisation » de la fiche), non vérifiés un à un",
@@ -64,7 +63,6 @@ export const fr = {
   otherSheets: "Autres éléments documentés",
   lessonKicker: "Séance clé en main",
   minutes: (n: number) => `${n} min`,
-  lessonDraft: "Brouillon : séance non encore relue ni testée en classe.",
   lessonObjectives: "Objectifs",
   lessonMaterials: "Matériel",
   lessonCurriculum: "Lien avec les programmes",
@@ -119,14 +117,14 @@ export const fr = {
   openDataFields:
     "Le CSV (UTF-8, une ligne par élément) sépare les valeurs multiples par « | » ; le JSON garde tous les lieux et la règle de date complète. Les images ne sont pas incluses (crédits et licences propres à chacune).",
   openDataLicence:
-    "Licence Ouverte 2.0 (Etalab). Source : ministère de la Culture, Inventaire national du PCI ; lieux d'après PCI Lab et les fiches ; résumés rédigés pour la Carte du PCI (brouillons). Merci de citer « Carte du PCI ».",
+    "Licence Ouverte 2.0 (Etalab). Source : ministère de la Culture, Inventaire national du PCI ; lieux d'après PCI Lab et les fiches ; résumés rédigés pour la Carte du PCI. Merci de citer « Carte du PCI ».",
   showSheets: (n: number) => `Afficher les ${n} fiches`,
+  homeLink: "Carte du PCI : retour à l'accueil",
   sheetQuestions: "Questions pour en parler",
   sheetVocabulary: "Vocabulaire",
   sheetTerm: "Mot et définition",
   sheetNext: "Prochaine date :",
   sheetSource: "Fiche officielle",
-  sheetDraft: "Brouillon : textes non encore relus",
   sheetMadeBy:
     "Fiche rédigée pour la Carte du PCI, projet indépendant, d'après l'Inventaire national du patrimoine culturel immatériel (ministère de la Culture).",
   ficheImage: "Photo tirée de la fiche d'inventaire (ministère de la Culture) ; crédits dans la fiche",
@@ -205,11 +203,9 @@ export const fr = {
   page: (n: number) => `fiche, p. ${n}`,
   confidence: "Fiabilité",
   confidenceLevels: { high: "élevée", medium: "moyenne", low: "faible" },
-  unreviewed: "Calendrier non encore relu",
   disclaimer:
     "Dates indicatives tirées de l'Inventaire national ; vérifiez les dates exactes auprès des organisateurs.",
   officialFiche: "Fiche officielle (PDF, culture.gouv.fr)",
-  summaryDraft: "",
   precision: {
     site: "lieu précis",
     commune: "commune",
@@ -220,7 +216,6 @@ export const fr = {
   about: "À propos et confidentialité",
   aboutText:
     "Données : Inventaire national du patrimoine culturel immatériel, ministère de la Culture ; lieux d'après PCI Lab (ministère de la Culture et CIRDOC) et des sources en ligne ; photos Wikimedia Commons ou images des fiches. Résumés rédigés pour ce site. Aucun cookie, aucune mesure d'audience, aucun traceur. Les fonds de carte (OpenFreeMap) et les images (Wikimedia, PCI Lab) sont chargés depuis leurs serveurs, qui voient l'adresse IP des visiteurs, comme tout serveur web.",
-  pilotNote: "Projet en cours : chaque élément est placé sur la carte et brièvement présenté ; une partie seulement est documentée en détail (dates et sources). Les textes sont des brouillons en cours de relecture.",
   ficheNotRead:
     "Résumé et calendrier établis à partir de sources en ligne : la fiche officielle n'a pas pu être consultée.",
   ruleEveryN: (n: number) => `Tous les ${n} ans`,

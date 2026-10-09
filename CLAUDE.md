@@ -110,7 +110,7 @@ npm run screenshots   # needs `npm run preview` running; writes docs/screenshots
 - Schemas: `schema/lesson.schema.json`, `schema/story.schema.json`, `schema/media.schema.json`; `pci build` validates them (lesson steps must add up to 60 min, element IDs must exist, no element twice in a story) and publishes `web/public/data/resources.json`.
 - Lessons: engaging, investigation/debate/creation formats anchored in real elements, with timings, teacher and student roles, prompts and an answer key; curriculum links in own words. Stories: 4-8 steps, each tied to one element, narrative in own words, `look_for` cue.
 - Media: only public archives or institutions (UNESCO, INA, Gallica, Dastum, Occitanica, museums, public broadcasters, official institutional channels); open every link before adding it, never guess URLs, no re-uploads.
-- Open data: `pci build` writes `web/public/data/open/pci-inventaire.{csv,json}` (structured facts, summaries, places, UNESCO, rules, links; no pictures, no fiche text) under the Licence Ouverte 2.0 (Paul to confirm).
+- Open data: `pci build` writes `web/public/data/open/pci-inventaire.{csv,json}` (structured facts, summaries, places, UNESCO, rules, links; no pictures, no fiche text) under the Licence Ouverte 2.0 (Etalab), Paul's decision (2026-10-09).
 
 ## Places and images for the rest of the inventory
 
@@ -122,6 +122,6 @@ npm run screenshots   # needs `npm run preview` running; writes docs/screenshots
 
 - Code, comments, commits and docs in English; README bilingual (EN then FR); UI strings only in `web/src/i18n/*.ts`.
 - Pinned dependency versions; minimal dependencies; small tested functions.
-- Element titles stay in French; EN summaries are drafts (`lang_review: draft`) until Paul reviews them.
+- Element titles stay in French. New texts start as `lang_review: draft` / `review_status: unreviewed` and Paul flips them after review; `docs/review.md` tracks this. The site does not show draft notices (Paul's decision, 2026-10-09).
 - Record non-trivial decisions in `docs/decisions.md`.
 - Product priority (Paul): the whole inventory comes first; yearly events are a secondary "agenda" view.

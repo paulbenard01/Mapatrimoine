@@ -178,6 +178,17 @@ function currentTab(): Tab {
   return state.sort === "distance" ? "near" : "search";
 }
 
+/** The logo: back to the Explorer home, closing any element, story, sheet or lesson. */
+function goHome() {
+  openMenu = null;
+  cameFromMap = false;
+  const narrow = window.matchMedia("(max-width: 899px)").matches;
+  setState({ view: "inventory", selected: null, sheet: false, story: null, step: 0, lesson: null, pane: narrow ? "map" : "list" });
+  showMap();
+  window.scrollTo({ top: 0 });
+  document.querySelector<HTMLElement>('[data-key="home"]')?.focus();
+}
+
 function goTab(tab: Tab) {
   openMenu = null;
   cameFromMap = false;
@@ -745,9 +756,7 @@ function renderDetail(item: Item): HTMLElement {
             { class: "note" },
             `${s.summaryFrom} `,
             h("a", { href: entry.summary_source.url, target: "_blank", rel: "noopener" }, entry.summary_source.publisher),
-            ". ",
-            entry.review_status === "reviewed" ? "" : s.summaryUnreviewed,
-            state.lang === "en" && entry.summary.lang_review === "draft" ? ` ${s.summaryDraft}.` : "",
+            ".",
           )
         : null,
       h(
@@ -779,7 +788,6 @@ function renderDetail(item: Item): HTMLElement {
 
   const t = element.timing;
   const summary = state.lang === "fr" ? element.summary.fr : element.summary.en;
-  const draft = state.lang === "en" && element.summary.lang_review === "draft";
   const pageUrl = t?.evidence_page ? `${element.source.fiche_url}#page=${t.evidence_page}` : element.source.fiche_url;
 
   return h(
@@ -791,7 +799,6 @@ function renderDetail(item: Item): HTMLElement {
     unescoBox(entry),
     figure(entry.image),
     h("p", { class: "summary", lang: state.lang }, summary),
-    draft ? h("p", { class: "note" }, s.summaryDraft) : null,
     element.source.fiche_read ? null : h("p", { class: "flag" }, s.ficheNotRead),
     h(
       "dl",
@@ -851,7 +858,6 @@ function renderDetail(item: Item): HTMLElement {
                   : null,
                 t.notes ? h("p", { class: "notes", lang: "en" }, t.notes) : null,
                 h("p", {}, s.confidenceLine(s.confidenceLevels[t.confidence])),
-                element.review_status === "unreviewed" ? h("p", { class: "flag" }, s.unreviewed) : null,
                 h("p", { class: "disclaimer" }, s.disclaimer),
               )
             : null,
@@ -1388,8 +1394,20 @@ function renderHeader(): HTMLElement {
     { class: "top" },
     h("a", { class: "skip", href: "#results" }, s.skipToList),
     h(
-      "div",
-      { class: "brand" },
+      "a",
+      {
+        class: "brand",
+        href: `${import.meta.env.BASE_URL}?lang=${state.lang}`,
+        "aria-label": s.homeLink,
+        "data-key": "home",
+        onclick: (e: Event) => {
+          // A plain link still works (new tab, copy); a simple click stays in the app.
+          const ev = e as MouseEvent;
+          if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button !== 0) return;
+          e.preventDefault();
+          goHome();
+        },
+      },
       brandMark(),
       h("div", {}, h("h1", {}, s.appTitle), h("p", {}, s.appSubtitle)),
     ),
@@ -1431,7 +1449,6 @@ function renderHeader(): HTMLElement {
           { class: "about-panel" },
           h("p", {}, s.coverage(entries.length, located, documented)),
           h("p", {}, s.aboutText),
-          h("p", {}, s.pilotNote),
           h("p", {}, s.disclaimer),
         ),
       ),

@@ -34,7 +34,7 @@ export const en: Strings = {
     "Tools to prepare a visit, a class or a workshop about living heritage. More resources will be added.",
   worksheetsTitle: "Worksheets",
   worksheetsIntro:
-    "One bilingual A4 sheet per documented element: overview, places, dates, three questions to start a discussion and five vocabulary terms. To print or project. Drafts under review.",
+    "One bilingual A4 sheet per documented element: overview, places, dates, three questions to start a discussion and five vocabulary terms. To print or project.",
   worksheetsCount: (n: number) => (n === 0 ? "No sheets" : `${n} sheet${n > 1 ? "s" : ""}`),
   openWorksheet: "Open the sheet",
   seeElement: "See the element",
@@ -44,7 +44,6 @@ export const en: Strings = {
   notDocumented: "This element is not documented in detail on this site yet (no summary or date). See the official fiche.",
   shortOnly: "Short description only: dates and details are not documented on this site yet.",
   summaryFrom: "Summary written for this site from the fiche published by",
-  summaryUnreviewed: "Summary not reviewed yet.",
   noPlace: "No specific place (widespread or national practice)",
   placesFrom: "Places from",
   placesFromPcilab: "(the fiche's “Localisation” field), not checked one by one",
@@ -66,7 +65,6 @@ export const en: Strings = {
   otherSheets: "Other documented elements",
   lessonKicker: "Ready-to-teach lesson",
   minutes: (n: number) => `${n} min`,
-  lessonDraft: "Draft: lesson not yet reviewed or tested in class.",
   lessonObjectives: "Objectives",
   lessonMaterials: "Materials",
   lessonCurriculum: "Curriculum links",
@@ -121,14 +119,14 @@ export const en: Strings = {
   openDataFields:
     "The CSV (UTF-8, one row per element) separates multiple values with \"|\"; the JSON keeps every place and the full dating rule. Pictures are not included (each has its own credits and licence).",
   openDataLicence:
-    "Licence Ouverte 2.0 (Etalab). Source: French Ministry of Culture, national ICH inventory; places from PCI Lab and the fiches; summaries written for PCI Map (drafts). Please credit \"PCI Map\".",
+    "Licence Ouverte 2.0 (Etalab). Source: French Ministry of Culture, national ICH inventory; places from PCI Lab and the fiches; summaries written for PCI Map. Please credit \"PCI Map\".",
   showSheets: (n: number) => `Show the ${n} sheets`,
+  homeLink: "PCI Map: back to the home page",
   sheetQuestions: "Questions to discuss",
   sheetVocabulary: "Vocabulary",
   sheetTerm: "Word and definition",
   sheetNext: "Next date:",
   sheetSource: "Official fiche",
-  sheetDraft: "Draft: texts not yet reviewed",
   sheetMadeBy:
     "Sheet written for PCI Map, an independent project, based on France's national inventory of intangible cultural heritage (Ministry of Culture).",
   ficheImage: "Photo from the inventory fiche (French Ministry of Culture); credits in the fiche",
@@ -207,10 +205,8 @@ export const en: Strings = {
   page: (n: number) => `fiche, p. ${n}`,
   confidence: "Confidence",
   confidenceLevels: { high: "high", medium: "medium", low: "low" },
-  unreviewed: "Timing not yet reviewed",
   disclaimer: "Typical timing from the official inventory; confirm exact dates with the organisers.",
   officialFiche: "Official fiche (PDF in French, culture.gouv.fr)",
-  summaryDraft: "Draft translation",
   precision: {
     site: "specific site",
     commune: "town",
@@ -221,7 +217,6 @@ export const en: Strings = {
   about: "About and privacy",
   aboutText:
     "Data: national inventory of intangible cultural heritage, French Ministry of Culture; places from PCI Lab (Ministry of Culture and CIRDOC) and online sources; photos from Wikimedia Commons or the inventory fiches. Summaries written for this site. No cookies, no analytics, no trackers. Map tiles (OpenFreeMap) and images (Wikimedia, PCI Lab) load from their servers, which see visitors' IP addresses, like any web server.",
-  pilotNote: "Work in progress: every element is placed on the map and briefly described; only some are documented in detail (dates and sources). Texts are drafts under review.",
   ficheNotRead: "Summary and timing based on online sources: the official fiche could not be consulted.",
   ruleEveryN: (n: number) => `Every ${n} years`,
   announcedDates: "No fixed rule: dates announced by the organisers for each edition",
