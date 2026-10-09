@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00103
+audience: general
+questions:
+  fr:
+    - "Les bœufs défilent les cornes fleuries, au son des fifres et des tambours : pourquoi, selon vous, met-on ainsi en fête des animaux destinés à la boucherie ?"
+    - "La fête est devenue une vitrine de la race bazadaise, qui ne repose plus que sur quelques familles d'éleveurs ; quel avenir pour une tradition liée à un élevage fragile ?"
+    - "Quel produit ou quel animal de votre région est célébré par une foire, un concours ou une fête ?"
+  en:
+    - "The oxen parade with flowers on their horns, to fife and drum music: why do you think animals bound for the butcher's are celebrated in this way?"
+    - "The festival has become a showcase for the Bazadaise breed, which now depends on just a few farming families; what future is there for a tradition tied to such a fragile line of farming?"
+    - "Which product or animal from your region is celebrated with a fair, a contest or a festival?"
+vocabulary:
+  - fr: race bazadaise
+    en: Bazadaise breed
+    def_fr: "Race bovine à robe grise du sud de la Gironde, réputée pour sa viande ; seule race admise au concours de Bazas."
+    def_en: "Grey-coated cattle breed from southern Gironde, prized for its meat; the only breed allowed in the Bazas contest."
+  - fr: bœuf gras
+    en: fatted ox
+    def_fr: "Bœuf préparé et engraissé pendant de longs mois pour obtenir une viande de qualité, présenté au carnaval avant l'abattoir."
+    def_en: "Ox raised and fattened over many months for high-quality meat, shown at carnival before going to the slaughterhouse."
+  - fr: ripataulèra
+    en: ripataulèra
+    def_fr: "Mot gascon pour un groupe de fifres et de tambours ; il ouvre le cortège et joue jusque dans les boucheries."
+    def_en: "Gascon word for a fife-and-drum band; it leads the parade and even plays inside the butchers' shops."
+  - fr: rigaudon d'honneur
+    en: rigaudon d'honneur
+    def_fr: "Air joué par les musiciens pour honorer un boucher ou la mairie ; celui qui accompagne le départ des bêtes s'appelle « La Mort du Bœuf »."
+    def_en: "Tune played by the musicians to honour a butcher or the town hall; the one that sees the animals off is called 'The Death of the Ox'."
+  - fr: Jeudi gras
+    en: Fat Thursday
+    def_fr: "Jeudi qui précède Mardi gras, en pleine période de carnaval, avant le jeûne du Carême."
+    def_en: "The Thursday before Shrove Tuesday, in the middle of carnival time, before the Lenten fast."
+lang_review: draft
+review_status: unreviewed

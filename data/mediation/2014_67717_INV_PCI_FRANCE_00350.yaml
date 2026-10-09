@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00350
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, les géants de Douai forment-ils une famille, avec un père, une mère et trois enfants, plutôt qu'un personnage isolé ?"
+    - "On devient porteur de Gayant surtout par lien de parenté, après avoir commencé comme quêteur : que gagne et que risque une tradition transmise de cette façon ?"
+    - "Quel personnage, monument ou figure sert d'emblème à votre ville, et comment les habitants le font-ils vivre ?"
+  en:
+    - "Why do you think the Douai giants form a family, with a father, a mother and three children, rather than a single figure?"
+    - "People become Gayant carriers mostly through family ties, after starting as collectors: what does a tradition gain, and risk, when it is passed on this way?"
+    - "Which character, monument or figure is the emblem of your own town, and how do local people keep it alive?"
+vocabulary:
+  - fr: porteur
+    en: carrier
+    def_fr: "Homme qui porte le géant sur ses épaules, caché sous sa jupe ; Monsieur et Madame Gayant ont chacun une équipe de six porteurs."
+    def_en: "Man who carries the giant on his shoulders, hidden under its skirt; Monsieur and Madame Gayant each have a team of six carriers."
+  - fr: panier
+    en: basket frame
+    def_fr: "Structure en bois et osier qui forme le bas du géant et donne sa forme à la jupe ; une ouverture permet au porteur de voir devant lui."
+    def_en: "Wood and wicker frame forming the lower part of the giant and shaping its skirt; an opening lets the carrier see ahead."
+  - fr: rigodon
+    en: rigodon
+    def_fr: "Danse des géants, lancée au signal des chefs de protocole, au son des tambours ou de l'air de Gayant."
+    def_en: "The giants' dance, started at a signal from the heads of protocol, to the drums or the Gayant tune."
+  - fr: Binbin
+    en: Binbin
+    def_fr: "Le plus jeune géant de la famille, un bébé qui louche ; on lui fait embrasser les tout-petits, baiser censé les protéger du strabisme."
+    def_en: "The youngest giant of the family, a cross-eyed baby; toddlers are lifted up to kiss him, which is meant to protect them from a squint."
+  - fr: cheval-jupon
+    en: hobby horse
+    def_fr: "Cheval d'osier porté par un homme qui semble le monter ; à Douai, le Sot des Canonniers fait rire par ses ruades et écarte la foule."
+    def_en: "Wicker horse worn by a man who seems to ride it; in Douai the Sot des Canonniers makes people laugh with its kicks and clears the way."
+lang_review: draft
+review_status: unreviewed

@@ -1,0 +1,34 @@
+id: 2019_67717_INV_PCI_FRANCE_00425
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, la Tarasque fait-elle sans cesse demi-tour pour foncer vers la foule au lieu d'avancer sagement avec le défilé ?"
+    - "Pourquoi peut-il être délicat de faire revivre aujourd'hui les farces d'autrefois, comme arroser les spectateurs ou les faire tomber avec une corde ?"
+    - "Quel monstre ou quelle créature de légende est lié à un lieu de votre région, et quelle histoire raconte-t-on à son sujet ?"
+  en:
+    - "Why do you think the Tarasque keeps turning back to charge at the crowd instead of moving calmly along with the parade?"
+    - "Why might it be tricky today to revive the old pranks, such as soaking spectators or tripping them up with a rope?"
+    - "Which monster or legendary creature is linked to a place in your region, and what story is told about it?"
+vocabulary:
+  - fr: "Tarasque"
+    en: "Tarasque"
+    def_fr: "Monstre légendaire des bords du Rhône, dompté par sainte Marthe selon la tradition ; sa réplique court dans Tarascon lors des fêtes de juin."
+    def_en: "Legendary monster of the Rhône banks, tamed by Saint Martha according to tradition; its replica charges through Tarascon at the June festival."
+  - fr: "Tarascaïres"
+    en: "Tarascaïres (Knights of the Tarasque)"
+    def_fr: "Les Chevaliers de la Tarasque, une dizaine d'hommes, souvent joueurs de rugby, qui la poussent et la font courir dans les rues."
+    def_en: "The Knights of the Tarasque, about ten men, often rugby players, who push it and make it run through the streets."
+  - fr: "Tartarin de Tarascon"
+    en: "Tartarin of Tarascon"
+    def_fr: "Héros vantard d'un célèbre roman du XIXe siècle ; incarné par un habitant, il défile et tire en l'air avec sa suite costumée."
+    def_en: "Boastful hero of a famous 19th-century novel; played by a local, he parades and fires into the air with his costumed followers."
+  - fr: "bénédiction"
+    en: "blessing"
+    def_fr: "Ouverture des fêtes, le vendredi : la Tarasque est bénie à l'abbaye Saint-Michel-de-Frigolet, avec les marcheurs et leurs animaux."
+    def_en: "The festival's opening on Friday: the Tarasque is blessed at Saint-Michel-de-Frigolet abbey, along with walkers and their animals."
+  - fr: "pégoulade"
+    en: "pégoulade"
+    def_fr: "Ancien défilé nocturne aux flambeaux, abandonné aujourd'hui, où la Tarasque crachait des artifices par les naseaux."
+    def_en: "Former night-time torchlit parade, no longer held, in which the Tarasque spouted fireworks from its nostrils."
+lang_review: draft
+review_status: unreviewed

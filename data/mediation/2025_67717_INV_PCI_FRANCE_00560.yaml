@@ -1,0 +1,34 @@
+id: 2025_67717_INV_PCI_FRANCE_00560
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, les équipes de Scaër gardent-elles secrets leurs chars jusqu'au défilé et cachent-elles entièrement le tracteur et son conducteur ?"
+    - "Près d'un habitant sur quatre participe au carnaval, beaucoup de jeunes compris : comment une petite commune parvient-elle à transmettre une telle fête ?"
+    - "Dans votre ville ou votre quartier, quelle activité collective rassemble des gens qui, le reste de l'année, se croisent peu ?"
+  en:
+    - "Why do you think the Scaër teams keep their floats secret until the parade and completely hide the tractor and its driver?"
+    - "Nearly one resident in four takes part, many of them young; how does a small town manage to pass such a festival on?"
+    - "In your town or neighbourhood, which shared activity brings together people who otherwise rarely meet?"
+vocabulary:
+  - fr: "cavalcade"
+    en: "cavalcade"
+    def_fr: "Nom traditionnel du défilé de chars et de groupes costumés ; à Scaër, il a lieu le dimanche et le lundi, les années impaires."
+    def_en: "Traditional name for the parade of floats and costumed groups; in Scaër it takes place on the Sunday and Monday, in odd-numbered years."
+  - fr: "hangar"
+    en: "shed"
+    def_fr: "Atelier propre à chaque équipe, où le char est construit pendant des semaines à l'abri des regards des autres équipes."
+    def_en: "Each team's own workshop, where the float is built over several weeks out of sight of the other teams."
+  - fr: "tracteur-socle"
+    en: "base tractor"
+    def_fr: "Tracteur qui porte et tire le char ; entièrement camouflé, son conducteur ne voit la route que grâce à des caméras."
+    def_en: "Tractor that carries and pulls the float; it is fully disguised, and the driver sees the road only through cameras."
+  - fr: "remise des clés"
+    en: "handing over the keys"
+    def_fr: "Rituel où le maire confie une clé géante aux organisateurs, comme si la ville passait pour un temps aux mains du carnaval."
+    def_en: "Ritual in which the mayor hands a giant key to the organisers, as if the town were handed over to the carnival for a while."
+  - fr: "Bastringue"
+    en: "Bastringue"
+    def_fr: "Fête organisée une semaine après le premier défilé, où le classement des chars est annoncé devant tous les bénévoles et carnavaliers."
+    def_en: "Party held a week after the first parade, where the float rankings are announced in front of all the volunteers and float builders."
+lang_review: draft
+review_status: unreviewed

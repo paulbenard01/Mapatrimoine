@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00329
+audience: general
+questions:
+  fr:
+    - Pourquoi, selon vous, les maires signent-ils chaque année un acte sur les bornes alors que plus personne ne va les vérifier ce jour-là ?
+    - Que devient ce rendez-vous de part et d'autre de la frontière quand les bergers se font plus rares sur les estives ?
+    - Quelle frontière, quelle limite de commune ou quel ancien chemin marque le paysage autour de chez vous ?
+  en:
+    - Why do you think the mayors sign a record about the boundary stones every year, even though nobody goes to check them on the day?
+    - What becomes of this cross-border meeting as shepherds grow fewer on the summer pastures?
+    - Which border, municipal boundary or old track shapes the landscape around where you live?
+vocabulary:
+  - fr: borne frontière
+    en: boundary stone
+    def_fr: Pierre numérotée qui marque la frontière entre la France et l'Espagne ; la rencontre se tient près de la borne 262.
+    def_en: Numbered stone marking the border between France and Spain; the meeting takes place near stone no. 262.
+  - fr: procès-verbal de bornage
+    en: boundary record
+    def_fr: Acte officiel, signé en plusieurs exemplaires et marqué du cachet de chaque commune, qui constate la présence des bornes.
+    def_en: Official record, signed in several copies and stamped with each commune's seal, that confirms the boundary stones are in place.
+  - fr: alcalde
+    en: alcalde
+    def_fr: Maire d'une commune espagnole ; celui d'Isaba, dans la vallée de Roncal, appelle tour à tour les délégations françaises à signer.
+    def_en: Mayor of a Spanish municipality; the alcalde of Isaba, in the Roncal valley, calls each French delegation in turn to sign.
+  - fr: estive
+    en: summer pasture
+    def_fr: Pâturage de montagne où les troupeaux passent l'été ; en le parcourant, les bergers repèrent les bornes et signalent tout problème.
+    def_en: Mountain grazing land where flocks spend the summer; as they move across it, shepherds keep an eye on the stones and report any problem.
+  - fr: Traité de Bayonne
+    en: Treaty of Bayonne
+    def_fr: Traité franco-espagnol de 1856 qui fixe la frontière et les droits des habitants frontaliers dans l'ouest des Pyrénées.
+    def_en: Franco-Spanish treaty of 1856 that set the border and the rights of border communities in the western Pyrenees.
+lang_review: draft
+review_status: unreviewed

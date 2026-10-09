@@ -1,0 +1,34 @@
+id: 2013_67717_INV_PCI_FRANCE_00322
+audience: general
+questions:
+  fr:
+    - Que racontent, selon vous, les costumes de Reuze Papa en légionnaire romain et de Reuze Maman, d'abord représentée en femme de pêcheur ?
+    - Que révèle, selon vous, la liste d'attente des volontaires qui souhaitent devenir porteurs des géants de Cassel ?
+    - Quel personnage, animal ou figure sert d'emblème à votre ville ou à votre quartier les jours de fête ?
+  en:
+    - What do you think the costumes say, with Reuze Papa dressed as a Roman legionary and Reuze Maman first shown as a fisherman's wife?
+    - What do you think the waiting list of volunteers who want to carry the Cassel giants reveals?
+    - Which character, animal or figure stands for your own town or neighbourhood on festival days?
+vocabulary:
+  - fr: Reuze
+    en: Reuze
+    def_fr: Mot flamand qui signifie « géant » ; il désigne les deux géants de Cassel et l'air que l'on chante en les faisant danser.
+    def_en: Flemish word meaning "giant"; it names the two Cassel giants and the tune sung while they dance.
+  - fr: ritournelle
+    en: ritournelle
+    def_fr: Danse où les deux géants se font face et « s'embrassent », dédiée aux habitants d'une maison que l'on veut honorer.
+    def_en: Dance in which the two giants face each other and "kiss", dedicated to the people of a house the town wishes to honour.
+  - fr: Four merveilleux
+    en: Wonderful Oven
+    def_fr: Char portant un four en trompe-l'œil où l'on « enfourne » pour rire un spectateur, censé ressortir rajeuni, ou parfois vieilli.
+    def_en: Float carrying a painted mock oven into which a spectator is jokingly "baked", supposed to come out younger, or sometimes older.
+  - fr: cheval-jupon
+    en: hobby horse
+    def_fr: Cheval factice porté à la taille par un cavalier masqué, avec de fausses jambes bottées fixées sur les flancs.
+    def_en: Mock horse worn around the waist by a masked rider, with false booted legs fixed to its sides.
+  - fr: ducasse
+    en: ducasse (funfair)
+    def_fr: Mot du Nord pour la kermesse et la fête foraine ; à Cassel, manèges et marchands de gaufres s'installent sur la grand-place.
+    def_en: Northern French word for a fair and funfair; in Cassel, rides and waffle stalls set up on the main square.
+lang_review: draft
+review_status: unreviewed

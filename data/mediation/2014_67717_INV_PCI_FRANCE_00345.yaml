@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00345
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, le char du Roi du Carnaval revient-il chaque année, alors que les autres chars changent de thème ?"
+    - "Les chars demandent des mois de travail à des bénévoles souvent retraités : comment donner envie aux jeunes de construire le carnaval, et pas seulement de le regarder ?"
+    - "Quelle fête de votre commune mobilise des bénévoles toute l'année, et que représente-t-elle pour les habitants ?"
+  en:
+    - "Why do you think the Carnival King's float comes back every year, while the other floats change their theme?"
+    - "The floats take months of work by volunteers, many of them retired: how can young people be encouraged to build the carnival, not just watch it?"
+    - "Which festival in your own town keeps volunteers busy all year round, and what does it mean to the people who live there?"
+vocabulary:
+  - fr: char
+    en: float
+    def_fr: "Plateau décoré, tiré par un tracteur, qui porte des personnages géants souvent articulés ; à Manthelan, la plupart mesurent six mètres de haut."
+    def_en: "Decorated platform pulled by a tractor and carrying giant figures, often with moving parts; in Manthelan most are six metres high."
+  - fr: carton-pâte
+    en: papier-mâché
+    def_fr: "Pâte de papier journal et de carton, modelée sur une armature métallique grillagée pour donner forme aux personnages des chars."
+    def_en: "Paste of newspaper and cardboard, moulded over a wire-mesh metal frame to shape the figures on the floats."
+  - fr: comité des fêtes
+    en: festival committee
+    def_fr: "Association de bénévoles qui organise le carnaval et les festivités qui le préparent ; celle de Manthelan a été fondée en 1959."
+    def_en: "Volunteer association that runs the carnival and the events leading up to it; Manthelan's was founded in 1959."
+  - fr: Mardi gras
+    en: Shrove Tuesday
+    def_fr: "Dernier jour de fête avant le carême, dont la date suit celle de Pâques ; le carnaval de Manthelan a lieu le dimanche suivant."
+    def_en: "Last day of feasting before Lent, its date tied to Easter; the Manthelan carnival takes place on the following Sunday."
+  - fr: miss carnaval
+    en: carnival queen
+    def_fr: "Jeune femme élue lors d'une soirée quelques semaines avant le défilé ; elle parade avec ses dauphines sur l'un des chars."
+    def_en: "Young woman elected at an evening event a few weeks before the parade; she rides on one of the floats with her runners-up."
+lang_review: draft
+review_status: unreviewed

@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00349
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, la fête se termine-t-elle sur la place principale par le rasage de l'ours, qui le rend à nouveau humain ?"
+    - "Autrefois « victimes » désignées de l'ours, les femmes participent et organisent aujourd'hui la fête : comment un rituel ancien peut-il faire évoluer les rôles de chacun ?"
+    - "Quelles fêtes de votre région marquent la fin de l'hiver ou mettent en scène un animal ?"
+  en:
+    - "Why do you think the festival ends in the main square with the shaving of the bear, which makes him human again?"
+    - "Once the bear's chosen “victims”, women now take part in and organise the festival: how can an old ritual change the roles people play?"
+    - "Which festivals in your own region mark the end of winter or feature an animal?"
+vocabulary:
+  - fr: ours
+    en: bear
+    def_fr: "Personnage central : un homme vêtu de peaux de mouton, le corps et le visage noircis d'huile et de suie, qui descend de la montagne et sème le désordre."
+    def_en: "The central character: a man dressed in sheepskins, his body and face blackened with oil and soot, who comes down from the mountain and causes chaos."
+  - fr: chasseur
+    en: hunter
+    def_fr: "Personnage qui poursuit l'ours dans les rues en tirant des coups de fusil, sans cesse déjoué, jusqu'à sa capture."
+    def_en: "Character who chases the bear through the streets firing shots, outwitted again and again until the bear is caught."
+  - fr: barbier
+    en: barber
+    def_fr: "Personnage chargé du rasage final de l'ours, geste qui le dépouille de son animalité et le fait revenir dans la communauté."
+    def_en: "Character in charge of the bear's final shave, the act that strips away his animal nature and brings him back into the community."
+  - fr: mâchurage
+    en: mâchurage
+    def_fr: "Fait de noircir de suie le visage des spectateurs, surtout à Prats-de-Mollo ; être mâchuré est aujourd'hui vécu comme un honneur."
+    def_en: "Smearing spectators' faces with soot, especially in Prats-de-Mollo; being blackened is now seen as an honour."
+  - fr: cobla
+    en: cobla
+    def_fr: "Orchestre catalan traditionnel d'une dizaine de musiciens, qui joue les airs de l'ours et les sardanes dansées par les habitants."
+    def_en: "Traditional Catalan band of about ten musicians, playing the bear tunes and the sardanes danced by local people."
+lang_review: draft
+review_status: unreviewed

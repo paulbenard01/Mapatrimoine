@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00104
+audience: general
+questions:
+  fr:
+    - "Chaque 24 juin, on rejoue devant la cathédrale l'offrande d'un taureau par les bouchers : que représentait ce don pour ceux qui le faisaient et pour ceux qui le recevaient ?"
+    - "Disparu à la Révolution, l'hommage du taureau a été rétabli en 1969 sous forme de spectacle ; que gagne-t-on et que perd-on quand une coutume ancienne devient une reconstitution ?"
+    - "Où et comment fête-t-on la Saint-Jean ou le solstice d'été près de chez vous ?"
+  en:
+    - "Every 24 June, the butchers' gift of a bull is re-enacted in front of the cathedral: what did this gift mean to those who gave it and to those who received it?"
+    - "Abolished at the Revolution, the bull tribute was revived as a show in 1969; what is gained and what is lost when an old custom becomes a re-enactment?"
+    - "Where and how is St John's Day or midsummer celebrated near you?"
+vocabulary:
+  - fr: feu de la Saint-Jean
+    en: midsummer bonfire
+    def_fr: "Grand feu allumé autour du 24 juin, près du solstice d'été ; à Bazas, trois feux sont dressés sur une estrade devant la cathédrale."
+    def_en: "Large fire lit around 24 June, close to the summer solstice; in Bazas, three fires are built on a platform in front of the cathedral."
+  - fr: hommage du taureau
+    en: bull tribute
+    def_fr: "Cérémonie qui rappelle le taureau que les bouchers devaient offrir chaque 24 juin, d'abord à l'évêque, à partir de 1283."
+    def_en: "Ceremony recalling the bull that the butchers had to give every 24 June, at first to the bishop, from 1283 onwards."
+  - fr: jurats
+    en: jurats
+    def_fr: "Magistrats qui administraient la ville sous l'Ancien Régime ; à partir de 1653, ils reçoivent le taureau au nom des habitants."
+    def_en: "Magistrates who ran the town before the Revolution; from 1653 they received the bull on behalf of the townspeople."
+  - fr: saint patron
+    en: patron saint
+    def_fr: "Saint protecteur d'une ville ; celui de Bazas est saint Jean-Baptiste, à qui la cathédrale est dédiée."
+    def_en: "Saint who protects a town; Bazas's patron is Saint John the Baptist, to whom its cathedral is dedicated."
+  - fr: confrérie
+    en: confraternity
+    def_fr: "Association de membres unis par un même attachement et des rites communs ; à Bazas, ce sont ses membres qui allument les feux."
+    def_en: "Association of members bound by a shared attachment and common rites; in Bazas, its members light the bonfires."
+lang_review: draft
+review_status: unreviewed

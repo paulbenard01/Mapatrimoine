@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00116
+audience: general
+questions:
+  fr:
+    - "Chaque midi, la foule assiste au réveil du roi Léon, un grand mannequin : que représente, selon vous, ce personnage pour les festayres ?"
+    - "Créées en 1932 et passées au blanc et rouge dans les années 1990 sur le modèle de Pampelune, les fêtes changent sans cesse ; comment une fête récente devient-elle une tradition ?"
+    - "Quelle fête de votre région marque, pour les jeunes, une étape ou un passage vers l'âge adulte ?"
+  en:
+    - "Every day at noon, crowds gather to watch King Léon, a giant figure, wake up: what do you think this character means to the festayres?"
+    - "Created in 1932 and dressed in white and red since the 1990s after the Pamplona model, the festival keeps changing; how does a recent festival become a tradition?"
+    - "Which festival in your region marks a milestone, or a step towards adulthood, for young people?"
+vocabulary:
+  - fr: festayre
+    en: festayre
+    def_fr: "Mot du français régional (hestaire en gascon) pour la personne qui fait la fête, vêtue de blanc avec un foulard rouge."
+    def_en: "Regional French word (hestaire in Gascon) for a festival-goer, dressed in white with a red scarf."
+  - fr: banda
+    en: banda
+    def_fr: "Fanfare de cuivres et de percussions qui anime rues et cafés ; une messe des bandas est célébrée le dimanche."
+    def_en: "Brass and percussion band that livens up the streets and cafés; a bandas' mass is held on the Sunday."
+  - fr: roi Léon
+    en: King Léon
+    def_fr: "Grand mannequin inspiré d'un Bayonnais haut en couleur d'autrefois ; son réveil, chaque midi, rythme les journées de fête."
+    def_en: "Giant figure based on a colourful Bayonne character of the past; his waking each noon sets the rhythm of the festival days."
+  - fr: peña
+    en: peña
+    def_fr: "Local associatif ouvert pendant les fêtes, où l'on se retrouve pour boire, manger et chanter."
+    def_en: "Club premises opened during the festival, where people meet to drink, eat and sing."
+  - fr: remise des clés
+    en: handing over the keys
+    def_fr: "Cérémonie d'ouverture où une personnalité confie symboliquement les clés de la ville aux festayres rassemblés devant la mairie."
+    def_en: "Opening ceremony in which a well-known figure symbolically hands the keys of the city to the festayres gathered outside the town hall."
+lang_review: draft
+review_status: unreviewed

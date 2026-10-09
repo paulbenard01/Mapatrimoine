@@ -1,0 +1,34 @@
+id: 2009_67717_INV_PCI_FRANCE_00041
+audience: general
+questions:
+  fr:
+    - "Celui qui trouve la fève dans la rosca de Reyes doit offrir les tamales du 2 février : que dit cette obligation des liens entre les deux fêtes et entre les invités ?"
+    - "À Paris, la fête se vit surtout à la maison, sans la bénédiction à l'église habituelle au Mexique ; comment une tradition s'adapte-t-elle quand on vit loin de son pays d'origine ?"
+    - "En France, la Chandeleur se fête souvent avec des crêpes : quels plats associez-vous, chez vous, à une fête du calendrier ?"
+  en:
+    - "Whoever finds the figurine in the rosca de Reyes must provide the tamales on 2 February: what does this duty say about the link between the two feasts, and between the guests?"
+    - "In Paris the feast is mostly kept at home, without the church blessing usual in Mexico; how does a tradition adapt when people live far from their country of origin?"
+    - "In France, Candlemas is often marked with pancakes: which dishes do you associate with a particular feast day at home?"
+vocabulary:
+  - fr: rosca de Reyes
+    en: rosca de Reyes
+    def_fr: "Brioche en couronne de l'Épiphanie, décorée de fruits confits, qui cache une petite figurine de l'Enfant Jésus."
+    def_en: "Ring-shaped Epiphany sweet bread decorated with candied fruit, hiding a small figurine of the Christ Child."
+  - fr: tamales
+    en: tamales
+    def_fr: "Pâte de maïs garnie, enveloppée dans une feuille puis cuite à la vapeur ; plat central du repas du 2 février."
+    def_en: "Filled maize dough wrapped in a leaf and steamed; the centrepiece of the 2 February meal."
+  - fr: atole
+    en: atole
+    def_fr: "Boisson chaude et sucrée à base de farine de maïs, servie avec les tamales."
+    def_en: "Hot, sweet drink made with maize flour, served with the tamales."
+  - fr: niño Dios
+    en: niño Dios
+    def_fr: "Figurine de l'Enfant Jésus tirée de la crèche, que l'on habille pour la fête et que l'on se transmet parfois de génération en génération."
+    def_en: "Figure of the Christ Child taken from the nativity scene, dressed for the feast and sometimes handed down from one generation to the next."
+  - fr: Chandeleur
+    en: Candlemas
+    def_fr: "Fête chrétienne du 2 février (Candelaria en espagnol) qui rappelle la présentation de Jésus au Temple, quarante jours après Noël."
+    def_en: "Christian feast on 2 February (Candelaria in Spanish) recalling the presentation of Jesus in the Temple, forty days after Christmas."
+lang_review: draft
+review_status: unreviewed

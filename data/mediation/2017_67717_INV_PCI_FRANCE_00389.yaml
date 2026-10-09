@@ -1,0 +1,34 @@
+id: 2017_67717_INV_PCI_FRANCE_00389
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, le Touloulou du bal paré-masqué couvre-t-il chaque centimètre de peau, de la cagoule jusqu'aux gants ?"
+    - "Que dit des relations entre femmes et hommes un bal où ce sont les femmes masquées qui choisissent leur cavalier, et non l'inverse ?"
+    - "Dans votre région, à quelles occasions se déguise-t-on, et qu'est-ce que le masque permet de faire ou de dire ?"
+  en:
+    - "Why do you think the Touloulou at the masked ball covers every inch of skin, from hood to gloves?"
+    - "What does a ball where masked women choose their dance partner, and not the other way round, say about relations between women and men?"
+    - "In your own region, on what occasions do people dress up in disguise, and what does a mask allow them to do or say?"
+vocabulary:
+  - fr: "Touloulou"
+    en: "Touloulou"
+    def_fr: "En Guyane, toute personne déguisée au carnaval ; au bal paré-masqué, femme entièrement couverte et méconnaissable qui invite les hommes à danser."
+    def_en: "In French Guiana, anyone in carnival disguise; at the masked ball, a woman fully covered and unrecognisable who asks men to dance."
+  - fr: "bal paré-masqué"
+    en: "masked ball (bal paré-masqué)"
+    def_fr: "Bal de carnaval des fins de semaine, tenu dans des salles appelées « dancings », où l'anonymat des Touloulous est la règle d'or."
+    def_en: "Weekend carnival ball held in dance halls known as dancings, where the Touloulous' anonymity is the golden rule."
+  - fr: "cavalier"
+    en: "dance partner (cavalier)"
+    def_fr: "Homme non déguisé qui, au bal paré-masqué, attend d'être choisi par un Touloulou pour danser."
+    def_en: "Man without disguise who waits at the masked ball to be chosen by a Touloulou for a dance."
+  - fr: "Vaval"
+    en: "Vaval"
+    def_fr: "Roi du carnaval, mannequin dont l'arrivée spectaculaire ouvre la saison et qui est brûlé à la fin des jours gras."
+    def_en: "King of the carnival, an effigy whose spectacular arrival opens the season and which is burnt at the end of the final carnival days."
+  - fr: "vidé"
+    en: "vidé"
+    def_fr: "Défilé dansant où la foule suit un orchestre dans les rues ; c'est aussi la danse qui ouvre chaque bal."
+    def_en: "Dancing parade in which the crowd follows a band through the streets; also the dance that opens every ball."
+lang_review: draft
+review_status: unreviewed

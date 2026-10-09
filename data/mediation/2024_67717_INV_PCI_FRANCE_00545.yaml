@@ -1,0 +1,34 @@
+id: 2024_67717_INV_PCI_FRANCE_00545
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, les familles riveraines tiennent-elles tant à fleurir « leur » croix et à attendre la procession à ses côtés ?"
+    - "Croyants et non-croyants marchent ensemble toute une nuit et un jour : qu'est-ce qui pousse des personnes si différentes à faire cette épreuve ?"
+    - "Quel chemin, quelle marche ou quelle épreuve collective compte particulièrement dans votre région ou dans votre famille ?"
+  en:
+    - "Why do you think the families living nearby care so much about decorating \"their\" cross with flowers and waiting beside it for the procession?"
+    - "Believers and non-believers walk together through a whole night and day; what drives such different people to take on this challenge?"
+    - "Which path, walk or shared challenge matters especially in your region or in your family?"
+vocabulary:
+  - fr: "lieue"
+    en: "league"
+    def_fr: "Ancienne mesure de distance ; les neuf lieues « de Gascogne » du parcours équivalent à environ 53 km."
+    def_en: "Old unit of distance; the route's nine \"Gascony\" leagues come to about 53 km."
+  - fr: "croix fleurie"
+    en: "flower-decked cross"
+    def_fr: "Croix de chemin, souvent haute de plus de deux mètres, garnie de verdure et de fleurs par une famille voisine ; elle marque l'une des 48 stations."
+    def_en: "Wayside cross, often over two metres high, dressed with greenery and flowers by a nearby family; it marks one of the 48 stops."
+  - fr: "processionneur"
+    en: "procession walker"
+    def_fr: "Personne qui marche dans la procession ; ceux qui bouclent le parcours reçoivent une médaille, de plus en plus prestigieuse avec le nombre de tours."
+    def_en: "Person who walks in the procession; those who complete the route receive a medal, grander as the number of completed walks grows."
+  - fr: "bayle"
+    en: "bayle"
+    def_fr: "Président de la confrérie de Saint Maximin, élu par les confrères ; à l'arrivée, il remet les médailles aux marcheurs."
+    def_en: "President of the Saint Maximin brotherhood, elected by its members; at the finish, he hands out the medals to the walkers."
+  - fr: "chant grégorien"
+    en: "Gregorian chant"
+    def_fr: "Chant liturgique latin à une seule voix ; la procession conserve des chants anciens du diocèse de Limoges perdus ailleurs."
+    def_en: "Single-line Latin church singing; the procession keeps old chants from the diocese of Limoges that are no longer sung elsewhere."
+lang_review: draft
+review_status: unreviewed

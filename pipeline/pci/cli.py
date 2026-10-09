@@ -14,6 +14,7 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("fetch-pcilab", help="PCI Lab points and localisations -> data/raw/pcilab.json")
     sub.add_parser("geocode", help="geocode curated places into data/geocode-cache.json")
     sub.add_parser("build", help="validate curated data and write the site's elements.json")
+    sub.add_parser("review", help="write docs/review.md: coverage and what is left to review")
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     if args.command == "fetch-index":
@@ -49,6 +50,12 @@ def main(argv: list[str] | None = None) -> int:
 
         cache = geocode_all(all_places())
         print(f"{len(cache)} places in data/geocode-cache.json")
+        return 0
+    if args.command == "review":
+        from pci.review import REVIEW_PATH, write_review
+
+        write_review()
+        print(f"review status -> {REVIEW_PATH.relative_to(REVIEW_PATH.parents[1])}")
         return 0
     from pci.build import BuildError, build, build_inventory
     from pci.mediation import MediationError, build_mediation

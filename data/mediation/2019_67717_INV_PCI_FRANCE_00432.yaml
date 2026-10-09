@@ -1,0 +1,34 @@
+id: 2019_67717_INV_PCI_FRANCE_00432
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, la pâtisserie de la Sainte-Agathe a-t-elle la forme d'une main, et pourquoi la partage-t-on entre femmes ?"
+    - "Que change le fait que le repas des Agathines, autrefois réservé aux mères et aux nourrices, accueille aujourd'hui aussi les jeunes filles ?"
+    - "Quelle pâtisserie ou quel plat de votre région est lié à un saint ou à une date précise, et qui le prépare ?"
+  en:
+    - "Why do you think the Saint Agatha pastry is shaped like a hand, and why is it shared among women?"
+    - "What changes now that the Agathines' meal, once kept for mothers and wet nurses, also welcomes young girls?"
+    - "Which pastry or dish in your region is tied to a saint or a particular date, and who makes it?"
+vocabulary:
+  - fr: "sainte Agathe"
+    en: "Saint Agatha"
+    def_fr: "Jeune martyre de Catane, en Sicile, patronne des nourrices, fêtée le 5 février."
+    def_en: "Young martyr from Catania in Sicily, patron saint of wet nurses, whose feast day is 5 February."
+  - fr: "nourrice"
+    en: "wet nurse"
+    def_fr: "Femme qui allaite un enfant qui n'est pas le sien ; l'histoire locale de la main rend hommage à l'une d'elles."
+    def_en: "Woman who breastfeeds a child that is not her own; the local story behind the hand pastry honours one of them."
+  - fr: "Agathines"
+    en: "Agathines"
+    def_fr: "Femmes d'un même hameau qui se retrouvent, la semaine du 5 février, pour un repas entre elles, sans les hommes."
+    def_en: "Women from the same hamlet who meet in the week of 5 February for a meal of their own, without men."
+  - fr: "main de Sainte-Agathe"
+    en: "Saint Agatha's hand"
+    def_fr: "Brioche au safran en forme de main, appelée guêta en patois, dont les doigts sont simplement marqués au couteau."
+    def_en: "Saffron brioche shaped like a hand, called guêta in the local dialect, its fingers simply marked with a knife."
+  - fr: "safran"
+    en: "saffron"
+    def_fr: "Épice qui colore et parfume la pâte ; pour le boulanger du village, sans safran ce n'est pas une vraie main."
+    def_en: "Spice that colours and flavours the dough; for the village baker, without saffron it is not a real hand."
+lang_review: draft
+review_status: unreviewed

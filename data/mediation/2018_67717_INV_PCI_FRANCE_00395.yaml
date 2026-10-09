@@ -1,0 +1,34 @@
+id: 2018_67717_INV_PCI_FRANCE_00395
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, l'étendard de Jeanne passe-t-il le 7 mai des mains du maire à celles de l'évêque, devant toute la ville ?"
+    - "Comment une fête née d'une procession religieuse en 1430 peut-elle aujourd'hui rassembler des Orléanais de toutes convictions ?"
+    - "Quel épisode de l'histoire de votre ville ou de votre région est encore commémoré, et sous quelle forme ?"
+  en:
+    - "Why do you think Joan's standard is handed from the mayor to the bishop on 7 May, in front of the whole town?"
+    - "How can a festival that began as a religious procession in 1430 bring together people of Orléans of every belief today?"
+    - "Which episode in the history of your town or region is still commemorated, and in what form?"
+vocabulary:
+  - fr: "étendard"
+    en: "standard"
+    def_fr: "Long drapeau de guerre de Jeanne d'Arc ; une copie fidèle de l'original, portée à cheval ou en cérémonie, la représente pendant les fêtes."
+    def_en: "Joan of Arc's long war banner; a faithful copy of the original, carried on horseback or in ceremonies, stands for her during the festival."
+  - fr: "chevauchée"
+    en: "cavalcade"
+    def_fr: "Le 1er mai, parcours à cheval de la jeune Jeanne et de son escorte à travers Orléans et les communes voisines, par les lieux du siège."
+    def_en: "On 1 May, the young Joan and her escort ride through Orléans and neighbouring towns, past the sites of the siege."
+  - fr: "remise de l'étendard"
+    en: "handing over of the standard"
+    def_fr: "Cérémonie du 7 mai au soir, devant la cathédrale : la Ville confie l'étendard à l'Église pour les célébrations du lendemain."
+    def_en: "Evening ceremony on 7 May outside the cathedral: the town entrusts the standard to the Church for the next day's celebrations."
+  - fr: "embrasement de la cathédrale"
+    en: "lighting of the cathedral"
+    def_fr: "Autrefois feux de Bengale allumés sur les tours de la cathédrale ; aujourd'hui spectacle son et lumière projeté sur sa façade le 7 mai."
+    def_en: "Once Bengal fires lit on the cathedral towers; now a sound-and-light show projected onto its façade on 7 May."
+  - fr: "trois ordres"
+    en: "three orders"
+    def_fr: "Les autorités civiles, religieuses et militaires, qui défilent et prennent la parole ensemble pendant les fêtes, selon un protocole précis."
+    def_en: "The civil, religious and military authorities, who parade and speak together during the festival, following a strict protocol."
+lang_review: draft
+review_status: unreviewed

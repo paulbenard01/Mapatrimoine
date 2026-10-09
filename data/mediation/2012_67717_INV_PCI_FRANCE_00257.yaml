@@ -1,0 +1,34 @@
+id: 2012_67717_INV_PCI_FRANCE_00257
+audience: general
+questions:
+  fr:
+    - Pourquoi, selon vous, les masques de Limoux dansent-ils les bras levés, un roseau à la main, plutôt que de défiler sur des chars ?
+    - Comment un carnaval qui occupe tous les week-ends pendant près de trois mois se transmet-il, des écoles jusqu'aux bandes d'adultes ?
+    - Dans quelle fête de votre région le public devient-il acteur au lieu de rester simple spectateur ?
+  en:
+    - Why do you think the masked dancers of Limoux dance with their arms raised and a reed in hand, instead of parading on floats?
+    - How is a carnival that fills every weekend for almost three months passed on, from schoolchildren to the adult bands?
+    - In which festival in your own region do onlookers become performers instead of just watching?
+vocabulary:
+  - fr: fécos
+    en: fécos
+    def_fr: Nom occitan des carnavaliers de Limoux, masqués et costumés, qui dansent sur la place au rythme des musiciens.
+    def_en: Occitan name for the masked, costumed carnival-goers of Limoux who dance on the square to the beat of the band.
+  - fr: bande
+    en: carnival band
+    def_fr: Groupe d'une vingtaine de masques, lié à un quartier, un lieu ou un métier, qui a son jour de sortie ; un nouveau membre doit être accepté à l'unanimité.
+    def_en: Group of about twenty masked dancers, tied to a district, a place or a trade, with its own day out; a new member must be accepted unanimously.
+  - fr: carabène
+    en: carabène
+    def_fr: Roseau fin et souple, souvent aux couleurs de la bande, que le masque tient en dansant ; il prolonge et souligne le geste de la main.
+    def_en: Thin, supple reed, often in the band's colours, held by the dancer; it extends and underlines the movement of the hand.
+  - fr: pierrot
+    en: pierrot
+    def_fr: Costume des sorties de l'après-midi et du soir, avec une épaisse fraise autour du visage masqué ; chaque bande a désormais le sien.
+    def_en: Costume for the afternoon and evening outings, with a thick ruff around the masked face; each band now has its own design.
+  - fr: goudil
+    en: goudil
+    def_fr: Masque qui suit la musique seul ou en petit groupe, dans un costume aux accessoires soignés, et qui improvise un rôle plutôt qu'il ne danse.
+    def_en: Masked figure who follows the band alone or in a small group, in a costume with carefully chosen props, improvising a role rather than dancing.
+lang_review: draft
+review_status: unreviewed

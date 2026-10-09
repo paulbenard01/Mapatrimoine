@@ -1,0 +1,34 @@
+id: 2011_67717_INV_PCI_FRANCE_00148
+audience: general
+questions:
+  fr:
+    - Pourquoi, selon vous, hisse-t-on un drapeau au sommet du clocher pour annoncer que les reliques vont être montrées ?
+    - Comment une fête religieuse qui ne revient que tous les sept ans peut-elle réunir croyants et non-croyants autour des mêmes préparatifs ?
+    - Quel événement de votre région ne revient qu'à de longs intervalles, et comment se transmet-il d'une édition à l'autre ?
+  en:
+    - Why do you think a flag is hoisted to the top of the church tower to announce that the relics are about to be shown?
+    - How can a religious festival that comes round only every seven years bring believers and non-believers together around the same preparations?
+    - Which event in your own region returns only after a long gap, and how is it passed on from one edition to the next?
+vocabulary:
+  - fr: ostension
+    en: ostension
+    def_fr: Du latin ostendere, « montrer » ; présentation solennelle des reliques d'un saint aux fidèles, accompagnée de processions.
+    def_en: From the Latin ostendere, "to show"; the solemn display of a saint's relics to the faithful, with processions.
+  - fr: reliquaire
+    en: reliquary
+    def_fr: Coffret ou châsse, souvent richement orné, qui renferme les reliques d'un saint ; sans reliquaire, pas d'ostension.
+    def_en: Casket or shrine, often richly decorated, that holds a saint's relics; without it, no ostension can take place.
+  - fr: confrérie
+    en: confraternity
+    def_fr: Association de laïcs qui garde les reliques et la mémoire du rituel et transmet protocole, costumes, décors et parcours des processions.
+    def_en: Association of lay people who look after the relics and the memory of the ritual, and pass on protocol, costumes, decorations and routes.
+  - fr: drapeau des ostensions
+    en: ostension flag
+    def_fr: Drapeau hissé en haut du clocher, avec l'aide des pompiers, pour marquer l'ouverture des ostensions ; on le redescend à la clôture.
+    def_en: Flag raised to the top of the church tower, with the help of the fire brigade, to open the ostensions; it comes down at the close.
+  - fr: mal des ardents
+    en: mal des ardents
+    def_fr: Épidémie qui frappa le Limousin en 994 ; la présentation du corps de saint Martial l'aurait arrêtée, ce qui serait à l'origine des ostensions.
+    def_en: Epidemic that struck the Limousin in 994; showing the body of Saint Martial is said to have ended it, which is seen as the origin of the ostensions.
+lang_review: draft
+review_status: unreviewed

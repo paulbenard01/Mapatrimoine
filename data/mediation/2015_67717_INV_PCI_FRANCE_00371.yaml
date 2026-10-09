@@ -1,0 +1,34 @@
+id: 2015_67717_INV_PCI_FRANCE_00371
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, les géants de la fête représentent-ils un pêcheur, filet sur l'épaule, et son épouse coiffée du « soleil » ?"
+    - "Détruits pendant la guerre, oubliés puis refaits plusieurs fois, Batisse et Zabelle reviennent toujours : qu'est-ce qui pousse une ville à faire renaître ses géants ?"
+    - "Quels métiers ont façonné votre région, et comment sont-ils mis à l'honneur lors de fêtes ou de défilés ?"
+  en:
+    - "Why do you think the festival's giants portray a fisherman, net over his shoulder, and his wife wearing the “soleil” headdress?"
+    - "Destroyed in the war, forgotten and rebuilt several times, Batisse and Zabelle always come back: what drives a town to bring its giants back to life?"
+    - "Which trades have shaped your own region, and how are they honoured at festivals or parades?"
+vocabulary:
+  - fr: vieux gréement
+    en: traditional sailing ship
+    def_fr: "Voilier ancien, ou réplique gréée à l'ancienne ; certains se visitent à quai et tous défilent lors de la parade nautique."
+    def_en: "Old sailing ship, or a replica rigged in the old way; some can be visited at the quay and all take part in the sea parade."
+  - fr: soleil
+    en: soleil headdress
+    def_fr: "Coiffe boulonnaise ronde en dentelle blanche plissée et empesée, autrefois portée par les femmes de marins ; Zabelle la porte."
+    def_en: "Round Boulogne headdress of pleated, starched white lace, once worn by sailors' wives; Zabelle wears one."
+  - fr: matelote
+    en: fisherman's wife
+    def_fr: "Femme de marin-pêcheur boulonnais ; sa tenue réunit robe et tablier noirs, châle blanc à franges, soleil et bijoux."
+    def_en: "Wife of a Boulogne fisherman; her outfit combines a black dress and apron, a fringed white shawl, the soleil and jewellery."
+  - fr: porteur
+    en: carrier
+    def_fr: "Personne qui porte le géant de l'intérieur ; à Boulogne, un seul porteur suffit pour chacun des deux géants de 60 kilos."
+    def_en: "Person who carries the giant from inside; in Boulogne, one carrier is enough for each of the two 60-kilo giants."
+  - fr: chant de marin
+    en: sea song
+    def_fr: "Chanson née de la vie à bord ou sur le port ; c'est l'un des répertoires joués sur les scènes de la fête."
+    def_en: "Song born from life at sea or in port; it is one of the kinds of music played on the festival stages."
+lang_review: draft
+review_status: unreviewed

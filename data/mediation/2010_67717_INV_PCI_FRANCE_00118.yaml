@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00118
+audience: general
+questions:
+  fr:
+    - "Sabots en caoutchouc, matériel agricole, charcuterie : qu'est-ce que les objets vendus sur une foire révèlent de la vie de ceux qui la fréquentent ?"
+    - "Autrefois, on y louait des domestiques et on y renouvelait les contrats de métayage ; qu'est-ce qui a changé dans le rôle de la foire, et qu'est-ce qui demeure ?"
+    - "Quelle foire ou quel marché de votre région rassemble les gens bien au-delà des simples achats ?"
+  en:
+    - "Rubber clogs, farm machinery, cured meats: what do the goods sold at a fair reveal about the lives of the people who go there?"
+    - "In the past, farmhands were hired and sharecropping contracts renewed here; what has changed in the fair's role, and what remains?"
+    - "Which fair or market in your region brings people together for much more than shopping?"
+vocabulary:
+  - fr: assemblada
+    en: assemblada
+    def_fr: "Mot gascon signifiant « rassemblement » ; il désigne la grande foire de la Saint-Michel au quartier Suzan."
+    def_en: "Gascon word meaning 'gathering'; it names the great Michaelmas fair in the Suzan district."
+  - fr: Saint-Michel
+    en: Michaelmas
+    def_fr: "Fête de l'archange Michel, le 29 septembre ; la foire de Suzan était la dernière de l'année parmi les foires landaises liées à une fête religieuse."
+    def_en: "Feast of the Archangel Michael on 29 September; the Suzan fair was the last of the year among the Landes fairs tied to a religious feast."
+  - fr: fontaine de guérison
+    en: healing spring
+    def_fr: "Source réputée soulager certains maux ; trois fontaines voisines, chacune liée à un saint, sont toujours fréquentées."
+    def_en: "Spring believed to ease certain ailments; three nearby springs, each linked to a saint, are still visited."
+  - fr: métayage
+    en: sharecropping
+    def_fr: "Bail rural où l'exploitant partage la récolte avec le propriétaire ; ces contrats se renouvelaient autrefois à la foire."
+    def_en: "Farm tenancy in which the tenant shares the harvest with the landowner; such contracts used to be renewed at the fair."
+  - fr: forêt landaise
+    en: Landes forest
+    def_fr: "Vaste forêt de pins du sud-ouest de la France ; la foire s'installe à la croisée de deux routes, en pleine forêt."
+    def_en: "Vast pine forest in south-west France; the fair sets up where two roads cross, deep in the woods."
+lang_review: draft
+review_status: unreviewed

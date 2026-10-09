@@ -1,0 +1,34 @@
+id: 2013_67717_INV_PCI_FRANCE_00324
+audience: general
+questions:
+  fr:
+    - Pourquoi, selon vous, dit-on à Steenvoorde qu'un géant qui n'est pas porté ne danse pas, et donc ne vit pas ?
+    - Que gagne une petite ville de quelques milliers d'habitants à accueillir des géants de toute l'Europe, et qu'exige d'elle cet accueil ?
+    - Quelle fête de votre région invite des groupes venus d'autres pays, et que partage-t-on alors ?
+  en:
+    - Why do you think people in Steenvoorde say that a giant that is not carried cannot dance, and so is not alive?
+    - What does a small town of a few thousand people gain by welcoming giants from all over Europe, and what does that welcome demand of it?
+    - Which festival in your own region invites groups from other countries, and what is shared on that occasion?
+vocabulary:
+  - fr: géant porté
+    en: carried giant
+    def_fr: Géant animé par un ou plusieurs porteurs cachés dans sa structure, qui le font avancer, tourner et danser.
+    def_en: Giant brought to life by one or more bearers hidden inside its frame, who make it walk, turn and dance.
+  - fr: porteur
+    en: bearer
+    def_fr: Personne qui porte le géant ; à Steenvoorde, une section d'enfants apprend le portage avec le petit géant Jacobus, créé en 2004.
+    def_en: Person who carries the giant; in Steenvoorde a children's section learns to carry with the small giant Jacobus, made in 2004.
+  - fr: Jean le Bûcheron
+    en: Jean the Woodcutter
+    def_fr: Principal géant de Steenvoorde, casqué, la hache à l'épaule ; il figure un bûcheron légendaire qui aurait secouru le village au temps de Charlemagne.
+    def_en: Steenvoorde's main giant, helmeted, with an axe on his shoulder; he portrays a legendary woodcutter said to have saved the village in Charlemagne's time.
+  - fr: ronde européenne
+    en: European round
+    def_fr: Rassemblement exceptionnel de géants portés venus de plusieurs pays, organisé certaines années depuis 1989, à une date proche du 1er mai.
+    def_en: Special gathering of carried giants from several countries, held in some years since 1989 on a date close to 1 May.
+  - fr: estaminet
+    en: estaminet
+    def_fr: Café traditionnel de Flandre ; le soir du carnaval, la fête s'y prolonge en musique.
+    def_en: Traditional Flemish café; on carnival night, the festivities carry on there with music.
+lang_review: draft
+review_status: unreviewed

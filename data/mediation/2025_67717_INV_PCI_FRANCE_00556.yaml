@@ -1,0 +1,34 @@
+id: 2025_67717_INV_PCI_FRANCE_00556
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, le public apprécie-t-il autant qu'un poète en déstabilise un autre par une moquerie, puis s'en sorte par une pirouette verbale ?"
+    - "Né dans les foires et les veillées, le chjam'è rispondi s'apprend aujourd'hui aussi dans des ateliers et des scènes dédiées : qu'est-ce que cela change ?"
+    - "Dans votre entourage, où entend-on encore des joutes verbales improvisées, du rap au slam en passant par les répliques entre amis ?"
+  en:
+    - "Why do you think audiences enjoy it so much when one poet unsettles another with mockery and the other escapes with a verbal twist?"
+    - "Born at fairs and evening gatherings, chjam'è rispondi is now also learned in workshops and on dedicated stages; what difference does that make?"
+    - "Around you, where can improvised verbal duels still be heard, from rap and slam to quick-fire banter between friends?"
+vocabulary:
+  - fr: "chjam'è rispondi"
+    en: "chjam'è rispondi"
+    def_fr: "« Appelle et réponds » en corse ; échange chanté et improvisé où chaque poète répond au défi lancé par un autre, sur un sujet inconnu d'avance."
+    def_en: "\"Call and answer\" in Corsican; a sung, improvised exchange in which each poet answers another's challenge, on a subject not known in advance."
+  - fr: "terzinu"
+    en: "terzinu"
+    def_fr: "Strophe de trois vers de seize syllabes, unité de base de chaque réplique ; plusieurs schémas de rimes existent, plus ou moins difficiles."
+    def_en: "Verse of three sixteen-syllable lines, the basic unit of each reply; several rhyme patterns exist, some harder than others."
+  - fr: "versu"
+    en: "versu"
+    def_fr: "Dans le chant corse, à la fois la mélodie et la manière de chanter (ornements, tempo, timbre) ; il reflète la personnalité du poète."
+    def_en: "In Corsican singing, both the tune and the way it is sung (ornaments, tempo, tone); it reflects the poet's personality."
+  - fr: "macagna"
+    en: "macagna"
+    def_fr: "Raillerie pleine d'humour ; elle donne le ton des joutes ludiques, sur un sujet banal compris de tous."
+    def_en: "Good-humoured teasing; it sets the tone of playful duels on an everyday subject that everyone understands."
+  - fr: "disprezzu"
+    en: "disprezzu"
+    def_fr: "Joute caustique où deux poètes se rabaissent mutuellement en exagérant les défauts de l'autre, à la limite de la vexation."
+    def_en: "Caustic duel in which two poets put each other down by exaggerating the other's flaws, close to the point of offence."
+lang_review: draft
+review_status: unreviewed

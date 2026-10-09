@@ -1,0 +1,34 @@
+id: 2017_67717_INV_PCI_FRANCE_00376
+audience: general
+questions:
+  fr:
+    - "Que montre, selon vous, l'image des équipiers avancés au bout de leurs bois au-dessus de la mer pour faire contrepoids au vent ?"
+    - "Autrefois bateau de pêche, la yole est devenue une embarcation de course suivie par toute l'île : que gagne et que risque un savoir-faire quand il devient un sport et un spectacle ?"
+    - "Quel bateau, sport ou savoir-faire lié à l'eau fait la fierté de votre région ?"
+  en:
+    - "What do you think the sight of crew members far out on their poles above the sea, balancing against the wind, tells us?"
+    - "Once a fishing boat, the yole has become a racing boat followed by the whole island: what does a skill gain, and risk, when it turns into a sport and a show?"
+    - "Which boat, water sport or maritime skill is the pride of your own region?"
+vocabulary:
+  - fr: bois dressé
+    en: bwa dressé
+    def_fr: "Long bois calé contre la coque, sur lequel l'équipier s'avance plus ou moins loin selon la force du vent ; par extension, l'équipier lui-même."
+    def_en: "Long pole wedged against the hull, along which a crew member moves further out as the wind strengthens; by extension, the crew member too."
+  - fr: patron
+    en: skipper
+    def_fr: "Seul maître à bord : il choisit l'équipage et la voile et dirige la yole à la pagaie, car elle n'a pas de gouvernail."
+    def_en: "The only master on board: the skipper picks the crew and sail and steers with a paddle, as the yole has no rudder."
+  - fr: charpentier de marine
+    en: boatbuilder
+    def_fr: "Artisan, souvent marin-pêcheur, qui construit la coque en bois massif sans plan ni maquette, avec des gestes transmis en famille."
+    def_en: "Craftsman, often a fisherman, who builds the solid-wood hull with no plans or model, using skills handed down in the family."
+  - fr: gommier
+    en: gommier
+    def_fr: "Embarcation des Caraïbes, du nom de l'arbre dans lequel elle était taillée ; trop instable sous une grande voile, elle a laissé place à la yole."
+    def_en: "Caribbean boat named after the tree it was carved from; too unstable under a large sail, it gave way to the yole."
+  - fr: Tour des yoles
+    en: Tour des yoles
+    def_fr: "Course de yoles en plusieurs étapes autour de la Martinique, grand rendez-vous sportif et culturel que le public suit le long des côtes."
+    def_en: "Multi-stage yole race around Martinique, a major sporting and cultural event that spectators follow along the coast."
+lang_review: draft
+review_status: unreviewed

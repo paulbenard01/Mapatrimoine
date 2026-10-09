@@ -1,0 +1,34 @@
+id: 2020_67717_INV_PCI_FRANCE_00474
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, le dernier tour du défilé consiste-t-il à arracher les fleurs des chars pour les lancer sur le public ?"
+    - "Née pour distraire les curistes du XIXe siècle, la fête dépend aujourd'hui de bénévoles qui collent des fleurs des nuits entières : comment la faire durer ?"
+    - "Quelle fête de votre région demande des mois de préparation pour un seul week-end, et qui s'en charge ?"
+  en:
+    - "Why do you think the last lap of the parade is about tearing the flowers off the floats and throwing them at the crowd?"
+    - "Created to entertain 19th-century spa guests, the festival now relies on volunteers who glue flowers all night: how can it be kept going?"
+    - "Which festival in your region takes months of preparation for a single weekend, and who does the work?"
+vocabulary:
+  - fr: "corso fleuri"
+    en: "flower parade"
+    def_fr: "Défilé de chars couverts de fleurs, sur un thème choisi chaque année ; à Luchon, il fait plusieurs tours des allées d'Étigny le dimanche."
+    def_en: "Parade of flower-covered floats on a theme chosen each year; in Luchon it makes several laps of the allées d'Étigny on the Sunday."
+  - fr: "bataille de fleurs"
+    en: "flower battle"
+    def_fr: "Dernier moment du défilé, où l'on arrache les fleurs des chars pour les jeter sur les autres chars et sur les spectateurs."
+    def_en: "The final part of the parade, when the flowers are pulled off the floats and thrown at other floats and at the spectators."
+  - fr: "dahlia"
+    en: "dahlia"
+    def_fr: "Fleur livrée par centaines de milliers à Luchon juste avant la fête, puis collée à la main sur les chars par les associations."
+    def_en: "Flower delivered by the hundred thousand to Luchon just before the festival, then glued by hand onto the floats by local groups."
+  - fr: "papier crépon"
+    en: "crêpe paper"
+    def_fr: "Papier plissé que des bénévoles découpent, agrafent et ouvrent en fleurs pendant des mois, notamment aux Eaux-Bonnes."
+    def_en: "Crinkled paper that volunteers cut, staple and open out into flowers over many months, notably in Eaux-Bonnes."
+  - fr: "curiste"
+    en: "spa guest"
+    def_fr: "Personne qui séjourne dans une station thermale pour suivre une cure ; les fêtes des Fleurs sont nées pour animer leur saison d'été."
+    def_en: "Person staying in a spa town to take a course of treatment; the flower festivals began as summer entertainment for them."
+lang_review: draft
+review_status: unreviewed

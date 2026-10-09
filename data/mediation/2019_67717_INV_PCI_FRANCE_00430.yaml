@@ -1,0 +1,34 @@
+id: 2019_67717_INV_PCI_FRANCE_00430
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, appelle-t-on à Bessan « danseurs », et non porteurs, les quatre hommes cachés sous l'Âne ?"
+    - "Comment se répartissent les rôles entre garçons et filles autour de l'Âne, et comment pourraient-ils évoluer ?"
+    - "Dans votre commune, quelles fêtes rendent visite aux personnes âgées ou les mettent à l'honneur, et pourquoi est-ce important ?"
+  en:
+    - "Why do you think the four men hidden under the Donkey are called \"dancers\" in Bessan, not bearers?"
+    - "How are roles shared between boys and girls around the Donkey, and how might that change?"
+    - "In your area, which festivals visit or honour older people, and why does that matter?"
+vocabulary:
+  - fr: "danseurs"
+    en: "dancers (danseurs)"
+    def_fr: "À Bessan, nom des quatre porteurs de l'Âne ; chacun choisit lui-même son successeur et lui transmet les secrets du portage."
+    def_en: "In Bessan, the name for the Donkey's four bearers; each chooses his own successor and passes on the secrets of carrying."
+  - fr: "chefs de jeunesse et demoiselles d'honneur"
+    en: "youth leaders and maids of honour"
+    def_fr: "Les cinq jeunes élus chaque année, deux chefs de jeunesse et trois demoiselles d'honneur, qui représentent la jeunesse et organisent une partie de la fête."
+    def_en: "The five young people elected each year, two youth leaders and three maids of honour, who represent the young and organise part of the festival."
+  - fr: "Petit Âne"
+    en: "Little Donkey"
+    def_fr: "Réplique de l'Âne portée par des garçons de 10 à 14 ans ; il imite ses mouvements et clôt seul le dernier jour."
+    def_en: "Replica of the Donkey carried by boys aged 10 to 14; it copies the big one's moves and alone closes the last day."
+  - fr: "remise des bouquets"
+    en: "presentation of bouquets"
+    def_fr: "Cérémonie très codifiée du dimanche où les demoiselles d'honneur offrent des fleurs aux élus, au pas près, devant des centaines de personnes."
+    def_en: "Highly codified Sunday ceremony in which the maids of honour present flowers to the councillors, step by step, before hundreds of people."
+  - fr: "Valse de l'Âne"
+    en: "Donkey's Waltz"
+    def_fr: "Air joué sans relâche par les fanfares pendant toute la fête pour faire danser l'Âne."
+    def_en: "Tune played tirelessly by the bands throughout the festival to make the Donkey dance."
+lang_review: draft
+review_status: unreviewed

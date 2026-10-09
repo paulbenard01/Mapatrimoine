@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00117
+audience: general
+questions:
+  fr:
+    - "Pendant la journée landaise, échassiers, quilles de neuf et courses de vaches côtoient bandas et corridas : que dit ce mélange de l'identité de la ville ?"
+    - "Dax a emprunté à Pampelune, souvent via Bayonne, la tenue blanche et rouge et la journée des enfants ; comment des fêtes voisines s'inspirent-elles les unes des autres sans se ressembler tout à fait ?"
+    - "Si vous deviez présenter à un visiteur la grande fête de votre ville, par quoi commenceriez-vous ?"
+  en:
+    - "On the Landes day, stilt-walkers, ninepins and cow races sit alongside brass bands and bullfights: what does this mix say about the town's identity?"
+    - "Dax borrowed from Pamplona, often by way of Bayonne, the white-and-red outfit and the children's day; how do neighbouring festivals inspire each other without becoming identical?"
+    - "If you had to introduce a visitor to your own town's big festival, where would you begin?"
+vocabulary:
+  - fr: course landaise
+    en: course landaise
+    def_fr: "Jeu taurin gascon, sans mise à mort, où des écarteurs et des sauteurs esquivent une vache qui charge."
+    def_en: "Gascon bull game without a kill, in which dodgers and jumpers evade a charging cow."
+  - fr: cuadrilla
+    en: cuadrilla
+    def_fr: "Équipe qui se produit en piste ; les meilleures cuadrillas de course landaise s'affrontent au concours landais des fêtes."
+    def_en: "Team performing in the ring; the best course landaise teams compete in the festival's concours landais."
+  - fr: échassier
+    en: stilt-walker
+    def_fr: "Personne perchée sur de hautes échasses, image des anciens bergers des Landes ; les groupes folkloriques en font la démonstration."
+    def_en: "Person perched on tall stilts, an image of the Landes shepherds of old; folk groups give demonstrations."
+  - fr: quilles de neuf
+    en: ninepins
+    def_fr: "Jeu de quilles gascon à neuf quilles ; des tournois sont organisés lors de la journée landaise."
+    def_en: "Gascon skittles game played with nine pins; tournaments are held on the Landes day."
+  - fr: Agur Jaunak
+    en: Agur Jaunak
+    def_fr: "Chant basque de salut solennel, repris par les bandas et l'harmonie dans les arènes pour dire adieu aux fêtes."
+    def_en: "Solemn Basque song of greeting, played by the bands and the town's wind orchestra in the arena to bid the festival farewell."
+lang_review: draft
+review_status: unreviewed

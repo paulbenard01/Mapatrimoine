@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00084
+audience: general
+questions:
+  fr:
+    - "Avant la procession, le prêtre bénit la mer, la ville et les bateaux de pêche : que dit ce geste de la vie des familles qui ont apporté cette fête ?"
+    - "Venue de Sperlonga avec des émigrés italiens, la fête cherche aujourd'hui à attirer les jeunes générations ; que garde-t-on et que change-t-on quand une fête suit ceux qui émigrent ?"
+    - "Quelles fêtes de votre ville ou de votre région ont été apportées par des personnes venues d'ailleurs ?"
+  en:
+    - "Before the procession, the priest blesses the sea, the city and the fishing boats: what does this gesture say about the lives of the families who brought the feast?"
+    - "Brought from Sperlonga by Italian emigrants, the feast now tries to draw in the younger generations; what is kept and what changes when a festival follows people who emigrate?"
+    - "Which festivals in your town or region were brought by people who came from elsewhere?"
+vocabulary:
+  - fr: saint patron
+    en: patron saint
+    def_fr: "Saint protecteur d'une ville ou d'une communauté ; saint Léon est celui de Sperlonga, petite ville côtière du Latium."
+    def_en: "Saint who protects a town or community; Saint Leo is the patron of Sperlonga, a small coastal town in Lazio."
+  - fr: porteur
+    en: bearer
+    def_fr: "Fidèle qui porte la statue du saint pendant la procession ; à Marseille, ce rôle revient à des personnes d'origine sperlongaine."
+    def_en: "Worshipper who carries the saint's statue in the procession; in Marseille this role falls to people of Sperlonga descent."
+  - fr: bénédiction de la mer
+    en: blessing of the sea
+    def_fr: "Prière par laquelle le prêtre demande la protection divine pour la mer et ceux qui en vivent, fréquente dans les ports de pêche."
+    def_en: "Prayer in which the priest asks for divine protection over the sea and those who live from it, common in fishing ports."
+  - fr: quartier Saint-Jean
+    en: Saint-Jean district
+    def_fr: "Quartier proche du port où se sont installés de nombreux pêcheurs et immigrés italiens ; ses habitants le décrivent comme un village."
+    def_en: "District near the harbour where many Italian fishermen and immigrants settled; its residents describe it as a village."
+  - fr: comité des fêtes
+    en: festival committee
+    def_fr: "Groupe de bénévoles qui organise la fête ; à Marseille, il est animé par des descendants des premiers organisateurs."
+    def_en: "Group of volunteers who organise the feast; in Marseille it is run by descendants of the first organisers."
+lang_review: draft
+review_status: unreviewed

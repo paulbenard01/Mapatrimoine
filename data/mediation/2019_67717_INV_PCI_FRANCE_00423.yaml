@@ -1,0 +1,34 @@
+id: 2019_67717_INV_PCI_FRANCE_00423
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, les carnavaliers de Montblanc s'habillent-ils tout en blanc avant de se lancer de la farine ?"
+    - "Que gagne-t-on et que perd-on quand un carnaval, autrefois fêté le Mardi gras, est déplacé à un week-end d'avril pour que tout le village puisse venir ?"
+    - "Dans votre commune, quelles fêtes passent par la maison de retraite, l'école ou le café, et pourquoi ces arrêts comptent-ils ?"
+  en:
+    - "Why do you think the carnival-goers of Montblanc dress all in white before throwing flour at each other?"
+    - "What is gained and what is lost when a carnival once held on Shrove Tuesday moves to an April weekend so the whole village can take part?"
+    - "In your area, which festivals stop at the care home, the school or the café, and why do these stops matter?"
+vocabulary:
+  - fr: "Poulain"
+    en: "Poulain"
+    def_fr: "Cheval-totem de toile porté par une équipe cachée dessous ; Montblanc en a un grand et un petit, habillés de fleurs en papier crépon."
+    def_en: "Canvas totem horse carried by a team hidden inside; Montblanc has a big one and a little one, dressed in crêpe-paper flowers."
+  - fr: "meneur"
+    en: "leader (meneur)"
+    def_fr: "Celui qui guide le Poulain au claquement de son fouet ; un rituel de passation du fouet a été imaginé entre les deux meneurs."
+    def_en: "The person who guides the Poulain with the crack of a whip; a whip-passing ritual has been devised between the two leaders."
+  - fr: "enfarinade"
+    en: "flour fight (enfarinade)"
+    def_fr: "Bataille de farine et de son qui accompagne le cortège ; les habitants, tout de blanc vêtus, s'en couvrent joyeusement."
+    def_en: "Battle with flour and bran that goes along with the procession; residents dressed all in white happily cover each other."
+  - fr: "Tripat"
+    en: "Tripat"
+    def_fr: "Mot occitan désignant les tripes, et repas traditionnel du carnaval de Montblanc, où les Poulains font leur entrée en dansant."
+    def_en: "Occitan word for tripe, and the name of Montblanc's traditional carnival meal, which the Poulains enter dancing."
+  - fr: "Roi Carnaval"
+    en: "King Carnival"
+    def_fr: "Pantin bourré de paille ou de papier et de pétards, accusé de tous les maux de l'année, jugé puis brûlé sur la place."
+    def_en: "Dummy stuffed with straw or paper and firecrackers, blamed for all the year's troubles, then tried and burnt in the square."
+lang_review: draft
+review_status: unreviewed

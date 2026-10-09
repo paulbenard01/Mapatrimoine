@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00108
+audience: general
+questions:
+  fr:
+    - "À la messe, les femmes portent le capulet rouge et les hommes la courte veste écarlate : que veut-on montrer en sortant ces costumes anciens ce jour-là ?"
+    - "Le 15 août, enfants partis et familles éloignées reviennent à Laruns et chantent ensemble ; qu'est-ce que la polyphonie apporte à ces retrouvailles ?"
+    - "Quelle fête de votre région fait revenir chaque année ceux qui sont partis vivre ailleurs ?"
+  en:
+    - "At mass, women wear the red capulet and men the short scarlet jacket: what are people showing by bringing out these old costumes on this day?"
+    - "On 15 August, children who have moved away and distant relatives come back to Laruns and sing together; what does polyphony bring to these reunions?"
+    - "Which festival in your region brings back, every year, the people who have moved away?"
+vocabulary:
+  - fr: capulet
+    en: capulet
+    def_fr: "Long capuchon de soie rouge qui recouvre les femmes en costume traditionnel ossalois."
+    def_en: "Long red silk hood worn by women in the traditional costume of the Ossau valley."
+  - fr: branle
+    en: branle
+    def_fr: "Danse en chaîne ; le bal s'ouvre sur un branle solennel dansé une seule fois, puis branles et sauts alternent."
+    def_en: "Chain dance; the ball opens with a solemn branle danced only once, after which branles and sauts alternate."
+  - fr: saut
+    en: saut
+    def_fr: "Danse d'hommes en cercle, tournant dans le sens inverse des aiguilles d'une montre, autrefois dansée par les conscrits."
+    def_en: "Men's dance in a circle, moving anticlockwise, once danced by the young conscripts."
+  - fr: polyphonie
+    en: polyphony
+    def_fr: "Chant à plusieurs voix différentes chantées ensemble ; à Laruns, il jaillit spontanément à la messe, sous la halle et dans les cafés."
+    def_en: "Singing in several different parts at once; in Laruns it breaks out spontaneously at mass, in the market hall and in the cafés."
+  - fr: passacarrèra
+    en: passacarrèra
+    def_fr: "Passe-rue de l'après-midi ; chaque quartier rejoint la place en chantant et s'arrête en cercle à chaque couplet."
+    def_en: "Afternoon street procession; each neighbourhood makes its way to the square in song, stopping in a circle for each verse."
+lang_review: draft
+review_status: unreviewed

@@ -1,0 +1,34 @@
+id: 2019_67717_INV_PCI_FRANCE_00450
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, beaucoup d'habitants choisissent-ils cette fête pour porter, ou étrenner, leur costume provençal ?"
+    - "Comment une fête née en 1968 autour d'une récolte peut-elle à la fois attirer des visiteurs et transmettre des savoir-faire aux jeunes du village ?"
+    - "Quelle récolte ou quel travail agricole rythme l'année dans votre région, et donne-t-il lieu à une fête ?"
+  en:
+    - "Why do you think many villagers choose this festival to wear, or wear for the first time, their Provençal costume?"
+    - "How can a festival founded in 1968 around a harvest both draw visitors and pass skills on to the village's young people?"
+    - "Which harvest or farm work marks the year in your own region, and is it celebrated with a festival?"
+vocabulary:
+  - fr: "olives cassées"
+    en: "cracked olives"
+    def_fr: "Olives vertes frappées avec le fond d'un verre pour les fendre sans briser le noyau, puis rincées plusieurs jours et conservées dans une saumure au fenouil."
+    def_en: "Green olives struck with the bottom of a glass to split them without breaking the stone, rinsed for several days, then kept in brine with fennel."
+  - fr: "olivade"
+    en: "olivade"
+    def_fr: "Saison de la cueillette des olives en Provence ; à Mouriès, elle s'ouvre mi-septembre et s'achève vers décembre avec l'huile nouvelle."
+    def_en: "The olive-picking season in Provence; in Mouriès it opens in mid-September and ends around December with the new oil."
+  - fr: "aïoli"
+    en: "aioli"
+    def_fr: "Sauce provençale à l'ail et à l'huile d'olive montée au mortier et au pilon ; un concours récompense le goût et la tenue."
+    def_en: "Provençal sauce of garlic and olive oil, beaten in a mortar with a pestle; a contest rewards its taste and texture."
+  - fr: "Arlésienne"
+    en: "Arlésienne"
+    def_fr: "Femme en costume traditionnel du pays d'Arles ; lors de la fête, les Arlésiennes défilent et remettent les trophées aux arènes."
+    def_en: "Woman wearing the traditional costume of the Arles area; at the festival, Arlésiennes march in the parade and hand out the trophies in the arena."
+  - fr: "raseteur"
+    en: "raseteur"
+    def_fr: "Jeune homme qui, dans la course camarguaise, tente d'attraper à la main les attributs fixés aux cornes du taureau, sans le blesser."
+    def_en: "Young man who, in Camargue bull games, tries to snatch by hand the tokens tied to the bull's horns, without harming the animal."
+lang_review: draft
+review_status: unreviewed

@@ -1,0 +1,34 @@
+id: 2012_67717_INV_PCI_FRANCE_00151
+audience: general
+questions:
+  fr:
+    - Pourquoi, selon vous, une fête de la mer associe-t-elle un hommage aux marins disparus et des réjouissances sur le port ?
+    - Comment une fête de port née en 1946 peut-elle garder son sens à la fois pour les pêcheurs et pour les vacanciers d'aujourd'hui ?
+    - Quel lien votre ville ou votre région entretient-elle avec la mer, un fleuve ou un lac, et comment le célèbre-t-on ?
+  en:
+    - Why do you think a sea festival combines a tribute to sailors lost at sea with celebrations around the harbour?
+    - How can a harbour festival born in 1946 keep its meaning both for fishermen and for today's holidaymakers?
+    - What ties your own town or region to the sea, a river or a lake, and how are those ties celebrated?
+vocabulary:
+  - fr: fête de la mer
+    en: sea festival
+    def_fr: Fête des villes portuaires qui honore les gens de mer ; à Capbreton, elle a lieu chaque année en juin depuis 1946.
+    def_en: Festival held in harbour towns to honour seafarers; in Capbreton it has taken place every June since 1946.
+  - fr: marin péri en mer
+    en: sailor lost at sea
+    def_fr: Marin mort ou disparu en mer ; la fête de la mer de Capbreton lui rend hommage chaque année.
+    def_en: Sailor who died or went missing at sea; the Capbreton sea festival pays tribute to them every year.
+  - fr: flottille
+    en: fishing fleet
+    def_fr: Ensemble des bateaux d'un même port ; pendant la fête, les bateaux de pêche de Capbreton sortent ensemble.
+    def_en: All the boats of one harbour; during the festival, the Capbreton fishing boats go out together.
+  - fr: gerbe
+    en: wreath
+    def_fr: Bouquet ou couronne de fleurs déposé lors d'une cérémonie, en mémoire des morts.
+    def_en: Bunch or ring of flowers laid during a ceremony in memory of the dead.
+  - fr: estacade
+    en: estacade (wooden jetty)
+    def_fr: Longue jetée sur pilotis de bois qui borde l'entrée du port de Capbreton ; c'est l'une des promenades emblématiques de la ville.
+    def_en: Long jetty on wooden piles at the entrance to Capbreton harbour; one of the town's best-known walks.
+lang_review: draft
+review_status: unreviewed

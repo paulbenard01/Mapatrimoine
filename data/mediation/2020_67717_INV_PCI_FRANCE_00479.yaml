@@ -1,0 +1,34 @@
+id: 2020_67717_INV_PCI_FRANCE_00479
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, le repas de Yennayer doit-il être si copieux que chacun mange à satiété ?"
+    - "Comment une fête agraire née en Afrique du Nord change-t-elle de sens lorsqu'elle est célébrée par une diaspora en région parisienne ?"
+    - "Quelles fêtes ou quels plats de votre famille marquent le passage d'une année à l'autre ?"
+  en:
+    - "Why do you think the Yennayer meal has to be so plentiful that everyone eats their fill?"
+    - "How does a farming festival from North Africa change its meaning when a diaspora celebrates it in the Paris region?"
+    - "Which celebrations or dishes in your own family mark the move from one year to the next?"
+vocabulary:
+  - fr: "Yennayer"
+    en: "Yennayer"
+    def_fr: "Premier jour de l'an du calendrier berbère, fêté vers le 12 janvier ; le mot viendrait du latin désignant le mois de janvier."
+    def_en: "First day of the Berber calendar year, celebrated around 12 January; the word probably comes from the Latin name for January."
+  - fr: "amazigh"
+    en: "Amazigh"
+    def_fr: "Nom que se donnent les Berbères (pluriel Imazighen), peuples d'Afrique du Nord présents aussi dans de nombreuses diasporas."
+    def_en: "The name Berbers use for themselves (plural Imazighen), peoples of North Africa also found in many diaspora communities."
+  - fr: "imensi n yennayer"
+    en: "imensi n yennayer"
+    def_fr: "Grand repas familial du Nouvel An, cœur de la fête ; ses plats (couscous, volaille, beignets) varient selon les régions."
+    def_en: "The large New Year family meal at the heart of the festival; its dishes (couscous, poultry, fritters) vary from region to region."
+  - fr: "calendrier julien"
+    en: "Julian calendar"
+    def_fr: "Calendrier romain instauré en 45 av. J.-C. ; le calendrier agraire berbère en dérive, ce qui explique son décalage avec le nôtre."
+    def_en: "Roman calendar introduced in 45 BC; the Berber farming calendar comes from it, which explains why it is out of step with ours."
+  - fr: "yaz"
+    en: "yaz"
+    def_fr: "Lettre de l'alphabet amazigh devenue symbole de la langue et de la culture berbères, visible sur les drapeaux et banderoles."
+    def_en: "Letter of the Amazigh alphabet that has become a symbol of Berber language and culture, seen on flags and banners."
+lang_review: draft
+review_status: unreviewed

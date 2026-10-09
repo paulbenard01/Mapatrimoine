@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00354
+audience: general
+questions:
+  fr:
+    - "Que représente, selon vous, le jet de harengs lancé à la foule au passage de la bande devant la mairie ?"
+    - "Wormhout a créé un carnaval des enfants, avec le même tambour-major et des bonbons à la place des harengs : comment transmettre une fête parfois rude sans la dénaturer ?"
+    - "Dans votre région, quelles fêtes donnent aux habitants l'occasion d'ouvrir leur maison à leurs amis, comme les « chapelles » du carnaval ?"
+  en:
+    - "What do you think the herring throw means, when fish are thrown to the crowd as the band passes the town hall?"
+    - "Wormhout set up a children's carnival, with the same drum major and sweets instead of herrings: how can a sometimes rough festival be passed on without losing its character?"
+    - "In your own region, which festivals give people a reason to open their homes to friends, like the carnival “chapelles”?"
+vocabulary:
+  - fr: bande
+    en: band
+    def_fr: "Groupe de carnavaleux costumés qui suivent la musique dans les rues ; « faire la bande », c'est défiler avec eux le dimanche."
+    def_en: "Crowd of costumed carnival-goers who follow the music through the streets; to “faire la bande” is to march with them on Sunday."
+  - fr: klet'che
+    en: klet'che
+    def_fr: "Mot dunkerquois pour le déguisement du carnavaleux, souvent très coloré, complété par un maquillage préparé le matin même."
+    def_en: "Dunkirk word for a carnival-goer's costume, often brightly coloured and finished with make-up applied that morning."
+  - fr: tambour-major
+    en: drum major
+    def_fr: "Chef de la bande, costumé en soldat d'Empire, qui lance les chants et les airs repris en chœur par les carnavaleux."
+    def_en: "Leader of the band, dressed as a Napoleonic soldier, who starts the songs and tunes that the carnival-goers take up together."
+  - fr: chapelle
+    en: open house
+    def_fr: "Maison de carnavaleux où les amis sont accueillis pour boire et manger ; on s'y retrouve après le défilé et on s'y maquille le matin."
+    def_en: "A carnival-goer's home where friends are welcomed with food and drink; people gather there after the parade and put on make-up there in the morning."
+  - fr: chahut
+    en: chahut
+    def_fr: "Moment où les premiers rangs de la bande s'arrêtent et résistent à la poussée de ceux qui suivent ; c'est le passage le plus physique du carnaval."
+    def_en: "Moment when the front rows of the band stop and hold out against the push of those behind; it is the most physical part of the carnival."
+lang_review: draft
+review_status: unreviewed

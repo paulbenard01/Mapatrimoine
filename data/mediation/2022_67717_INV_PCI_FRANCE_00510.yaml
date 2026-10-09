@@ -1,0 +1,34 @@
+id: 2022_67717_INV_PCI_FRANCE_00510
+audience: general
+questions:
+  fr:
+    - "Hommes et femmes sont séparés par un simple cordon de tissu mais se répondent par le chant et le geste : que nous dit cette organisation de l'espace ?"
+    - "Cérémonie religieuse, la mawlida shenge sert aussi pour des deuils, des meetings ou des week-ends festifs : comment garde-t-elle son sens en changeant d'usage ?"
+    - "Dans votre entourage, quels chants ou quelles musiques rassemblent toutes les générations lors des grands moments de la vie ?"
+  en:
+    - "Men and women are separated by a mere fabric cord, yet answer each other in song and gesture; what does this use of space tell us?"
+    - "A religious ceremony, the mawlida shenge is also held for mourning, political rallies and festive weekends; how does it keep its meaning as its uses change?"
+    - "Around you, which songs or music bring all generations together at life's important moments?"
+vocabulary:
+  - fr: "bandrabandra"
+    en: "bandrabandra"
+    def_fr: "Espace éphémère de la cérémonie, carré ou rectangulaire, fait de tissus tendus sur une ossature de bois et couvert d'un toit de tissu."
+    def_en: "Temporary ceremonial space, square or rectangular, made of fabric stretched over a wooden frame and roofed with cloth."
+  - fr: "msutru"
+    en: "msutru"
+    def_fr: "Cordon de tissus colorés, du sol au toit, qui partage le bandrabandra entre le côté des femmes et celui des hommes."
+    def_en: "Cord of brightly coloured fabric, running from floor to roof, that divides the bandrabandra into a women's side and a men's side."
+  - fr: "fundi"
+    en: "fundi"
+    def_fr: "Maître reconnu pour son savoir ; le fundi soliste mène les chants et décide quand les femmes prennent le relais."
+    def_en: "Master recognised for their knowledge; the solo fundi leads the songs and decides when the women take over."
+  - fr: "tari"
+    en: "tari"
+    def_fr: "Tambour sur cadre joué par les hommes ; quelques coups rapides et reconnaissables marquent la fin d'un chant."
+    def_en: "Frame drum played by the men; a few quick, well-known beats signal the end of a song."
+  - fr: "saluva"
+    en: "saluva"
+    def_fr: "Pagne coloré porté par les femmes mahoraises ; les membres d'une même association portent souvent le même tissu."
+    def_en: "Brightly coloured wrap worn by Mahoran women; members of the same association often wear the same fabric."
+lang_review: draft
+review_status: unreviewed

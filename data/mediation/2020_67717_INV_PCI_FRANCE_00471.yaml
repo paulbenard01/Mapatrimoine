@@ -1,0 +1,34 @@
+id: 2020_67717_INV_PCI_FRANCE_00471
+audience: general
+questions:
+  fr:
+    - "Que nous disent les couleurs des costumes des trois Rois et de leurs pages sur la manière dont on se représentait le monde ?"
+    - "Autrefois tenus par des hommes, les rôles sont aujourd'hui joués par des enfants, garçons et filles : qu'est-ce que cela change pour la fête ?"
+    - "Comment fête-t-on l'Épiphanie chez vous, et quelles traditions de votre ville sont liées au travail de la mer ou d'un autre métier ?"
+  en:
+    - "What do the colours of the three Kings' and their pages' costumes tell us about how people once pictured the world?"
+    - "The roles were once played by men and are now taken by children, boys and girls: what difference does that make to the feast?"
+    - "How is Epiphany celebrated where you live, and which local traditions are tied to the sea or to another trade?"
+vocabulary:
+  - fr: "Fête-Dieu"
+    en: "Corpus Christi"
+    def_fr: "Fête catholique du Saint-Sacrement, célébrée en juin ; selon la tradition, les marins luziens, alors en mer, obtinrent de la célébrer en hiver."
+    def_en: "Catholic feast of the Blessed Sacrament, held in June; tradition says the town's sailors, away at sea then, were allowed to hold it in winter."
+  - fr: "vêpres"
+    en: "vespers"
+    def_fr: "Office religieux de l'après-midi ou du soir ; la procession entre dans l'église au moment où il commence."
+    def_en: "Afternoon or evening church service; the procession enters the church just as it begins."
+  - fr: "thuriféraire"
+    en: "thurifer"
+    def_fr: "Personne qui porte et balance l'encensoir pendant une cérémonie ; ce rôle est ici tenu par des filles."
+    def_en: "Person who carries and swings the incense burner during a service; here the role is taken by girls."
+  - fr: "claquoir"
+    en: "clapper"
+    def_fr: "Petit instrument de bois qui claque ; le maître de cérémonie, souvent l'enfant de chœur le plus âgé, s'en sert pour rythmer les gestes."
+    def_en: "Small wooden instrument that makes a sharp clap; the master of ceremonies, often the oldest altar server, uses it to cue each step."
+  - fr: "txistulari"
+    en: "txistulari"
+    def_fr: "Musicien basque qui joue du txistu, petite flûte à trois trous ; une formation de txistulari ouvre la procession."
+    def_en: "Basque musician who plays the txistu, a small three-holed flute; a band of txistulari leads the procession."
+lang_review: draft
+review_status: unreviewed

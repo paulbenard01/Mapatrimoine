@@ -1,0 +1,34 @@
+id: 2009_67717_INV_PCI_FRANCE_00040
+audience: general
+questions:
+  fr:
+    - "Dans le maloya, un soliste lance le chant et un chœur lui répond : que peut exprimer ce dialogue entre une voix et un groupe ?"
+    - "Longtemps confiné aux plantations et aux cérémonies familiales, le maloya se joue aujourd'hui sur scène et se mêle au rock ou au reggae ; qu'est-ce que ces fusions lui apportent ou lui font perdre ?"
+    - "Quelle musique ou quelle danse raconte, selon vous, l'histoire de votre région ou de votre famille ?"
+  en:
+    - "In maloya, a soloist leads the song and a chorus answers: what can this dialogue between one voice and a group express?"
+    - "Long confined to the plantations and family ceremonies, maloya is now played on stage and blended with rock or reggae; what do these fusions bring to it, or take away?"
+    - "Which music or dance do you feel tells the story of your own region or family?"
+vocabulary:
+  - fr: roulèr
+    en: roulèr
+    def_fr: "Gros tambour fait d'un tonneau tendu d'une peau ; le musicien s'assoit dessus à califourchon et le frappe des mains."
+    def_en: "Large drum made from a barrel covered with a skin; the player sits astride it and strikes it with the hands."
+  - fr: kayanm
+    en: kayanm
+    def_fr: "Hochet plat en forme de radeau, fait de tiges de fleurs de canne et rempli de graines, que l'on secoue en cadence."
+    def_en: "Flat, raft-shaped rattle made of sugar-cane flower stems and filled with seeds, shaken in rhythm."
+  - fr: bob
+    en: bob
+    def_fr: "Arc musical à une seule corde, muni d'une calebasse qui amplifie le son ; on frappe la corde avec une fine baguette."
+    def_en: "Single-string musical bow fitted with a gourd that amplifies the sound; the string is struck with a thin stick."
+  - fr: pikèr
+    en: pikèr
+    def_fr: "Tronçon de bambou frappé avec deux baguettes, qui marque le rythme du maloya."
+    def_en: "Length of bamboo struck with two sticks to beat out the rhythm of maloya."
+  - fr: engagisme
+    en: indentured labour
+    def_fr: "Système de travail sous contrat qui a fait venir à La Réunion, surtout au XIXe siècle, des travailleurs d'Inde et d'ailleurs pour les plantations."
+    def_en: "Contract-labour system that brought workers from India and elsewhere to Réunion, mainly in the 19th century, to work on the plantations."
+lang_review: draft
+review_status: unreviewed

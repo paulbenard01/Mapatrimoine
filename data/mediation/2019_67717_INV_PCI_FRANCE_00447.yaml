@@ -1,0 +1,34 @@
+id: 2019_67717_INV_PCI_FRANCE_00447
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, saute-t-on par-dessus le feu en lui « donnant » sa couleur jaune pour recevoir sa couleur rouge ?"
+    - "Que devient une fête familiale comme le Norouz lorsque des communautés de la diaspora la célèbrent aussi en public, sur une place ou dans une mairie parisienne ?"
+    - "Quels gestes ou quels objets accompagnent chez vous le passage à la nouvelle année, et quels souhaits expriment-ils ?"
+  en:
+    - "Why do you think people jump over the fire, \"giving\" it their yellow colour to receive its red one?"
+    - "What becomes of a family festival like Norouz when diaspora communities also celebrate it in public, in a square or a Paris town hall?"
+    - "Which gestures or objects mark the start of a new year in your home, and what wishes do they express?"
+vocabulary:
+  - fr: "haft siin"
+    en: "haft sin"
+    def_fr: "Table du Nouvel An où l'on dispose sept éléments dont le nom persan commence par « s », comme la pomme, l'ail ou la pièce."
+    def_en: "New Year table set with seven items whose Persian names begin with \"s\", such as an apple, garlic or a coin."
+  - fr: "sabzeh"
+    en: "sabzeh"
+    def_fr: "Pousses de blé ou de lentilles mises à germer dès mars, symbole majeur de la fête, rendues à l'eau courante au treizième jour."
+    def_en: "Wheat or lentil sprouts grown from early March, a key symbol of the festival, released into running water on the thirteenth day."
+  - fr: "Tchâhâr Shanbeh Souri"
+    en: "Chaharshanbe Suri"
+    def_fr: "« Mercredi enflammé » : la nuit précédant le dernier mercredi de l'année, on allume des feux et l'on saute par-dessus."
+    def_en: "\"Fiery Wednesday\": on the night before the last Wednesday of the year, people light fires and jump over them."
+  - fr: "Sizdah-bé-dar"
+    en: "Sizdah Bedar"
+    def_fr: "« Le treizième dehors » : le treizième jour après le Nouvel An, on pique-nique dans la nature, à Paris au bois de Boulogne."
+    def_en: "\"Thirteenth day outdoors\": on the thirteenth day after New Year, people picnic in nature, in Paris in the Bois de Boulogne."
+  - fr: "diaspora"
+    en: "diaspora"
+    def_fr: "Communauté vivant hors de son pays d'origine ; en Île-de-France, Iraniens, Kurdes, Kazakhs ou Kirghizes y fêtent le Norouz."
+    def_en: "Community living outside its country of origin; in the Paris region, Iranians, Kurds, Kazakhs and Kyrgyz celebrate Norouz."
+lang_review: draft
+review_status: unreviewed

@@ -1,0 +1,34 @@
+id: 2013_67717_INV_PCI_FRANCE_00313
+audience: general
+questions:
+  fr:
+    - Pourquoi, selon vous, certains rapportent-ils chez eux un morceau de bois calciné du brandon une fois le feu éteint ?
+    - Comment faire vivre une fête du feu dans les petits villages de montagne qui se dépeuplent et manquent de bras ?
+    - Quels feux, lumières ou fêtes marquent le passage des saisons dans votre région ?
+  en:
+    - Why do you think some people take home a piece of charred wood from the brandon once the fire has died down?
+    - How can a fire festival be kept alive in small mountain villages that are losing their people and lack helping hands?
+    - Which fires, lights or festivals mark the turning of the seasons in your own region?
+vocabulary:
+  - fr: brandon
+    en: brandon
+    def_fr: Grand tronc de sapin écorcé, fendu et garni de copeaux et de paille, dressé puis embrasé pour la Saint-Jean ; en occitan, on dit « brandou ».
+    def_en: Tall stripped fir trunk, split and packed with wood shavings and straw, raised and set alight for Saint John's Day; "brandou" in Occitan.
+  - fr: solstice d'été
+    en: summer solstice
+    def_fr: Jour le plus long de l'année, vers le 21 juin ; les feux de la Saint-Jean, le 24 juin, en prolongent la célébration.
+    def_en: The longest day of the year, around 21 June; the Saint John's fires on 24 June carry on its celebration.
+  - fr: coin
+    en: wedge
+    def_fr: Pièce de fer qui sert à fendre le tronc, ou de bois qui garde les fentes ouvertes ; des cercles de fer évitent que le tronc n'éclate.
+    def_en: Iron piece used to split the trunk, or wooden piece to keep the splits open; iron hoops stop the trunk from bursting.
+  - fr: tison
+    en: firebrand
+    def_fr: Morceau de bois encore brûlant ; quand le brandon s'effondre, des jeunes en saisissent un et le font tournoyer dans la nuit.
+    def_en: Piece of still-burning wood; when the brandon collapses, young people grab one and whirl it through the dark.
+  - fr: Guides à cheval
+    en: mounted guides
+    def_fr: Compagnie de Luchon qui menait autrefois touristes et curistes en montagne ; elle défile le soir du brandon en faisant claquer ses fouets.
+    def_en: Luchon company that once led tourists and spa visitors into the mountains; it parades on brandon night, cracking its whips.
+lang_review: draft
+review_status: unreviewed

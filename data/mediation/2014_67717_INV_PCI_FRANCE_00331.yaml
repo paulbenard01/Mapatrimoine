@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00331
+audience: general
+questions:
+  fr:
+    - "Que symbolise, selon vous, le geste des maires français et espagnols qui posent tour à tour la main sur la borne frontière avant de proclamer « Pax avant » ?"
+    - "Depuis 2000, on remet la valeur des trois génisses plutôt que les bêtes elles-mêmes : comment un rituel garde-t-il son sens quand son objet devient symbolique ?"
+    - "Quels accords, fêtes ou rencontres relient votre commune à des voisins de l'autre côté d'une frontière, d'une rivière ou d'une montagne ?"
+  en:
+    - "What do you think it means when French and Spanish mayors lay their hands on the border stone in turn before proclaiming “Pax avant”?"
+    - "Since 2000, the value of the three heifers has been handed over instead of the animals themselves: how does a ritual keep its meaning when its object becomes symbolic?"
+    - "Which agreements, festivals or meetings link your town to neighbours on the other side of a border, a river or a mountain?"
+vocabulary:
+  - fr: borne 262
+    en: boundary stone 262
+    def_fr: "Borne de la frontière franco-espagnole au col de la Pierre-Saint-Martin, autour de laquelle se déroule chaque année la cérémonie."
+    def_en: "Marker of the French-Spanish border at the Pierre-Saint-Martin pass, around which the ceremony takes place every year."
+  - fr: alcade
+    en: alcalde
+    def_fr: "Maire d'une commune espagnole ; celui d'Isaba préside la cérémonie et pose en castillan les questions rituelles sur le tribut."
+    def_en: "Mayor of a Spanish municipality; the alcalde of Isaba presides over the ceremony and asks the ritual questions about the tribute in Castilian."
+  - fr: facerie
+    en: facerie
+    def_fr: "Accord pastoral entre vallées voisines des Pyrénées, qui règle le partage des pâturages et des points d'eau de part et d'autre de la frontière."
+    def_en: "Pastoral agreement between neighbouring Pyrenean valleys, setting out how pastures and water sources are shared across the border."
+  - fr: tribut des trois vaches
+    en: tribute of the three cows
+    def_fr: "Redevance perpétuelle confirmée par la sentence de 1375 : trois génisses de deux ans, saines et sans défaut, dues chaque année aux Roncalais."
+    def_en: "Perpetual payment confirmed by the 1375 ruling: three healthy, flawless two-year-old heifers owed every year to the people of Roncal."
+  - fr: transhumance
+    en: transhumance
+    def_fr: "Déplacement saisonnier des troupeaux vers les estives ; le traité permet aux brebis de Barétous de paître côté navarrais pendant 28 jours à partir du 13 juillet."
+    def_en: "Seasonal movement of flocks to summer pastures; the treaty lets Barétous sheep graze on the Navarre side for 28 days from 13 July."
+lang_review: draft
+review_status: unreviewed
