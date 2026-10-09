@@ -1,0 +1,34 @@
+id: 2013_67717_INV_PCI_FRANCE_00321
+audience: general
+questions:
+  fr:
+    - Pourquoi, selon vous, le Roi carnaval reçoit-il les clés de la ville avant d'être jugé puis brûlé dans le bassin du port ?
+    - Que permet un carnaval où chaque comité choisit librement de quoi se moquer, dans des règles fixées par les carnavaliers eux-mêmes ?
+    - Dans votre ville ou votre région, quelle fête permet de rire ouvertement de l'actualité ou des puissants ?
+  en:
+    - Why do you think the Carnival King is handed the keys to the town before being tried and burnt in the harbour basin?
+    - What does a carnival make possible when each committee freely chooses what to mock, within rules set by the carnival-goers themselves?
+    - In your own town or region, which festival lets people laugh openly at current events or at those in power?
+vocabulary:
+  - fr: cavalcade
+    en: cavalcade
+    def_fr: Grand défilé de chars, de groupes costumés et de fanfares ; à Granville, plusieurs cortèges partent de quartiers différents et convergent vers le centre.
+    def_en: Large parade of floats, costumed groups and brass bands; in Granville several processions set off from different districts and meet in the centre.
+  - fr: char
+    en: float
+    def_fr: Plateau roulant décoré, construit en secret pendant des mois par un comité, souvent avec des matériaux de récupération.
+    def_en: Decorated vehicle built in secret over several months by a committee, often from salvaged materials.
+  - fr: Roi carnaval
+    en: Carnival King
+    def_fr: Grand personnage en papier mâché qui règne sur la ville pendant la fête, puis est jugé et brûlé le Mardi gras.
+    def_en: Large papier-mâché figure who rules the town during the festival and is then tried and burnt on Shrove Tuesday.
+  - fr: intrigue
+    en: intrigue
+    def_fr: Jeu de la dernière nuit où, caché sous un masque, on taquine des proches en évoquant des détails de leur vie sans se faire reconnaître.
+    def_en: Game of the last night in which, hidden behind a mask, you tease people you know about details of their lives without being recognised.
+  - fr: bataille de confettis
+    en: confetti battle
+    def_fr: Grande mêlée joyeuse sur la place de la mairie le soir du Mardi gras ; cinq à six tonnes de confettis sont lancées pendant le carnaval.
+    def_en: Huge good-humoured scrum on the town-hall square on the evening of Shrove Tuesday; five to six tonnes of confetti are thrown during the carnival.
+lang_review: draft
+review_status: unreviewed

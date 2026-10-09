@@ -1,0 +1,34 @@
+id: 2019_67717_INV_PCI_FRANCE_00429
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, le meneur fait-il semblant d'offrir de l'avoine au Poulain dans son tambourin, et qui commande vraiment l'animal ?"
+    - "Comment faire vivre des danses et des chansons de carnaval en occitan quand la langue se transmet moins et que le soufflet a quitté les maisons ?"
+    - "À quelles occasions, dans votre ville ou votre région, peut-on se moquer publiquement des élus et de la vie locale ?"
+  en:
+    - "Why do you think the leader pretends to offer the Poulain oats in his tambourine, and who really controls the animal?"
+    - "How can carnival dances and songs in Occitan stay alive when fewer people learn the language and bellows are no longer found at home?"
+    - "On what occasions, in your town or region, is it acceptable to poke fun at local politicians and local life in public?"
+vocabulary:
+  - fr: "Poulain"
+    en: "Poulain (lo Polin)"
+    def_fr: "Cheval-totem de Pézenas : une carcasse couverte de toile bleue, portée par neuf hommes, dont la tête s'allonge et se rétracte."
+    def_en: "Pézenas's totem horse: a frame covered in blue cloth, carried by nine men, with a head that stretches out and draws back."
+  - fr: "meneur"
+    en: "leader (meneur)"
+    def_fr: "Danseur surnommé l'Hermès qui guide, tambourin en main, le Poulain et ses porteurs, dont la vue est très réduite sous la toile."
+    def_en: "Dancer nicknamed Hermes who, tambourine in hand, guides the Poulain and its bearers, who can barely see under the cloth."
+  - fr: "Estieino et Estieineta"
+    en: "Estieino and Estieineta"
+    def_fr: "Les deux mannequins juchés sur le Poulain ; une légende contestée y voit un seigneur et une paysanne entrés en ville sur la même monture."
+    def_en: "The two dummies riding the Poulain; a disputed legend sees them as a lord and a peasant woman who entered town on one horse."
+  - fr: "machade"
+    en: "machade"
+    def_fr: "Histoire comique en occitan ; au spectacle des Machous, des habitants jouent des sketchs sur la vie politique locale."
+    def_en: "Comic story in Occitan; at the Machous show, residents perform sketches about local politics."
+  - fr: "bufatièra"
+    en: "bufatièra (bellows dance)"
+    def_fr: "Danse des Soufflets : en file, chaque danseur souffle avec un soufflet sur le derrière de celui qui le précède."
+    def_en: "The bellows dance: in a line, each dancer puffs air with bellows at the backside of the person in front."
+lang_review: draft
+review_status: unreviewed

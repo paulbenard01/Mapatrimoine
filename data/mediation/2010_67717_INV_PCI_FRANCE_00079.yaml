@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00079
+audience: general
+questions:
+  fr:
+    - "Sur l'autel des morts, on pose de l'eau, du sel, des bougies et les plats préférés des défunts : que cherche-t-on à leur dire avec ces offrandes ?"
+    - "À Paris, l'autel quitte souvent la maison pour une galerie, une mairie ou un musée ; qu'est-ce qui change quand un rituel familial devient un événement public ?"
+    - "Comment honore-t-on la mémoire des défunts, au début du mois de novembre, dans votre famille ou votre région ?"
+  en:
+    - "On the altar of the dead, people place water, salt, candles and the favourite dishes of the departed: what are these offerings meant to say to them?"
+    - "In Paris the altar often moves from the home to a gallery, a town hall or a museum; what changes when a family ritual becomes a public event?"
+    - "How are the dead remembered in early November in your own family or region?"
+vocabulary:
+  - fr: ofrenda
+    en: ofrenda
+    def_fr: "Autel des morts dressé sur plusieurs niveaux, garni de photos des défunts, d'offrandes, de fleurs et de bougies."
+    def_en: "Altar of the dead built on several tiers and laid with photos of the departed, offerings, flowers and candles."
+  - fr: papel picado
+    en: papel picado
+    def_fr: "Papier de soie coloré découpé en motifs ajourés, qui décore le devant et les côtés de l'autel."
+    def_en: "Coloured tissue paper cut into lacy patterns, decorating the front and sides of the altar."
+  - fr: cempasúchil
+    en: Mexican marigold
+    def_fr: "Fleur jaune ou orange jugée indispensable à l'autel ; difficile à trouver à Paris, elle est souvent remplacée par des fleurs en papier."
+    def_en: "Yellow or orange flower considered essential to the altar; hard to find in Paris, it is often replaced by paper flowers."
+  - fr: calavera
+    en: calavera
+    def_fr: "Crâne décoré, souvent en sucre, posé parmi les offrandes ; il évoque la mort sur un ton familier et moqueur plutôt qu'effrayant."
+    def_en: "Decorated skull, often made of sugar, set among the offerings; it treats death in a familiar, teasing way rather than a frightening one."
+  - fr: pain des morts
+    en: bread of the dead
+    def_fr: "Brioche préparée pour la fête (pan de muerto), souvent placée au centre de l'autel ; à Paris, on la fait à la maison."
+    def_en: "Sweet bread made for the occasion (pan de muerto), often placed at the centre of the altar; in Paris it is baked at home."
+lang_review: draft
+review_status: unreviewed

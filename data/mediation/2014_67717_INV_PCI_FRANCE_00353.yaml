@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00353
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, le cortège part-il à la nuit tombée, à la lumière des lanternes, « à la recherche » de saint Nicolas ?"
+    - "Le Père Fouettard lit une liste d'« enfants pas sages » où les prénoms figurent souvent au hasard : que devient la peur quand elle se transforme en jeu collectif ?"
+    - "Quelles fêtes de l'hiver connaissez-vous où les enfants reçoivent friandises ou cadeaux, et quel personnage les apporte ?"
+  en:
+    - "Why do you think the procession sets off after dark, by lantern light, “in search of” Saint Nicholas?"
+    - "Father Whipper reads out a list of “naughty children” whose names are often picked at random: what happens to fear when it turns into a shared game?"
+    - "Which winter festivals do you know where children receive sweets or presents, and which character brings them?"
+vocabulary:
+  - fr: allumoir
+    en: lantern
+    def_fr: "Lanterne fabriquée lors d'ateliers organisés avant la fête, puis portée pendant le cortège à travers les rues du quartier."
+    def_en: "Lantern made in workshops held before the festival, then carried during the procession through the streets of the district."
+  - fr: Père Fouettard
+    en: Father Whipper
+    def_fr: "Compagnon inquiétant de saint Nicolas, barbu et hirsute, qui taquine la foule et menace les enfants pas sages de son martinet."
+    def_en: "Saint Nicholas's menacing companion, bearded and shaggy, who teases the crowd and threatens naughty children with his whip."
+  - fr: saloir
+    en: salting tub
+    def_fr: "Tonneau où l'on conservait la viande dans le sel ; selon la légende, un boucher y avait mis trois enfants que saint Nicolas ressuscita."
+    def_en: "Barrel in which meat was preserved in salt; in the legend, a butcher put three children in one and Saint Nicholas brought them back to life."
+  - fr: grosse tête
+    en: big head
+    def_fr: "Grande tête de carton portée par une seule personne, plus mobile qu'un géant ; le Père Fouettard en est une."
+    def_en: "Large cardboard head worn by a single person, more agile than a giant; Father Whipper is one of them."
+  - fr: coquille
+    en: Christmas brioche
+    def_fr: "Brioche traditionnelle de Noël dans le Nord ; un millier sont distribuées à l'arrivée du cortège, avec bonbons et mandarines."
+    def_en: "Traditional Christmas brioche in northern France; about a thousand are handed out when the procession arrives, with sweets and mandarins."
+lang_review: draft
+review_status: unreviewed

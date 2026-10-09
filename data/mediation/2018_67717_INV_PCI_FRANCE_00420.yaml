@@ -1,0 +1,34 @@
+id: 2018_67717_INV_PCI_FRANCE_00420
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, les santons de la crèche provençale représentent-ils les métiers d'un village et pas seulement les personnages de la Bible ?"
+    - "Que devient une tradition comme le blé de la Sainte-Barbe quand on répète le geste chaque année sans toujours en connaître le sens ?"
+    - "Quels plats, gestes ou décorations rythment chez vous la période des fêtes de fin d'année ?"
+  en:
+    - "Why do you think the santons in a Provençal nativity scene show village trades and not just figures from the Bible?"
+    - "What becomes of a tradition like Saint Barbara's wheat when the gesture is repeated every year without its meaning always being known?"
+    - "Which dishes, gestures or decorations mark the festive season in your home?"
+vocabulary:
+  - fr: "santon"
+    en: "santon"
+    def_fr: "Petite figurine d'argile peinte de la crèche provençale, inspirée des costumes et des métiers des villages d'autrefois."
+    def_en: "Small painted clay figurine for the Provençal nativity scene, modelled on the costumes and trades of old village life."
+  - fr: "blé de la Sainte-Barbe"
+    en: "Saint Barbara's wheat"
+    def_fr: "Grains de blé mis à germer le 4 décembre dans trois coupelles ; une belle pousse annonce une bonne année."
+    def_en: "Wheat grains set to sprout in three saucers on 4 December; healthy green shoots promise a good year."
+  - fr: "gros souper"
+    en: "big supper (gros souper)"
+    def_fr: "Repas maigre, sans viande, de la veille de Noël, pris avant la messe de minuit ; les treize desserts viennent ensuite."
+    def_en: "Meatless meal on Christmas Eve, eaten before midnight mass; the thirteen desserts follow."
+  - fr: "pompe à l'huile"
+    en: "pompe à l'huile (olive-oil bread)"
+    def_fr: "Pain brioché à l'huile d'olive, incontournable des treize desserts ; sans elle, dit-on, pas de vrai Noël provençal."
+    def_en: "Sweet olive-oil bread, an essential of the thirteen desserts; without it, people say, there is no true Provençal Christmas."
+  - fr: "pastorale"
+    en: "pastorale (nativity play)"
+    def_fr: "Pièce chantée et parlée en provençal qui raconte la Nativité ; elle se joue de Noël à la Chandeleur."
+    def_en: "Play with songs, in Provençal, telling the story of the Nativity; it is staged from Christmas to Candlemas."
+lang_review: draft
+review_status: unreviewed

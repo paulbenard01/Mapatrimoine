@@ -1,0 +1,34 @@
+id: 2019_67717_INV_PCI_FRANCE_00424
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, la légende du Loup a-t-elle fait d'un four à pain le symbole des droits des habitants face à leur seigneur ?"
+    - "Le Tribus Lupis est né en 2010 : comment une fête toute récente peut-elle devenir une tradition aux yeux des habitants ?"
+    - "Quelle histoire locale, vraie ou légendaire, aimeriez-vous voir racontée par une fête dans votre ville ou votre village ?"
+  en:
+    - "Why do you think the Wolf's legend turned a bread oven into the symbol of the inhabitants' rights against their lord?"
+    - "The Tribus Lupis was born in 2010: how can a brand-new festival become a tradition in the eyes of local people?"
+    - "Which local story, true or legendary, would you like to see told through a festival in your town or village?"
+vocabulary:
+  - fr: "four banal"
+    en: "communal oven (four banal)"
+    def_fr: "Four à pain du seigneur que les habitants devaient utiliser contre redevance ; pendant la fête, sa clé est rendue au Loup."
+    def_en: "The lord's bread oven, which villagers had to use for a fee; during the festival, its key is handed back to the Wolf."
+  - fr: "Yeux du loup"
+    en: "Eyes of the Wolf"
+    def_fr: "Surnom du meneur qui guide les huit porteurs du Tribus Lupis, cachés sous sa carcasse noire."
+    def_en: "Nickname of the leader who guides the eight bearers of the Tribus Lupis, hidden under its black frame."
+  - fr: "pain Tribus Lupis"
+    en: "Tribus Lupis bread"
+    def_fr: "Pain de trois boules cuit au four banal le jour de la fête : l'une au thym, l'autre à l'olive noire, la dernière aux figues."
+    def_en: "Three-part loaf baked in the communal oven on the festival day: one part with thyme, one with black olives, one with figs."
+  - fr: "escalette"
+    en: "escalette"
+    def_fr: "Gaufre traditionnelle, fabriquée et dégustée sous les halles le jour de la sortie du Loup."
+    def_en: "Traditional waffle, made and eaten under the market hall on the day the Wolf comes out."
+  - fr: "Cornalencs"
+    en: "Cornalencs"
+    def_fr: "Nom occitan des habitants de Cournonterral, dont le Loup à trois têtes protège les droits durement acquis."
+    def_en: "Occitan name for the people of Cournonterral, whose hard-won rights the three-headed Wolf protects."
+lang_review: draft
+review_status: unreviewed

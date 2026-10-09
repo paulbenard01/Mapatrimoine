@@ -29,6 +29,14 @@ describe("URL state", () => {
     expect(parseState("?view=agenda", [])).toMatchObject({ sort: "date" });
   });
 
+  test("the mediation sheet needs a selected element", () => {
+    expect(parseState("?id=X&sheet=1", [])).toMatchObject({ selected: "X", sheet: true });
+    expect(parseState("?sheet=1", [])).toMatchObject({ selected: null, sheet: false });
+    const state = parseState("?id=X&sheet=1", []);
+    expect(serializeState({ ...state, selected: null })).not.toMatch(/sheet/);
+    expect(parseState(serializeState(state), [])).toEqual(state);
+  });
+
   test("never serialises a position", () => {
     const qs = serializeState(parseState("?r=25", []));
     expect(qs).not.toMatch(/lat|lon|pos/);

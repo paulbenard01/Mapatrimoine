@@ -1,0 +1,34 @@
+id: 2013_67717_INV_PCI_FRANCE_00297
+audience: general
+questions:
+  fr:
+    - Pourquoi, selon vous, les jeunes offrent-ils un verre de vin à chaque maison plutôt que de simplement demander de l'argent ?
+    - Comment une tournée de porte en porte peut-elle aider un village qui s'agrandit à accueillir ses nouveaux habitants ?
+    - Dans votre quartier ou votre village, qui frappe aux portes à l'occasion d'une fête, et qu'échange-t-on alors ?
+  en:
+    - Why do you think the young people offer a glass of wine at every house instead of simply asking for money?
+    - How can a door-to-door round help a growing village to welcome its newcomers?
+    - In your own neighbourhood or village, who knocks on doors for a festival, and what is exchanged?
+vocabulary:
+  - fr: barricòt
+    en: barricòt
+    def_fr: Mot occitan pour une petite barrique de vin ; il désigne aujourd'hui le tonnelet emporté pendant la tournée, et la tournée elle-même.
+    def_en: Occitan word for a small wine cask; it now means both the little barrel carried on the round and the round itself.
+  - fr: quête
+    en: festive collection
+    def_fr: Tournée des maisons pour recueillir des dons, autrefois souvent en nature ; ils servent à payer la fête, son repas et ses musiciens.
+    def_en: Round of the houses to gather gifts, once often in kind; they pay for the festival, its meal and its musicians.
+  - fr: conscrits
+    en: conscripts
+    def_fr: Jeunes gens d'une même classe d'âge appelés au service militaire ; ce sont eux qui menaient autrefois la quête de la fête du village.
+    def_en: Young men of the same age group called up for military service; in the past they ran the village festival collection.
+  - fr: fête votive
+    en: fête votive (patronal festival)
+    def_fr: Fête annuelle d'un village en l'honneur de son saint patron ; à Labastide-Monréjeau, saint Jean-Baptiste, autour du 24 juin.
+    def_en: A village's yearly festival in honour of its patron saint; in Labastide-Monréjeau, Saint John the Baptist, around 24 June.
+  - fr: jurançon
+    en: Jurançon wine
+    def_fr: Vin blanc du Béarn ; c'est un jurançon doux, acheté à un vigneron voisin, que les jeunes versent aux habitants pendant la tournée.
+    def_en: White wine from Béarn; the young people pour a sweet Jurançon, bought from a nearby winegrower, for residents on the round.
+lang_review: draft
+review_status: unreviewed

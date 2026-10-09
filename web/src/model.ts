@@ -130,7 +130,9 @@ function matches(item: Item, f: Filters, position: Position | null, skip: Skip =
   if (!skip.themes && f.themes.length && !entry.themes.some((t) => f.themes.includes(t))) return false;
   if (f.view === "inventory" && f.q.trim()) {
     const words = fold(f.q).split(/\s+/).filter(Boolean);
-    const hay = fold(entry.title_fr);
+    // Titles and summaries in both languages, so "dance" or "danse" finds the same elements.
+    const summary = element?.summary ?? entry.summary;
+    const hay = fold([entry.title_fr, summary?.fr, summary?.en].filter(Boolean).join(" "));
     if (!words.every((w) => hay.includes(w))) return false;
   }
   if (f.zone !== "all") {

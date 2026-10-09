@@ -1,0 +1,34 @@
+id: 2019_67717_INV_PCI_FRANCE_00449
+audience: general
+questions:
+  fr:
+    - "Que racontent, selon vous, ces sculptures géantes couvertes de citrons et d'oranges, et pourquoi n'utiliser que deux couleurs ?"
+    - "Une fête inventée dans les années 1930 pour attirer les touristes en hiver peut-elle devenir une tradition pour les habitants ?"
+    - "Quel produit de votre région pourrait être au cœur d'une fête, et sous quelle forme le mettriez-vous en scène ?"
+  en:
+    - "What do you think these giant sculptures covered in lemons and oranges are saying, and why use only two colours?"
+    - "Can a festival invented in the 1930s to bring tourists in winter become a real tradition for the people who live there?"
+    - "Which product from your own region could be at the heart of a festival, and how would you put it on show?"
+vocabulary:
+  - fr: "corso"
+    en: "corso"
+    def_fr: "Défilé de chars décorés ; à Menton, chars couverts d'agrumes qui passent sur le front de mer, l'après-midi ou de nuit, illuminés."
+    def_en: "Parade of decorated floats; in Menton, floats covered in citrus fruit move along the seafront, in the afternoon or lit up at night."
+  - fr: "fruitage"
+    en: "fruiting"
+    def_fr: "Pose des agrumes un à un sur les structures, au moyen d'élastiques jaunes ou orange, en les triant selon leur taille et leur maturité."
+    def_en: "Fixing the fruit one by one onto the structures with yellow or orange rubber bands, sorting them by size and ripeness."
+  - fr: "armature"
+    en: "frame"
+    def_fr: "Squelette en fer façonné par des ferronniers, puis garni de grillage, qui donne leur forme aux chars et aux sculptures."
+    def_en: "Iron skeleton shaped by metalworkers and then covered with wire mesh, which gives the floats and sculptures their shape."
+  - fr: "jardins Biovès"
+    en: "Biovès gardens"
+    def_fr: "Promenade-jardin du centre de Menton où sont exposées, pendant la fête, les sculptures d'agrumes, parfois éclairées le soir."
+    def_en: "Garden promenade in the centre of Menton where the citrus sculptures are displayed during the festival, sometimes lit up at night."
+  - fr: "agrumes"
+    en: "citrus fruit"
+    def_fr: "Famille de fruits comprenant citrons et oranges ; il en faut plus de cent tonnes, surtout importées d'Espagne, la récolte locale ne suffisant pas."
+    def_en: "Family of fruit that includes lemons and oranges; over a hundred tonnes are needed, mostly imported from Spain, as the local crop is too small."
+lang_review: draft
+review_status: unreviewed

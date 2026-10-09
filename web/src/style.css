@@ -665,3 +665,227 @@ button[aria-pressed="true"] .chip-count {
   font-size: 0.8rem;
   color: var(--muted);
 }
+
+/* Printable mediation sheet (M6): FR and EN side by side, one A4 page */
+body.sheet-mode header.top,
+body.sheet-mode main.shell {
+  display: none;
+}
+#sheet-root {
+  flex: 1;
+  padding: 1rem;
+}
+.sheet {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.sheet-tools {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.sheet-kicker,
+.sheet-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.sheet h1 {
+  margin: 0.2rem 0;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.sheet h2 {
+  margin: 1.1rem 0 0.4rem;
+  font-size: 1rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.15rem;
+}
+.sheet h1:focus {
+  outline: none;
+}
+.sheet h1:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+.sheet p,
+.sheet li,
+.sheet td {
+  font-size: 0.92rem;
+}
+.sheet-draft {
+  margin: 0.8rem 0 0;
+  padding: 0.4rem 0.6rem;
+  background: var(--flag-bg);
+  color: var(--flag-text);
+  border-radius: var(--radius);
+  font-size: 0.85rem;
+}
+.sheet-picture {
+  float: right;
+  margin: 0.8rem 0 0.5rem 1rem;
+  max-width: 40%;
+}
+.sheet-picture img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: var(--radius);
+}
+.sheet-picture figcaption {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+.sheet-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  clear: both;
+}
+.sheet-where p,
+.sheet-when .sheet-cols p,
+.sheet-when .sheet-cols > div {
+  margin: 0.2rem 0;
+}
+.sheet-cols ol {
+  margin: 0.2rem 0;
+  padding-left: 1.2rem;
+}
+.sheet-cols li + li {
+  margin-top: 0.35rem;
+}
+.sheet-cols p {
+  margin: 0.2rem 0;
+}
+.sheet-vocab {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.sheet-vocab th,
+.sheet-vocab td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.3rem 0.5rem 0.3rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.sheet-foot {
+  margin-top: 1.2rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.sheet-foot p,
+.sheet-foot div {
+  font-size: 0.78rem;
+  margin: 0.2rem 0;
+}
+.sheet-foot a {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 640px) {
+  .sheet {
+    padding: 1rem;
+  }
+  .sheet-cols {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .sheet-picture {
+    float: none;
+    max-width: 100%;
+    margin: 0.8rem 0;
+  }
+}
+@media print {
+  @page {
+    size: A4;
+    margin: 10mm 11mm;
+  }
+  :root {
+    --bg: #fff;
+    --surface: #fff;
+    --text: #000;
+    --muted: #333;
+    --line: #999;
+    --flag-bg: #fff;
+    --flag-text: #000;
+    color-scheme: light;
+  }
+  #sheet-root {
+    padding: 0;
+  }
+  .sheet {
+    max-width: none;
+    padding: 0;
+    border: 0;
+  }
+  .sheet-tools {
+    display: none;
+  }
+  .sheet-draft {
+    border: 1px solid #000;
+  }
+  .sheet h2 {
+    break-after: avoid;
+  }
+  .sheet-vocab tr,
+  .sheet-cols li {
+    break-inside: avoid;
+  }
+  .sheet-cols {
+    grid-template-columns: 1fr 1fr;
+    gap: 6mm;
+  }
+  /* Compact type so a sheet fits on one A4 page. */
+  .sheet {
+    line-height: 1.3;
+  }
+  .sheet h1 {
+    font-size: 15pt;
+  }
+  .sheet h2 {
+    font-size: 9.5pt;
+    margin: 2.5mm 0 1.2mm;
+  }
+  .sheet p,
+  .sheet li,
+  .sheet td,
+  .sheet th {
+    font-size: 8pt;
+  }
+  .sheet-kicker,
+  .sheet-meta {
+    font-size: 8pt;
+  }
+  .sheet-cols p {
+    margin: 0;
+  }
+  .sheet-cols li + li {
+    margin-top: 1mm;
+  }
+  .sheet-vocab th,
+  .sheet-vocab td {
+    padding: 1mm 3mm 1mm 0;
+  }
+  .sheet-picture img {
+    max-height: 32mm;
+  }
+  .sheet-foot p,
+  .sheet-foot div {
+    font-size: 7pt;
+  }
+}
+
+/* Announced dates from DATAtourisme (M5) */
+.announced ul {
+  margin: 0.3rem 0;
+  padding-left: 1.1rem;
+}
+.announced li + li {
+  margin-top: 0.25rem;
+}

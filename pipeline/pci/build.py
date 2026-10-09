@@ -21,6 +21,7 @@ from pci.places import (
     location_sources,
     picture,
 )
+from pci.summaries import SUMMARIES_PATH, check_summaries, summary_record
 
 CURATED_DIR = DATA / "curated"
 OUTPUT_PATH = ROOT / "web" / "public" / "data" / "elements.json"
@@ -157,7 +158,9 @@ def build(output: Path = OUTPUT_PATH) -> list[dict]:
     return elements
 
 
-def inventory(index: dict[str, dict], places: dict, images: dict, cache: dict) -> list[dict]:
+def inventory(
+    index: dict[str, dict], places: dict, images: dict, cache: dict, summaries: dict | None = None
+) -> list[dict]:
     """Every published element of the national inventory (structured facts only), with
     its places on the map (documented elements carry theirs in elements.json) and image."""
     entries = []
@@ -166,6 +169,7 @@ def inventory(index: dict[str, dict], places: dict, images: dict, cache: dict) -
             continue
         located = places.get(e["id"])
         image = images.get(e["id"])
+        short = (summaries or {}).get(e["id"])
         entries.append(
             {
                 "id": e["id"],
@@ -176,6 +180,8 @@ def inventory(index: dict[str, dict], places: dict, images: dict, cache: dict) -
                 "locations": [lookup(p, cache) for p in located["places"]] if located else [],
                 "location_sources": location_sources(located) if located else [],
                 "image": picture(image, e["title"]) if image else None,
+                "kind": short["kind"] if short else None,
+                **(summary_record(short, located, e["fiche_url"]) if short else {}),
             }
         )
     return entries
@@ -185,15 +191,17 @@ def build_inventory(output: Path = INVENTORY_PATH) -> int:
     index = {e["id"]: e for e in json.loads(INDEX_PATH.read_text(encoding="utf-8"))["elements"]}
     published = {i for i, e in index.items() if not e["unpublished"]}
     places, images = load_yaml(PLACES_PATH), load_yaml(IMAGES_PATH)
+    summaries = load_yaml(SUMMARIES_PATH)
     curated = {c["id"] for c in load_curated()}
     problems = check_places(places, published) + check_images(images, published)
+    problems += check_summaries(summaries, published, curated, places)
     problems += [
         f"{i}: curated elements keep their places in data/curated" for i in places if i in curated
     ]
     if problems:
         raise BuildError("\n".join(problems))
     try:
-        entries = inventory(index, places, images, load_cache())
+        entries = inventory(index, places, images, load_cache(), summaries)
     except Exception as exc:  # noqa: BLE001 - a place missing from the geocode cache
         raise BuildError(str(exc)) from exc
     payload = {"source": "data/index.json", "count": len(entries), "elements": entries}

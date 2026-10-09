@@ -14,6 +14,10 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("fetch-pcilab", help="PCI Lab points and localisations -> data/raw/pcilab.json")
     sub.add_parser("geocode", help="geocode curated places into data/geocode-cache.json")
     sub.add_parser("build", help="validate curated data and write the site's elements.json")
+    sub.add_parser("review", help="write docs/review.md: coverage and what is left to review")
+    sub.add_parser("fetch-datatourisme", help="download today's DATAtourisme events export")
+    announced = sub.add_parser("announced", help="match DATAtourisme events -> announced.json")
+    announced.add_argument("--today", help="YYYY-MM-DD; keep periods ending on/after it")
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     if args.command == "fetch-index":
@@ -50,16 +54,47 @@ def main(argv: list[str] | None = None) -> int:
         cache = geocode_all(all_places())
         print(f"{len(cache)} places in data/geocode-cache.json")
         return 0
+    if args.command == "fetch-datatourisme":
+        from pci.announced import fetch_fma
+
+        print(f"DATAtourisme events -> {fetch_fma()}")
+        return 0
+    if args.command == "announced":
+        import json
+        from datetime import date
+
+        from pci.announced import ANNOUNCED_JSON, AnnouncedError, build_announced
+        from pci.build import OUTPUT_PATH
+
+        # The clock is injected here, at the edge; the matcher itself never reads it.
+        today = date.fromisoformat(args.today) if args.today else date.today()
+        elements = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))["elements"]
+        try:
+            count = build_announced(elements, today)
+        except (AnnouncedError, OSError) as exc:
+            print(f"announced failed: {exc}", file=sys.stderr)
+            return 1
+        print(f"{count} documented events with announced dates -> {ANNOUNCED_JSON}")
+        return 0
+    if args.command == "review":
+        from pci.review import REVIEW_PATH, write_review
+
+        write_review()
+        print(f"review status -> {REVIEW_PATH.relative_to(REVIEW_PATH.parents[1])}")
+        return 0
     from pci.build import BuildError, build, build_inventory
+    from pci.mediation import MediationError, build_mediation
 
     try:
         elements = build()
         count = build_inventory()
-    except BuildError as exc:
+        sheets = build_mediation({e["id"] for e in elements})
+    except (BuildError, MediationError) as exc:
         print(f"build failed:\n{exc}", file=sys.stderr)
         return 1
     print(f"{len(elements)} curated elements -> web/public/data/elements.json")
     print(f"{count} inventory entries -> web/public/data/inventory.json")
+    print(f"{sheets} mediation sheets -> web/public/data/mediation.json")
     return 0
 
 

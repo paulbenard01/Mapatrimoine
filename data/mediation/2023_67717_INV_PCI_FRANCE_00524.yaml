@@ -1,0 +1,34 @@
+id: 2023_67717_INV_PCI_FRANCE_00524
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, la statue change-t-elle de manteau entre la ville et la campagne, et pourquoi les porteurs se relaient-ils tout au long des 17 km ?"
+    - "Une procession née d'un vœu municipal il y a mille ans reste portée par le maire et des milliers d'habitants : que représente-t-elle aujourd'hui pour la ville ?"
+    - "Y a-t-il dans votre ville une fête, un trajet ou un monument qui rappelle une épidémie ou une catastrophe ancienne ?"
+  en:
+    - "Why do you think the statue changes its cloak between the town and the outskirts, and why do the bearers take turns all along the 17 km?"
+    - "A procession born of a town vow a thousand years ago is still carried by the mayor and thousands of residents; what does it mean for the town today?"
+    - "Is there a festival, a route or a monument in your town that recalls an epidemic or a disaster of long ago?"
+vocabulary:
+  - fr: "vœu"
+    en: "vow"
+    def_fr: "Promesse solennelle faite à Dieu ; selon la tradition, les échevins promirent un tour annuel de la ville après la peste de 1008."
+    def_en: "Solemn promise made to God; tradition says the town magistrates pledged a yearly tour of the town after the plague of 1008."
+  - fr: "Royés"
+    en: "Royés"
+    def_fr: "Membres de la confrérie qui organise le Tour depuis ses origines ; ils encadrent les pèlerins, mènent les chants et choisissent les porteurs."
+    def_en: "Members of the brotherhood that has organised the Tour since its beginnings; they guide the pilgrims, lead the singing and choose the bearers."
+  - fr: "Petit Tour"
+    en: "Petit Tour"
+    def_fr: "Première boucle d'environ deux kilomètres autour de la place d'Armes, dans les anciens remparts ; devant la mairie, le maire et les élus portent la statue."
+    def_en: "The first loop, about two kilometres round the place d'Armes inside the old ramparts; outside the town hall, the mayor and councillors carry the statue."
+  - fr: "Grand Tour"
+    en: "Grand Tour"
+    def_fr: "Longue marche de l'après-midi autour de la ville, avec des haltes dans les églises, à la maternité et devant les malades qui attendent la statue."
+    def_en: "The long afternoon walk around the town, stopping at churches, the maternity ward and in front of sick people waiting for the statue."
+  - fr: "manteau d'apparat"
+    en: "ceremonial cloak"
+    def_fr: "Riche vêtement de la statue pour la traversée du centre-ville, échangé contre un manteau plus simple, dit « de campagne », pour le Grand Tour."
+    def_en: "The statue's rich robe for crossing the town centre, swapped for a plainer \"country\" cloak for the Grand Tour."
+lang_review: draft
+review_status: unreviewed

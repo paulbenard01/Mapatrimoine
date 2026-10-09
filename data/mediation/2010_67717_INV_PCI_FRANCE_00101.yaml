@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00101
+audience: general
+questions:
+  fr:
+    - "Les jeux de la Ringueta se jouent avec des objets simples en bois ou en métal : qu'est-ce qui rend, selon vous, un jeu ancien encore amusant aujourd'hui ?"
+    - "Le festival est né en 1985 d'une collecte de jeux anciens et fait de l'occitan sa langue de fête ; comment un jeu peut-il aider à faire vivre une langue régionale ?"
+    - "À quels jeux de plein air jouaient vos parents ou vos grands-parents, et lesquels aimeriez-vous transmettre à votre tour ?"
+  en:
+    - "The Ringueta games are played with simple wooden or metal objects: what do you think keeps an old game fun today?"
+    - "The festival grew out of a collection of old games in 1985 and uses Occitan as its festival language; how can a game help keep a regional language alive?"
+    - "Which outdoor games did your parents or grandparents play, and which would you like to pass on in turn?"
+vocabulary:
+  - fr: jeu traditionnel
+    en: traditional game
+    def_fr: "Jeu transmis de génération en génération, avec des règles et un matériel propres à une région."
+    def_en: "Game handed down from one generation to the next, with rules and equipment specific to a region."
+  - fr: collectage
+    en: field collecting
+    def_fr: "Enquête menée auprès des habitants pour recueillir des savoirs transmis oralement ; la Ringueta repose sur la collecte de plus de cent jeux."
+    def_en: "Fieldwork among local people to gather knowledge passed on by word of mouth; the Ringueta is built on more than a hundred collected games."
+  - fr: mât de cocagne
+    en: greasy pole
+    def_fr: "Haut poteau, souvent rendu glissant, en haut duquel sont accrochés des prix qu'il faut aller décrocher en grimpant."
+    def_en: "Tall pole, often made slippery, with prizes hung at the top for whoever can climb up and grab them."
+  - fr: taulada
+    en: taulada
+    def_fr: "Mot occitan désignant un grand repas pris ensemble ; il réunit joueurs et visiteurs le dimanche soir, avant le bal."
+    def_en: "Occitan word for a large shared meal; it brings players and visitors together on the Sunday evening, before the dance."
+  - fr: occitan
+    en: Occitan
+    def_fr: "Langue romane du sud de la France, parlée notamment en Périgord ; c'est la langue « officielle » de la fête."
+    def_en: "Romance language of southern France, spoken among other places in Périgord; it is the festival's 'official' language."
+lang_review: draft
+review_status: unreviewed

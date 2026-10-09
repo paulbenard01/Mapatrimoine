@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00351
+audience: general
+questions:
+  fr:
+    - "Titée arrose les spectateurs avec sa cafetière et Hippolyte les asperge d'eau : pourquoi, selon vous, ces géants jouent-ils ainsi avec le public ?"
+    - "Les géants actuels ont été fabriqués dans un atelier ouvert aux habitants et aux écoles : que change le fait d'avoir vu naître un géant pour ceux qui le font ensuite défiler ?"
+    - "Quel personnage de l'histoire de votre quartier ou de votre village mériterait, selon vous, de devenir un géant, et pourquoi ?"
+  en:
+    - "Titée sprinkles the spectators from her coffee pot and Hippolyte sprays them with water: why do you think these giants play with the crowd like this?"
+    - "Today's giants were made in a workshop open to residents and schools: what difference does it make to have watched a giant being born when you later parade it?"
+    - "Which figure from the history of your own neighbourhood or village do you think deserves to become a giant, and why?"
+vocabulary:
+  - fr: géant
+    en: giant
+    def_fr: "Grand mannequin porté par une personne qui se glisse dessous, emblème d'une ville ou d'un quartier ; Hippolyte mesure 3,60 mètres."
+    def_en: "Large figure carried by a person hidden inside it, the emblem of a town or district; Hippolyte is 3.6 metres tall."
+  - fr: garde champêtre
+    en: village constable
+    def_fr: "Agent communal chargé autrefois de la police des campagnes et des annonces ; Hippolyte en porte le tambour pour lire un avis à la population."
+    def_en: "Local officer who once policed the countryside and read out announcements; Hippolyte carries his drum to proclaim a public notice."
+  - fr: commune libre
+    en: free commune
+    def_fr: "Municipalité pour rire, avec maire et conseillers, créée par des habitants pour animer leur hameau ; celle de Merchin, née en 1929, a inspiré les géants."
+    def_en: "Mock town council, with its own mayor and councillors, set up by residents to liven up their hamlet; Merchin's, founded in 1929, inspired the giants."
+  - fr: osier
+    en: wicker
+    def_fr: "Jeunes rameaux souples, tressés pour former la structure légère des géants ; de longs osiers produits dans la région deviennent difficiles à trouver."
+    def_en: "Supple young willow shoots woven into the giants' light frame; long, locally grown wicker is becoming hard to find."
+  - fr: baptême républicain
+    en: civic naming ceremony
+    def_fr: "Fête où un nouveau géant est présenté aux habitants, en présence de géants invités ; Hippolyte et Titée ont été baptisés en 2010."
+    def_en: "Celebration at which a new giant is presented to the townspeople, with visiting giants in attendance; Hippolyte and Titée were named in 2010."
+lang_review: draft
+review_status: unreviewed

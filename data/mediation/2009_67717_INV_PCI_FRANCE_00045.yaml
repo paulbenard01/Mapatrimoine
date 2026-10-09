@@ -1,0 +1,34 @@
+id: 2009_67717_INV_PCI_FRANCE_00045
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, met-on le feu à trois sapins devant la collégiale plutôt qu'à un seul grand bûcher ?"
+    - "La fête relie Thann à Gubbio, en Italie, par une légende et par un jumelage ; que peut apporter à une fête locale ce lien avec une autre ville d'Europe ?"
+    - "Quelle légende raconte la fondation de votre ville ou de votre village, et comment la rappelle-t-on aujourd'hui ?"
+  en:
+    - "Why do you think three fir trees are set alight in front of the collegiate church, rather than one big bonfire?"
+    - "The festival links Thann to Gubbio, in Italy, through a legend and a town twinning; what can such a link with another European town bring to a local celebration?"
+    - "What legend tells of the founding of your own town or village, and how is it remembered today?"
+vocabulary:
+  - fr: relique
+    en: relic
+    def_fr: "Fragment du corps d'un saint, ou objet lui ayant appartenu, vénéré par les fidèles ; Thann conserve un fragment attribué à saint Thiébaut."
+    def_en: "Part of a saint's body, or an object linked to them, venerated by believers; Thann keeps a fragment attributed to Saint Theobald."
+  - fr: bourdon
+    en: pilgrim's staff
+    def_fr: "Long bâton de pèlerin ; selon la légende, celui du serviteur resta collé à un sapin, là où la ville fut ensuite fondée."
+    def_en: "A pilgrim's long staff; in the legend, the servant's staff stuck fast to a fir tree on the spot where the town was later founded."
+  - fr: crémateur
+    en: crémateur
+    def_fr: "Chacune des trois personnes désignées par le conseil municipal pour mettre le feu aux sapins avec une torche."
+    def_en: "Each of the three people chosen by the town council to set the fir trees alight with a torch."
+  - fr: collégiale
+    en: collegiate church
+    def_fr: "Église desservie par un collège de chanoines ; la collégiale gothique de Thann borde la place où brûlent les sapins."
+    def_en: "Church served by a chapter of canons; Thann's Gothic collegiate church stands on the square where the trees are burnt."
+  - fr: jumelage
+    en: town twinning
+    def_fr: "Lien officiel d'amitié entre deux villes ; Thann et Gubbio, qui partagent le même saint patron, sont jumelées depuis 1958."
+    def_en: "Official bond of friendship between two towns; Thann and Gubbio, which share the same patron saint, have been twinned since 1958."
+lang_review: draft
+review_status: unreviewed

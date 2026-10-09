@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00359
+audience: general
+questions:
+  fr:
+    - "Que racontent, selon vous, les charrettes décorées de végétaux, de bois et de matériaux recyclés sur la vie et le travail de l'île ?"
+    - "Relancée en 1983 alors que beaucoup d'habitants quittaient l'île, la fête confie aussi des charrettes à cabris aux jeunes : comment une tradition agricole peut-elle parler aux nouvelles générations ?"
+    - "Quels animaux, outils ou véhicules liés au travail de la terre sont mis à l'honneur dans les fêtes de votre région ?"
+  en:
+    - "What do you think the carts decorated with plants, wood and recycled materials say about life and work on the island?"
+    - "Revived in 1983 when many people were leaving the island, the festival also gives young people goat carts to drive: how can a farming tradition speak to new generations?"
+    - "Which animals, tools or vehicles linked to working the land are celebrated at festivals in your own region?"
+vocabulary:
+  - fr: kabwèt
+    en: kabwèt
+    def_fr: "Mot créole pour la charrette ; le « Carnaval en kabwèt » fait défiler une trentaine de charrettes décorées tirées par des paires de bœufs."
+    def_en: "Creole word for a cart; the “Carnaval en kabwèt” parades some thirty decorated carts, each drawn by a pair of oxen."
+  - fr: charron
+    en: wheelwright
+    def_fr: "Artisan qui construit et répare les charrettes et leurs roues en bois ; ce savoir-faire est menacé par la disparition de ses détenteurs."
+    def_en: "Craftsman who builds and repairs carts and their wooden wheels; this skill is under threat as those who hold it disappear."
+  - fr: joug
+    en: yoke
+    def_fr: "Pièce de bois qui relie deux bœufs entre eux pour qu'ils tirent ensemble la charrette."
+    def_en: "Wooden beam that links two oxen so that they pull the cart together."
+  - fr: chant de labour
+    en: ploughing song
+    def_fr: "Chant de travail lié aux attelages et aux travaux des champs ; la fête en propose des démonstrations, avec les techniques d'attelage."
+    def_en: "Work song linked to ox teams and field work; the festival includes demonstrations of these songs alongside harnessing skills."
+  - fr: corne de lambi
+    en: conch horn
+    def_fr: "Grand coquillage dans lequel on souffle comme dans une trompe ; des spectateurs s'en servent pour annoncer le passage du défilé."
+    def_en: "Large seashell blown like a horn; spectators use it to announce that the parade is coming."
+lang_review: draft
+review_status: unreviewed

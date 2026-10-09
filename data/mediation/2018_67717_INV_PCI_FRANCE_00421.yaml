@@ -1,0 +1,34 @@
+id: 2018_67717_INV_PCI_FRANCE_00421
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, les chars et les grosses têtes de Nice caricaturent-ils si souvent l'actualité et les célébrités du moment ?"
+    - "Qu'est-ce qui change pour un savoir-faire transmis en famille quand le carton-pâte cède la place au polystyrène et que la fête devient un grand spectacle touristique ?"
+    - "Quels métiers ou savoir-faire de votre région s'apprennent surtout en regardant faire, à l'atelier ou en famille ?"
+  en:
+    - "Why do you think the floats and giant heads of Nice so often caricature the news and the celebrities of the day?"
+    - "What changes for a family craft when papier-mâché gives way to polystyrene and the festival becomes a major tourist show?"
+    - "Which trades or skills in your region are learnt mainly by watching others at work, in a workshop or at home?"
+vocabulary:
+  - fr: "carnavalier"
+    en: "carnival builder (carnavalier)"
+    def_fr: "Artisan qui construit les chars et les grosses têtes, souvent dans une entreprise familiale depuis plusieurs générations."
+    def_en: "Craftsperson who builds the floats and giant heads, often in a family firm going back several generations."
+  - fr: "imagier"
+    en: "designer (imagier)"
+    def_fr: "Dessinateur qui conçoit la maquette d'un char ; les dessins sont choisis sur appel d'offres avant d'être confiés aux carnavaliers."
+    def_en: "Illustrator who designs a float; the drawings are selected through a call for tenders before being handed to the builders."
+  - fr: "grosse tête"
+    en: "giant head"
+    def_fr: "Tête géante d'environ 2,50 m, moulée, recouverte de papier puis peinte, portée par une personne dans le défilé."
+    def_en: "Huge head about 2.5 m tall, moulded, covered in paper and painted, worn by a person in the parade."
+  - fr: "corso"
+    en: "corso"
+    def_fr: "Défilé de chars, de grosses têtes et de troupes autour de la place Masséna ; le corso fleuri se tient sur la promenade des Anglais."
+    def_en: "Parade of floats, giant heads and troupes around Place Masséna; the flower parade takes place on the Promenade des Anglais."
+  - fr: "tapissage"
+    en: "pasting (tapissage)"
+    def_fr: "Collage de couches de papier journal sur les sculptures en polystyrène ; tâche jugée simple, elle exige pourtant de ne laisser aucune aspérité."
+    def_en: "Pasting layers of newspaper onto polystyrene sculptures; seen as a basic task, yet it must leave no bumps."
+lang_review: draft
+review_status: unreviewed

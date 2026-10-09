@@ -1,0 +1,34 @@
+id: 2026_67717_INV_PCI_FRANCE_00564
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, des enfants défilent-ils en petits bergers et bergères en costume berrichon derrière la statue de sainte Solange ?"
+    - "Depuis les années 1960, des familles portugaises ont donné un nouvel élan à ce pèlerinage : comment une tradition locale peut-elle devenir aussi celle de nouveaux arrivants ?"
+    - "Quelle figure, réelle ou légendaire, est associée à votre région, et comment la fête-t-on encore aujourd'hui ?"
+  en:
+    - "Why do you think children walk dressed as little shepherds and shepherdesses, in Berry costume, behind the statue of Saint Solange?"
+    - "Since the 1960s, Portuguese families have given this pilgrimage new life; how can a local tradition also become that of newcomers?"
+    - "Which figure, real or legendary, is linked to your region, and how is it still celebrated today?"
+vocabulary:
+  - fr: "reliquaire"
+    en: "reliquary"
+    def_fr: "Coffret précieux qui renferme les reliques d'un saint ; celui de sainte Solange est porté sur une civière jusqu'à la chapelle."
+    def_en: "Precious casket holding a saint's relics; Saint Solange's is carried on a stretcher to the chapel."
+  - fr: "neuvaine"
+    en: "novena"
+    def_fr: "Série de prières répétées pendant neuf jours ; une neuvaine à l'église précède le pèlerinage."
+    def_en: "Series of prayers said over nine days; a novena in the church comes before the pilgrimage."
+  - fr: "cénotaphe"
+    en: "cenotaph"
+    def_fr: "Tombeau vide élevé en mémoire d'une personne ; celui de Solange, fleuri pour l'occasion, est la première halte du cortège."
+    def_en: "Empty tomb built in memory of someone; Solange's, decorated with flowers for the day, is the procession's first stop."
+  - fr: "champ du martyre"
+    en: "field of martyrdom"
+    def_fr: "Terrain devant la chapelle, au lieu où la sainte aurait été tuée ; on y célèbre la messe puis on y danse l'après-midi."
+    def_en: "Field in front of the chapel, where the saint is said to have been killed; mass is held there, followed by dancing in the afternoon."
+  - fr: "petits bergers"
+    en: "little shepherds"
+    def_fr: "Enfants en costume berrichon qui suivent la statue, en souvenir du métier de bergère prêté à Solange par la tradition."
+    def_en: "Children in Berry costume who follow the statue, recalling the shepherdess's life that tradition gives to Solange."
+lang_review: draft
+review_status: unreviewed

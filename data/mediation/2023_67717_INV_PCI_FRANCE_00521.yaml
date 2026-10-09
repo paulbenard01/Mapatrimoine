@@ -1,0 +1,34 @@
+id: 2023_67717_INV_PCI_FRANCE_00521
+audience: general
+questions:
+  fr:
+    - "Que racontent, selon vous, ces grosses têtes et ces chars aux couleurs vives sur l'humour et les préoccupations des Nantais de l'année ?"
+    - "Un char peut demander des milliers d'heures de travail bénévole : comment transmettre ces savoir-faire aux jeunes et faire reconnaître ce travail ?"
+    - "Avez-vous déjà participé à un carnaval ou fabriqué un costume ou un décor en groupe, et qu'en avez-vous retenu ?"
+  en:
+    - "What do you think these big heads and brightly coloured floats say about the humour and concerns of Nantes people that year?"
+    - "A float can take thousands of hours of volunteer work; how can these skills be passed on to young people and the work be recognised?"
+    - "Have you ever taken part in a carnival or made a costume or set with a group, and what did you take away from it?"
+vocabulary:
+  - fr: "carnavalier"
+    en: "float builder"
+    def_fr: "Bénévole qui imagine, dessine et construit un char, de la maquette à l'échelle 1/20 jusqu'à la peinture finale."
+    def_en: "Volunteer who designs, draws and builds a float, from the 1:20 scale model to the final coat of paint."
+  - fr: "grosse tête"
+    en: "big head"
+    def_fr: "Tête géante et creuse en papier moulé, peinte puis portée sur les épaules par un défilant ; ce savoir-faire se transmet difficilement."
+    def_en: "Giant hollow head made of moulded paper, painted and worn on the shoulders by a marcher; few people still know how to make them."
+  - fr: "papiétage"
+    en: "papering"
+    def_fr: "Pose, bord à bord, de petits morceaux de papier trempés dans l'eau chaude et la colle, pour couvrir les sculptures en polystyrène."
+    def_en: "Laying small pieces of paper soaked in hot water and glue edge to edge to cover the polystyrene sculptures."
+  - fr: "Mi-Carême"
+    en: "Mid-Lent"
+    def_fr: "Fête placée au milieu du Carême, entre mardi gras et Pâques ; le carnaval nantais en est issu, à partir de 1880."
+    def_en: "Festival held halfway through Lent, between Shrove Tuesday and Easter; the Nantes carnival grew out of it from 1880."
+  - fr: "Roi Carnaval"
+    en: "Carnival King"
+    def_fr: "Figure d'honneur de la fête, choisie parmi des Nantais connus pour animer la vie de la ville ; son char ouvre le cortège."
+    def_en: "The festival's guest of honour, chosen from local people known for bringing life to the city; their float leads the parade."
+lang_review: draft
+review_status: unreviewed

@@ -9,6 +9,7 @@ export interface State extends Filters {
   lang: Lang;
   sort: Sort;
   selected: string | null;
+  sheet: boolean; // printable mediation sheet of the selected element
   pane: Pane; // which pane is shown on narrow screens
 }
 
@@ -45,6 +46,7 @@ export function parseState(search: string, languages: readonly string[]): State 
     radiusKm: (RADII as readonly number[]).includes(radius) ? radius : null,
     sort: oneOf<Sort>(p.get("sort"), SORTS[view], SORTS[view][0]),
     selected: p.get("id"),
+    sheet: p.get("id") !== null && p.get("sheet") === "1",
     pane: oneOf<Pane>(p.get("pane"), ["map", "list"], "list"),
   };
 }
@@ -61,6 +63,7 @@ export function serializeState(state: State, extra: Record<string, string> = {})
   if (state.radiusKm !== null) p.set("r", String(state.radiusKm));
   if (state.sort !== SORTS[state.view][0]) p.set("sort", state.sort);
   if (state.selected) p.set("id", state.selected);
+  if (state.selected && state.sheet) p.set("sheet", "1");
   if (state.pane !== "list") p.set("pane", state.pane);
   for (const [k, v] of Object.entries(extra)) p.set(k, v);
   return `?${p.toString()}`;

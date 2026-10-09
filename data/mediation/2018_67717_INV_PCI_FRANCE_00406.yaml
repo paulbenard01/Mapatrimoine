@@ -1,0 +1,34 @@
+id: 2018_67717_INV_PCI_FRANCE_00406
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, chaque rue de Chaumont reçoit-elle ses propres modèles et couleurs de fleurs en papier ?"
+    - "Comment une fête qui ne revient que tous les cinq, six ou onze ans peut-elle se transmettre d'une génération à l'autre ?"
+    - "Quel événement de votre ville mobilise des bénévoles pendant des mois de préparation, et que leur apporte ce travail en commun ?"
+  en:
+    - "Why do you think each street in Chaumont gets its own designs and colours of paper flowers?"
+    - "How can a festival that only returns every five, six or eleven years be passed down from one generation to the next?"
+    - "Which event in your town gets volunteers working for months beforehand, and what do they gain from that shared work?"
+vocabulary:
+  - fr: "jubilé"
+    en: "jubilee"
+    def_fr: "Année de célébration religieuse exceptionnelle ; à Chaumont, elle s'ouvre le premier dimanche de l'Avent et culmine le 24 juin."
+    def_en: "Exceptional year of religious celebration; in Chaumont it opens on the first Sunday of Advent and reaches its height on 24 June."
+  - fr: "bulle pontificale"
+    en: "papal bull"
+    def_fr: "Acte officiel d'un pape ; celle de 1475 a institué le Grand Pardon de Chaumont et lui accorde une indulgence à perpétuité."
+    def_en: "Official decree from a pope; the 1475 bull founded the Great Pardon of Chaumont and granted it an indulgence for ever."
+  - fr: "indulgence plénière"
+    en: "plenary indulgence"
+    def_fr: "Dans l'Église catholique, remise complète des peines dues aux péchés déjà pardonnés, accordée aux pèlerins sous conditions, comme la confession."
+    def_en: "In the Catholic Church, full remission of the punishment due for sins already forgiven, granted to pilgrims on conditions such as confession."
+  - fr: "papier crépon"
+    en: "crêpe paper"
+    def_fr: "Papier froissé et extensible dont des centaines de bénévoles tirent, pendant deux ans, quelque 250 000 fleurs pour orner la ville."
+    def_en: "Crinkled, stretchy paper from which hundreds of volunteers make some 250,000 flowers over two years to decorate the town."
+  - fr: "héraut"
+    en: "herald"
+    def_fr: "Cavalier qui ouvre le défilé du samedi et lit en mairie le texte proclamant le début des festivités."
+    def_en: "Rider who leads Saturday's parade and reads out, at the town hall, the text proclaiming the start of the festivities."
+lang_review: draft
+review_status: unreviewed

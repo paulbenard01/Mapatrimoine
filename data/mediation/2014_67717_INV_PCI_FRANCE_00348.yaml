@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00348
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, le lion danse-t-il devant les boutiques et vient-il « manger » une laitue suspendue à l'entrée ?"
+    - "Préparés par des associations franco-asiatiques mais ouverts à tous, les défilés attirent des milliers de Parisiens : qu'apporte cette fête à ceux qui ne l'ont pas reçue en héritage ?"
+    - "Comment célèbre-t-on le passage à la nouvelle année dans votre famille ou votre région, et à quelle date ?"
+  en:
+    - "Why do you think the lion dances in front of shops and comes to “eat” a lettuce hung at the entrance?"
+    - "Prepared by Franco-Asian associations but open to all, the parades draw thousands of Parisians: what does this celebration offer to people who did not inherit it?"
+    - "How is the new year celebrated in your own family or region, and on what date?"
+vocabulary:
+  - fr: danse du lion
+    en: lion dance
+    def_fr: "Danse acrobatique où deux danseurs animent un lion, l'un à la tête, l'autre à l'arrière, au son du tambour, des cymbales et du gong, pour chasser les mauvais esprits."
+    def_en: "Acrobatic dance in which two dancers bring a lion to life, one at the head and one at the back, to drum, cymbals and gong, to drive away evil spirits."
+  - fr: danse du dragon
+    en: dragon dance
+    def_fr: "Un long dragon de soie ou de tissu, tenu sur des perches par une douzaine de danseurs ou plus, ondule en poursuivant une boule figurant une perle."
+    def_en: "A long dragon of silk or cloth, held on poles by a dozen or more dancers, weaves through the crowd chasing a ball that stands for a pearl."
+  - fr: ouverture de l'œil du dragon
+    en: eye-dotting ceremony
+    def_fr: "Cérémonie d'ouverture : des invités peignent au pinceau les yeux du lion ou du dragon pour lui donner vie avant les premières danses."
+    def_en: "Opening ceremony in which guests paint the eyes of the lion or dragon with a brush to bring it to life before the first dances."
+  - fr: enveloppe rouge
+    en: red envelope
+    def_fr: "Petite enveloppe contenant de l'argent, offerte pour la nouvelle année ; les commerçants en remettent aux troupes de danse du lion."
+    def_en: "Small envelope containing money, given at the new year; shopkeepers hand them to the lion dance troupes."
+  - fr: calendrier lunaire
+    en: lunar calendar
+    def_fr: "Calendrier chinois réglé sur les phases de la Lune ; le Nouvel An y tombe chaque année à une date différente, entre le 21 janvier et le 20 février."
+    def_en: "Chinese calendar based on the phases of the Moon; the New Year falls on a different date each year, between 21 January and 20 February."
+lang_review: draft
+review_status: unreviewed

@@ -1,0 +1,34 @@
+id: 2018_67717_INV_PCI_FRANCE_00414
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, le défilé fait-il passer le boucher et le père Fouettard avant saint Nicolas, qui ferme toujours le cortège ?"
+    - "Comment une fête qui change chaque année de thème et de pays invité peut-elle rester fidèle à la tradition de saint Nicolas ?"
+    - "Quel saint ou quelle figure protectrice est fêté dans votre région, et que reçoit-on ou offre-t-on à cette occasion ?"
+  en:
+    - "Why do you think the parade sends the butcher and Père Fouettard ahead of Saint Nicholas, who always closes the procession?"
+    - "How can a festival that changes its theme and guest country every year stay true to the tradition of Saint Nicholas?"
+    - "Which saint or protective figure is celebrated in your region, and what do people receive or give on that day?"
+vocabulary:
+  - fr: "père Fouettard"
+    en: "Père Fouettard"
+    def_fr: "Sombre compagnon de saint Nicolas, armé d'un fouet, qui menace les enfants pas sages ; au défilé, il peut chevaucher un âne mécanique."
+    def_en: "Saint Nicholas's dark companion, carrying a whip, who threatens naughty children; in the parade he may ride a mechanical donkey."
+  - fr: "saloir"
+    en: "salting tub"
+    def_fr: "Cuve à saler la viande ; selon la légende, un boucher y met trois enfants, que saint Nicolas ramène à la vie."
+    def_en: "Tub for salting meat; in the legend a butcher puts three children in it, and Saint Nicholas brings them back to life."
+  - fr: "char"
+    en: "float"
+    def_fr: "Plateau roulant décoré ; les communes de la métropole construisent les leurs pour le grand défilé, que clôt le char de saint Nicolas."
+    def_en: "Decorated vehicle; the towns of the metropolitan area build their own for the grand parade, which ends with Saint Nicholas's float."
+  - fr: "pain d'épices"
+    en: "gingerbread"
+    def_fr: "Gâteau au miel et aux épices ; en décembre, des saint Nicolas et des ânes en pain d'épices garnissent les vitrines et les souliers."
+    def_en: "Honey and spice cake; in December, gingerbread Saint Nicholases and donkeys fill shop windows and children's shoes."
+  - fr: "remise des clés"
+    en: "handing over the keys"
+    def_fr: "Geste du maire qui, au balcon de l'hôtel de ville, confie à saint Nicolas les clés de Nancy à l'issue du défilé."
+    def_en: "The mayor's gesture of entrusting Saint Nicholas with the keys of Nancy, from the town hall balcony, after the parade."
+lang_review: draft
+review_status: unreviewed

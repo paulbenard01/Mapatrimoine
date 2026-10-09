@@ -1,0 +1,34 @@
+id: 2019_67717_INV_PCI_FRANCE_00422
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, les enfants font-ils la queue pour entrer dans la gueule du Bœuf, et que peut signifier ce passage ?"
+    - "Que transmet-on aux jeunes de Mèze en leur confiant le Bœuf, qu'ils portent, cachent et parfois veillent la nuit pendant la fête ?"
+    - "Quel animal, personnage ou emblème représente votre ville ou votre quartier, et à quelles occasions le voit-on ?"
+  en:
+    - "Why do you think children queue up to go into the Ox's mouth, and what might this passage mean?"
+    - "What is passed on to the young people of Mèze when they are entrusted with the Ox, which they carry, hide and sometimes guard at night during the festival?"
+    - "Which animal, character or emblem stands for your town or neighbourhood, and when does it appear?"
+vocabulary:
+  - fr: "animal-totem"
+    en: "totem animal"
+    def_fr: "Grande bête de toile sur une armature, animée par des porteurs cachés dessous, qui incarne une ville du Languedoc lors de ses fêtes."
+    def_en: "Large canvas creature on a frame, moved by bearers hidden underneath, that embodies a Languedoc town at its festivals."
+  - fr: "porteur"
+    en: "bearer"
+    def_fr: "Membre de l'équipe placé sous la carcasse ; à Mèze, huit hommes font courir, tituber et se cabrer le Bœuf."
+    def_en: "Team member placed inside the frame; in Mèze, eight men make the Ox run, stagger and rear up."
+  - fr: "Cornac"
+    en: "Cornac"
+    def_fr: "Meneur du Bœuf, en blanc liseré de rouge, qui le guide avec un aiguillon, peut seul le chevaucher et lui porte le coup final."
+    def_en: "The Ox's leader, dressed in white edged with red, who guides it with a goad, alone may ride it and deals the final blow."
+  - fr: "Chivalet"
+    en: "Chivalet (hobby-horse)"
+    def_fr: "Cheval-jupon fixé à la taille d'un danseur ; à Mèze, il danse avec le Bœuf sur le kiosque avant la mise à mort."
+    def_en: "Hobby-horse fastened round a dancer's waist; in Mèze it dances with the Ox on the bandstand before the killing."
+  - fr: "quête"
+    en: "collection"
+    def_fr: "Le Bœuf tend le cou vers les balcons et claque des mâchoires pour recevoir des pièces, que ramassent les jeunes filles de l'équipe."
+    def_en: "The Ox stretches its neck up to the balconies and snaps its jaws for coins, which the girls of the team collect."
+lang_review: draft
+review_status: unreviewed

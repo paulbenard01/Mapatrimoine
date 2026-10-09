@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00133
+audience: general
+questions:
+  fr:
+    - Selon vous, pourquoi une foire aux bestiaux et un pèlerinage à une source guérisseuse se tiennent-ils au même endroit, en pleine forêt ?
+    - Que deviennent les foires aux bestiaux quand l'élevage change et que beaucoup de visiteurs viennent surtout pour la fête ?
+    - Quelle foire, quel marché ou quel lieu de pèlerinage de votre région attire encore des gens venus de loin ?
+  en:
+    - Why do you think a livestock fair and a pilgrimage to a healing spring take place at the same spot, deep in a forest?
+    - What becomes of livestock fairs when farming changes and many visitors come mainly for the festivities?
+    - Which fair, market or place of pilgrimage in your own region still draws people from far away?
+vocabulary:
+  - fr: foire aux bestiaux
+    en: livestock fair
+    def_fr: Marché où éleveurs et marchands achètent et vendent des animaux ; à la Latière, on y croise vaches limousines, chevaux, oies et canards.
+    def_en: Market where farmers and dealers buy and sell animals; at La Latière you see Limousin cattle, horses, geese and ducks.
+  - fr: source guérisseuse
+    en: healing spring
+    def_fr: Source à laquelle on prête le pouvoir de soigner ; celle de saint Eutrope passait pour guérir les infirmes, d'où le pèlerinage.
+    def_en: Spring believed to have healing powers; Saint Eutropius's spring was said to cure the disabled, hence the pilgrimage.
+  - fr: la Double
+    en: the Double
+    def_fr: Pays de forêts de chênes aux confins du Périgord, de la Saintonge et de l'Angoumois, où se trouve le site de la Latière.
+    def_en: Oak-forest country where Périgord, Saintonge and Angoumois meet, and where the La Latière site lies.
+  - fr: vannerie doublaude
+    en: Double basketry
+    def_fr: Paniers tressés dans la Double ; c'est presque le seul artisanat local présent parmi les stands de la foire.
+    def_en: Baskets woven in the Double; almost the only local craft among the stalls of the fair.
+  - fr: omelette à l'aillet
+    en: green garlic omelette
+    def_fr: Omelette aux jeunes pousses d'ail, servie le matin du 1er mai, la journée la plus festive des foires de la Latière.
+    def_en: Omelette made with young green garlic, served on the morning of 1 May, the most festive day of the La Latière fairs.
+lang_review: draft
+review_status: unreviewed

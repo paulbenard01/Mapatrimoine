@@ -1,0 +1,3730 @@
+{
+"source": "data/mediation",
+"count": 76,
+"sheets": {
+"2009_67717_INV_PCI_FRANCE_00040": {
+"audience": "general",
+"questions": {
+"fr": [
+"Dans le maloya, un soliste lance le chant et un chœur lui répond : que peut exprimer ce dialogue entre une voix et un groupe ?",
+"Longtemps confiné aux plantations et aux cérémonies familiales, le maloya se joue aujourd'hui sur scène et se mêle au rock ou au reggae ; qu'est-ce que ces fusions lui apportent ou lui font perdre ?",
+"Quelle musique ou quelle danse raconte, selon vous, l'histoire de votre région ou de votre famille ?"
+],
+"en": [
+"In maloya, a soloist leads the song and a chorus answers: what can this dialogue between one voice and a group express?",
+"Long confined to the plantations and family ceremonies, maloya is now played on stage and blended with rock or reggae; what do these fusions bring to it, or take away?",
+"Which music or dance do you feel tells the story of your own region or family?"
+]
+},
+"vocabulary": [
+{
+"fr": "roulèr",
+"en": "roulèr",
+"def_fr": "Gros tambour fait d'un tonneau tendu d'une peau ; le musicien s'assoit dessus à califourchon et le frappe des mains.",
+"def_en": "Large drum made from a barrel covered with a skin; the player sits astride it and strikes it with the hands."
+},
+{
+"fr": "kayanm",
+"en": "kayanm",
+"def_fr": "Hochet plat en forme de radeau, fait de tiges de fleurs de canne et rempli de graines, que l'on secoue en cadence.",
+"def_en": "Flat, raft-shaped rattle made of sugar-cane flower stems and filled with seeds, shaken in rhythm."
+},
+{
+"fr": "bob",
+"en": "bob",
+"def_fr": "Arc musical à une seule corde, muni d'une calebasse qui amplifie le son ; on frappe la corde avec une fine baguette.",
+"def_en": "Single-string musical bow fitted with a gourd that amplifies the sound; the string is struck with a thin stick."
+},
+{
+"fr": "pikèr",
+"en": "pikèr",
+"def_fr": "Tronçon de bambou frappé avec deux baguettes, qui marque le rythme du maloya.",
+"def_en": "Length of bamboo struck with two sticks to beat out the rhythm of maloya."
+},
+{
+"fr": "engagisme",
+"en": "indentured labour",
+"def_fr": "Système de travail sous contrat qui a fait venir à La Réunion, surtout au XIXe siècle, des travailleurs d'Inde et d'ailleurs pour les plantations.",
+"def_en": "Contract-labour system that brought workers from India and elsewhere to Réunion, mainly in the 19th century, to work on the plantations."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2009_67717_INV_PCI_FRANCE_00041": {
+"audience": "general",
+"questions": {
+"fr": [
+"Celui qui trouve la fève dans la rosca de Reyes doit offrir les tamales du 2 février : que dit cette obligation des liens entre les deux fêtes et entre les invités ?",
+"À Paris, la fête se vit surtout à la maison, sans la bénédiction à l'église habituelle au Mexique ; comment une tradition s'adapte-t-elle quand on vit loin de son pays d'origine ?",
+"En France, la Chandeleur se fête souvent avec des crêpes : quels plats associez-vous, chez vous, à une fête du calendrier ?"
+],
+"en": [
+"Whoever finds the figurine in the rosca de Reyes must provide the tamales on 2 February: what does this duty say about the link between the two feasts, and between the guests?",
+"In Paris the feast is mostly kept at home, without the church blessing usual in Mexico; how does a tradition adapt when people live far from their country of origin?",
+"In France, Candlemas is often marked with pancakes: which dishes do you associate with a particular feast day at home?"
+]
+},
+"vocabulary": [
+{
+"fr": "rosca de Reyes",
+"en": "rosca de Reyes",
+"def_fr": "Brioche en couronne de l'Épiphanie, décorée de fruits confits, qui cache une petite figurine de l'Enfant Jésus.",
+"def_en": "Ring-shaped Epiphany sweet bread decorated with candied fruit, hiding a small figurine of the Christ Child."
+},
+{
+"fr": "tamales",
+"en": "tamales",
+"def_fr": "Pâte de maïs garnie, enveloppée dans une feuille puis cuite à la vapeur ; plat central du repas du 2 février.",
+"def_en": "Filled maize dough wrapped in a leaf and steamed; the centrepiece of the 2 February meal."
+},
+{
+"fr": "atole",
+"en": "atole",
+"def_fr": "Boisson chaude et sucrée à base de farine de maïs, servie avec les tamales.",
+"def_en": "Hot, sweet drink made with maize flour, served with the tamales."
+},
+{
+"fr": "niño Dios",
+"en": "niño Dios",
+"def_fr": "Figurine de l'Enfant Jésus tirée de la crèche, que l'on habille pour la fête et que l'on se transmet parfois de génération en génération.",
+"def_en": "Figure of the Christ Child taken from the nativity scene, dressed for the feast and sometimes handed down from one generation to the next."
+},
+{
+"fr": "Chandeleur",
+"en": "Candlemas",
+"def_fr": "Fête chrétienne du 2 février (Candelaria en espagnol) qui rappelle la présentation de Jésus au Temple, quarante jours après Noël.",
+"def_en": "Christian feast on 2 February (Candelaria in Spanish) recalling the presentation of Jesus in the Temple, forty days after Christmas."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2009_67717_INV_PCI_FRANCE_00045": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, met-on le feu à trois sapins devant la collégiale plutôt qu'à un seul grand bûcher ?",
+"La fête relie Thann à Gubbio, en Italie, par une légende et par un jumelage ; que peut apporter à une fête locale ce lien avec une autre ville d'Europe ?",
+"Quelle légende raconte la fondation de votre ville ou de votre village, et comment la rappelle-t-on aujourd'hui ?"
+],
+"en": [
+"Why do you think three fir trees are set alight in front of the collegiate church, rather than one big bonfire?",
+"The festival links Thann to Gubbio, in Italy, through a legend and a town twinning; what can such a link with another European town bring to a local celebration?",
+"What legend tells of the founding of your own town or village, and how is it remembered today?"
+]
+},
+"vocabulary": [
+{
+"fr": "relique",
+"en": "relic",
+"def_fr": "Fragment du corps d'un saint, ou objet lui ayant appartenu, vénéré par les fidèles ; Thann conserve un fragment attribué à saint Thiébaut.",
+"def_en": "Part of a saint's body, or an object linked to them, venerated by believers; Thann keeps a fragment attributed to Saint Theobald."
+},
+{
+"fr": "bourdon",
+"en": "pilgrim's staff",
+"def_fr": "Long bâton de pèlerin ; selon la légende, celui du serviteur resta collé à un sapin, là où la ville fut ensuite fondée.",
+"def_en": "A pilgrim's long staff; in the legend, the servant's staff stuck fast to a fir tree on the spot where the town was later founded."
+},
+{
+"fr": "crémateur",
+"en": "crémateur",
+"def_fr": "Chacune des trois personnes désignées par le conseil municipal pour mettre le feu aux sapins avec une torche.",
+"def_en": "Each of the three people chosen by the town council to set the fir trees alight with a torch."
+},
+{
+"fr": "collégiale",
+"en": "collegiate church",
+"def_fr": "Église desservie par un collège de chanoines ; la collégiale gothique de Thann borde la place où brûlent les sapins.",
+"def_en": "Church served by a chapter of canons; Thann's Gothic collegiate church stands on the square where the trees are burnt."
+},
+{
+"fr": "jumelage",
+"en": "town twinning",
+"def_fr": "Lien officiel d'amitié entre deux villes ; Thann et Gubbio, qui partagent le même saint patron, sont jumelées depuis 1958.",
+"def_en": "Official bond of friendship between two towns; Thann and Gubbio, which share the same patron saint, have been twinned since 1958."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00079": {
+"audience": "general",
+"questions": {
+"fr": [
+"Sur l'autel des morts, on pose de l'eau, du sel, des bougies et les plats préférés des défunts : que cherche-t-on à leur dire avec ces offrandes ?",
+"À Paris, l'autel quitte souvent la maison pour une galerie, une mairie ou un musée ; qu'est-ce qui change quand un rituel familial devient un événement public ?",
+"Comment honore-t-on la mémoire des défunts, au début du mois de novembre, dans votre famille ou votre région ?"
+],
+"en": [
+"On the altar of the dead, people place water, salt, candles and the favourite dishes of the departed: what are these offerings meant to say to them?",
+"In Paris the altar often moves from the home to a gallery, a town hall or a museum; what changes when a family ritual becomes a public event?",
+"How are the dead remembered in early November in your own family or region?"
+]
+},
+"vocabulary": [
+{
+"fr": "ofrenda",
+"en": "ofrenda",
+"def_fr": "Autel des morts dressé sur plusieurs niveaux, garni de photos des défunts, d'offrandes, de fleurs et de bougies.",
+"def_en": "Altar of the dead built on several tiers and laid with photos of the departed, offerings, flowers and candles."
+},
+{
+"fr": "papel picado",
+"en": "papel picado",
+"def_fr": "Papier de soie coloré découpé en motifs ajourés, qui décore le devant et les côtés de l'autel.",
+"def_en": "Coloured tissue paper cut into lacy patterns, decorating the front and sides of the altar."
+},
+{
+"fr": "cempasúchil",
+"en": "Mexican marigold",
+"def_fr": "Fleur jaune ou orange jugée indispensable à l'autel ; difficile à trouver à Paris, elle est souvent remplacée par des fleurs en papier.",
+"def_en": "Yellow or orange flower considered essential to the altar; hard to find in Paris, it is often replaced by paper flowers."
+},
+{
+"fr": "calavera",
+"en": "calavera",
+"def_fr": "Crâne décoré, souvent en sucre, posé parmi les offrandes ; il évoque la mort sur un ton familier et moqueur plutôt qu'effrayant.",
+"def_en": "Decorated skull, often made of sugar, set among the offerings; it treats death in a familiar, teasing way rather than a frightening one."
+},
+{
+"fr": "pain des morts",
+"en": "bread of the dead",
+"def_fr": "Brioche préparée pour la fête (pan de muerto), souvent placée au centre de l'autel ; à Paris, on la fait à la maison.",
+"def_en": "Sweet bread made for the occasion (pan de muerto), often placed at the centre of the altar; in Paris it is baked at home."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00080": {
+"audience": "general",
+"questions": {
+"fr": [
+"À l'entrée de la fête, chacun reçoit contre une obole une épingle à rubans portant une médaille de la Vierge : à quoi sert, selon vous, ce petit objet porté sur le vêtement ?",
+"Il devient difficile de trouver des prieurs prêts à organiser la fête ; comment une fête de hameau peut-elle durer quand les bénévoles se font rares ?",
+"Les musiciens viennent du Piémont, de l'autre côté du col de Tende : quelles traditions votre région partage-t-elle avec un territoire voisin ?"
+],
+"en": [
+"At the entrance, everyone receives a ribboned pin with a medal of the Virgin in exchange for a donation: what do you think this small object worn on clothing is for?",
+"It is getting hard to find priors willing to run the feast; how can a hamlet festival carry on when volunteers become scarce?",
+"The musicians come from Piedmont, on the far side of the Col de Tende: which traditions does your region share with a neighbouring area?"
+]
+},
+"vocabulary": [
+{
+"fr": "prieur, prieuresse",
+"en": "prior, prioress",
+"def_fr": "Membre de la paroisse chargé pour deux ans d'organiser la fête ; fleurir la chapelle, préparer les médailles, la prière et l'apéritif.",
+"def_en": "Parish member in charge of the feast for two years; decorating the chapel with flowers, preparing the medals, the prayers and the drinks."
+},
+{
+"fr": "Visitation",
+"en": "Visitation",
+"def_fr": "Épisode de l'Évangile où Marie, enceinte de Jésus, rend visite à sa cousine Élisabeth ; la chapelle de Vievola lui est dédiée.",
+"def_en": "Gospel episode in which Mary, expecting Jesus, visits her cousin Elizabeth; the Vievola chapel is dedicated to it."
+},
+{
+"fr": "chapelet",
+"en": "rosary",
+"def_fr": "Prière répétée en égrenant des perles ; des soirées de chapelet préparent la fête et un chapelet est récité dans l'après-midi.",
+"def_en": "Repeated prayer said while counting beads; evenings of rosary prayer lead up to the feast, and one is said in the afternoon."
+},
+{
+"fr": "courente",
+"en": "courente",
+"def_fr": "Danse de tradition piémontaise que jouent à l'accordéon et à la clarinette les musiciens venus d'Italie pour le bal.",
+"def_en": "Dance from the Piedmontese tradition, played on accordion and clarinet by the musicians who come over from Italy for the ball."
+},
+{
+"fr": "balèt",
+"en": "balèt",
+"def_fr": "Autre danse de tradition piémontaise du bal de Vievola, dansée avec les valses sous la bâche voisine de la chapelle.",
+"def_en": "Another Piedmontese dance of the Vievola ball, danced along with waltzes under the awning beside the chapel."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00081": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, le drapeau mexicain, les mariachis et les tamales trouvent-ils leur place dans une fête religieuse à Notre-Dame ?",
+"Pour beaucoup de participants, cette messe est d'abord une façon d'affirmer une identité mexicaine ou latino-américaine ; quel rôle jouent les enfants, souvent en costume, dans cette transmission ?",
+"Quel lieu, quel chant ou quel symbole vous rappellerait votre région si vous viviez loin de chez vous ?"
+],
+"en": [
+"Why do you think the Mexican flag, mariachis and tamales find a place in a religious feast at Notre-Dame?",
+"For many participants, this mass is first a way of asserting a Mexican or Latin American identity; what part do the children, often in costume, play in passing it on?",
+"Which place, song or symbol would remind you of your region if you lived far from home?"
+]
+},
+"vocabulary": [
+{
+"fr": "Guadalupana",
+"en": "Guadalupana",
+"def_fr": "Nom affectueux de la Vierge de Guadalupe, et titre de l'hymne qu'on lui chante à plusieurs reprises pendant la fête.",
+"def_en": "Affectionate name for Our Lady of Guadalupe, and the title of the hymn sung to her several times during the feast."
+},
+{
+"fr": "Tepeyac",
+"en": "Tepeyac",
+"def_fr": "Colline de Mexico où la Vierge serait apparue en 1531 ; sa basilique reçoit des millions de pèlerins chaque 12 décembre.",
+"def_en": "Hill in Mexico City where the Virgin is said to have appeared in 1531; its basilica draws millions of pilgrims every 12 December."
+},
+{
+"fr": "mariachi",
+"en": "mariachi",
+"def_fr": "Ensemble de musiciens mexicains qui joue pendant la messe, puis devant la chapelle et sur le parvis de la cathédrale.",
+"def_en": "Band of Mexican musicians who play during the mass, then in front of the chapel and on the cathedral square."
+},
+{
+"fr": "chapelle de Guadalupe",
+"en": "Guadalupe chapel",
+"def_fr": "Chapelle du bas-côté nord de Notre-Dame de Paris, ornée d'une mosaïque de la Vierge, où les fidèles allument des bougies.",
+"def_en": "Chapel in the north aisle of Notre-Dame de Paris, decorated with a mosaic of the Virgin, where worshippers light candles."
+},
+{
+"fr": "diaspora",
+"en": "diaspora",
+"def_fr": "Communauté installée hors de son pays d'origine et qui garde des liens avec lui ; ici, les Mexicains de France et d'Europe.",
+"def_en": "Community living outside its country of origin while keeping ties with it; here, Mexicans living in France and elsewhere in Europe."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00084": {
+"audience": "general",
+"questions": {
+"fr": [
+"Avant la procession, le prêtre bénit la mer, la ville et les bateaux de pêche : que dit ce geste de la vie des familles qui ont apporté cette fête ?",
+"Venue de Sperlonga avec des émigrés italiens, la fête cherche aujourd'hui à attirer les jeunes générations ; que garde-t-on et que change-t-on quand une fête suit ceux qui émigrent ?",
+"Quelles fêtes de votre ville ou de votre région ont été apportées par des personnes venues d'ailleurs ?"
+],
+"en": [
+"Before the procession, the priest blesses the sea, the city and the fishing boats: what does this gesture say about the lives of the families who brought the feast?",
+"Brought from Sperlonga by Italian emigrants, the feast now tries to draw in the younger generations; what is kept and what changes when a festival follows people who emigrate?",
+"Which festivals in your town or region were brought by people who came from elsewhere?"
+]
+},
+"vocabulary": [
+{
+"fr": "saint patron",
+"en": "patron saint",
+"def_fr": "Saint protecteur d'une ville ou d'une communauté ; saint Léon est celui de Sperlonga, petite ville côtière du Latium.",
+"def_en": "Saint who protects a town or community; Saint Leo is the patron of Sperlonga, a small coastal town in Lazio."
+},
+{
+"fr": "porteur",
+"en": "bearer",
+"def_fr": "Fidèle qui porte la statue du saint pendant la procession ; à Marseille, ce rôle revient à des personnes d'origine sperlongaine.",
+"def_en": "Worshipper who carries the saint's statue in the procession; in Marseille this role falls to people of Sperlonga descent."
+},
+{
+"fr": "bénédiction de la mer",
+"en": "blessing of the sea",
+"def_fr": "Prière par laquelle le prêtre demande la protection divine pour la mer et ceux qui en vivent, fréquente dans les ports de pêche.",
+"def_en": "Prayer in which the priest asks for divine protection over the sea and those who live from it, common in fishing ports."
+},
+{
+"fr": "quartier Saint-Jean",
+"en": "Saint-Jean district",
+"def_fr": "Quartier proche du port où se sont installés de nombreux pêcheurs et immigrés italiens ; ses habitants le décrivent comme un village.",
+"def_en": "District near the harbour where many Italian fishermen and immigrants settled; its residents describe it as a village."
+},
+{
+"fr": "comité des fêtes",
+"en": "festival committee",
+"def_fr": "Groupe de bénévoles qui organise la fête ; à Marseille, il est animé par des descendants des premiers organisateurs.",
+"def_en": "Group of volunteers who organise the feast; in Marseille it is run by descendants of the first organisers."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00101": {
+"audience": "general",
+"questions": {
+"fr": [
+"Les jeux de la Ringueta se jouent avec des objets simples en bois ou en métal : qu'est-ce qui rend, selon vous, un jeu ancien encore amusant aujourd'hui ?",
+"Le festival est né en 1985 d'une collecte de jeux anciens et fait de l'occitan sa langue de fête ; comment un jeu peut-il aider à faire vivre une langue régionale ?",
+"À quels jeux de plein air jouaient vos parents ou vos grands-parents, et lesquels aimeriez-vous transmettre à votre tour ?"
+],
+"en": [
+"The Ringueta games are played with simple wooden or metal objects: what do you think keeps an old game fun today?",
+"The festival grew out of a collection of old games in 1985 and uses Occitan as its festival language; how can a game help keep a regional language alive?",
+"Which outdoor games did your parents or grandparents play, and which would you like to pass on in turn?"
+]
+},
+"vocabulary": [
+{
+"fr": "jeu traditionnel",
+"en": "traditional game",
+"def_fr": "Jeu transmis de génération en génération, avec des règles et un matériel propres à une région.",
+"def_en": "Game handed down from one generation to the next, with rules and equipment specific to a region."
+},
+{
+"fr": "collectage",
+"en": "field collecting",
+"def_fr": "Enquête menée auprès des habitants pour recueillir des savoirs transmis oralement ; la Ringueta repose sur la collecte de plus de cent jeux.",
+"def_en": "Fieldwork among local people to gather knowledge passed on by word of mouth; the Ringueta is built on more than a hundred collected games."
+},
+{
+"fr": "mât de cocagne",
+"en": "greasy pole",
+"def_fr": "Haut poteau, souvent rendu glissant, en haut duquel sont accrochés des prix qu'il faut aller décrocher en grimpant.",
+"def_en": "Tall pole, often made slippery, with prizes hung at the top for whoever can climb up and grab them."
+},
+{
+"fr": "taulada",
+"en": "taulada",
+"def_fr": "Mot occitan désignant un grand repas pris ensemble ; il réunit joueurs et visiteurs le dimanche soir, avant le bal.",
+"def_en": "Occitan word for a large shared meal; it brings players and visitors together on the Sunday evening, before the dance."
+},
+{
+"fr": "occitan",
+"en": "Occitan",
+"def_fr": "Langue romane du sud de la France, parlée notamment en Périgord ; c'est la langue « officielle » de la fête.",
+"def_en": "Romance language of southern France, spoken among other places in Périgord; it is the festival's 'official' language."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00103": {
+"audience": "general",
+"questions": {
+"fr": [
+"Les bœufs défilent les cornes fleuries, au son des fifres et des tambours : pourquoi, selon vous, met-on ainsi en fête des animaux destinés à la boucherie ?",
+"La fête est devenue une vitrine de la race bazadaise, qui ne repose plus que sur quelques familles d'éleveurs ; quel avenir pour une tradition liée à un élevage fragile ?",
+"Quel produit ou quel animal de votre région est célébré par une foire, un concours ou une fête ?"
+],
+"en": [
+"The oxen parade with flowers on their horns, to fife and drum music: why do you think animals bound for the butcher's are celebrated in this way?",
+"The festival has become a showcase for the Bazadaise breed, which now depends on just a few farming families; what future is there for a tradition tied to such a fragile line of farming?",
+"Which product or animal from your region is celebrated with a fair, a contest or a festival?"
+]
+},
+"vocabulary": [
+{
+"fr": "race bazadaise",
+"en": "Bazadaise breed",
+"def_fr": "Race bovine à robe grise du sud de la Gironde, réputée pour sa viande ; seule race admise au concours de Bazas.",
+"def_en": "Grey-coated cattle breed from southern Gironde, prized for its meat; the only breed allowed in the Bazas contest."
+},
+{
+"fr": "bœuf gras",
+"en": "fatted ox",
+"def_fr": "Bœuf préparé et engraissé pendant de longs mois pour obtenir une viande de qualité, présenté au carnaval avant l'abattoir.",
+"def_en": "Ox raised and fattened over many months for high-quality meat, shown at carnival before going to the slaughterhouse."
+},
+{
+"fr": "ripataulèra",
+"en": "ripataulèra",
+"def_fr": "Mot gascon pour un groupe de fifres et de tambours ; il ouvre le cortège et joue jusque dans les boucheries.",
+"def_en": "Gascon word for a fife-and-drum band; it leads the parade and even plays inside the butchers' shops."
+},
+{
+"fr": "rigaudon d'honneur",
+"en": "rigaudon d'honneur",
+"def_fr": "Air joué par les musiciens pour honorer un boucher ou la mairie ; celui qui accompagne le départ des bêtes s'appelle « La Mort du Bœuf ».",
+"def_en": "Tune played by the musicians to honour a butcher or the town hall; the one that sees the animals off is called 'The Death of the Ox'."
+},
+{
+"fr": "Jeudi gras",
+"en": "Fat Thursday",
+"def_fr": "Jeudi qui précède Mardi gras, en pleine période de carnaval, avant le jeûne du Carême.",
+"def_en": "The Thursday before Shrove Tuesday, in the middle of carnival time, before the Lenten fast."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00104": {
+"audience": "general",
+"questions": {
+"fr": [
+"Chaque 24 juin, on rejoue devant la cathédrale l'offrande d'un taureau par les bouchers : que représentait ce don pour ceux qui le faisaient et pour ceux qui le recevaient ?",
+"Disparu à la Révolution, l'hommage du taureau a été rétabli en 1969 sous forme de spectacle ; que gagne-t-on et que perd-on quand une coutume ancienne devient une reconstitution ?",
+"Où et comment fête-t-on la Saint-Jean ou le solstice d'été près de chez vous ?"
+],
+"en": [
+"Every 24 June, the butchers' gift of a bull is re-enacted in front of the cathedral: what did this gift mean to those who gave it and to those who received it?",
+"Abolished at the Revolution, the bull tribute was revived as a show in 1969; what is gained and what is lost when an old custom becomes a re-enactment?",
+"Where and how is St John's Day or midsummer celebrated near you?"
+]
+},
+"vocabulary": [
+{
+"fr": "feu de la Saint-Jean",
+"en": "midsummer bonfire",
+"def_fr": "Grand feu allumé autour du 24 juin, près du solstice d'été ; à Bazas, trois feux sont dressés sur une estrade devant la cathédrale.",
+"def_en": "Large fire lit around 24 June, close to the summer solstice; in Bazas, three fires are built on a platform in front of the cathedral."
+},
+{
+"fr": "hommage du taureau",
+"en": "bull tribute",
+"def_fr": "Cérémonie qui rappelle le taureau que les bouchers devaient offrir chaque 24 juin, d'abord à l'évêque, à partir de 1283.",
+"def_en": "Ceremony recalling the bull that the butchers had to give every 24 June, at first to the bishop, from 1283 onwards."
+},
+{
+"fr": "jurats",
+"en": "jurats",
+"def_fr": "Magistrats qui administraient la ville sous l'Ancien Régime ; à partir de 1653, ils reçoivent le taureau au nom des habitants.",
+"def_en": "Magistrates who ran the town before the Revolution; from 1653 they received the bull on behalf of the townspeople."
+},
+{
+"fr": "saint patron",
+"en": "patron saint",
+"def_fr": "Saint protecteur d'une ville ; celui de Bazas est saint Jean-Baptiste, à qui la cathédrale est dédiée.",
+"def_en": "Saint who protects a town; Bazas's patron is Saint John the Baptist, to whom its cathedral is dedicated."
+},
+{
+"fr": "confrérie",
+"en": "confraternity",
+"def_fr": "Association de membres unis par un même attachement et des rites communs ; à Bazas, ce sont ses membres qui allument les feux.",
+"def_en": "Association of members bound by a shared attachment and common rites; in Bazas, its members light the bonfires."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00108": {
+"audience": "general",
+"questions": {
+"fr": [
+"À la messe, les femmes portent le capulet rouge et les hommes la courte veste écarlate : que veut-on montrer en sortant ces costumes anciens ce jour-là ?",
+"Le 15 août, enfants partis et familles éloignées reviennent à Laruns et chantent ensemble ; qu'est-ce que la polyphonie apporte à ces retrouvailles ?",
+"Quelle fête de votre région fait revenir chaque année ceux qui sont partis vivre ailleurs ?"
+],
+"en": [
+"At mass, women wear the red capulet and men the short scarlet jacket: what are people showing by bringing out these old costumes on this day?",
+"On 15 August, children who have moved away and distant relatives come back to Laruns and sing together; what does polyphony bring to these reunions?",
+"Which festival in your region brings back, every year, the people who have moved away?"
+]
+},
+"vocabulary": [
+{
+"fr": "capulet",
+"en": "capulet",
+"def_fr": "Long capuchon de soie rouge qui recouvre les femmes en costume traditionnel ossalois.",
+"def_en": "Long red silk hood worn by women in the traditional costume of the Ossau valley."
+},
+{
+"fr": "branle",
+"en": "branle",
+"def_fr": "Danse en chaîne ; le bal s'ouvre sur un branle solennel dansé une seule fois, puis branles et sauts alternent.",
+"def_en": "Chain dance; the ball opens with a solemn branle danced only once, after which branles and sauts alternate."
+},
+{
+"fr": "saut",
+"en": "saut",
+"def_fr": "Danse d'hommes en cercle, tournant dans le sens inverse des aiguilles d'une montre, autrefois dansée par les conscrits.",
+"def_en": "Men's dance in a circle, moving anticlockwise, once danced by the young conscripts."
+},
+{
+"fr": "polyphonie",
+"en": "polyphony",
+"def_fr": "Chant à plusieurs voix différentes chantées ensemble ; à Laruns, il jaillit spontanément à la messe, sous la halle et dans les cafés.",
+"def_en": "Singing in several different parts at once; in Laruns it breaks out spontaneously at mass, in the market hall and in the cafés."
+},
+{
+"fr": "passacarrèra",
+"en": "passacarrèra",
+"def_fr": "Passe-rue de l'après-midi ; chaque quartier rejoint la place en chantant et s'arrête en cercle à chaque couplet.",
+"def_en": "Afternoon street procession; each neighbourhood makes its way to the square in song, stopping in a circle for each verse."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00114": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pendant le concours, le berger dirige son chien à distance pour conduire les brebis : quels gestes, quels sons ou quels signaux rendent possible cette entente ?",
+"Née en 1980 du bal qui marquait la descente des estives, la fête mêle aujourd'hui métier, concours et spectacle ; que dit-elle de la place des bergers dans la vallée aujourd'hui ?",
+"Quels métiers de votre région sont célébrés par une fête, et que montre-t-on au public à cette occasion ?"
+],
+"en": [
+"During the trials, the shepherd directs the dog from a distance to move the sheep: what gestures, sounds or signals make this understanding possible?",
+"Born in 1980 from the dance that marked the return from summer pastures, the festival now mixes work, competition and show; what does it say about the place of shepherds in the valley today?",
+"Which trades in your region are celebrated with a festival, and what is shown to the public on that occasion?"
+]
+},
+"vocabulary": [
+{
+"fr": "aulhèr",
+"en": "aulhèr",
+"def_fr": "Mot béarnais désignant le berger, qui donne son nom à la fête, la « hèsta deus aulhèrs ».",
+"def_en": "Béarn word for a shepherd, which gives the festival its name, the 'hèsta deus aulhèrs'."
+},
+{
+"fr": "estive",
+"en": "summer pasture",
+"def_fr": "Pâturage de montagne où les troupeaux passent l'été ; leur descente, à la fin de la saison, était autrefois fêtée par un bal.",
+"def_en": "Mountain grazing land where flocks spend the summer; their return at the end of the season used to be marked by a dance."
+},
+{
+"fr": "transhumance",
+"en": "transhumance",
+"def_fr": "Déplacement saisonnier des troupeaux entre la vallée et les pâturages d'altitude ; la fête en propose une depuis les cols.",
+"def_en": "Seasonal movement of flocks between the valley and high pastures; the festival includes one down from the mountain passes."
+},
+{
+"fr": "chien de troupeau",
+"en": "herding dog",
+"def_fr": "Chien dressé pour rassembler et conduire les bêtes sur les ordres du berger ; le concours d'Aramits compte pour le championnat de France.",
+"def_en": "Dog trained to gather and drive livestock on the shepherd's commands; the Aramits trials count towards the French championship."
+},
+{
+"fr": "pastoralisme",
+"en": "pastoralism",
+"def_fr": "Élevage fondé sur la conduite des troupeaux au pâturage et sur leurs déplacements selon les saisons.",
+"def_en": "Livestock farming based on herding animals to graze and moving them with the seasons."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00116": {
+"audience": "general",
+"questions": {
+"fr": [
+"Chaque midi, la foule assiste au réveil du roi Léon, un grand mannequin : que représente, selon vous, ce personnage pour les festayres ?",
+"Créées en 1932 et passées au blanc et rouge dans les années 1990 sur le modèle de Pampelune, les fêtes changent sans cesse ; comment une fête récente devient-elle une tradition ?",
+"Quelle fête de votre région marque, pour les jeunes, une étape ou un passage vers l'âge adulte ?"
+],
+"en": [
+"Every day at noon, crowds gather to watch King Léon, a giant figure, wake up: what do you think this character means to the festayres?",
+"Created in 1932 and dressed in white and red since the 1990s after the Pamplona model, the festival keeps changing; how does a recent festival become a tradition?",
+"Which festival in your region marks a milestone, or a step towards adulthood, for young people?"
+]
+},
+"vocabulary": [
+{
+"fr": "festayre",
+"en": "festayre",
+"def_fr": "Mot du français régional (hestaire en gascon) pour la personne qui fait la fête, vêtue de blanc avec un foulard rouge.",
+"def_en": "Regional French word (hestaire in Gascon) for a festival-goer, dressed in white with a red scarf."
+},
+{
+"fr": "banda",
+"en": "banda",
+"def_fr": "Fanfare de cuivres et de percussions qui anime rues et cafés ; une messe des bandas est célébrée le dimanche.",
+"def_en": "Brass and percussion band that livens up the streets and cafés; a bandas' mass is held on the Sunday."
+},
+{
+"fr": "roi Léon",
+"en": "King Léon",
+"def_fr": "Grand mannequin inspiré d'un Bayonnais haut en couleur d'autrefois ; son réveil, chaque midi, rythme les journées de fête.",
+"def_en": "Giant figure based on a colourful Bayonne character of the past; his waking each noon sets the rhythm of the festival days."
+},
+{
+"fr": "peña",
+"en": "peña",
+"def_fr": "Local associatif ouvert pendant les fêtes, où l'on se retrouve pour boire, manger et chanter.",
+"def_en": "Club premises opened during the festival, where people meet to drink, eat and sing."
+},
+{
+"fr": "remise des clés",
+"en": "handing over the keys",
+"def_fr": "Cérémonie d'ouverture où une personnalité confie symboliquement les clés de la ville aux festayres rassemblés devant la mairie.",
+"def_en": "Opening ceremony in which a well-known figure symbolically hands the keys of the city to the festayres gathered outside the town hall."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00117": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pendant la journée landaise, échassiers, quilles de neuf et courses de vaches côtoient bandas et corridas : que dit ce mélange de l'identité de la ville ?",
+"Dax a emprunté à Pampelune, souvent via Bayonne, la tenue blanche et rouge et la journée des enfants ; comment des fêtes voisines s'inspirent-elles les unes des autres sans se ressembler tout à fait ?",
+"Si vous deviez présenter à un visiteur la grande fête de votre ville, par quoi commenceriez-vous ?"
+],
+"en": [
+"On the Landes day, stilt-walkers, ninepins and cow races sit alongside brass bands and bullfights: what does this mix say about the town's identity?",
+"Dax borrowed from Pamplona, often by way of Bayonne, the white-and-red outfit and the children's day; how do neighbouring festivals inspire each other without becoming identical?",
+"If you had to introduce a visitor to your own town's big festival, where would you begin?"
+]
+},
+"vocabulary": [
+{
+"fr": "course landaise",
+"en": "course landaise",
+"def_fr": "Jeu taurin gascon, sans mise à mort, où des écarteurs et des sauteurs esquivent une vache qui charge.",
+"def_en": "Gascon bull game without a kill, in which dodgers and jumpers evade a charging cow."
+},
+{
+"fr": "cuadrilla",
+"en": "cuadrilla",
+"def_fr": "Équipe qui se produit en piste ; les meilleures cuadrillas de course landaise s'affrontent au concours landais des fêtes.",
+"def_en": "Team performing in the ring; the best course landaise teams compete in the festival's concours landais."
+},
+{
+"fr": "échassier",
+"en": "stilt-walker",
+"def_fr": "Personne perchée sur de hautes échasses, image des anciens bergers des Landes ; les groupes folkloriques en font la démonstration.",
+"def_en": "Person perched on tall stilts, an image of the Landes shepherds of old; folk groups give demonstrations."
+},
+{
+"fr": "quilles de neuf",
+"en": "ninepins",
+"def_fr": "Jeu de quilles gascon à neuf quilles ; des tournois sont organisés lors de la journée landaise.",
+"def_en": "Gascon skittles game played with nine pins; tournaments are held on the Landes day."
+},
+{
+"fr": "Agur Jaunak",
+"en": "Agur Jaunak",
+"def_fr": "Chant basque de salut solennel, repris par les bandas et l'harmonie dans les arènes pour dire adieu aux fêtes.",
+"def_en": "Solemn Basque song of greeting, played by the bands and the town's wind orchestra in the arena to bid the festival farewell."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00118": {
+"audience": "general",
+"questions": {
+"fr": [
+"Sabots en caoutchouc, matériel agricole, charcuterie : qu'est-ce que les objets vendus sur une foire révèlent de la vie de ceux qui la fréquentent ?",
+"Autrefois, on y louait des domestiques et on y renouvelait les contrats de métayage ; qu'est-ce qui a changé dans le rôle de la foire, et qu'est-ce qui demeure ?",
+"Quelle foire ou quel marché de votre région rassemble les gens bien au-delà des simples achats ?"
+],
+"en": [
+"Rubber clogs, farm machinery, cured meats: what do the goods sold at a fair reveal about the lives of the people who go there?",
+"In the past, farmhands were hired and sharecropping contracts renewed here; what has changed in the fair's role, and what remains?",
+"Which fair or market in your region brings people together for much more than shopping?"
+]
+},
+"vocabulary": [
+{
+"fr": "assemblada",
+"en": "assemblada",
+"def_fr": "Mot gascon signifiant « rassemblement » ; il désigne la grande foire de la Saint-Michel au quartier Suzan.",
+"def_en": "Gascon word meaning 'gathering'; it names the great Michaelmas fair in the Suzan district."
+},
+{
+"fr": "Saint-Michel",
+"en": "Michaelmas",
+"def_fr": "Fête de l'archange Michel, le 29 septembre ; la foire de Suzan était la dernière de l'année parmi les foires landaises liées à une fête religieuse.",
+"def_en": "Feast of the Archangel Michael on 29 September; the Suzan fair was the last of the year among the Landes fairs tied to a religious feast."
+},
+{
+"fr": "fontaine de guérison",
+"en": "healing spring",
+"def_fr": "Source réputée soulager certains maux ; trois fontaines voisines, chacune liée à un saint, sont toujours fréquentées.",
+"def_en": "Spring believed to ease certain ailments; three nearby springs, each linked to a saint, are still visited."
+},
+{
+"fr": "métayage",
+"en": "sharecropping",
+"def_fr": "Bail rural où l'exploitant partage la récolte avec le propriétaire ; ces contrats se renouvelaient autrefois à la foire.",
+"def_en": "Farm tenancy in which the tenant shares the harvest with the landowner; such contracts used to be renewed at the fair."
+},
+{
+"fr": "forêt landaise",
+"en": "Landes forest",
+"def_fr": "Vaste forêt de pins du sud-ouest de la France ; la foire s'installe à la croisée de deux routes, en pleine forêt.",
+"def_en": "Vast pine forest in south-west France; the fair sets up where two roads cross, deep in the woods."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2010_67717_INV_PCI_FRANCE_00133": {
+"audience": "general",
+"questions": {
+"fr": [
+"Selon vous, pourquoi une foire aux bestiaux et un pèlerinage à une source guérisseuse se tiennent-ils au même endroit, en pleine forêt ?",
+"Que deviennent les foires aux bestiaux quand l'élevage change et que beaucoup de visiteurs viennent surtout pour la fête ?",
+"Quelle foire, quel marché ou quel lieu de pèlerinage de votre région attire encore des gens venus de loin ?"
+],
+"en": [
+"Why do you think a livestock fair and a pilgrimage to a healing spring take place at the same spot, deep in a forest?",
+"What becomes of livestock fairs when farming changes and many visitors come mainly for the festivities?",
+"Which fair, market or place of pilgrimage in your own region still draws people from far away?"
+]
+},
+"vocabulary": [
+{
+"fr": "foire aux bestiaux",
+"en": "livestock fair",
+"def_fr": "Marché où éleveurs et marchands achètent et vendent des animaux ; à la Latière, on y croise vaches limousines, chevaux, oies et canards.",
+"def_en": "Market where farmers and dealers buy and sell animals; at La Latière you see Limousin cattle, horses, geese and ducks."
+},
+{
+"fr": "source guérisseuse",
+"en": "healing spring",
+"def_fr": "Source à laquelle on prête le pouvoir de soigner ; celle de saint Eutrope passait pour guérir les infirmes, d'où le pèlerinage.",
+"def_en": "Spring believed to have healing powers; Saint Eutropius's spring was said to cure the disabled, hence the pilgrimage."
+},
+{
+"fr": "la Double",
+"en": "the Double",
+"def_fr": "Pays de forêts de chênes aux confins du Périgord, de la Saintonge et de l'Angoumois, où se trouve le site de la Latière.",
+"def_en": "Oak-forest country where Périgord, Saintonge and Angoumois meet, and where the La Latière site lies."
+},
+{
+"fr": "vannerie doublaude",
+"en": "Double basketry",
+"def_fr": "Paniers tressés dans la Double ; c'est presque le seul artisanat local présent parmi les stands de la foire.",
+"def_en": "Baskets woven in the Double; almost the only local craft among the stalls of the fair."
+},
+{
+"fr": "omelette à l'aillet",
+"en": "green garlic omelette",
+"def_fr": "Omelette aux jeunes pousses d'ail, servie le matin du 1er mai, la journée la plus festive des foires de la Latière.",
+"def_en": "Omelette made with young green garlic, served on the morning of 1 May, the most festive day of the La Latière fairs."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2011_67717_INV_PCI_FRANCE_00148": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, hisse-t-on un drapeau au sommet du clocher pour annoncer que les reliques vont être montrées ?",
+"Comment une fête religieuse qui ne revient que tous les sept ans peut-elle réunir croyants et non-croyants autour des mêmes préparatifs ?",
+"Quel événement de votre région ne revient qu'à de longs intervalles, et comment se transmet-il d'une édition à l'autre ?"
+],
+"en": [
+"Why do you think a flag is hoisted to the top of the church tower to announce that the relics are about to be shown?",
+"How can a religious festival that comes round only every seven years bring believers and non-believers together around the same preparations?",
+"Which event in your own region returns only after a long gap, and how is it passed on from one edition to the next?"
+]
+},
+"vocabulary": [
+{
+"fr": "ostension",
+"en": "ostension",
+"def_fr": "Du latin ostendere, « montrer » ; présentation solennelle des reliques d'un saint aux fidèles, accompagnée de processions.",
+"def_en": "From the Latin ostendere, \"to show\"; the solemn display of a saint's relics to the faithful, with processions."
+},
+{
+"fr": "reliquaire",
+"en": "reliquary",
+"def_fr": "Coffret ou châsse, souvent richement orné, qui renferme les reliques d'un saint ; sans reliquaire, pas d'ostension.",
+"def_en": "Casket or shrine, often richly decorated, that holds a saint's relics; without it, no ostension can take place."
+},
+{
+"fr": "confrérie",
+"en": "confraternity",
+"def_fr": "Association de laïcs qui garde les reliques et la mémoire du rituel et transmet protocole, costumes, décors et parcours des processions.",
+"def_en": "Association of lay people who look after the relics and the memory of the ritual, and pass on protocol, costumes, decorations and routes."
+},
+{
+"fr": "drapeau des ostensions",
+"en": "ostension flag",
+"def_fr": "Drapeau hissé en haut du clocher, avec l'aide des pompiers, pour marquer l'ouverture des ostensions ; on le redescend à la clôture.",
+"def_en": "Flag raised to the top of the church tower, with the help of the fire brigade, to open the ostensions; it comes down at the close."
+},
+{
+"fr": "mal des ardents",
+"en": "mal des ardents",
+"def_fr": "Épidémie qui frappa le Limousin en 994 ; la présentation du corps de saint Martial l'aurait arrêtée, ce qui serait à l'origine des ostensions.",
+"def_en": "Epidemic that struck the Limousin in 994; showing the body of Saint Martial is said to have ended it, which is seen as the origin of the ostensions."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2012_67717_INV_PCI_FRANCE_00151": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, une fête de la mer associe-t-elle un hommage aux marins disparus et des réjouissances sur le port ?",
+"Comment une fête de port née en 1946 peut-elle garder son sens à la fois pour les pêcheurs et pour les vacanciers d'aujourd'hui ?",
+"Quel lien votre ville ou votre région entretient-elle avec la mer, un fleuve ou un lac, et comment le célèbre-t-on ?"
+],
+"en": [
+"Why do you think a sea festival combines a tribute to sailors lost at sea with celebrations around the harbour?",
+"How can a harbour festival born in 1946 keep its meaning both for fishermen and for today's holidaymakers?",
+"What ties your own town or region to the sea, a river or a lake, and how are those ties celebrated?"
+]
+},
+"vocabulary": [
+{
+"fr": "fête de la mer",
+"en": "sea festival",
+"def_fr": "Fête des villes portuaires qui honore les gens de mer ; à Capbreton, elle a lieu chaque année en juin depuis 1946.",
+"def_en": "Festival held in harbour towns to honour seafarers; in Capbreton it has taken place every June since 1946."
+},
+{
+"fr": "marin péri en mer",
+"en": "sailor lost at sea",
+"def_fr": "Marin mort ou disparu en mer ; la fête de la mer de Capbreton lui rend hommage chaque année.",
+"def_en": "Sailor who died or went missing at sea; the Capbreton sea festival pays tribute to them every year."
+},
+{
+"fr": "flottille",
+"en": "fishing fleet",
+"def_fr": "Ensemble des bateaux d'un même port ; pendant la fête, les bateaux de pêche de Capbreton sortent ensemble.",
+"def_en": "All the boats of one harbour; during the festival, the Capbreton fishing boats go out together."
+},
+{
+"fr": "gerbe",
+"en": "wreath",
+"def_fr": "Bouquet ou couronne de fleurs déposé lors d'une cérémonie, en mémoire des morts.",
+"def_en": "Bunch or ring of flowers laid during a ceremony in memory of the dead."
+},
+{
+"fr": "estacade",
+"en": "estacade (wooden jetty)",
+"def_fr": "Longue jetée sur pilotis de bois qui borde l'entrée du port de Capbreton ; c'est l'une des promenades emblématiques de la ville.",
+"def_en": "Long jetty on wooden piles at the entrance to Capbreton harbour; one of the town's best-known walks."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2012_67717_INV_PCI_FRANCE_00257": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les masques de Limoux dansent-ils les bras levés, un roseau à la main, plutôt que de défiler sur des chars ?",
+"Comment un carnaval qui occupe tous les week-ends pendant près de trois mois se transmet-il, des écoles jusqu'aux bandes d'adultes ?",
+"Dans quelle fête de votre région le public devient-il acteur au lieu de rester simple spectateur ?"
+],
+"en": [
+"Why do you think the masked dancers of Limoux dance with their arms raised and a reed in hand, instead of parading on floats?",
+"How is a carnival that fills every weekend for almost three months passed on, from schoolchildren to the adult bands?",
+"In which festival in your own region do onlookers become performers instead of just watching?"
+]
+},
+"vocabulary": [
+{
+"fr": "fécos",
+"en": "fécos",
+"def_fr": "Nom occitan des carnavaliers de Limoux, masqués et costumés, qui dansent sur la place au rythme des musiciens.",
+"def_en": "Occitan name for the masked, costumed carnival-goers of Limoux who dance on the square to the beat of the band."
+},
+{
+"fr": "bande",
+"en": "carnival band",
+"def_fr": "Groupe d'une vingtaine de masques, lié à un quartier, un lieu ou un métier, qui a son jour de sortie ; un nouveau membre doit être accepté à l'unanimité.",
+"def_en": "Group of about twenty masked dancers, tied to a district, a place or a trade, with its own day out; a new member must be accepted unanimously."
+},
+{
+"fr": "carabène",
+"en": "carabène",
+"def_fr": "Roseau fin et souple, souvent aux couleurs de la bande, que le masque tient en dansant ; il prolonge et souligne le geste de la main.",
+"def_en": "Thin, supple reed, often in the band's colours, held by the dancer; it extends and underlines the movement of the hand."
+},
+{
+"fr": "pierrot",
+"en": "pierrot",
+"def_fr": "Costume des sorties de l'après-midi et du soir, avec une épaisse fraise autour du visage masqué ; chaque bande a désormais le sien.",
+"def_en": "Costume for the afternoon and evening outings, with a thick ruff around the masked face; each band now has its own design."
+},
+{
+"fr": "goudil",
+"en": "goudil",
+"def_fr": "Masque qui suit la musique seul ou en petit groupe, dans un costume aux accessoires soignés, et qui improvise un rôle plutôt qu'il ne danse.",
+"def_en": "Masked figure who follows the band alone or in a small group, in a costume with carefully chosen props, improvising a role rather than dancing."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2013_67717_INV_PCI_FRANCE_00296": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, la cerise est-elle devenue l'emblème d'Itxassou, jusque sur les bérets des danseurs et les foulards des bénévoles ?",
+"Que reste-t-il d'une fête de la cerise quand une partie des fruits vendus vient d'ailleurs, faute de vergers entretenus sur place ?",
+"Quel fruit, quel plat ou quel produit sert d'emblème à votre ville ou à votre région, et comment le fête-t-on ?"
+],
+"en": [
+"Why do you think the cherry has become the emblem of Itxassou, even on the dancers' berets and the volunteers' scarves?",
+"What remains of a cherry festival when part of the fruit on sale comes from elsewhere, because local orchards are no longer kept up?",
+"Which fruit, dish or product is the emblem of your own town or region, and how is it celebrated?"
+]
+},
+"vocabulary": [
+{
+"fr": "cerise d'Itxassou",
+"en": "Itxassou cherry",
+"def_fr": "Cerise des vergers de ce village basque, réputée depuis au moins le début du XXe siècle ; on la déguste souvent en confiture avec du fromage de brebis.",
+"def_en": "Cherry from the orchards of this Basque village, renowned since at least the early 20th century; often eaten as jam with sheep's cheese."
+},
+{
+"fr": "gâteau basque",
+"en": "Basque cake",
+"def_fr": "Gâteau fourré de crème pâtissière ou de confiture de cerises ; des bénévoles en préparent dans la semaine qui précède la fête.",
+"def_en": "Cake filled with custard cream or cherry jam; volunteers bake them in the week before the festival."
+},
+{
+"fr": "pelote à main nue",
+"en": "bare-hand pelota",
+"def_fr": "Jeu de balle basque où l'on frappe la pelote avec la paume contre un mur ; une partie est jouée le matin de la fête, après la messe.",
+"def_en": "Basque ball game in which the ball is struck against a wall with the palm; a match is played on the festival morning, after mass."
+},
+{
+"fr": "mur à gauche",
+"en": "mur à gauche (pelota court)",
+"def_fr": "Terrain de pelote bordé d'un mur de face et d'un mur latéral à gauche ; à Itxassou, on y dresse aussi les tables du grand repas.",
+"def_en": "Pelota court with a front wall and a side wall on the left; in Itxassou it also holds the tables for the big festival meal."
+},
+{
+"fr": "force basque",
+"en": "Basque strength games",
+"def_fr": "Épreuves de force issues des travaux de la ferme, comme le tir à la corde ou le lever de pierre, présentées pendant la fête.",
+"def_en": "Contests of strength drawn from farm work, such as tug-of-war or stone lifting, shown during the festival."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2013_67717_INV_PCI_FRANCE_00297": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les jeunes offrent-ils un verre de vin à chaque maison plutôt que de simplement demander de l'argent ?",
+"Comment une tournée de porte en porte peut-elle aider un village qui s'agrandit à accueillir ses nouveaux habitants ?",
+"Dans votre quartier ou votre village, qui frappe aux portes à l'occasion d'une fête, et qu'échange-t-on alors ?"
+],
+"en": [
+"Why do you think the young people offer a glass of wine at every house instead of simply asking for money?",
+"How can a door-to-door round help a growing village to welcome its newcomers?",
+"In your own neighbourhood or village, who knocks on doors for a festival, and what is exchanged?"
+]
+},
+"vocabulary": [
+{
+"fr": "barricòt",
+"en": "barricòt",
+"def_fr": "Mot occitan pour une petite barrique de vin ; il désigne aujourd'hui le tonnelet emporté pendant la tournée, et la tournée elle-même.",
+"def_en": "Occitan word for a small wine cask; it now means both the little barrel carried on the round and the round itself."
+},
+{
+"fr": "quête",
+"en": "festive collection",
+"def_fr": "Tournée des maisons pour recueillir des dons, autrefois souvent en nature ; ils servent à payer la fête, son repas et ses musiciens.",
+"def_en": "Round of the houses to gather gifts, once often in kind; they pay for the festival, its meal and its musicians."
+},
+{
+"fr": "conscrits",
+"en": "conscripts",
+"def_fr": "Jeunes gens d'une même classe d'âge appelés au service militaire ; ce sont eux qui menaient autrefois la quête de la fête du village.",
+"def_en": "Young men of the same age group called up for military service; in the past they ran the village festival collection."
+},
+{
+"fr": "fête votive",
+"en": "fête votive (patronal festival)",
+"def_fr": "Fête annuelle d'un village en l'honneur de son saint patron ; à Labastide-Monréjeau, saint Jean-Baptiste, autour du 24 juin.",
+"def_en": "A village's yearly festival in honour of its patron saint; in Labastide-Monréjeau, Saint John the Baptist, around 24 June."
+},
+{
+"fr": "jurançon",
+"en": "Jurançon wine",
+"def_fr": "Vin blanc du Béarn ; c'est un jurançon doux, acheté à un vigneron voisin, que les jeunes versent aux habitants pendant la tournée.",
+"def_en": "White wine from Béarn; the young people pour a sweet Jurançon, bought from a nearby winegrower, for residents on the round."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2013_67717_INV_PCI_FRANCE_00298": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, la gerbe en mémoire des marins disparus est-elle jetée au large, tous les bateaux réunis, plutôt que déposée sur le quai ?",
+"Comment une fête née des bénédictions qui précédaient les longues campagnes de pêche garde-t-elle son sens aujourd'hui ?",
+"Quel plat de votre région est né d'un métier, et à quelle occasion le cuisine-t-on encore ensemble ?"
+],
+"en": [
+"Why do you think the wreath for lost sailors is thrown out at sea, with all the boats gathered, rather than laid on the quay?",
+"How does a festival that grew out of blessings before long fishing voyages keep its meaning today?",
+"Which dish from your own region was born of a trade, and on what occasion is it still cooked together?"
+]
+},
+"vocabulary": [
+{
+"fr": "ttoro",
+"en": "ttoro",
+"def_fr": "Soupe de poissons basque, préparée à l'origine à bord par les pêcheurs, à base de baudroie, merlu ou congre, de pommes de terre et de piment d'Espelette.",
+"def_en": "Basque fish soup first cooked on board by fishermen, made with monkfish, hake or conger eel, potatoes and Espelette pepper."
+},
+{
+"fr": "levée des couleurs",
+"en": "flag-raising ceremony",
+"def_fr": "Cérémonie où l'on hisse le drapeau ; ici, un jeune mousse le monte au mât sur l'ordre d'un officier de marine.",
+"def_en": "Ceremony in which the flag is hoisted; here a young ship's boy raises it on the order of a naval officer."
+},
+{
+"fr": "traînière",
+"en": "trainera",
+"def_fr": "Longue embarcation basque à rames, menée par treize rameurs et un barreur debout à l'arrière ; on en voit lors du défi nautique.",
+"def_en": "Long Basque rowing boat crewed by thirteen rowers and a coxswain standing at the stern; some take part in the boating challenge."
+},
+{
+"fr": "gerbe",
+"en": "wreath",
+"def_fr": "Couronne de fleurs jetée en mer depuis un bateau, après une prière et un chant, en hommage aux marins péris.",
+"def_en": "Ring of flowers thrown into the sea from a boat, after a prayer and a song, in tribute to sailors who died at sea."
+},
+{
+"fr": "criée",
+"en": "fish auction hall",
+"def_fr": "Halle du port où le poisson débarqué est vendu aux enchères ; celle de Ciboure accueille le repas qui clôt la fête.",
+"def_en": "Harbour hall where the landed fish is sold at auction; the one in Ciboure hosts the meal that closes the festival."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2013_67717_INV_PCI_FRANCE_00302": {
+"audience": "general",
+"questions": {
+"fr": [
+"Que veut dire, selon vous, une bénédiction des bourgeons qui vise à la fois la vigne et les enfants présents ?",
+"Comment une vieille fête de vignerons a-t-elle pu prendre un nouvel élan avec une confrérie née au moment de l'appellation du vin de Marcillac ?",
+"Quelle production agricole de votre région est célébrée par une fête, une bénédiction ou une confrérie ?"
+],
+"en": [
+"What do you think is meant by a blessing of the buds that is aimed both at the vines and at the children present?",
+"How could an old winegrowers' festival gain new momentum through a brotherhood founded when Marcillac wine got its official appellation?",
+"Which farm product of your own region is celebrated with a festival, a blessing or a brotherhood?"
+]
+},
+"vocabulary": [
+{
+"fr": "bourrou",
+"en": "bourrou",
+"def_fr": "Du mot occitan borron, le bourgeon de vigne ; la fête en a fait le saint patron de Marcillac, saint Bourrou.",
+"def_en": "From the Occitan word borron, a vine bud; the festival turned it into Marcillac's patron, Saint Bourrou."
+},
+{
+"fr": "mansois",
+"en": "mansois",
+"def_fr": "Cépage rouge du vallon de Marcillac, appelé fer servadou ailleurs ; un cep taillé en couronne est porté dans le défilé.",
+"def_en": "Red grape variety of the Marcillac valley, known elsewhere as fer servadou; a vine stock pruned into a crown is carried in the parade."
+},
+{
+"fr": "échansonnerie",
+"en": "wine brotherhood",
+"def_fr": "Confrérie de Saint-Bourrou, créée en 1989 pour faire connaître le vin de Marcillac ; ses membres portent tunique rouge et chapeau noir.",
+"def_en": "The Saint-Bourrou brotherhood, founded in 1989 to promote Marcillac wine; its members wear a red tunic and a black hat."
+},
+{
+"fr": "tasson",
+"en": "tasson (tastevin)",
+"def_fr": "Petite tasse à déguster le vin, portée au cou par les échansons ; souvent en argent, elle se transmet de génération en génération.",
+"def_en": "Small wine-tasting cup worn round the neck by brotherhood members; often made of silver and handed down through the generations."
+},
+{
+"fr": "intronisation",
+"en": "induction",
+"def_fr": "Cérémonie où la confrérie accueille de nouveaux membres ; ils jurent fidélité au mansois et vident d'un trait un tasson de vin.",
+"def_en": "Ceremony in which the brotherhood welcomes new members; they swear loyalty to mansois and drain a tasson of wine in one go."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2013_67717_INV_PCI_FRANCE_00313": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, certains rapportent-ils chez eux un morceau de bois calciné du brandon une fois le feu éteint ?",
+"Comment faire vivre une fête du feu dans les petits villages de montagne qui se dépeuplent et manquent de bras ?",
+"Quels feux, lumières ou fêtes marquent le passage des saisons dans votre région ?"
+],
+"en": [
+"Why do you think some people take home a piece of charred wood from the brandon once the fire has died down?",
+"How can a fire festival be kept alive in small mountain villages that are losing their people and lack helping hands?",
+"Which fires, lights or festivals mark the turning of the seasons in your own region?"
+]
+},
+"vocabulary": [
+{
+"fr": "brandon",
+"en": "brandon",
+"def_fr": "Grand tronc de sapin écorcé, fendu et garni de copeaux et de paille, dressé puis embrasé pour la Saint-Jean ; en occitan, on dit « brandou ».",
+"def_en": "Tall stripped fir trunk, split and packed with wood shavings and straw, raised and set alight for Saint John's Day; \"brandou\" in Occitan."
+},
+{
+"fr": "solstice d'été",
+"en": "summer solstice",
+"def_fr": "Jour le plus long de l'année, vers le 21 juin ; les feux de la Saint-Jean, le 24 juin, en prolongent la célébration.",
+"def_en": "The longest day of the year, around 21 June; the Saint John's fires on 24 June carry on its celebration."
+},
+{
+"fr": "coin",
+"en": "wedge",
+"def_fr": "Pièce de fer qui sert à fendre le tronc, ou de bois qui garde les fentes ouvertes ; des cercles de fer évitent que le tronc n'éclate.",
+"def_en": "Iron piece used to split the trunk, or wooden piece to keep the splits open; iron hoops stop the trunk from bursting."
+},
+{
+"fr": "tison",
+"en": "firebrand",
+"def_fr": "Morceau de bois encore brûlant ; quand le brandon s'effondre, des jeunes en saisissent un et le font tournoyer dans la nuit.",
+"def_en": "Piece of still-burning wood; when the brandon collapses, young people grab one and whirl it through the dark."
+},
+{
+"fr": "Guides à cheval",
+"en": "mounted guides",
+"def_fr": "Compagnie de Luchon qui menait autrefois touristes et curistes en montagne ; elle défile le soir du brandon en faisant claquer ses fouets.",
+"def_en": "Luchon company that once led tourists and spa visitors into the mountains; it parades on brandon night, cracking its whips."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2013_67717_INV_PCI_FRANCE_00318": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, l'arbre de mai doit-il être abattu à la main, à la scie, par les jeunes de 19 ans plutôt qu'avec une machine ?",
+"Que devient un rite autrefois mené par les conscrits, surtout des garçons, quand filles et garçons de 19 ans y prennent part ensemble ?",
+"Quels gestes ou quelles fêtes marquent, autour de vous, le passage à l'âge adulte ?"
+],
+"en": [
+"Why do you think the May tree has to be felled by hand, with a saw, by the 19-year-olds rather than with a machine?",
+"What becomes of a rite once led by conscripts, mostly young men, when 19-year-old women and men now take part together?",
+"Which customs or celebrations mark the step into adulthood in the world around you?"
+]
+},
+"vocabulary": [
+{
+"fr": "arbre de mai",
+"en": "May tree",
+"def_fr": "Arbre planté début mai sur la place du village pour saluer le retour de la belle saison ; à Locronan, c'est toujours un hêtre.",
+"def_en": "Tree planted on the village square in early May to welcome the return of the fine season; in Locronan it is always a beech."
+},
+{
+"fr": "cycle de mai",
+"en": "May cycle",
+"def_fr": "Ensemble des coutumes qui fêtent le renouveau de la nature au début de mai, comme planter un arbre ou poser des branches aux fenêtres.",
+"def_en": "The customs that celebrate nature's renewal in early May, such as planting a tree or putting branches at windows."
+},
+{
+"fr": "harpon",
+"en": "harpon (two-man saw)",
+"def_fr": "Grande scie à deux manches, maniée à deux ; les jeunes de 19 ans s'en servent pour abattre l'arbre, souvent aidés par le public.",
+"def_en": "Large saw with a handle at each end, worked by two people; the 19-year-olds use it to fell the tree, often helped by onlookers."
+},
+{
+"fr": "feu de la Saint-Jean",
+"en": "Midsummer bonfire",
+"def_fr": "Grand feu allumé autour du 24 juin ; à Locronan, les branches de l'arbre de mai abattu viennent l'alimenter.",
+"def_en": "Large bonfire lit around 24 June; in Locronan, the branches of the felled May tree go on to feed it."
+},
+{
+"fr": "vente aux enchères",
+"en": "auction",
+"def_fr": "Vente au plus offrant ; le bas du tronc abattu est vendu ainsi sur la place, autrefois à des sabotiers, aujourd'hui plutôt à des artistes qui le sculptent.",
+"def_en": "Sale to the highest bidder; the base of the felled trunk is auctioned on the square, once to clog-makers, now more often to sculptors."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2013_67717_INV_PCI_FRANCE_00321": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, le Roi carnaval reçoit-il les clés de la ville avant d'être jugé puis brûlé dans le bassin du port ?",
+"Que permet un carnaval où chaque comité choisit librement de quoi se moquer, dans des règles fixées par les carnavaliers eux-mêmes ?",
+"Dans votre ville ou votre région, quelle fête permet de rire ouvertement de l'actualité ou des puissants ?"
+],
+"en": [
+"Why do you think the Carnival King is handed the keys to the town before being tried and burnt in the harbour basin?",
+"What does a carnival make possible when each committee freely chooses what to mock, within rules set by the carnival-goers themselves?",
+"In your own town or region, which festival lets people laugh openly at current events or at those in power?"
+]
+},
+"vocabulary": [
+{
+"fr": "cavalcade",
+"en": "cavalcade",
+"def_fr": "Grand défilé de chars, de groupes costumés et de fanfares ; à Granville, plusieurs cortèges partent de quartiers différents et convergent vers le centre.",
+"def_en": "Large parade of floats, costumed groups and brass bands; in Granville several processions set off from different districts and meet in the centre."
+},
+{
+"fr": "char",
+"en": "float",
+"def_fr": "Plateau roulant décoré, construit en secret pendant des mois par un comité, souvent avec des matériaux de récupération.",
+"def_en": "Decorated vehicle built in secret over several months by a committee, often from salvaged materials."
+},
+{
+"fr": "Roi carnaval",
+"en": "Carnival King",
+"def_fr": "Grand personnage en papier mâché qui règne sur la ville pendant la fête, puis est jugé et brûlé le Mardi gras.",
+"def_en": "Large papier-mâché figure who rules the town during the festival and is then tried and burnt on Shrove Tuesday."
+},
+{
+"fr": "intrigue",
+"en": "intrigue",
+"def_fr": "Jeu de la dernière nuit où, caché sous un masque, on taquine des proches en évoquant des détails de leur vie sans se faire reconnaître.",
+"def_en": "Game of the last night in which, hidden behind a mask, you tease people you know about details of their lives without being recognised."
+},
+{
+"fr": "bataille de confettis",
+"en": "confetti battle",
+"def_fr": "Grande mêlée joyeuse sur la place de la mairie le soir du Mardi gras ; cinq à six tonnes de confettis sont lancées pendant le carnaval.",
+"def_en": "Huge good-humoured scrum on the town-hall square on the evening of Shrove Tuesday; five to six tonnes of confetti are thrown during the carnival."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2013_67717_INV_PCI_FRANCE_00322": {
+"audience": "general",
+"questions": {
+"fr": [
+"Que racontent, selon vous, les costumes de Reuze Papa en légionnaire romain et de Reuze Maman, d'abord représentée en femme de pêcheur ?",
+"Que révèle, selon vous, la liste d'attente des volontaires qui souhaitent devenir porteurs des géants de Cassel ?",
+"Quel personnage, animal ou figure sert d'emblème à votre ville ou à votre quartier les jours de fête ?"
+],
+"en": [
+"What do you think the costumes say, with Reuze Papa dressed as a Roman legionary and Reuze Maman first shown as a fisherman's wife?",
+"What do you think the waiting list of volunteers who want to carry the Cassel giants reveals?",
+"Which character, animal or figure stands for your own town or neighbourhood on festival days?"
+]
+},
+"vocabulary": [
+{
+"fr": "Reuze",
+"en": "Reuze",
+"def_fr": "Mot flamand qui signifie « géant » ; il désigne les deux géants de Cassel et l'air que l'on chante en les faisant danser.",
+"def_en": "Flemish word meaning \"giant\"; it names the two Cassel giants and the tune sung while they dance."
+},
+{
+"fr": "ritournelle",
+"en": "ritournelle",
+"def_fr": "Danse où les deux géants se font face et « s'embrassent », dédiée aux habitants d'une maison que l'on veut honorer.",
+"def_en": "Dance in which the two giants face each other and \"kiss\", dedicated to the people of a house the town wishes to honour."
+},
+{
+"fr": "Four merveilleux",
+"en": "Wonderful Oven",
+"def_fr": "Char portant un four en trompe-l'œil où l'on « enfourne » pour rire un spectateur, censé ressortir rajeuni, ou parfois vieilli.",
+"def_en": "Float carrying a painted mock oven into which a spectator is jokingly \"baked\", supposed to come out younger, or sometimes older."
+},
+{
+"fr": "cheval-jupon",
+"en": "hobby horse",
+"def_fr": "Cheval factice porté à la taille par un cavalier masqué, avec de fausses jambes bottées fixées sur les flancs.",
+"def_en": "Mock horse worn around the waist by a masked rider, with false booted legs fixed to its sides."
+},
+{
+"fr": "ducasse",
+"en": "ducasse (funfair)",
+"def_fr": "Mot du Nord pour la kermesse et la fête foraine ; à Cassel, manèges et marchands de gaufres s'installent sur la grand-place.",
+"def_en": "Northern French word for a fair and funfair; in Cassel, rides and waffle stalls set up on the main square."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2013_67717_INV_PCI_FRANCE_00323": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, célèbre-t-on la naissance ou le mariage de géants avec de vrais actes signés en mairie ?",
+"Comment de petits géants, portés par des jeunes, aident-ils à transmettre le portage et les savoirs des marins ?",
+"Quel métier ou quel personnage de votre région mériterait d'être représenté par un géant, et pourquoi ?"
+],
+"en": [
+"Why do you think the birth or wedding of giants is celebrated with real certificates signed at the town hall?",
+"How do small giants, carried by young people, help to pass on giant-carrying and seafaring skills?",
+"Which trade or character from your own region would deserve to be turned into a giant, and why?"
+]
+},
+"vocabulary": [
+{
+"fr": "Matelote",
+"en": "Matelote",
+"def_fr": "Géante de Grand-Fort-Philippe, vêtue comme une femme de marin, avec bonnet de dentelle blanche, robe et tablier noirs et châle blanc.",
+"def_en": "Giant of Grand-Fort-Philippe, dressed as a sailor's wife in a white lace bonnet, black dress and apron and a white shawl."
+},
+{
+"fr": "baptême civil",
+"en": "civil naming ceremony",
+"def_fr": "Cérémonie en mairie, sans caractère religieux ; pour un nouveau géant, on y signe un acte de baptême et un certificat de parrainage.",
+"def_en": "Town-hall ceremony with no religious meaning; for a new giant, a naming certificate and a godparenting certificate are signed."
+},
+{
+"fr": "géant roulé",
+"en": "wheeled giant",
+"def_fr": "Géant monté sur roulettes et poussé de l'extérieur, comme l'Islandais de Gravelines, à la différence des géants portés.",
+"def_en": "Giant mounted on wheels and pushed from outside, like the Islandais of Gravelines, unlike giants that are carried."
+},
+{
+"fr": "hareng pec",
+"en": "salted herring",
+"def_fr": "Hareng salé, lot de la tombola de la fête ; d'autres harengs sont lancés à la foule du balcon de la mairie.",
+"def_en": "Salted herring, a prize in the festival raffle; other herrings are thrown to the crowd from the town-hall balcony."
+},
+{
+"fr": "pomme de touline",
+"en": "monkey's fist",
+"def_fr": "Nœud en boule qui alourdit le bout d'un cordage à lancer ; le géant Gut en tient une, rappel des savoirs de marin.",
+"def_en": "Ball-shaped knot that weights the end of a line to be thrown; the giant Gut holds one, a reminder of seafaring skills."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2013_67717_INV_PCI_FRANCE_00324": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, dit-on à Steenvoorde qu'un géant qui n'est pas porté ne danse pas, et donc ne vit pas ?",
+"Que gagne une petite ville de quelques milliers d'habitants à accueillir des géants de toute l'Europe, et qu'exige d'elle cet accueil ?",
+"Quelle fête de votre région invite des groupes venus d'autres pays, et que partage-t-on alors ?"
+],
+"en": [
+"Why do you think people in Steenvoorde say that a giant that is not carried cannot dance, and so is not alive?",
+"What does a small town of a few thousand people gain by welcoming giants from all over Europe, and what does that welcome demand of it?",
+"Which festival in your own region invites groups from other countries, and what is shared on that occasion?"
+]
+},
+"vocabulary": [
+{
+"fr": "géant porté",
+"en": "carried giant",
+"def_fr": "Géant animé par un ou plusieurs porteurs cachés dans sa structure, qui le font avancer, tourner et danser.",
+"def_en": "Giant brought to life by one or more bearers hidden inside its frame, who make it walk, turn and dance."
+},
+{
+"fr": "porteur",
+"en": "bearer",
+"def_fr": "Personne qui porte le géant ; à Steenvoorde, une section d'enfants apprend le portage avec le petit géant Jacobus, créé en 2004.",
+"def_en": "Person who carries the giant; in Steenvoorde a children's section learns to carry with the small giant Jacobus, made in 2004."
+},
+{
+"fr": "Jean le Bûcheron",
+"en": "Jean the Woodcutter",
+"def_fr": "Principal géant de Steenvoorde, casqué, la hache à l'épaule ; il figure un bûcheron légendaire qui aurait secouru le village au temps de Charlemagne.",
+"def_en": "Steenvoorde's main giant, helmeted, with an axe on his shoulder; he portrays a legendary woodcutter said to have saved the village in Charlemagne's time."
+},
+{
+"fr": "ronde européenne",
+"en": "European round",
+"def_fr": "Rassemblement exceptionnel de géants portés venus de plusieurs pays, organisé certaines années depuis 1989, à une date proche du 1er mai.",
+"def_en": "Special gathering of carried giants from several countries, held in some years since 1989 on a date close to 1 May."
+},
+{
+"fr": "estaminet",
+"en": "estaminet",
+"def_fr": "Café traditionnel de Flandre ; le soir du carnaval, la fête s'y prolonge en musique.",
+"def_en": "Traditional Flemish café; on carnival night, the festivities carry on there with music."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00329": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les maires signent-ils chaque année un acte sur les bornes alors que plus personne ne va les vérifier ce jour-là ?",
+"Que devient ce rendez-vous de part et d'autre de la frontière quand les bergers se font plus rares sur les estives ?",
+"Quelle frontière, quelle limite de commune ou quel ancien chemin marque le paysage autour de chez vous ?"
+],
+"en": [
+"Why do you think the mayors sign a record about the boundary stones every year, even though nobody goes to check them on the day?",
+"What becomes of this cross-border meeting as shepherds grow fewer on the summer pastures?",
+"Which border, municipal boundary or old track shapes the landscape around where you live?"
+]
+},
+"vocabulary": [
+{
+"fr": "borne frontière",
+"en": "boundary stone",
+"def_fr": "Pierre numérotée qui marque la frontière entre la France et l'Espagne ; la rencontre se tient près de la borne 262.",
+"def_en": "Numbered stone marking the border between France and Spain; the meeting takes place near stone no. 262."
+},
+{
+"fr": "procès-verbal de bornage",
+"en": "boundary record",
+"def_fr": "Acte officiel, signé en plusieurs exemplaires et marqué du cachet de chaque commune, qui constate la présence des bornes.",
+"def_en": "Official record, signed in several copies and stamped with each commune's seal, that confirms the boundary stones are in place."
+},
+{
+"fr": "alcalde",
+"en": "alcalde",
+"def_fr": "Maire d'une commune espagnole ; celui d'Isaba, dans la vallée de Roncal, appelle tour à tour les délégations françaises à signer.",
+"def_en": "Mayor of a Spanish municipality; the alcalde of Isaba, in the Roncal valley, calls each French delegation in turn to sign."
+},
+{
+"fr": "estive",
+"en": "summer pasture",
+"def_fr": "Pâturage de montagne où les troupeaux passent l'été ; en le parcourant, les bergers repèrent les bornes et signalent tout problème.",
+"def_en": "Mountain grazing land where flocks spend the summer; as they move across it, shepherds keep an eye on the stones and report any problem."
+},
+{
+"fr": "Traité de Bayonne",
+"en": "Treaty of Bayonne",
+"def_fr": "Traité franco-espagnol de 1856 qui fixe la frontière et les droits des habitants frontaliers dans l'ouest des Pyrénées.",
+"def_en": "Franco-Spanish treaty of 1856 that set the border and the rights of border communities in the western Pyrenees."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00330": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, le prêtre bénit-il des piments pendant la messe du dimanche, au cœur d'une fête qui est aussi un grand marché ?",
+"Née pour réveiller un village rural, la fête attire aujourd'hui des milliers de visiteurs : qu'est-ce que ce succès change pour les habitants et les producteurs ?",
+"Quel produit de votre région est célébré par une fête, un marché ou une confrérie, et que dit-il de son territoire ?"
+],
+"en": [
+"Why do you think the priest blesses chillies during the Sunday mass, at the heart of a festival that is also a big market?",
+"Started to wake up a rural village, the festival now draws thousands of visitors: what does this success change for residents and growers?",
+"Which product from your own region is celebrated by a festival, a market or a brotherhood, and what does it say about the place?"
+]
+},
+"vocabulary": [
+{
+"fr": "piment d'Espelette",
+"en": "Espelette pepper",
+"def_fr": "Piment cultivé autour d'Espelette, séché et souvent réduit en poudre ; il bénéficie d'une appellation d'origine contrôlée (AOC) depuis 2000.",
+"def_en": "Chilli grown around Espelette, dried and often ground into powder; it has held a protected designation of origin (AOC) since 2000."
+},
+{
+"fr": "corde de piments",
+"en": "chilli string",
+"def_fr": "Guirlande de piments enfilés les uns aux autres et suspendus pour sécher ; on en vend de fraîches et de séchées sur les étals de la fête.",
+"def_en": "Garland of chillies threaded together and hung up to dry; fresh and dried ones are sold on the festival stalls."
+},
+{
+"fr": "confrérie",
+"en": "brotherhood",
+"def_fr": "Association qui défend et fait connaître un produit local ; celle du piment d'Espelette, créée en 1969, organise la fête.",
+"def_en": "Association that champions a local product; the Espelette pepper brotherhood, founded in 1969, runs the festival."
+},
+{
+"fr": "intronisation",
+"en": "induction ceremony",
+"def_fr": "Cérémonie où la confrérie accueille de nouveaux membres ou honore des invités, au château des Barons d'Espelette, après la messe.",
+"def_en": "Ceremony in which the brotherhood welcomes new members or honours guests, at the château of the Barons of Espelette, after mass."
+},
+{
+"fr": "banda",
+"en": "banda",
+"def_fr": "Fanfare de cuivres et de percussions typique des fêtes du Sud-Ouest ; plusieurs bandas animent les rues le dimanche.",
+"def_en": "Brass and percussion band typical of festivals in south-west France; several bandas liven up the streets on Sunday."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00331": {
+"audience": "general",
+"questions": {
+"fr": [
+"Que symbolise, selon vous, le geste des maires français et espagnols qui posent tour à tour la main sur la borne frontière avant de proclamer « Pax avant » ?",
+"Depuis 2000, on remet la valeur des trois génisses plutôt que les bêtes elles-mêmes : comment un rituel garde-t-il son sens quand son objet devient symbolique ?",
+"Quels accords, fêtes ou rencontres relient votre commune à des voisins de l'autre côté d'une frontière, d'une rivière ou d'une montagne ?"
+],
+"en": [
+"What do you think it means when French and Spanish mayors lay their hands on the border stone in turn before proclaiming “Pax avant”?",
+"Since 2000, the value of the three heifers has been handed over instead of the animals themselves: how does a ritual keep its meaning when its object becomes symbolic?",
+"Which agreements, festivals or meetings link your town to neighbours on the other side of a border, a river or a mountain?"
+]
+},
+"vocabulary": [
+{
+"fr": "borne 262",
+"en": "boundary stone 262",
+"def_fr": "Borne de la frontière franco-espagnole au col de la Pierre-Saint-Martin, autour de laquelle se déroule chaque année la cérémonie.",
+"def_en": "Marker of the French-Spanish border at the Pierre-Saint-Martin pass, around which the ceremony takes place every year."
+},
+{
+"fr": "alcade",
+"en": "alcalde",
+"def_fr": "Maire d'une commune espagnole ; celui d'Isaba préside la cérémonie et pose en castillan les questions rituelles sur le tribut.",
+"def_en": "Mayor of a Spanish municipality; the alcalde of Isaba presides over the ceremony and asks the ritual questions about the tribute in Castilian."
+},
+{
+"fr": "facerie",
+"en": "facerie",
+"def_fr": "Accord pastoral entre vallées voisines des Pyrénées, qui règle le partage des pâturages et des points d'eau de part et d'autre de la frontière.",
+"def_en": "Pastoral agreement between neighbouring Pyrenean valleys, setting out how pastures and water sources are shared across the border."
+},
+{
+"fr": "tribut des trois vaches",
+"en": "tribute of the three cows",
+"def_fr": "Redevance perpétuelle confirmée par la sentence de 1375 : trois génisses de deux ans, saines et sans défaut, dues chaque année aux Roncalais.",
+"def_en": "Perpetual payment confirmed by the 1375 ruling: three healthy, flawless two-year-old heifers owed every year to the people of Roncal."
+},
+{
+"fr": "transhumance",
+"en": "transhumance",
+"def_fr": "Déplacement saisonnier des troupeaux vers les estives ; le traité permet aux brebis de Barétous de paître côté navarrais pendant 28 jours à partir du 13 juillet.",
+"def_en": "Seasonal movement of flocks to summer pastures; the treaty lets Barétous sheep graze on the Navarre side for 28 days from 13 July."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00340": {
+"audience": "general",
+"questions": {
+"fr": [
+"Dans une ronde de fest-noz, chacun tient la main ou le bras de ses voisins : qu'est-ce que cette façon de danser dit du lien entre les participants ?",
+"Le fest-noz est passé des noces et des veillées paysannes aux salles des fêtes, puis aux mélanges avec le rock ou l'électro : qu'est-ce qui doit rester pour qu'il demeure un fest-noz ?",
+"Où, près de chez vous, des personnes de tous âges se retrouvent-elles pour danser ou chanter ensemble ?"
+],
+"en": [
+"In a fest-noz round dance, everyone holds their neighbours by the hand or arm: what does this way of dancing say about the bond between the dancers?",
+"The fest-noz moved from country weddings and evening gatherings to village halls, then to blends with rock or electronic music: what must remain for it still to be a fest-noz?",
+"Where, near you, do people of all ages get together to dance or sing?"
+]
+},
+"vocabulary": [
+{
+"fr": "kan ha diskan",
+"en": "kan ha diskan",
+"def_fr": "Chant à danser en breton, a cappella : deux chanteurs se répondent, chacun reprenant la fin de la phrase de l'autre pour ne jamais laisser de silence.",
+"def_en": "Unaccompanied dance singing in Breton: two singers answer each other, each picking up the end of the other's line so the song never stops."
+},
+{
+"fr": "sonneur",
+"en": "piper",
+"def_fr": "Musicien qui joue d'un instrument traditionnel pour faire danser ; les sonneurs vont souvent par deux, par exemple biniou et bombarde.",
+"def_en": "Musician who plays a traditional instrument for dancing; pipers often play in pairs, for example biniou and bombarde."
+},
+{
+"fr": "bombarde",
+"en": "bombarde",
+"def_fr": "Instrument à vent à anche double, au son puissant, emblématique de la musique bretonne ; on l'associe souvent au biniou, petite cornemuse.",
+"def_en": "Double-reed wind instrument with a powerful sound, emblematic of Breton music; it is often paired with the biniou, a small bagpipe."
+},
+{
+"fr": "ronde",
+"en": "round dance",
+"def_fr": "La forme de danse la plus ancienne du fest-noz : les danseurs, liés par la main ou le bras, avancent en cercle ou en chaîne.",
+"def_en": "The oldest form of fest-noz dance: dancers, linked by the hand or arm, move together in a circle or a chain."
+},
+{
+"fr": "cercle celtique",
+"en": "Celtic circle",
+"def_fr": "Association bretonne qui pratique et transmet danses et costumes traditionnels ; ces cercles ont porté le renouveau culturel du XXe siècle.",
+"def_en": "Breton association that practises and passes on traditional dances and costumes; these circles drove the 20th-century cultural revival."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00345": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, le char du Roi du Carnaval revient-il chaque année, alors que les autres chars changent de thème ?",
+"Les chars demandent des mois de travail à des bénévoles souvent retraités : comment donner envie aux jeunes de construire le carnaval, et pas seulement de le regarder ?",
+"Quelle fête de votre commune mobilise des bénévoles toute l'année, et que représente-t-elle pour les habitants ?"
+],
+"en": [
+"Why do you think the Carnival King's float comes back every year, while the other floats change their theme?",
+"The floats take months of work by volunteers, many of them retired: how can young people be encouraged to build the carnival, not just watch it?",
+"Which festival in your own town keeps volunteers busy all year round, and what does it mean to the people who live there?"
+]
+},
+"vocabulary": [
+{
+"fr": "char",
+"en": "float",
+"def_fr": "Plateau décoré, tiré par un tracteur, qui porte des personnages géants souvent articulés ; à Manthelan, la plupart mesurent six mètres de haut.",
+"def_en": "Decorated platform pulled by a tractor and carrying giant figures, often with moving parts; in Manthelan most are six metres high."
+},
+{
+"fr": "carton-pâte",
+"en": "papier-mâché",
+"def_fr": "Pâte de papier journal et de carton, modelée sur une armature métallique grillagée pour donner forme aux personnages des chars.",
+"def_en": "Paste of newspaper and cardboard, moulded over a wire-mesh metal frame to shape the figures on the floats."
+},
+{
+"fr": "comité des fêtes",
+"en": "festival committee",
+"def_fr": "Association de bénévoles qui organise le carnaval et les festivités qui le préparent ; celle de Manthelan a été fondée en 1959.",
+"def_en": "Volunteer association that runs the carnival and the events leading up to it; Manthelan's was founded in 1959."
+},
+{
+"fr": "Mardi gras",
+"en": "Shrove Tuesday",
+"def_fr": "Dernier jour de fête avant le carême, dont la date suit celle de Pâques ; le carnaval de Manthelan a lieu le dimanche suivant.",
+"def_en": "Last day of feasting before Lent, its date tied to Easter; the Manthelan carnival takes place on the following Sunday."
+},
+{
+"fr": "miss carnaval",
+"en": "carnival queen",
+"def_fr": "Jeune femme élue lors d'une soirée quelques semaines avant le défilé ; elle parade avec ses dauphines sur l'un des chars.",
+"def_en": "Young woman elected at an evening event a few weeks before the parade; she rides on one of the floats with her runners-up."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00348": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, le lion danse-t-il devant les boutiques et vient-il « manger » une laitue suspendue à l'entrée ?",
+"Préparés par des associations franco-asiatiques mais ouverts à tous, les défilés attirent des milliers de Parisiens : qu'apporte cette fête à ceux qui ne l'ont pas reçue en héritage ?",
+"Comment célèbre-t-on le passage à la nouvelle année dans votre famille ou votre région, et à quelle date ?"
+],
+"en": [
+"Why do you think the lion dances in front of shops and comes to “eat” a lettuce hung at the entrance?",
+"Prepared by Franco-Asian associations but open to all, the parades draw thousands of Parisians: what does this celebration offer to people who did not inherit it?",
+"How is the new year celebrated in your own family or region, and on what date?"
+]
+},
+"vocabulary": [
+{
+"fr": "danse du lion",
+"en": "lion dance",
+"def_fr": "Danse acrobatique où deux danseurs animent un lion, l'un à la tête, l'autre à l'arrière, au son du tambour, des cymbales et du gong, pour chasser les mauvais esprits.",
+"def_en": "Acrobatic dance in which two dancers bring a lion to life, one at the head and one at the back, to drum, cymbals and gong, to drive away evil spirits."
+},
+{
+"fr": "danse du dragon",
+"en": "dragon dance",
+"def_fr": "Un long dragon de soie ou de tissu, tenu sur des perches par une douzaine de danseurs ou plus, ondule en poursuivant une boule figurant une perle.",
+"def_en": "A long dragon of silk or cloth, held on poles by a dozen or more dancers, weaves through the crowd chasing a ball that stands for a pearl."
+},
+{
+"fr": "ouverture de l'œil du dragon",
+"en": "eye-dotting ceremony",
+"def_fr": "Cérémonie d'ouverture : des invités peignent au pinceau les yeux du lion ou du dragon pour lui donner vie avant les premières danses.",
+"def_en": "Opening ceremony in which guests paint the eyes of the lion or dragon with a brush to bring it to life before the first dances."
+},
+{
+"fr": "enveloppe rouge",
+"en": "red envelope",
+"def_fr": "Petite enveloppe contenant de l'argent, offerte pour la nouvelle année ; les commerçants en remettent aux troupes de danse du lion.",
+"def_en": "Small envelope containing money, given at the new year; shopkeepers hand them to the lion dance troupes."
+},
+{
+"fr": "calendrier lunaire",
+"en": "lunar calendar",
+"def_fr": "Calendrier chinois réglé sur les phases de la Lune ; le Nouvel An y tombe chaque année à une date différente, entre le 21 janvier et le 20 février.",
+"def_en": "Chinese calendar based on the phases of the Moon; the New Year falls on a different date each year, between 21 January and 20 February."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00349": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, la fête se termine-t-elle sur la place principale par le rasage de l'ours, qui le rend à nouveau humain ?",
+"Autrefois « victimes » désignées de l'ours, les femmes participent et organisent aujourd'hui la fête : comment un rituel ancien peut-il faire évoluer les rôles de chacun ?",
+"Quelles fêtes de votre région marquent la fin de l'hiver ou mettent en scène un animal ?"
+],
+"en": [
+"Why do you think the festival ends in the main square with the shaving of the bear, which makes him human again?",
+"Once the bear's chosen “victims”, women now take part in and organise the festival: how can an old ritual change the roles people play?",
+"Which festivals in your own region mark the end of winter or feature an animal?"
+]
+},
+"vocabulary": [
+{
+"fr": "ours",
+"en": "bear",
+"def_fr": "Personnage central : un homme vêtu de peaux de mouton, le corps et le visage noircis d'huile et de suie, qui descend de la montagne et sème le désordre.",
+"def_en": "The central character: a man dressed in sheepskins, his body and face blackened with oil and soot, who comes down from the mountain and causes chaos."
+},
+{
+"fr": "chasseur",
+"en": "hunter",
+"def_fr": "Personnage qui poursuit l'ours dans les rues en tirant des coups de fusil, sans cesse déjoué, jusqu'à sa capture.",
+"def_en": "Character who chases the bear through the streets firing shots, outwitted again and again until the bear is caught."
+},
+{
+"fr": "barbier",
+"en": "barber",
+"def_fr": "Personnage chargé du rasage final de l'ours, geste qui le dépouille de son animalité et le fait revenir dans la communauté.",
+"def_en": "Character in charge of the bear's final shave, the act that strips away his animal nature and brings him back into the community."
+},
+{
+"fr": "mâchurage",
+"en": "mâchurage",
+"def_fr": "Fait de noircir de suie le visage des spectateurs, surtout à Prats-de-Mollo ; être mâchuré est aujourd'hui vécu comme un honneur.",
+"def_en": "Smearing spectators' faces with soot, especially in Prats-de-Mollo; being blackened is now seen as an honour."
+},
+{
+"fr": "cobla",
+"en": "cobla",
+"def_fr": "Orchestre catalan traditionnel d'une dizaine de musiciens, qui joue les airs de l'ours et les sardanes dansées par les habitants.",
+"def_en": "Traditional Catalan band of about ten musicians, playing the bear tunes and the sardanes danced by local people."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00350": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les géants de Douai forment-ils une famille, avec un père, une mère et trois enfants, plutôt qu'un personnage isolé ?",
+"On devient porteur de Gayant surtout par lien de parenté, après avoir commencé comme quêteur : que gagne et que risque une tradition transmise de cette façon ?",
+"Quel personnage, monument ou figure sert d'emblème à votre ville, et comment les habitants le font-ils vivre ?"
+],
+"en": [
+"Why do you think the Douai giants form a family, with a father, a mother and three children, rather than a single figure?",
+"People become Gayant carriers mostly through family ties, after starting as collectors: what does a tradition gain, and risk, when it is passed on this way?",
+"Which character, monument or figure is the emblem of your own town, and how do local people keep it alive?"
+]
+},
+"vocabulary": [
+{
+"fr": "porteur",
+"en": "carrier",
+"def_fr": "Homme qui porte le géant sur ses épaules, caché sous sa jupe ; Monsieur et Madame Gayant ont chacun une équipe de six porteurs.",
+"def_en": "Man who carries the giant on his shoulders, hidden under its skirt; Monsieur and Madame Gayant each have a team of six carriers."
+},
+{
+"fr": "panier",
+"en": "basket frame",
+"def_fr": "Structure en bois et osier qui forme le bas du géant et donne sa forme à la jupe ; une ouverture permet au porteur de voir devant lui.",
+"def_en": "Wood and wicker frame forming the lower part of the giant and shaping its skirt; an opening lets the carrier see ahead."
+},
+{
+"fr": "rigodon",
+"en": "rigodon",
+"def_fr": "Danse des géants, lancée au signal des chefs de protocole, au son des tambours ou de l'air de Gayant.",
+"def_en": "The giants' dance, started at a signal from the heads of protocol, to the drums or the Gayant tune."
+},
+{
+"fr": "Binbin",
+"en": "Binbin",
+"def_fr": "Le plus jeune géant de la famille, un bébé qui louche ; on lui fait embrasser les tout-petits, baiser censé les protéger du strabisme.",
+"def_en": "The youngest giant of the family, a cross-eyed baby; toddlers are lifted up to kiss him, which is meant to protect them from a squint."
+},
+{
+"fr": "cheval-jupon",
+"en": "hobby horse",
+"def_fr": "Cheval d'osier porté par un homme qui semble le monter ; à Douai, le Sot des Canonniers fait rire par ses ruades et écarte la foule.",
+"def_en": "Wicker horse worn by a man who seems to ride it; in Douai the Sot des Canonniers makes people laugh with its kicks and clears the way."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00351": {
+"audience": "general",
+"questions": {
+"fr": [
+"Titée arrose les spectateurs avec sa cafetière et Hippolyte les asperge d'eau : pourquoi, selon vous, ces géants jouent-ils ainsi avec le public ?",
+"Les géants actuels ont été fabriqués dans un atelier ouvert aux habitants et aux écoles : que change le fait d'avoir vu naître un géant pour ceux qui le font ensuite défiler ?",
+"Quel personnage de l'histoire de votre quartier ou de votre village mériterait, selon vous, de devenir un géant, et pourquoi ?"
+],
+"en": [
+"Titée sprinkles the spectators from her coffee pot and Hippolyte sprays them with water: why do you think these giants play with the crowd like this?",
+"Today's giants were made in a workshop open to residents and schools: what difference does it make to have watched a giant being born when you later parade it?",
+"Which figure from the history of your own neighbourhood or village do you think deserves to become a giant, and why?"
+]
+},
+"vocabulary": [
+{
+"fr": "géant",
+"en": "giant",
+"def_fr": "Grand mannequin porté par une personne qui se glisse dessous, emblème d'une ville ou d'un quartier ; Hippolyte mesure 3,60 mètres.",
+"def_en": "Large figure carried by a person hidden inside it, the emblem of a town or district; Hippolyte is 3.6 metres tall."
+},
+{
+"fr": "garde champêtre",
+"en": "village constable",
+"def_fr": "Agent communal chargé autrefois de la police des campagnes et des annonces ; Hippolyte en porte le tambour pour lire un avis à la population.",
+"def_en": "Local officer who once policed the countryside and read out announcements; Hippolyte carries his drum to proclaim a public notice."
+},
+{
+"fr": "commune libre",
+"en": "free commune",
+"def_fr": "Municipalité pour rire, avec maire et conseillers, créée par des habitants pour animer leur hameau ; celle de Merchin, née en 1929, a inspiré les géants.",
+"def_en": "Mock town council, with its own mayor and councillors, set up by residents to liven up their hamlet; Merchin's, founded in 1929, inspired the giants."
+},
+{
+"fr": "osier",
+"en": "wicker",
+"def_fr": "Jeunes rameaux souples, tressés pour former la structure légère des géants ; de longs osiers produits dans la région deviennent difficiles à trouver.",
+"def_en": "Supple young willow shoots woven into the giants' light frame; long, locally grown wicker is becoming hard to find."
+},
+{
+"fr": "baptême républicain",
+"en": "civic naming ceremony",
+"def_fr": "Fête où un nouveau géant est présenté aux habitants, en présence de géants invités ; Hippolyte et Titée ont été baptisés en 2010.",
+"def_en": "Celebration at which a new giant is presented to the townspeople, with visiting giants in attendance; Hippolyte and Titée were named in 2010."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00352": {
+"audience": "general",
+"questions": {
+"fr": [
+"La géante qui ouvre le cortège représente une femme soldat du XVIIe siècle, épée au côté : pourquoi, selon vous, une ville choisit-elle une telle figure pour la représenter ?",
+"Chaque quartier de Lomme construit son char dans des ateliers avec des habitants et des écoles : qu'est-ce que ce travail collectif apporte à la vie d'une ville ?",
+"Dans votre ville, quelles fêtes donnent aux différents quartiers l'occasion de se montrer et de se rencontrer ?"
+],
+"en": [
+"The giantess at the head of the parade portrays a 17th-century woman soldier with a sword at her side: why do you think a town chooses such a figure to stand for it?",
+"Each district of Lomme builds its float in workshops with residents and schools: what does this shared work bring to the life of a town?",
+"In your own town, which festivals give the different neighbourhoods a chance to show themselves and meet?"
+]
+},
+"vocabulary": [
+{
+"fr": "géante",
+"en": "giantess",
+"def_fr": "Mannequin de 3,20 mètres en bois, osier, tissu et carton, porté par une seule personne ; celle de Lomme ne sort que pour le carnaval.",
+"def_en": "Figure 3.2 metres tall made of wood, wicker, fabric and card, carried by one person; Lomme's giantess only comes out for the carnival."
+},
+{
+"fr": "porteur",
+"en": "carrier",
+"def_fr": "Personne qui fait marcher et danser le géant de l'intérieur ; à Lomme, ce rôle revient à des employés municipaux.",
+"def_en": "Person who makes the giant walk and dance from inside it; in Lomme this role falls to town council staff."
+},
+{
+"fr": "char de quartier",
+"en": "district float",
+"def_fr": "Char préparé chaque année par les associations et les habitants d'un quartier, avec un artiste, sur un plateau loué à des agriculteurs.",
+"def_en": "Float made each year by the associations and residents of one district, with an artist's help, on a trailer hired from farmers."
+},
+{
+"fr": "ducasse",
+"en": "ducasse",
+"def_fr": "Mot du Nord pour la fête locale et sa fête foraine ; ses manèges s'installent sur la place de l'hôtel de ville, où arrive le cortège.",
+"def_en": "Northern French word for a local festival and its funfair; the rides are set up on the town hall square, where the parade ends."
+},
+{
+"fr": "majorette",
+"en": "majorette",
+"def_fr": "Membre d'une troupe en uniforme qui défile en rythme en faisant tourner un bâton ; les majorettes accompagnent la géante en tête du cortège.",
+"def_en": "Member of a uniformed troupe who marches in step twirling a baton; the majorettes walk with the giantess at the front of the parade."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00353": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, le cortège part-il à la nuit tombée, à la lumière des lanternes, « à la recherche » de saint Nicolas ?",
+"Le Père Fouettard lit une liste d'« enfants pas sages » où les prénoms figurent souvent au hasard : que devient la peur quand elle se transforme en jeu collectif ?",
+"Quelles fêtes de l'hiver connaissez-vous où les enfants reçoivent friandises ou cadeaux, et quel personnage les apporte ?"
+],
+"en": [
+"Why do you think the procession sets off after dark, by lantern light, “in search of” Saint Nicholas?",
+"Father Whipper reads out a list of “naughty children” whose names are often picked at random: what happens to fear when it turns into a shared game?",
+"Which winter festivals do you know where children receive sweets or presents, and which character brings them?"
+]
+},
+"vocabulary": [
+{
+"fr": "allumoir",
+"en": "lantern",
+"def_fr": "Lanterne fabriquée lors d'ateliers organisés avant la fête, puis portée pendant le cortège à travers les rues du quartier.",
+"def_en": "Lantern made in workshops held before the festival, then carried during the procession through the streets of the district."
+},
+{
+"fr": "Père Fouettard",
+"en": "Father Whipper",
+"def_fr": "Compagnon inquiétant de saint Nicolas, barbu et hirsute, qui taquine la foule et menace les enfants pas sages de son martinet.",
+"def_en": "Saint Nicholas's menacing companion, bearded and shaggy, who teases the crowd and threatens naughty children with his whip."
+},
+{
+"fr": "saloir",
+"en": "salting tub",
+"def_fr": "Tonneau où l'on conservait la viande dans le sel ; selon la légende, un boucher y avait mis trois enfants que saint Nicolas ressuscita.",
+"def_en": "Barrel in which meat was preserved in salt; in the legend, a butcher put three children in one and Saint Nicholas brought them back to life."
+},
+{
+"fr": "grosse tête",
+"en": "big head",
+"def_fr": "Grande tête de carton portée par une seule personne, plus mobile qu'un géant ; le Père Fouettard en est une.",
+"def_en": "Large cardboard head worn by a single person, more agile than a giant; Father Whipper is one of them."
+},
+{
+"fr": "coquille",
+"en": "Christmas brioche",
+"def_fr": "Brioche traditionnelle de Noël dans le Nord ; un millier sont distribuées à l'arrivée du cortège, avec bonbons et mandarines.",
+"def_en": "Traditional Christmas brioche in northern France; about a thousand are handed out when the procession arrives, with sweets and mandarins."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00354": {
+"audience": "general",
+"questions": {
+"fr": [
+"Que représente, selon vous, le jet de harengs lancé à la foule au passage de la bande devant la mairie ?",
+"Wormhout a créé un carnaval des enfants, avec le même tambour-major et des bonbons à la place des harengs : comment transmettre une fête parfois rude sans la dénaturer ?",
+"Dans votre région, quelles fêtes donnent aux habitants l'occasion d'ouvrir leur maison à leurs amis, comme les « chapelles » du carnaval ?"
+],
+"en": [
+"What do you think the herring throw means, when fish are thrown to the crowd as the band passes the town hall?",
+"Wormhout set up a children's carnival, with the same drum major and sweets instead of herrings: how can a sometimes rough festival be passed on without losing its character?",
+"In your own region, which festivals give people a reason to open their homes to friends, like the carnival “chapelles”?"
+]
+},
+"vocabulary": [
+{
+"fr": "bande",
+"en": "band",
+"def_fr": "Groupe de carnavaleux costumés qui suivent la musique dans les rues ; « faire la bande », c'est défiler avec eux le dimanche.",
+"def_en": "Crowd of costumed carnival-goers who follow the music through the streets; to “faire la bande” is to march with them on Sunday."
+},
+{
+"fr": "klet'che",
+"en": "klet'che",
+"def_fr": "Mot dunkerquois pour le déguisement du carnavaleux, souvent très coloré, complété par un maquillage préparé le matin même.",
+"def_en": "Dunkirk word for a carnival-goer's costume, often brightly coloured and finished with make-up applied that morning."
+},
+{
+"fr": "tambour-major",
+"en": "drum major",
+"def_fr": "Chef de la bande, costumé en soldat d'Empire, qui lance les chants et les airs repris en chœur par les carnavaleux.",
+"def_en": "Leader of the band, dressed as a Napoleonic soldier, who starts the songs and tunes that the carnival-goers take up together."
+},
+{
+"fr": "chapelle",
+"en": "open house",
+"def_fr": "Maison de carnavaleux où les amis sont accueillis pour boire et manger ; on s'y retrouve après le défilé et on s'y maquille le matin.",
+"def_en": "A carnival-goer's home where friends are welcomed with food and drink; people gather there after the parade and put on make-up there in the morning."
+},
+{
+"fr": "chahut",
+"en": "chahut",
+"def_fr": "Moment où les premiers rangs de la bande s'arrêtent et résistent à la poussée de ceux qui suivent ; c'est le passage le plus physique du carnaval.",
+"def_en": "Moment when the front rows of the band stop and hold out against the push of those behind; it is the most physical part of the carnival."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2014_67717_INV_PCI_FRANCE_00359": {
+"audience": "general",
+"questions": {
+"fr": [
+"Que racontent, selon vous, les charrettes décorées de végétaux, de bois et de matériaux recyclés sur la vie et le travail de l'île ?",
+"Relancée en 1983 alors que beaucoup d'habitants quittaient l'île, la fête confie aussi des charrettes à cabris aux jeunes : comment une tradition agricole peut-elle parler aux nouvelles générations ?",
+"Quels animaux, outils ou véhicules liés au travail de la terre sont mis à l'honneur dans les fêtes de votre région ?"
+],
+"en": [
+"What do you think the carts decorated with plants, wood and recycled materials say about life and work on the island?",
+"Revived in 1983 when many people were leaving the island, the festival also gives young people goat carts to drive: how can a farming tradition speak to new generations?",
+"Which animals, tools or vehicles linked to working the land are celebrated at festivals in your own region?"
+]
+},
+"vocabulary": [
+{
+"fr": "kabwèt",
+"en": "kabwèt",
+"def_fr": "Mot créole pour la charrette ; le « Carnaval en kabwèt » fait défiler une trentaine de charrettes décorées tirées par des paires de bœufs.",
+"def_en": "Creole word for a cart; the “Carnaval en kabwèt” parades some thirty decorated carts, each drawn by a pair of oxen."
+},
+{
+"fr": "charron",
+"en": "wheelwright",
+"def_fr": "Artisan qui construit et répare les charrettes et leurs roues en bois ; ce savoir-faire est menacé par la disparition de ses détenteurs.",
+"def_en": "Craftsman who builds and repairs carts and their wooden wheels; this skill is under threat as those who hold it disappear."
+},
+{
+"fr": "joug",
+"en": "yoke",
+"def_fr": "Pièce de bois qui relie deux bœufs entre eux pour qu'ils tirent ensemble la charrette.",
+"def_en": "Wooden beam that links two oxen so that they pull the cart together."
+},
+{
+"fr": "chant de labour",
+"en": "ploughing song",
+"def_fr": "Chant de travail lié aux attelages et aux travaux des champs ; la fête en propose des démonstrations, avec les techniques d'attelage.",
+"def_en": "Work song linked to ox teams and field work; the festival includes demonstrations of these songs alongside harnessing skills."
+},
+{
+"fr": "corne de lambi",
+"en": "conch horn",
+"def_fr": "Grand coquillage dans lequel on souffle comme dans une trompe ; des spectateurs s'en servent pour annoncer le passage du défilé.",
+"def_en": "Large seashell blown like a horn; spectators use it to announce that the parade is coming."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2015_67717_INV_PCI_FRANCE_00370": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les femmes qui lavent les marches de la Madeleine sont-elles vêtues de blanc et jettent-elles de l'eau parfumée et des fleurs ?",
+"Venu d'une fête religieuse de Bahia, le lavage est devenu à Paris un festival de culture brésilienne : que garde et que perd un rituel quand il voyage avec une diaspora ?",
+"Quelles fêtes apportées par des habitants venus d'ailleurs font aujourd'hui partie de la vie de votre ville ?"
+],
+"en": [
+"Why do you think the women who wash the steps of the Madeleine are dressed in white and throw perfumed water and flowers?",
+"Born from a religious festival in Bahia, the washing has become a festival of Brazilian culture in Paris: what does a ritual keep, and lose, when it travels with a diaspora?",
+"Which festivals brought by people from elsewhere are now part of life in your own town?"
+]
+},
+"vocabulary": [
+{
+"fr": "baiana",
+"en": "baiana",
+"def_fr": "Femme portant le costume traditionnel blanc de Bahia ; les baianas ouvrent le cortège et lavent les marches de l'église.",
+"def_en": "Woman wearing the traditional white dress of Bahia; the baianas lead the procession and wash the church steps."
+},
+{
+"fr": "candomblé",
+"en": "candomblé",
+"def_fr": "Religion afro-brésilienne qui honore des divinités d'origine africaine, les orixás ; les lavages d'églises en reprennent des gestes de purification.",
+"def_en": "Afro-Brazilian religion honouring deities of African origin, the orixás; the church washings echo its purification rites."
+},
+{
+"fr": "syncrétisme",
+"en": "syncretism",
+"def_fr": "Mélange de croyances d'origines différentes ; à Bahia, des divinités du candomblé ont été associées à des figures catholiques, comme Oxalá au Christ du Bonfim.",
+"def_en": "Blending of beliefs from different origins; in Bahia, candomblé deities were linked to Catholic figures, such as Oxalá with the Christ of Bonfim."
+},
+{
+"fr": "batucada",
+"en": "batucada",
+"def_fr": "Ensemble de percussions brésiliennes guidé par un maître au sifflet ; une batucada parisienne anime le défilé depuis la première édition.",
+"def_en": "Brazilian percussion group led by a master with a whistle; a Paris batucada has played in the parade since the very first edition."
+},
+{
+"fr": "trio elétrico",
+"en": "trio elétrico",
+"def_fr": "Camion équipé d'une puissante sonorisation, qui ferme le cortège et sert de scène mobile à la musique populaire brésilienne.",
+"def_en": "Lorry fitted with a powerful sound system that closes the procession and acts as a moving stage for Brazilian popular music."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2015_67717_INV_PCI_FRANCE_00371": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les géants de la fête représentent-ils un pêcheur, filet sur l'épaule, et son épouse coiffée du « soleil » ?",
+"Détruits pendant la guerre, oubliés puis refaits plusieurs fois, Batisse et Zabelle reviennent toujours : qu'est-ce qui pousse une ville à faire renaître ses géants ?",
+"Quels métiers ont façonné votre région, et comment sont-ils mis à l'honneur lors de fêtes ou de défilés ?"
+],
+"en": [
+"Why do you think the festival's giants portray a fisherman, net over his shoulder, and his wife wearing the “soleil” headdress?",
+"Destroyed in the war, forgotten and rebuilt several times, Batisse and Zabelle always come back: what drives a town to bring its giants back to life?",
+"Which trades have shaped your own region, and how are they honoured at festivals or parades?"
+]
+},
+"vocabulary": [
+{
+"fr": "vieux gréement",
+"en": "traditional sailing ship",
+"def_fr": "Voilier ancien, ou réplique gréée à l'ancienne ; certains se visitent à quai et tous défilent lors de la parade nautique.",
+"def_en": "Old sailing ship, or a replica rigged in the old way; some can be visited at the quay and all take part in the sea parade."
+},
+{
+"fr": "soleil",
+"en": "soleil headdress",
+"def_fr": "Coiffe boulonnaise ronde en dentelle blanche plissée et empesée, autrefois portée par les femmes de marins ; Zabelle la porte.",
+"def_en": "Round Boulogne headdress of pleated, starched white lace, once worn by sailors' wives; Zabelle wears one."
+},
+{
+"fr": "matelote",
+"en": "fisherman's wife",
+"def_fr": "Femme de marin-pêcheur boulonnais ; sa tenue réunit robe et tablier noirs, châle blanc à franges, soleil et bijoux.",
+"def_en": "Wife of a Boulogne fisherman; her outfit combines a black dress and apron, a fringed white shawl, the soleil and jewellery."
+},
+{
+"fr": "porteur",
+"en": "carrier",
+"def_fr": "Personne qui porte le géant de l'intérieur ; à Boulogne, un seul porteur suffit pour chacun des deux géants de 60 kilos.",
+"def_en": "Person who carries the giant from inside; in Boulogne, one carrier is enough for each of the two 60-kilo giants."
+},
+{
+"fr": "chant de marin",
+"en": "sea song",
+"def_fr": "Chanson née de la vie à bord ou sur le port ; c'est l'un des répertoires joués sur les scènes de la fête.",
+"def_en": "Song born from life at sea or in port; it is one of the kinds of music played on the festival stages."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2017_67717_INV_PCI_FRANCE_00376": {
+"audience": "general",
+"questions": {
+"fr": [
+"Que montre, selon vous, l'image des équipiers avancés au bout de leurs bois au-dessus de la mer pour faire contrepoids au vent ?",
+"Autrefois bateau de pêche, la yole est devenue une embarcation de course suivie par toute l'île : que gagne et que risque un savoir-faire quand il devient un sport et un spectacle ?",
+"Quel bateau, sport ou savoir-faire lié à l'eau fait la fierté de votre région ?"
+],
+"en": [
+"What do you think the sight of crew members far out on their poles above the sea, balancing against the wind, tells us?",
+"Once a fishing boat, the yole has become a racing boat followed by the whole island: what does a skill gain, and risk, when it turns into a sport and a show?",
+"Which boat, water sport or maritime skill is the pride of your own region?"
+]
+},
+"vocabulary": [
+{
+"fr": "bois dressé",
+"en": "bwa dressé",
+"def_fr": "Long bois calé contre la coque, sur lequel l'équipier s'avance plus ou moins loin selon la force du vent ; par extension, l'équipier lui-même.",
+"def_en": "Long pole wedged against the hull, along which a crew member moves further out as the wind strengthens; by extension, the crew member too."
+},
+{
+"fr": "patron",
+"en": "skipper",
+"def_fr": "Seul maître à bord : il choisit l'équipage et la voile et dirige la yole à la pagaie, car elle n'a pas de gouvernail.",
+"def_en": "The only master on board: the skipper picks the crew and sail and steers with a paddle, as the yole has no rudder."
+},
+{
+"fr": "charpentier de marine",
+"en": "boatbuilder",
+"def_fr": "Artisan, souvent marin-pêcheur, qui construit la coque en bois massif sans plan ni maquette, avec des gestes transmis en famille.",
+"def_en": "Craftsman, often a fisherman, who builds the solid-wood hull with no plans or model, using skills handed down in the family."
+},
+{
+"fr": "gommier",
+"en": "gommier",
+"def_fr": "Embarcation des Caraïbes, du nom de l'arbre dans lequel elle était taillée ; trop instable sous une grande voile, elle a laissé place à la yole.",
+"def_en": "Caribbean boat named after the tree it was carved from; too unstable under a large sail, it gave way to the yole."
+},
+{
+"fr": "Tour des yoles",
+"en": "Tour des yoles",
+"def_fr": "Course de yoles en plusieurs étapes autour de la Martinique, grand rendez-vous sportif et culturel que le public suit le long des côtes.",
+"def_en": "Multi-stage yole race around Martinique, a major sporting and cultural event that spectators follow along the coast."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2017_67717_INV_PCI_FRANCE_00389": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, le Touloulou du bal paré-masqué couvre-t-il chaque centimètre de peau, de la cagoule jusqu'aux gants ?",
+"Que dit des relations entre femmes et hommes un bal où ce sont les femmes masquées qui choisissent leur cavalier, et non l'inverse ?",
+"Dans votre région, à quelles occasions se déguise-t-on, et qu'est-ce que le masque permet de faire ou de dire ?"
+],
+"en": [
+"Why do you think the Touloulou at the masked ball covers every inch of skin, from hood to gloves?",
+"What does a ball where masked women choose their dance partner, and not the other way round, say about relations between women and men?",
+"In your own region, on what occasions do people dress up in disguise, and what does a mask allow them to do or say?"
+]
+},
+"vocabulary": [
+{
+"fr": "Touloulou",
+"en": "Touloulou",
+"def_fr": "En Guyane, toute personne déguisée au carnaval ; au bal paré-masqué, femme entièrement couverte et méconnaissable qui invite les hommes à danser.",
+"def_en": "In French Guiana, anyone in carnival disguise; at the masked ball, a woman fully covered and unrecognisable who asks men to dance."
+},
+{
+"fr": "bal paré-masqué",
+"en": "masked ball (bal paré-masqué)",
+"def_fr": "Bal de carnaval des fins de semaine, tenu dans des salles appelées « dancings », où l'anonymat des Touloulous est la règle d'or.",
+"def_en": "Weekend carnival ball held in dance halls known as dancings, where the Touloulous' anonymity is the golden rule."
+},
+{
+"fr": "cavalier",
+"en": "dance partner (cavalier)",
+"def_fr": "Homme non déguisé qui, au bal paré-masqué, attend d'être choisi par un Touloulou pour danser.",
+"def_en": "Man without disguise who waits at the masked ball to be chosen by a Touloulou for a dance."
+},
+{
+"fr": "Vaval",
+"en": "Vaval",
+"def_fr": "Roi du carnaval, mannequin dont l'arrivée spectaculaire ouvre la saison et qui est brûlé à la fin des jours gras.",
+"def_en": "King of the carnival, an effigy whose spectacular arrival opens the season and which is burnt at the end of the final carnival days."
+},
+{
+"fr": "vidé",
+"en": "vidé",
+"def_fr": "Défilé dansant où la foule suit un orchestre dans les rues ; c'est aussi la danse qui ouvre chaque bal.",
+"def_en": "Dancing parade in which the crowd follows a band through the streets; also the dance that opens every ball."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2017_67717_INV_PCI_FRANCE_00392": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, des bénévoles lavent-ils la rue et jettent-ils des fleurs devant le livre saint pendant le défilé ?",
+"Quel rôle les jeunes Sikhs nés en France peuvent-ils jouer pour faire connaître le Vaisakhi aux habitants de Bobigny et d'ailleurs ?",
+"Quelles fêtes de votre entourage marquent à la fois le retour d'une saison et un événement religieux ou historique ?"
+],
+"en": [
+"Why do you think volunteers wash the street and scatter flowers in front of the holy book during the parade?",
+"What part can young Sikhs born in France play in making Vaisakhi known to the people of Bobigny and beyond?",
+"Which celebrations around you mark both the return of a season and a religious or historical event?"
+]
+},
+"vocabulary": [
+{
+"fr": "gurdwara",
+"en": "gurdwara",
+"def_fr": "Lieu de culte sikh, avec une salle de prière et une cuisine ouverte à tous ; celui de Bobigny est le point de départ du défilé.",
+"def_en": "Sikh place of worship, with a prayer hall and a kitchen open to all; the Bobigny gurdwara is where the parade starts."
+},
+{
+"fr": "nagar kirtan",
+"en": "nagar kirtan",
+"def_fr": "Procession religieuse sikhe, littéralement « chants pour la ville », où le livre saint traverse le quartier au son des hymnes.",
+"def_en": "Sikh religious procession, literally \"hymns for the town\", in which the holy book travels through the neighbourhood to the sound of hymns."
+},
+{
+"fr": "Panj Piare",
+"en": "Panj Piare (the Five Beloved)",
+"def_fr": "Les « Cinq Bien-Aimés », premiers Sikhs initiés en 1699 ; cinq anciens les incarnent et veillent sur le livre saint pendant la fête.",
+"def_en": "The \"Five Beloved\", the first Sikhs initiated in 1699; five elders play them and guard the holy book during the festival."
+},
+{
+"fr": "gatka",
+"en": "gatka",
+"def_fr": "Art martial traditionnel sikh, au sabre ou au bâton ; une équipe en fait la démonstration en tête du défilé.",
+"def_en": "Traditional Sikh martial art using swords or staffs; a team gives a display of it at the head of the parade."
+},
+{
+"fr": "langar",
+"en": "langar",
+"def_fr": "Cuisine et repas communautaires du gurdwara, végétariens et gratuits, servis à tous sur un pied d'égalité.",
+"def_en": "The gurdwara's community kitchen and meal, vegetarian and free, served to everyone on an equal footing."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2018_67717_INV_PCI_FRANCE_00395": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, l'étendard de Jeanne passe-t-il le 7 mai des mains du maire à celles de l'évêque, devant toute la ville ?",
+"Comment une fête née d'une procession religieuse en 1430 peut-elle aujourd'hui rassembler des Orléanais de toutes convictions ?",
+"Quel épisode de l'histoire de votre ville ou de votre région est encore commémoré, et sous quelle forme ?"
+],
+"en": [
+"Why do you think Joan's standard is handed from the mayor to the bishop on 7 May, in front of the whole town?",
+"How can a festival that began as a religious procession in 1430 bring together people of Orléans of every belief today?",
+"Which episode in the history of your town or region is still commemorated, and in what form?"
+]
+},
+"vocabulary": [
+{
+"fr": "étendard",
+"en": "standard",
+"def_fr": "Long drapeau de guerre de Jeanne d'Arc ; une copie fidèle de l'original, portée à cheval ou en cérémonie, la représente pendant les fêtes.",
+"def_en": "Joan of Arc's long war banner; a faithful copy of the original, carried on horseback or in ceremonies, stands for her during the festival."
+},
+{
+"fr": "chevauchée",
+"en": "cavalcade",
+"def_fr": "Le 1er mai, parcours à cheval de la jeune Jeanne et de son escorte à travers Orléans et les communes voisines, par les lieux du siège.",
+"def_en": "On 1 May, the young Joan and her escort ride through Orléans and neighbouring towns, past the sites of the siege."
+},
+{
+"fr": "remise de l'étendard",
+"en": "handing over of the standard",
+"def_fr": "Cérémonie du 7 mai au soir, devant la cathédrale : la Ville confie l'étendard à l'Église pour les célébrations du lendemain.",
+"def_en": "Evening ceremony on 7 May outside the cathedral: the town entrusts the standard to the Church for the next day's celebrations."
+},
+{
+"fr": "embrasement de la cathédrale",
+"en": "lighting of the cathedral",
+"def_fr": "Autrefois feux de Bengale allumés sur les tours de la cathédrale ; aujourd'hui spectacle son et lumière projeté sur sa façade le 7 mai.",
+"def_en": "Once Bengal fires lit on the cathedral towers; now a sound-and-light show projected onto its façade on 7 May."
+},
+{
+"fr": "trois ordres",
+"en": "three orders",
+"def_fr": "Les autorités civiles, religieuses et militaires, qui défilent et prennent la parole ensemble pendant les fêtes, selon un protocole précis.",
+"def_en": "The civil, religious and military authorities, who parade and speak together during the festival, following a strict protocol."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2018_67717_INV_PCI_FRANCE_00406": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, chaque rue de Chaumont reçoit-elle ses propres modèles et couleurs de fleurs en papier ?",
+"Comment une fête qui ne revient que tous les cinq, six ou onze ans peut-elle se transmettre d'une génération à l'autre ?",
+"Quel événement de votre ville mobilise des bénévoles pendant des mois de préparation, et que leur apporte ce travail en commun ?"
+],
+"en": [
+"Why do you think each street in Chaumont gets its own designs and colours of paper flowers?",
+"How can a festival that only returns every five, six or eleven years be passed down from one generation to the next?",
+"Which event in your town gets volunteers working for months beforehand, and what do they gain from that shared work?"
+]
+},
+"vocabulary": [
+{
+"fr": "jubilé",
+"en": "jubilee",
+"def_fr": "Année de célébration religieuse exceptionnelle ; à Chaumont, elle s'ouvre le premier dimanche de l'Avent et culmine le 24 juin.",
+"def_en": "Exceptional year of religious celebration; in Chaumont it opens on the first Sunday of Advent and reaches its height on 24 June."
+},
+{
+"fr": "bulle pontificale",
+"en": "papal bull",
+"def_fr": "Acte officiel d'un pape ; celle de 1475 a institué le Grand Pardon de Chaumont et lui accorde une indulgence à perpétuité.",
+"def_en": "Official decree from a pope; the 1475 bull founded the Great Pardon of Chaumont and granted it an indulgence for ever."
+},
+{
+"fr": "indulgence plénière",
+"en": "plenary indulgence",
+"def_fr": "Dans l'Église catholique, remise complète des peines dues aux péchés déjà pardonnés, accordée aux pèlerins sous conditions, comme la confession.",
+"def_en": "In the Catholic Church, full remission of the punishment due for sins already forgiven, granted to pilgrims on conditions such as confession."
+},
+{
+"fr": "papier crépon",
+"en": "crêpe paper",
+"def_fr": "Papier froissé et extensible dont des centaines de bénévoles tirent, pendant deux ans, quelque 250 000 fleurs pour orner la ville.",
+"def_en": "Crinkled, stretchy paper from which hundreds of volunteers make some 250,000 flowers over two years to decorate the town."
+},
+{
+"fr": "héraut",
+"en": "herald",
+"def_fr": "Cavalier qui ouvre le défilé du samedi et lit en mairie le texte proclamant le début des festivités.",
+"def_en": "Rider who leads Saturday's parade and reads out, at the town hall, the text proclaiming the start of the festivities."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2018_67717_INV_PCI_FRANCE_00414": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, le défilé fait-il passer le boucher et le père Fouettard avant saint Nicolas, qui ferme toujours le cortège ?",
+"Comment une fête qui change chaque année de thème et de pays invité peut-elle rester fidèle à la tradition de saint Nicolas ?",
+"Quel saint ou quelle figure protectrice est fêté dans votre région, et que reçoit-on ou offre-t-on à cette occasion ?"
+],
+"en": [
+"Why do you think the parade sends the butcher and Père Fouettard ahead of Saint Nicholas, who always closes the procession?",
+"How can a festival that changes its theme and guest country every year stay true to the tradition of Saint Nicholas?",
+"Which saint or protective figure is celebrated in your region, and what do people receive or give on that day?"
+]
+},
+"vocabulary": [
+{
+"fr": "père Fouettard",
+"en": "Père Fouettard",
+"def_fr": "Sombre compagnon de saint Nicolas, armé d'un fouet, qui menace les enfants pas sages ; au défilé, il peut chevaucher un âne mécanique.",
+"def_en": "Saint Nicholas's dark companion, carrying a whip, who threatens naughty children; in the parade he may ride a mechanical donkey."
+},
+{
+"fr": "saloir",
+"en": "salting tub",
+"def_fr": "Cuve à saler la viande ; selon la légende, un boucher y met trois enfants, que saint Nicolas ramène à la vie.",
+"def_en": "Tub for salting meat; in the legend a butcher puts three children in it, and Saint Nicholas brings them back to life."
+},
+{
+"fr": "char",
+"en": "float",
+"def_fr": "Plateau roulant décoré ; les communes de la métropole construisent les leurs pour le grand défilé, que clôt le char de saint Nicolas.",
+"def_en": "Decorated vehicle; the towns of the metropolitan area build their own for the grand parade, which ends with Saint Nicholas's float."
+},
+{
+"fr": "pain d'épices",
+"en": "gingerbread",
+"def_fr": "Gâteau au miel et aux épices ; en décembre, des saint Nicolas et des ânes en pain d'épices garnissent les vitrines et les souliers.",
+"def_en": "Honey and spice cake; in December, gingerbread Saint Nicholases and donkeys fill shop windows and children's shoes."
+},
+{
+"fr": "remise des clés",
+"en": "handing over the keys",
+"def_fr": "Geste du maire qui, au balcon de l'hôtel de ville, confie à saint Nicolas les clés de Nancy à l'issue du défilé.",
+"def_en": "The mayor's gesture of entrusting Saint Nicholas with the keys of Nancy, from the town hall balcony, after the parade."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2018_67717_INV_PCI_FRANCE_00420": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les santons de la crèche provençale représentent-ils les métiers d'un village et pas seulement les personnages de la Bible ?",
+"Que devient une tradition comme le blé de la Sainte-Barbe quand on répète le geste chaque année sans toujours en connaître le sens ?",
+"Quels plats, gestes ou décorations rythment chez vous la période des fêtes de fin d'année ?"
+],
+"en": [
+"Why do you think the santons in a Provençal nativity scene show village trades and not just figures from the Bible?",
+"What becomes of a tradition like Saint Barbara's wheat when the gesture is repeated every year without its meaning always being known?",
+"Which dishes, gestures or decorations mark the festive season in your home?"
+]
+},
+"vocabulary": [
+{
+"fr": "santon",
+"en": "santon",
+"def_fr": "Petite figurine d'argile peinte de la crèche provençale, inspirée des costumes et des métiers des villages d'autrefois.",
+"def_en": "Small painted clay figurine for the Provençal nativity scene, modelled on the costumes and trades of old village life."
+},
+{
+"fr": "blé de la Sainte-Barbe",
+"en": "Saint Barbara's wheat",
+"def_fr": "Grains de blé mis à germer le 4 décembre dans trois coupelles ; une belle pousse annonce une bonne année.",
+"def_en": "Wheat grains set to sprout in three saucers on 4 December; healthy green shoots promise a good year."
+},
+{
+"fr": "gros souper",
+"en": "big supper (gros souper)",
+"def_fr": "Repas maigre, sans viande, de la veille de Noël, pris avant la messe de minuit ; les treize desserts viennent ensuite.",
+"def_en": "Meatless meal on Christmas Eve, eaten before midnight mass; the thirteen desserts follow."
+},
+{
+"fr": "pompe à l'huile",
+"en": "pompe à l'huile (olive-oil bread)",
+"def_fr": "Pain brioché à l'huile d'olive, incontournable des treize desserts ; sans elle, dit-on, pas de vrai Noël provençal.",
+"def_en": "Sweet olive-oil bread, an essential of the thirteen desserts; without it, people say, there is no true Provençal Christmas."
+},
+{
+"fr": "pastorale",
+"en": "pastorale (nativity play)",
+"def_fr": "Pièce chantée et parlée en provençal qui raconte la Nativité ; elle se joue de Noël à la Chandeleur.",
+"def_en": "Play with songs, in Provençal, telling the story of the Nativity; it is staged from Christmas to Candlemas."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2018_67717_INV_PCI_FRANCE_00421": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les chars et les grosses têtes de Nice caricaturent-ils si souvent l'actualité et les célébrités du moment ?",
+"Qu'est-ce qui change pour un savoir-faire transmis en famille quand le carton-pâte cède la place au polystyrène et que la fête devient un grand spectacle touristique ?",
+"Quels métiers ou savoir-faire de votre région s'apprennent surtout en regardant faire, à l'atelier ou en famille ?"
+],
+"en": [
+"Why do you think the floats and giant heads of Nice so often caricature the news and the celebrities of the day?",
+"What changes for a family craft when papier-mâché gives way to polystyrene and the festival becomes a major tourist show?",
+"Which trades or skills in your region are learnt mainly by watching others at work, in a workshop or at home?"
+]
+},
+"vocabulary": [
+{
+"fr": "carnavalier",
+"en": "carnival builder (carnavalier)",
+"def_fr": "Artisan qui construit les chars et les grosses têtes, souvent dans une entreprise familiale depuis plusieurs générations.",
+"def_en": "Craftsperson who builds the floats and giant heads, often in a family firm going back several generations."
+},
+{
+"fr": "imagier",
+"en": "designer (imagier)",
+"def_fr": "Dessinateur qui conçoit la maquette d'un char ; les dessins sont choisis sur appel d'offres avant d'être confiés aux carnavaliers.",
+"def_en": "Illustrator who designs a float; the drawings are selected through a call for tenders before being handed to the builders."
+},
+{
+"fr": "grosse tête",
+"en": "giant head",
+"def_fr": "Tête géante d'environ 2,50 m, moulée, recouverte de papier puis peinte, portée par une personne dans le défilé.",
+"def_en": "Huge head about 2.5 m tall, moulded, covered in paper and painted, worn by a person in the parade."
+},
+{
+"fr": "corso",
+"en": "corso",
+"def_fr": "Défilé de chars, de grosses têtes et de troupes autour de la place Masséna ; le corso fleuri se tient sur la promenade des Anglais.",
+"def_en": "Parade of floats, giant heads and troupes around Place Masséna; the flower parade takes place on the Promenade des Anglais."
+},
+{
+"fr": "tapissage",
+"en": "pasting (tapissage)",
+"def_fr": "Collage de couches de papier journal sur les sculptures en polystyrène ; tâche jugée simple, elle exige pourtant de ne laisser aucune aspérité.",
+"def_en": "Pasting layers of newspaper onto polystyrene sculptures; seen as a basic task, yet it must leave no bumps."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2019_67717_INV_PCI_FRANCE_00422": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les enfants font-ils la queue pour entrer dans la gueule du Bœuf, et que peut signifier ce passage ?",
+"Que transmet-on aux jeunes de Mèze en leur confiant le Bœuf, qu'ils portent, cachent et parfois veillent la nuit pendant la fête ?",
+"Quel animal, personnage ou emblème représente votre ville ou votre quartier, et à quelles occasions le voit-on ?"
+],
+"en": [
+"Why do you think children queue up to go into the Ox's mouth, and what might this passage mean?",
+"What is passed on to the young people of Mèze when they are entrusted with the Ox, which they carry, hide and sometimes guard at night during the festival?",
+"Which animal, character or emblem stands for your town or neighbourhood, and when does it appear?"
+]
+},
+"vocabulary": [
+{
+"fr": "animal-totem",
+"en": "totem animal",
+"def_fr": "Grande bête de toile sur une armature, animée par des porteurs cachés dessous, qui incarne une ville du Languedoc lors de ses fêtes.",
+"def_en": "Large canvas creature on a frame, moved by bearers hidden underneath, that embodies a Languedoc town at its festivals."
+},
+{
+"fr": "porteur",
+"en": "bearer",
+"def_fr": "Membre de l'équipe placé sous la carcasse ; à Mèze, huit hommes font courir, tituber et se cabrer le Bœuf.",
+"def_en": "Team member placed inside the frame; in Mèze, eight men make the Ox run, stagger and rear up."
+},
+{
+"fr": "Cornac",
+"en": "Cornac",
+"def_fr": "Meneur du Bœuf, en blanc liseré de rouge, qui le guide avec un aiguillon, peut seul le chevaucher et lui porte le coup final.",
+"def_en": "The Ox's leader, dressed in white edged with red, who guides it with a goad, alone may ride it and deals the final blow."
+},
+{
+"fr": "Chivalet",
+"en": "Chivalet (hobby-horse)",
+"def_fr": "Cheval-jupon fixé à la taille d'un danseur ; à Mèze, il danse avec le Bœuf sur le kiosque avant la mise à mort.",
+"def_en": "Hobby-horse fastened round a dancer's waist; in Mèze it dances with the Ox on the bandstand before the killing."
+},
+{
+"fr": "quête",
+"en": "collection",
+"def_fr": "Le Bœuf tend le cou vers les balcons et claque des mâchoires pour recevoir des pièces, que ramassent les jeunes filles de l'équipe.",
+"def_en": "The Ox stretches its neck up to the balconies and snaps its jaws for coins, which the girls of the team collect."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2019_67717_INV_PCI_FRANCE_00423": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les carnavaliers de Montblanc s'habillent-ils tout en blanc avant de se lancer de la farine ?",
+"Que gagne-t-on et que perd-on quand un carnaval, autrefois fêté le Mardi gras, est déplacé à un week-end d'avril pour que tout le village puisse venir ?",
+"Dans votre commune, quelles fêtes passent par la maison de retraite, l'école ou le café, et pourquoi ces arrêts comptent-ils ?"
+],
+"en": [
+"Why do you think the carnival-goers of Montblanc dress all in white before throwing flour at each other?",
+"What is gained and what is lost when a carnival once held on Shrove Tuesday moves to an April weekend so the whole village can take part?",
+"In your area, which festivals stop at the care home, the school or the café, and why do these stops matter?"
+]
+},
+"vocabulary": [
+{
+"fr": "Poulain",
+"en": "Poulain",
+"def_fr": "Cheval-totem de toile porté par une équipe cachée dessous ; Montblanc en a un grand et un petit, habillés de fleurs en papier crépon.",
+"def_en": "Canvas totem horse carried by a team hidden inside; Montblanc has a big one and a little one, dressed in crêpe-paper flowers."
+},
+{
+"fr": "meneur",
+"en": "leader (meneur)",
+"def_fr": "Celui qui guide le Poulain au claquement de son fouet ; un rituel de passation du fouet a été imaginé entre les deux meneurs.",
+"def_en": "The person who guides the Poulain with the crack of a whip; a whip-passing ritual has been devised between the two leaders."
+},
+{
+"fr": "enfarinade",
+"en": "flour fight (enfarinade)",
+"def_fr": "Bataille de farine et de son qui accompagne le cortège ; les habitants, tout de blanc vêtus, s'en couvrent joyeusement.",
+"def_en": "Battle with flour and bran that goes along with the procession; residents dressed all in white happily cover each other."
+},
+{
+"fr": "Tripat",
+"en": "Tripat",
+"def_fr": "Mot occitan désignant les tripes, et repas traditionnel du carnaval de Montblanc, où les Poulains font leur entrée en dansant.",
+"def_en": "Occitan word for tripe, and the name of Montblanc's traditional carnival meal, which the Poulains enter dancing."
+},
+{
+"fr": "Roi Carnaval",
+"en": "King Carnival",
+"def_fr": "Pantin bourré de paille ou de papier et de pétards, accusé de tous les maux de l'année, jugé puis brûlé sur la place.",
+"def_en": "Dummy stuffed with straw or paper and firecrackers, blamed for all the year's troubles, then tried and burnt in the square."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2019_67717_INV_PCI_FRANCE_00424": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, la légende du Loup a-t-elle fait d'un four à pain le symbole des droits des habitants face à leur seigneur ?",
+"Le Tribus Lupis est né en 2010 : comment une fête toute récente peut-elle devenir une tradition aux yeux des habitants ?",
+"Quelle histoire locale, vraie ou légendaire, aimeriez-vous voir racontée par une fête dans votre ville ou votre village ?"
+],
+"en": [
+"Why do you think the Wolf's legend turned a bread oven into the symbol of the inhabitants' rights against their lord?",
+"The Tribus Lupis was born in 2010: how can a brand-new festival become a tradition in the eyes of local people?",
+"Which local story, true or legendary, would you like to see told through a festival in your town or village?"
+]
+},
+"vocabulary": [
+{
+"fr": "four banal",
+"en": "communal oven (four banal)",
+"def_fr": "Four à pain du seigneur que les habitants devaient utiliser contre redevance ; pendant la fête, sa clé est rendue au Loup.",
+"def_en": "The lord's bread oven, which villagers had to use for a fee; during the festival, its key is handed back to the Wolf."
+},
+{
+"fr": "Yeux du loup",
+"en": "Eyes of the Wolf",
+"def_fr": "Surnom du meneur qui guide les huit porteurs du Tribus Lupis, cachés sous sa carcasse noire.",
+"def_en": "Nickname of the leader who guides the eight bearers of the Tribus Lupis, hidden under its black frame."
+},
+{
+"fr": "pain Tribus Lupis",
+"en": "Tribus Lupis bread",
+"def_fr": "Pain de trois boules cuit au four banal le jour de la fête : l'une au thym, l'autre à l'olive noire, la dernière aux figues.",
+"def_en": "Three-part loaf baked in the communal oven on the festival day: one part with thyme, one with black olives, one with figs."
+},
+{
+"fr": "escalette",
+"en": "escalette",
+"def_fr": "Gaufre traditionnelle, fabriquée et dégustée sous les halles le jour de la sortie du Loup.",
+"def_en": "Traditional waffle, made and eaten under the market hall on the day the Wolf comes out."
+},
+{
+"fr": "Cornalencs",
+"en": "Cornalencs",
+"def_fr": "Nom occitan des habitants de Cournonterral, dont le Loup à trois têtes protège les droits durement acquis.",
+"def_en": "Occitan name for the people of Cournonterral, whose hard-won rights the three-headed Wolf protects."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2019_67717_INV_PCI_FRANCE_00425": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, la Tarasque fait-elle sans cesse demi-tour pour foncer vers la foule au lieu d'avancer sagement avec le défilé ?",
+"Pourquoi peut-il être délicat de faire revivre aujourd'hui les farces d'autrefois, comme arroser les spectateurs ou les faire tomber avec une corde ?",
+"Quel monstre ou quelle créature de légende est lié à un lieu de votre région, et quelle histoire raconte-t-on à son sujet ?"
+],
+"en": [
+"Why do you think the Tarasque keeps turning back to charge at the crowd instead of moving calmly along with the parade?",
+"Why might it be tricky today to revive the old pranks, such as soaking spectators or tripping them up with a rope?",
+"Which monster or legendary creature is linked to a place in your region, and what story is told about it?"
+]
+},
+"vocabulary": [
+{
+"fr": "Tarasque",
+"en": "Tarasque",
+"def_fr": "Monstre légendaire des bords du Rhône, dompté par sainte Marthe selon la tradition ; sa réplique court dans Tarascon lors des fêtes de juin.",
+"def_en": "Legendary monster of the Rhône banks, tamed by Saint Martha according to tradition; its replica charges through Tarascon at the June festival."
+},
+{
+"fr": "Tarascaïres",
+"en": "Tarascaïres (Knights of the Tarasque)",
+"def_fr": "Les Chevaliers de la Tarasque, une dizaine d'hommes, souvent joueurs de rugby, qui la poussent et la font courir dans les rues.",
+"def_en": "The Knights of the Tarasque, about ten men, often rugby players, who push it and make it run through the streets."
+},
+{
+"fr": "Tartarin de Tarascon",
+"en": "Tartarin of Tarascon",
+"def_fr": "Héros vantard d'un célèbre roman du XIXe siècle ; incarné par un habitant, il défile et tire en l'air avec sa suite costumée.",
+"def_en": "Boastful hero of a famous 19th-century novel; played by a local, he parades and fires into the air with his costumed followers."
+},
+{
+"fr": "bénédiction",
+"en": "blessing",
+"def_fr": "Ouverture des fêtes, le vendredi : la Tarasque est bénie à l'abbaye Saint-Michel-de-Frigolet, avec les marcheurs et leurs animaux.",
+"def_en": "The festival's opening on Friday: the Tarasque is blessed at Saint-Michel-de-Frigolet abbey, along with walkers and their animals."
+},
+{
+"fr": "pégoulade",
+"en": "pégoulade",
+"def_fr": "Ancien défilé nocturne aux flambeaux, abandonné aujourd'hui, où la Tarasque crachait des artifices par les naseaux.",
+"def_en": "Former night-time torchlit parade, no longer held, in which the Tarasque spouted fireworks from its nostrils."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2019_67717_INV_PCI_FRANCE_00429": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, le meneur fait-il semblant d'offrir de l'avoine au Poulain dans son tambourin, et qui commande vraiment l'animal ?",
+"Comment faire vivre des danses et des chansons de carnaval en occitan quand la langue se transmet moins et que le soufflet a quitté les maisons ?",
+"À quelles occasions, dans votre ville ou votre région, peut-on se moquer publiquement des élus et de la vie locale ?"
+],
+"en": [
+"Why do you think the leader pretends to offer the Poulain oats in his tambourine, and who really controls the animal?",
+"How can carnival dances and songs in Occitan stay alive when fewer people learn the language and bellows are no longer found at home?",
+"On what occasions, in your town or region, is it acceptable to poke fun at local politicians and local life in public?"
+]
+},
+"vocabulary": [
+{
+"fr": "Poulain",
+"en": "Poulain (lo Polin)",
+"def_fr": "Cheval-totem de Pézenas : une carcasse couverte de toile bleue, portée par neuf hommes, dont la tête s'allonge et se rétracte.",
+"def_en": "Pézenas's totem horse: a frame covered in blue cloth, carried by nine men, with a head that stretches out and draws back."
+},
+{
+"fr": "meneur",
+"en": "leader (meneur)",
+"def_fr": "Danseur surnommé l'Hermès qui guide, tambourin en main, le Poulain et ses porteurs, dont la vue est très réduite sous la toile.",
+"def_en": "Dancer nicknamed Hermes who, tambourine in hand, guides the Poulain and its bearers, who can barely see under the cloth."
+},
+{
+"fr": "Estieino et Estieineta",
+"en": "Estieino and Estieineta",
+"def_fr": "Les deux mannequins juchés sur le Poulain ; une légende contestée y voit un seigneur et une paysanne entrés en ville sur la même monture.",
+"def_en": "The two dummies riding the Poulain; a disputed legend sees them as a lord and a peasant woman who entered town on one horse."
+},
+{
+"fr": "machade",
+"en": "machade",
+"def_fr": "Histoire comique en occitan ; au spectacle des Machous, des habitants jouent des sketchs sur la vie politique locale.",
+"def_en": "Comic story in Occitan; at the Machous show, residents perform sketches about local politics."
+},
+{
+"fr": "bufatièra",
+"en": "bufatièra (bellows dance)",
+"def_fr": "Danse des Soufflets : en file, chaque danseur souffle avec un soufflet sur le derrière de celui qui le précède.",
+"def_en": "The bellows dance: in a line, each dancer puffs air with bellows at the backside of the person in front."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2019_67717_INV_PCI_FRANCE_00430": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, appelle-t-on à Bessan « danseurs », et non porteurs, les quatre hommes cachés sous l'Âne ?",
+"Comment se répartissent les rôles entre garçons et filles autour de l'Âne, et comment pourraient-ils évoluer ?",
+"Dans votre commune, quelles fêtes rendent visite aux personnes âgées ou les mettent à l'honneur, et pourquoi est-ce important ?"
+],
+"en": [
+"Why do you think the four men hidden under the Donkey are called \"dancers\" in Bessan, not bearers?",
+"How are roles shared between boys and girls around the Donkey, and how might that change?",
+"In your area, which festivals visit or honour older people, and why does that matter?"
+]
+},
+"vocabulary": [
+{
+"fr": "danseurs",
+"en": "dancers (danseurs)",
+"def_fr": "À Bessan, nom des quatre porteurs de l'Âne ; chacun choisit lui-même son successeur et lui transmet les secrets du portage.",
+"def_en": "In Bessan, the name for the Donkey's four bearers; each chooses his own successor and passes on the secrets of carrying."
+},
+{
+"fr": "chefs de jeunesse et demoiselles d'honneur",
+"en": "youth leaders and maids of honour",
+"def_fr": "Les cinq jeunes élus chaque année, deux chefs de jeunesse et trois demoiselles d'honneur, qui représentent la jeunesse et organisent une partie de la fête.",
+"def_en": "The five young people elected each year, two youth leaders and three maids of honour, who represent the young and organise part of the festival."
+},
+{
+"fr": "Petit Âne",
+"en": "Little Donkey",
+"def_fr": "Réplique de l'Âne portée par des garçons de 10 à 14 ans ; il imite ses mouvements et clôt seul le dernier jour.",
+"def_en": "Replica of the Donkey carried by boys aged 10 to 14; it copies the big one's moves and alone closes the last day."
+},
+{
+"fr": "remise des bouquets",
+"en": "presentation of bouquets",
+"def_fr": "Cérémonie très codifiée du dimanche où les demoiselles d'honneur offrent des fleurs aux élus, au pas près, devant des centaines de personnes.",
+"def_en": "Highly codified Sunday ceremony in which the maids of honour present flowers to the councillors, step by step, before hundreds of people."
+},
+{
+"fr": "Valse de l'Âne",
+"en": "Donkey's Waltz",
+"def_fr": "Air joué sans relâche par les fanfares pendant toute la fête pour faire danser l'Âne.",
+"def_en": "Tune played tirelessly by the bands throughout the festival to make the Donkey dance."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2019_67717_INV_PCI_FRANCE_00432": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, la pâtisserie de la Sainte-Agathe a-t-elle la forme d'une main, et pourquoi la partage-t-on entre femmes ?",
+"Que change le fait que le repas des Agathines, autrefois réservé aux mères et aux nourrices, accueille aujourd'hui aussi les jeunes filles ?",
+"Quelle pâtisserie ou quel plat de votre région est lié à un saint ou à une date précise, et qui le prépare ?"
+],
+"en": [
+"Why do you think the Saint Agatha pastry is shaped like a hand, and why is it shared among women?",
+"What changes now that the Agathines' meal, once kept for mothers and wet nurses, also welcomes young girls?",
+"Which pastry or dish in your region is tied to a saint or a particular date, and who makes it?"
+]
+},
+"vocabulary": [
+{
+"fr": "sainte Agathe",
+"en": "Saint Agatha",
+"def_fr": "Jeune martyre de Catane, en Sicile, patronne des nourrices, fêtée le 5 février.",
+"def_en": "Young martyr from Catania in Sicily, patron saint of wet nurses, whose feast day is 5 February."
+},
+{
+"fr": "nourrice",
+"en": "wet nurse",
+"def_fr": "Femme qui allaite un enfant qui n'est pas le sien ; l'histoire locale de la main rend hommage à l'une d'elles.",
+"def_en": "Woman who breastfeeds a child that is not her own; the local story behind the hand pastry honours one of them."
+},
+{
+"fr": "Agathines",
+"en": "Agathines",
+"def_fr": "Femmes d'un même hameau qui se retrouvent, la semaine du 5 février, pour un repas entre elles, sans les hommes.",
+"def_en": "Women from the same hamlet who meet in the week of 5 February for a meal of their own, without men."
+},
+{
+"fr": "main de Sainte-Agathe",
+"en": "Saint Agatha's hand",
+"def_fr": "Brioche au safran en forme de main, appelée guêta en patois, dont les doigts sont simplement marqués au couteau.",
+"def_en": "Saffron brioche shaped like a hand, called guêta in the local dialect, its fingers simply marked with a knife."
+},
+{
+"fr": "safran",
+"en": "saffron",
+"def_fr": "Épice qui colore et parfume la pâte ; pour le boulanger du village, sans safran ce n'est pas une vraie main.",
+"def_en": "Spice that colours and flavours the dough; for the village baker, without saffron it is not a real hand."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2019_67717_INV_PCI_FRANCE_00447": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, saute-t-on par-dessus le feu en lui « donnant » sa couleur jaune pour recevoir sa couleur rouge ?",
+"Que devient une fête familiale comme le Norouz lorsque des communautés de la diaspora la célèbrent aussi en public, sur une place ou dans une mairie parisienne ?",
+"Quels gestes ou quels objets accompagnent chez vous le passage à la nouvelle année, et quels souhaits expriment-ils ?"
+],
+"en": [
+"Why do you think people jump over the fire, \"giving\" it their yellow colour to receive its red one?",
+"What becomes of a family festival like Norouz when diaspora communities also celebrate it in public, in a square or a Paris town hall?",
+"Which gestures or objects mark the start of a new year in your home, and what wishes do they express?"
+]
+},
+"vocabulary": [
+{
+"fr": "haft siin",
+"en": "haft sin",
+"def_fr": "Table du Nouvel An où l'on dispose sept éléments dont le nom persan commence par « s », comme la pomme, l'ail ou la pièce.",
+"def_en": "New Year table set with seven items whose Persian names begin with \"s\", such as an apple, garlic or a coin."
+},
+{
+"fr": "sabzeh",
+"en": "sabzeh",
+"def_fr": "Pousses de blé ou de lentilles mises à germer dès mars, symbole majeur de la fête, rendues à l'eau courante au treizième jour.",
+"def_en": "Wheat or lentil sprouts grown from early March, a key symbol of the festival, released into running water on the thirteenth day."
+},
+{
+"fr": "Tchâhâr Shanbeh Souri",
+"en": "Chaharshanbe Suri",
+"def_fr": "« Mercredi enflammé » : la nuit précédant le dernier mercredi de l'année, on allume des feux et l'on saute par-dessus.",
+"def_en": "\"Fiery Wednesday\": on the night before the last Wednesday of the year, people light fires and jump over them."
+},
+{
+"fr": "Sizdah-bé-dar",
+"en": "Sizdah Bedar",
+"def_fr": "« Le treizième dehors » : le treizième jour après le Nouvel An, on pique-nique dans la nature, à Paris au bois de Boulogne.",
+"def_en": "\"Thirteenth day outdoors\": on the thirteenth day after New Year, people picnic in nature, in Paris in the Bois de Boulogne."
+},
+{
+"fr": "diaspora",
+"en": "diaspora",
+"def_fr": "Communauté vivant hors de son pays d'origine ; en Île-de-France, Iraniens, Kurdes, Kazakhs ou Kirghizes y fêtent le Norouz.",
+"def_en": "Community living outside its country of origin; in the Paris region, Iranians, Kurds, Kazakhs and Kyrgyz celebrate Norouz."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2019_67717_INV_PCI_FRANCE_00449": {
+"audience": "general",
+"questions": {
+"fr": [
+"Que racontent, selon vous, ces sculptures géantes couvertes de citrons et d'oranges, et pourquoi n'utiliser que deux couleurs ?",
+"Une fête inventée dans les années 1930 pour attirer les touristes en hiver peut-elle devenir une tradition pour les habitants ?",
+"Quel produit de votre région pourrait être au cœur d'une fête, et sous quelle forme le mettriez-vous en scène ?"
+],
+"en": [
+"What do you think these giant sculptures covered in lemons and oranges are saying, and why use only two colours?",
+"Can a festival invented in the 1930s to bring tourists in winter become a real tradition for the people who live there?",
+"Which product from your own region could be at the heart of a festival, and how would you put it on show?"
+]
+},
+"vocabulary": [
+{
+"fr": "corso",
+"en": "corso",
+"def_fr": "Défilé de chars décorés ; à Menton, chars couverts d'agrumes qui passent sur le front de mer, l'après-midi ou de nuit, illuminés.",
+"def_en": "Parade of decorated floats; in Menton, floats covered in citrus fruit move along the seafront, in the afternoon or lit up at night."
+},
+{
+"fr": "fruitage",
+"en": "fruiting",
+"def_fr": "Pose des agrumes un à un sur les structures, au moyen d'élastiques jaunes ou orange, en les triant selon leur taille et leur maturité.",
+"def_en": "Fixing the fruit one by one onto the structures with yellow or orange rubber bands, sorting them by size and ripeness."
+},
+{
+"fr": "armature",
+"en": "frame",
+"def_fr": "Squelette en fer façonné par des ferronniers, puis garni de grillage, qui donne leur forme aux chars et aux sculptures.",
+"def_en": "Iron skeleton shaped by metalworkers and then covered with wire mesh, which gives the floats and sculptures their shape."
+},
+{
+"fr": "jardins Biovès",
+"en": "Biovès gardens",
+"def_fr": "Promenade-jardin du centre de Menton où sont exposées, pendant la fête, les sculptures d'agrumes, parfois éclairées le soir.",
+"def_en": "Garden promenade in the centre of Menton where the citrus sculptures are displayed during the festival, sometimes lit up at night."
+},
+{
+"fr": "agrumes",
+"en": "citrus fruit",
+"def_fr": "Famille de fruits comprenant citrons et oranges ; il en faut plus de cent tonnes, surtout importées d'Espagne, la récolte locale ne suffisant pas.",
+"def_en": "Family of fruit that includes lemons and oranges; over a hundred tonnes are needed, mostly imported from Spain, as the local crop is too small."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2019_67717_INV_PCI_FRANCE_00450": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, beaucoup d'habitants choisissent-ils cette fête pour porter, ou étrenner, leur costume provençal ?",
+"Comment une fête née en 1968 autour d'une récolte peut-elle à la fois attirer des visiteurs et transmettre des savoir-faire aux jeunes du village ?",
+"Quelle récolte ou quel travail agricole rythme l'année dans votre région, et donne-t-il lieu à une fête ?"
+],
+"en": [
+"Why do you think many villagers choose this festival to wear, or wear for the first time, their Provençal costume?",
+"How can a festival founded in 1968 around a harvest both draw visitors and pass skills on to the village's young people?",
+"Which harvest or farm work marks the year in your own region, and is it celebrated with a festival?"
+]
+},
+"vocabulary": [
+{
+"fr": "olives cassées",
+"en": "cracked olives",
+"def_fr": "Olives vertes frappées avec le fond d'un verre pour les fendre sans briser le noyau, puis rincées plusieurs jours et conservées dans une saumure au fenouil.",
+"def_en": "Green olives struck with the bottom of a glass to split them without breaking the stone, rinsed for several days, then kept in brine with fennel."
+},
+{
+"fr": "olivade",
+"en": "olivade",
+"def_fr": "Saison de la cueillette des olives en Provence ; à Mouriès, elle s'ouvre mi-septembre et s'achève vers décembre avec l'huile nouvelle.",
+"def_en": "The olive-picking season in Provence; in Mouriès it opens in mid-September and ends around December with the new oil."
+},
+{
+"fr": "aïoli",
+"en": "aioli",
+"def_fr": "Sauce provençale à l'ail et à l'huile d'olive montée au mortier et au pilon ; un concours récompense le goût et la tenue.",
+"def_en": "Provençal sauce of garlic and olive oil, beaten in a mortar with a pestle; a contest rewards its taste and texture."
+},
+{
+"fr": "Arlésienne",
+"en": "Arlésienne",
+"def_fr": "Femme en costume traditionnel du pays d'Arles ; lors de la fête, les Arlésiennes défilent et remettent les trophées aux arènes.",
+"def_en": "Woman wearing the traditional costume of the Arles area; at the festival, Arlésiennes march in the parade and hand out the trophies in the arena."
+},
+{
+"fr": "raseteur",
+"en": "raseteur",
+"def_fr": "Jeune homme qui, dans la course camarguaise, tente d'attraper à la main les attributs fixés aux cornes du taureau, sans le blesser.",
+"def_en": "Young man who, in Camargue bull games, tries to snatch by hand the tokens tied to the bull's horns, without harming the animal."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2020_67717_INV_PCI_FRANCE_00471": {
+"audience": "general",
+"questions": {
+"fr": [
+"Que nous disent les couleurs des costumes des trois Rois et de leurs pages sur la manière dont on se représentait le monde ?",
+"Autrefois tenus par des hommes, les rôles sont aujourd'hui joués par des enfants, garçons et filles : qu'est-ce que cela change pour la fête ?",
+"Comment fête-t-on l'Épiphanie chez vous, et quelles traditions de votre ville sont liées au travail de la mer ou d'un autre métier ?"
+],
+"en": [
+"What do the colours of the three Kings' and their pages' costumes tell us about how people once pictured the world?",
+"The roles were once played by men and are now taken by children, boys and girls: what difference does that make to the feast?",
+"How is Epiphany celebrated where you live, and which local traditions are tied to the sea or to another trade?"
+]
+},
+"vocabulary": [
+{
+"fr": "Fête-Dieu",
+"en": "Corpus Christi",
+"def_fr": "Fête catholique du Saint-Sacrement, célébrée en juin ; selon la tradition, les marins luziens, alors en mer, obtinrent de la célébrer en hiver.",
+"def_en": "Catholic feast of the Blessed Sacrament, held in June; tradition says the town's sailors, away at sea then, were allowed to hold it in winter."
+},
+{
+"fr": "vêpres",
+"en": "vespers",
+"def_fr": "Office religieux de l'après-midi ou du soir ; la procession entre dans l'église au moment où il commence.",
+"def_en": "Afternoon or evening church service; the procession enters the church just as it begins."
+},
+{
+"fr": "thuriféraire",
+"en": "thurifer",
+"def_fr": "Personne qui porte et balance l'encensoir pendant une cérémonie ; ce rôle est ici tenu par des filles.",
+"def_en": "Person who carries and swings the incense burner during a service; here the role is taken by girls."
+},
+{
+"fr": "claquoir",
+"en": "clapper",
+"def_fr": "Petit instrument de bois qui claque ; le maître de cérémonie, souvent l'enfant de chœur le plus âgé, s'en sert pour rythmer les gestes.",
+"def_en": "Small wooden instrument that makes a sharp clap; the master of ceremonies, often the oldest altar server, uses it to cue each step."
+},
+{
+"fr": "txistulari",
+"en": "txistulari",
+"def_fr": "Musicien basque qui joue du txistu, petite flûte à trois trous ; une formation de txistulari ouvre la procession.",
+"def_en": "Basque musician who plays the txistu, a small three-holed flute; a band of txistulari leads the procession."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2020_67717_INV_PCI_FRANCE_00474": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, le dernier tour du défilé consiste-t-il à arracher les fleurs des chars pour les lancer sur le public ?",
+"Née pour distraire les curistes du XIXe siècle, la fête dépend aujourd'hui de bénévoles qui collent des fleurs des nuits entières : comment la faire durer ?",
+"Quelle fête de votre région demande des mois de préparation pour un seul week-end, et qui s'en charge ?"
+],
+"en": [
+"Why do you think the last lap of the parade is about tearing the flowers off the floats and throwing them at the crowd?",
+"Created to entertain 19th-century spa guests, the festival now relies on volunteers who glue flowers all night: how can it be kept going?",
+"Which festival in your region takes months of preparation for a single weekend, and who does the work?"
+]
+},
+"vocabulary": [
+{
+"fr": "corso fleuri",
+"en": "flower parade",
+"def_fr": "Défilé de chars couverts de fleurs, sur un thème choisi chaque année ; à Luchon, il fait plusieurs tours des allées d'Étigny le dimanche.",
+"def_en": "Parade of flower-covered floats on a theme chosen each year; in Luchon it makes several laps of the allées d'Étigny on the Sunday."
+},
+{
+"fr": "bataille de fleurs",
+"en": "flower battle",
+"def_fr": "Dernier moment du défilé, où l'on arrache les fleurs des chars pour les jeter sur les autres chars et sur les spectateurs.",
+"def_en": "The final part of the parade, when the flowers are pulled off the floats and thrown at other floats and at the spectators."
+},
+{
+"fr": "dahlia",
+"en": "dahlia",
+"def_fr": "Fleur livrée par centaines de milliers à Luchon juste avant la fête, puis collée à la main sur les chars par les associations.",
+"def_en": "Flower delivered by the hundred thousand to Luchon just before the festival, then glued by hand onto the floats by local groups."
+},
+{
+"fr": "papier crépon",
+"en": "crêpe paper",
+"def_fr": "Papier plissé que des bénévoles découpent, agrafent et ouvrent en fleurs pendant des mois, notamment aux Eaux-Bonnes.",
+"def_en": "Crinkled paper that volunteers cut, staple and open out into flowers over many months, notably in Eaux-Bonnes."
+},
+{
+"fr": "curiste",
+"en": "spa guest",
+"def_fr": "Personne qui séjourne dans une station thermale pour suivre une cure ; les fêtes des Fleurs sont nées pour animer leur saison d'été.",
+"def_en": "Person staying in a spa town to take a course of treatment; the flower festivals began as summer entertainment for them."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2020_67717_INV_PCI_FRANCE_00479": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, le repas de Yennayer doit-il être si copieux que chacun mange à satiété ?",
+"Comment une fête agraire née en Afrique du Nord change-t-elle de sens lorsqu'elle est célébrée par une diaspora en région parisienne ?",
+"Quelles fêtes ou quels plats de votre famille marquent le passage d'une année à l'autre ?"
+],
+"en": [
+"Why do you think the Yennayer meal has to be so plentiful that everyone eats their fill?",
+"How does a farming festival from North Africa change its meaning when a diaspora celebrates it in the Paris region?",
+"Which celebrations or dishes in your own family mark the move from one year to the next?"
+]
+},
+"vocabulary": [
+{
+"fr": "Yennayer",
+"en": "Yennayer",
+"def_fr": "Premier jour de l'an du calendrier berbère, fêté vers le 12 janvier ; le mot viendrait du latin désignant le mois de janvier.",
+"def_en": "First day of the Berber calendar year, celebrated around 12 January; the word probably comes from the Latin name for January."
+},
+{
+"fr": "amazigh",
+"en": "Amazigh",
+"def_fr": "Nom que se donnent les Berbères (pluriel Imazighen), peuples d'Afrique du Nord présents aussi dans de nombreuses diasporas.",
+"def_en": "The name Berbers use for themselves (plural Imazighen), peoples of North Africa also found in many diaspora communities."
+},
+{
+"fr": "imensi n yennayer",
+"en": "imensi n yennayer",
+"def_fr": "Grand repas familial du Nouvel An, cœur de la fête ; ses plats (couscous, volaille, beignets) varient selon les régions.",
+"def_en": "The large New Year family meal at the heart of the festival; its dishes (couscous, poultry, fritters) vary from region to region."
+},
+{
+"fr": "calendrier julien",
+"en": "Julian calendar",
+"def_fr": "Calendrier romain instauré en 45 av. J.-C. ; le calendrier agraire berbère en dérive, ce qui explique son décalage avec le nôtre.",
+"def_en": "Roman calendar introduced in 45 BC; the Berber farming calendar comes from it, which explains why it is out of step with ours."
+},
+{
+"fr": "yaz",
+"en": "yaz",
+"def_fr": "Lettre de l'alphabet amazigh devenue symbole de la langue et de la culture berbères, visible sur les drapeaux et banderoles.",
+"def_en": "Letter of the Amazigh alphabet that has become a symbol of Berber language and culture, seen on flags and banners."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2020_67717_INV_PCI_FRANCE_00486": {
+"audience": "general",
+"questions": {
+"fr": [
+"Que veulent montrer, selon vous, ces rangs de conscrits de tous âges qui avancent bras dessus bras dessous d'un trottoir à l'autre ?",
+"Née du service militaire, la fête rassemble aujourd'hui hommes et femmes nés la même année : que devient-elle quand les habitants déménagent souvent ?",
+"Avec qui fêteriez-vous vos « classes », et quels liens vous unissent aux personnes nées la même année que vous ?"
+],
+"en": [
+"What do you think these rows of conscrits of all ages, arm in arm and swaying from pavement to pavement, are trying to show?",
+"Born of military service, the festival now brings together men and women born in the same year; what becomes of it when people move often?",
+"Who would you celebrate your \"class\" with, and what ties you to people born in the same year as you?"
+]
+},
+"vocabulary": [
+{
+"fr": "conscrit",
+"en": "conscrit",
+"def_fr": "À l'origine, jeune homme appelé au service militaire ; ici, toute personne qui fête ses 20, 30, 40 ans ou plus avec ceux de son année.",
+"def_en": "Originally a young man called up for military service; here, anyone who celebrates turning 20, 30, 40 or more with others born the same year."
+},
+{
+"fr": "classe",
+"en": "class",
+"def_fr": "Groupe des personnes nées la même année, organisé en amicale, avec son bureau, son drapeau et sa chanson.",
+"def_en": "Group of people born in the same year, organised as a club with its own committee, flag and song."
+},
+{
+"fr": "vague",
+"en": "the \"wave\"",
+"def_fr": "Défilé du dimanche matin dans la rue Nationale ; les rangs de cinq conscrits, bras dessus bras dessous, ondulent d'un trottoir à l'autre.",
+"def_en": "Sunday morning parade along the rue Nationale; rows of five conscrits, arm in arm, sway from one pavement to the other."
+},
+{
+"fr": "gibus",
+"en": "opera hat",
+"def_fr": "Chapeau haut-de-forme noir des conscrits, cerclé d'un ruban dont la couleur indique l'âge de la classe.",
+"def_en": "The conscrits' black top hat, ringed with a ribbon whose colour shows the age of the class."
+},
+{
+"fr": "cocarde",
+"en": "rosette",
+"def_fr": "Insigne tricolore porté sur le smoking ; les conscrits en remettent une à chaque conscrite avec un bouquet, le samedi de la fête.",
+"def_en": "Tricolour badge worn on the tuxedo; the conscrits present one to each conscrite, with a bouquet, on the Saturday of the festival."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2022_67717_INV_PCI_FRANCE_00510": {
+"audience": "general",
+"questions": {
+"fr": [
+"Hommes et femmes sont séparés par un simple cordon de tissu mais se répondent par le chant et le geste : que nous dit cette organisation de l'espace ?",
+"Cérémonie religieuse, la mawlida shenge sert aussi pour des deuils, des meetings ou des week-ends festifs : comment garde-t-elle son sens en changeant d'usage ?",
+"Dans votre entourage, quels chants ou quelles musiques rassemblent toutes les générations lors des grands moments de la vie ?"
+],
+"en": [
+"Men and women are separated by a mere fabric cord, yet answer each other in song and gesture; what does this use of space tell us?",
+"A religious ceremony, the mawlida shenge is also held for mourning, political rallies and festive weekends; how does it keep its meaning as its uses change?",
+"Around you, which songs or music bring all generations together at life's important moments?"
+]
+},
+"vocabulary": [
+{
+"fr": "bandrabandra",
+"en": "bandrabandra",
+"def_fr": "Espace éphémère de la cérémonie, carré ou rectangulaire, fait de tissus tendus sur une ossature de bois et couvert d'un toit de tissu.",
+"def_en": "Temporary ceremonial space, square or rectangular, made of fabric stretched over a wooden frame and roofed with cloth."
+},
+{
+"fr": "msutru",
+"en": "msutru",
+"def_fr": "Cordon de tissus colorés, du sol au toit, qui partage le bandrabandra entre le côté des femmes et celui des hommes.",
+"def_en": "Cord of brightly coloured fabric, running from floor to roof, that divides the bandrabandra into a women's side and a men's side."
+},
+{
+"fr": "fundi",
+"en": "fundi",
+"def_fr": "Maître reconnu pour son savoir ; le fundi soliste mène les chants et décide quand les femmes prennent le relais.",
+"def_en": "Master recognised for their knowledge; the solo fundi leads the songs and decides when the women take over."
+},
+{
+"fr": "tari",
+"en": "tari",
+"def_fr": "Tambour sur cadre joué par les hommes ; quelques coups rapides et reconnaissables marquent la fin d'un chant.",
+"def_en": "Frame drum played by the men; a few quick, well-known beats signal the end of a song."
+},
+{
+"fr": "saluva",
+"en": "saluva",
+"def_fr": "Pagne coloré porté par les femmes mahoraises ; les membres d'une même association portent souvent le même tissu.",
+"def_en": "Brightly coloured wrap worn by Mahoran women; members of the same association often wear the same fabric."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2022_67717_INV_PCI_FRANCE_00519": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, récompense-t-on des poèmes par des fleurs en métal précieux plutôt que par un simple diplôme ?",
+"Comment un concours né au Moyen Âge peut-il attirer aujourd'hui de jeunes poètes, en français comme en occitan, et s'ouvrir à la chanson ou au slam ?",
+"Quelle place la poésie, ou une langue régionale, occupe-t-elle dans votre vie ou dans votre région ?"
+],
+"en": [
+"Why do you think poems are rewarded with flowers made of precious metal rather than a simple certificate?",
+"How can a contest founded in the Middle Ages attract young poets today, in French and in Occitan, and open up to song or slam?",
+"What place does poetry, or a regional language, have in your own life or in your region?"
+]
+},
+"vocabulary": [
+{
+"fr": "mainteneur",
+"en": "mainteneur",
+"def_fr": "Membre de l'Académie des Jeux floraux, élu par ses pairs ; les quarante mainteneurs jugent les œuvres et décernent les prix.",
+"def_en": "Member of the Academy of the Floral Games, elected by the other members; the forty mainteneurs judge the entries and award the prizes."
+},
+{
+"fr": "maître ès jeux",
+"en": "maître ès jeux",
+"def_fr": "Titre donné à des poètes ou lettrés distingués, qui participent avec les mainteneurs à la sélection des lauréats.",
+"def_en": "Title given to distinguished poets or scholars, who take part with the mainteneurs in choosing the winners."
+},
+{
+"fr": "Fleur",
+"en": "Flower",
+"def_fr": "Prix en forme de fleur en métal précieux ; le premier concours, en 1324, offrait une violette d'or.",
+"def_en": "Prize in the shape of a flower made of precious metal; the first contest, in 1324, offered a golden violet."
+},
+{
+"fr": "devise",
+"en": "motto",
+"def_fr": "Titre choisi par le candidat pour identifier son poème de façon anonyme ; son nom n'est révélé qu'après le vote des jurys.",
+"def_en": "Title chosen by the entrant so the poem can be identified anonymously; the author's name is revealed only after the judges have voted."
+},
+{
+"fr": "Consistori del Gay Saber",
+"en": "Consistori del Gay Saber",
+"def_fr": "« Consistoire du Gai Savoir » en occitan ; nom de la compagnie formée par les sept troubadours fondateurs, devenue l'Académie.",
+"def_en": "\"Consistory of the Gay Science\" in Occitan; name of the society formed by the seven founding troubadours, which later became the Academy."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2023_67717_INV_PCI_FRANCE_00521": {
+"audience": "general",
+"questions": {
+"fr": [
+"Que racontent, selon vous, ces grosses têtes et ces chars aux couleurs vives sur l'humour et les préoccupations des Nantais de l'année ?",
+"Un char peut demander des milliers d'heures de travail bénévole : comment transmettre ces savoir-faire aux jeunes et faire reconnaître ce travail ?",
+"Avez-vous déjà participé à un carnaval ou fabriqué un costume ou un décor en groupe, et qu'en avez-vous retenu ?"
+],
+"en": [
+"What do you think these big heads and brightly coloured floats say about the humour and concerns of Nantes people that year?",
+"A float can take thousands of hours of volunteer work; how can these skills be passed on to young people and the work be recognised?",
+"Have you ever taken part in a carnival or made a costume or set with a group, and what did you take away from it?"
+]
+},
+"vocabulary": [
+{
+"fr": "carnavalier",
+"en": "float builder",
+"def_fr": "Bénévole qui imagine, dessine et construit un char, de la maquette à l'échelle 1/20 jusqu'à la peinture finale.",
+"def_en": "Volunteer who designs, draws and builds a float, from the 1:20 scale model to the final coat of paint."
+},
+{
+"fr": "grosse tête",
+"en": "big head",
+"def_fr": "Tête géante et creuse en papier moulé, peinte puis portée sur les épaules par un défilant ; ce savoir-faire se transmet difficilement.",
+"def_en": "Giant hollow head made of moulded paper, painted and worn on the shoulders by a marcher; few people still know how to make them."
+},
+{
+"fr": "papiétage",
+"en": "papering",
+"def_fr": "Pose, bord à bord, de petits morceaux de papier trempés dans l'eau chaude et la colle, pour couvrir les sculptures en polystyrène.",
+"def_en": "Laying small pieces of paper soaked in hot water and glue edge to edge to cover the polystyrene sculptures."
+},
+{
+"fr": "Mi-Carême",
+"en": "Mid-Lent",
+"def_fr": "Fête placée au milieu du Carême, entre mardi gras et Pâques ; le carnaval nantais en est issu, à partir de 1880.",
+"def_en": "Festival held halfway through Lent, between Shrove Tuesday and Easter; the Nantes carnival grew out of it from 1880."
+},
+{
+"fr": "Roi Carnaval",
+"en": "Carnival King",
+"def_fr": "Figure d'honneur de la fête, choisie parmi des Nantais connus pour animer la vie de la ville ; son char ouvre le cortège.",
+"def_en": "The festival's guest of honour, chosen from local people known for bringing life to the city; their float leads the parade."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2023_67717_INV_PCI_FRANCE_00523": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les pénitents de la Sanch marchent-ils le visage caché ?",
+"Qu'est-ce qui change quand une procession religieuse attire aussi des visiteurs venus pour le spectacle ?",
+"Quelles traditions de votre région se transmettent au sein d'une confrérie ou d'une association ?"
+],
+"en": [
+"Why do you think the penitents of the Sanch walk with their faces hidden?",
+"What changes when a religious procession also draws visitors who come for the spectacle?",
+"Which traditions in your own region are passed on through a brotherhood or an association?"
+]
+},
+"vocabulary": [
+{
+"fr": "confrérie",
+"en": "confraternity",
+"def_fr": "Association de laïcs catholiques réunis autour d'une dévotion et de pratiques charitables ; celle de la Sanch (« du Sang ») date du XVe siècle.",
+"def_en": "Association of lay Catholics united by a devotion and charitable work; the Sanch (\"of the Blood\") brotherhood dates from the 15th century."
+},
+{
+"fr": "pénitent",
+"en": "penitent",
+"def_fr": "Membre d'une confrérie qui défile en signe de pénitence, vêtu d'une longue robe et d'une cagoule.",
+"def_en": "Member of a brotherhood who walks in procession as an act of penance, in a long robe and a hood."
+},
+{
+"fr": "caperutxa",
+"en": "caperutxa",
+"def_fr": "Cagoule pointue (en catalan) des pénitents, noire pour la plupart, rouge pour le régidor qui ouvre la marche.",
+"def_en": "The penitents' pointed hood (Catalan word), black for most, red for the regidor who leads the way."
+},
+{
+"fr": "misteri",
+"en": "misteri",
+"def_fr": "Statue ou groupe sculpté représentant une scène de la Passion, porté à dos d'hommes pendant la procession.",
+"def_en": "Statue or carved group showing a scene of the Passion, carried on people's shoulders in the procession."
+},
+{
+"fr": "Semaine sainte",
+"en": "Holy Week",
+"def_fr": "Semaine qui précède Pâques ; sa date change chaque année, comme celle de Pâques.",
+"def_en": "The week before Easter; its date changes every year, like Easter itself."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2023_67717_INV_PCI_FRANCE_00524": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, la statue change-t-elle de manteau entre la ville et la campagne, et pourquoi les porteurs se relaient-ils tout au long des 17 km ?",
+"Une procession née d'un vœu municipal il y a mille ans reste portée par le maire et des milliers d'habitants : que représente-t-elle aujourd'hui pour la ville ?",
+"Y a-t-il dans votre ville une fête, un trajet ou un monument qui rappelle une épidémie ou une catastrophe ancienne ?"
+],
+"en": [
+"Why do you think the statue changes its cloak between the town and the outskirts, and why do the bearers take turns all along the 17 km?",
+"A procession born of a town vow a thousand years ago is still carried by the mayor and thousands of residents; what does it mean for the town today?",
+"Is there a festival, a route or a monument in your town that recalls an epidemic or a disaster of long ago?"
+]
+},
+"vocabulary": [
+{
+"fr": "vœu",
+"en": "vow",
+"def_fr": "Promesse solennelle faite à Dieu ; selon la tradition, les échevins promirent un tour annuel de la ville après la peste de 1008.",
+"def_en": "Solemn promise made to God; tradition says the town magistrates pledged a yearly tour of the town after the plague of 1008."
+},
+{
+"fr": "Royés",
+"en": "Royés",
+"def_fr": "Membres de la confrérie qui organise le Tour depuis ses origines ; ils encadrent les pèlerins, mènent les chants et choisissent les porteurs.",
+"def_en": "Members of the brotherhood that has organised the Tour since its beginnings; they guide the pilgrims, lead the singing and choose the bearers."
+},
+{
+"fr": "Petit Tour",
+"en": "Petit Tour",
+"def_fr": "Première boucle d'environ deux kilomètres autour de la place d'Armes, dans les anciens remparts ; devant la mairie, le maire et les élus portent la statue.",
+"def_en": "The first loop, about two kilometres round the place d'Armes inside the old ramparts; outside the town hall, the mayor and councillors carry the statue."
+},
+{
+"fr": "Grand Tour",
+"en": "Grand Tour",
+"def_fr": "Longue marche de l'après-midi autour de la ville, avec des haltes dans les églises, à la maternité et devant les malades qui attendent la statue.",
+"def_en": "The long afternoon walk around the town, stopping at churches, the maternity ward and in front of sick people waiting for the statue."
+},
+{
+"fr": "manteau d'apparat",
+"en": "ceremonial cloak",
+"def_fr": "Riche vêtement de la statue pour la traversée du centre-ville, échangé contre un manteau plus simple, dit « de campagne », pour le Grand Tour.",
+"def_en": "The statue's rich robe for crossing the town centre, swapped for a plainer \"country\" cloak for the Grand Tour."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2024_67717_INV_PCI_FRANCE_00545": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les familles riveraines tiennent-elles tant à fleurir « leur » croix et à attendre la procession à ses côtés ?",
+"Croyants et non-croyants marchent ensemble toute une nuit et un jour : qu'est-ce qui pousse des personnes si différentes à faire cette épreuve ?",
+"Quel chemin, quelle marche ou quelle épreuve collective compte particulièrement dans votre région ou dans votre famille ?"
+],
+"en": [
+"Why do you think the families living nearby care so much about decorating \"their\" cross with flowers and waiting beside it for the procession?",
+"Believers and non-believers walk together through a whole night and day; what drives such different people to take on this challenge?",
+"Which path, walk or shared challenge matters especially in your region or in your family?"
+]
+},
+"vocabulary": [
+{
+"fr": "lieue",
+"en": "league",
+"def_fr": "Ancienne mesure de distance ; les neuf lieues « de Gascogne » du parcours équivalent à environ 53 km.",
+"def_en": "Old unit of distance; the route's nine \"Gascony\" leagues come to about 53 km."
+},
+{
+"fr": "croix fleurie",
+"en": "flower-decked cross",
+"def_fr": "Croix de chemin, souvent haute de plus de deux mètres, garnie de verdure et de fleurs par une famille voisine ; elle marque l'une des 48 stations.",
+"def_en": "Wayside cross, often over two metres high, dressed with greenery and flowers by a nearby family; it marks one of the 48 stops."
+},
+{
+"fr": "processionneur",
+"en": "procession walker",
+"def_fr": "Personne qui marche dans la procession ; ceux qui bouclent le parcours reçoivent une médaille, de plus en plus prestigieuse avec le nombre de tours.",
+"def_en": "Person who walks in the procession; those who complete the route receive a medal, grander as the number of completed walks grows."
+},
+{
+"fr": "bayle",
+"en": "bayle",
+"def_fr": "Président de la confrérie de Saint Maximin, élu par les confrères ; à l'arrivée, il remet les médailles aux marcheurs.",
+"def_en": "President of the Saint Maximin brotherhood, elected by its members; at the finish, he hands out the medals to the walkers."
+},
+{
+"fr": "chant grégorien",
+"en": "Gregorian chant",
+"def_fr": "Chant liturgique latin à une seule voix ; la procession conserve des chants anciens du diocèse de Limoges perdus ailleurs.",
+"def_en": "Single-line Latin church singing; the procession keeps old chants from the diocese of Limoges that are no longer sung elsewhere."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2025_67717_INV_PCI_FRANCE_00556": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, le public apprécie-t-il autant qu'un poète en déstabilise un autre par une moquerie, puis s'en sorte par une pirouette verbale ?",
+"Né dans les foires et les veillées, le chjam'è rispondi s'apprend aujourd'hui aussi dans des ateliers et des scènes dédiées : qu'est-ce que cela change ?",
+"Dans votre entourage, où entend-on encore des joutes verbales improvisées, du rap au slam en passant par les répliques entre amis ?"
+],
+"en": [
+"Why do you think audiences enjoy it so much when one poet unsettles another with mockery and the other escapes with a verbal twist?",
+"Born at fairs and evening gatherings, chjam'è rispondi is now also learned in workshops and on dedicated stages; what difference does that make?",
+"Around you, where can improvised verbal duels still be heard, from rap and slam to quick-fire banter between friends?"
+]
+},
+"vocabulary": [
+{
+"fr": "chjam'è rispondi",
+"en": "chjam'è rispondi",
+"def_fr": "« Appelle et réponds » en corse ; échange chanté et improvisé où chaque poète répond au défi lancé par un autre, sur un sujet inconnu d'avance.",
+"def_en": "\"Call and answer\" in Corsican; a sung, improvised exchange in which each poet answers another's challenge, on a subject not known in advance."
+},
+{
+"fr": "terzinu",
+"en": "terzinu",
+"def_fr": "Strophe de trois vers de seize syllabes, unité de base de chaque réplique ; plusieurs schémas de rimes existent, plus ou moins difficiles.",
+"def_en": "Verse of three sixteen-syllable lines, the basic unit of each reply; several rhyme patterns exist, some harder than others."
+},
+{
+"fr": "versu",
+"en": "versu",
+"def_fr": "Dans le chant corse, à la fois la mélodie et la manière de chanter (ornements, tempo, timbre) ; il reflète la personnalité du poète.",
+"def_en": "In Corsican singing, both the tune and the way it is sung (ornaments, tempo, tone); it reflects the poet's personality."
+},
+{
+"fr": "macagna",
+"en": "macagna",
+"def_fr": "Raillerie pleine d'humour ; elle donne le ton des joutes ludiques, sur un sujet banal compris de tous.",
+"def_en": "Good-humoured teasing; it sets the tone of playful duels on an everyday subject that everyone understands."
+},
+{
+"fr": "disprezzu",
+"en": "disprezzu",
+"def_fr": "Joute caustique où deux poètes se rabaissent mutuellement en exagérant les défauts de l'autre, à la limite de la vexation.",
+"def_en": "Caustic duel in which two poets put each other down by exaggerating the other's flaws, close to the point of offence."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2025_67717_INV_PCI_FRANCE_00560": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, les équipes de Scaër gardent-elles secrets leurs chars jusqu'au défilé et cachent-elles entièrement le tracteur et son conducteur ?",
+"Près d'un habitant sur quatre participe au carnaval, beaucoup de jeunes compris : comment une petite commune parvient-elle à transmettre une telle fête ?",
+"Dans votre ville ou votre quartier, quelle activité collective rassemble des gens qui, le reste de l'année, se croisent peu ?"
+],
+"en": [
+"Why do you think the Scaër teams keep their floats secret until the parade and completely hide the tractor and its driver?",
+"Nearly one resident in four takes part, many of them young; how does a small town manage to pass such a festival on?",
+"In your town or neighbourhood, which shared activity brings together people who otherwise rarely meet?"
+]
+},
+"vocabulary": [
+{
+"fr": "cavalcade",
+"en": "cavalcade",
+"def_fr": "Nom traditionnel du défilé de chars et de groupes costumés ; à Scaër, il a lieu le dimanche et le lundi, les années impaires.",
+"def_en": "Traditional name for the parade of floats and costumed groups; in Scaër it takes place on the Sunday and Monday, in odd-numbered years."
+},
+{
+"fr": "hangar",
+"en": "shed",
+"def_fr": "Atelier propre à chaque équipe, où le char est construit pendant des semaines à l'abri des regards des autres équipes.",
+"def_en": "Each team's own workshop, where the float is built over several weeks out of sight of the other teams."
+},
+{
+"fr": "tracteur-socle",
+"en": "base tractor",
+"def_fr": "Tracteur qui porte et tire le char ; entièrement camouflé, son conducteur ne voit la route que grâce à des caméras.",
+"def_en": "Tractor that carries and pulls the float; it is fully disguised, and the driver sees the road only through cameras."
+},
+{
+"fr": "remise des clés",
+"en": "handing over the keys",
+"def_fr": "Rituel où le maire confie une clé géante aux organisateurs, comme si la ville passait pour un temps aux mains du carnaval.",
+"def_en": "Ritual in which the mayor hands a giant key to the organisers, as if the town were handed over to the carnival for a while."
+},
+{
+"fr": "Bastringue",
+"en": "Bastringue",
+"def_fr": "Fête organisée une semaine après le premier défilé, où le classement des chars est annoncé devant tous les bénévoles et carnavaliers.",
+"def_en": "Party held a week after the first parade, where the float rankings are announced in front of all the volunteers and float builders."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2026_67717_INV_PCI_FRANCE_00564": {
+"audience": "general",
+"questions": {
+"fr": [
+"Pourquoi, selon vous, des enfants défilent-ils en petits bergers et bergères en costume berrichon derrière la statue de sainte Solange ?",
+"Depuis les années 1960, des familles portugaises ont donné un nouvel élan à ce pèlerinage : comment une tradition locale peut-elle devenir aussi celle de nouveaux arrivants ?",
+"Quelle figure, réelle ou légendaire, est associée à votre région, et comment la fête-t-on encore aujourd'hui ?"
+],
+"en": [
+"Why do you think children walk dressed as little shepherds and shepherdesses, in Berry costume, behind the statue of Saint Solange?",
+"Since the 1960s, Portuguese families have given this pilgrimage new life; how can a local tradition also become that of newcomers?",
+"Which figure, real or legendary, is linked to your region, and how is it still celebrated today?"
+]
+},
+"vocabulary": [
+{
+"fr": "reliquaire",
+"en": "reliquary",
+"def_fr": "Coffret précieux qui renferme les reliques d'un saint ; celui de sainte Solange est porté sur une civière jusqu'à la chapelle.",
+"def_en": "Precious casket holding a saint's relics; Saint Solange's is carried on a stretcher to the chapel."
+},
+{
+"fr": "neuvaine",
+"en": "novena",
+"def_fr": "Série de prières répétées pendant neuf jours ; une neuvaine à l'église précède le pèlerinage.",
+"def_en": "Series of prayers said over nine days; a novena in the church comes before the pilgrimage."
+},
+{
+"fr": "cénotaphe",
+"en": "cenotaph",
+"def_fr": "Tombeau vide élevé en mémoire d'une personne ; celui de Solange, fleuri pour l'occasion, est la première halte du cortège.",
+"def_en": "Empty tomb built in memory of someone; Solange's, decorated with flowers for the day, is the procession's first stop."
+},
+{
+"fr": "champ du martyre",
+"en": "field of martyrdom",
+"def_fr": "Terrain devant la chapelle, au lieu où la sainte aurait été tuée ; on y célèbre la messe puis on y danse l'après-midi.",
+"def_en": "Field in front of the chapel, where the saint is said to have been killed; mass is held there, followed by dancing in the afternoon."
+},
+{
+"fr": "petits bergers",
+"en": "little shepherds",
+"def_fr": "Enfants en costume berrichon qui suivent la statue, en souvenir du métier de bergère prêté à Solange par la tradition.",
+"def_en": "Children in Berry costume who follow the statue, recalling the shepherdess's life that tradition gives to Solange."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+},
+"2026_67717_INV_PCI_FRANCE_00565": {
+"audience": "general",
+"questions": {
+"fr": [
+"Que produit, selon vous, la vue de milliers de cierges allumés dans la nuit, et pourquoi le chapelet est-il récité tour à tour dans de nombreuses langues ?",
+"Les malades, en fauteuil ou sur brancard, sont placés au premier rang : que dit cette organisation de la place donnée aux plus fragiles ?",
+"Avez-vous déjà vécu un rassemblement où des personnes de pays et de langues très différents faisaient la même chose ensemble ?"
+],
+"en": [
+"What effect do you think thousands of candles lit in the dark have, and why is the rosary said in turn in many languages?",
+"Sick people, in wheelchairs or on stretchers, are placed at the front; what does this arrangement say about the place given to the most vulnerable?",
+"Have you ever been part of a gathering where people from very different countries and languages all did the same thing together?"
+]
+},
+"vocabulary": [
+{
+"fr": "cierge",
+"en": "candle",
+"def_fr": "Longue bougie que chaque participant tient allumée ; c'est elle qui vaut à la procession son nom de « procession aux flambeaux ».",
+"def_en": "Long candle that every participant holds alight; it gives the procession its name of \"torchlight procession\"."
+},
+{
+"fr": "chapelet",
+"en": "rosary",
+"def_fr": "Prière faite d'une suite de « Je vous salue Marie », comptés sur un collier de grains ; on la récite pendant la procession.",
+"def_en": "Prayer made up of a series of Hail Marys, counted on a string of beads; it is said during the procession."
+},
+{
+"fr": "hospitalier",
+"en": "hospitaller",
+"def_fr": "Bénévole qui accueille et accompagne les pèlerins malades ou handicapés pendant leur séjour et pendant la procession.",
+"def_en": "Volunteer who welcomes and accompanies sick or disabled pilgrims during their stay and during the procession."
+},
+{
+"fr": "cérémoniaire",
+"en": "master of ceremonies",
+"def_fr": "Membre de l'équipe du sanctuaire qui marche en tête, règle le rythme du cortège et répartit les langues de la prière.",
+"def_en": "Member of the sanctuary staff who walks at the front, sets the pace of the procession and shares out the prayer among languages."
+},
+{
+"fr": "voiture bleue",
+"en": "blue carriage",
+"def_fr": "Petite voiture bleue à bras, menée par des hospitaliers, dans laquelle des pèlerins malades ou à mobilité réduite suivent la procession.",
+"def_en": "Small blue carriage moved by hand by hospitallers, in which sick pilgrims or those with limited mobility take part in the procession."
+}
+],
+"lang_review": "draft",
+"review_status": "unreviewed"
+}
+}
+}

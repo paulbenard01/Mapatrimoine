@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00114
+audience: general
+questions:
+  fr:
+    - "Pendant le concours, le berger dirige son chien à distance pour conduire les brebis : quels gestes, quels sons ou quels signaux rendent possible cette entente ?"
+    - "Née en 1980 du bal qui marquait la descente des estives, la fête mêle aujourd'hui métier, concours et spectacle ; que dit-elle de la place des bergers dans la vallée aujourd'hui ?"
+    - "Quels métiers de votre région sont célébrés par une fête, et que montre-t-on au public à cette occasion ?"
+  en:
+    - "During the trials, the shepherd directs the dog from a distance to move the sheep: what gestures, sounds or signals make this understanding possible?"
+    - "Born in 1980 from the dance that marked the return from summer pastures, the festival now mixes work, competition and show; what does it say about the place of shepherds in the valley today?"
+    - "Which trades in your region are celebrated with a festival, and what is shown to the public on that occasion?"
+vocabulary:
+  - fr: aulhèr
+    en: aulhèr
+    def_fr: "Mot béarnais désignant le berger, qui donne son nom à la fête, la « hèsta deus aulhèrs »."
+    def_en: "Béarn word for a shepherd, which gives the festival its name, the 'hèsta deus aulhèrs'."
+  - fr: estive
+    en: summer pasture
+    def_fr: "Pâturage de montagne où les troupeaux passent l'été ; leur descente, à la fin de la saison, était autrefois fêtée par un bal."
+    def_en: "Mountain grazing land where flocks spend the summer; their return at the end of the season used to be marked by a dance."
+  - fr: transhumance
+    en: transhumance
+    def_fr: "Déplacement saisonnier des troupeaux entre la vallée et les pâturages d'altitude ; la fête en propose une depuis les cols."
+    def_en: "Seasonal movement of flocks between the valley and high pastures; the festival includes one down from the mountain passes."
+  - fr: chien de troupeau
+    en: herding dog
+    def_fr: "Chien dressé pour rassembler et conduire les bêtes sur les ordres du berger ; le concours d'Aramits compte pour le championnat de France."
+    def_en: "Dog trained to gather and drive livestock on the shepherd's commands; the Aramits trials count towards the French championship."
+  - fr: pastoralisme
+    en: pastoralism
+    def_fr: "Élevage fondé sur la conduite des troupeaux au pâturage et sur leurs déplacements selon les saisons."
+    def_en: "Livestock farming based on herding animals to graze and moving them with the seasons."
+lang_review: draft
+review_status: unreviewed

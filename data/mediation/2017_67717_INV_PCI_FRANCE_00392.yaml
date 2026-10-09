@@ -1,0 +1,34 @@
+id: 2017_67717_INV_PCI_FRANCE_00392
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, des bénévoles lavent-ils la rue et jettent-ils des fleurs devant le livre saint pendant le défilé ?"
+    - "Quel rôle les jeunes Sikhs nés en France peuvent-ils jouer pour faire connaître le Vaisakhi aux habitants de Bobigny et d'ailleurs ?"
+    - "Quelles fêtes de votre entourage marquent à la fois le retour d'une saison et un événement religieux ou historique ?"
+  en:
+    - "Why do you think volunteers wash the street and scatter flowers in front of the holy book during the parade?"
+    - "What part can young Sikhs born in France play in making Vaisakhi known to the people of Bobigny and beyond?"
+    - "Which celebrations around you mark both the return of a season and a religious or historical event?"
+vocabulary:
+  - fr: "gurdwara"
+    en: "gurdwara"
+    def_fr: "Lieu de culte sikh, avec une salle de prière et une cuisine ouverte à tous ; celui de Bobigny est le point de départ du défilé."
+    def_en: "Sikh place of worship, with a prayer hall and a kitchen open to all; the Bobigny gurdwara is where the parade starts."
+  - fr: "nagar kirtan"
+    en: "nagar kirtan"
+    def_fr: "Procession religieuse sikhe, littéralement « chants pour la ville », où le livre saint traverse le quartier au son des hymnes."
+    def_en: "Sikh religious procession, literally \"hymns for the town\", in which the holy book travels through the neighbourhood to the sound of hymns."
+  - fr: "Panj Piare"
+    en: "Panj Piare (the Five Beloved)"
+    def_fr: "Les « Cinq Bien-Aimés », premiers Sikhs initiés en 1699 ; cinq anciens les incarnent et veillent sur le livre saint pendant la fête."
+    def_en: "The \"Five Beloved\", the first Sikhs initiated in 1699; five elders play them and guard the holy book during the festival."
+  - fr: "gatka"
+    en: "gatka"
+    def_fr: "Art martial traditionnel sikh, au sabre ou au bâton ; une équipe en fait la démonstration en tête du défilé."
+    def_en: "Traditional Sikh martial art using swords or staffs; a team gives a display of it at the head of the parade."
+  - fr: "langar"
+    en: "langar"
+    def_fr: "Cuisine et repas communautaires du gurdwara, végétariens et gratuits, servis à tous sur un pied d'égalité."
+    def_en: "The gurdwara's community kitchen and meal, vegetarian and free, served to everyone on an equal footing."
+lang_review: draft
+review_status: unreviewed

@@ -1,0 +1,34 @@
+id: 2020_67717_INV_PCI_FRANCE_00486
+audience: general
+questions:
+  fr:
+    - "Que veulent montrer, selon vous, ces rangs de conscrits de tous âges qui avancent bras dessus bras dessous d'un trottoir à l'autre ?"
+    - "Née du service militaire, la fête rassemble aujourd'hui hommes et femmes nés la même année : que devient-elle quand les habitants déménagent souvent ?"
+    - "Avec qui fêteriez-vous vos « classes », et quels liens vous unissent aux personnes nées la même année que vous ?"
+  en:
+    - "What do you think these rows of conscrits of all ages, arm in arm and swaying from pavement to pavement, are trying to show?"
+    - "Born of military service, the festival now brings together men and women born in the same year; what becomes of it when people move often?"
+    - "Who would you celebrate your \"class\" with, and what ties you to people born in the same year as you?"
+vocabulary:
+  - fr: "conscrit"
+    en: "conscrit"
+    def_fr: "À l'origine, jeune homme appelé au service militaire ; ici, toute personne qui fête ses 20, 30, 40 ans ou plus avec ceux de son année."
+    def_en: "Originally a young man called up for military service; here, anyone who celebrates turning 20, 30, 40 or more with others born the same year."
+  - fr: "classe"
+    en: "class"
+    def_fr: "Groupe des personnes nées la même année, organisé en amicale, avec son bureau, son drapeau et sa chanson."
+    def_en: "Group of people born in the same year, organised as a club with its own committee, flag and song."
+  - fr: "vague"
+    en: "the \"wave\""
+    def_fr: "Défilé du dimanche matin dans la rue Nationale ; les rangs de cinq conscrits, bras dessus bras dessous, ondulent d'un trottoir à l'autre."
+    def_en: "Sunday morning parade along the rue Nationale; rows of five conscrits, arm in arm, sway from one pavement to the other."
+  - fr: "gibus"
+    en: "opera hat"
+    def_fr: "Chapeau haut-de-forme noir des conscrits, cerclé d'un ruban dont la couleur indique l'âge de la classe."
+    def_en: "The conscrits' black top hat, ringed with a ribbon whose colour shows the age of the class."
+  - fr: "cocarde"
+    en: "rosette"
+    def_fr: "Insigne tricolore porté sur le smoking ; les conscrits en remettent une à chaque conscrite avec un bouquet, le samedi de la fête."
+    def_en: "Tricolour badge worn on the tuxedo; the conscrits present one to each conscrite, with a bouquet, on the Saturday of the festival."
+lang_review: draft
+review_status: unreviewed

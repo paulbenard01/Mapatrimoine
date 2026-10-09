@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00330
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, le prêtre bénit-il des piments pendant la messe du dimanche, au cœur d'une fête qui est aussi un grand marché ?"
+    - "Née pour réveiller un village rural, la fête attire aujourd'hui des milliers de visiteurs : qu'est-ce que ce succès change pour les habitants et les producteurs ?"
+    - "Quel produit de votre région est célébré par une fête, un marché ou une confrérie, et que dit-il de son territoire ?"
+  en:
+    - "Why do you think the priest blesses chillies during the Sunday mass, at the heart of a festival that is also a big market?"
+    - "Started to wake up a rural village, the festival now draws thousands of visitors: what does this success change for residents and growers?"
+    - "Which product from your own region is celebrated by a festival, a market or a brotherhood, and what does it say about the place?"
+vocabulary:
+  - fr: piment d'Espelette
+    en: Espelette pepper
+    def_fr: "Piment cultivé autour d'Espelette, séché et souvent réduit en poudre ; il bénéficie d'une appellation d'origine contrôlée (AOC) depuis 2000."
+    def_en: "Chilli grown around Espelette, dried and often ground into powder; it has held a protected designation of origin (AOC) since 2000."
+  - fr: corde de piments
+    en: chilli string
+    def_fr: "Guirlande de piments enfilés les uns aux autres et suspendus pour sécher ; on en vend de fraîches et de séchées sur les étals de la fête."
+    def_en: "Garland of chillies threaded together and hung up to dry; fresh and dried ones are sold on the festival stalls."
+  - fr: confrérie
+    en: brotherhood
+    def_fr: "Association qui défend et fait connaître un produit local ; celle du piment d'Espelette, créée en 1969, organise la fête."
+    def_en: "Association that champions a local product; the Espelette pepper brotherhood, founded in 1969, runs the festival."
+  - fr: intronisation
+    en: induction ceremony
+    def_fr: "Cérémonie où la confrérie accueille de nouveaux membres ou honore des invités, au château des Barons d'Espelette, après la messe."
+    def_en: "Ceremony in which the brotherhood welcomes new members or honours guests, at the château of the Barons of Espelette, after mass."
+  - fr: banda
+    en: banda
+    def_fr: "Fanfare de cuivres et de percussions typique des fêtes du Sud-Ouest ; plusieurs bandas animent les rues le dimanche."
+    def_en: "Brass and percussion band typical of festivals in south-west France; several bandas liven up the streets on Sunday."
+lang_review: draft
+review_status: unreviewed

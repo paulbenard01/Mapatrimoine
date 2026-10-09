@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00080
+audience: general
+questions:
+  fr:
+    - "À l'entrée de la fête, chacun reçoit contre une obole une épingle à rubans portant une médaille de la Vierge : à quoi sert, selon vous, ce petit objet porté sur le vêtement ?"
+    - "Il devient difficile de trouver des prieurs prêts à organiser la fête ; comment une fête de hameau peut-elle durer quand les bénévoles se font rares ?"
+    - "Les musiciens viennent du Piémont, de l'autre côté du col de Tende : quelles traditions votre région partage-t-elle avec un territoire voisin ?"
+  en:
+    - "At the entrance, everyone receives a ribboned pin with a medal of the Virgin in exchange for a donation: what do you think this small object worn on clothing is for?"
+    - "It is getting hard to find priors willing to run the feast; how can a hamlet festival carry on when volunteers become scarce?"
+    - "The musicians come from Piedmont, on the far side of the Col de Tende: which traditions does your region share with a neighbouring area?"
+vocabulary:
+  - fr: prieur, prieuresse
+    en: prior, prioress
+    def_fr: "Membre de la paroisse chargé pour deux ans d'organiser la fête ; fleurir la chapelle, préparer les médailles, la prière et l'apéritif."
+    def_en: "Parish member in charge of the feast for two years; decorating the chapel with flowers, preparing the medals, the prayers and the drinks."
+  - fr: Visitation
+    en: Visitation
+    def_fr: "Épisode de l'Évangile où Marie, enceinte de Jésus, rend visite à sa cousine Élisabeth ; la chapelle de Vievola lui est dédiée."
+    def_en: "Gospel episode in which Mary, expecting Jesus, visits her cousin Elizabeth; the Vievola chapel is dedicated to it."
+  - fr: chapelet
+    en: rosary
+    def_fr: "Prière répétée en égrenant des perles ; des soirées de chapelet préparent la fête et un chapelet est récité dans l'après-midi."
+    def_en: "Repeated prayer said while counting beads; evenings of rosary prayer lead up to the feast, and one is said in the afternoon."
+  - fr: courente
+    en: courente
+    def_fr: "Danse de tradition piémontaise que jouent à l'accordéon et à la clarinette les musiciens venus d'Italie pour le bal."
+    def_en: "Dance from the Piedmontese tradition, played on accordion and clarinet by the musicians who come over from Italy for the ball."
+  - fr: balèt
+    en: balèt
+    def_fr: "Autre danse de tradition piémontaise du bal de Vievola, dansée avec les valses sous la bâche voisine de la chapelle."
+    def_en: "Another Piedmontese dance of the Vievola ball, danced along with waltzes under the awning beside the chapel."
+lang_review: draft
+review_status: unreviewed

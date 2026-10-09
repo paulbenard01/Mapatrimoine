@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00340
+audience: general
+questions:
+  fr:
+    - "Dans une ronde de fest-noz, chacun tient la main ou le bras de ses voisins : qu'est-ce que cette façon de danser dit du lien entre les participants ?"
+    - "Le fest-noz est passé des noces et des veillées paysannes aux salles des fêtes, puis aux mélanges avec le rock ou l'électro : qu'est-ce qui doit rester pour qu'il demeure un fest-noz ?"
+    - "Où, près de chez vous, des personnes de tous âges se retrouvent-elles pour danser ou chanter ensemble ?"
+  en:
+    - "In a fest-noz round dance, everyone holds their neighbours by the hand or arm: what does this way of dancing say about the bond between the dancers?"
+    - "The fest-noz moved from country weddings and evening gatherings to village halls, then to blends with rock or electronic music: what must remain for it still to be a fest-noz?"
+    - "Where, near you, do people of all ages get together to dance or sing?"
+vocabulary:
+  - fr: kan ha diskan
+    en: kan ha diskan
+    def_fr: "Chant à danser en breton, a cappella : deux chanteurs se répondent, chacun reprenant la fin de la phrase de l'autre pour ne jamais laisser de silence."
+    def_en: "Unaccompanied dance singing in Breton: two singers answer each other, each picking up the end of the other's line so the song never stops."
+  - fr: sonneur
+    en: piper
+    def_fr: "Musicien qui joue d'un instrument traditionnel pour faire danser ; les sonneurs vont souvent par deux, par exemple biniou et bombarde."
+    def_en: "Musician who plays a traditional instrument for dancing; pipers often play in pairs, for example biniou and bombarde."
+  - fr: bombarde
+    en: bombarde
+    def_fr: "Instrument à vent à anche double, au son puissant, emblématique de la musique bretonne ; on l'associe souvent au biniou, petite cornemuse."
+    def_en: "Double-reed wind instrument with a powerful sound, emblematic of Breton music; it is often paired with the biniou, a small bagpipe."
+  - fr: ronde
+    en: round dance
+    def_fr: "La forme de danse la plus ancienne du fest-noz : les danseurs, liés par la main ou le bras, avancent en cercle ou en chaîne."
+    def_en: "The oldest form of fest-noz dance: dancers, linked by the hand or arm, move together in a circle or a chain."
+  - fr: cercle celtique
+    en: Celtic circle
+    def_fr: "Association bretonne qui pratique et transmet danses et costumes traditionnels ; ces cercles ont porté le renouveau culturel du XXe siècle."
+    def_en: "Breton association that practises and passes on traditional dances and costumes; these circles drove the 20th-century cultural revival."
+lang_review: draft
+review_status: unreviewed

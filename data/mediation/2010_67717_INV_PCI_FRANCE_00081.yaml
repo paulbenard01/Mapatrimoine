@@ -1,0 +1,34 @@
+id: 2010_67717_INV_PCI_FRANCE_00081
+audience: general
+questions:
+  fr:
+    - "Pourquoi, selon vous, le drapeau mexicain, les mariachis et les tamales trouvent-ils leur place dans une fête religieuse à Notre-Dame ?"
+    - "Pour beaucoup de participants, cette messe est d'abord une façon d'affirmer une identité mexicaine ou latino-américaine ; quel rôle jouent les enfants, souvent en costume, dans cette transmission ?"
+    - "Quel lieu, quel chant ou quel symbole vous rappellerait votre région si vous viviez loin de chez vous ?"
+  en:
+    - "Why do you think the Mexican flag, mariachis and tamales find a place in a religious feast at Notre-Dame?"
+    - "For many participants, this mass is first a way of asserting a Mexican or Latin American identity; what part do the children, often in costume, play in passing it on?"
+    - "Which place, song or symbol would remind you of your region if you lived far from home?"
+vocabulary:
+  - fr: Guadalupana
+    en: Guadalupana
+    def_fr: "Nom affectueux de la Vierge de Guadalupe, et titre de l'hymne qu'on lui chante à plusieurs reprises pendant la fête."
+    def_en: "Affectionate name for Our Lady of Guadalupe, and the title of the hymn sung to her several times during the feast."
+  - fr: Tepeyac
+    en: Tepeyac
+    def_fr: "Colline de Mexico où la Vierge serait apparue en 1531 ; sa basilique reçoit des millions de pèlerins chaque 12 décembre."
+    def_en: "Hill in Mexico City where the Virgin is said to have appeared in 1531; its basilica draws millions of pilgrims every 12 December."
+  - fr: mariachi
+    en: mariachi
+    def_fr: "Ensemble de musiciens mexicains qui joue pendant la messe, puis devant la chapelle et sur le parvis de la cathédrale."
+    def_en: "Band of Mexican musicians who play during the mass, then in front of the chapel and on the cathedral square."
+  - fr: chapelle de Guadalupe
+    en: Guadalupe chapel
+    def_fr: "Chapelle du bas-côté nord de Notre-Dame de Paris, ornée d'une mosaïque de la Vierge, où les fidèles allument des bougies."
+    def_en: "Chapel in the north aisle of Notre-Dame de Paris, decorated with a mosaic of the Virgin, where worshippers light candles."
+  - fr: diaspora
+    en: diaspora
+    def_fr: "Communauté installée hors de son pays d'origine et qui garde des liens avec lui ; ici, les Mexicains de France et d'Europe."
+    def_en: "Community living outside its country of origin while keeping ties with it; here, Mexicans living in France and elsewhere in Europe."
+lang_review: draft
+review_status: unreviewed

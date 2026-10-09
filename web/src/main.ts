@@ -18,34 +18,19 @@ import {
 } from "./model";
 import { RADII, parseState, resolveToday, serializeState, type State } from "./state";
 import { THEME_COLORS } from "./theme-colors";
-import { THEMES, type Element, type InventoryEntry, type Location, type Picture, type Theme } from "./types";
-
-// ---------- tiny DOM helper ----------
-type Attrs = Record<string, string | number | boolean | null | undefined | ((e: Event) => void)>;
-type Child = Node | string | null | undefined | false;
-
-function h(tag: string, attrs: Attrs = {}, ...children: (Child | Child[])[]): HTMLElement {
-  const el = document.createElement(tag);
-  for (const [k, v] of Object.entries(attrs)) {
-    if (v === null || v === undefined || v === false) continue;
-    if (typeof v === "function") el.addEventListener(k.slice(2).toLowerCase(), v);
-    else if (v === true) el.setAttribute(k, "");
-    else el.setAttribute(k, String(v));
-  }
-  for (const c of children.flat()) if (c !== null && c !== undefined && c !== false) el.append(c);
-  return el;
-}
-
-const SVG_NS = "http://www.w3.org/2000/svg";
-function svg(markup: string, cls: string): SVGElement {
-  const el = document.createElementNS(SVG_NS, "svg");
-  el.setAttribute("viewBox", "0 0 20 20");
-  el.setAttribute("class", cls);
-  el.setAttribute("aria-hidden", "true");
-  el.setAttribute("focusable", "false");
-  el.innerHTML = markup;
-  return el;
-}
+import { h, svg, type Child } from "./dom";
+import { renderSheet } from "./sheet";
+import { upcomingPeriods } from "./recurrence";
+import {
+  THEMES,
+  type Announced,
+  type Element,
+  type InventoryEntry,
+  type Location,
+  type MediationSheet,
+  type Picture,
+  type Theme,
+} from "./types";
 
 type Shape = "event" | "practice" | "undocumented";
 
@@ -78,6 +63,8 @@ let position: Position | null = null; // memory only; never stored or sent
 let geoStatus: "idle" | "locating" | "denied" = "idle";
 let moreOpen = false;
 let entries: Entry[] = [];
+let sheets: Record<string, MediationSheet> = {};
+let announced: Announced | null = null;
 let mapView: MapView | null = null;
 let mapFailed = false;
 
@@ -569,6 +556,46 @@ function placesFact(places: Location[]): Child[] {
   ];
 }
 
+/** Dates listed by tourist offices (DATAtourisme), matched at build time (M5). */
+function announcedSection(id: string): HTMLElement | null {
+  const s = STRINGS[state.lang];
+  const events = (announced?.elements[id] ?? [])
+    .map((e) => ({ ...e, periods: upcomingPeriods(e.periods, today) }))
+    .filter((e) => e.periods.length)
+    .sort((a, b) => a.periods[0].start.localeCompare(b.periods[0].start));
+  if (!announced || !events.length) return null;
+  const span = (p: { start: string; end: string }) =>
+    p.start === p.end ? formatDay(p.start, state.lang) : `${formatDay(p.start, state.lang)} – ${formatDay(p.end, state.lang)}`;
+  return h(
+    "div",
+    { class: "announced" },
+    h("h4", {}, s.announced),
+    h(
+      "ul",
+      {},
+      events.map((e) =>
+        h(
+          "li",
+          {},
+          h("strong", {}, span(e.periods[0])),
+          e.periods.length > 1 ? ` (${s.moreDates(e.periods.length - 1)})` : "",
+          " · ",
+          h("span", { lang: "fr" }, e.title),
+          e.commune ? `, ${e.commune}` : "",
+          e.url ? [" · ", h("a", { href: e.url, target: "_blank", rel: "noopener" }, s.details)] : null,
+        ),
+      ),
+    ),
+    h(
+      "p",
+      { class: "note" },
+      `${s.announcedCredit} `,
+      h("a", { href: announced.source_url, target: "_blank", rel: "noopener" }, formatDay(announced.generated_on, state.lang)),
+      `. ${s.announcedCheck}`,
+    ),
+  );
+}
+
 function renderDetail(item: Item): HTMLElement {
   const s = STRINGS[state.lang];
   const { entry, element, next } = item;
@@ -585,6 +612,18 @@ function renderDetail(item: Item): HTMLElement {
       h("h2", { id: "detail-title", lang: "fr", tabindex: "-1" }, entry.title_fr),
       themeLine(entry, null),
       figure(entry.image),
+      entry.summary ? h("p", { class: "summary", lang: state.lang }, entry.summary[state.lang]) : null,
+      entry.summary && entry.summary_source
+        ? h(
+            "p",
+            { class: "note" },
+            `${s.summaryFrom} `,
+            h("a", { href: entry.summary_source.url, target: "_blank", rel: "noopener" }, entry.summary_source.publisher),
+            ". ",
+            entry.review_status === "reviewed" ? "" : s.summaryUnreviewed,
+            state.lang === "en" && entry.summary.lang_review === "draft" ? ` ${s.summaryDraft}.` : "",
+          )
+        : null,
       h(
         "dl",
         { class: "facts" },
@@ -605,7 +644,7 @@ function renderDetail(item: Item): HTMLElement {
             sources[0].kind === "pcilab" ? ` ${s.placesFromPcilab}` : ".",
           )
         : null,
-      h("p", { class: "note" }, s.notDocumented),
+      h("p", { class: "note" }, entry.summary ? s.shortOnly : s.notDocumented),
       ficheLink,
     );
   }
@@ -642,6 +681,7 @@ function renderDetail(item: Item): HTMLElement {
           h("p", {}, badge(item)),
           element.recurrence ? h("p", {}, describeRule(element.recurrence, state.lang)) : null,
           next && item.movable ? h("p", { class: "note" }, movableIcon(), ` ${s.movableFeast}`) : null,
+          announcedSection(entry.id),
           t
             ? h(
                 "div",
@@ -688,12 +728,47 @@ function renderDetail(item: Item): HTMLElement {
             : null,
         )
       : h("p", { class: "badge practice" }, s.practiceNoDate),
+    sheets[entry.id]
+      ? h(
+          "p",
+          {},
+          h(
+            "button",
+            { type: "button", class: "open-sheet", "data-key": "open-sheet", onclick: () => setState({ sheet: true }) },
+            s.openSheet,
+          ),
+        )
+      : null,
     ficheLink,
   );
 }
 
 // A selection restored from the URL must not steal focus on page load.
 let lastSelected: string | null = state.selected;
+let lastSheet = false;
+
+/** Sheet mode replaces the page with the printable sheet; the map stays alive underneath. */
+function renderSheetMode(item: Item | undefined): boolean {
+  const sheet = state.sheet && item?.element ? sheets[item.entry.id] : undefined;
+  if (state.sheet && !sheet && entries.length) state.sheet = false;
+  document.body.classList.toggle("sheet-mode", Boolean(sheet));
+  let root = document.getElementById("sheet-root");
+  if (!sheet) {
+    root?.remove();
+    return false;
+  }
+  if (!root) {
+    root = h("div", { id: "sheet-root" });
+    app.append(root);
+  }
+  root.replaceChildren(
+    renderSheet(item!, sheet, state.lang, import.meta.env.BASE_URL, () => {
+      setState({ sheet: false });
+      requestAnimationFrame(() => mapView?.resize());
+    }),
+  );
+  return true;
+}
 
 function render() {
   const s = STRINGS[state.lang];
@@ -802,6 +877,24 @@ function render() {
   const countText = s.resultsCount(visible.length, mapped.length);
   if (count.textContent !== countText) count.textContent = countText;
 
+  const sheetMode = renderSheetMode(selectedItem);
+  if (sheetMode) {
+    document.title = `${selectedItem!.entry.title_fr} · ${s.sheetKicker}`;
+    if (!lastSheet) {
+      window.scrollTo({ top: 0 });
+      document.getElementById("sheet-title")?.focus({ preventScroll: true });
+    } else if (focusKey) document.querySelector<HTMLElement>(`[data-key="${focusKey}"]`)?.focus();
+    lastSheet = true;
+    lastSelected = state.selected;
+    return;
+  }
+  if (lastSheet) {
+    lastSheet = false;
+    lastSelected = state.selected;
+    document.querySelector<HTMLElement>('[data-key="open-sheet"]')?.focus();
+    return;
+  }
+
   // Keep keyboard focus, caret and scroll where they were.
   if (state.selected !== lastSelected && state.selected) {
     // Bring the detail into view inside the scrolling panel (desktop) or the page (mobile).
@@ -821,11 +914,20 @@ function render() {
 
 async function init() {
   const base = import.meta.env.BASE_URL;
-  const [inventory, curated] = await Promise.all([
+  const [inventory, curated, mediation, listed] = await Promise.all([
     fetch(`${base}data/inventory.json`).then((r) => r.json() as Promise<{ elements: InventoryEntry[] }>),
     fetch(`${base}data/elements.json`).then((r) => r.json() as Promise<{ elements: Element[] }>),
+    // Optional: the site works without mediation sheets.
+    fetch(`${base}data/mediation.json`)
+      .then((r) => (r.ok ? (r.json() as Promise<{ sheets: Record<string, MediationSheet> }>) : { sheets: {} }))
+      .catch(() => ({ sheets: {} })),
+    fetch(`${base}data/announced.json`)
+      .then((r) => (r.ok ? (r.json() as Promise<Announced>) : null))
+      .catch(() => null),
   ]);
   entries = mergeEntries(inventory.elements, curated.elements);
+  sheets = mediation.sheets;
+  announced = listed;
   render();
   if (state.zone === "overseas") mapView?.fit(AREAS[presentAreas()[0] ?? "guadeloupe"]);
   if (state.selected) mapView?.select(state.selected, true);

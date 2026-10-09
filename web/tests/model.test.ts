@@ -71,6 +71,12 @@ const lace: InventoryEntry = {
   locations: [{ label: "Le Puy-en-Velay", lat: 45.04, lon: 3.88, precision: "commune" }],
   location_sources: [{ kind: "pcilab", url: "https://www.pci-lab.fr/x", publisher: "PCI Lab" }],
   image: null,
+  kind: "practice",
+  summary: {
+    fr: "Dentelle faite à la main avec des fuseaux de bois sur un carreau.",
+    en: "Lace made by hand with wooden bobbins on a pillow.",
+    lang_review: "draft",
+  },
 };
 const unplaced: InventoryEntry = {
   id: "braille",
@@ -139,6 +145,9 @@ describe("filters", () => {
     expect(fold("Fêtes de NOËL")).toBe("fetes de noel");
     expect(ids({ ...inventory, q: "noel provence" })).toEqual(["Les fêtes de Noël en Provence"]);
     expect(ids({ ...inventory, q: "puy dentelle" })).toEqual(["dentelle"]);
+    // Summaries are searched in both languages.
+    expect(ids({ ...inventory, q: "bobbins" })).toEqual(["dentelle"]);
+    expect(ids({ ...inventory, q: "fuseaux bois" })).toEqual(["dentelle"]);
     expect(ids({ ...agenda, q: "puy dentelle" })).toHaveLength(4); // no search box in the agenda
   });
 

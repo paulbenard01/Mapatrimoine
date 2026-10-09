@@ -1,0 +1,34 @@
+id: 2013_67717_INV_PCI_FRANCE_00323
+audience: general
+questions:
+  fr:
+    - Pourquoi, selon vous, célèbre-t-on la naissance ou le mariage de géants avec de vrais actes signés en mairie ?
+    - Comment de petits géants, portés par des jeunes, aident-ils à transmettre le portage et les savoirs des marins ?
+    - Quel métier ou quel personnage de votre région mériterait d'être représenté par un géant, et pourquoi ?
+  en:
+    - Why do you think the birth or wedding of giants is celebrated with real certificates signed at the town hall?
+    - How do small giants, carried by young people, help to pass on giant-carrying and seafaring skills?
+    - Which trade or character from your own region would deserve to be turned into a giant, and why?
+vocabulary:
+  - fr: Matelote
+    en: Matelote
+    def_fr: Géante de Grand-Fort-Philippe, vêtue comme une femme de marin, avec bonnet de dentelle blanche, robe et tablier noirs et châle blanc.
+    def_en: Giant of Grand-Fort-Philippe, dressed as a sailor's wife in a white lace bonnet, black dress and apron and a white shawl.
+  - fr: baptême civil
+    en: civil naming ceremony
+    def_fr: Cérémonie en mairie, sans caractère religieux ; pour un nouveau géant, on y signe un acte de baptême et un certificat de parrainage.
+    def_en: Town-hall ceremony with no religious meaning; for a new giant, a naming certificate and a godparenting certificate are signed.
+  - fr: géant roulé
+    en: wheeled giant
+    def_fr: Géant monté sur roulettes et poussé de l'extérieur, comme l'Islandais de Gravelines, à la différence des géants portés.
+    def_en: Giant mounted on wheels and pushed from outside, like the Islandais of Gravelines, unlike giants that are carried.
+  - fr: hareng pec
+    en: salted herring
+    def_fr: Hareng salé, lot de la tombola de la fête ; d'autres harengs sont lancés à la foule du balcon de la mairie.
+    def_en: Salted herring, a prize in the festival raffle; other herrings are thrown to the crowd from the town-hall balcony.
+  - fr: pomme de touline
+    en: monkey's fist
+    def_fr: Nœud en boule qui alourdit le bout d'un cordage à lancer ; le géant Gut en tient une, rappel des savoirs de marin.
+    def_en: Ball-shaped knot that weights the end of a line to be thrown; the giant Gut holds one, a reminder of seafaring skills.
+lang_review: draft
+review_status: unreviewed

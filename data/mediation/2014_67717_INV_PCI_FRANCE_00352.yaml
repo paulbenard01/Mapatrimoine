@@ -1,0 +1,34 @@
+id: 2014_67717_INV_PCI_FRANCE_00352
+audience: general
+questions:
+  fr:
+    - "La géante qui ouvre le cortège représente une femme soldat du XVIIe siècle, épée au côté : pourquoi, selon vous, une ville choisit-elle une telle figure pour la représenter ?"
+    - "Chaque quartier de Lomme construit son char dans des ateliers avec des habitants et des écoles : qu'est-ce que ce travail collectif apporte à la vie d'une ville ?"
+    - "Dans votre ville, quelles fêtes donnent aux différents quartiers l'occasion de se montrer et de se rencontrer ?"
+  en:
+    - "The giantess at the head of the parade portrays a 17th-century woman soldier with a sword at her side: why do you think a town chooses such a figure to stand for it?"
+    - "Each district of Lomme builds its float in workshops with residents and schools: what does this shared work bring to the life of a town?"
+    - "In your own town, which festivals give the different neighbourhoods a chance to show themselves and meet?"
+vocabulary:
+  - fr: géante
+    en: giantess
+    def_fr: "Mannequin de 3,20 mètres en bois, osier, tissu et carton, porté par une seule personne ; celle de Lomme ne sort que pour le carnaval."
+    def_en: "Figure 3.2 metres tall made of wood, wicker, fabric and card, carried by one person; Lomme's giantess only comes out for the carnival."
+  - fr: porteur
+    en: carrier
+    def_fr: "Personne qui fait marcher et danser le géant de l'intérieur ; à Lomme, ce rôle revient à des employés municipaux."
+    def_en: "Person who makes the giant walk and dance from inside it; in Lomme this role falls to town council staff."
+  - fr: char de quartier
+    en: district float
+    def_fr: "Char préparé chaque année par les associations et les habitants d'un quartier, avec un artiste, sur un plateau loué à des agriculteurs."
+    def_en: "Float made each year by the associations and residents of one district, with an artist's help, on a trailer hired from farmers."
+  - fr: ducasse
+    en: ducasse
+    def_fr: "Mot du Nord pour la fête locale et sa fête foraine ; ses manèges s'installent sur la place de l'hôtel de ville, où arrive le cortège."
+    def_en: "Northern French word for a local festival and its funfair; the rides are set up on the town hall square, where the parade ends."
+  - fr: majorette
+    en: majorette
+    def_fr: "Membre d'une troupe en uniforme qui défile en rythme en faisant tourner un bâton ; les majorettes accompagnent la géante en tête du cortège."
+    def_en: "Member of a uniformed troupe who marches in step twirling a baton; the majorettes walk with the giantess at the front of the parade."
+lang_review: draft
+review_status: unreviewed
