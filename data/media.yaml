@@ -186,6 +186,21 @@
       Soir 3 report on the Cadre Noir riders' touring show, staged at the Château de Chambord on the eve
       of the national Horse Day.
   checked_at: '2026-10-09'
+2009_67717_INV_PCI_FRANCE_00038:
+- title: Les Hindous de Paris
+  url: >-
+    https://www.ina.fr/ina-eclaire-actu/video/pac9710172733/les-hindous-de-paris
+  publisher: INA
+  kind: video
+  year: 1997
+  note:
+    fr: >-
+      Magazine régional de 1997 sur la communauté hindoue autour du passage Brady et du temple de Ganesh
+      du 18e arrondissement, avec la procession de la fête de Ganesh à la fin août.
+    en: >-
+      1997 regional magazine on the Hindu community around Passage Brady and the Ganesh temple in the
+      18th arrondissement, including the Ganesh festival procession in late August.
+  checked_at: '2026-10-09'
 2009_67717_INV_PCI_FRANCE_00040:
 - title: Maloya
   url: https://ich.unesco.org/en/RL/maloya-00249
@@ -291,6 +306,33 @@
     en: >-
       Field recording from Lougratte, in the Haut-Agenais: a rondeau dance tune played on the diatonic
       accordion, with whistling.
+  checked_at: '2026-10-09'
+- title: Seguida de rondèus
+  url: https://www.occitanica.eu/items/show/56290
+  publisher: CIRDOC - Institut occitan de cultura (Occitanica)
+  kind: audio
+  note:
+    fr: >-
+      Collectage dans les Landes (Saint-Perdon) : un violoneux enchaîne plusieurs rondeaux en chantant
+      tout en jouant, avec bourdons et quintes parallèles, comme il les menait jadis au bal.
+    en: >-
+      Field recording from the Landes (Saint-Perdon): a fiddler plays a run of rondeaux, singing as he
+      plays, with drones and parallel fifths, as he once led them at dances.
+  checked_at: '2026-10-09'
+2009_67717_INV_PCI_FRANCE_00056:
+- title: Et viva la banda !
+  url: >-
+    https://fresques.ina.fr/landes/fiche-media/Landes00318/et-viva-la-banda.html
+  publisher: INA (Empreintes landaises)
+  kind: video
+  year: 1994
+  note:
+    fr: >-
+      Magazine de France 3 (12 min) : les membres d'une banda de Parentis-en-Born parlent de leur passion,
+      avec extraits musicaux et retour sur l'histoire des bandas et leurs liens avec la tauromachie.
+    en: >-
+      France 3 magazine (12 min): members of a banda from Parentis-en-Born talk about their passion, with
+      musical excerpts and a look at the history of bandas and their ties to bullfighting.
   checked_at: '2026-10-09'
 2009_67717_INV_PCI_FRANCE_00057:
 - title: >-
@@ -429,6 +471,62 @@
       Page of the multinational element (thirteen countries including France), with a film on walls and
       shelters built without mortar.
   checked_at: '2026-10-09'
+2010_67717_INV_PCI_FRANCE_00109:
+- title: Chant de la Halha Nadau, enregistré à Cudos en 1988
+  url: https://www.occitanica.eu/items/show/56239
+  publisher: >-
+    CIRDOC - Institut occitan de cultura (Occitanica) / Archives départementales de la Gironde
+  kind: audio
+  year: 1988
+  note:
+    fr: >-
+      Collectage de 1988 à Cudos (Gironde) : une voix de femme chante la formule de la halha de Nadau,
+      l'un des nombreux enregistrements du même chant faits dans les villages du Bazadais.
+    en: >-
+      1988 field recording in Cudos (Gironde): a woman's voice sings the halha de Nadau formula, one of
+      many recordings of the same song made in villages of the Bazadais.
+  checked_at: '2026-10-09'
+2010_67717_INV_PCI_FRANCE_00110:
+- title: Chant de la Halha Nadau, enregistré à Bazas en 1985
+  url: https://www.occitanica.eu/items/show/56233
+  publisher: CIRDOC - Institut occitan de cultura (Occitanica)
+  kind: audio
+  year: 1985
+  note:
+    fr: >-
+      Collectage de 1985 à Bazas : une voix d'homme chante le chant de la halha de Nadau, rituel du feu
+      de Noël du Bazadais.
+    en: >-
+      1985 field recording in Bazas: a man's voice sings the song of the halha de Nadau, the Christmas
+      fire ritual of the Bazadais.
+  checked_at: '2026-10-09'
+2010_67717_INV_PCI_FRANCE_00112:
+- title: Moun païs (Mon país)
+  url: https://www.occitanica.eu/items/show/56750
+  publisher: CIRDOC - Institut occitan de cultura (Occitanica)
+  kind: audio
+  year: 1969
+  note:
+    fr: >-
+      Chant béarnais à plusieurs voix par un groupe d'Aramits, enregistré en public au festival de la
+      chanson béarnaise de Siros en 1969 et publié sur disque.
+    en: >-
+      A Béarn song in several voices by a group from Aramits, recorded live at the Siros Béarn song festival
+      in 1969 and released on record.
+  checked_at: '2026-10-09'
+- title: Chants de bergers traditionnels par les chanteurs du Bas-Ossau
+  url: https://www.occitanica.eu/items/show/57619
+  publisher: CIRDOC - Institut occitan de cultura (Occitanica)
+  kind: audio
+  year: 1975
+  note:
+    fr: >-
+      Disque de 1975 enregistré à Sévignacq-Meyracq : cinq chants de bergers interprétés en polyphonie
+      par un chœur d'hommes de la vallée d'Ossau.
+    en: >-
+      1975 record made at Sévignacq-Meyracq: five shepherds' songs sung in polyphony by a men's choir
+      from the Ossau valley.
+  checked_at: '2026-10-09'
 2010_67717_INV_PCI_FRANCE_00116:
 - title: Bandita, la vedette « vacharde » des fêtes de Bayonne en 1968
   url: https://www.ina.fr/ina-eclaire-actu/bayonne-fete-course-vache-vachette
@@ -472,6 +570,20 @@
       Two regional reports (1970 and 1974): bandas parading through the streets, folk groups, stilt-walkers
       and a bullfight in a packed arena.
   checked_at: '2026-10-09'
+- title: Ferias de Dax
+  url: >-
+    https://fresques.ina.fr/landes/fiche-media/Landes00711/ferias-de-dax.html
+  publisher: INA (Empreintes landaises)
+  kind: video
+  year: 1998
+  note:
+    fr: >-
+      Reportage du dernier jour des fêtes de 1998 : corrida dans les arènes le jour, et la nuit les festayres
+      qui suivent les bandas de rue en rue et de bar en bar.
+    en: >-
+      Report from the last day of the 1998 festival: a bullfight in the arena by day, and at night revellers
+      following the bandas from street to street and bar to bar.
+  checked_at: '2026-10-09'
 2011_67717_INV_PCI_FRANCE_00148:
 - title: Limousin septennial ostensions
   url: https://ich.unesco.org/en/RL/limousin-septennial-ostensions-00885
@@ -513,6 +625,21 @@
     en: >-
       End-of-season herd contest in the Marsillargues arena: the capelado parade, raseteurs in white,
       dashes past the horns and bulls charging the barrier.
+  checked_at: '2026-10-09'
+2012_67717_INV_PCI_FRANCE_00151:
+- title: Inauguration de la statue de Notre-Dame-de-la-Mer à Capbreton [Muet]
+  url: >-
+    https://fresques.ina.fr/landes/fiche-media/Landes00043/inauguration-de-la-statue-de-notre-dame-de-la-mer-a-capbreton-muet.html
+  publisher: INA (Empreintes landaises)
+  kind: video
+  year: 1946
+  note:
+    fr: >-
+      Actualités muettes de 1946 : la foule sur les quais de Capbreton pour l'inauguration de la statue
+      de Notre-Dame-de-la-Mer, lors de la fête dont est issue la tradition actuelle.
+    en: >-
+      Silent 1946 newsreel: crowds on the Capbreton quays for the unveiling of the Notre-Dame-de-la-Mer
+      statue, at the festival from which today's tradition descends.
   checked_at: '2026-10-09'
 2012_67717_INV_PCI_FRANCE_00157:
 - title: Sports basques
@@ -659,6 +786,32 @@
     en: >-
       Report from "Le monde selon Georges" on the Limoux carnival: costumed and masked groups parade through
       the streets, accompanied by brass bands.
+  checked_at: '2026-10-09'
+- title: Lenga d'Òc Lengo d'O. Una jornada al Carnaval de Limós
+  url: https://www.occitanica.eu/items/show/22414
+  publisher: Tè Vé Òc / CIRDOC - Institut occitan de cultura (Occitanica)
+  kind: video
+  year: 2020
+  note:
+    fr: >-
+      Reportage en occitan (10 min) qui suit une journée de carnaval à Limoux, du matin à l'après-midi,
+      avec deux sorties de bande et ses musiciens.
+    en: >-
+      Occitan-language report (10 min) following a carnival day in Limoux from morning to afternoon, with
+      two outings of a masked band and its musicians.
+  checked_at: '2026-10-09'
+- title: 'Carnaval : Fecas e Godilhs'
+  url: https://www.occitanica.eu/items/show/22291
+  publisher: CIRDOC - Institut occitan de cultura (Occitanica)
+  kind: video
+  year: 2014
+  note:
+    fr: >-
+      Court film d'animation en occitan (2 min) qui présente le carnaval de Limoux, ses semaines de fête
+      autour de Sa Majesté Carnaval et ses deux figures propres, Fecas et Godilhs.
+    en: >-
+      Short animated film in Occitan (2 min) presenting the Limoux carnival, its weeks of festivity around
+      King Carnival and its two local figures, the Fecas and the Godilhs.
   checked_at: '2026-10-09'
 2012_67717_INV_PCI_FRANCE_00271:
 - title: Découvrez les règles du Jeu de Paume au château de Fontainebleau
@@ -845,6 +998,35 @@
       Page of the element inscribed in 2015 (Andorra, Spain, France), with a film on the summer solstice
       fires in Pyrenean villages.
   checked_at: '2026-10-09'
+2013_67717_INV_PCI_FRANCE_00315:
+- title: La cornemuse landaise
+  url: >-
+    https://fresques.ina.fr/landes/fiche-media/Landes00530/la-cornemuse-landaise.html
+  publisher: INA (Empreintes landaises)
+  kind: audio
+  year: 1980
+  note:
+    fr: >-
+      Reportage radio de 1980 : un jeune joueur des environs de Morcenx présente la boha qu'il a fabriquée
+      (bois dur, peau, anches), ce qui la distingue des autres cornemuses, puis en joue.
+    en: >-
+      1980 radio report: a young player from near Morcenx presents the boha he made himself (hardwood,
+      skin, reeds), explains how it differs from other bagpipes, then plays it.
+  checked_at: '2026-10-09'
+- title: Les rencontres de cornemuses landaises d'Astaffort
+  url: >-
+    https://fresques.ina.fr/landes/fiche-media/Landes00017/les-rencontres-de-cornemuses-landaises-d-astaffort.html
+  publisher: INA (Empreintes landaises)
+  kind: video
+  year: 1996
+  note:
+    fr: >-
+      Journal régional de 1996 : à Astaffort (Lot-et-Garonne), la quatrième rencontre des joueurs de cornemuse
+      landaise, avec musiciens de plusieurs générations et un jeune apprenti.
+    en: >-
+      1996 regional news: the fourth gathering of Landes bagpipe players at Astaffort (Lot-et-Garonne),
+      with musicians of several generations and a young learner.
+  checked_at: '2026-10-09'
 2013_67717_INV_PCI_FRANCE_00320:
 - title: Les goémoniers
   url: >-
@@ -957,6 +1139,22 @@
     en: >-
       Evening news item on the Espelette pepper festival: peppers drying in strings on house fronts, roasted
       in a bread oven and ground, with growers awaiting their AOC.
+  checked_at: '2026-10-09'
+2014_67717_INV_PCI_FRANCE_00335:
+- title: L'association La Boueze
+  url: >-
+    https://www.ina.fr/ina-eclaire-actu/video/rxc00002567/l-association-la-boueze
+  publisher: INA
+  kind: video
+  year: 1981
+  note:
+    fr: >-
+      Journal régional de 1981 : une association d'Ille-et-Vilaine qui collecte chants et danses fait
+      revivre l'accordéon diatonique, dont les joueurs sont appelés « bouezoù », et note un regain d'intérêt
+      pour l'instrument.
+    en: >-
+      1981 regional news: an Ille-et-Vilaine association that collects songs and dances keeps the diatonic
+      accordion alive, its players being called "bouezoù", and notes a revival of interest in the instrument.
   checked_at: '2026-10-09'
 2014_67717_INV_PCI_FRANCE_00336:
 - title: Redon, foire de la Teillouse
@@ -1235,6 +1433,34 @@
       Archive feature from 1953 to 1978 on a leading figure of French mime: classic routines (the staircase,
       the rope-puller), a make-up session and an interview on the history of pantomime.
   checked_at: '2026-10-09'
+- title: Le maître du mime Etienne Decroux
+  url: >-
+    https://fresques.ina.fr/en-scenes/fiche-media/Scenes00808/le-maitre-du-mime-etienne-decroux.html
+  publisher: INA (En scènes)
+  kind: video
+  year: 1969
+  note:
+    fr: >-
+      Reportage régional de 1969 : le refondateur du mime corporel fait des démonstrations, explique sa
+      méthode, le corps comme « clavier » d'os, et mime des gestes du quotidien.
+    en: >-
+      1969 regional report: the founder of corporeal mime gives demonstrations, explains his method, the
+      body as a "keyboard" of bones, and mimes everyday gestures.
+  checked_at: '2026-10-09'
+- title: Numéro par la troupe Jacques Lecoq
+  url: >-
+    https://fresques.ina.fr/en-scenes/fiche-media/Scenes00804/numero-par-la-troupe-jacques-lecoq.html
+  publisher: INA (En scènes)
+  kind: video
+  year: 1973
+  note:
+    fr: >-
+      Numéro télévisé de 1973 : trois interprètes en masque neutre passent de la forme humaine à des formes
+      animales puis à l'eau, entre ombre et lumière.
+    en: >-
+      1973 television piece: three performers in neutral masks move from human to animal forms and then
+      to water, between shadow and light.
+  checked_at: '2026-10-09'
 2017_67717_INV_PCI_FRANCE_00384:
 - title: Skills of Parisian zinc roofers and ornamentalists
   url: >-
@@ -1404,6 +1630,35 @@
       Page of the element inscribed in 2020 (Switzerland, France), with a film on watchmakers and art
       mechanics of the Jura arc.
   checked_at: '2026-10-09'
+2018_67717_INV_PCI_FRANCE_00420:
+- title: La fabrication des santons de Provence
+  url: >-
+    https://fresques.ina.fr/sudorama/fiche-media/00000000291/la-fabrication-des-santons-de-provence.html
+  publisher: INA (Sudorama)
+  kind: video
+  year: 1987
+  note:
+    fr: >-
+      Journal régional de 1987 tourné dans le Var : une santonnière montre chaque étape de la fabrication
+      des santons de la crèche, du modelage de l'argile à l'habillage.
+    en: >-
+      1987 regional news shot in the Var: a santon maker shows each step in making crib figures, from
+      modelling the clay to dressing them.
+  checked_at: '2026-10-09'
+- title: Chant de Noël provençal
+  url: >-
+    https://www.ina.fr/ina-eclaire-actu/video/i04156885/chant-de-noel-provencal
+  publisher: INA
+  kind: video
+  year: 1989
+  note:
+    fr: >-
+      Extrait de la messe de Noël télévisée de 1989 à Saint-Michel-l'Observatoire (Alpes-de-Haute-Provence)
+      : un chant de Noël en provençal, sous-titré en français.
+    en: >-
+      Excerpt from the 1989 televised Christmas mass at Saint-Michel-l'Observatoire (Alpes-de-Haute-Provence):
+      a Christmas carol in Provençal, with French subtitles.
+  checked_at: '2026-10-09'
 2018_67717_INV_PCI_FRANCE_00421:
 - title: 'Carnaval de Nice : à chaque année son thème'
   url: >-
@@ -1417,6 +1672,20 @@
     en: >-
       Feature gathering archives from 1947 to 2013, including a 1976 report on the carnival makers, how
       the floats are built and how the trade passes from father to son.
+  checked_at: '2026-10-09'
+- title: Le Carnaval de Nice
+  url: >-
+    https://fresques.ina.fr/sudorama/fiche-media/00000000070/le-carnaval-de-nice.html
+  publisher: INA (Sudorama)
+  kind: video
+  year: 1946
+  note:
+    fr: >-
+      Actualités filmées de 1946 : après six ans d'interruption, le carnaval revient et Sa Majesté Carnaval
+      est acclamé par la foule place Masséna ; la fiche retrace l'histoire des chars et grosses têtes.
+    en: >-
+      1946 newsreel: after six years' break the carnival returns and King Carnival is cheered by the crowd
+      on place Masséna; the page outlines the history of the floats and big heads.
   checked_at: '2026-10-09'
 2018_67717_INV_PCI_FRANCE_00427:
 - title: «Le métier de bouquiniste, c'est d'abord d'aimer les livres»
@@ -1432,6 +1701,33 @@
     en: >-
       INA article built around a 1974 report: the booksellers and their boxes on the quays, already threatened
       by a planned left-bank expressway.
+  checked_at: '2026-10-09'
+2019_67717_INV_PCI_FRANCE_00422:
+- title: Le Bœuf de Mèze et les Jouteurs
+  url: https://www.occitanica.eu/items/show/16563
+  publisher: CIRDOC - Institut occitan de cultura (Occitanica)
+  kind: video
+  year: 2014
+  note:
+    fr: >-
+      Court documentaire (3 min) tourné en août 2014 : le Bœuf et le Chivalet parcourent les rues de Mèze
+      pendant la fête, le week-end du grand tournoi de joutes.
+    en: >-
+      Short documentary (3 min) filmed in August 2014: the Bœuf and the Chivalet roam the streets of Mèze
+      during the festival, on the weekend of the big jousting tournament.
+  checked_at: '2026-10-09'
+- title: La Mort du Bœuf de Mèze
+  url: https://www.occitanica.eu/items/show/16573
+  publisher: CIRDOC - Institut occitan de cultura (Occitanica)
+  kind: video
+  year: 2014
+  note:
+    fr: >-
+      Court documentaire (6 min) : la mise à mort symbolique du Bœuf sur l'esplanade de Mèze, devant habitants
+      et visiteurs, avant sa renaissance au corso de mai.
+    en: >-
+      Short documentary (6 min): the symbolic killing of the Bœuf on the Mèze esplanade before locals
+      and visitors, ahead of its rebirth at the May corso.
   checked_at: '2026-10-09'
 2019_67717_INV_PCI_FRANCE_00424:
 - title: Imatges de la batejada del Tribus Lupis de Cornonterralh
@@ -1515,6 +1811,20 @@
       Sound documentary recorded in 2017: participants' accounts and the music of three carnivals, Pézenas
       among them, comparing what is unique and what is shared.
   checked_at: '2026-10-09'
+2019_67717_INV_PCI_FRANCE_00430:
+- title: Fèsta de l'Ase de Beçan
+  url: https://www.occitanica.eu/items/show/12046
+  publisher: CIRDOC - Institut occitan de cultura (Occitanica)
+  kind: video
+  year: 2014
+  note:
+    fr: >-
+      Court documentaire (4 min) tourné en août 2014 : les rituels de la Saint-Laurent à Bessan, sorties
+      de l'Âne, messe et bénédiction de l'animal puis procession dans la ville.
+    en: >-
+      Short documentary (4 min) filmed in August 2014: the Saint-Laurent rituals in Bessan, with the Donkey's
+      outings, a mass and blessing of the animal, then a procession through the town.
+  checked_at: '2026-10-09'
 2019_67717_INV_PCI_FRANCE_00449:
 - title: '1948 : Menton célèbre les citrons'
   url: https://www.ina.fr/ina-eclaire-actu/1948-menton-celebre-les-citrons
@@ -1528,6 +1838,19 @@
     en: >-
       Short 1948 newsreel item on the Menton lemon festival, with a lyrical commentary on the citrus fruit
       of the Riviera.
+  checked_at: '2026-10-09'
+- title: La fête des citrons à Menton
+  url: https://fresques.ina.fr/sudorama/fiche-media/00000000108
+  publisher: INA (Sudorama)
+  kind: video
+  year: 1997
+  note:
+    fr: >-
+      Sujet du journal de 20 heures : préparation des motifs d'agrumes fixés sur des armatures par les
+      services municipaux, avec le contexte historique de la fête.
+    en: >-
+      Evening news item: council staff fix citrus fruit onto wire frames for the festival's sculptures,
+      with the festival's history as context.
   checked_at: '2026-10-09'
 2020_67717_INV_PCI_FRANCE_00458:
 - title: En Bretagne autrefois, on chantait et on dansait la gavotte
@@ -1631,6 +1954,35 @@
       FR3 documentary (11 min): the great pardon of Sainte-Anne-d'Auray and small chapel pardons around
       Rosporden, with processions, mass, shared meals and reunions.
   checked_at: '2026-10-09'
+2020_67717_INV_PCI_FRANCE_00474:
+- title: La fête des fleurs à Luchon
+  url: >-
+    https://www.ina.fr/ina-eclaire-actu/video/caf97514064/la-fete-des-fleurs-a-luchon
+  publisher: INA
+  kind: video
+  year: 1955
+  note:
+    fr: >-
+      Journal télévisé de 1955 : à Bagnères-de-Luchon, défilé de chars fleuris, procession et bataille
+      de fleurs devant les tribunes.
+    en: >-
+      1955 television news: in Bagnères-de-Luchon, a parade of flower floats, a procession and a battle
+      of flowers in front of the stands.
+  checked_at: '2026-10-09'
+- title: 'Luchon en Haute Garonne : la fête des fleurs'
+  url: >-
+    https://www.ina.fr/ina-eclaire-actu/video/rbc00001615/luchon-en-haute-garonne-la-fete-des-fleurs
+  publisher: INA
+  kind: video
+  year: 1975
+  note:
+    fr: >-
+      Journal régional de 1975 : la 76e fête des fleurs de Luchon, dont les chars et fanfares illustrent
+      l'histoire de la ville.
+    en: >-
+      1975 regional news: Luchon's 76th flower festival, whose floats and brass bands tell the history
+      of the town.
+  checked_at: '2026-10-09'
 2020_67717_INV_PCI_FRANCE_00485:
 - title: Aubusson tapestry
   url: https://ich.unesco.org/en/RL/aubusson-tapestry-00250
@@ -1671,6 +2023,21 @@
     en: >-
       1955 cinema newsreel in which one of the items covers the conscripts' festival in Villefranche-sur-Saône.
   checked_at: '2026-10-09'
+2021_67717_INV_PCI_FRANCE_00492:
+- title: 'Toulouse : Milonga, café tango au Petit Diable'
+  url: >-
+    https://www.ina.fr/ina-eclaire-actu/video/tl00001272289/toulouse-milongacafe-tango-au-petit-diable
+  publisher: INA
+  kind: video
+  year: 2000
+  note:
+    fr: >-
+      Journal régional de 2000 : chaque vendredi soir, un café toulousain accueille une milonga ; couples
+      de danseurs de tango et paroles de participants.
+    en: >-
+      2000 regional news: every Friday night a Toulouse café hosts a milonga; couples dancing tango and
+      dancers talking about it.
+  checked_at: '2026-10-09'
 2021_67717_INV_PCI_FRANCE_00501:
 - title: La fabrication des santons à Marseille
   url: >-
@@ -1698,6 +2065,31 @@
     en: >-
       Report on Provençal crib figures: choosing the clay, modelling, dressed santons and the collection
       of the Musée du Vieux-Marseille.
+  checked_at: '2026-10-09'
+2022_67717_INV_PCI_FRANCE_00517:
+- title: >-
+    Les villages de l'Hérault dans les années 1960 : La danse des treilles à Montblanc
+  url: https://www.occitanica.eu/items/show/362
+  publisher: CIRDOC - Institut occitan de cultura (Occitanica)
+  kind: video
+  note:
+    fr: >-
+      Film muet amateur des années 1960 (près de 3 min) : la danse des treilles à Montblanc, dans l'Hérault,
+      avec ses arceaux décorés.
+    en: >-
+      Silent amateur film from the 1960s (almost 3 min): the treilles dance at Montblanc, in the Hérault,
+      with its decorated hoops.
+  checked_at: '2026-10-09'
+- title: Les treilles
+  url: https://www.occitanica.eu/items/show/57048
+  publisher: CIRDOC - Institut occitan de cultura (Occitanica)
+  kind: audio
+  year: 1974
+  note:
+    fr: >-
+      Air des treilles joué au fifre et au tambour, extrait d'un disque de 1974 consacré au fifre du Bas-Languedoc.
+    en: >-
+      The treilles tune played on fife and drum, from a 1974 record devoted to the fife of Lower Languedoc.
   checked_at: '2026-10-09'
 2022_67717_INV_PCI_FRANCE_00519:
 - title: 'Toujours jeune : Clémence Isaure'
@@ -1770,6 +2162,21 @@
     en: >-
       1977 regional news: giants, floats, majorettes and a brass band in the mid-Lent parade, up to the
       queen's flower-decked float, before large crowds.
+  checked_at: '2026-10-09'
+2024_67717_INV_PCI_FRANCE_00538:
+- title: 1996, visite du plus vieil estaminet des Flandres
+  url: >-
+    https://www.ina.fr/ina-eclaire-actu/1996-visite-du-plus-vieil-estaminet-des-flandres
+  publisher: INA
+  kind: video
+  year: 1996
+  note:
+    fr: >-
+      Journal régional de 1996 : près de Steenvoorde, un estaminet de 1830 où l'on boit la bière locale
+      et joue devant la porte aux jeux traditionnels flamands, échasses ou jeu de la grenouille.
+    en: >-
+      1996 regional news: near Steenvoorde, an inn dating from 1830 where people drink local beer and
+      play traditional Flemish games outside, from stilts to the frog game.
   checked_at: '2026-10-09'
 2024_67717_INV_PCI_FRANCE_00542:
 - title: Fête des chants marins à Paimpol
