@@ -1,0 +1,121 @@
+id: voix-et-chants
+kind: theme
+title:
+  fr: Voix et chants, de la Bretagne au Pacifique
+  en: Voices and songs, from Brittany to the Pacific
+tagline:
+  fr: >-
+    Deux chanteurs qui se relaient, des poètes qui improvisent, trois voix d'hommes, un chœur qui répond au tambour : sept façons de chanter ensemble.
+  en: >-
+    Two singers taking turns, poets improvising, three men's voices, a chorus answering the drum: seven ways of singing together.
+intro:
+  fr: >-
+    Une voix seule peut émouvoir ; plusieurs voix qui s'écoutent font une communauté. Ce parcours part de Basse-Bretagne et finit dans les îles Loyauté, en passant par le Pays basque, la Corse, la Guadeloupe et La Réunion. Il suit des chants qui ne se lisent presque jamais sur une partition : ils s'apprennent à l'oreille, par imprégnation, en famille, aux foires, aux veillées, puis dans des écoles et des ateliers quand la transmission familiale s'est affaiblie. Certains se répondent en dialogue, d'autres improvisent sur un thème imposé, d'autres superposent les voix en polyphonie ; plusieurs portent une langue régionale ou la mémoire de l'esclavage. Tous rappellent que le chant est d'abord une manière d'être ensemble.
+  en: >-
+    A single voice can move us; several voices listening to each other make a community. This tour sets out from Lower Brittany and ends in the Loyalty Islands, by way of the Basque Country, Corsica, Guadeloupe and Réunion. It follows songs that are almost never read from a score: they are learnt by ear, by immersion, in families, at fairs and evening gatherings, then in schools and workshops once family transmission has weakened. Some answer each other in dialogue, some improvise on a set theme, others layer voices in polyphony; several carry a regional language or the memory of slavery. All of them remind us that singing is first of all a way of being together.
+steps:
+  - element: 2013_67717_INV_PCI_FRANCE_00308
+    heading:
+      fr: Basse-Bretagne, le kan ha diskan
+      en: Lower Brittany, kan ha diskan
+    text:
+      fr: >-
+        Le parcours commence par un duo. En Basse-Bretagne, le kan ha diskan, « chant et contre-chant », est un chant à danser en breton, sans instrument : deux chanteurs se relaient et chacun reprend les dernières syllabes de l'autre, comme des tuiles qui se chevauchent, pour que la danse ne manque jamais de voix. Longtemps transmis en famille, il a souffert de l'effondrement du breton à la maison dans les années 1950 ; toute une génération de chanteurs manque à la chaîne. Le renouveau des festoù-noz, dans les années 1970, et le collectage au magnétophone auprès des anciens ont permis à de jeunes chanteurs de reprendre le flambeau. Ici, chanter, c'est d'abord écouter l'autre pour savoir quand entrer.
+      en: >-
+        The tour begins with a duet. In Lower Brittany, kan ha diskan, "song and counter-song", is unaccompanied dance singing in Breton: two singers take turns, each picking up the last syllables of the other, like overlapping roof tiles, so the dancers are never left without a voice. Long handed down within families, it suffered when Breton stopped being spoken at home in the 1950s; a whole generation of singers is missing from the chain. The revival of the festoù-noz in the 1970s, and young people recording the older singers on cassette, allowed a new generation to take it up. Here, singing means first of all listening to your partner to know when to come in.
+    look_for:
+      fr: >-
+        Le tuilage, ce court instant où les deux voix chantent ensemble la fin d'une phrase, et la ronde des danseurs qui suit leur rythme.
+      en: >-
+        The overlap, that brief moment when both voices sing the end of a line together, and the ring of dancers following their rhythm.
+  - element: 2022_67717_INV_PCI_FRANCE_00516
+    heading:
+      fr: Pays basque, les joutes des bertsolaris
+      en: Basque Country, the bertsolaris' contests
+    text:
+      fr: >-
+        Au Pays basque, la réponse devient joute. Le bertsularisme est une improvisation chantée a cappella, rimée et mesurée, entièrement en basque. Sur la scène d'une fête de village, d'un carnaval ou d'un championnat, un meneur impose un thème et distribue les rôles ; les bertsolaris inventent sur-le-champ un couplet, le bertso, sur un air connu, en respectant mètre et rime. Le public applaudit, mais il peut aussi être pris à partie ou devenir le sujet du couplet. Des écoles de bertsularisme, les bertso-eskolak, forment les jeunes, et la pratique attire un public de plus en plus jeune. Après le duo breton qui reprend la phrase de l'autre, voici des voix qui se répondent par le sens, et parfois par la pique.
+      en: >-
+        In the Basque Country, answering becomes a contest. Bertsolaritza is improvised singing, unaccompanied, rhymed and metred, entirely in Basque. On stage at a village festival, a carnival or a championship, a host sets a theme and hands out roles; the bertsolaris make up a verse, the bertso, on the spot, to a familiar tune, keeping to metre and rhyme. The audience applauds, but it can also be teased or become the subject of a verse. Schools of improvisation, the bertso-eskolak, train young people, and the practice draws an ever younger audience. After the Breton duet picking up each other's lines, here are voices answering each other in meaning, and sometimes with a sting.
+    look_for:
+      fr: >-
+        Le silence qui précède chaque bertso, quand l'improvisateur cherche sa rime finale, puis la réaction du public au dernier vers.
+      en: >-
+        The silence before each bertso, while the improviser hunts for the final rhyme, then the audience's reaction to the last line.
+  - element: 2025_67717_INV_PCI_FRANCE_00556
+    heading:
+      fr: Corse, le chjam'è rispondi des foires
+      en: Corsica, chjam'è rispondi at the fairs
+    text:
+      fr: >-
+        La Corse a sa propre joute : le chjam'è rispondi, « appelle et réponds ». Deux poètes ou plus s'y répondent a cappella en tercets de vers de seize syllabes, sur un sujet qu'ils ne connaissent pas d'avance, avec humour, causticité ou éloge. Autrefois, ces duels étaient l'attraction des grandes foires agricoles, où l'on échangeait du bétail, des produits et des vers ; la Santa di u Niolu, au cœur des montagnes, reste leur lieu symbolique. Le public n'y est pas spectateur : il encourage, réagit et fait partie du jeu. En 2025, l'inventaire comptait 59 poètes actifs, dont seulement cinq femmes, et une jeune « génération internet » venue à l'improvisation par les réseaux sociaux.
+      en: >-
+        Corsica has a contest of its own: chjam'è rispondi, "call and answer". Two or more poets reply to each other a cappella in tercets of sixteen-syllable lines, on a subject they do not know in advance, with humour, bite or praise. These duels were once the main attraction of the great livestock fairs, where cattle, produce and verses were all exchanged; the Santa di u Niolu, in the heart of the mountains, remains their symbolic home. The audience is no mere onlooker: it cheers, reacts and is part of the game. In 2025 the inventory counted 59 active poets, only five of them women, and a young "internet generation" drawn to improvisation through social media.
+    look_for:
+      fr: >-
+        Le versu, la façon propre à chaque poète de chanter son tercet, et la macagna, cette raillerie qui fait rire toute l'assistance.
+      en: >-
+        The versu, each poet's own way of singing a tercet, and the macagna, the teasing that sets the whole audience laughing.
+  - element: 2008_67717_INV_PCI_FRANCE_00003
+    heading:
+      fr: Sermanu, les trois voix de la paghjella
+      en: Sermanu, the three voices of the paghjella
+    text:
+      fr: >-
+        Au Niolu, on n'improvise pas seulement : on chante aussi en paghjella, polyphonie d'hommes inscrite par l'UNESCO sur la liste de sauvegarde urgente. À Sermanu, petit village de Haute-Corse, le versu dit « entier » suit sa propre ligne mélodique. Trois voix entrent toujours dans le même ordre, la seconda, puis le bassu, puis la terza, pour les messes des vivants et des morts, les fêtes des chapelles, les processions, les veillées et la grande foire du Niolu. Jusqu'aux années 1960, il vivait dans quelques familles de chantres, appris par imprégnation ; de nouvelles générations l'ont repris à partir des années 1970. Après les joutes, les voix ne se répondent plus : elles se superposent et doivent s'accorder.
+      en: >-
+        In the Niolu people do not only improvise: they also sing in paghjella, a polyphony of men's voices on UNESCO's Urgent Safeguarding List. In Sermanu, a small village in Haute-Corse, the so-called "whole" versu follows its own melodic line. Three voices always come in in the same order, the seconda, then the bassu, then the terza, for the masses of the living and the dead, chapel feasts, processions, evening gatherings and the great Niolu fair. Until the 1960s it lived on in a few families of cantors, learnt by immersion; new generations took it up from the 1970s. After the contests, the voices no longer answer one another: they are layered, and must blend.
+    look_for:
+      fr: >-
+        L'entrée successive des trois voix, et les chanteurs serrés les uns contre les autres, une main parfois posée sur l'oreille pour mieux s'entendre.
+      en: >-
+        The three voices coming in one after another, and the singers standing close together, sometimes a hand cupped over one ear to hear themselves better.
+  - element: 2012_67717_INV_PCI_FRANCE_00284
+    heading:
+      fr: Guadeloupe, le gwoka du léwòz
+      en: Guadeloupe, gwoka at the léwòz
+    text:
+      fr: >-
+        Traversée de l'Atlantique. En Guadeloupe, le gwoka unit trois arts : un chant en créole où un soliste lance une phrase que le chœur, souvent tout le public, reprend ; les rythmes des tambours ka ; et la danse d'une seule personne à la fois, face au tambour makè qui « marque » ses pas. Ses racines remontent au XVIIe siècle, quand des Africains réduits en esclavage se rassemblaient malgré les interdits pour jouer, chanter et danser. Longtemps méprisé, il devient dans les années 1960 un symbole d'identité et de contestation. Au léwòz, soirée ouverte à tous, le public forme un cercle, frappe des mains et répond au chanteur : ici, la polyphonie corse laisse place à un dialogue entre une voix, un chœur et des tambours.
+      en: >-
+        Across the Atlantic. In Guadeloupe, gwoka brings three arts together: singing in Creole, in which a soloist calls a line and the chorus, often the whole audience, answers; the rhythms of the ka drums; and dancing by one person at a time, facing the makè drum that "marks" every step. Its roots go back to the 17th century, when enslaved Africans gathered despite bans to play, sing and dance. Long looked down on, it became a symbol of identity and protest in the 1960s. At a léwòz, an evening open to all, people form a circle, clap and answer the singer: here Corsican polyphony gives way to a dialogue between one voice, a chorus and drums.
+    look_for:
+      fr: >-
+        Le refrain repris par le cercle après chaque phrase du chanteur, et le dialogue entre le danseur au centre et le tambour makè.
+      en: >-
+        The refrain taken up by the circle after each of the singer's lines, and the dialogue between the dancer in the middle and the makè drum.
+  - element: 2009_67717_INV_PCI_FRANCE_00040
+    heading:
+      fr: La Réunion, le maloya sorti de l'ombre
+      en: Réunion, maloya out of the shadows
+    text:
+      fr: >-
+        À l'autre bout du monde, dans l'océan Indien, La Réunion a son propre chant né de l'esclavage. Le maloya est apparu chez les esclaves venus d'Afrique de l'Est et de Madagascar, puis s'est créolisé dans les plantations sucrières au contact des travailleurs engagés venus d'Inde. Comme le gwoka, il fait dialoguer un soliste et un chœur, portés par le roulèr, le kayanm et l'arc musical bob. Longtemps joué à l'abri des regards, lié aux hommages aux ancêtres, il gagne l'espace public dans les années 1970 et devient l'expression majeure de l'identité réunionnaise. Environ 300 groupes l'ouvrent aujourd'hui au rock, au reggae ou au jazz, et le conservatoire l'enseigne depuis 1987 : une tradition qui change sans cesse.
+      en: >-
+        On the other side of the world, in the Indian Ocean, Réunion has its own song born of slavery. Maloya arose among enslaved people from East Africa and Madagascar, then took on a Creole form on the sugar plantations alongside indentured workers from India. Like gwoka, it sets a soloist in dialogue with a chorus, carried by the roulèr drum, the kayanm rattle and the bob musical bow. Long played out of sight and tied to ceremonies honouring the ancestors, it moved into public space in the 1970s and became the leading expression of Réunion identity. Some 300 bands now open it up to rock, reggae or jazz, and the conservatoire has taught it since 1987: a tradition that never stops changing.
+    look_for:
+      fr: >-
+        Le joueur assis à califourchon sur le roulèr, et le kayanm, hochet de tiges de canne rempli de graines, secoué en cadence.
+      en: >-
+        The player sitting astride the roulèr drum, and the kayanm, a rattle of cane-flower stems filled with seeds, shaken in time.
+  - element: 2020_67717_INV_PCI_FRANCE_00493
+    heading:
+      fr: Ouvéa, le seloo à quatre voix
+      en: Ouvéa, the four-voice seloo
+    text:
+      fr: >-
+        Le parcours s'achève dans le Pacifique, à Ouvéa, l'une des îles Loyauté de Nouvelle-Calédonie. Le seloo y est le plus souvent un chant a cappella à quatre voix d'hommes, guidées par celui qui bat la mesure, aux harmonies réputées « dissonantes » par rapport aux polyphonies tempérées. Sa forme chorale doit sans doute beaucoup aux cantiques introduits par les missionnaires à partir des années 1840, mais il porte les langues iaai et fagauvea et se chante en toutes circonstances. Ses paroles racontent une anecdote, un deuil, un naufrage ou l'engagement de tirailleurs kanak pendant la Première Guerre mondiale. Autrefois chant de jeunes, il est surtout porté aujourd'hui par les anciens : comme pour la paghjella, la relève est l'enjeu.
+      en: >-
+        The tour ends in the Pacific, on Ouvéa, one of New Caledonia's Loyalty Islands. There the seloo is most often an a cappella song for four men's voices, led by the one who beats time, with harmonies considered "dissonant" compared with tempered polyphony. Its choral form probably owes much to the hymns brought by missionaries from the 1840s, yet it carries the Iaai and Fagauvea languages and is sung on every kind of occasion. Its words tell of an everyday event, a death, a shipwreck or Kanak riflemen who served in the First World War. Once a young people's song, it is now carried mostly by elders: as with the paghjella, finding the next generation is what matters.
+    look_for:
+      fr: >-
+        Les frottements entre les quatre voix, ces harmonies inattendues pour une oreille habituée aux chorales, et le geste de celui qui bat la mesure.
+      en: >-
+        The rubbing between the four voices, harmonies unexpected to ears used to choirs, and the gestures of the one beating time.
+outro:
+  fr: >-
+    Du duo breton au chœur d'Ouvéa, ces chants vivent de l'écoute : savoir quand entrer, comment répondre, où placer sa voix parmi les autres. Ils ont traversé l'interdit, le mépris ou l'abandon d'une langue, et reviennent souvent par les jeunes, les écoles ou la scène, parfois mêlés à d'autres musiques. Et vous : connaissez-vous un chant que l'on ne peut chanter qu'à plusieurs, et qui vous l'a appris ?
+  en: >-
+    From the Breton duet to the Ouvéa choir, these songs live on listening: knowing when to come in, how to answer, where to place your voice among the others. They have come through bans, contempt or the loss of a language, and often return through young people, schools or the stage, sometimes blended with other music. And you: do you know a song that can only be sung with others, and who taught it to you?
+lang_review: draft
+review_status: unreviewed
