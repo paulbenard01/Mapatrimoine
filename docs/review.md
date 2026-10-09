@@ -22,11 +22,11 @@ How to review an element: open its page on the site, check the summary, places a
 | — EN summary reviewed | 0 |
 | With a mediation sheet | 76 |
 | — sheet reviewed | 0 |
-| Short summary only (no timing yet) | 446 |
-| — events | 41 |
-| — practices | 405 |
+| Short summary only (no timing yet) | 467 |
+| — events | 42 |
+| — practices | 425 |
 | — summary reviewed | 0 |
-| No summary yet | 21 |
+| No summary yet | 0 |
 
 ## Documented elements
 
@@ -121,6 +121,7 @@ Elements not curated yet carry a short summary in `data/summaries.yaml` (no timi
 | [Le versu composite de Nebbiu](https://paulbenard01.github.io/Mapatrimoine/?id=2008_67717_INV_PCI_FRANCE_00002) | practice | · | · |
 | [Le versu entier de Sermanu](https://paulbenard01.github.io/Mapatrimoine/?id=2008_67717_INV_PCI_FRANCE_00003) | practice | · | · |
 | [La fabrication d'épis de faîtage en Basse-Normandie](https://paulbenard01.github.io/Mapatrimoine/?id=2008_67717_INV_PCI_FRANCE_00005) | practice | · | · |
+| [La porcelaine de Limoges (Haute-Vienne)](https://paulbenard01.github.io/Mapatrimoine/?id=2008_67717_INV_PCI_FRANCE_00007) | practice | · | · |
 | [L'héliogravure](https://paulbenard01.github.io/Mapatrimoine/?id=2008_67717_INV_PCI_FRANCE_00008) | practice | · | · |
 | [La calligraphie](https://paulbenard01.github.io/Mapatrimoine/?id=2008_67717_INV_PCI_FRANCE_00009) | practice | · | · |
 | [Le tissage à bras](https://paulbenard01.github.io/Mapatrimoine/?id=2008_67717_INV_PCI_FRANCE_00010) | practice | · | · |
@@ -165,6 +166,7 @@ Elements not curated yet carry a short summary in `data/summaries.yaml` (no timi
 | [La banda](https://paulbenard01.github.io/Mapatrimoine/?id=2009_67717_INV_PCI_FRANCE_00056) | practice | · | · |
 | [Le compagnonnage](https://paulbenard01.github.io/Mapatrimoine/?id=2009_67717_INV_PCI_FRANCE_00057) | practice | · | · |
 | [Le repas gastronomique des Français](https://paulbenard01.github.io/Mapatrimoine/?id=2009_67717_INV_PCI_FRANCE_00058) | practice | · | · |
+| [La céramique d'art à Château (Saône-et-Loire)](https://paulbenard01.github.io/Mapatrimoine/?id=2009_67717_INV_PCI_FRANCE_00059) | practice | · | · |
 | [La dorure sur bois à Chapaize (Saône-et-Loire)](https://paulbenard01.github.io/Mapatrimoine/?id=2009_67717_INV_PCI_FRANCE_00060) | practice | · | · |
 | [La céramique d'art à Saint-André-le-Désert (Saône-et-Loire)](https://paulbenard01.github.io/Mapatrimoine/?id=2009_67717_INV_PCI_FRANCE_00061) | practice | · | · |
 | [La facture d'instruments anciens à clavier](https://paulbenard01.github.io/Mapatrimoine/?id=2009_67717_INV_PCI_FRANCE_00062) | practice | · | · |
@@ -243,6 +245,7 @@ Elements not curated yet carry a short summary in `data/summaries.yaml` (no timi
 | [La force basque](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00157) | practice | · | · |
 | [La pelote basque à main nue en trinquet](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00158) | practice | · | · |
 | [Le jeu de pelote basque](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00159) | practice | · | · |
+| [Le jeu de rebot](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00160) | practice | · | · |
 | [Les courses sur échasses](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00161) | practice | · | · |
 | [Les quilles de trois en Aquitaine](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00162) | practice | · | · |
 | [Les quilles de six en Aquitaine](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00163) | practice | · | · |
@@ -263,6 +266,7 @@ Elements not curated yet carry a short summary in `data/summaries.yaml` (no timi
 | [La boule nantaise](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00178) | practice | · | · |
 | [La boule oudonnaise](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00179) | practice | · | · |
 | [La boule sur terrain incurvé](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00180) | practice | · | · |
+| [La boule sur terrain plat](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00181) | practice | · | · |
 | [La boule tharonnaise](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00182) | practice | · | · |
 | [Les boules bretonnes du Morbihan](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00183) | practice | · | · |
 | [Les boules plombées du pays de Morlaix](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00184) | practice | · | · |
@@ -284,6 +288,7 @@ Elements not curated yet carry a short summary in `data/summaries.yaml` (no timi
 | [Le jeu de la galoche d'Assérac](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00200) | practice | · | · |
 | [Le jeu de la galoche autour de Saint-Pol-de-Léon](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00201) | practice | · | · |
 | [Le jeu de la galoche sans billot du Trégor](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00202) | practice | · | · |
+| [Le jeu de la galoche sur billot](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00203) | practice | · | · |
 | [Le jeu de la galoche ou de la bique](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00204) | practice | · | · |
 | [Le jeu du pechoù](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00205) | practice | · | · |
 | [Le jeu du palet au trépied](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00206) | practice | · | · |
@@ -338,6 +343,9 @@ Elements not curated yet carry a short summary in `data/summaries.yaml` (no timi
 | [La boule de sable des Pays-de-la-Loire](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00255) | practice | · | · |
 | [Le jeu de longue paume](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00256) | practice | · | · |
 | [Le jeu de balle à la main](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00258) | practice | · | · |
+| [Le jeu de la bézette en Normandie](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00259) | practice | · | · |
+| [Le jeu de la grande carambole et du bastringue](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00260) | practice | · | · |
+| [Le jeu de la carambole à gouttière](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00261) | practice | · | · |
 | [Le jeu de la crosse](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00262) | practice | · | · |
 | [Le jeu de la grande choule](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00263) | practice | · | · |
 | [Le jeu du camembert](https://paulbenard01.github.io/Mapatrimoine/?id=2012_67717_INV_PCI_FRANCE_00264) | practice | · | · |
@@ -389,6 +397,7 @@ Elements not curated yet carry a short summary in `data/summaries.yaml` (no timi
 | [Les pêcheries fixes du littoral de la Manche](https://paulbenard01.github.io/Mapatrimoine/?id=2013_67717_INV_PCI_FRANCE_00316) | practice | · | · |
 | [Le ramassage des simples en Bretagne](https://paulbenard01.github.io/Mapatrimoine/?id=2013_67717_INV_PCI_FRANCE_00317) | practice | · | · |
 | [La pose de la branche de Mai dans le Morbihan / Barrin ar mae](https://paulbenard01.github.io/Mapatrimoine/?id=2013_67717_INV_PCI_FRANCE_00319) | practice | · | · |
+| [La récolte du goémon en Bretagne](https://paulbenard01.github.io/Mapatrimoine/?id=2013_67717_INV_PCI_FRANCE_00320) | practice | · | · |
 | [La journée Stop à Steenwerck (Nord)](https://paulbenard01.github.io/Mapatrimoine/?id=2013_67717_INV_PCI_FRANCE_00325) | event | · | · |
 | [Le bouladjel de la Guadeloupe](https://paulbenard01.github.io/Mapatrimoine/?id=2013_67717_INV_PCI_FRANCE_00326) | practice | · | · |
 | [La facture de la flûte à trois trous / Flabuta](https://paulbenard01.github.io/Mapatrimoine/?id=2014_67717_INV_PCI_FRANCE_00052) | practice | · | · |
@@ -562,16 +571,28 @@ Elements not curated yet carry a short summary in `data/summaries.yaml` (no timi
 | [Véyé asi granfon, jeux et traditions de veillée funéraire des Grands-Fonds (Guadeloupe)](https://paulbenard01.github.io/Mapatrimoine/?id=2024_67717_INV_PCI_FRANCE_00544) | practice | · | · |
 | [Les savoir-faire, connaissances et pratiques liés aux papiers faits-main en France](https://paulbenard01.github.io/Mapatrimoine/?id=2024_67717_INV_PCI_FRANCE_00546) | practice | · | · |
 | [Le Debaa des femmes (Mayotte)](https://paulbenard01.github.io/Mapatrimoine/?id=2025_67717_INV_PCI_FRANCE_00547) | practice | · | · |
+| [La démoscène en France : un mouvement de création numérique populaire spontané](https://paulbenard01.github.io/Mapatrimoine/?id=2025_67717_INV_PCI_FRANCE_00549) | practice | · | · |
+| [L'Affouage](https://paulbenard01.github.io/Mapatrimoine/?id=2025_67717_INV_PCI_FRANCE_00550) | practice | · | · |
 | [Les savoirs nautiques ligériens](https://paulbenard01.github.io/Mapatrimoine/?id=2025_67717_INV_PCI_FRANCE_00551) | practice | · | · |
+| [Les savoir-faire et pratiques liés au Tani Malandi (argile blanche) de Chirongui](https://paulbenard01.github.io/Mapatrimoine/?id=2025_67717_INV_PCI_FRANCE_00552) | practice | · | · |
+| [Les quadrilles créoles de Guadeloupe](https://paulbenard01.github.io/Mapatrimoine/?id=2025_67717_INV_PCI_FRANCE_00553) | practice | · | · |
+| [Pratiques de pêche passives sur le bassin Loire](https://paulbenard01.github.io/Mapatrimoine/?id=2025_67717_INV_PCI_FRANCE_00554) | practice | · | · |
+| [Les comices agricoles du Doubs](https://paulbenard01.github.io/Mapatrimoine/?id=2025_67717_INV_PCI_FRANCE_00555) | event | · | · |
+| [La haute couture](https://paulbenard01.github.io/Mapatrimoine/?id=2025_67717_INV_PCI_FRANCE_00557) | practice | · | · |
+| [Les musiques électroniques françaises](https://paulbenard01.github.io/Mapatrimoine/?id=2025_67717_INV_PCI_FRANCE_00558) | practice | · | · |
+| [Les jours ou broderie de Cilaos](https://paulbenard01.github.io/Mapatrimoine/?id=2025_67717_INV_PCI_FRANCE_00559) | practice | · | · |
+| [Les savoir-faire de la construction en terre crue en France](https://paulbenard01.github.io/Mapatrimoine/?id=2026_67717_INV_PCI_FRANCE_00561) | practice | · | · |
+| [La fabrication de cravaches et de fouets à Sorède (Pyrénées-Orientales)](https://paulbenard01.github.io/Mapatrimoine/?id=2026_67717_INV_PCI_FRANCE_00562) | practice | · | · |
+| [Pratique de la navigation à voile carrée sur la Loire et les rivières affluentes](https://paulbenard01.github.io/Mapatrimoine/?id=2026_67717_INV_PCI_FRANCE_00563) | practice | · | · |
 
 ## Not curated yet, by theme
 
 | Theme | Short summary | No summary |
 |---|---:|---:|
-| Savoirs et savoir-faire | 169 | 9 |
-| Jeux | 118 | 6 |
-| Pratiques sociales et festives | 48 | 4 |
-| Arts du spectacle | 48 | 1 |
+| Savoirs et savoir-faire | 178 | 0 |
+| Jeux | 124 | 0 |
+| Pratiques sociales et festives | 52 | 0 |
+| Arts du spectacle | 49 | 0 |
 | Rituels | 34 | 0 |
-| Pratiques physiques | 19 | 1 |
+| Pratiques physiques | 20 | 0 |
 | Traditions et expressions orales | 10 | 0 |

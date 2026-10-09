@@ -56,6 +56,20 @@
     lang_review: draft
   read: pcilab
   review_status: unreviewed
+2008_67717_INV_PCI_FRANCE_00007:
+  kind: practice
+  summary:
+    fr: >-
+      À Limoges (Haute-Vienne), la porcelaine naît d'un modèle en plâtre agrandi pour compenser le retrait,
+      puis de pièces coulées en barbotine, émaillées et cuites au grand feu vers 1400 °C ; le kaolin fut
+      découvert en 1768 à Saint-Yrieix-la-Perche.
+    en: >-
+      In Limoges (Haute-Vienne), porcelain starts from a plaster model enlarged to allow for shrinkage;
+      pieces are slip-cast, glazed and fired at around 1400 °C. The kaolin it relies on was found at Saint-Yrieix-la-Perche
+      in 1768.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
 2008_67717_INV_PCI_FRANCE_00008:
   kind: practice
   summary:
@@ -668,6 +682,20 @@
       of courses matched with wines.
     lang_review: draft
   read: pcilab
+  review_status: unreviewed
+2009_67717_INV_PCI_FRANCE_00059:
+  kind: practice
+  summary:
+    fr: >-
+      À Château, en Saône-et-Loire, un céramiste d'art prépare lui-même ses pâtes et broie ses émaux à
+      partir de roches, cendres et argiles récoltées en carrière, puis tourne et cuit une porcelaine à
+      1300–1400 °C dans des fours qu'il conçoit.
+    en: >-
+      At Château in Saône-et-Loire, an art ceramist prepares his own clay bodies and grinds glazes from
+      rocks, ashes and clays gathered in quarries, then throws and fires porcelain at 1300–1400 °C in
+      kilns of his own design.
+    lang_review: draft
+  read: fiche
   review_status: unreviewed
 2009_67717_INV_PCI_FRANCE_00060:
   kind: practice
@@ -1747,6 +1775,20 @@
     lang_review: draft
   read: pcilab
   review_status: unreviewed
+2012_67717_INV_PCI_FRANCE_00160:
+  kind: practice
+  summary:
+    fr: >-
+      Le rebot est une spécialité de pelote basque jouée en plein air sur une grande place, au Pays basque
+      et en Béarn : deux équipes de cinq se renvoient la pelote de part et d'autre d'une ligne mobile,
+      le plus souvent le dimanche matin de mars à octobre.
+    en: >-
+      Rebot is an open-air form of Basque pelota played on a large square in the French Basque Country
+      and Béarn: two teams of five return the ball across a shifting dividing line, usually on Sunday
+      mornings from March to October.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
 2012_67717_INV_PCI_FRANCE_00161:
   kind: practice
   summary:
@@ -2025,6 +2067,20 @@
       always be rolled, never thrown.
     lang_review: draft
   read: pcilab
+  review_status: unreviewed
+2012_67717_INV_PCI_FRANCE_00181:
+  kind: practice
+  summary:
+    fr: >-
+      Dans le vignoble nantais (Loire-Atlantique) et à Cugand (Vendée), on joue aux boules sur un terrain
+      plat en terre battue couvert de sable de Loire, bordé de traverses qui servent de bandes pour approcher
+      le petit, comme au billard.
+    en: >-
+      In the Nantes vineyard country (Loire-Atlantique) and at Cugand (Vendée), bowls are played on flat
+      earth lanes topped with Loire sand and edged with sleepers, which players use as cushions, billiard-style,
+      to reach the jack.
+    lang_review: draft
+  read: fiche
   review_status: unreviewed
 2012_67717_INV_PCI_FRANCE_00182:
   kind: practice
@@ -2319,6 +2375,20 @@
       to land the second closest to the coin it carried.
     lang_review: draft
   read: pcilab
+  review_status: unreviewed
+2012_67717_INV_PCI_FRANCE_00203:
+  kind: practice
+  summary:
+    fr: >-
+      Autour de Morlaix (Finistère), la galoche sur billot consiste à lancer des palets à environ neuf
+      mètres pour faire tomber une petite pièce de bois, la galoche, posée sur un billot ; le jeu est
+      attesté en Bretagne depuis au moins le XIXe siècle.
+    en: >-
+      Around Morlaix (Finistère), galoche sur billot means throwing discs from about nine metres to knock
+      a small block of wood, the galoche, off a wooden stump; the game has been recorded in Brittany since
+      at least the 19th century.
+    lang_review: draft
+  read: fiche
   review_status: unreviewed
 2012_67717_INV_PCI_FRANCE_00204:
   kind: practice
@@ -3069,6 +3139,48 @@
     lang_review: draft
   read: pcilab
   review_status: unreviewed
+2012_67717_INV_PCI_FRANCE_00259:
+  kind: practice
+  summary:
+    fr: >-
+      La bézette est un jeu de dés de comptoir joué surtout dans l'Eure, en Normandie : chaque joueur
+      tente de se défaire de ses 12 à 15 anneaux en les plaçant sur un petit mât de bois selon les dés
+      obtenus ; des concours existent encore.
+    en: >-
+      Bézette is a counter dice game played mainly in the Eure, Normandy: each player tries to get rid
+      of 12 to 15 rings by placing them on a small wooden post according to the dice thrown; competitions
+      are still held.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
+2012_67717_INV_PCI_FRANCE_00260:
+  kind: practice
+  summary:
+    fr: >-
+      Dans le centre de la Normandie (pays d'Auge, pays d'Ouche, Perche, plaine de Caen), la grande carambole
+      et le bastringue sont des jeux de quilles sur piste, à cinq ou trois quilles, longtemps joués pour
+      de l'argent lors des fêtes de village et des comices.
+    en: >-
+      In central Normandy (Pays d'Auge, Pays d'Ouche, Perche, Caen plain), the grande carambole and the
+      bastringue are skittle games played on a track with five or three pins, long played for money at
+      village fairs and agricultural shows.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
+2012_67717_INV_PCI_FRANCE_00261:
+  kind: practice
+  summary:
+    fr: >-
+      Jeu de comptoir et d'argent du Bocage virois et de la région de Villedieu-les-Poêles (Manche), la
+      carambole à gouttière consiste à lancer une petite boule par une gouttière sur une planche à rebords
+      pour renverser six quilles et une quille centrale.
+    en: >-
+      A counter and gambling game from the Bocage around Vire and the Villedieu-les-Poêles area (Manche),
+      carambole à gouttière sends a small ball down a chute onto a rimmed board to knock over six pins
+      and a central one.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
 2012_67717_INV_PCI_FRANCE_00262:
   kind: practice
   summary:
@@ -3779,6 +3891,20 @@
       the household.
     lang_review: draft
   read: pcilab
+  review_status: unreviewed
+2013_67717_INV_PCI_FRANCE_00320:
+  kind: practice
+  summary:
+    fr: >-
+      Sur les côtes et les îles du nord du Finistère, le goémon est ramassé à pied sur les grèves ou récolté
+      en mer par des bateaux goémoniers ; jadis engrais et combustible, puis source d'iode, il fournit
+      aujourd'hui surtout des gélifiants.
+    en: >-
+      On the coasts and islands of northern Finistère, seaweed is gathered by hand on the shore or harvested
+      at sea by dedicated boats; once used as fertiliser and fuel, then for iodine, it now mainly supplies
+      gelling agents.
+    lang_review: draft
+  read: fiche
   review_status: unreviewed
 2013_67717_INV_PCI_FRANCE_00325:
   kind: event
@@ -6187,6 +6313,34 @@
     lang_review: draft
   read: pcilab
   review_status: unreviewed
+2025_67717_INV_PCI_FRANCE_00549:
+  kind: practice
+  summary:
+    fr: >-
+      Née avec la micro-informatique des années 1980, la démoscène réunit en France des codeurs, graphistes
+      et musiciens qui créent des démos, programmes non commerciaux calculés en temps réel, et les présentent
+      en concours lors de rencontres appelées démoparties.
+    en: >-
+      Born with home computing in the 1980s, the French demoscene brings together coders, artists and
+      musicians who make demos, non-commercial programs rendered in real time, and show them in competitions
+      at gatherings called demoparties.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
+2025_67717_INV_PCI_FRANCE_00550:
+  kind: practice
+  summary:
+    fr: >-
+      L'affouage permet aux habitants d'une commune ou d'une section de commune de couper chaque année,
+      dans la forêt collective, du bois de chauffage ou de construction pour leur seul usage, sans pouvoir
+      le revendre ; il reste vivant notamment en Auvergne-Rhône-Alpes, en Lorraine et en Bourgogne-Franche-Comté.
+    en: >-
+      Affouage lets the residents of a commune or commune section cut firewood or building timber each
+      year in their collective forest, for their own use only and never for sale; it remains common in
+      Auvergne-Rhône-Alpes, Lorraine and Burgundy-Franche-Comté.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
 2025_67717_INV_PCI_FRANCE_00551:
   kind: practice
   summary:
@@ -6200,4 +6354,145 @@
       reading of the river.
     lang_review: draft
   read: pcilab
+  review_status: unreviewed
+2025_67717_INV_PCI_FRANCE_00552:
+  kind: practice
+  summary:
+    fr: >-
+      À Chirongui, à Mayotte, quelques femmes extraient le Tani Malandi, une argile blanche kaolinique,
+      et la façonnent en pains ; elle sert au maquillage festif des mariées, aux soins traditionnels et
+      aux rituels où les guérisseurs communiquent avec les esprits.
+    en: >-
+      In Chirongui, Mayotte, a few women dig Tani Malandi, a white kaolin clay, and shape it into loaves;
+      it is used for festive make-up for brides, in traditional remedies and in rituals where healers
+      communicate with spirits.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
+2025_67717_INV_PCI_FRANCE_00553:
+  kind: practice
+  summary:
+    fr: >-
+      Nés en Guadeloupe à la fin du XVIIIe siècle, les quadrilles créoles sont des danses en carré de
+      couples reprises des quadrilles européens par les esclaves et affranchis, qui les ont enrichies
+      ; ils se dansent aujourd'hui surtout au sein d'associations, aux Antilles et en Hexagone.
+    en: >-
+      Born in Guadeloupe in the late 18th century, Creole quadrilles are square dances for couples that
+      enslaved and freed people adapted from European quadrilles and enriched; today they are mostly danced
+      in associations, in Guadeloupe and mainland France.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
+2025_67717_INV_PCI_FRANCE_00554:
+  kind: practice
+  summary:
+    fr: >-
+      Sur la Loire, de la Nièvre à la Loire-Atlantique, une dizaine de pêcheurs professionnels utilisent
+      encore le guideau, filet tendu la nuit depuis un bateau fixe pour l'anguille lors des crues, et
+      le filet-barrage, posé au printemps pour l'alose.
+    en: >-
+      On the Loire, from the Nièvre to Loire-Atlantique, about ten professional fishers still use the
+      guideau, a net set at night from a moored boat to catch eels during floods, and the barrier net,
+      laid in spring for shad.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
+2025_67717_INV_PCI_FRANCE_00555:
+  kind: event
+  summary:
+    fr: >-
+      Dans le Doubs, chaque canton organise chaque année son comice agricole, concours des plus belles
+      bêtes d'élevage doublé d'une fête villageoise ; il est accueilli à tour de rôle par chaque village
+      du canton, environ tous les vingt ans.
+    en: >-
+      In the Doubs, each canton holds a yearly agricultural show, a contest for the finest livestock combined
+      with a village festival; it moves from village to village, so each one hosts it roughly every twenty
+      years.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
+2025_67717_INV_PCI_FRANCE_00557:
+  kind: practice
+  summary:
+    fr: >-
+      Née à Paris au milieu du XIXe siècle, la haute couture désigne la création de pièces uniques entièrement
+      sur mesure dans des ateliers en France, où modélistes, toilistes et premières mains se partagent
+      le travail ; les collections sont présentées deux fois par an à Paris.
+    en: >-
+      Born in Paris in the mid-19th century, haute couture is the making of one-off, fully made-to-measure
+      garments in French workshops, where pattern makers, toile makers and head seamstresses share the
+      work; collections are shown twice a year in Paris.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
+2025_67717_INV_PCI_FRANCE_00558:
+  kind: practice
+  summary:
+    fr: >-
+      Les musiques électroniques françaises réunissent des pratiques de création, de production et de
+      diffusion fondées sur les synthétiseurs, ordinateurs et boîtes à rythmes ; apparues dans les années
+      1950 avec la recherche musicale, elles vivent aujourd'hui dans les clubs, festivals et collectifs
+      de tout le pays.
+    en: >-
+      French electronic music covers ways of creating, producing and sharing music with synthesisers,
+      computers and drum machines; rooted in 1950s experimental research, it now thrives in clubs, festivals
+      and collectives across the country.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
+2025_67717_INV_PCI_FRANCE_00559:
+  kind: practice
+  summary:
+    fr: >-
+      Les jours de Cilaos, à La Réunion, sont une broderie blanche ajourée très fine née au début du XXe
+      siècle : on retire des fils de la toile puis on brode des motifs inspirés de la faune et de la flore
+      de l'île, surtout dans le Cirque de Cilaos.
+    en: >-
+      Cilaos openwork, on Réunion Island, is a very fine white embroidery that emerged in the early 20th
+      century: threads are drawn from the cloth and the gaps re-embroidered with motifs taken from local
+      plants and animals, mainly in the Cirque de Cilaos.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
+2026_67717_INV_PCI_FRANCE_00561:
+  kind: practice
+  summary:
+    fr: >-
+      Partout en France, hexagone et outre-mer, la construction en terre crue rassemble des savoir-faire
+      allant du choix d'une terre locale à sa mise en œuvre en murs, cloisons ou sols, comme la bauge
+      ou le torchis ; après un net déclin, elle connaît un regain depuis une quarantaine d'années.
+    en: >-
+      Across France, mainland and overseas, earth building gathers skills that run from choosing a local
+      soil to using it for walls, partitions or floors, as in cob or wattle and daub; after a sharp decline,
+      it has seen renewed interest for some forty years.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
+2026_67717_INV_PCI_FRANCE_00562:
+  kind: practice
+  summary:
+    fr: >-
+      À Sorède (Pyrénées-Orientales), on fabrique depuis le Moyen Âge des fouets et cravaches en bois
+      de micocoulier tressé à la vapeur ; après la fermeture des dernières fabriques, le savoir-faire
+      est maintenu par un établissement d'aide par le travail.
+    en: >-
+      At Sorède (Pyrénées-Orientales), whips and riding crops have been made from steam-braided hackberry
+      wood since the Middle Ages; after the last factories closed, the craft has been kept alive by a
+      sheltered-employment workshop.
+    lang_review: draft
+  read: fiche
+  review_status: unreviewed
+2026_67717_INV_PCI_FRANCE_00563:
+  kind: practice
+  summary:
+    fr: >-
+      Sur la Loire et ses affluents, des associations et des particuliers naviguent encore à la voile
+      carrée sur plus d'une centaine de bateaux traditionnels ; presque disparue vers 1900 avec la motorisation,
+      cette pratique a été relancée depuis les années 1990.
+    en: >-
+      On the Loire and its tributaries, associations and private owners still sail more than a hundred
+      traditional boats under square sails; nearly lost around 1900 when engines took over, the practice
+      has been revived since the 1990s.
+    lang_review: draft
+  read: fiche
   review_status: unreviewed
