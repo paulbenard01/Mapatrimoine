@@ -137,3 +137,8 @@ Format: decision. Why. Alternative rejected.
 ## Favicon and app icon (Paul, 2026-10-10)
 
 - The brand mark of the top bar (sun, diamond and ring on navy) is the favicon (`favicon.svg`, with a 32 px PNG fallback) and the icon of the web app manifest, so the tab and a home-screen shortcut ("Add to home screen" / "Install") show it. The PNGs are generated from the same shapes by `web/scripts/icons.mjs` (Playwright, already a dev dependency); the maskable and Apple icons are full-bleed with the shapes inside the safe zone. No service worker: the site is not made to work offline.
+
+## Project thumbnail (Paul, 2026-10-10)
+
+- One thumbnail, made from the real map and the brand: `web/public/og-image.png` (1200x630, Open Graph and Twitter tags in `index.html`, so a shared link shows it) and `docs/social-preview.png` (1280x640, top of the README, for the GitHub repository card and the portfolio). `web/scripts/thumbnail.mjs` regenerates both from the running preview; the counts come from the built data and the fonts are the self-hosted ones. The map tiles are credited on the image (OpenFreeMap, OpenMapTiles, OpenStreetMap).
+- The Open Graph image URL is absolute (link scrapers need one), so it names the GitHub Pages address.
