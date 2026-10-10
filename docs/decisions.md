@@ -127,3 +127,9 @@ Format: decision. Why. Alternative rejected.
 
 - **Draft notices removed from the interface.** Paul reviewed most texts (summaries, translations, worksheets, lessons, stories), so the site no longer shows "draft / not yet reviewed" notes on summaries, timings, worksheets or lessons. The review flags stay in the data (`review_status`, `lang_review`) and `docs/review.md` still lists what remains to check. The timing disclaimer ("confirm exact dates with the organisers") stays: it is about the nature of the data, not its review.
 - **The logo is a link home.** Clicking "Carte du PCI" returns to the Explorer view and closes any element, story, worksheet or lesson (it is a real link, so it also opens in a new tab).
+
+## Stacked pins spread 50 m apart (Paul, 2026-10-10)
+
+- **Why.** 495 of the 946 pins shared their exact position with another one (137 spots: Paris 34, Bretagne 20, Loire-Atlantique 14...), because several elements are pinned to the same town or to the centre of a department or region. Only the top pin could be clicked.
+- **How.** At display time (`web/src/spread.ts`), pins on the same spot are laid out on rings 50 m apart around it (6 on the first ring, 12 on the second...); documented elements keep the true spot. Clicking where several elements overlap zooms in (to zoom 16 at most) until they separate, instead of opening one at random. Distances ("Autour de moi"), the detail panel and the open data keep the true coordinates.
+- **Rejected:** offsets in the data (they would leak into distances and the export) and keeping clusters to high zoom levels (neighbouring towns would merge into clusters at regional zoom).

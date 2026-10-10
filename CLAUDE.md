@@ -35,6 +35,7 @@ data/pilot.txt            pilot element IDs; data/fiches-manifest.json fetch/tex
 data/raw/, data/text/     downloaded PDFs, extracted text, PCI Lab crawl, gazetteer cache (ignored)
 web/                      Vite + TypeScript + MapLibre site; web/public/data/{elements,inventory}.json are built by `pci build`
   src/recurrence.ts       the only date logic; src/model.ts filters/sorts; src/state.ts URL state
+  src/spread.ts           spreads pins sharing a spot 50 m apart (display only)
   src/i18n/{fr,en}.ts     every UI string; src/main.ts rendering; src/map.ts MapLibre
   src/sheet.ts            printable bilingual mediation sheet (`?id=<id>&sheet=1`)
   src/lesson.ts           printable lesson plan (`?lesson=<id>`); stories play in the panel (`?story=<id>&step=n`)
