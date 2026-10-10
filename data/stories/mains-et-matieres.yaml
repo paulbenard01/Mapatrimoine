@@ -1,0 +1,121 @@
+id: mains-et-matieres
+kind: theme
+title:
+  fr: Mains et matières, les savoir-faire d'excellence
+  en: Hands and materials, crafts of excellence
+tagline:
+  fr: >-
+    Un fil, une feuille de zinc, une poutre de chêne, une goutte de verre, une laine teinte, une fleur, une boule d'argile : sept matières et les mains qui les transforment.
+  en: >-
+    A thread, a sheet of zinc, an oak beam, a gather of glass, a dyed wool, a flower, a ball of clay: seven materials and the hands that transform them.
+intro:
+  fr: >-
+    Un savoir-faire ne se lit pas dans un manuel : il se loge dans la main, dans l'œil et dans une façon de penser la matière. Ce parcours va de la Normandie à Mayotte, de matière en matière, à la rencontre de métiers où un geste juste demande des années. Six d'entre eux sont inscrits par l'UNESCO, qui ne protège pas des objets précieux mais des techniques vivantes et leur transmission ; le dernier, sans inscription, rappelle que l'excellence n'est pas réservée aux métiers de prestige. Partout reviennent les mêmes questions : comment transmettre un geste qui s'apprend en sept ou dix ans, comment résister aux machines ou au plastique, comment garder le lien entre une matière et le pays qui la fournit.
+  en: >-
+    A craft cannot be learnt from a manual: it lives in the hand, in the eye and in a way of thinking about material. This tour runs from Normandy to Mayotte, from one material to the next, meeting trades where getting a single gesture right takes years. Six of them are inscribed by UNESCO, which protects not precious objects but living techniques and how they are handed down; the last, with no inscription, is a reminder that excellence is not confined to prestige trades. The same questions keep coming back: how do you pass on a skill that takes seven or ten years to learn, how do you hold out against machines or plastic, how do you keep the bond between a material and the land that provides it?
+steps:
+  - element: 2008_67717_INV_PCI_FRANCE_00036
+    heading:
+      fr: Alençon, une dentelle d'un seul fil
+      en: Alençon, a lace made from a single thread
+    text:
+      fr: >-
+        Le parcours commence par la matière la plus ténue : un fil. Le point d'Alençon, dans l'Orne, est une dentelle à l'aiguille faite entièrement à la main, point par point, alors que la dentelle aux fuseaux croise de nombreux fils. Une pièce passe par une dizaine d'étapes, du dessin piqué sur un parchemin jusqu'au levage à la lame de rasoir, et il faut en moyenne sept heures pour un centimètre carré. Devenu production de prestige avec les manufactures royales de 1665, le savoir-faire a failli disparaître face à la dentelle mécanique ; un atelier conservatoire national, créé en 1976, en assure la transmission. Une dizaine de dentellières seulement en maîtrisent toutes les étapes, après sept à dix ans d'apprentissage, et créent aussi des pièces contemporaines.
+      en: >-
+        The tour begins with the finest material of all: a thread. Alençon point, from the Orne, is a needle lace made entirely by hand, stitch by stitch, whereas bobbin lace crosses many threads at once. Each piece goes through some ten stages, from a design pricked into parchment to the lifting off with a razor blade, and one square centimetre takes about seven hours. Made into a luxury product by the royal manufactories of 1665, the skill almost vanished in the face of machine lace; a national conservatory workshop, set up in 1976, now passes it on. Only about ten lacemakers master every stage, after seven to ten years of training, and they also create contemporary pieces.
+    look_for:
+      fr: >-
+        Le réseau, ce fond de mailles presque transparent qui relie les motifs, et la pince de homard qui sert à lisser la dentelle à la fin du travail.
+      en: >-
+        The réseau, the almost transparent mesh that links the motifs, and the lobster claw used to smooth the lace at the very end.
+  - element: 2017_67717_INV_PCI_FRANCE_00384
+    heading:
+      fr: Paris, le zinc des toits
+      en: Paris, the zinc of the rooftops
+    text:
+      fr: >-
+        Du fil, on passe au métal, et de l'atelier aux toits. À Paris, le couvreur zingueur pose le zinc, mais aussi le plomb, le cuivre, l'ardoise et la tuile plate, et surtout sait les raccorder. Le métier s'est formé au XIXe siècle, quand le zinc laminé en feuilles minces a rencontré les grands travaux du Second Empire : des dizaines de milliers d'immeubles ont reçu des toits à la Mansart, avec un brisis raide et un terrasson presque plat. Plus d'un millier de couvreurs y travaillent aujourd'hui, aux côtés d'ornemanistes qui façonnent en atelier lucarnes et décors. Comme la dentellière, le couvreur doit plier la matière sans la marquer ; mais il le fait en plein air, à flanc de toit, et apprend en alternance, des anciens aux apprentis.
+      en: >-
+        From thread we move to metal, and from the workshop up to the rooftops. In Paris, the zinc roofer lays zinc, but also lead, copper, slate and flat tiles, and above all knows how to join them together. The trade took shape in the 19th century, when thin rolled zinc sheets met the great building works of the Second Empire: tens of thousands of buildings were given mansard roofs, with a steep lower slope and an almost flat upper one. More than a thousand roofers work there today, alongside ornament makers who shape dormer windows and decorations in the workshop. Like the lacemaker, the roofer must bend the material without marking it; but he works in the open air, on the slope of a roof, and learns through apprenticeships, from old hands to newcomers.
+    look_for:
+      fr: >-
+        Les lignes régulières des tasseaux qui rythment les toits gris-bleu, et la batte, maillet de bois qui plie le zinc sans le blesser.
+      en: >-
+        The regular lines of the wooden battens that pattern the blue-grey roofs, and the batte, a wooden mallet that bends zinc without denting it.
+  - element: 2009_67717_INV_PCI_FRANCE_00049
+    heading:
+      fr: Champagne-Ardenne, le trait de charpente
+      en: Champagne-Ardenne, the scribing of timber frames
+    text:
+      fr: >-
+        Sous le zinc, il y a le bois. Le trait de charpente rassemble des méthodes de dessin géométrique pratiquées en France depuis le XIIIe siècle : sur une aire couverte, le charpentier trace l'épure, à l'échelle ou en vraie grandeur, et y relève la forme exacte de chaque pièce. Il peut alors tailler au sol toutes les pièces d'une charpente, même les plus complexes, en sachant qu'elles s'emboîteront au moment du levage. La fiche le décrit dans une entreprise de charpente en chêne de Champagne-Ardenne, tournée vers la restauration ; les compagnons du Tour de France lui donnent aussi un sens symbolique. Ici, la main travaille d'abord avec la tête : avant le bois, il y a le dessin. Les machines numériques font aujourd'hui craindre son recul.
+      en: >-
+        Under the zinc lies the wood. Timber-frame scribing brings together methods of geometric drawing used in France since the 13th century: on a covered floor, the carpenter draws the full layout, to scale or full size, and reads from it the exact shape of every piece. All the timbers of a frame, even the most complex, can then be cut on the ground, in the knowledge that they will fit together when the frame is raised. The fiche describes it in an oak-framing firm in Champagne-Ardenne that specialises in restoration; the Compagnons du Tour de France also give it a symbolic meaning. Here the hand works with the head first: before the wood comes the drawing. Today, digital machines raise fears that it will decline.
+    look_for:
+      fr: >-
+        Le cordeau enduit de craie qui claque sur le sol pour tracer une ligne droite, et les chefs-d'œuvre, maquettes de bois aux assemblages vertigineux.
+      en: >-
+        The chalked line snapped against the floor to mark a straight line, and the masterpieces, wooden models with dizzying joints.
+  - element: 2019_67717_INV_PCI_FRANCE_00428
+    heading:
+      fr: Lorraine et Bresle, les gestes du verre
+      en: Lorraine and the Bresle, the gestures of glass
+    text:
+      fr: >-
+        Avec le verre, la matière devient liquide et brûlante. En Lorraine, en Alsace ou dans la vallée de la Bresle, en Normandie, des verriers perpétuent des gestes hérités d'une tradition née au Proche-Orient il y a environ 3 500 ans. Le verrier à la main cueille le verre en fusion au bout de sa canne et le souffle ; le verrier au chalumeau façonne tubes et baguettes à la flamme ; le décorateur taille, grave ou dore le verre une fois froid. Les fours et les outils ont changé, mais les gestes sont restés étonnamment stables. Le verre chaud se travaille en équipe, très vite, dans une coordination silencieuse : après le charpentier qui prévoit tout, voici des artisans qui n'ont que quelques secondes pour décider.
+      en: >-
+        With glass, the material turns liquid and scorching. In Lorraine, Alsace or the Bresle valley in Normandy, glassmakers carry on gestures inherited from a tradition born in the Near East some 3,500 years ago. The glassblower gathers molten glass on the end of a blowpipe and blows it; the lampworker shapes tubes and rods in a flame; the decorator cuts, engraves or gilds the glass once it has cooled. Furnaces and tools have changed, but the gestures have stayed remarkably stable. Hot glass is worked as a team, very fast, in silent coordination: after the carpenter who plans everything in advance, here are craftspeople who have only a few seconds to decide.
+    look_for:
+      fr: >-
+        La paraison qui tourne sans cesse au bout de la canne, et la façon dont l'équipe se passe la pièce sans un mot.
+      en: >-
+        The gather of glass kept constantly turning on the blowpipe, and the way the team hands the piece on without a word.
+  - element: 2008_67717_INV_PCI_FRANCE_00035
+    heading:
+      fr: Aubusson, une image tissée à l'envers
+      en: Aubusson, a picture woven back to front
+    text:
+      fr: >-
+        Retour au fil, mais cette fois teint de centaines de nuances. À Aubusson et à Felletin, dans la Creuse, on tisse des tapisseries depuis près de six siècles. Tout part d'un carton, modèle grandeur nature préparé d'après l'œuvre d'un artiste, où chaque numéro renvoie à une couleur de laine. Le lissier tisse sur un métier horizontal, de basse lisse : il sépare les fils de chaîne avec des pédales et glisse entre eux de petites navettes chargées de laine. L'image se construit à l'envers et n'apparaît vraiment qu'à la tombée du métier. Comme à Alençon, l'apprentissage est long, environ trois ans, et la relève reste fragile ; mais ici la main traduit l'œuvre d'un autre, en laine filée et teinte sur place.
+      en: >-
+        Back to thread, but this time dyed in hundreds of shades. In Aubusson and Felletin, in the Creuse, tapestries have been woven for almost six centuries. Everything starts from a cartoon, a full-size model based on an artist's work, in which each number stands for a colour of wool. The weaver works on a horizontal low-warp loom: pedals part the warp threads and small shuttles loaded with wool are slipped between them. The picture is built back to front and only truly appears when it comes off the loom. As in Alençon, training is long, about three years, and the next generation is thin on the ground; but here the hand translates someone else's work into wool spun and dyed locally.
+    look_for:
+      fr: >-
+        Le carton numéroté glissé sous les fils de chaîne, et le moment où l'on coupe les fils pour découvrir enfin la tapisserie à l'endroit.
+      en: >-
+        The numbered cartoon placed under the warp threads, and the moment the finished tapestry is cut from the loom and seen the right way round.
+  - element: 2014_67717_INV_PCI_FRANCE_00327
+    heading:
+      fr: Grasse, des champs de fleurs à la composition
+      en: Grasse, from flower fields to composition
+    text:
+      fr: >-
+        Avec le parfum, la matière devient invisible. En pays de Grasse, trois savoir-faire se sont construits ensemble depuis le XVIe siècle. Des cultivateurs et des cueilleurs font pousser jasmin, rose de mai, tubéreuse ou mimosa ; des distillateurs et des évaluateurs en tirent l'odeur par distillation, enfleurage ou extraction ; des parfumeurs composent enfin des parfums à partir de matières naturelles et de synthèse. Ces métiers dépendent les uns des autres, et peu de territoires les réunissent ainsi. Comme le lissier qui choisit ses laines, le parfumeur assemble des nuances ; mais ici l'œuvre ne se voit pas, elle se sent. Une grande partie des matières premières vient désormais du monde entier pour être transformée et composée à Grasse.
+      en: >-
+        With perfume, the material becomes invisible. Around Grasse, three skills have grown up together since the 16th century. Growers and pickers raise jasmine, May rose, tuberose or mimosa; distillers and evaluators draw out their scent by distillation, enfleurage or extraction; perfumers then compose fragrances from natural and synthetic materials. These trades depend on one another, and few places bring them together like this. Like the tapestry weaver choosing wools, the perfumer blends shades; but here the work is not seen, it is smelt. Much of the raw material now comes from all over the world to be processed and composed in Grasse.
+    look_for:
+      fr: >-
+        La cueillette à la main de la rose de mai ou du jasmin au petit matin, et l'alambic de cuivre où la vapeur emporte l'odeur des plantes.
+      en: >-
+        The hand-picking of May roses or jasmine in the early morning, and the copper still in which steam carries off the plants' scent.
+  - element: 2024_67717_INV_PCI_FRANCE_00541
+    heading:
+      fr: Mayotte, l'argile façonnée du bout des doigts
+      en: Mayotte, clay shaped with the fingertips
+    text:
+      fr: >-
+        Le parcours s'achève dans l'océan Indien, avec la matière la plus simple : la terre. À Mayotte, en Petite-Terre et dans le sud de Grande-Terre, une trentaine de potières et de potiers façonnent ustensiles de cuisine, objets décoratifs et rituels sans tour, par simple pression et lissage des doigts. L'argile est prélevée par l'artisan lui-même dans les vasières, sur les plages ou en carrière ; bois, feuilles de cocotier et coquillages servent d'outils, et la cuisson se fait au feu de bois ou dans un petit four artisanal. Le savoir se transmet en famille ou auprès d'un maître, et désormais aussi par des associations. Accès plus difficile à l'argile, concurrence du plastique, faible attrait pour les jeunes : la transmission y affronte les mêmes défis qu'à Alençon ou Aubusson.
+      en: >-
+        The tour ends in the Indian Ocean with the simplest material of all: earth. In Mayotte, on Petite-Terre and in the south of Grande-Terre, some thirty potters, women and men, shape cooking pots, decorative and ritual objects without a wheel, simply by pressing and smoothing with their fingers. The potters dig the clay themselves from mudflats, beaches or quarries; wood, coconut leaves and shells serve as tools, and firing is done over a wood fire or in a small home-built kiln. The skill passes down within families or from a master, and now also through associations. Harder access to clay, competition from plastic and little appeal for the young: passing it on faces the same challenges as in Alençon or Aubusson.
+    look_for:
+      fr: >-
+        Les mains qui montent la pièce sans tour, et les outils tirés de la nature, coquillage ou bout de bois, qui lissent la paroi.
+      en: >-
+        Hands raising a pot without a wheel, and the tools taken from nature, a shell or a piece of wood, that smooth its sides.
+outro:
+  fr: >-
+    Du fil d'Alençon à l'argile de Mayotte, ces métiers partagent une même lenteur : des années pour former une main, des heures pour un centimètre, des gestes qu'aucune machine ne remplace tout à fait. Les reconnaître, avec ou sans l'UNESCO, ne suffit pas ; il faut des apprentis, des commandes et un accès à la matière. Et vous : quel objet de votre quotidien a été fait par une main experte, et sauriez-vous dire d'où vient sa matière ?
+  en: >-
+    From Alençon thread to Mayotte clay, these trades share the same slowness: years to train a hand, hours for a single centimetre, gestures no machine fully replaces. Recognising them, with or without UNESCO, is not enough; they need apprentices, commissions and access to their materials. And you: which object in your daily life was made by an expert hand, and could you say where its material comes from?
+lang_review: draft
+review_status: unreviewed

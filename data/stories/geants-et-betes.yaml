@@ -1,0 +1,121 @@
+id: geants-et-betes
+kind: theme
+title:
+  fr: Géants et bêtes de fête
+  en: Festive giants and beasts
+tagline:
+  fr: >-
+    De la Flandre au Languedoc, des géants d'osier et des animaux de toile portés à bras d'hommes font de la rue une scène et de la ville une famille.
+  en: >-
+    From Flanders to Languedoc, wicker giants and canvas beasts carried by hidden bearers turn the street into a stage and the town into a family.
+intro:
+  fr: >-
+    Dans le nord de la France, on les appelle géants ; dans le Midi, animaux totémiques. Hauts de plusieurs mètres, faits d'osier, de bois, de toile ou d'aluminium, ils ne vivent que portés : des hommes et des femmes cachés sous leur structure les font marcher, tourner, danser ou charger la foule. Chacun incarne une ville, raconte sa légende de fondation et rassemble ses habitants le temps d'une fête. Ce parcours descend de Douai à Pézenas, avec un détour par Paris, pour suivre ces figures que l'on cache pendant les guerres, que l'on reconstruit après chaque destruction et que l'on confie aux plus jeunes. Plusieurs d'entre elles sont inscrites ensemble par l'UNESCO, avec leurs cousines de Belgique, parmi les « Géants et dragons processionnels ».
+  en: >-
+    In northern France they are called giants; in the South, totem animals. Several metres tall, made of wicker, wood, canvas or aluminium, they only come alive when carried: men and women hidden inside make them walk, spin, dance or charge at the crowd. Each one embodies a town, tells its founding legend and brings its people together for a festival. This tour runs from Douai down to Pézenas, with a detour through Paris, following figures that were hidden during wars, rebuilt after every destruction and handed on to the young. Several of them are inscribed together by UNESCO, alongside their Belgian cousins, as "Processional giants and dragons".
+steps:
+  - element: 2014_67717_INV_PCI_FRANCE_00350
+    heading:
+      fr: Douai, une famille de géants depuis 1530
+      en: Douai, a family of giants since 1530
+    text:
+      fr: >-
+        Le parcours commence par l'ancêtre. Un géant est attesté à Douai dès 1530, sa compagne l'année suivante ; les enfants, Jacquot, Fillon et le petit Binbin, sont venus plus tard. Chaque été, autour du premier dimanche après le 5 juillet, Monsieur Gayant, chevalier de plus de huit mètres, sort trois jours durant avec toute sa famille au son des tambours. Ils dansent dans la cour de la mairie, visitent les quartiers et les maisons de retraite, et le dernier soir la foule fait tout pour les garder dehors. Détruits plusieurs fois, ils ont toujours été refaits, et une corporation de porteurs se transmet leurs règles et leurs grades. Ici, le géant n'est pas un héros isolé : c'est une famille, à l'image de la ville qui l'entoure.
+      en: >-
+        The tour begins with the ancestor. A giant is recorded in Douai as early as 1530, his partner a year later; the children, Jacquot, Fillon and little Binbin, came afterwards. Every summer, around the first Sunday after 5 July, Monsieur Gayant, a knight over eight metres tall, goes out for three days with his whole family to the beat of drums. They dance in the town-hall courtyard, call on the districts and care homes, and on the last evening the crowd does everything it can to keep them outside. Destroyed several times, they have always been rebuilt, and a guild of bearers hands down their rules and ranks. Here the giant is not a lone hero but a family, mirroring the town around it.
+    look_for:
+      fr: >-
+        Le moment où les géants doivent rentrer, le dernier soir : observez comment la foule les retient et ce que ce refus de les laisser partir dit de l'attachement des Douaisiens.
+      en: >-
+        The moment the giants have to go home on the last evening: watch how the crowd holds them back and what this reluctance says about Douai's attachment to them.
+  - element: 2013_67717_INV_PCI_FRANCE_00322
+    heading:
+      fr: Cassel, Reuze Papa et Reuze Maman sur leur mont
+      en: Cassel, Reuze Papa and Reuze Maman on their hill
+    text:
+      fr: >-
+        À une soixantaine de kilomètres, sur son mont de Flandre, Cassel a ses propres géants : Reuze Papa, né en 1827, et Reuze Maman, en 1860. Le lundi de Pâques, les tambours réveillent la ville à l'aube, puis le couple danse sur la Grand-Place, entouré du cheval-jupon, du coq-jupon, des grosses têtes et du char du Four merveilleux ; le cortège s'arrête devant des maisons pour des ritournelles. Cachés pendant les deux guerres mondiales, les géants d'origine ont dansé jusqu'en 2001 ; ils reposent aujourd'hui au musée et des répliques fidèles ont pris le relais. Comme à Douai, la figure survit en changeant de corps : ce qui se transmet, ce n'est pas l'objet, mais la manière de le faire vivre.
+      en: >-
+        Some sixty kilometres away, on its Flemish hilltop, Cassel has giants of its own: Reuze Papa, made in 1827, and Reuze Maman, in 1860. On Easter Monday, drums wake the town at dawn, then the couple dance on the main square among the hobby horse, the hobby cockerel, the big heads and the Wonderful Oven float; the procession stops outside houses for short refrains. Hidden through both world wars, the original giants danced until 2001; they now rest in the museum and faithful replicas have taken over. As in Douai, the figure lives on by changing bodies: what is handed down is not the object itself but the way of bringing it to life.
+    look_for:
+      fr: >-
+        Les arrêts du cortège devant les maisons et les ritournelles qu'on y chante, ainsi que le retour des géants vers le musée de la Grand-Place, le soir.
+      en: >-
+        The stops outside houses and the refrains sung there, and the giants' walk back to the museum on the main square in the evening.
+  - element: 2013_67717_INV_PCI_FRANCE_00324
+    heading:
+      fr: Steenvoorde, quand les géants du monde se rassemblent
+      en: Steenvoorde, where giants from abroad gather
+    text:
+      fr: >-
+        Steenvoorde, petite ville de Flandre intérieure, fête son carnaval d'été le dernier dimanche d'avril autour de six géants, dont Jean le Bûcheron, casqué, la hache à l'épaule, qui aurait secouru le village au temps de Charlemagne. Depuis 1989, certaines années, la fête devient une ronde européenne qui peut réunir une centaine de géants venus de plusieurs pays, autour du 1er mai. L'idée est née d'une inquiétude : à la fin des années 1980, les géants sur roulettes se multipliaient et les porteurs se faisaient rares. Ici, on répète qu'un géant non porté ne danse pas, donc ne vit pas. Les enfants apprennent le portage avec un petit géant, Jacobus. Après les familles de Douai et de Cassel, voici le réseau : les géants se rendent visite.
+      en: >-
+        Steenvoorde, a small town in inland Flanders, holds its summer carnival on the last Sunday of April around six giants, among them Jean the Woodcutter, helmeted with an axe on his shoulder, who is said to have rescued the village in Charlemagne's day. Since 1989, in some years, the festival becomes a European round that can gather around a hundred giants from several countries, close to 1 May. The idea grew out of a worry: in the late 1980s, giants on wheels were spreading and bearers were getting scarce. People here say that a giant that is not carried cannot dance, and so is not alive. Children learn to carry with a small giant, Jacobus. After the families of Douai and Cassel, here is the network: giants pay each other visits.
+    look_for:
+      fr: >-
+        Les pieds des porteurs sous la robe des géants : comptez combien de personnes il faut pour faire danser chacun d'eux, et comparez avec les géants montés sur roues.
+      en: >-
+        The bearers' feet under the giants' skirts: count how many people it takes to make each one dance, and compare them with giants mounted on wheels.
+  - element: 2014_67717_INV_PCI_FRANCE_00355
+    heading:
+      fr: Paris, le lion qui danse à deux
+      en: Paris, the lion danced by two
+    text:
+      fr: >-
+        Détour par l'Île-de-France, où une autre bête de fête parcourt les rues. Dans le XIIIe arrondissement, à Belleville ou à Aubervilliers, des écoles issues des communautés asiatiques font danser le lion, surtout au Nouvel An chinois, mais aussi pour un mariage ou l'ouverture d'une boutique. Deux danseurs se partagent le costume, l'un à la tête, l'autre au corps ; ils imitent l'animal au plus près, au rythme d'un orchestre de percussions, et racontent une petite histoire en quelques minutes. La danse, héritière du kung-fu, demande agilité et entente parfaite. Le principe rejoint celui des géants du Nord : un corps collectif, des porteurs invisibles, un animal qui apporte vœux et prospérité à ceux qu'il visite. Il annonce aussi les bêtes du Midi qui suivent.
+      en: >-
+        A detour through the Paris region, where another festive beast takes to the streets. In the 13th arrondissement, in Belleville or Aubervilliers, schools rooted in Asian communities perform the lion dance, mainly at Chinese New Year but also for a wedding or a shop opening. Two dancers share the costume, one at the head, the other at the body; they imitate the animal as closely as they can to a percussion band, telling a short story in a few minutes. Drawing on kung fu, the dance demands agility and perfect understanding between partners. The principle echoes the northern giants: a collective body, invisible bearers, an animal that brings good wishes and prosperity to those it visits. It also heralds the beasts of the South that come next.
+    look_for:
+      fr: >-
+        Le dialogue entre le lion et les percussions : chaque coup de tambour ou de cymbale répond à un mouvement de tête, un clignement d'yeux ou un bond.
+      en: >-
+        The dialogue between the lion and the percussion: each drumbeat or cymbal crash answers a toss of the head, a blink of the eyes or a leap.
+  - element: 2019_67717_INV_PCI_FRANCE_00425
+    heading:
+      fr: Tarascon, le monstre dompté qui charge encore
+      en: Tarascon, the tamed monster that still charges
+    text:
+      fr: >-
+        Sur les bords du Rhône, la légende raconte qu'un monstre terrorisait le pays jusqu'à ce que sainte Marthe le dompte. Les jeux de la Tarasque, attribués au roi René au XVe siècle, ont disparu à la fin du XIXe siècle avant d'être rétablis après la Seconde Guerre mondiale, chaque dernier week-end de juin. Bénie le vendredi, la bête, longue de six mètres et lourde d'environ 600 kilos, est poussée à vive allure par ses chevaliers : elle charge, recule, tourne sur elle-même et fait crier la foule. Tartarin, le héros d'Alphonse Daudet, s'est ajouté à la fête. Avec la Tarasque, le géant protecteur devient menace apprivoisée : la ville rejoue la peur pour mieux la tenir en respect, et les jeunes apprennent le métier aux côtés des anciens.
+      en: >-
+        On the banks of the Rhône, legend has it that a monster terrorised the land until Saint Martha tamed it. The Tarasque games, attributed to King René in the 15th century, died out at the end of the 19th century and were revived after the Second World War, every last weekend of June. Blessed on the Friday, the beast, six metres long and weighing about 600 kilos, is pushed at speed by its knights: it charges, backs off, spins round and sets the crowd screaming. Tartarin, Alphonse Daudet's hero, has joined the festival. With the Tarasque, the protective giant becomes a tamed threat: the town replays fear in order to keep it at bay, and young people learn the craft beside their elders.
+    look_for:
+      fr: >-
+        La queue de la Tarasque quand elle tourne sur elle-même, et la façon dont le public s'écarte puis revient : un jeu entre peur et plaisir.
+      en: >-
+        The Tarasque's tail as it spins round, and the way the crowd scatters and then comes back: a game between fear and delight.
+  - element: 2019_67717_INV_PCI_FRANCE_00422
+    heading:
+      fr: Mèze, le Bœuf qui meurt et renaît
+      en: Mèze, the Ox that dies and is reborn
+    text:
+      fr: >-
+        Au bord de l'étang de Thau, Mèze a pour animal-totem un Bœuf. Selon les versions de sa légende, il rappelle l'union ancienne des cultivateurs et des pêcheurs qui ont fondé la ville ; sa première mention écrite date de 1701. En août, huit porteurs cachés sous la carcasse le font courir, tituber et se cabrer sur les quais, guidés par le Cornac vêtu de blanc ; il tend le cou vers les balcons pour quêter des pièces et danse avec le Chivalet, un cheval-jupon. La fête s'achève par sa mise à mort symbolique sur l'esplanade, mais il renaît au corso de mai. Après la bête domptée de Tarascon, voici la bête sacrifiée : un cycle de mort et de retour qui dit la continuité de la communauté.
+      en: >-
+        On the shore of the Thau lagoon, Mèze has an Ox as its totem animal. In the various versions of its legend, it recalls the ancient bond between the farmers and fishermen who founded the town; it is first mentioned in writing in 1701. In August, eight bearers hidden under its frame make it run, stagger and rear along the quays, guided by the Cornac dressed in white; it stretches its neck up to the balconies to collect coins and dances with the Chivalet, a hobby horse. The festival ends with its symbolic killing on the esplanade, yet it comes back to life at the May parade. After Tarascon's tamed beast comes the sacrificed one: a cycle of death and return that speaks of the community's continuity.
+    look_for:
+      fr: >-
+        Les enfants qui font la queue pour entrer dans la gueule du Bœuf, et le geste final du Cornac sur l'esplanade.
+      en: >-
+        Children queuing to step into the Ox's mouth, and the Cornac's final gesture on the esplanade.
+  - element: 2019_67717_INV_PCI_FRANCE_00429
+    heading:
+      fr: Pézenas, le Poulain du Mardi gras
+      en: Pézenas, the Mardi Gras Poulain
+    text:
+      fr: >-
+        Le parcours s'achève à une vingtaine de kilomètres de Mèze, à Pézenas, avec l'un des plus anciens animaux totémiques du Midi. Le jour du Mardi gras, au son des fifres et des tambours qui jouent son air, le Poulain sort de la cour de l'hôtel de ville. Cheval de toile bleue porté par neuf hommes harnachés qui marchent du même pied, il allonge et rétracte le cou, guidé par un meneur au tambourin ; sur son dos sont juchés deux mannequins, Estieino et Estieineta. Une légende contestée le rattache au passage du roi Louis VIII en 1226. Sa carcasse est aujourd'hui en aluminium, mais elle garde les dimensions anciennes pour passer dans les ruelles. Le soir, on lui chante encore un adieu en occitan, même si les plus jeunes en connaissent moins les paroles.
+      en: >-
+        The tour ends about twenty kilometres from Mèze, in Pézenas, with one of the oldest totem animals of the South. On Mardi Gras, to fifes and drums playing its own tune, the Poulain leaves the town-hall courtyard. A horse of blue canvas carried by nine harnessed men who keep in step, it stretches and pulls back its neck, guided by a leader with a tambourine; two dummies, Estieino and Estieineta, sit on its back. A disputed legend links it to a visit by King Louis VIII in 1226. Its frame is now aluminium, but it keeps the old dimensions so it can pass through the narrow lanes. In the evening an Occitan farewell is still sung to it, even if the youngest know fewer of the words.
+    look_for:
+      fr: >-
+        Le rigaudon, ce passage vif où meneur, porteurs et public lancent tous les jambes en l'air au même rythme.
+      en: >-
+        The rigaudon, the lively passage where the leader, the bearers and the crowd all kick their legs up to the same beat.
+outro:
+  fr: >-
+    De Douai à Pézenas, ces figures ont survécu aux guerres, aux interdictions et aux changements de matériaux, parce qu'une communauté a choisi, à chaque génération, de les porter de nouveau. Elles changent de corps, d'osier en aluminium, de roues en épaules, et accueillent de nouveaux venus, du lion parisien aux géants invités de toute l'Europe. Et chez vous : quel personnage ou quel animal pourrait représenter votre ville, et qui accepterait de le porter ?
+  en: >-
+    From Douai to Pézenas, these figures have outlived wars, bans and changes of material because, in each generation, a community chose to carry them again. They change bodies, from wicker to aluminium, from wheels to shoulders, and welcome newcomers, from the Parisian lion to giants visiting from all over Europe. And where you live: which character or animal could stand for your town, and who would agree to carry it?
+lang_review: draft
+review_status: unreviewed

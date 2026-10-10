@@ -11,6 +11,10 @@ An interactive, bilingual (FR/EN) map and catalogue of France's national **Inven
 - **Announced dates**: for documented events, the dates tourist offices list in [DATAtourisme](https://www.datatourisme.fr) (open data, refreshed daily at build time).
 - **UNESCO**: the 34 inventory elements that are (part of) one of France's 30 UNESCO inscriptions carry a UNESCO tag and a filter.
 - **Resources**: printable bilingual worksheets (summary, picture, places, dates, discussion questions, vocabulary); the ones for UNESCO elements are extended with history, the meaning of the inscription and a classroom activity.
+- **Guided stories**: tours that fly the map from one element to the next around an idea (giants and totem animals, fire, crafts, voices) or a place (Pays basque, Flanders, overseas France, Paris and its diasporas).
+- **Lessons**: one ready-to-teach, one-hour lesson per level (primary, lower and upper secondary, university), printable.
+- **Listen, watch**: links to recordings and films held by public archives (UNESCO, INA, Dastum, Occitanica...).
+- **Open data**: the whole map as CSV and JSON, at the bottom of the Resources page.
 - On phones, a bottom bar switches between Explore (map), Search, Near me, Agenda and Resources.
 - Map with clusters drawn as donut charts of their themes; events are circles, practices diamonds and not-yet-documented elements rings, coloured by theme (colour-blind-safe palette). "Near me" works on the device only; metropolitan France / overseas switch; shareable URLs; keyboard accessible.
 - Privacy: no cookies, analytics or trackers. Map tiles come from [OpenFreeMap](https://openfreemap.org) and pictures from Wikimedia and PCI Lab; those servers see visitors' IP addresses.
@@ -61,6 +65,10 @@ Une carte et un catalogue interactifs et bilingues (FR/EN) de l'**Inventaire nat
 - **Dates annoncées** : pour les événements documentés, les dates publiées par les offices de tourisme dans [DATAtourisme](https://www.datatourisme.fr) (données ouvertes, mises à jour chaque jour à la construction du site).
 - **UNESCO** : les 34 éléments de l'Inventaire qui relèvent de l'une des 30 inscriptions de la France à l'UNESCO portent un repère UNESCO et peuvent être filtrés.
 - **Ressources** : des fiches de travail bilingues imprimables (résumé, image, lieux, dates, questions, vocabulaire) ; celles des éléments inscrits à l'UNESCO sont enrichies (histoire, sens de l'inscription, activité pour la classe).
+- **Parcours guidés** : la carte vous emmène d'un élément à l'autre autour d'une idée (géants et animaux totems, le feu, les savoir-faire, les voix) ou d'un territoire (Pays basque, Flandre, outre-mer, Paris des diasporas).
+- **Séances** : une séance d'une heure clé en main par niveau (primaire, collège, lycée, université), imprimable.
+- **Écouter, regarder** : des liens vers les enregistrements et films conservés par des archives publiques (UNESCO, INA, Dastum, Occitanica…).
+- **Données ouvertes** : toute la carte en CSV et JSON, en bas de la page Ressources.
 - Sur téléphone, une barre en bas de l'écran donne accès à Explorer (carte), Rechercher, Autour de moi, Agenda et Ressources.
 - Carte avec regroupements dessinés en anneaux par domaine ; événements en cercles, pratiques en losanges, éléments pas encore documentés en anneaux, couleur par domaine (palette adaptée au daltonisme). « Autour de moi » est calculé uniquement sur l'appareil ; bascule France métropolitaine / outre-mer ; adresses partageables ; utilisable au clavier.
 - Confidentialité : ni cookie, ni mesure d'audience, ni traceur. Les fonds de carte viennent d'[OpenFreeMap](https://openfreemap.org) et les images de Wikimedia et de PCI Lab ; ces serveurs voient l'adresse IP des visiteurs.

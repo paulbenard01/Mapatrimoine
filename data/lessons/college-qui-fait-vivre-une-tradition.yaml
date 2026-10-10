@@ -1,0 +1,272 @@
+id: college-qui-fait-vivre-une-tradition
+level: middle
+title:
+  fr: "Qui fait vivre une tradition ? Une enquête en puzzle"
+  en: "Who keeps a tradition alive? A jigsaw investigation"
+grade:
+  fr: 5e-4e (cycle 4)
+  en: Years 8-9 / grades 7-8 (French cycle 4, 5e-4e)
+duration_min: 60
+summary:
+  fr: >-
+    Un musée veut ouvrir une salle consacrée au patrimoine vivant, mais comment écrire l'étiquette d'une chose qui bouge ? La classe enquête en puzzle : chaque élève devient expert d'une tradition (les géants de Cassel, les couvreurs zingueurs de Paris, le fest-noz breton, le Touloulou du carnaval de Guyane, et le 'ori tahiti pour les grandes classes), puis rejoint son groupe d'origine pour comparer qui la porte, comment on l'apprend, ce qui change et ce que l'inventaire ou l'UNESCO y changent. Un débat mouvant met ces preuves à l'épreuve, et chacun écrit un cartel de musée pour une tradition vivante ou une prise de position argumentée.
+  en: >-
+    A museum wants to open a room on living heritage, but how do you write a label for something that moves? The class runs a jigsaw investigation: each student becomes an expert on one tradition (the Cassel giants, the zinc roofers of Paris, the Breton fest-noz, the Touloulou of the Guiana carnival, and Tahitian 'ori for larger classes), then returns to a home group to compare who carries it, how it is learnt, what is changing and what the national inventory or UNESCO changes for it. A walking debate puts this evidence to the test, and everyone writes a museum label for a living tradition or an argued position.
+curriculum:
+  fr: >-
+    Cycle 4 (5e-4e). En enseignement moral et civique, la séance exerce le jugement : débat réglé, distinction entre un fait sourcé et une opinion, respect de la diversité des cultures et de l'égale dignité des pratiques. En français, elle travaille l'oral (exposer à des camarades qui ne connaissent pas le sujet, défendre un point de vue) et l'écriture d'un texte court pour un lecteur précis. Elle s'inscrit dans le parcours d'éducation artistique et culturelle et peut nourrir l'histoire des arts (patrimoine, fête, savoir-faire). En éducation aux médias et à l'information, les élèves cherchent une information, vérifient d'où elle vient (page de l'élément, fiche officielle du ministère de la Culture) et la citent. Ils situent enfin des territoires de l'Hexagone et des outre-mer.
+  en: >-
+    French cycle 4 (5e-4e). In moral and civic education, the lesson trains judgement: a structured debate, telling a sourced fact from an opinion, respect for cultural diversity and for the equal dignity of practices. In French, it works on speaking (explaining to classmates who do not know the topic, defending a view) and on writing a short text for a specific reader. It belongs to the arts and culture education pathway (PEAC) and can feed into art history (heritage, festivals, craft skills). In media and information literacy, students look for information, check where it comes from (the element page, the Ministry of Culture's official fiche) and cite it. They also locate places in mainland France and the overseas territories.
+objectives:
+  fr:
+    - >-
+      Devenir expert d'une tradition à partir de documents et l'expliquer en 90 secondes à des camarades qui ne la connaissent pas.
+    - >-
+      Comparer plusieurs traditions selon quatre critères : qui la porte, comment elle se transmet, ce qui change, ce que change sa reconnaissance.
+    - >-
+      Comprendre qu'une tradition vivante évolue et que ses praticiens discutent de ce qui doit rester.
+    - >-
+      Distinguer l'inventaire national et l'inscription à l'UNESCO, sans en faire un classement des traditions.
+    - >-
+      Défendre une position avec des preuves tirées des éléments étudiés, à l'oral puis à l'écrit.
+  en:
+    - >-
+      Become an expert on one tradition from documents and explain it in 90 seconds to classmates who do not know it.
+    - >-
+      Compare several traditions on four criteria: who carries it, how it is handed on, what is changing, what recognition changes for it.
+    - >-
+      Understand that a living tradition evolves and that its practitioners debate what must stay.
+    - >-
+      Tell the national inventory from UNESCO inscription, without turning either into a ranking of traditions.
+    - >-
+      Defend a position with evidence from the elements studied, first orally, then in writing.
+materials:
+  fr:
+    - >-
+      Le site PCI Map vidéoprojeté, et une tablette ou un ordinateur par table d'experts (https://paulbenard01.github.io/Mapatrimoine/).
+    - >-
+      Les fiches imprimables (?id=<id>&sheet=1) de Cassel, des couvreurs zingueurs et du fest-noz (fiches longues, avec contexte et UNESCO) et du carnaval de Guyane.
+    - >-
+      Les cinq cartes-dossiers A à E et une grille de l'expert par élève (voir l'étape 2).
+    - >-
+      Des pastilles de couleur A, B, C, D (et E) pour former les groupes d'origine et les groupes d'experts.
+    - >-
+      Une matrice de comparaison A3 par groupe d'origine (une ligne par tradition, une colonne par question) et les quatre cartes-défis.
+    - >-
+      Un ruban adhésif au sol pour le débat mouvant.
+    - >-
+      Des cartons A5 pour les cartels et un minuteur projeté.
+  en:
+    - >-
+      The PCI Map site on the projector, and one tablet or computer per expert table (https://paulbenard01.github.io/Mapatrimoine/).
+    - >-
+      The printable sheets (?id=<id>&sheet=1) for Cassel, the zinc roofers and the fest-noz (extended sheets with context and UNESCO) and for the Guiana carnival.
+    - >-
+      The five dossier cards A to E and one expert grid per student (see step 2).
+    - >-
+      Coloured stickers A, B, C, D (and E) to form the home groups and the expert groups.
+    - >-
+      One A3 comparison matrix per home group (one row per tradition, one column per question) and the four challenge cards.
+    - >-
+      Masking tape on the floor for the walking debate.
+    - >-
+      A5 card for the labels and an on-screen timer.
+elements:
+  - 2013_67717_INV_PCI_FRANCE_00322
+  - 2017_67717_INV_PCI_FRANCE_00384
+  - 2014_67717_INV_PCI_FRANCE_00340
+  - 2017_67717_INV_PCI_FRANCE_00389
+  - 2017_67717_INV_PCI_FRANCE_00387
+steps:
+  - minutes: 7
+    title:
+      fr: "L'énigme des géants jumeaux"
+      en: "The riddle of the twin giants"
+    teacher:
+      fr: >-
+        Projeter la page du carnaval de Cassel et raconter : « Depuis le XIXe siècle, deux géants de près de six mètres, Reuze Papa et Reuze Maman, dansent dans cette petite ville du Nord. Ils ont été cachés pendant les deux guerres. Mais ceux qui dansent aujourd'hui sont des répliques ; les originaux sont au musée. » Poser la question et faire voter debout : un côté de la salle pour « oui », l'autre pour « non ». Recueillir trois arguments sans trancher. Annoncer la mission : « Un musée veut ouvrir une salle sur le patrimoine vivant de France. Problème : comment écrire l'étiquette d'une chose que des gens refont, apprennent et changent chaque année ? Vous êtes l'équipe de conservateurs. » Montrer sur la carte les quatre (ou cinq) traditions de l'enquête, de la Flandre à la Guyane. Distribuer les pastilles : chaque groupe d'origine de quatre (ou cinq) élèves contient une lettre de chaque.
+      en: >-
+        Project the Cassel carnival page and tell the story: "Since the 19th century, two giants almost six metres tall, Reuze Papa and Reuze Maman, have danced in this small town in northern France. They were hidden during both world wars. But the ones dancing today are replicas; the originals are in the museum." Ask the question and have students vote standing up: one side of the room for "yes", the other for "no". Collect three arguments without settling the matter. Announce the mission: "A museum wants to open a room on France's living heritage. The problem: how do you write a label for something people redo, learn and change every year? You are the curators." Show the four (or five) traditions of the investigation on the map, from Flanders to French Guiana. Hand out the stickers: each home group of four (or five) students has one of each letter.
+    students:
+      fr: >-
+        Les élèves votent avec leurs pieds et deux ou trois d'entre eux justifient leur choix. Chacun écrit ensuite seul, en haut de sa grille, la phrase « Une tradition est authentique si… » : elle sera relue à la fin de l'heure. Les élèves rejoignent leur groupe d'origine, reçoivent leur lettre et découvrent quelle tradition ils devront expliquer aux autres.
+      en: >-
+        Students vote with their feet and two or three of them explain their choice. Then each one writes alone, at the top of their grid, the sentence "A tradition is authentic if…": it will be re-read at the end of the hour. Students join their home group, get their letter and find out which tradition they will have to explain to the others.
+    prompts:
+      fr:
+        - >-
+          Les géants qui dansent à Cassel sont des copies fidèles des originaux, gardés au musée. La fête est-elle encore authentique ? Complétez seul : « Une tradition est authentique si… »
+      en:
+        - >-
+          The giants dancing in Cassel are faithful copies of the originals, which are kept in the museum. Is the festival still authentic? Complete on your own: "A tradition is authentic if…"
+  - minutes: 15
+    title:
+      fr: "Groupes d'experts : enquêter sur une tradition"
+      en: "Expert groups: investigating one tradition"
+    teacher:
+      fr: >-
+        Regrouper les élèves par lettre (deux tables par lettre si la classe est nombreuse). Chaque table reçoit sa carte-dossier, un écran et la fiche imprimable. Ordre de lecture conseillé : la carte, puis la page de l'élément sur le site (résumé, photo, lieux, lien vers la fiche officielle), puis la fiche imprimable (sections contexte et UNESCO quand elles existent). Fixer la règle : à la fin, chaque expert doit pouvoir répondre aux quatre questions de la grille en 90 secondes, sans lire, et rapporter une « pièce à conviction », un détail précis (un nombre, un mot, un geste). Circuler en demandant « Où est-ce écrit ? » et en faisant distinguer ce que dit la source de ce qu'on suppose. À la douzième minute, faire répéter les exposés deux par deux.
+      en: >-
+        Group students by letter (two tables per letter if the class is large). Each table gets its dossier card, a screen and the printable sheet. Suggested reading order: the card, then the element page on the site (summary, photo, places, link to the official fiche), then the printable sheet (context and UNESCO sections where they exist). Set the rule: at the end, every expert must be able to answer the four questions of the grid in 90 seconds, without reading, and bring back a "piece of evidence", one precise detail (a number, a word, a gesture). Go round asking "Where does it say that?" and get students to separate what the source says from what they assume. At minute twelve, have them rehearse their briefing in pairs.
+    students:
+      fr: >-
+        Les experts lisent la carte-dossier à voix haute, cherchent la tradition sur le site avec le mot-clé indiqué et se partagent la lecture. Chacun remplit sa grille avec ses propres mots, une ou deux lignes par question, en notant la source de chaque réponse (carte, page, fiche). La table choisit sa pièce à conviction et vérifie qu'elle est exacte. Puis chacun répète son exposé de 90 secondes devant un voisin, qui chronomètre et signale ce qui n'est pas clair.
+      en: >-
+        The experts read the dossier card aloud, find the tradition on the site with the keyword given and share out the reading. Each fills in their grid in their own words, one or two lines per question, noting the source of each answer (card, page, sheet). The table chooses its piece of evidence and checks that it is accurate. Then each student rehearses a 90-second briefing in front of a neighbour, who times it and points out what is unclear.
+    prompts:
+      fr:
+        - >-
+          Dossier A, Cassel (Nord). Reuze Papa (1827) et Reuze Maman (1860) ont été cachés pendant les deux guerres. Aujourd'hui, des répliques à l'identique dansent et les originaux sont au musée. La ville et une association de bénévoles font vivre la fête ; il y a une liste d'attente de porteurs et des essais. UNESCO : 2008, dossier commun avec la Belgique. Mot-clé : « Cassel ».
+        - >-
+          Dossier B, les toits de Paris. Plus d'un millier de couvreurs zingueurs et des ornemanistes posent et raccordent zinc, ardoise et plomb sur les immeubles haussmanniens. Le métier s'apprend en alternance, entre centre de formation et chantier. Coutume : glisser un message sous le toit pour les couvreurs de demain. Inventaire national : 2017. UNESCO : 2024. Mot-clé : « zingueur ».
+        - >-
+          Dossier C, le fest-noz (Bretagne). Ces « fêtes de nuit » accompagnaient noces et travaux des champs, et ont failli disparaître avec la société rurale. Au milieu du XXe siècle, des militants les ont réinventées en bals publics dans les salles des fêtes. Aujourd'hui, des centaines par an, des rondes très anciennes et des groupes mêlés de rock ou d'électro. UNESCO : 2012. Mot-clé : « fest-noz ».
+        - >-
+          Dossier D, le carnaval de Guyane. Au bal paré-masqué, les Touloulous, femmes méconnaissables de la tête aux pieds, invitent les hommes à danser. Autrefois, une marraine initiait les novices. Robes ajustées et brillantes, masques vénitiens, musique plus rapide : des anciens s'inquiètent, des jeunes inventent. Inventaire national : 2017. Pas d'inscription UNESCO. Mot-clé : « Touloulou ».
+        - >-
+          Dossier E (classes de cinq groupes), le 'ori tahiti (Polynésie française). Danse, percussions, chants, art oratoire et costumes, en groupes de 80 à 200 personnes où les jeunes apprennent l'histoire et les mythes polynésiens. Concours annuel du Heiva i Tahiti, diplôme du conservatoire, pas de danse décrits par écrit. Inventaire national : 2017. Pas d'inscription UNESCO. Mot-clé : « Tahiti ».
+        - >-
+          Grille de l'expert. 1. Qui porte cette tradition aujourd'hui (personnes, groupes, institutions) ? 2. Comment l'apprend-on ? 3. Qu'est-ce qui a changé, et qui en pense quoi ? 4. Que change l'inventaire ou l'UNESCO pour elle, et que ne change-t-il pas ? Pièce à conviction : un détail précis. Notez la source de chaque réponse.
+      en:
+        - >-
+          File A, Cassel (Nord). Reuze Papa (1827) and Reuze Maman (1860) were hidden during both wars. Today faithful replicas dance and the originals are in the museum. The town and a volunteer association keep the festival going; there is a waiting list of bearers and try-outs. UNESCO: 2008, a file shared with Belgium. Keyword: "Cassel".
+        - >-
+          File B, the roofs of Paris. More than a thousand zinc roofers and ornamentalists lay and join zinc, slate and lead on Haussmann-era buildings. The trade is learnt through work-study, between a training centre and the building site. A custom: slipping a message under the roof for future roofers. National inventory: 2017. UNESCO: 2024. Keyword: "zingueur".
+        - >-
+          File C, the fest-noz (Brittany). These "night festivals" went with weddings and farm work, and almost vanished with rural society. In the mid-20th century, activists reinvented them as public dances in village halls. Today there are hundreds a year, with very old round dances and bands that blend in rock or electronic music. UNESCO: 2012. Keyword: "fest-noz".
+        - >-
+          File D, the Guiana carnival. At the masked ball, the Touloulous, women unrecognisable from head to toe, invite men to dance. In the past a godmother initiated newcomers. Fitted, shiny dresses, Venetian masks, faster music: some elders worry, young people invent. National inventory: 2017. Not inscribed by UNESCO. Keyword: "Touloulou".
+        - >-
+          File E (classes with five groups), Tahitian 'ori (French Polynesia). Dance, drumming, song, oratory and costume, in groups of 80 to 200 where young people learn Polynesian history and myths. A yearly contest, the Heiva i Tahiti, a conservatoire diploma, dance steps described in writing. National inventory: 2017. Not inscribed by UNESCO. Keyword: "Tahiti".
+        - >-
+          Expert grid. 1. Who carries this tradition today (people, groups, institutions)? 2. How do people learn it? 3. What has changed, and who thinks what about it? 4. What does the inventory or UNESCO change for it, and what does it not change? Piece of evidence: one precise detail. Note the source of each answer.
+  - minutes: 14
+    title:
+      fr: "Retour au groupe d'origine : la table des conservateurs"
+      en: "Back to the home group: the curators' table"
+    teacher:
+      fr: >-
+        Reformer les groupes d'origine. Lancer le minuteur : chaque expert a 90 secondes, sans être interrompu ; les autres remplissent la ligne correspondante de la matrice A3 et peuvent poser une question à la fin. Distribuer ensuite les quatre cartes-défis : le groupe doit en résoudre au moins trois en s'appuyant sur au moins deux traditions à chaque fois, puis écrire ensemble au bas de la matrice une phrase qui commence par « Une tradition reste vivante quand… ». Circuler et relancer : « Qui a le droit de décider de ce qui change ? », « Ce changement, c'est une perte ou une invention ? Pour qui ? ». Veiller à ce qu'aucun groupe ne classe les traditions de la « meilleure » à la « moins bonne ».
+      en: >-
+        Re-form the home groups. Start the timer: each expert has 90 seconds without interruption; the others fill in the matching row of the A3 matrix and may ask one question at the end. Then hand out the four challenge cards: the group must solve at least three, each time drawing on at least two traditions, and then write together, at the bottom of the matrix, a sentence beginning "A tradition stays alive when…". Go round and nudge: "Who has the right to decide what changes?", "Is this change a loss or an invention? For whom?". Make sure no group ranks the traditions from "best" to "worst".
+    students:
+      fr: >-
+        Chaque expert présente sa tradition et sa pièce à conviction ; les autres prennent des notes dans la matrice. Le groupe résout ensuite les défis : il range les façons d'apprendre sur une ligne, cherche un changement qui fait débat, teste une affirmation sur l'UNESCO et discute de ce qu'apporte l'inventaire national. Chaque réponse cite au moins deux traditions. Le groupe se met d'accord sur sa phrase commune et désigne un porte-parole pour le débat.
+      en: >-
+        Each expert presents their tradition and piece of evidence; the others take notes in the matrix. The group then tackles the challenges: it places the ways of learning along a line, looks for a change that sparks debate, tests a claim about UNESCO and discusses what the national inventory brings. Every answer cites at least two traditions. The group agrees on its shared sentence and picks a spokesperson for the debate.
+    prompts:
+      fr:
+        - >-
+          Défi 1. Placez les façons d'apprendre de vos traditions sur une ligne, de la plus libre (on regarde et on imite) à la plus encadrée (formation, diplôme). Laquelle vous semble la plus solide pour l'avenir, et laquelle la plus fragile ? Pourquoi ?
+        - >-
+          Défi 2. Trouvez un changement dans chaque tradition. Lequel fait débat entre des générations ou des groupes ? À votre avis, qui devrait décider de ce qui doit rester ?
+        - >-
+          Défi 3. Vrai ou faux : « L'UNESCO protège des objets. » Prouvez votre réponse avec au moins deux traditions.
+        - >-
+          Défi 4. Certaines de vos traditions ne sont pas inscrites à l'UNESCO. Sont-elles moins du patrimoine ? Qu'est-ce que l'inventaire national leur apporte déjà, et qu'est-ce qu'il ne fait pas ?
+      en:
+        - >-
+          Challenge 1. Place the ways of learning your traditions along a line, from the freest (you watch and copy) to the most structured (training, diploma). Which seems strongest for the future, and which most fragile? Why?
+        - >-
+          Challenge 2. Find one change in each tradition. Which one is debated between generations or groups? In your view, who should decide what must stay?
+        - >-
+          Challenge 3. True or false: "UNESCO protects objects." Prove your answer with at least two traditions.
+        - >-
+          Challenge 4. Some of your traditions are not inscribed by UNESCO. Are they any less heritage? What does the national inventory already give them, and what does it not do?
+  - minutes: 8
+    title:
+      fr: "Débat mouvant : le tribunal du changement"
+      en: "Walking debate: the court of change"
+    teacher:
+      fr: >-
+        Tracer une ligne au sol : d'un côté « d'accord », de l'autre « pas d'accord ». Lire une affirmation ; les élèves se placent, sans position neutre. Chaque camp a une minute ; on ne parle que si l'on cite une preuve tirée d'une tradition étudiée (« À Cassel… », « Au fest-noz… »). Tout élève convaincu peut changer de côté et dire pourquoi. Trois affirmations, environ deux minutes et demie chacune. Rôle de l'enseignant : distribuer la parole, reformuler, rappeler qu'on discute des idées et non des personnes. Conclure : une tradition vit parce qu'elle change, mais ses praticiens débattent de son cœur (l'anonymat du Touloulou, la chaîne des danseurs, les gestes des porteurs ou du couvreur), et ce n'est ni l'UNESCO ni le ministère qui fixent ce cœur à leur place.
+      en: >-
+        Draw a line on the floor: "agree" on one side, "disagree" on the other. Read a statement; students take a side, with no neutral position. Each side has one minute; you may only speak if you cite evidence from a tradition studied ("In Cassel…", "At the fest-noz…"). Any student who is convinced may cross over and say why. Three statements, about two and a half minutes each. The teacher's role: give the floor, rephrase, remind students that they discuss ideas, not people. Conclude: a tradition lives because it changes, but its practitioners debate its core (the Touloulou's anonymity, the chain of dancers, the gestures of the bearers or the roofer), and neither UNESCO nor the ministry decides that core for them.
+    students:
+      fr: >-
+        Les élèves se placent, écoutent l'autre camp et prennent la parole en citant une preuve de leur matrice. Ils peuvent changer de côté en expliquant ce qui les a convaincus. Après chaque affirmation, chacun note dans sa grille l'argument le plus fort qu'il a entendu, qu'il soit de son camp ou non.
+      en: >-
+        Students take their place, listen to the other side and speak by citing evidence from their matrix. They may change sides, explaining what convinced them. After each statement, everyone notes in their grid the strongest argument they heard, whether from their own side or not.
+    prompts:
+      fr:
+        - >-
+          « Une tradition qui change n'est plus une vraie tradition. »
+        - >-
+          « Pour faire vivre une tradition, il faut être né là où elle est née. »
+        - >-
+          « Être inscrit à l'UNESCO, ça sert surtout à attirer des touristes. »
+      en:
+        - >-
+          "A tradition that changes is no longer a real tradition."
+        - >-
+          "To keep a tradition alive, you have to be born where it was born."
+        - >-
+          "Being inscribed by UNESCO is mostly about attracting tourists."
+  - minutes: 12
+    title:
+      fr: "Production : le cartel d'un patrimoine vivant"
+      en: "Writing task: a label for living heritage"
+    teacher:
+      fr: >-
+        Présenter les deux sujets au choix et projeter les critères. Sujet 1, le cartel : pour la salle du musée, rédiger l'étiquette d'une tradition, de préférence une autre que celle de son groupe d'experts, pour prouver que le puzzle a fonctionné. Sujet 2, la prise de position : répondre à une question fictive sur une candidature à l'UNESCO. Rappeler les règles d'écriture : présent de l'indicatif, aucun « autrefois, les gens… » pour parler de pratiques actuelles, pas de jugement sur la valeur d'une culture, des faits vérifiables dans la matrice ou sur le site. Circuler et faire relire chaque texte avec la liste des critères.
+      en: >-
+        Present the two topics and project the criteria. Topic 1, the label: for the museum room, write the label for one tradition, preferably not the one from your expert group, to show that the jigsaw worked. Topic 2, the position: answer an imaginary question about a UNESCO nomination. Remind students of the writing rules: present tense, no "in the old days people…" when describing current practices, no judgement on the worth of a culture, facts that can be checked in the matrix or on the site. Go round and have each text re-read against the list of criteria.
+    students:
+      fr: >-
+        Seul ou en binôme, chaque élève choisit un sujet. Pour le cartel (80 à 120 mots), il suit le modèle de la carte et dessine en petit un objet ou un geste emblématique. Pour la prise de position (8 à 10 lignes), il annonce sa thèse, donne deux arguments, chacun appuyé sur un fait, cite au moins une autre tradition étudiée et concède un point à l'avis contraire. Il relit avec les critères et coche ceux qui sont remplis.
+      en: >-
+        Alone or in pairs, each student picks a topic. For the label (80 to 120 words), they follow the model on the card and make a small drawing of an emblematic object or gesture. For the position (8 to 10 lines), they state their thesis, give two arguments each backed by a fact, cite at least one other tradition studied and concede one point to the opposing view. They re-read against the criteria and tick those that are met.
+    prompts:
+      fr:
+        - >-
+          Sujet 1, le cartel. Titre de la tradition et lieu. « Portée par… » « Elle se transmet… » « Ce qui change… » « Statut : inventaire national, UNESCO ou non, et ce que cela implique. » Dernière ligne obligatoire : « Cette étiquette devra être mise à jour, parce que… »
+        - >-
+          Sujet 2, la prise de position. Imaginez que des carnavaliers proposent de présenter le bal paré-masqué de Guyane à l'UNESCO. Êtes-vous pour ou contre ? Deux arguments, un exemple tiré d'une autre tradition étudiée, une concession.
+      en:
+        - >-
+          Topic 1, the label. Name of the tradition and place. "Carried by…" "It is handed on…" "What is changing…" "Status: national inventory, UNESCO or not, and what that means." Compulsory last line: "This label will need updating, because…"
+        - >-
+          Topic 2, the position. Imagine that carnival-goers propose to put the Guiana masked ball forward to UNESCO. Are you for or against? Two arguments, one example from another tradition studied, one concession.
+  - minutes: 4
+    title:
+      fr: "Vernissage express et ticket de sortie"
+      en: "Quick opening night and exit ticket"
+    teacher:
+      fr: >-
+        Faire lire à voix haute deux cartels et une prise de position, en choisissant des traditions différentes, et demander à la classe si l'étiquette « tiendra » dans vingt ans. Revenir à la phrase écrite au début : « Une tradition est authentique si… ». Demander à chacun de la réécrire et faire lire deux ou trois versions qui ont changé. Ramasser les cartels pour l'exposition de la classe.
+      en: >-
+        Have two labels and one position read aloud, choosing different traditions, and ask the class whether the label will still "hold" in twenty years. Go back to the sentence written at the start: "A tradition is authentic if…". Ask everyone to rewrite it and have two or three changed versions read out. Collect the labels for the class exhibition.
+    students:
+      fr: >-
+        Les élèves écoutent, disent ce qui devra être mis à jour dans les étiquettes lues, puis réécrivent leur phrase de départ sur le ticket de sortie, en la comparant à la première version. Ceux qui n'ont pas changé d'avis expliquent pourquoi en une ligne.
+      en: >-
+        Students listen, say what will need updating in the labels read out, then rewrite their opening sentence on the exit ticket, comparing it with the first version. Those who have not changed their mind explain why in one line.
+    prompts:
+      fr:
+        - >-
+          Ticket de sortie. Réécrivez : « Une tradition est authentique si… » Qu'est-ce qui a changé dans votre réponse depuis le début de l'heure, et quelle tradition vous a fait changer d'avis ?
+      en:
+        - >-
+          Exit ticket. Rewrite: "A tradition is authentic if…" What has changed in your answer since the start of the hour, and which tradition made you change your mind?
+assessment:
+  fr: >-
+    L'enseignant observe trois traces. La matrice du groupe : quatre traditions renseignées sur les quatre questions, avec des sources, et au moins trois défis résolus avec deux traditions chacun. Le cartel ou la prise de position : faits exacts, présent de l'indicatif, statut correct (inventaire national pour toutes, UNESCO pour Cassel, les couvreurs et le fest-noz seulement), dernière ligne qui montre qu'une tradition change ; pour la prise de position, thèse, deux arguments étayés, une concession. Le ticket de sortie : la réussite se lit dans le passage d'une définition de l'authenticité fondée sur l'ancienneté ou l'immobilité (« elle n'a pas changé ») à une définition fondée sur les personnes (« des gens la pratiquent, l'apprennent, la transmettent et décident ensemble de ce qui compte »). Pendant le débat, noter qui cite une preuve plutôt qu'une impression.
+  en: >-
+    The teacher looks at three pieces of work. The group matrix: four traditions filled in on all four questions, with sources, and at least three challenges solved with two traditions each. The label or the position: accurate facts, present tense, correct status (national inventory for all of them, UNESCO for Cassel, the roofers and the fest-noz only), a last line showing that a tradition changes; for the position, a thesis, two supported arguments and a concession. The exit ticket: success shows in a shift from a definition of authenticity based on age or stillness ("it hasn't changed") to one based on people ("people practise it, learn it, hand it on and decide together what matters"). During the debate, note who cites evidence rather than an impression.
+differentiation:
+  fr: >-
+    Soutien : confier les dossiers B et D, dont les fiches imprimables sont les plus directes, aux élèves qui lisent moins vite ; former des binômes d'experts plutôt que des experts seuls ; donner une grille avec des débuts de phrase (« Ceux qui la font vivre sont… », « On l'apprend en… ») et un lexique de six mots (porteur, transmission, communauté, inventaire, inscription, sauvegarde) ; proposer un modèle de cartel à trous. Les élèves allophones s'appuient sur la photo, la carte et la version anglaise du site. Approfondissement : le dossier E pour un groupe à l'aise ; lire sur la fiche officielle du ministère (lien sur la page de l'élément) les parties sur la transmission et la viabilité ; dans les données ouvertes, comparer pour plusieurs éléments l'année d'entrée à l'inventaire et l'année d'inscription à l'UNESCO, et formuler une hypothèse.
+  en: >-
+    Support: give files B and D, whose printable sheets are the most direct, to slower readers; form expert pairs rather than single experts; hand out a grid with sentence starters ("The people who keep it alive are…", "You learn it by…") and a six-word glossary (bearer, transmission, community, inventory, inscription, safeguarding); offer a gap-fill label template. Students learning French rely on the photo, the map and the site's English version. Stretch: file E for a confident group; read the transmission and viability sections of the ministry's official fiche (linked from the element page); in the open data, compare for several elements the year of entry into the inventory and the year of UNESCO inscription, and form a hypothesis.
+going_further:
+  fr: >-
+    Exposition : afficher les cartels au CDI comme une salle de musée du patrimoine vivant, chacun avec l'adresse de la page de l'élément (?id=<id>), et les mettre à jour l'année suivante. Enquête de proximité : avec « Autour de moi » ou le menu Territoire, repérer une tradition proche du collège et préparer trois questions pour une personne qui la pratique (association, club, artisan invité en classe), sur le modèle de la grille de l'expert. Écriture : l'activité « une lettre cachée sous le toit » de la fiche des couvreurs zingueurs. Agenda : vérifier dans l'onglet Agenda quand a lieu le prochain carnaval de Cassel, et chercher un fest-noz ou un bal près de chez soi. Mission famille : demander à un adulte de la maison qui lui a appris une fête, une recette ou un jeu, et ce qui a changé depuis.
+  en: >-
+    Exhibition: display the labels in the school library as a museum room of living heritage, each with the address of the element page (?id=<id>), and update them the following year. Local inquiry: with "Autour de moi" (Near me) or the Territory menu, find a tradition near the school and prepare three questions for someone who practises it (an association, a club, a craftsperson invited to class), modelled on the expert grid. Writing: the "letter hidden under the roof" activity from the zinc roofers' sheet. Agenda: check in the Agenda tab when the next Cassel carnival takes place, and look for a fest-noz or a dance near home. Family mission: ask an adult at home who taught them a festival, a recipe or a game, and what has changed since.
+answer_key:
+  fr: >-
+    A Cassel : la ville, une association de bénévoles, deux équipes de huit porteurs (liste d'attente, essais) ; répliques à l'identique, originaux au musée ; UNESCO 2008 avec la Belgique, qui reconnaît la fête, pas les objets. B Zinc : plus de mille couvreurs et des ornemanistes ; alternance centre de formation-chantier ; métier né au XIXe siècle, face aux toits végétalisés et au solaire ; inventaire 2017, UNESCO 2024 : les gestes, pas les toits. C Fest-noz : chanteurs, sonneurs, danseurs, associations ; on apprend en dansant, par imitation, et en cours ou en école de musique ; réinventé au milieu du XXe siècle, mêlé au rock ou à l'électro ; UNESCO 2012, sans protection juridique propre. D Touloulou : société créole guyanaise, partagée avec d'autres communautés et la diaspora ; couturières, orchestres, groupes de jeunes ; jadis marraine et famille, transmission en partie rompue, conseils d'anciens à la radio, cours de danse ; robes ajustées, masques vénitiens, nouveaux rythmes ; inventaire 2017. E 'Ori : groupes de 80 à 200, Heiva, conservatoire ; inventaire 2017. Défi 1 : imitation (fest-noz, Touloulou) → essais associatifs (Cassel) → cours et conservatoire → apprentissage diplômant (zinc). Défi 2 : Touloulou, anciens et jeunes ; ce sont les praticiens qui en débattent. Défi 3 : faux. Défi 4 : non ; l'inventaire documente avec les communautés, rend visible et permet une candidature ; l'UNESCO est un choix de dossier, pas un classement.
+  en: >-
+    A Cassel: the town, a volunteer association, two teams of eight bearers (waiting list, try-outs); faithful replicas, originals in the museum; UNESCO 2008 with Belgium, recognising the festival, not the objects. B Zinc: more than a thousand roofers plus ornamentalists; work-study between training centre and site; a 19th-century trade facing green roofs and solar panels; inventory 2017, UNESCO 2024: the skills, not the roofs. C Fest-noz: singers, musicians, dancers, associations; learnt by dancing and copying, and in classes or music schools; reinvented in the mid-20th century, blended with rock or electronic music; UNESCO 2012, no specific legal protection. D Touloulou: Guianese Creole society, shared with other communities and the diaspora; dressmakers, bands, youth groups; once taught by a godmother and the family, transmission partly broken, elders' advice on the radio, dance classes; fitted dresses, Venetian masks, new rhythms; inventory 2017. E 'Ori: groups of 80 to 200, Heiva, conservatoire; inventory 2017. Challenge 1: copying (fest-noz, Touloulou) → association try-outs (Cassel) → classes and conservatoire → apprenticeship with a diploma (zinc). Challenge 2: Touloulou, elders and young people; practitioners debate it. Challenge 3: false. Challenge 4: no; the inventory documents with communities, gives visibility and makes a nomination possible; UNESCO is a choice of file, not a ranking.
+lang_review: draft
+review_status: unreviewed

@@ -54,7 +54,6 @@ export function renderSheet(
   const { fr, en } = STRINGS;
   const s = STRINGS[ui];
   const extended = Boolean(sheet.context);
-  const draft = sheet.review_status !== "reviewed" || sheet.lang_review !== "reviewed";
   const kind = element?.kind ?? entry.kind ?? null;
   const kindLabel = (l: Lang) => (kind === "event" ? STRINGS[l].event : kind === "practice" ? STRINGS[l].practice : "");
   const theme = entry.themes[0];
@@ -90,7 +89,6 @@ export function renderSheet(
           )
         : null,
     ),
-    draft ? h("p", { class: "sheet-draft" }, both((l) => STRINGS[l].sheetDraft)) : null,
     picture(entry.image, base),
     places.length
       ? h(

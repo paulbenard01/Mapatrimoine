@@ -11,6 +11,9 @@ export interface State extends Filters {
   selected: string | null;
   sheet: boolean; // printable mediation sheet of the selected element
   pane: Pane; // which pane is shown on narrow screens
+  story: string | null; // guided story being followed
+  step: number; // 0 = intro, 1..n = steps, n + 1 = conclusion
+  lesson: string | null; // printable lesson plan
 }
 
 export const RADII = [10, 25, 50, 100, 250] as const;
@@ -49,6 +52,9 @@ export function parseState(search: string, languages: readonly string[]): State 
     selected: p.get("id"),
     sheet: p.get("id") !== null && p.get("sheet") === "1",
     pane: oneOf<Pane>(p.get("pane"), ["map", "list"], "list"),
+    story: /^[a-z0-9-]{3,40}$/.test(p.get("story") ?? "") ? p.get("story") : null,
+    step: Math.max(0, Math.min(20, Number.parseInt(p.get("step") ?? "0", 10) || 0)),
+    lesson: /^[a-z0-9-]{3,40}$/.test(p.get("lesson") ?? "") ? p.get("lesson") : null,
   };
 }
 
@@ -67,6 +73,9 @@ export function serializeState(state: State, extra: Record<string, string> = {})
   if (state.selected) p.set("id", state.selected);
   if (state.selected && state.sheet) p.set("sheet", "1");
   if (state.pane !== "list") p.set("pane", state.pane);
+  if (state.story) p.set("story", state.story);
+  if (state.story && state.step) p.set("step", String(state.step));
+  if (state.lesson) p.set("lesson", state.lesson);
   for (const [k, v] of Object.entries(extra)) p.set(k, v);
   return `?${p.toString()}`;
 }

@@ -85,3 +85,16 @@ describe("i18n formatting", () => {
     );
   });
 });
+
+describe("stories and lessons", () => {
+  test("story, step and lesson round-trip; bad values are dropped", () => {
+    const s = parseState("?story=geants-et-betes&step=3&lesson=primaire-detectives", ["fr"]);
+    expect([s.story, s.step, s.lesson]).toEqual(["geants-et-betes", 3, "primaire-detectives"]);
+    const q = serializeState(s);
+    expect(q).toContain("story=geants-et-betes");
+    expect(q).toContain("step=3");
+    expect(q).toContain("lesson=primaire-detectives");
+    const bad = parseState("?story=<script>&step=-4&lesson=../x", ["fr"]);
+    expect([bad.story, bad.step, bad.lesson]).toEqual([null, 0, null]);
+  });
+});

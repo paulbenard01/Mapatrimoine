@@ -1,0 +1,252 @@
+id: lycee-comite-unesco-simule
+level: high
+title:
+  fr: "Le Comité de l'UNESCO en séance : faut-il inscrire le Biou d'Arbois ?"
+  en: "UNESCO committee in session: should the Biou of Arbois be inscribed?"
+grade:
+  fr: Terminale, spécialité HGGSP ; adaptable en Seconde et en EMC
+  en: Final year of upper secondary (Terminale, HGGSP specialism); adaptable for Seconde (Year 11 / grade 10) and civics (EMC)
+duration_min: 60
+summary:
+  fr: >-
+    La classe devient le Comité intergouvernemental de l'UNESCO. À l'ordre du jour : une candidature réelle, encore en attente, celle du Biou d'Arbois, fête des vignerons du Jura. Cinq délégations (communauté porteuse, État, tourisme, expert du patrimoine, journaliste sceptique) lisent les pièces sur PCI Map, s'appuient sur des précédents (Granville, géants du Nord, baguette, maloya, yole de Martinique), plaident, s'interpellent puis votent avec les critères de la Convention de 2003. Le débriefing relie la décision aux enjeux géopolitiques du patrimoine et chacun rédige un avis motivé.
+  en: >-
+    The class becomes UNESCO's Intergovernmental Committee. On the agenda: a real nomination that is still pending, the Biou of Arbois, a winegrowers' festival in the Jura. Five delegations (the bearer community, the State, tourism, a heritage expert, a sceptical journalist) read the evidence on PCI Map, draw on precedents (Granville, the giants of the North, the baguette, maloya, the Martinique yole), make their case, challenge each other and vote using the criteria of the 2003 Convention. The debrief links the decision to the geopolitics of heritage, and everyone writes a reasoned opinion.
+curriculum:
+  fr: >-
+    En Terminale, spécialité HGGSP, la séance sert le thème « Identifier, protéger et valoriser le patrimoine : enjeux géopolitiques » : usages sociaux et politiques du patrimoine, tensions et concurrences autour de sa protection, rôle de l'UNESCO et action de la France (elle peut nourrir l'objet de travail conclusif sur la France et le patrimoine). Elle entraîne aux capacités de la spécialité : analyser des documents, construire une argumentation, s'exprimer à l'oral, ce qui prépare aussi au Grand oral. En Seconde ou en EMC, elle se prête à un débat argumenté et réglé sur la délibération collective, l'engagement et le respect de la diversité culturelle.
+  en: >-
+    In the final year, for the HGGSP specialism (history, geography, geopolitics and political science), the lesson serves the theme on identifying, protecting and showcasing heritage and its geopolitical stakes: the social and political uses of heritage, the tensions and rivalries around protecting it, the role of UNESCO and the action of France (it can feed the closing case study on France and heritage). It trains the specialism's skills: analysing documents, building an argument and speaking, which also prepares for the Grand oral exam. In Seconde or in civics (EMC), it works as a structured, evidence-based debate on collective deliberation, civic engagement and respect for cultural diversity.
+objectives:
+  fr:
+    - >-
+      Énoncer avec ses mots les idées clés de la Convention de 2003 : patrimoine vivant, communautés au centre, sauvegarde plutôt que conservation figée.
+    - >-
+      Appliquer à un dossier réel les cinq critères d'inscription sur la Liste représentative, à partir de documents.
+    - >-
+      Identifier les acteurs du patrimoine et leurs intérêts parfois divergents : communauté, État, tourisme, experts, médias.
+    - >-
+      Construire et défendre, à l'oral puis à l'écrit, un avis motivé qui pèse les bénéfices et les risques d'une inscription.
+    - >-
+      Relier une décision locale aux enjeux géopolitiques du patrimoine : rayonnement, concurrence entre dossiers, candidatures multinationales.
+  en:
+    - >-
+      State in their own words the key ideas of the 2003 Convention: living heritage, communities at the centre, safeguarding rather than freezing.
+    - >-
+      Apply the five criteria for the Representative List to a real nomination, using documents.
+    - >-
+      Identify the actors of heritage and their sometimes conflicting interests: community, State, tourism, experts, media.
+    - >-
+      Build and defend, orally then in writing, a reasoned opinion weighing the benefits and risks of an inscription.
+    - >-
+      Link a local decision to the geopolitics of heritage: influence, competition between nominations, multinational files.
+materials:
+  fr:
+    - >-
+      PCI Map vidéoprojeté avec le filtre UNESCO (https://paulbenard01.github.io/Mapatrimoine/?unesco=1) et un ordinateur ou une tablette par délégation.
+    - >-
+      La page du Biou d'Arbois (?id=2013_67717_INV_PCI_FRANCE_00314) et son lien vers la fiche officielle ; les fiches imprimables étendues des précédents (?id=<id>&sheet=1).
+    - >-
+      Cinq cartes de rôle et une carte « critères R.1 à R.5 » par délégation ; un chevalet nominatif par délégation.
+    - >-
+      Une grille de prise de notes (argument, fait cité, critère, solidité de la preuve) et un bulletin de vote par élève, plus une urne.
+    - >-
+      Facultatif : la page UNESCO du carnaval de Granville (lien depuis l'élément) pour comparer avec le vocabulaire officiel.
+  en:
+    - >-
+      PCI Map on the projector with the UNESCO filter (https://paulbenard01.github.io/Mapatrimoine/?unesco=1) and one computer or tablet per delegation.
+    - >-
+      The Biou of Arbois page (?id=2013_67717_INV_PCI_FRANCE_00314) and its link to the official fiche; the extended printable sheets of the precedents (?id=<id>&sheet=1).
+    - >-
+      Five role cards and one "criteria R.1 to R.5" card per delegation; a name plate for each delegation.
+    - >-
+      A note-taking grid (argument, fact cited, criterion, strength of evidence) and a ballot paper per student, plus a ballot box.
+    - >-
+      Optional: UNESCO's page on the Carnival of Granville (linked from the element) to compare with the official wording.
+elements:
+  - 2013_67717_INV_PCI_FRANCE_00314
+  - 2013_67717_INV_PCI_FRANCE_00321
+  - 2014_67717_INV_PCI_FRANCE_00350
+  - 2013_67717_INV_PCI_FRANCE_00322
+  - 2018_67717_INV_PCI_FRANCE_00413
+  - 2009_67717_INV_PCI_FRANCE_00040
+  - 2017_67717_INV_PCI_FRANCE_00376
+steps:
+  - minutes: 8
+    title:
+      fr: "Ouverture de séance : ce que protège la Convention de 2003"
+      en: "Opening the session: what the 2003 Convention protects"
+    teacher:
+      fr: >-
+        Projeter la carte filtrée UNESCO : 34 éléments de l'inventaire sont rattachés aux 30 inscriptions de la France. Ouvrir la page du Biou d'Arbois : pas d'étiquette UNESCO. « La France a déposé ce dossier, l'UNESCO le liste comme candidature en attente. Aujourd'hui, le Comité, c'est vous. » Lire les six affirmations ; vote vrai ou faux à main levée ; corriger en dégageant les idées clés de la Convention, adoptée à Paris en 2003 et ratifiée par la France en 2006 : un patrimoine vivant, que des communautés reconnaissent comme le leur, transmis et sans cesse recréé ; sauvegarder, c'est permettre la transmission, pas mettre sous cloche ; aucune hiérarchie entre traditions ; trois listes (représentative, sauvegarde urgente, registre des bonnes pratiques) ; tout dossier doit figurer dans un inventaire national, comme celui que montre le site.
+      en: >-
+        Project the map with the UNESCO filter: 34 inventory elements are linked to France's 30 inscriptions. Open the Biou of Arbois page: no UNESCO tag. "France has submitted this file and UNESCO lists it as a pending nomination. Today, you are the Committee." Read out the six statements; true or false by show of hands; correct them while drawing out the Convention's key ideas (adopted in Paris in 2003, ratified by France in 2006): living heritage that communities recognise as their own, handed down and constantly recreated; safeguarding means enabling transmission, not putting things under glass; no ranking of traditions; three lists (Representative, Urgent Safeguarding, Register of Good Safeguarding Practices); every nomination must be in a national inventory, like the one the site maps.
+    students:
+      fr: >-
+        Les élèves votent sur chaque affirmation et, en cas de désaccord, un élève de chaque camp justifie en une phrase. Chacun note ensuite sur sa fiche quatre idées clés de la Convention dans ses propres mots, puis repère sur la carte projetée un exemple pour chaque liste : Granville ou la baguette pour la Liste représentative, la yole de Martinique pour le Registre des bonnes pratiques, le chant corse en paghjella pour la sauvegarde urgente.
+      en: >-
+        Students vote on each statement and, where they disagree, one student from each side justifies in a sentence. Each then writes four key ideas of the Convention on their sheet in their own words and finds on the projected map one example for each list: Granville or the baguette for the Representative List, the Martinique yole for the Register of Good Safeguarding Practices, Corsican paghjella singing for Urgent Safeguarding.
+    prompts:
+      fr:
+        - >-
+          1. « L'UNESCO choisit les traditions les plus anciennes et les plus authentiques de chaque pays. »
+        - >-
+          2. « Une fois inscrite, une tradition ne doit plus changer. »
+        - >-
+          3. « La communauté qui pratique la tradition doit donner son accord à la candidature. »
+        - >-
+          4. « C'est l'État, et non la communauté, qui dépose le dossier à l'UNESCO. »
+        - >-
+          5. « Plusieurs pays peuvent présenter ensemble une même tradition. »
+        - >-
+          6. « Pour être candidate, une pratique doit d'abord figurer dans un inventaire national. »
+      en:
+        - >-
+          1. "UNESCO picks the oldest and most authentic traditions of each country."
+        - >-
+          2. "Once inscribed, a tradition must not change any more."
+        - >-
+          3. "The community that practises the tradition must agree to the nomination."
+        - >-
+          4. "It is the State, not the community, that submits the file to UNESCO."
+        - >-
+          5. "Several countries can nominate the same tradition together."
+        - >-
+          6. "To be nominated, a practice must first be included in a national inventory."
+  - minutes: 12
+    title:
+      fr: "Les délégations lisent les pièces du dossier"
+      en: "Delegations read the evidence"
+    teacher:
+      fr: >-
+        Former cinq délégations et distribuer cartes de rôle et carte des critères. Chacune lit la page du Biou (résumé, lieux, lien vers la fiche officielle) et le précédent indiqué sur sa carte. Consigne : une déclaration de 90 secondes qui cite au moins un fait vérifiable trouvé sur le site et un critère (R.1 à R.5), plus une question piège pour une autre délégation. Rappeler qu'on défend un point de vue qui n'est pas forcément le sien, et qu'on ne caricature ni les vignerons, ni les croyants, ni les touristes. Passer dans les groupes pour exiger une source derrière chaque argument.
+      en: >-
+        Form five delegations and hand out the role cards and the criteria card. Each reads the Biou page (summary, places, link to the official fiche) and the precedent named on its card. Task: a 90-second statement citing at least one checkable fact found on the site and one criterion (R.1 to R.5), plus a tricky question for another delegation. Remind them that they defend a view that need not be their own, and that nobody caricatures winegrowers, believers or tourists. Go round the groups and ask for a source behind every argument.
+    students:
+      fr: >-
+        Chaque délégation répartit les tâches : deux lecteurs sur la page et la fiche du Biou, un ou deux sur le précédent, un rédacteur, un porte-parole. Elle relève trois faits utiles (le premier dimanche de septembre ; quatre vignerons porteurs ; des raisins de nombreux domaines assemblés en bandes blanches et noires ; la bénédiction à l'église Saint-Just ; le cortège vers le monument aux morts pour l'anniversaire de la Libération), choisit le critère sur lequel elle insiste, puis rédige sa déclaration et sa question sur une carte bristol.
+      en: >-
+        Each delegation shares out the tasks: two readers on the Biou page and fiche, one or two on the precedent, a writer, a spokesperson. It picks out three useful facts (the first Sunday of September; four winegrowers who carry the biou; grapes from many estates fixed in white and black bands; the blessing in the church of Saint-Just; the procession to the war memorial on the anniversary of the Liberation), chooses the criterion it will stress, and writes its statement and question on an index card.
+    prompts:
+      fr:
+        - >-
+          Communauté porteuse (vignerons, porteurs, habitants d'Arbois). Vous faites vivre la fête chaque année. L'inscription vous honorerait, mais vous voulez rester maîtres de son déroulement. Dites à quelles conditions vous donnez votre accord (R.4) et comment la fête se transmet. Précédent : Granville, où quelque 2 500 habitants préparent le carnaval. Que gagnez-vous, que craignez-vous de perdre ?
+        - >-
+          État partie (ministère de la Culture). Vous portez le dossier. La France compte déjà 30 inscriptions et ne peut pas tout présenter : pourquoi celui-ci ? Défendez les mesures de sauvegarde (R.3) et l'intérêt de faire connaître une fête de petite ville plutôt qu'un symbole national. Précédent : la baguette (2022). Qu'est-ce que l'État s'engage à faire après l'inscription ?
+        - >-
+          Tourisme et économie (office de tourisme, vignoble). L'inscription peut attirer des visiteurs et faire connaître les vins du Jura. Proposez des retombées concrètes, sans transformer la fête en spectacle payant : l'UNESCO se méfie de la commercialisation. Précédent : les fêtes de Gayant à Douai. Comment accueillir plus de monde sans déposséder les habitants ?
+        - >-
+          Expert du patrimoine (organe d'évaluation). Vous vérifiez les cinq critères un par un, puis recommandez : inscrire, renvoyer (dossier à compléter) ou ne pas inscrire. Bannissez « authentique », « pur », « immuable ». Précédents : le maloya, qui change sans cesse, et la yole de Martinique, distinguée pour sa sauvegarde. Où est la preuve de chaque critère ?
+        - >-
+          Journaliste sceptique. Une messe dans un dossier porté par une République laïque ? Une fête pour les vignerons ou pour les touristes ? Pourquoi si peu d'outre-mer parmi les éléments UNESCO de la carte (3 sur 34) ? Précédents : la baguette et le carnaval de Granville. À qui profite vraiment l'inscription ?
+        - >-
+          Critères de la Liste représentative, en résumé. R.1 : c'est bien du patrimoine culturel immatériel au sens de la Convention. R.2 : l'inscription rend le PCI plus visible et favorise le dialogue. R.3 : des mesures de sauvegarde sont prévues. R.4 : la communauté a participé et donné son consentement libre, préalable et éclairé. R.5 : l'élément figure dans un inventaire national.
+      en:
+        - >-
+          Bearer community (winegrowers, biou bearers, people of Arbois). You keep the festival going every year. Inscription would honour you, but you want to stay in charge of how it runs. Say on what terms you give your consent (R.4) and how the festival is passed on. Precedent: Granville, where some 2,500 residents prepare the carnival. What do you gain, what do you fear losing?
+        - >-
+          State Party (Ministry of Culture). You submit the file. France already has 30 inscriptions and cannot put everything forward: why this one? Defend the safeguarding measures (R.3) and the value of showcasing a small-town festival rather than a national symbol. Precedent: the baguette (2022). What does the State commit to doing after inscription?
+        - >-
+          Tourism and business (tourist office, wine trade). Inscription can draw visitors and make Jura wines better known. Propose concrete benefits without turning the festival into a ticketed show: UNESCO is wary of commercialisation. Precedent: the Gayant festival in Douai. How can more people be welcomed without dispossessing residents?
+        - >-
+          Heritage expert (Evaluation Body). You check the five criteria one by one, then recommend: inscribe, refer (file to be completed) or not inscribe. Ban "authentic", "pure", "unchanging". Precedents: maloya, which keeps changing, and the Martinique yole, recognised for its safeguarding. Where is the evidence for each criterion?
+        - >-
+          Sceptical journalist. A mass in a file put forward by a secular Republic? A festival for winegrowers or for tourists? Why so few overseas elements among the UNESCO points on the map (3 out of 34)? Precedents: the baguette and the Carnival of Granville. Who really benefits from inscription?
+        - >-
+          Representative List criteria, in short. R.1: it is intangible cultural heritage as the Convention defines it. R.2: inscription makes ICH more visible and encourages dialogue. R.3: safeguarding measures are planned. R.4: the community took part and gave its free, prior and informed consent. R.5: the element is included in a national inventory.
+  - minutes: 14
+    title:
+      fr: "Séance du Comité : déclarations et questions croisées"
+      en: "Committee session: statements and cross-questions"
+    teacher:
+      fr: >-
+        Présider la séance. Donner la parole dans l'ordre : État, communauté, tourisme, journaliste, puis l'expert, qui parle en dernier et annonce sa recommandation. Chronométrer 90 secondes par délégation. Ouvrir ensuite six minutes de questions croisées : chaque délégation pose sa question piège, la délégation visée répond en 30 secondes. Noter au tableau, en deux colonnes, les bénéfices et les risques avancés. Recentrer si le débat glisse vers « la plus belle fête de France » : l'UNESCO ne classe pas les traditions, elle reconnaît leur valeur pour une communauté.
+      en: >-
+        Chair the session. Give the floor in this order: State, community, tourism, journalist, then the expert, who speaks last and announces a recommendation. Time 90 seconds per delegation. Then open six minutes of cross-questions: each delegation asks its tricky question and the delegation addressed answers in 30 seconds. Write the benefits and risks raised on the board in two columns. Refocus if the debate drifts towards "the finest festival in France": UNESCO does not rank traditions, it recognises what they mean to a community.
+    students:
+      fr: >-
+        Les porte-parole lisent leurs déclarations ; les autres élèves remplissent la grille de prise de notes (argument, fait cité, critère invoqué, solidité de la preuve : forte, moyenne ou faible). Pendant les questions croisées, chaque délégation répond sans quitter son rôle et peut demander à l'expert de trancher un point de fait en revenant à la fiche. Un secrétaire par délégation complète au fur et à mesure le tableau des bénéfices et des risques.
+      en: >-
+        Spokespeople read their statements; the other students fill in the note-taking grid (argument, fact cited, criterion invoked, strength of evidence: strong, medium or weak). During cross-questions, each delegation answers in role and may ask the expert to settle a point of fact by going back to the fiche. One secretary per delegation keeps the benefits-and-risks table up to date.
+  - minutes: 8
+    title:
+      fr: "Délibération et vote motivé"
+      en: "Deliberation and reasoned vote"
+    teacher:
+      fr: >-
+        « Vous quittez vos rôles : vous êtes désormais les 24 États membres du Comité. » Préciser qu'au vrai Comité seuls les États membres décident, que communautés et ONG n'y votent pas, et que les décisions se prennent le plus souvent par consensus ; ici, on vote pour rendre les arguments visibles. Distribuer les bulletins. Pendant le dépouillement, faire lire deux ou trois arguments, dont au moins un minoritaire. Annoncer la décision sous une forme officielle : « Le Comité décide d'inscrire, de renvoyer ou de ne pas inscrire… au motif que… ».
+      en: >-
+        "You now step out of your roles: you are the Committee's 24 member States." Explain that in the real Committee only member States decide, communities and NGOs do not vote, and decisions are usually reached by consensus; here we vote to make the arguments visible. Hand out the ballots. While votes are counted, have two or three arguments read out, including at least one from the minority. Announce the decision in official form: "The Committee decides to inscribe, to refer or not to inscribe… on the grounds that…".
+    students:
+      fr: >-
+        Chaque élève remplit seul son bulletin : la décision, le critère qui pèse le plus, un argument appuyé sur un fait du dossier, et une condition ou une recommandation adressée à l'État (par exemple : associer les jeunes vignerons, refuser toute billetterie, documenter la fabrication du biou, présenter la messe comme un moment parmi d'autres auquel chacun participe ou non). Deux élèves dépouillent et classent les arguments par critère au tableau.
+      en: >-
+        Each student fills in their ballot alone: the decision, the criterion that weighs most, an argument resting on a fact from the file, and a condition or recommendation to the State (for example: involve young winegrowers, refuse any ticketing, document how the biou is made, present the mass as one moment among others that people may or may not attend). Two students count the votes and sort the arguments by criterion on the board.
+    prompts:
+      fr:
+        - >-
+          Bulletin. Décision : inscrire / renvoyer pour compléments / ne pas inscrire. Critère décisif : R.__. Mon argument, appuyé sur un fait du dossier : … Ma condition ou recommandation à l'État : …
+      en:
+        - >-
+          Ballot. Decision: inscribe / refer for more information / do not inscribe. Decisive criterion: R.__. My argument, based on a fact from the file: … My condition or recommendation to the State: …
+  - minutes: 10
+    title:
+      fr: "Retour au réel : ce que change une inscription"
+      en: "Back to reality: what inscription changes"
+    teacher:
+      fr: >-
+        Confronter le vote aux précédents. Granville (2016) : l'UNESCO ne récompense pas un spectacle mais une pratique portée par une population qui la fait évoluer. Baguette (2022) : un geste du quotidien devenu image de la France dans le monde, le patrimoine comme outil d'influence. Géants de Douai et Cassel : un dossier commun avec la Belgique ; 14 des 30 inscriptions françaises sont partagées avec d'autres États. Maloya : une musique longtemps cantonnée aux cours des travailleurs, devenue emblème de La Réunion. Yole : le Registre des bonnes pratiques distingue un programme de sauvegarde. Faire constater sur la carte que seuls 3 des 34 éléments UNESCO sont outre-mer. Conclure : la décision réelle sur le Biou appartient au Comité ; l'inventaire national compte plus de 500 pratiques vivantes sans inscription.
+      en: >-
+        Set the vote against the precedents. Granville (2016): UNESCO does not reward a show but a practice carried by a population that keeps changing it. Baguette (2022): an everyday gesture turned into an image of France abroad, heritage as a tool of influence. The giants of Douai and Cassel: a joint file with Belgium; 14 of France's 30 inscriptions are shared with other States. Maloya: music long confined to workers' quarters, now an emblem of Réunion. Yole: the Register of Good Safeguarding Practices recognises a safeguarding programme. Have the class notice on the map that only 3 of the 34 UNESCO elements are overseas. Conclude: the real decision on the Biou is the Committee's; the national inventory holds over 500 living practices with no inscription.
+    students:
+      fr: >-
+        Les élèves complètent un tableau à trois colonnes : enjeu (rayonnement, tourisme, figement, appropriation, consentement), exemple pris sur le site, effet possible sur la communauté. Ils observent sur la carte filtrée la répartition des éléments UNESCO et proposent une explication à la faible part de l'outre-mer (nombre d'éléments à l'inventaire, choix de l'État, moyens pour monter un dossier), formulée comme une hypothèse à vérifier et non comme une certitude.
+      en: >-
+        Students fill in a three-column table: issue (influence, tourism, freezing, appropriation, consent), example from the site, possible effect on the community. They look at the spread of UNESCO elements on the filtered map and suggest an explanation for the small overseas share (number of elements in the inventory, the State's choices, the means needed to build a file), phrased as a hypothesis to test, not a certainty.
+    prompts:
+      fr:
+        - >-
+          Inscrire, est-ce protéger ou exposer ? Donnez un exemple de chaque effet, pris sur le site.
+        - >-
+          Qui parle au nom d'une tradition : la communauté, l'État, les experts ? Qui devrait avoir le dernier mot ?
+      en:
+        - >-
+          Does inscription protect or expose? Give one example of each effect, taken from the site.
+        - >-
+          Who speaks for a tradition: the community, the State, the experts? Who should have the last word?
+  - minutes: 8
+    title:
+      fr: "Avis motivé au ministère"
+      en: "A reasoned opinion for the ministry"
+    teacher:
+      fr: >-
+        Consigne d'écriture individuelle : une note de 10 à 12 lignes adressée au ministère de la Culture. Structure imposée : la décision recommandée ; deux arguments appuyés sur des faits, dont un précédent ; un risque et la mesure qui le limite. Exiger au moins deux notions de la Convention correctement employées. Ramasser les notes, ou les faire terminer à la maison.
+      en: >-
+        Individual writing task: a 10-to-12-line memo to the Ministry of Culture. Required structure: the recommended decision; two arguments resting on facts, one of them a precedent; one risk and the measure that limits it. Require at least two notions from the Convention used correctly. Collect the memos, or have them finished at home.
+    students:
+      fr: >-
+        Les élèves rédigent leur note en réutilisant au moins deux termes de la Convention (communauté, transmission, sauvegarde, consentement, inventaire) et un exemple du site autre que le Biou. Ceux qui ont fini relisent la note d'un voisin et soulignent son argument le plus solide.
+      en: >-
+        Students write their memo using at least two terms from the Convention (community, transmission, safeguarding, consent, inventory) and one example from the site other than the Biou. Those who finish read a neighbour's memo and underline its strongest argument.
+assessment:
+  fr: >-
+    Trois traces. Le bulletin : un critère pertinent et un fait exact tiré du dossier. La grille de prise de notes : les arguments des autres délégations sont relevés et leur preuve évaluée. L'avis motivé : structure respectée, deux notions de la Convention bien employées, un précédent pertinent, un risque nuancé. Indicateurs de réussite : l'élève distingue inventaire national et inscription UNESCO, sait que l'État dépose le dossier mais que le consentement de la communauté est requis, et n'emploie plus le vocabulaire de l'authenticité ou du figement. En Terminale, l'avis peut servir d'entraînement à l'argumentation écrite ou à un exposé de deux minutes type Grand oral.
+  en: >-
+    Three pieces of evidence. The ballot: a relevant criterion and an accurate fact from the file. The note-taking grid: the other delegations' arguments are recorded and their evidence assessed. The memo: structure followed, two notions from the Convention used correctly, a relevant precedent, a nuanced risk. Success indicators: the student tells the national inventory apart from UNESCO inscription, knows that the State submits the file but the community's consent is required, and no longer uses the vocabulary of authenticity or freezing. In the final year, the memo can serve as practice for written argument or a two-minute Grand oral-style talk.
+differentiation:
+  fr: >-
+    Soutien : des cartes de rôle avec trois arguments amorcés ; une carte des critères illustrée par l'exemple de Granville ; les lecteurs plus lents travaillent sur le résumé du site plutôt que sur la fiche longue ; le rôle de secrétaire de séance pour les élèves moins à l'aise à l'oral. Approfondissement : comparer le vocabulaire de la page UNESCO de Granville avec la fiche d'inventaire ; ajouter une sixième délégation, un État membre du Comité d'un autre continent qui s'interroge sur l'équilibre entre pays très inscrits et pays peu inscrits ; rédiger la décision au format officiel, avec ses considérants.
+  en: >-
+    Support: role cards with three arguments already started; a criteria card illustrated with the Granville example; slower readers work from the site's summary rather than the long fiche; the session secretary role for students less at ease speaking. Stretch: compare the wording of UNESCO's Granville page with the inventory fiche; add a sixth delegation, a Committee member State from another continent questioning the balance between countries with many inscriptions and those with few; draft the decision in official format, with its recitals.
+going_further:
+  fr: >-
+    Suivre la décision réelle sur le Biou sur le site de l'UNESCO et la comparer au vote de la classe. Mener l'enquête sur un élément proche du lycée (« Autour de moi » ou filtre Territoire) : qui le fait vivre ? Faudrait-il le proposer à l'UNESCO, ou l'inventaire national suffit-il ? En Terminale HGGSP, en faire un sujet de Grand oral, par exemple « Inscrire une fête à l'UNESCO, est-ce la protéger ? ». Si une fête inventoriée a lieu près de chez vous (onglet Agenda), l'observer en distinguant ce qui relève de la communauté et ce qui relève du tourisme.
+  en: >-
+    Follow the real decision on the Biou on UNESCO's website and compare it with the class vote. Investigate an element close to the school ("Autour de moi" or the Territory filter): who keeps it going? Should it be put forward to UNESCO, or is the national inventory enough? In the HGGSP final year, turn it into a Grand oral question such as "Does inscribing a festival with UNESCO protect it?". If an inventoried festival takes place nearby (Agenda tab), observe it and tell apart what belongs to the community and what belongs to tourism.
+answer_key:
+  fr: >-
+    Affirmations : 1 faux (aucune hiérarchie entre traditions, l'authenticité n'est pas un critère) ; 2 faux (le patrimoine vivant se recrée, sauvegarder c'est transmettre) ; 3 vrai (R.4, consentement libre, préalable et éclairé) ; 4 vrai (seuls les États parties déposent) ; 5 vrai (14 des 30 inscriptions françaises sont multinationales, dont les géants avec la Belgique) ; 6 vrai (R.5 ; le Biou est à l'inventaire depuis 2013). Faits du dossier Biou : premier dimanche de septembre, près des vendanges, jour de la fête du saint patron et anniversaire de la Libération de 1944 ; organisé par la société de viticulture, la coopérative et la ville ; quatre vignerons porteurs ; grappes de nombreux domaines en bandes blanches et noires ; bénédiction et élévation dans l'église Saint-Just, où une partie du cortège n'entre pas ; second cortège vers le monument aux morts ; vin d'honneur. Arguments attendus : R.1 fête et rituel vivants transmis entre vignerons et générations ; R.2 visibilité d'une fête de petite ville ; risques : afflux touristique, marchandisation, figement, place du religieux. Toute décision est recevable si elle cite un critère et un fait. Carte : 30 inscriptions françaises (26 Liste représentative, 3 Registre, 1 sauvegarde urgente), dont 28 rattachées à 34 éléments de l'inventaire ; 3 de ces éléments sont outre-mer (maloya, gwoka, yole).
+  en: >-
+    Statements: 1 false (no ranking of traditions, authenticity is not a criterion); 2 false (living heritage is recreated, safeguarding means passing on); 3 true (R.4, free, prior and informed consent); 4 true (only States Parties submit); 5 true (14 of France's 30 inscriptions are multinational, including the giants with Belgium); 6 true (R.5; the Biou has been in the inventory since 2013). Biou facts: first Sunday of September, close to the harvest, the patron saint's feast and the anniversary of the 1944 Liberation; run by the winegrowers' society, the cooperative winery and the town; four winegrowers carry the biou; grapes from many estates in white and black bands; blessed and raised in the church of Saint-Just, which part of the procession does not enter; a second procession to the war memorial; a reception with local wine. Expected arguments: R.1 a living festival and ritual passed on among winegrowers and across generations; R.2 visibility for a small-town festival; risks: tourist crowds, commercialisation, freezing, the place of religion. Any decision is acceptable if it cites a criterion and a fact. Map: France's 30 inscriptions (26 Representative List, 3 Register, 1 Urgent Safeguarding), 28 of them linked to 34 inventory elements; 3 of those elements are overseas (maloya, gwoka, yole).
+lang_review: draft
+review_status: unreviewed
