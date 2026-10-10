@@ -133,3 +133,7 @@ Format: decision. Why. Alternative rejected.
 - **Why.** 495 of the 946 pins shared their exact position with another one (137 spots: Paris 34, Bretagne 20, Loire-Atlantique 14...), because several elements are pinned to the same town or to the centre of a department or region. Only the top pin could be clicked.
 - **How.** At display time (`web/src/spread.ts`), pins on the same spot are laid out on rings 50 m apart around it (6 on the first ring, 12 on the second...); documented elements keep the true spot. Clicking where several elements overlap zooms in (to zoom 16 at most) until they separate, instead of opening one at random. Distances ("Autour de moi"), the detail panel and the open data keep the true coordinates.
 - **Rejected:** offsets in the data (they would leak into distances and the export) and keeping clusters to high zoom levels (neighbouring towns would merge into clusters at regional zoom).
+
+## Favicon and app icon (Paul, 2026-10-10)
+
+- The brand mark of the top bar (sun, diamond and ring on navy) is the favicon (`favicon.svg`, with a 32 px PNG fallback) and the icon of the web app manifest, so the tab and a home-screen shortcut ("Add to home screen" / "Install") show it. The PNGs are generated from the same shapes by `web/scripts/icons.mjs` (Playwright, already a dev dependency); the maskable and Apple icons are full-bleed with the shapes inside the safe zone. No service worker: the site is not made to work offline.
