@@ -140,5 +140,5 @@ Format: decision. Why. Alternative rejected.
 
 ## Project thumbnail (Paul, 2026-10-10)
 
-- One thumbnail, made from the real map and the brand: `web/public/og-image.png` (1200x630, Open Graph and Twitter tags in `index.html`, so a shared link shows it) and `docs/social-preview.png` (1280x640, top of the README, for the GitHub repository card and the portfolio). `web/scripts/thumbnail.mjs` regenerates both from the running preview; the counts come from the built data and the fonts are the self-hosted ones. The map tiles are credited on the image (OpenFreeMap, OpenMapTiles, OpenStreetMap).
+- One thumbnail, made from the real map and the brand: `web/public/og-image.png` (1200x630, Open Graph and Twitter tags in `index.html`, so a shared link shows it) and `docs/social-preview.png` (1280x640, top of the README, for the GitHub repository card and the portfolio). `web/scripts/thumbnail.mjs` regenerates both from the running preview. The layout is centred and sparse (logo, title, one line, element count, the map faded behind) because LinkedIn crops the sides of link images in some places; the count comes from the built data and the fonts are the self-hosted ones. The map tiles are credited on the image (OpenFreeMap, OpenMapTiles, OpenStreetMap).
 - The Open Graph image URL is absolute (link scrapers need one), so it names the GitHub Pages address.

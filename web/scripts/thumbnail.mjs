@@ -12,13 +12,11 @@ const font = (pkg, file) =>
 const DISPLAY = font("bricolage-grotesque", "bricolage-grotesque-latin-wght-normal.woff2");
 const BODY = font("atkinson-hyperlegible-next", "atkinson-hyperlegible-next-latin-wght-normal.woff2");
 
-// Counts come from the built data, never typed by hand.
+// The count comes from the built data, never typed by hand.
 const inventory = JSON.parse(readFileSync(`${WEB}public/data/inventory.json`, "utf-8")).elements;
-const unesco = inventory.filter((e) => e.unesco).length;
-const sheets = JSON.parse(readFileSync(`${WEB}public/data/mediation.json`, "utf-8")).count;
 
 const MARK =
-  '<svg viewBox="0 0 32 32" width="64" height="64">' +
+  '<svg viewBox="0 0 32 32" width="76" height="76">' +
   '<rect x="1" y="1" width="30" height="30" rx="9" fill="#ffffff" fill-opacity="0.08"/>' +
   '<circle cx="12.5" cy="13" r="6.5" fill="#f2b84b" stroke="#13294b" stroke-width="1.5"/>' +
   '<path d="M21 13.5 26.5 19 21 24.5 15.5 19Z" fill="#7cc4a8" stroke="#13294b" stroke-width="1.5"/>' +
@@ -37,7 +35,8 @@ await site.waitForTimeout(1500);
 const map = (await site.locator(".map").screenshot()).toString("base64");
 await site.close();
 
-// 2. The card: brand and facts on the left, the map bleeding off the right edge.
+// 2. The card: the map as a faded backdrop, brand and one line centred so that crops
+// (LinkedIn trims the sides in some places) never cut the text.
 function card(width, height) {
   return `<!doctype html><html lang="fr"><head><meta charset="utf-8"><style>
 @font-face{font-family:Display;src:url(data:font/woff2;base64,${DISPLAY}) format("woff2");font-weight:200 800}
@@ -45,30 +44,22 @@ function card(width, height) {
 *{box-sizing:border-box}
 html,body{margin:0;width:${width}px;height:${height}px;overflow:hidden}
 body{background:#13294b;color:#fff;font-family:Body,sans-serif;position:relative}
-.glow{position:absolute;inset:0;background:radial-gradient(circle at 18% 22%,rgba(242,184,75,.16),transparent 42%),radial-gradient(circle at 40% 95%,rgba(124,196,168,.14),transparent 40%)}
-.text{position:absolute;left:64px;top:56px;bottom:52px;width:${Math.round(width * 0.47)}px;display:flex;flex-direction:column}
-.kicker{margin:22px 0 0;font-size:19px;letter-spacing:.08em;text-transform:uppercase;color:#c6d2e6}
-h1{font-family:Display,sans-serif;font-weight:750;font-size:${Math.round(height * 0.14)}px;line-height:.95;letter-spacing:-.02em;margin:14px 0 18px}
-.fr{font-size:27px;line-height:1.3;margin:0;color:#fff}
-.en{font-size:21px;line-height:1.35;margin:10px 0 0;color:#c6d2e6}
-.chips{display:flex;gap:10px;margin-top:auto;flex-wrap:wrap}
-.chip{border:1.5px solid rgba(255,255,255,.28);border-radius:999px;padding:8px 16px;font-size:19px;font-weight:600}
-.chip b{color:#f2b84b}
-.url{margin-top:18px;font-family:Display,sans-serif;font-size:18px;color:#c6d2e6;letter-spacing:.01em}
-.map{position:absolute;top:44px;bottom:44px;left:${Math.round(width * 0.555)}px;right:-40px;border-radius:28px 0 0 28px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.35);border:3px solid rgba(255,255,255,.12)}
-.map img{width:100%;height:100%;object-fit:cover;object-position:50% 45%;display:block}
-.credit{position:absolute;right:16px;bottom:10px;font-size:11px;color:rgba(255,255,255,.55)}
-</style></head><body><div class="glow"></div>
+.map{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;filter:grayscale(.35) contrast(.9);opacity:.55}
+.veil{position:absolute;inset:0;background:radial-gradient(ellipse 38% 70% at 50% 50%,#13294b 60%,rgba(19,41,75,.6) 100%)}
+.text{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:620px;text-align:center;display:flex;flex-direction:column;align-items:center}
+h1{font-family:Display,sans-serif;font-weight:750;font-size:92px;line-height:1;letter-spacing:-.02em;margin:22px 0 18px;white-space:nowrap}
+p{margin:0;font-size:26px;line-height:1.35;color:#dbe3f0;text-wrap:balance}
+.meta{margin-top:20px;font-size:19px;color:#f2b84b;font-weight:600;letter-spacing:.02em}
+.credit{position:absolute;right:14px;bottom:8px;font-size:11px;color:rgba(255,255,255,.6)}
+</style></head><body>
+<img class="map" src="data:image/png;base64,${map}" alt="">
+<div class="veil"></div>
 <div class="text">
   ${MARK}
-  <p class="kicker">Patrimoine culturel immatériel</p>
   <h1>Carte du PCI</h1>
-  <p class="fr">L’Inventaire national du patrimoine culturel immatériel en France, sur une carte.</p>
-  <p class="en">France’s national inventory of intangible cultural heritage, mapped. FR / EN.</p>
-  <div class="chips"><span class="chip"><b>${inventory.length}</b> éléments</span><span class="chip"><b>${sheets}</b> fiches pédagogiques</span><span class="chip"><b>${unesco}</b> UNESCO</span></div>
-  <div class="url">paulbenard01.github.io/Mapatrimoine</div>
+  <p>Le patrimoine culturel immatériel de France, sur une carte.</p>
+  <div class="meta">${inventory.length} éléments · FR / EN</div>
 </div>
-<div class="map"><img src="data:image/png;base64,${map}" alt=""></div>
 <div class="credit">Fond de carte © OpenFreeMap, OpenMapTiles, OpenStreetMap</div>
 </body></html>`;
 }
