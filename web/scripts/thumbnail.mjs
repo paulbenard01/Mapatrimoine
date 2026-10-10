@@ -35,31 +35,33 @@ await site.waitForTimeout(1500);
 const map = (await site.locator(".map").screenshot()).toString("base64");
 await site.close();
 
-// 2. The card: the map as a faded backdrop, brand and one line centred so that crops
-// (LinkedIn trims the sides in some places) never cut the text.
+// 2. The card: brand on the left, starting well inside the frame (LinkedIn trims the sides
+// in some places), and the map bleeding off the right edge.
 function card(width, height) {
+  const left = Math.round(width * 0.12);
+  const mapLeft = Math.round(width * 0.53);
   return `<!doctype html><html lang="fr"><head><meta charset="utf-8"><style>
 @font-face{font-family:Display;src:url(data:font/woff2;base64,${DISPLAY}) format("woff2");font-weight:200 800}
 @font-face{font-family:Body;src:url(data:font/woff2;base64,${BODY}) format("woff2");font-weight:200 800}
 *{box-sizing:border-box}
 html,body{margin:0;width:${width}px;height:${height}px;overflow:hidden}
 body{background:#13294b;color:#fff;font-family:Body,sans-serif;position:relative}
-.map{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;filter:grayscale(.35) contrast(.9);opacity:.55}
-.veil{position:absolute;inset:0;background:radial-gradient(ellipse 38% 70% at 50% 50%,#13294b 60%,rgba(19,41,75,.6) 100%)}
-.text{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:620px;text-align:center;display:flex;flex-direction:column;align-items:center}
-h1{font-family:Display,sans-serif;font-weight:750;font-size:92px;line-height:1;letter-spacing:-.02em;margin:22px 0 18px;white-space:nowrap}
-p{margin:0;font-size:26px;line-height:1.35;color:#dbe3f0;text-wrap:balance}
+.glow{position:absolute;inset:0;background:radial-gradient(circle at 22% 30%,rgba(242,184,75,.12),transparent 40%),radial-gradient(circle at 35% 90%,rgba(124,196,168,.10),transparent 40%)}
+.text{position:absolute;left:${left}px;width:${mapLeft - left - 48}px;top:50%;transform:translateY(-50%)}
+h1{font-family:Display,sans-serif;font-weight:750;font-size:72px;line-height:1;letter-spacing:-.02em;margin:22px 0 18px;white-space:nowrap}
+p{margin:0;font-size:25px;line-height:1.35;color:#dbe3f0;text-wrap:balance}
 .meta{margin-top:20px;font-size:19px;color:#f2b84b;font-weight:600;letter-spacing:.02em}
-.credit{position:absolute;right:14px;bottom:8px;font-size:11px;color:rgba(255,255,255,.6)}
-</style></head><body>
-<img class="map" src="data:image/png;base64,${map}" alt="">
-<div class="veil"></div>
+.map{position:absolute;top:48px;bottom:48px;left:${mapLeft}px;right:-40px;border-radius:28px 0 0 28px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.35);border:3px solid rgba(255,255,255,.12)}
+.map img{width:100%;height:100%;object-fit:cover;object-position:45% 45%;display:block}
+.credit{position:absolute;right:14px;bottom:10px;font-size:11px;color:rgba(255,255,255,.55)}
+</style></head><body><div class="glow"></div>
 <div class="text">
   ${MARK}
   <h1>Carte du PCI</h1>
   <p>Le patrimoine culturel immatériel de France, sur une carte.</p>
   <div class="meta">${inventory.length} éléments · FR / EN</div>
 </div>
+<div class="map"><img src="data:image/png;base64,${map}" alt=""></div>
 <div class="credit">Fond de carte © OpenFreeMap, OpenMapTiles, OpenStreetMap</div>
 </body></html>`;
 }
