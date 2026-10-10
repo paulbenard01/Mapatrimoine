@@ -16,6 +16,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 // let Vite bundle the worker (with its shared chunk) and pass the resulting URL.
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 
+import { spreadStacked } from "./spread";
 import { THEME_COLORS } from "./theme-colors";
 import { THEMES, type Location, type Theme } from "./types";
 
@@ -64,6 +65,9 @@ export interface MapEntry {
 }
 
 /** Cluster size in px: the same steps size the HTML donut and the invisible click target. */
+// Zoom at which pins 50 m apart are about 30 px apart (France).
+const STACK_ZOOM = 16;
+
 const clusterRadius = (count: number) => (count >= 50 ? 26 : count >= 15 ? 22 : count >= 5 ? 19 : 16);
 
 function donutSegment(start: number, end: number, r: number, r0: number, color: string): string {
@@ -183,23 +187,30 @@ export function createMap(
   let ready = false;
   let byId = new Map<string, MapEntry>();
 
-  const toGeoJSON = (entries: MapEntry[]): FeatureCollection => ({
-    type: "FeatureCollection",
-    features: entries.flatMap((entry) =>
+  const toGeoJSON = (entries: MapEntry[]): FeatureCollection => {
+    const pins = entries.flatMap((entry) =>
       entry.locations.map((loc) => ({
-        type: "Feature" as const,
-        geometry: { type: "Point" as const, coordinates: [loc.lon, loc.lat] },
+        lat: loc.lat,
+        lon: loc.lon,
+        id: entry.id,
+        icon: entry.icon,
+        theme: entry.theme,
+        title: entry.title,
         // Documented elements draw above the located-only ones.
-        properties: {
-          id: entry.id,
-          icon: entry.icon,
-          theme: entry.theme,
-          title: entry.title,
-          rank: entry.icon.startsWith("located") ? 0 : 1,
-        },
+        rank: entry.icon.startsWith("located") ? 0 : 1,
       })),
-    ),
-  });
+    );
+    // Pins on the same spot are spread 50 m apart; documented ones keep the true spot.
+    const positions = spreadStacked(pins, (a, b) => b.rank - a.rank || a.id.localeCompare(b.id));
+    return {
+      type: "FeatureCollection",
+      features: pins.map(({ lat: _lat, lon: _lon, ...properties }, i) => ({
+        type: "Feature" as const,
+        geometry: { type: "Point" as const, coordinates: positions[i] },
+        properties,
+      })),
+    };
+  };
 
   map.on("error", (e: ErrorEvent) => {
     // A failed style or tile request must not break the page; the list stays usable.
@@ -304,7 +315,23 @@ export function createMap(
     map.easeTo({ center, zoom, animate: !reducedMotion() });
   });
   map.on("click", "points", (e: MapLayerMouseEvent) => {
-    const id = e.features?.[0]?.properties?.id;
+    const features = e.features ?? [];
+    // Several pins under the pointer (a town or a department centre): zoom in until the
+    // pins, spread 50 m apart, can be told apart, rather than picking one at random.
+    if (new Set(features.map((f) => f.properties?.id)).size > 1 && map.getZoom() < STACK_ZOOM) {
+      const coords = features.map((f) => (f.geometry as Point).coordinates as [number, number]);
+      const lons = coords.map((c) => c[0]);
+      const lats = coords.map((c) => c[1]);
+      map.fitBounds(
+        [
+          [Math.min(...lons), Math.min(...lats)],
+          [Math.max(...lons), Math.max(...lats)],
+        ],
+        { padding: 60, maxZoom: STACK_ZOOM, animate: !reducedMotion() },
+      );
+      return;
+    }
+    const id = features[0]?.properties?.id;
     if (id) onSelect(id);
   });
   for (const layer of ["clusters", "points"]) {
