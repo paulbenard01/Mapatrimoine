@@ -137,3 +137,19 @@ Format: decision. Why. Alternative rejected.
 ## Favicon and app icon (Paul, 2026-10-10)
 
 - The brand mark of the top bar (sun, diamond and ring on navy) is the favicon (`favicon.svg`, with a 32 px PNG fallback) and the icon of the web app manifest, so the tab and a home-screen shortcut ("Add to home screen" / "Install") show it. The PNGs are generated from the same shapes by `web/scripts/icons.mjs` (Playwright, already a dev dependency); the maskable and Apple icons are full-bleed with the shapes inside the safe zone. No service worker: the site is not made to work offline.
+
+## Project thumbnail (Paul, 2026-10-10)
+
+- One thumbnail, made from the real map and the brand: `web/public/og-image.png` (1200x630, Open Graph and Twitter tags in `index.html`, so a shared link shows it) and `docs/social-preview.png` (1280x640, top of the README, for the GitHub repository card and the portfolio). `web/scripts/thumbnail.mjs` regenerates both from the running preview. The layout is sparse (logo, title, one line, element count) with the text starting well inside the frame and the map on the right, because LinkedIn crops the sides of link images in some places; the count comes from the built data and the fonts are the self-hosted ones. The map tiles are credited on the image (OpenFreeMap, OpenMapTiles, OpenStreetMap).
+- The Open Graph image URL is absolute (link scrapers need one), so it names the GitHub Pages address.
+
+## In-depth research files (Paul, 2026-10-20)
+
+- **Why.** Paul prepares France's 2027 periodic report and meets the sector's actors; the UNESCO elements need real knowledge files (history, nomination, safeguarding, debates, people, figures), not only mediation sheets. Protocol: `recherche/PROTOCOLE.md`.
+- **One file per inscription, keyed like `data/unesco.yaml`.** An inscription can cover several fiches (giants, Aubusson) or none (Tocatì, transhumance), so the inscription, not the inventory fiche, is the unit. Nominations (Biou d'Arbois) use `status: nominated` with their own titles.
+- **Markdown with YAML front matter.** Long prose stays readable and reviewable in the repository; the parts the interface reuses (identity, 30-second summary, key facts, conversation aids, sources) are structured in the front matter so a future "prepare a meeting" page can assemble them. The site generates sections 1, 2, 11 and 14 from it.
+- **Sources as numbered markers.** `[S3]` in the text, sources listed once with URL, publisher, kind and consultation date. The build refuses unknown markers, quotes over 25 words and indicators outside I1-I26, and counts `[À VÉRIFIER]` flags, which the site shows.
+- **Own Markdown renderer** (`pci.markdown`, about a hundred lines): headings, lists, tables, emphasis, links, markers; everything else escaped. Rejected: a Markdown library (a dependency, and raw HTML support to disable).
+- **Public, French only, people named.** Paul chose to publish everything (2026-10-20). The files are in French (the interface says so in English). They name important people in their public role, an exception to the site's "no names" rule limited to these files; never contact details.
+- **Downloaded documents stay private.** `sources/` (UNESCO nomination files and reports Paul downloads by hand) is git-ignored: summarised and cited, never republished.
+- **Generated tracking.** `pci build` regenerates `recherche/suivi.md` (state, date, sources, points to verify per file) and `recherche/a-telecharger.md` (from the batch notes), so they cannot drift.

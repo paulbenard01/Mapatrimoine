@@ -1,6 +1,8 @@
 # Hard rule: never commit raw fiches or full extracted text (see CLAUDE.md, DATA_NOTICE.md)
 data/raw/
 data/text/
+# Documents downloaded by hand for the research files (UNESCO nominations, reports): never published
+sources/
 
 # Python
 __pycache__/

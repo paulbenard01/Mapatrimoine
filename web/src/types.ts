@@ -93,6 +93,7 @@ export interface InventoryEntry {
 }
 
 export interface Unesco {
+  key: string; // inscription key in data/unesco.yaml (and research file name)
   name_en: string;
   name_fr: string | null;
   list: "RL" | "USL" | "GSP";
@@ -198,3 +199,95 @@ export interface Resources {
   lessons: Lesson[];
   stories: Story[];
 }
+
+// In-depth research files (content/, French only). Strings marked "html" were rendered and
+// escaped by the pipeline (pci.markdown): they only hold a few whitelisted tags.
+export type InterlocutorKind = "association" | "local_authority" | "researcher" | "institution";
+
+export interface DossierSource {
+  id: string;
+  title: string;
+  publisher: string;
+  url: string;
+  consulted: string;
+  kind: "unesco" | "ministere" | "porteur" | "recherche" | "presse" | "autre";
+}
+
+export interface DossierSection {
+  id: string;
+  title: string;
+  html: string;
+}
+
+interface DossierStats {
+  last_checked: string;
+  to_verify: number;
+  words: number;
+  source_count: number;
+}
+
+export interface DossierElementSummary extends DossierStats {
+  key: string;
+  status: "inscribed" | "nominated";
+  title_fr: string;
+  list: Unesco["list"];
+  year: number;
+  inventory: string[];
+}
+
+export interface DossierThemeSummary extends DossierStats {
+  key: string;
+  number: number;
+  title: string;
+  elements: string[];
+}
+
+export interface DossierIndex {
+  elements: DossierElementSummary[];
+  themes: DossierThemeSummary[];
+}
+
+export interface DossierElement extends DossierStats {
+  kind: "element";
+  key: string;
+  status: "inscribed" | "nominated";
+  title_fr: string;
+  title_en: string;
+  list: Unesco["list"];
+  year: number;
+  unesco_url: string | null;
+  multinational: boolean;
+  inventory: { id: string; title: string; year_included: number | null; fiche_url: string | null }[];
+  identity: {
+    decision: string; // html
+    unesco_file: string; // html
+    states: string[]; // html
+    extensions: string[]; // html
+    territories: string; // html
+    communities: string; // html
+    bodies: string[]; // html
+    domains: ("oral" | "performing-arts" | "social-practices" | "nature-knowledge" | "craftsmanship")[];
+  };
+  summary_30s: string; // html
+  key_facts: string[]; // html
+  conversation: {
+    vocabulary: { term: string; note: string }[]; // html
+    mistakes: string[]; // html
+    sensitive: string[]; // html
+    questions: Record<InterlocutorKind, string[]>; // html
+  };
+  sections: DossierSection[];
+  sources: DossierSource[];
+}
+
+export interface DossierTheme extends DossierStats {
+  kind: "theme";
+  key: string;
+  number: number;
+  title: string;
+  elements: string[];
+  sections: DossierSection[];
+  sources: DossierSource[];
+}
+
+export type Dossier = DossierElement | DossierTheme;

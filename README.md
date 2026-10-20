@@ -1,5 +1,7 @@
 # PCI Map / Carte du PCI
 
+[![Carte du PCI: map of France with the elements of the national inventory of intangible cultural heritage / carte de France des éléments de l'Inventaire du PCI](docs/social-preview.png)](https://paulbenard01.github.io/Mapatrimoine/)
+
 ## English
 
 An interactive, bilingual (FR/EN) map and catalogue of France's national **Inventaire du patrimoine culturel immatériel** (PCI), the official inventory of intangible cultural heritage kept by the Ministère de la Culture.

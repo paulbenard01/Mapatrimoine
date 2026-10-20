@@ -1,0 +1,58 @@
+{
+"elements": [
+{
+"key": "fest-noz",
+"status": "inscribed",
+"title_fr": "Le fest-noz, rassemblement festif basé sur la pratique collective des danses traditionnelles de Bretagne",
+"list": "RL",
+"year": 2012,
+"last_checked": "2026-10-20",
+"to_verify": 2,
+"words": 1984,
+"source_count": 30,
+"inventory": [
+"2014_67717_INV_PCI_FRANCE_00340"
+]
+},
+{
+"key": "aubusson-tapestry",
+"status": "inscribed",
+"title_fr": "La tapisserie d’Aubusson",
+"list": "RL",
+"year": 2009,
+"last_checked": "2026-10-20",
+"to_verify": 7,
+"words": 1838,
+"source_count": 31,
+"inventory": [
+"2008_67717_INV_PCI_FRANCE_00035",
+"2020_67717_INV_PCI_FRANCE_00485"
+]
+}
+],
+"themes": [
+{
+"key": "02-politique-francaise",
+"number": 2,
+"title": "La politique française du PCI",
+"elements": [
+"maloya",
+"gwoka",
+"martinique-yole",
+"cantu-in-paghjella",
+"gastronomic-meal",
+"french-equitation",
+"timber-framing-scribing",
+"compagnonnage",
+"baguette",
+"parisian-zinc-roofers",
+"pyrenees-bear-festivities",
+"funfair-culture"
+],
+"last_checked": "2026-10-20",
+"to_verify": 5,
+"words": 1946,
+"source_count": 32
+}
+]
+}

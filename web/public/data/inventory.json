@@ -772,6 +772,7 @@
 "alt": "Le fest-noz"
 },
 "unesco": {
+"key": "fest-noz",
 "name_en": "Fest-Noz, festive gathering based on the collective practice of traditional dances of Brittany",
 "name_fr": "Le fest-noz, rassemblement festif basé sur la pratique collective des danses traditionnelles de Bretagne",
 "list": "RL",
@@ -917,6 +918,7 @@
 "alt": "Le carnaval de Granville (Manche)"
 },
 "unesco": {
+"key": "granville-carnival",
 "name_en": "Carnival of Granville",
 "name_fr": "Le carnaval de Granville",
 "list": "RL",
@@ -967,6 +969,7 @@
 "alt": "Les fêtes de l'Ours du Haut-Vallespir (Pyrénées-Orientales)"
 },
 "unesco": {
+"key": "pyrenees-bear-festivities",
 "name_en": "Bear festivities in the Pyrenees",
 "name_fr": "Les fêtes de l’Ours dans les Pyrénées",
 "list": "RL",
@@ -1039,6 +1042,7 @@
 "alt": "Le carnaval de Cassel (Nord)"
 },
 "unesco": {
+"key": "processional-giants",
 "name_en": "Processional giants and dragons in Belgium and France",
 "name_fr": "Géants et dragons processionnels de Belgique et de France",
 "list": "RL",
@@ -1067,6 +1071,7 @@
 "alt": "Les fêtes de Gayant à Douai (Nord)"
 },
 "unesco": {
+"key": "processional-giants",
 "name_en": "Processional giants and dragons in Belgium and France",
 "name_fr": "Géants et dragons processionnels de Belgique et de France",
 "list": "RL",
@@ -1583,6 +1588,7 @@
 "alt": "La culture vivante de la fête foraine"
 },
 "unesco": {
+"key": "funfair-culture",
 "name_en": "Funfair culture",
 "name_fr": "La culture foraine",
 "list": "RL",
@@ -2282,6 +2288,7 @@
 "alt": "Les fêtes de la Tarasque (Bouches-du-Rhône)"
 },
 "unesco": {
+"key": "processional-giants",
 "name_en": "Processional giants and dragons in Belgium and France",
 "name_fr": "Géants et dragons processionnels de Belgique et de France",
 "list": "RL",
@@ -2310,6 +2317,7 @@
 "alt": "Le carnaval de Pézenas (Hérault)"
 },
 "unesco": {
+"key": "processional-giants",
 "name_en": "Processional giants and dragons in Belgium and France",
 "name_fr": "Géants et dragons processionnels de Belgique et de France",
 "list": "RL",
@@ -5025,6 +5033,7 @@
 "alt": "La fauconnerie française"
 },
 "unesco": {
+"key": "falconry",
 "name_en": "Falconry, a living human heritage",
 "name_fr": "La fauconnerie, un patrimoine humain vivant",
 "list": "RL",
@@ -5078,6 +5087,7 @@
 "alt": "L'équitation de tradition française"
 },
 "unesco": {
+"key": "french-equitation",
 "name_en": "Equitation in the French tradition",
 "name_fr": "L’équitation de tradition française",
 "list": "RL",
@@ -5529,6 +5539,7 @@
 "alt": "L'alpinisme"
 },
 "unesco": {
+"key": "alpinism",
 "name_en": "Alpinism",
 "name_fr": "L'alpinisme",
 "list": "RL",
@@ -6105,6 +6116,7 @@
 "alt": "La yole ronde de la Martinique"
 },
 "unesco": {
+"key": "martinique-yole",
 "name_en": "The Martinique yole, from construction to sailing practices, a model for heritage safeguarding",
 "name_fr": "La yole de Martinique, de la construction aux pratiques de navigation, un modèle de sauvegarde du patrimoine",
 "list": "GSP",
@@ -6464,6 +6476,7 @@
 "alt": "Le maloya de la Réunion"
 },
 "unesco": {
+"key": "maloya",
 "name_en": "Maloya",
 "name_fr": "Le Maloya",
 "list": "RL",
@@ -6893,6 +6906,7 @@
 "alt": "Le versu composite de Carbuccia"
 },
 "unesco": {
+"key": "cantu-in-paghjella",
 "name_en": "Cantu in paghjella, a secular and liturgical oral tradition of Corsica",
 "name_fr": "Le Cantu in paghjella profane et liturgique de Corse de tradition orale",
 "list": "USL",
@@ -6946,6 +6960,7 @@
 "alt": "Le versu composite de Nebbiu"
 },
 "unesco": {
+"key": "cantu-in-paghjella",
 "name_en": "Cantu in paghjella, a secular and liturgical oral tradition of Corsica",
 "name_fr": "Le Cantu in paghjella profane et liturgique de Corse de tradition orale",
 "list": "USL",
@@ -6999,6 +7014,7 @@
 "alt": "Le versu entier de Sermanu"
 },
 "unesco": {
+"key": "cantu-in-paghjella",
 "name_en": "Cantu in paghjella, a secular and liturgical oral tradition of Corsica",
 "name_fr": "Le Cantu in paghjella profane et liturgique de Corse de tradition orale",
 "list": "USL",
@@ -7051,6 +7067,7 @@
 "alt": "Le gwoka de la Guadeloupe"
 },
 "unesco": {
+"key": "gwoka",
 "name_en": "Gwoka: music, song, dance and cultural practice representative of Guadeloupean identity",
 "name_fr": "Le gwoka : musique, chants, danses et pratique culturelle représentatifs de l’identité guadeloupéenne",
 "list": "RL",
@@ -7780,6 +7797,7 @@
 "alt": "L'art des sonneurs de trompe"
 },
 "unesco": {
+"key": "horn-players",
 "name_en": "Musical art of horn players, an instrumental technique linked to singing, breath control, vibrato, resonance of place and conviviality",
 "name_fr": "L'art musical des sonneurs de trompe, une technique instrumentale liée au chant, à la maîtrise du souffle, au vibrato, à la résonance des lieux et à la convivialité",
 "list": "RL",
@@ -15942,6 +15960,7 @@
 "alt": "Les ostensions septennales limousines"
 },
 "unesco": {
+"key": "limousin-ostensions",
 "name_en": "Limousin septennial ostensions",
 "name_fr": "Les ostensions septennales limousines",
 "list": "RL",
@@ -17287,6 +17306,7 @@
 "alt": "Les brandons de la Saint-Jean et de la Saint-Pierre à Bagnères-de-Luchon (Haute-Garonne)"
 },
 "unesco": {
+"key": "pyrenees-solstice-fires",
 "name_en": "Summer solstice fire festivals in the Pyrenees",
 "name_fr": "Les fêtes du feu du solstice d'été dans les Pyrénées",
 "list": "RL",
@@ -18426,6 +18446,7 @@
 "alt": "Le savoir-faire de la dentelle au point d'Alençon"
 },
 "unesco": {
+"key": "alencon-lace",
 "name_en": "Craftsmanship of Alençon needle lace-making",
 "name_fr": "Le savoir-faire de la dentelle au point d’Alençon",
 "list": "RL",
@@ -18691,6 +18712,7 @@
 "alt": "Le repas gastronomique des Français"
 },
 "unesco": {
+"key": "gastronomic-meal",
 "name_en": "Gastronomic meal of the French",
 "name_fr": "Le repas gastronomique des Français",
 "list": "RL",
@@ -18791,6 +18813,7 @@
 "alt": "La tapisserie d'Aubusson (Creuse)"
 },
 "unesco": {
+"key": "aubusson-tapestry",
 "name_en": "Aubusson tapestry",
 "name_fr": "La tapisserie d’Aubusson",
 "list": "RL",
@@ -18891,6 +18914,7 @@
 "alt": "Le trait de charpente"
 },
 "unesco": {
+"key": "timber-framing-scribing",
 "name_en": "Scribing tradition in French timber framing",
 "name_fr": "La tradition du tracé dans la charpente française",
 "list": "RL",
@@ -19007,6 +19031,7 @@
 "alt": "Le compagnonnage"
 },
 "unesco": {
+"key": "compagnonnage",
 "name_en": "Compagnonnage, network for on-the-job transmission of knowledge and identities",
 "name_fr": "Le compagnonnage, réseau de transmission des savoirs et des identités par le métier",
 "list": "RL",
@@ -19757,6 +19782,7 @@
 "alt": "L'art de la construction en pierre sèche"
 },
 "unesco": {
+"key": "dry-stone",
 "name_en": "Art of dry stone construction, knowledge and techniques",
 "name_fr": "L’art de la construction en pierre sèche : savoir-faire et techniques",
 "list": "RL",
@@ -20906,6 +20932,7 @@
 "alt": "Les savoir-faire liés au parfum en pays de Grasse"
 },
 "unesco": {
+"key": "grasse-perfume",
 "name_en": "The skills related to perfume in Pays de Grasse: the cultivation of perfume plants, the knowledge and processing of natural raw materials, and the art of perfume composition",
 "name_fr": "Les savoir-faire liés au parfum en Pays de Grasse : la culture de la plante à parfum, la connaissance des matières premières naturelles et leur transformation, l'art de composer le parfum",
 "list": "RL",
@@ -22275,6 +22302,7 @@
 "alt": "Les savoir-faire du couvreur zingueur parisien"
 },
 "unesco": {
+"key": "parisian-zinc-roofers",
 "name_en": "Skills of Parisian zinc roofers and ornamentalists",
 "name_fr": "Les savoir-faire des couvreurs-zingueurs parisiens et des ornemanistes",
 "list": "RL",
@@ -22328,6 +22356,7 @@
 "alt": "Les savoir-faire de la Fondation Notre-Dame appliqués à la cathédrale de Strasbourg (bas-Rhin) et sa collaboration coutumière"
 },
 "unesco": {
+"key": "cathedral-workshops",
 "name_en": "Craft techniques and customary practices of cathedral workshops, or Bauhütten, in Europe, know-how, transmission, development of knowledge and innovation",
 "name_fr": "Les techniques artisanales et les pratiques coutumières des ateliers de cathédrales, ou \"Bauhütten\", en Europe, savoir-faire, transmission, développement des savoirs, innovation",
 "list": "GSP",
@@ -22705,6 +22734,7 @@
 "alt": "L'artisanat de la perle de verre en France"
 },
 "unesco": {
+"key": "glass-beads",
 "name_en": "The art of glass beads",
 "name_fr": "L'art de la perle de verre",
 "list": "RL",
@@ -23039,6 +23069,7 @@
 "alt": "Les savoir-faire artisanaux et la culture de la baguette de pain"
 },
 "unesco": {
+"key": "baguette",
 "name_en": "Artisanal know-how and culture of baguette bread",
 "name_fr": "Les savoir-faire artisanaux et la culture de la baguette de pain",
 "list": "RL",
@@ -23100,6 +23131,7 @@
 "alt": "Les savoir-faire de la mécanique horlogère"
 },
 "unesco": {
+"key": "mechanical-watchmaking",
 "name_en": "Craftsmanship of mechanical watchmaking and art mechanics",
 "name_fr": "Les savoir-faire en mécanique horlogère et mécanique d'art",
 "list": "RL",
@@ -23314,6 +23346,7 @@
 "alt": "Les gestes des métiers d'art verriers"
 },
 "unesco": {
+"key": "handmade-glass",
 "name_en": "Knowledge, craft and skills of handmade glass production",
 "name_fr": "Connaissances, techniques et savoir-faire du verre artisanal",
 "list": "RL",
@@ -25007,6 +25040,7 @@
 "alt": "Les savoir-faire des lissiers d’Aubusson-Felletin"
 },
 "unesco": {
+"key": "aubusson-tapestry",
 "name_en": "Aubusson tapestry",
 "name_fr": "La tapisserie d’Aubusson",
 "list": "RL",
