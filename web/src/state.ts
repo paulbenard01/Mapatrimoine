@@ -14,6 +14,7 @@ export interface State extends Filters {
   story: string | null; // guided story being followed
   step: number; // 0 = intro, 1..n = steps, n + 1 = conclusion
   lesson: string | null; // printable lesson plan
+  dossier: string | null; // in-depth research file (UNESCO element or thematic dossier)
 }
 
 export const RADII = [10, 25, 50, 100, 250] as const;
@@ -55,6 +56,7 @@ export function parseState(search: string, languages: readonly string[]): State 
     story: /^[a-z0-9-]{3,40}$/.test(p.get("story") ?? "") ? p.get("story") : null,
     step: Math.max(0, Math.min(20, Number.parseInt(p.get("step") ?? "0", 10) || 0)),
     lesson: /^[a-z0-9-]{3,40}$/.test(p.get("lesson") ?? "") ? p.get("lesson") : null,
+    dossier: /^[a-z0-9-]{3,60}$/.test(p.get("dossier") ?? "") ? p.get("dossier") : null,
   };
 }
 
@@ -76,6 +78,7 @@ export function serializeState(state: State, extra: Record<string, string> = {})
   if (state.story) p.set("story", state.story);
   if (state.story && state.step) p.set("step", String(state.step));
   if (state.lesson) p.set("lesson", state.lesson);
+  if (state.dossier) p.set("dossier", state.dossier);
   for (const [k, v] of Object.entries(extra)) p.set(k, v);
   return `?${p.toString()}`;
 }

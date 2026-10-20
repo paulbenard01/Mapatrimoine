@@ -21,12 +21,15 @@ import {
 import { RADII, parseState, resolveToday, serializeState, type State } from "./state";
 import { THEME_COLORS } from "./theme-colors";
 import { h, svg, type Child } from "./dom";
+import { longDate, renderDossier } from "./dossier";
 import { renderLesson } from "./lesson";
 import { renderSheet } from "./sheet";
 import { upcomingPeriods } from "./recurrence";
 import {
   THEMES,
   type Announced,
+  type Dossier,
+  type DossierIndex,
   type Element,
   type InventoryEntry,
   type Location,
@@ -74,6 +77,9 @@ let sheets: Record<string, MediationSheet> = {};
 let announced: Announced | null = null;
 let resources: Resources = { media: {}, lessons: [], stories: [] };
 let otherSheetsOpen = false;
+let dossierIndex: DossierIndex = { elements: [], themes: [] };
+const dossierCache = new Map<string, Dossier | "missing">();
+let lastDossier: string | null = null;
 let lastStoryKey = ""; // story + step last shown, to fly the map only on change
 let mapView: MapView | null = null;
 let mapFailed = false;
@@ -183,7 +189,7 @@ function goHome() {
   openMenu = null;
   cameFromMap = false;
   const narrow = window.matchMedia("(max-width: 899px)").matches;
-  setState({ view: "inventory", selected: null, sheet: false, story: null, step: 0, lesson: null, pane: narrow ? "map" : "list" });
+  setState({ view: "inventory", selected: null, sheet: false, story: null, step: 0, lesson: null, dossier: null, pane: narrow ? "map" : "list" });
   showMap();
   window.scrollTo({ top: 0 });
   document.querySelector<HTMLElement>('[data-key="home"]')?.focus();
@@ -710,6 +716,31 @@ function announcedSection(id: string): HTMLElement | null {
   );
 }
 
+/** The research file that covers this inventory element (UNESCO inscription or nomination). */
+function dossierFor(id: string): string | null {
+  return dossierIndex.elements.find((d) => d.inventory.includes(id))?.key ?? null;
+}
+
+function openDossierButton(id: string): HTMLElement | null {
+  const key = dossierFor(id);
+  if (!key) return null;
+  return h(
+    "p",
+    {},
+    h(
+      "button",
+      { type: "button", class: "open-sheet open-dossier", "data-key": "open-dossier", onclick: () => openDossier(key, "open-dossier") },
+      STRINGS[state.lang].readDossier,
+    ),
+  );
+}
+
+let dossierReturnKey: string | null = null;
+function openDossier(key: string, returnKey: string) {
+  dossierReturnKey = returnKey;
+  setState({ dossier: key });
+}
+
 function openSheetButton(id: string): HTMLElement | null {
   if (!sheets[id]) return null;
   const s = STRINGS[state.lang];
@@ -782,6 +813,8 @@ function renderDetail(item: Item): HTMLElement {
       h("p", { class: "note" }, entry.summary ? s.shortOnly : s.notDocumented),
       mediaSection(entry.id),
       openSheetButton(entry.id),
+    openDossierButton(entry.id),
+      openDossierButton(entry.id),
       ficheLink,
     );
   }
@@ -865,6 +898,7 @@ function renderDetail(item: Item): HTMLElement {
       : h("p", { class: "badge practice" }, s.practiceNoDate),
     mediaSection(entry.id),
     openSheetButton(entry.id),
+    openDossierButton(entry.id),
     ficheLink,
   );
 }
@@ -1096,6 +1130,99 @@ function storyChips(): HTMLElement | null {
   );
 }
 
+// ---------- research files ----------
+function renderDossierMode(): boolean {
+  const key = state.dossier;
+  document.body.classList.toggle("lesson-mode", Boolean(key));
+  let root = document.getElementById("dossier-root");
+  if (!key) {
+    root?.remove();
+    return false;
+  }
+  if (!root) {
+    root = h("div", { id: "dossier-root" });
+    app.append(root);
+  }
+  const s = STRINGS[state.lang];
+  const back = () => setState({ dossier: null });
+  const cached = dossierCache.get(key);
+  if (!cached) {
+    root.replaceChildren(h("p", { class: "dossier-status", role: "status" }, s.dossierLoading));
+    fetch(`${import.meta.env.BASE_URL}data/dossiers/${key}.json`)
+      .then((r): Promise<Dossier | "missing"> | "missing" => (r.ok ? (r.json() as Promise<Dossier>) : "missing"))
+      .catch((): "missing" => "missing")
+      .then((d: Dossier | "missing") => {
+        dossierCache.set(key, d);
+        if (state.dossier === key) render();
+      });
+    return true;
+  }
+  if (cached === "missing") {
+    root.replaceChildren(
+      h("div", { class: "dossier-status" }, h("p", { role: "alert" }, s.dossierMissing), h("button", { type: "button", "data-key": "dossier-back", onclick: back }, `← ${s.sheetBack}`)),
+    );
+    return true;
+  }
+  root.replaceChildren(
+    renderDossier(cached, dossierIndex, state.lang, import.meta.env.BASE_URL, back, () =>
+      setState({ lang: state.lang === "fr" ? "en" : "fr" }),
+    ),
+  );
+  return true;
+}
+
+function dossiersSection(): HTMLElement | null {
+  const { elements, themes } = dossierIndex;
+  if (!elements.length && !themes.length) return null;
+  const s = STRINGS[state.lang];
+  const card = (key: string, title: string, tag: Child, meta: string) =>
+    h(
+      "li",
+      {},
+      h(
+        "article",
+        { class: "card dossier-card" },
+        tag,
+        h("h4", { lang: "fr" }, title),
+        h("p", { class: "card-meta" }, meta),
+        h(
+          "div",
+          { class: "card-actions" },
+          h("button", { type: "button", class: "primary", "data-key": `dossier-${key}`, onclick: () => openDossier(key, `dossier-${key}`) }, s.openDossier),
+        ),
+      ),
+    );
+  return h(
+    "section",
+    { class: "res-section", "aria-labelledby": "dossiers-title" },
+    h("header", {}, h("h3", { id: "dossiers-title" }, s.dossiersTitle), h("p", { class: "count" }, s.dossiersCount(elements.length + themes.length))),
+    h("p", { class: "section-note" }, s.dossiersIntro),
+    themes.length
+      ? [
+          h("h4", { class: "res-subtitle" }, s.dossiersThemes),
+          h("ul", { class: "cards" }, themes.map((d) => card(d.key, d.title, h("span", { class: "card-theme" }, s.dossierThemeKicker(d.number)), s.dossierCardMeta(d.to_verify, longDate(d.last_checked, state.lang))))),
+        ]
+      : null,
+    elements.length
+      ? [
+          h("h4", { class: "res-subtitle" }, s.dossiersElements),
+          h(
+            "ul",
+            { class: "cards" },
+            elements.map((d) =>
+              card(
+                d.key,
+                d.title_fr,
+                d.status === "nominated" ? h("span", { class: "unesco-tag pending" }, s.nominatedTag) : h("span", { class: "unesco-tag" }, `UNESCO ${d.year}`),
+                s.dossierCardMeta(d.to_verify, longDate(d.last_checked, state.lang)),
+              ),
+            ),
+          ),
+        ]
+      : null,
+  );
+}
+
 // ---------- lessons ----------
 function renderLessonMode(): boolean {
   const lesson = state.lesson ? resources.lessons.find((l) => l.id === state.lesson) : undefined;
@@ -1249,11 +1376,13 @@ function renderResources(all: Item[]): HTMLElement {
       h(
         "nav",
         { class: "res-jump", "aria-label": s.resourcesTitle },
+        dossierIndex.elements.length || dossierIndex.themes.length ? h("a", { href: "#dossiers-title" }, s.dossiersTitle) : null,
         resources.lessons.length ? h("a", { href: "#lessons-title" }, s.lessonsTitle) : null,
         resources.stories.length ? h("a", { href: "#stories-title" }, s.storiesTitle) : null,
         h("a", { href: "#worksheets-title" }, s.worksheetsTitle),
         h("a", { href: "#open-data-title" }, s.openDataTitle),
       ),
+      dossiersSection(),
       lessonsSection(),
       storiesSection(),
       h("h3", { class: "res-kicker", id: "worksheets-title" }, s.worksheetsTitle),
@@ -1581,6 +1710,22 @@ function render() {
     }
   } else lastStoryKey = "";
 
+  if (renderDossierMode()) {
+    const d = dossierCache.get(state.dossier!);
+    if (d && d !== "missing") document.title = `${d.kind === "element" ? d.title_fr : d.title} · ${s.dossierKicker}`;
+    if (lastDossier !== state.dossier) {
+      window.scrollTo({ top: 0 });
+      if (d) document.getElementById("dossier-title")?.focus({ preventScroll: true });
+    } else if (focusKey) document.querySelector<HTMLElement>(`[data-key="${focusKey}"]`)?.focus();
+    if (d) lastDossier = state.dossier;
+    return;
+  }
+  if (lastDossier) {
+    lastDossier = null;
+    document.querySelector<HTMLElement>(`[data-key="${dossierReturnKey ?? "open-dossier"}"]`)?.focus();
+    dossierReturnKey = null;
+    return;
+  }
   if (renderLessonMode()) {
     const lesson = resources.lessons.find((l) => l.id === state.lesson)!;
     document.title = `${lesson.title[state.lang]} · ${s.lessonKicker}`;
@@ -1656,8 +1801,10 @@ function closeMenusOnOutsideInput() {
 
 async function init() {
   closeMenusOnOutsideInput();
+  // Printing a research file prints every section, folded or not.
+  window.addEventListener("beforeprint", () => document.querySelectorAll<HTMLDetailsElement>(".dossier details").forEach((d) => (d.open = true)));
   const base = import.meta.env.BASE_URL;
-  const [inventory, curated, mediation, extra, listed] = await Promise.all([
+  const [inventory, curated, mediation, extra, listed, researched] = await Promise.all([
     fetch(`${base}data/inventory.json`).then((r) => r.json() as Promise<{ elements: InventoryEntry[] }>),
     fetch(`${base}data/elements.json`).then((r) => r.json() as Promise<{ elements: Element[] }>),
     // Optional: the site works without mediation sheets.
@@ -1670,11 +1817,15 @@ async function init() {
     fetch(`${base}data/announced.json`)
       .then((r) => (r.ok ? (r.json() as Promise<Announced>) : null))
       .catch(() => null),
+    fetch(`${base}data/dossiers/index.json`)
+      .then((r) => (r.ok ? (r.json() as Promise<DossierIndex>) : null))
+      .catch(() => null),
   ]);
   entries = mergeEntries(inventory.elements, curated.elements);
   sheets = mediation.sheets;
   announced = listed;
   if (extra) resources = extra;
+  if (researched) dossierIndex = researched;
   render();
   if (state.zone === "overseas") mapView?.fit(AREAS[presentAreas()[0] ?? "guadeloupe"]);
   if (state.selected) mapView?.select(state.selected, true);

@@ -98,3 +98,12 @@ describe("stories and lessons", () => {
     expect([bad.story, bad.step, bad.lesson]).toEqual([null, 0, null]);
   });
 });
+
+describe("research files", () => {
+  test("dossier round-trips; bad keys are dropped", () => {
+    const s = parseState("?dossier=aubusson-tapestry", ["fr"]);
+    expect(s.dossier).toBe("aubusson-tapestry");
+    expect(serializeState(s)).toContain("dossier=aubusson-tapestry");
+    expect(parseState("?dossier=../etc", ["fr"]).dossier).toBeNull();
+  });
+});

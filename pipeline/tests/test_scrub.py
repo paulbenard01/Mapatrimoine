@@ -8,7 +8,7 @@ from pci import ROOT
 from pci.scrub import find_personal_data, scan
 
 # Directories whose committed files are published or fixtures.
-SCANNED = ["data", "web/public/data", "pipeline/tests/fixtures"]
+SCANNED = ["data", "content", "recherche", "web/public/data", "pipeline/tests/fixtures"]
 
 
 @pytest.mark.parametrize(

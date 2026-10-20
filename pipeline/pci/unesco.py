@@ -41,6 +41,7 @@ def unesco_records(data: dict) -> dict[str, dict]:
     inscriptions = data.get("inscriptions") or {}
     return {
         ident: {
+            "key": entry["unesco"],
             "name_en": inscriptions[entry["unesco"]]["name_en"],
             "name_fr": inscriptions[entry["unesco"]].get("name_fr"),
             "list": inscriptions[entry["unesco"]]["list"],

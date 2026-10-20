@@ -18,8 +18,19 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("fetch-datatourisme", help="download today's DATAtourisme events export")
     announced = sub.add_parser("announced", help="match DATAtourisme events -> announced.json")
     announced.add_argument("--today", help="YYYY-MM-DD; keep periods ending on/after it")
+    sub.add_parser("check-links", help="report dead links in the research files (content/)")
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
+    if args.command == "check-links":
+        from pci.dossiers import source_urls
+        from pci.links import check_links
+
+        pairs = source_urls()
+        broken = check_links(pairs)
+        for label, url, problem in broken:
+            print(f"{label}: {problem} {url}")
+        print(f"{len(broken)} broken of {len({u for _, u in pairs})} links in content/")
+        return 1 if broken else 0
     if args.command == "fetch-index":
         from pci.index import fetch_index
 
@@ -83,6 +94,7 @@ def main(argv: list[str] | None = None) -> int:
         print(f"review status -> {REVIEW_PATH.relative_to(REVIEW_PATH.parents[1])}")
         return 0
     from pci.build import OUTPUT_PATH, BuildError, build, build_inventory
+    from pci.dossiers import DossierError, build_dossiers
     from pci.mediation import MediationError, build_mediation
     from pci.opendata import build_opendata
     from pci.resources import ResourcesError, build_resources
@@ -104,7 +116,8 @@ def main(argv: list[str] | None = None) -> int:
         sheets = build_mediation(summarised, unesco=inscribed)
         resources = build_resources({e["id"] for e in json_inventory()})
         build_opendata(OUTPUT_PATH.parent)
-    except (BuildError, MediationError, ResourcesError) as exc:
+        dossiers = build_dossiers()
+    except (BuildError, MediationError, ResourcesError, DossierError) as exc:
         print(f"build failed:\n{exc}", file=sys.stderr)
         return 1
     print(f"{len(elements)} curated elements -> web/public/data/elements.json")
@@ -115,6 +128,10 @@ def main(argv: list[str] | None = None) -> int:
         f"{resources['stories']} stories -> web/public/data/resources.json"
     )
     print(f"{count} rows -> web/public/data/open/pci-inventaire.{{csv,json}}")
+    print(
+        f"{dossiers['elements']} research files, {dossiers['themes']} thematic dossiers "
+        "-> web/public/data/dossiers/"
+    )
     return 0
 
 

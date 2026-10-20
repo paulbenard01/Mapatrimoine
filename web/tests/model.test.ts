@@ -80,6 +80,7 @@ const lace: InventoryEntry = {
   location_sources: [{ kind: "pcilab", url: "https://www.pci-lab.fr/x", publisher: "PCI Lab" }],
   image: null,
   unesco: {
+    key: "example",
     name_en: "Example inscription",
     name_fr: null,
     list: "RL",
