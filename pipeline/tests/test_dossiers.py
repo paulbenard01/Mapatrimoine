@@ -131,3 +131,10 @@ def test_stats_count_flags():
 def test_committed_research_files_are_valid(tmp_path):
     dossiers.build_dossiers(output=tmp_path)
     assert (tmp_path / "index.json").exists()
+
+
+def test_verify_flags_with_a_note_are_counted_and_shown():
+    out = inline("Directeur [À VÉRIFIER : direction actuelle].")
+    assert '<mark class="verify">à vérifier : direction actuelle</mark>' in out
+    stats = dossiers._stats(element_meta(), BODY + "\n[À VÉRIFIER] et [À VÉRIFIER : note]")
+    assert stats["to_verify"] == 2

@@ -172,7 +172,11 @@ def _html(value):
 def _stats(meta: dict, body: str) -> dict:
     text = "\n".join(_strings({k: v for k, v in meta.items() if k != "sources"})) + "\n" + body
     words = len(re.findall(r"\w+", SOURCE.sub("", text)))
-    return {"to_verify": text.count(VERIFY), "words": words, "source_count": len(meta["sources"])}
+    return {
+        "to_verify": len(VERIFY.findall(text)),
+        "words": words,
+        "source_count": len(meta["sources"]),
+    }
 
 
 def _rendered_sections(body: str) -> list[dict]:

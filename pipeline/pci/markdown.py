@@ -9,7 +9,8 @@ import html
 import re
 
 SOURCE = re.compile(r"\[(S\d+)\]")
-VERIFY = "[À VÉRIFIER]"
+# "[À VÉRIFIER]", optionally with a note: "[À VÉRIFIER : direction actuelle]".
+VERIFY = re.compile(r"\[À VÉRIFIER(?:\s*:\s*([^\]]+?))?\s*\]")
 LINK = re.compile(r"\[([^\]]+)\]\((https?://[^\s)]+)\)")
 BOLD = re.compile(r"\*\*(.+?)\*\*")
 ITALIC = re.compile(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])")
@@ -40,7 +41,14 @@ def inline(text: str) -> str:
 
     out = LINK.sub(keep_link, text)
     out = html.escape(out, quote=False)
-    out = out.replace(html.escape(VERIFY, quote=False), '<mark class="verify">à vérifier</mark>')
+    out = VERIFY.sub(
+        lambda m: (
+            '<mark class="verify">à vérifier'
+            + (f" : {m.group(1)}" if m.group(1) else "")
+            + "</mark>"
+        ),
+        out,
+    )
     out = BOLD.sub(r"<strong>\1</strong>", out)
     out = ITALIC.sub(r"<em>\1</em>", out)
     out = SOURCE.sub(

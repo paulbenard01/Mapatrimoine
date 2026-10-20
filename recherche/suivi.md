@@ -42,7 +42,7 @@ Généré par `pci build` à partir de `content/` ; ne pas modifier à la main. 
 | Dossier | État | Vérifié le | Sources | À vérifier |
 |---|---|---|---:|---:|
 | 1. Le système UNESCO du PCI | à faire | | | |
-| 2. La politique française du PCI (`02-politique-francaise`) | vérifié | 2026-10-20 | 32 | 2 |
+| 2. La politique française du PCI (`02-politique-francaise`) | vérifié | 2026-10-20 | 32 | 5 |
 | 3. Les savoir-faire artisanaux et les métiers d'art | à faire | | | |
 | 4. Les musiques, danses et chants | à faire | | | |
 | 5. Les fêtes, rituels et carnavals | à faire | | | |
