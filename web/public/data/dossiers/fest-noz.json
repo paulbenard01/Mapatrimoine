@@ -1,0 +1,392 @@
+{
+"kind": "element",
+"key": "fest-noz",
+"status": "inscribed",
+"title_fr": "Le fest-noz, rassemblement festif basé sur la pratique collective des danses traditionnelles de Bretagne",
+"title_en": "Fest-Noz, festive gathering based on the collective practice of traditional dances of Brittany",
+"list": "RL",
+"year": 2012,
+"unesco_url": "https://ich.unesco.org/en/RL/fest-noz-festive-gathering-based-on-the-collective-practice-of-traditional-dances-of-brittany-00707",
+"multinational": false,
+"inventory": [
+{
+"id": "2014_67717_INV_PCI_FRANCE_00340",
+"title": "Le fest-noz",
+"year_included": 2014,
+"fiche_url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Fest-Noz"
+}
+],
+"identity": {
+"decision": "7.COM 11.13 <sup class=\"src\"><a href=\"#src-S3\" data-src=\"S3\">3</a></sup>",
+"unesco_file": "00707 <sup class=\"src\"><a href=\"#src-S1\" data-src=\"S1\">1</a></sup>",
+"states": [
+"France"
+],
+"extensions": [],
+"territories": "Bretagne historique (cinq départements, Loire-Atlantique comprise) et diaspora, surtout la région parisienne <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>. En 2012-2025, des festoù-noz ont eu lieu dans 1 162 communes bretonnes, environ 800 villes du reste de la France et 34 pays <sup class=\"src\"><a href=\"#src-S13\" data-src=\"S13\">13</a></sup>.",
+"communities": "Danseurs, chanteurs, musiciens, organisateurs (surtout associatifs), écoles, luthiers et archives <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>.",
+"bodies": [
+"Dastum (Rennes) : coordination de la candidature, archives sonores <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup> <sup class=\"src\"><a href=\"#src-S9\" data-src=\"S9\">9</a></sup>",
+"Tamm-Kreiz : agenda en ligne et observatoire du fest-noz <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup> <sup class=\"src\"><a href=\"#src-S14\" data-src=\"S14\">14</a></sup>",
+"Bretagne Culture Diversité : inventaire du PCI en Bretagne <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup> <sup class=\"src\"><a href=\"#src-S10\" data-src=\"S10\">10</a></sup>",
+"Kenleur (ex-Kendalc'h et War'l Leur) : transmission de la danse <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup> <sup class=\"src\"><a href=\"#src-S18\" data-src=\"S18\">18</a></sup>"
+],
+"domains": [
+"performing-arts",
+"social-practices"
+]
+},
+"summary_30s": "Le fest-noz (« fête de nuit » en breton) est un bal public de danses bretonnes, sur du chant ou de la musique <sup class=\"src\"><a href=\"#src-S1\" data-src=\"S1\">1</a></sup>. Sa forme actuelle, en salle et payante, est née dans le Centre-Bretagne au milieu des années 1950 <sup class=\"src\"><a href=\"#src-S7\" data-src=\"S7\">7</a></sup> <sup class=\"src\"><a href=\"#src-S19\" data-src=\"S19\">19</a></sup>. Porté par Dastum et un collectif d'associations, il est inscrit sur la Liste représentative de l'UNESCO depuis 2012 <sup class=\"src\"><a href=\"#src-S3\" data-src=\"S3\">3</a></sup> <sup class=\"src\"><a href=\"#src-S9\" data-src=\"S9\">9</a></sup>. Plus de 1 100 festoù-noz ont lieu chaque année en Bretagne, mais leur modèle économique reste fragile <sup class=\"src\"><a href=\"#src-S11\" data-src=\"S11\">11</a></sup> <sup class=\"src\"><a href=\"#src-S13\" data-src=\"S13\">13</a></sup>.",
+"key_facts": [
+"Inscrit en décembre 2012 (décision 7.COM 11.13, dossier 00707), premier élément breton sur une liste de l'UNESCO <sup class=\"src\"><a href=\"#src-S3\" data-src=\"S3\">3</a></sup> <sup class=\"src\"><a href=\"#src-S9\" data-src=\"S9\">9</a></sup>.",
+"Le dossier comptait environ un millier de festoù-noz par an et des dizaines de milliers de danseurs réguliers <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>.",
+"Le renouveau part de Poullaouen : premier concours de kan ha diskan le 26 décembre 1954, essor à partir de 1957 <sup class=\"src\"><a href=\"#src-S19\" data-src=\"S19\">19</a></sup> <sup class=\"src\"><a href=\"#src-S20\" data-src=\"S20\">20</a></sup>.",
+"En 2024 : 1 175 festoù-noz en Bretagne, 90 ailleurs en France, 217 entrées payantes en médiane <sup class=\"src\"><a href=\"#src-S11\" data-src=\"S11\">11</a></sup>.",
+"Sondage 2025 (1 835 répondants) : âge médian de 48 ans, près de 10 % comprennent le breton <sup class=\"src\"><a href=\"#src-S14\" data-src=\"S14\">14</a></sup>.",
+"En 2026, Dastum, Tamm-Kreiz et Bretagne Culture Diversité actualisent la fiche d'inventaire et le plan de sauvegarde <sup class=\"src\"><a href=\"#src-S10\" data-src=\"S10\">10</a></sup>."
+],
+"conversation": {
+"vocabulary": [
+{
+"term": "inscrit",
+"note": "Inscrit sur une liste de l'UNESCO, jamais « classé » (terme des monuments historiques)."
+},
+{
+"term": "inventaire, inscription, sauvegarde",
+"note": "Inventaire national du ministère ; inscription par le Comité de l'UNESCO ; sauvegarde menée par les porteurs."
+},
+{
+"term": "PCI et patrimoine mondial",
+"note": "Convention de 2003 (immatériel), distincte de celle de 1972 (sites et monuments)."
+},
+{
+"term": "festoù-noz, fest-deiz",
+"note": "Festoù-noz est le pluriel breton ; le fest-deiz se tient l'après-midi."
+},
+{
+"term": "kan ha diskan",
+"note": "Chant à danser en breton à deux voix qui se relaient en se chevauchant (tuilage)."
+},
+{
+"term": "sonneurs de couple",
+"note": "Biniou et bombarde, par exemple."
+}
+],
+"mistakes": [
+"Dire « classé » ou « patrimoine mondial ».",
+"Présenter le fest-noz actuel comme immémorial : sa forme publique date des années 1950.",
+"Le confondre avec un spectacle de cercle celtique : on y danse soi-même.",
+"Croire que l'inscription protège juridiquement ou finance le fest-noz.",
+"Parler de Kendalc'h et War'l Leur au présent : elles forment Kenleur depuis 2020."
+],
+"sensitive": [
+"La rentabilité des soirées pour les organisateurs bénévoles.",
+"Qui parle au nom du fest-noz : le rôle de Dastum est discuté par la recherche.",
+"La faible part des femmes sur scène (23 % en 2025)."
+],
+"questions": {
+"association": [
+"Comment équilibrez-vous sono, cachets et entrées ?",
+"Qu'a changé l'inscription de 2012 pour vos bénévoles ?",
+"Les débutants apprennent-ils en cours ou directement au bal ?",
+"Quelle place pour les jeunes groupes et les musiciennes ?",
+"Qu'attendez-vous du plan de sauvegarde actualisé ?"
+],
+"local_authority": [
+"Quelles salles conviennent à un fest-noz, lesquelles découragent le public ?",
+"Comment aidez-vous les organisateurs occasionnels ?",
+"Le fest-noz figure-t-il dans votre politique culturelle ?",
+"Utilisez-vous les données de Tamm-Kreiz sur votre territoire ?",
+"Le fest-noz aide-t-il à accueillir les nouveaux habitants ?"
+],
+"researcher": [
+"Où passe la frontière entre continuité et invention dans les années 1950 ?",
+"Que montrent les sondages de public de 2004 à 2025 ?",
+"Comment l'inscription a-t-elle pesé sur la légitimité des porteurs ?",
+"Quelles danses ont regagné des territoires où elles avaient disparu ?",
+"Quels fonds d'archives sur la danse restent à étudier ?"
+],
+"institution": [
+"Comment l'État et la Région ont-ils suivi les mesures du dossier ?",
+"Le rapport périodique de 2021 traite-t-il du fest-noz ?",
+"Comment la fiche d'inventaire actualisée sera-t-elle validée ?",
+"Qui finance l'observatoire et l'aide aux organisateurs ?",
+"Quelle place l'école donne-t-elle à la danse bretonne ?"
+]
+}
+},
+"sections": [
+{
+"id": "description-approfondie",
+"title": "Description approfondie",
+"html": "<p>On y enchaîne des danses en chaîne ou en ronde (les plus anciennes), des danses à figures issues des contredanses et des danses en couple ; des dizaines, voire des centaines de variantes locales <sup class=\"src\"><a href=\"#src-S7\" data-src=\"S7\">7</a></sup>. On danse sur du chant (kan ha diskan), des sonneurs de couple, des solistes ou des groupes qui croisent rock, jazz ou électro <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup> <sup class=\"src\"><a href=\"#src-S7\" data-src=\"S7\">7</a></sup>. Les organisateurs vont des associations culturelles aux comités des fêtes, clubs sportifs et écoles <sup class=\"src\"><a href=\"#src-S7\" data-src=\"S7\">7</a></sup> ; en 2025, bars et entreprises en organisent environ 8 % <sup class=\"src\"><a href=\"#src-S12\" data-src=\"S12\">12</a></sup>. La danse s'apprend en cours, mais aussi sur place, par imitation ; l'art de mener la danse se transmet dans la pratique <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>. La décision décrit des rassemblements « transmis de génération en génération, recréés et réinventés au fil du temps » <sup class=\"src\"><a href=\"#src-S4\" data-src=\"S4\">4</a></sup>.</p>"
+},
+{
+"id": "histoire-et-contexte",
+"title": "Histoire et contexte",
+"html": "<p>Ces danses accompagnaient noces, travaux agricoles, pardons et veillées ; « fest-noz » désignait dans le centre de la Bretagne la fête de fin de travaux collectifs <sup class=\"src\"><a href=\"#src-S7\" data-src=\"S7\">7</a></sup> <sup class=\"src\"><a href=\"#src-S21\" data-src=\"S21\">21</a></sup>. Au XXe siècle, ces occasions reculent ; les cercles celtiques collectent les danses <sup class=\"src\"><a href=\"#src-S7\" data-src=\"S7\">7</a></sup>. Au milieu des années 1950, des militants reprennent le mot pour une formule inspirée du bal : soirée publique, sonorisée, payante <sup class=\"src\"><a href=\"#src-S7\" data-src=\"S7\">7</a></sup>. Le succès vient surtout dans les années 1970 <sup class=\"src\"><a href=\"#src-S7\" data-src=\"S7\">7</a></sup>. Goré y voit une forme réinventée devenue symbole de la territorialité bretonne : récit identitaire et histoire se distinguent <sup class=\"src\"><a href=\"#src-S21\" data-src=\"S21\">21</a></sup>.</p>\n<h3 id=\"chronologie\">Chronologie</h3>\n<ul><li><strong>1954</strong> : premier concours de kan ha diskan à Poullaouen, le 26 décembre, organisé par Loeiz Ropars <sup class=\"src\"><a href=\"#src-S19\" data-src=\"S19\">19</a></sup>.</li><li><strong>1957</strong> : vrai décollage du renouveau, amorcé en 1955 <sup class=\"src\"><a href=\"#src-S20\" data-src=\"S20\">20</a></sup>.</li><li><strong>1964</strong> : soirée de bal breton et fest-noz aux Fêtes de Cornouaille (Quimper) <sup class=\"src\"><a href=\"#src-S20\" data-src=\"S20\">20</a></sup>.</li><li><strong>1972</strong> : création de Dastum <sup class=\"src\"><a href=\"#src-S22\" data-src=\"S22\">22</a></sup>.</li><li><strong>2002</strong> : 984 festoù-noz selon la fiche d'inventaire, 1 191 selon Goré <sup class=\"src\"><a href=\"#src-S7\" data-src=\"S7\">7</a></sup> <sup class=\"src\"><a href=\"#src-S21\" data-src=\"S21\">21</a></sup>.</li><li><strong>2008</strong> : rencontres sur le PCI à Rennes (Dastum, Irpa), d'où naît le groupe de travail <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>.</li><li><strong>2010</strong> : réunion régionale du 5 juin sur le plan de sauvegarde <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>.</li><li><strong>2011</strong> : inclusion à l'Inventaire national ; 6 905 signatures de soutien <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup> <sup class=\"src\"><a href=\"#src-S3\" data-src=\"S3\">3</a></sup>.</li><li><strong>2012</strong> : inscription le 5 décembre <sup class=\"src\"><a href=\"#src-S3\" data-src=\"S3\">3</a></sup> <sup class=\"src\"><a href=\"#src-S19\" data-src=\"S19\">19</a></sup>.</li><li><strong>2020</strong> : fusion de Kendalc'h et War'l Leur dans Kenleur, votée le 27 juin <sup class=\"src\"><a href=\"#src-S18\" data-src=\"S18\">18</a></sup>.</li><li><strong>2021</strong> : lettre du groupe de travail aux candidats aux régionales <sup class=\"src\"><a href=\"#src-S16\" data-src=\"S16\">16</a></sup> <sup class=\"src\"><a href=\"#src-S24\" data-src=\"S24\">24</a></sup>.</li><li><strong>2022</strong> : poste d'aide aux organisateurs chez Tamm-Kreiz, financé par la Région Bretagne, depuis le 15 février <sup class=\"src\"><a href=\"#src-S17\" data-src=\"S17\">17</a></sup>.</li><li><strong>2026</strong> : réunion publique de Brec'h, le 23 mai, pour actualiser le plan de sauvegarde <sup class=\"src\"><a href=\"#src-S10\" data-src=\"S10\">10</a></sup>.</li></ul>"
+},
+{
+"id": "parcours-d-inscription",
+"title": "Parcours d'inscription",
+"html": "<p>Le groupe de travail, coordonné par Dastum, réunissait Kendalc'h et War'l Leur (environ 20 000 danseurs), Bodadeg ar Sonerion (environ 9 000 musiciens), le pays Centre-Ouest-Bretagne et des artistes, avec la DRAC, le ministère et la Région <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>. Consentement : 6 905 signatures, motions de 41 collectivités, dessins d'enfants <sup class=\"src\"><a href=\"#src-S1\" data-src=\"S1\">1</a></sup> <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>. L'Organe subsidiaire a recommandé l'inscription en septembre 2012, tous critères remplis <sup class=\"src\"><a href=\"#src-S4\" data-src=\"S4\">4</a></sup> ; la décision ne formule aucune recommandation <sup class=\"src\"><a href=\"#src-S3\" data-src=\"S3\">3</a></sup>. Le critère R.5 date l'inclusion à l'Inventaire de 2011, mais l'identifiant de la fiche commence par 2014 <sup class=\"src\"><a href=\"#src-S3\" data-src=\"S3\">3</a></sup> <sup class=\"src\"><a href=\"#src-S7\" data-src=\"S7\">7</a></sup> <mark class=\"verify\">à vérifier</mark>. La page de l'élément ne publie pas de rapport propre <sup class=\"src\"><a href=\"#src-S1\" data-src=\"S1\">1</a></sup> ; le rapport périodique français de décembre 2021 n'a pas pu être lu <sup class=\"src\"><a href=\"#src-S5\" data-src=\"S5\">5</a></sup> <mark class=\"verify\">à vérifier</mark>.</p>"
+},
+{
+"id": "sauvegarde-et-viabilite",
+"title": "Sauvegarde et viabilité",
+"html": "<p>Le dossier prévoyait un observatoire, des actions scolaires, un site dédié et un soutien aux organisateurs bénévoles, déjà épuisés <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>. Réalisations : l'observatoire de Tamm-Kreiz publie ses données chaque année <sup class=\"src\"><a href=\"#src-S11\" data-src=\"S11\">11</a></sup> <sup class=\"src\"><a href=\"#src-S14\" data-src=\"S14\">14</a></sup> ; un poste d'aide aux organisateurs et une commission fest-noz consultative existent depuis 2022 <sup class=\"src\"><a href=\"#src-S17\" data-src=\"S17\">17</a></sup> ; Dastumedia donne accès à environ 140 000 enregistrements <sup class=\"src\"><a href=\"#src-S9\" data-src=\"S9\">9</a></sup>. Le fest-noz du Nouvel An de Quimper a reçu le patronage de la Convention <sup class=\"src\"><a href=\"#src-S1\" data-src=\"S1\">1</a></sup>. En 2021, le groupe de travail jugeait cette pratique « aussi centrale dans les singularités culturelles et sociales bretonnes que menacée » : baisse de fréquentation, salles inadaptées, transmission aux jeunes <sup class=\"src\"><a href=\"#src-S16\" data-src=\"S16\">16</a></sup>. Le Covid a presque arrêté les fest-deiz en 2020-2021 <sup class=\"src\"><a href=\"#src-S12\" data-src=\"S12\">12</a></sup> <mark class=\"verify\">à vérifier</mark>.</p>"
+},
+{
+"id": "enjeux-et-debats-actuels",
+"title": "Enjeux et débats actuels",
+"html": "<p><strong>Économie.</strong> Budget type : 1 600 à 2 100 € de cachets, environ 650 € de sono, 350 € de salle <sup class=\"src\"><a href=\"#src-S15\" data-src=\"S15\">15</a></sup>. Le prix moyen passe de 6,2 € en 2012 à près de 7,80 € en 2025 <sup class=\"src\"><a href=\"#src-S13\" data-src=\"S13\">13</a></sup> ; le public le juge accessible, mais l'organisateur « a régulièrement du mal à s'y retrouver financièrement » <sup class=\"src\"><a href=\"#src-S14\" data-src=\"S14\">14</a></sup>.</p>\n<p><strong>Générations et langue.</strong> Âge médian du public : 48 ans en 2025, cinq ans de moins qu'avant ; la moitié sont des habitués et près de 10 % comprennent le breton <sup class=\"src\"><a href=\"#src-S14\" data-src=\"S14\">14</a></sup>. Yaouank, à Rennes, attire de jeunes artistes <sup class=\"src\"><a href=\"#src-S25\" data-src=\"S25\">25</a></sup>.</p>\n<p><strong>Femmes sur scène.</strong> 23,13 % des artistes en 2025 ; +6 points en quatre ans <sup class=\"src\"><a href=\"#src-S12\" data-src=\"S12\">12</a></sup> <sup class=\"src\"><a href=\"#src-S13\" data-src=\"S13\">13</a></sup>.</p>\n<p><strong>Représentation.</strong> Pour l'anthropologue Jolon Timms, Dastum et l'UNESCO se légitiment mutuellement <sup class=\"src\"><a href=\"#src-S22\" data-src=\"S22\">22</a></sup> ; c'est une interprétation.</p>\n<p><strong>Territoire.</strong> En 2024, Dastum 44 dénonce la fin des subventions des Pays de la Loire à des associations bretonnes <sup class=\"src\"><a href=\"#src-S9\" data-src=\"S9\">9</a></sup>.</p>"
+},
+{
+"id": "chiffres-cles",
+"title": "Chiffres clés",
+"html": "<ul><li>1 135 festoù-noz en Bretagne en 2023, 1 175 en 2024 <sup class=\"src\"><a href=\"#src-S11\" data-src=\"S11\">11</a></sup>.</li><li>1 258 en 2025, périmètre à confirmer <sup class=\"src\"><a href=\"#src-S12\" data-src=\"S12\">12</a></sup> <mark class=\"verify\">à vérifier</mark>.</li><li>Plus de 1 770 événements (fest-noz et fest-deiz) en 2025 <sup class=\"src\"><a href=\"#src-S14\" data-src=\"S14\">14</a></sup>.</li><li>Environ 26 000 événements en 2012-2025, plus de 5 000 organisateurs, 4 124 formations <sup class=\"src\"><a href=\"#src-S13\" data-src=\"S13\">13</a></sup>.</li><li>Entrées payantes médianes : 217 (2024), 200 (2025) <sup class=\"src\"><a href=\"#src-S11\" data-src=\"S11\">11</a></sup> <sup class=\"src\"><a href=\"#src-S12\" data-src=\"S12\">12</a></sup>.</li><li>Prix d'entrée 2025 : 7,60 € ou près de 7,80 € selon les documents <sup class=\"src\"><a href=\"#src-S12\" data-src=\"S12\">12</a></sup> <sup class=\"src\"><a href=\"#src-S13\" data-src=\"S13\">13</a></sup> <mark class=\"verify\">à vérifier</mark>.</li></ul>"
+},
+{
+"id": "qui-est-qui",
+"title": "Qui est qui",
+"html": "<ul><li><strong>Dastum</strong> : ONG accréditée, porteuse de la candidature <sup class=\"src\"><a href=\"#src-S9\" data-src=\"S9\">9</a></sup>. Charles Quimbert, son directeur, en était le contact <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup> ; il dirigera ensuite Bretagne Culture Diversité <sup class=\"src\"><a href=\"#src-S22\" data-src=\"S22\">22</a></sup>. Ronan Guéblez la présidait en 2021-2022 <sup class=\"src\"><a href=\"#src-S16\" data-src=\"S16\">16</a></sup> <sup class=\"src\"><a href=\"#src-S17\" data-src=\"S17\">17</a></sup>. Vincent Morel a rédigé la fiche d'inventaire <sup class=\"src\"><a href=\"#src-S8\" data-src=\"S8\">8</a></sup>.</li><li><strong>Ministère</strong> : Christian Hottin, conservateur à la direction générale des patrimoines, suivait le dossier <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>.</li><li><strong>Tamm-Kreiz</strong> : Jérôme Floury, président en 2022 <sup class=\"src\"><a href=\"#src-S17\" data-src=\"S17\">17</a></sup> ; Stéphane Julou signe les bilans <sup class=\"src\"><a href=\"#src-S11\" data-src=\"S11\">11</a></sup>.</li><li><strong>Kenleur</strong> : siège à Auray, environ 22 000 membres ; Rozenn Le Roy et Solenn Boënnec présidaient les deux fédérations lors de la fusion <sup class=\"src\"><a href=\"#src-S18\" data-src=\"S18\">18</a></sup>.</li><li><strong>Chercheurs</strong> : Fañch Postic <sup class=\"src\"><a href=\"#src-S19\" data-src=\"S19\">19</a></sup>, Olivier Goré <sup class=\"src\"><a href=\"#src-S21\" data-src=\"S21\">21</a></sup>, Jolon Timms <sup class=\"src\"><a href=\"#src-S22\" data-src=\"S22\">22</a></sup>, Desi Wilkinson <sup class=\"src\"><a href=\"#src-S23\" data-src=\"S23\">23</a></sup>, Jean-Michel Guilcher <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>.</li></ul>"
+},
+{
+"id": "lien-avec-le-rapport-periodique",
+"title": "Lien avec le rapport périodique",
+"html": "<p>Indicateurs du Cadre global de résultats <sup class=\"src\"><a href=\"#src-S6\" data-src=\"S6\">6</a></sup> :</p>\n<ul><li><strong>I1</strong> : Dastum, Tamm-Kreiz, Bretagne Culture Diversité et Kenleur sont des organismes compétents <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>.</li><li><strong>I4</strong> : transmission par cercles, écoles associatives et conservatoires <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup>.</li><li><strong>I8</strong> : fiche écrite par les porteurs, actualisation ouverte en 2026 <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup> <sup class=\"src\"><a href=\"#src-S10\" data-src=\"S10\">10</a></sup>.</li><li><strong>I9 et I10</strong> : archives Dastum en ligne, données annuelles de l'observatoire <sup class=\"src\"><a href=\"#src-S9\" data-src=\"S9\">9</a></sup> <sup class=\"src\"><a href=\"#src-S11\" data-src=\"S11\">11</a></sup>.</li><li><strong>I11</strong> : soutien régional à l'aide aux organisateurs <sup class=\"src\"><a href=\"#src-S17\" data-src=\"S17\">17</a></sup>, retrait en Pays de la Loire <sup class=\"src\"><a href=\"#src-S9\" data-src=\"S9\">9</a></sup>.</li><li><strong>I15</strong> : signatures et motions de 2011, sondages de public <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup> <sup class=\"src\"><a href=\"#src-S14\" data-src=\"S14\">14</a></sup>.</li><li><strong>I22</strong> : l'observatoire associatif est un suivi par la société civile <sup class=\"src\"><a href=\"#src-S13\" data-src=\"S13\">13</a></sup>.</li></ul>"
+},
+{
+"id": "comparaisons",
+"title": "Comparaisons",
+"html": "<p>Inventaire : kan ha diskan (2013_67717_INV_PCI_FRANCE_00308), gavotte de Basse-Bretagne (2020_67717_INV_PCI_FRANCE_00458), bals traditionnels en Aquitaine (2010_67717_INV_PCI_FRANCE_00113). À l'étranger : le kolo serbe, danse en chaîne, inscrit en 2017 (12.COM 11.b.28) <sup class=\"src\"><a href=\"#src-S26\" data-src=\"S26\">26</a></sup> ; le nijemo kolo croate, ronde silencieuse, inscrit en 2011 <sup class=\"src\"><a href=\"#src-S27\" data-src=\"S27\">27</a></sup>.</p>"
+},
+{
+"id": "ressources",
+"title": "Ressources",
+"html": "<ul><li>UNESCO (page, film de Dastum, dossier, décision, évaluation) <sup class=\"src\"><a href=\"#src-S1\" data-src=\"S1\">1</a></sup> <sup class=\"src\"><a href=\"#src-S2\" data-src=\"S2\">2</a></sup> <sup class=\"src\"><a href=\"#src-S3\" data-src=\"S3\">3</a></sup> <sup class=\"src\"><a href=\"#src-S4\" data-src=\"S4\">4</a></sup> ; Inventaire <sup class=\"src\"><a href=\"#src-S7\" data-src=\"S7\">7</a></sup> <sup class=\"src\"><a href=\"#src-S8\" data-src=\"S8\">8</a></sup>.</li><li>Recherche <sup class=\"src\"><a href=\"#src-S19\" data-src=\"S19\">19</a></sup> <sup class=\"src\"><a href=\"#src-S21\" data-src=\"S21\">21</a></sup> <sup class=\"src\"><a href=\"#src-S22\" data-src=\"S22\">22</a></sup> <sup class=\"src\"><a href=\"#src-S23\" data-src=\"S23\">23</a></sup> ; observatoire <sup class=\"src\"><a href=\"#src-S11\" data-src=\"S11\">11</a></sup> <sup class=\"src\"><a href=\"#src-S13\" data-src=\"S13\">13</a></sup> ; presse <sup class=\"src\"><a href=\"#src-S24\" data-src=\"S24\">24</a></sup> <sup class=\"src\"><a href=\"#src-S25\" data-src=\"S25\">25</a></sup>.</li></ul>"
+}
+],
+"sources": [
+{
+"id": "S1",
+"title": "Page de l'élément 00707",
+"publisher": "UNESCO",
+"url": "https://ich.unesco.org/fr/RL/fest-noz-festive-gathering-based-on-the-collective-practice-of-traditional-dances-of-brittany-00707",
+"consulted": "2026-10-20",
+"kind": "unesco"
+},
+{
+"id": "S2",
+"title": "Dossier de candidature n° 00707 (révision de juin 2012)",
+"publisher": "UNESCO",
+"url": "https://ich.unesco.org/doc/src/17098-FR-Rev..doc?v=1348065327",
+"consulted": "2026-10-20",
+"kind": "unesco"
+},
+{
+"id": "S3",
+"title": "Décision 7.COM 11.13",
+"publisher": "UNESCO",
+"url": "https://ich.unesco.org/en/decisions/7.COM/11.13",
+"consulted": "2026-10-20",
+"kind": "unesco"
+},
+{
+"id": "S4",
+"title": "Rapport de l'Organe subsidiaire 2012 (ITH/12/7.COM/11 + Add.3)",
+"publisher": "UNESCO",
+"url": "https://ich.unesco.org/doc/src/ITH-12-7.COM-11_+Add.3-FR.doc?v=1354747655",
+"consulted": "2026-10-20",
+"kind": "unesco"
+},
+{
+"id": "S5",
+"title": "France, rapports périodiques",
+"publisher": "UNESCO",
+"url": "https://ich.unesco.org/en/state/france-FR?info=periodic-reporting",
+"consulted": "2026-10-20",
+"kind": "unesco"
+},
+{
+"id": "S6",
+"title": "Cadre global de résultats (résolution 7.GA 9)",
+"publisher": "UNESCO",
+"url": "https://ich.unesco.org/doc/src/41571-FR.pdf",
+"consulted": "2026-10-20",
+"kind": "unesco"
+},
+{
+"id": "S7",
+"title": "Fiche d'inventaire « Le fest-noz »",
+"publisher": "Ministère de la Culture",
+"url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/Le-Fest-Noz",
+"consulted": "2026-10-20",
+"kind": "ministere"
+},
+{
+"id": "S8",
+"title": "Le Fest-noz, fiche n° 49",
+"publisher": "PCI Lab",
+"url": "https://www.pci-lab.fr/fiche-d-inventaire/fiche/49",
+"consulted": "2026-10-20",
+"kind": "ministere"
+},
+{
+"id": "S9",
+"title": "Communiqué sur la suppression de la subvention régionale (23 février 2024)",
+"publisher": "Dastum 44 et Dastum",
+"url": "https://www.dastum.bzh/wp-content/uploads/2024/03/2024-02-23-CP-Suppression-subvention-régionale.pdf",
+"consulted": "2026-10-20",
+"kind": "porteur"
+},
+{
+"id": "S10",
+"title": "Réunion publique : quel avenir pour le fest-noz ?",
+"publisher": "Dastum",
+"url": "https://www.dastum.bzh/actualites/vie-du-reseau/reunion-publique-quel-avenir-pour-le-fest-noz/",
+"consulted": "2026-10-20",
+"kind": "porteur"
+},
+{
+"id": "S11",
+"title": "Zoom sur l'activité du fest-noz en 2024",
+"publisher": "Tamm-Kreiz",
+"url": "https://mag.tamm-kreiz.bzh/index.php/2025/01/31/zoom-sur-lactivite-du-fest-noz-en-2024/",
+"consulted": "2026-10-20",
+"kind": "porteur"
+},
+{
+"id": "S12",
+"title": "Zoom sur l'activité du fest-noz en 2025 (PDF)",
+"publisher": "Tamm-Kreiz",
+"url": "https://mag.tamm-kreiz.bzh/wp-content/uploads/2025/12/zoom.pdf",
+"consulted": "2026-10-20",
+"kind": "porteur"
+},
+{
+"id": "S13",
+"title": "Bilan de l'activité des festoù-noz de 2012 à 2025",
+"publisher": "Tamm-Kreiz",
+"url": "https://mag.tamm-kreiz.bzh/index.php/2026/05/21/bilan-de-lactivite-des-festou-noz-de-2012-a-2025/",
+"consulted": "2026-10-20",
+"kind": "porteur"
+},
+{
+"id": "S14",
+"title": "Résultats du sondage en public 2025 (communiqué)",
+"publisher": "Tamm-Kreiz",
+"url": "https://mag.tamm-kreiz.bzh/wp-content/uploads/2025/12/Communiqué-de-presse_Thomas-et-Stefan.pdf",
+"consulted": "2026-10-20",
+"kind": "porteur"
+},
+{
+"id": "S15",
+"title": "Comment organiser un fest-noz et combien ça coûte ?",
+"publisher": "Tamm-Kreiz",
+"url": "https://mag.tamm-kreiz.bzh/index.php/comment-organiser-un-fest-noz-et-combien-ca-coute/",
+"consulted": "2026-10-20",
+"kind": "porteur"
+},
+{
+"id": "S16",
+"title": "Lettre du groupe de travail fest-noz aux candidats aux régionales (2021)",
+"publisher": "Collectif des acteurs du fest-noz",
+"url": "https://www.dastum.bzh/wp-content/uploads/2021/06/lettre-candidat-fest-noz.pdf",
+"consulted": "2026-10-20",
+"kind": "porteur"
+},
+{
+"id": "S17",
+"title": "Invitation à la réunion de Gourin (30 avril 2022)",
+"publisher": "Commission fest-noz",
+"url": "https://www.dastum.bzh/wp-content/uploads/2022/04/Invitation30avrilGourintexte.pdf",
+"consulted": "2026-10-20",
+"kind": "porteur"
+},
+{
+"id": "S18",
+"title": "La confédération",
+"publisher": "Kenleur",
+"url": "https://www.kenleur.bzh/confederation/",
+"consulted": "2026-10-20",
+"kind": "porteur"
+},
+{
+"id": "S19",
+"title": "Fañch Postic, Le renouveau du fest-noz (Bécédia, 2016)",
+"publisher": "Bretagne Culture Diversité",
+"url": "https://bcd.bzh/becedia/fr/le-renouveau-du-fest-noz",
+"consulted": "2026-10-20",
+"kind": "recherche"
+},
+{
+"id": "S20",
+"title": "Fañch Postic, The Fest-Noz Revival (traduction, 2024)",
+"publisher": "Bretagne Culture Diversité",
+"url": "https://bcd.bzh/becedia/en/node/64967",
+"consulted": "2026-10-20",
+"kind": "recherche"
+},
+{
+"id": "S21",
+"title": "Olivier Goré, Le géosymbole, vecteur de la territorialité régionale (Norois, 2006)",
+"publisher": "OpenEdition",
+"url": "https://journals.openedition.org/norois/2014",
+"consulted": "2026-10-20",
+"kind": "recherche"
+},
+{
+"id": "S22",
+"title": "Jolon Timms, Valorising whose Heritage? (Sociétés & Représentations, 2025)",
+"publisher": "OpenEdition",
+"url": "https://journals.openedition.org/socrep/1217",
+"consulted": "2026-10-20",
+"kind": "recherche"
+},
+{
+"id": "S23",
+"title": "Desi Wilkinson, Call to Dance (2016, rééd. 2023)",
+"publisher": "Edwin Mellen Press",
+"url": "https://edwinmellen.com/book/Desi-Wilkinson/9835",
+"consulted": "2026-10-20",
+"kind": "recherche"
+},
+{
+"id": "S24",
+"title": "Pour éviter de disparaître, les fest-noz demandent de l'aide (31 mai 2021, copie Dastum)",
+"publisher": "Ouest-France",
+"url": "https://www.dastum.bzh/wp-content/uploads/2021/06/Bretagne.-Pour-éviter-de-disparaître-les-fest-noz-demandent-de-l’aide-1.pdf",
+"consulted": "2026-10-20",
+"kind": "presse"
+},
+{
+"id": "S25",
+"title": "Yaouank 2025, toujours le plus grand fest-noz de l'univers",
+"publisher": "France 3 Bretagne",
+"url": "https://france3-regions.franceinfo.fr/bretagne/ille-et-vilaine/rennes/yaouank-2025-toujours-le-plus-grand-fest-noz-de-l-univers-3235883.html",
+"consulted": "2026-10-20",
+"kind": "presse"
+},
+{
+"id": "S26",
+"title": "Kolo, traditional folk dance",
+"publisher": "UNESCO",
+"url": "https://ich.unesco.org/en/RL/kolo-traditional-folk-dance-01270",
+"consulted": "2026-10-20",
+"kind": "unesco"
+},
+{
+"id": "S27",
+"title": "Nijemo Kolo, silent circle dance of the Dalmatian hinterland",
+"publisher": "UNESCO",
+"url": "https://ich.unesco.org/en/RL/nijemo-kolo-silent-circle-dance-of-the-dalmatian-hinterland-00359",
+"consulted": "2026-10-20",
+"kind": "unesco"
+}
+],
+"last_checked": "2026-10-20",
+"to_verify": 5,
+"words": 1728,
+"source_count": 27
+}

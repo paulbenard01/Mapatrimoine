@@ -26,7 +26,7 @@ Généré par `pci build` à partir de `content/` ; ne pas modifier à la main. 
 | Les fêtes du feu du solstice d'été dans les Pyrénées (2015, `pyrenees-solstice-fires`) | à faire | | | |
 | Le gwoka : musique, chants, danses et pratique culturelle représentatifs de l’identité guadeloupéenne (2014, `gwoka`) | à faire | | | |
 | Les ostensions septennales limousines (2013, `limousin-ostensions`) | à faire | | | |
-| Le fest-noz, rassemblement festif basé sur la pratique collective des danses traditionnelles de Bretagne (2012, `fest-noz`) | à faire | | | |
+| Le fest-noz, rassemblement festif basé sur la pratique collective des danses traditionnelles de Bretagne (2012, `fest-noz`) | rédigé | 2026-10-20 | 27 | 5 |
 | L’équitation de tradition française (2011, `french-equitation`) | à faire | | | |
 | Le savoir-faire de la dentelle au point d’Alençon (2010, `alencon-lace`) | à faire | | | |
 | Le compagnonnage, réseau de transmission des savoirs et des identités par le métier (2010, `compagnonnage`) | à faire | | | |

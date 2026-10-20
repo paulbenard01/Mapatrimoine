@@ -1,6 +1,20 @@
 {
 "elements": [
 {
+"key": "fest-noz",
+"status": "inscribed",
+"title_fr": "Le fest-noz, rassemblement festif basé sur la pratique collective des danses traditionnelles de Bretagne",
+"list": "RL",
+"year": 2012,
+"last_checked": "2026-10-20",
+"to_verify": 5,
+"words": 1728,
+"source_count": 27,
+"inventory": [
+"2014_67717_INV_PCI_FRANCE_00340"
+]
+},
+{
 "key": "aubusson-tapestry",
 "status": "inscribed",
 "title_fr": "La tapisserie d’Aubusson",
@@ -8,7 +22,7 @@
 "year": 2009,
 "last_checked": "2026-10-20",
 "to_verify": 5,
-"words": 2798,
+"words": 1653,
 "source_count": 28,
 "inventory": [
 "2008_67717_INV_PCI_FRANCE_00035",
