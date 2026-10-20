@@ -105,11 +105,11 @@ last_checked: 2026-10-20
 
 ## Description approfondie
 
-On y enchaîne des danses en chaîne ou en ronde (les plus anciennes), des danses à figures issues des contredanses et des danses en couple ; des dizaines, voire des centaines de variantes locales [S7]. On danse sur du chant (kan ha diskan), des sonneurs de couple, des solistes ou des groupes qui croisent rock, jazz ou électro [S2] [S7]. Les organisateurs vont des associations culturelles aux comités des fêtes, clubs sportifs et écoles [S7] ; en 2025, bars et entreprises en organisent environ 8 % [S12]. La danse s'apprend en cours, mais aussi sur place, par imitation ; l'art de mener la danse se transmet dans la pratique [S2]. La décision décrit des rassemblements « transmis de génération en génération, recréés et réinventés au fil du temps » [S4].
+On y enchaîne des danses en chaîne ou en ronde (les plus anciennes), des danses à figures issues des contredanses et des danses en couple ; des dizaines, voire des centaines de variantes locales [S7]. On danse sur du chant (kan ha diskan), des sonneurs de couple, des solistes ou des groupes qui croisent rock, jazz ou électro [S2] [S7]. Organisateurs : associations, comités des fêtes, clubs, écoles [S7] ; bars et entreprises, environ 8 % en 2025 [S12]. La danse s'apprend en cours, mais aussi sur place, par imitation ; l'art de mener la danse se transmet dans la pratique [S2]. La décision décrit des rassemblements « transmis de génération en génération, recréés et réinventés au fil du temps » [S4].
 
 ## Histoire et contexte
 
-Ces danses accompagnaient noces, travaux agricoles, pardons et veillées ; « fest-noz » désignait dans le centre de la Bretagne la fête de fin de travaux collectifs [S7] [S21]. Au XXe siècle, ces occasions reculent ; les cercles celtiques collectent les danses [S7]. Au milieu des années 1950, des militants reprennent le mot pour une formule inspirée du bal : soirée publique, sonorisée, payante [S7]. Le succès vient surtout dans les années 1970 [S7]. Goré y voit une forme réinventée devenue symbole de la territorialité bretonne : récit identitaire et histoire se distinguent [S21].
+Ces danses accompagnaient noces, travaux agricoles, pardons et veillées ; « fest-noz » désignait dans le centre de la Bretagne la fête de fin de travaux collectifs [S7] [S21]. Au XXe siècle, ces occasions reculent ; les cercles celtiques collectent les danses [S7]. Au milieu des années 1950, des militants reprennent le mot pour une formule inspirée du bal : soirée publique, sonorisée, payante [S7]. Le succès vient surtout dans les années 1970 [S7]. Pour Goré, cette forme réinventée est devenue un symbole territorial breton [S21].
 
 ### Chronologie
 
@@ -145,7 +145,7 @@ Le dossier prévoyait un observatoire, des actions scolaires, un site dédié et
 
 **Représentation.** Pour l'anthropologue Jolon Timms, Dastum et l'UNESCO se légitiment mutuellement [S22] ; c'est une interprétation.
 
-**Territoire.** En 2024, Dastum 44 dénonce la fin des subventions des Pays de la Loire à des associations bretonnes [S9].
+**Territoire.** En 2024, Dastum 44 dénonce la fin des subventions des Pays de la Loire [S9].
 
 ## Chiffres clés
 
@@ -159,7 +159,7 @@ Le dossier prévoyait un observatoire, des actions scolaires, un site dédié et
 ## Qui est qui
 
 - **Dastum** : ONG accréditée, porteuse de la candidature [S9]. Charles Quimbert, son directeur, en était le contact [S2] ; il dirigera ensuite Bretagne Culture Diversité [S22]. Ronan Guéblez la présidait en 2021-2022 [S16] [S17]. Vincent Morel a rédigé la fiche d'inventaire [S8].
-- **Ministère** : Christian Hottin, conservateur à la direction générale des patrimoines, suivait le dossier [S2].
+- **Ministère** : Christian Hottin (direction générale des patrimoines) suivait le dossier [S2].
 - **Tamm-Kreiz** : Jérôme Floury, président en 2022 [S17] ; Stéphane Julou signe les bilans [S11].
 - **Kenleur** : siège à Auray, environ 22 000 membres ; Rozenn Le Roy et Solenn Boënnec présidaient les deux fédérations lors de la fusion [S18].
 - **Chercheurs** : Fañch Postic [S19], Olivier Goré [S21], Jolon Timms [S22], Desi Wilkinson [S23], Jean-Michel Guilcher [S2].
@@ -168,12 +168,12 @@ Le dossier prévoyait un observatoire, des actions scolaires, un site dédié et
 
 Indicateurs du Cadre global de résultats [S6] :
 - **I1** : Dastum, Tamm-Kreiz, Bretagne Culture Diversité et Kenleur sont des organismes compétents [S2].
-- **I4** : transmission par cercles, écoles associatives et conservatoires [S2].
+- **I4** : transmission par cercles, écoles et conservatoires [S2].
 - **I8** : fiche écrite par les porteurs, actualisation ouverte en 2026 [S2] [S10].
 - **I9 et I10** : archives Dastum en ligne, données annuelles de l'observatoire [S9] [S11].
 - **I11** : soutien régional à l'aide aux organisateurs [S17], retrait en Pays de la Loire [S9].
 - **I15** : signatures et motions de 2011, sondages de public [S2] [S14].
-- **I22** : l'observatoire associatif est un suivi par la société civile [S13].
+- **I22** : l'observatoire associatif assure un suivi civil [S13].
 
 ## Comparaisons
 
