@@ -26,3 +26,14 @@ Bloqués ou non lus pendant la recherche, à télécharger à la main si besoin 
 - **Cahier des charges de l'IG « Tapisserie d'Aubusson »** (version homologuée de 2018 et version modifiée de 2022) : base des IG de l'INPI, https://base-indications-geographiques.inpi.fr/ (non ouverte ; à consulter pour les exigences techniques et le périmètre exact).
 - **Page formation de la Cité** : https://blog.cite-tapisserie.com/en/node/79 (erreur 503 le 2026-10-20).
 - **Question écrite au Sénat sur la formation à Aubusson (1998)** : https://www.senat.fr/questions/base/1998/qSEQ980609418.html (erreur 503 le 2026-10-20).
+
+## fest-noz
+
+À récupérer à la main par Paul (accès automatique bloqué ; ne pas contourner) :
+
+- **Rapport périodique de la France (soumis le 15 décembre 2021, examiné en 2022)**, UNESCO : https://ich.unesco.org/doc/download.php?versionID=65315 (page anti-robot / CAPTCHA). À lire pour la partie consacrée aux éléments de la Liste représentative : le fest-noz y est-il traité, avec quels indicateurs ?
+- **Thèse d'Olivier Goré, *L'inscription territoriale de la musique traditionnelle en Bretagne* (Rennes 2, 2004)**, HAL : https://theses.hal.science/tel-00008987 (page anti-robot « Anubis »). Référence citée par le dossier de candidature.
+- **Annonce de Bretagne Culture Diversité pour la réunion de Brec'h (2026)**, HelloAsso : https://www.helloasso.com/associations/bretagne-culture-diversite/evenements/reunion-publique-quel-avenir-pour-le-fest-noz (HTTP 403). Elle mentionnerait les mesures de 2012 déjà réalisées et les sujets nouveaux, dont la place des femmes.
+- **Compte rendu de la réunion de Brec'h (23 mai 2026)** et plan de sauvegarde actualisé : aucun document publié trouvé au 2026-10-20.
+
+Lus sans difficulté (pour mémoire) : le dossier de candidature 00707 (.doc), le rapport de l'Organe subsidiaire ITH/12/7.COM/11 + Add.3 (.doc) et le Cadre global de résultats (41571-FR.pdf).
