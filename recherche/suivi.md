@@ -31,7 +31,7 @@ Généré par `pci build` à partir de `content/` ; ne pas modifier à la main. 
 | Le savoir-faire de la dentelle au point d’Alençon (2010, `alencon-lace`) | à faire | | | |
 | Le compagnonnage, réseau de transmission des savoirs et des identités par le métier (2010, `compagnonnage`) | à faire | | | |
 | Le repas gastronomique des Français (2010, `gastronomic-meal`) | à faire | | | |
-| La tapisserie d’Aubusson (2009, `aubusson-tapestry`) | à faire | | | |
+| La tapisserie d’Aubusson (2009, `aubusson-tapestry`) | rédigé | 2026-10-20 | 28 | 5 |
 | Le Cantu in paghjella profane et liturgique de Corse de tradition orale (2009, `cantu-in-paghjella`) | à faire | | | |
 | Le Maloya (2009, `maloya`) | à faire | | | |
 | La tradition du tracé dans la charpente française (2009, `timber-framing-scribing`) | à faire | | | |
@@ -42,7 +42,7 @@ Généré par `pci build` à partir de `content/` ; ne pas modifier à la main. 
 | Dossier | État | Vérifié le | Sources | À vérifier |
 |---|---|---|---:|---:|
 | 1. Le système UNESCO du PCI | à faire | | | |
-| 2. La politique française du PCI | à faire | | | |
+| 2. La politique française du PCI (`02-politique-francaise`) | rédigé | 2026-10-20 | 27 | 2 |
 | 3. Les savoir-faire artisanaux et les métiers d'art | à faire | | | |
 | 4. Les musiques, danses et chants | à faire | | | |
 | 5. Les fêtes, rituels et carnavals | à faire | | | |
