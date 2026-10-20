@@ -10,6 +10,7 @@ Lot du 2026-10-20. Fiche : `content/elements/fest-noz.md`.
 - **Thèse d'Olivier Goré, *L'inscription territoriale de la musique traditionnelle en Bretagne* (Rennes 2, 2004)**, HAL : https://theses.hal.science/tel-00008987 (page anti-robot « Anubis »). Référence citée par le dossier de candidature.
 - **Annonce de Bretagne Culture Diversité pour la réunion de Brec'h (2026)**, HelloAsso : https://www.helloasso.com/associations/bretagne-culture-diversite/evenements/reunion-publique-quel-avenir-pour-le-fest-noz (HTTP 403). Elle mentionnerait les mesures de 2012 déjà réalisées et les sujets nouveaux, dont la place des femmes.
 - **Compte rendu de la réunion de Brec'h (23 mai 2026)** et plan de sauvegarde actualisé : aucun document publié trouvé au 2026-10-20.
+- **Année d'inclusion à l'Inventaire (ajout de la vérification, 2026-10-20)** : une version archivée de l'ancienne page de l'Inventaire citée par le dossier (http://www.culturecommunication.gouv.fr/Disciplines-et-secteurs/Patrimoine-culturel-immateriel2, vers 2011-2012) dirait si la fiche y figurait dès 2011 ; la Wayback Machine n'était pas accessible depuis l'environnement de vérification. Sinon, demander au département du pilotage de la recherche et de la politique scientifique (ministère) pourquoi la fiche porte un numéro de 2014.
 
 Lus sans difficulté (pour mémoire) : le dossier de candidature 00707 (.doc), le rapport de l'Organe subsidiaire ITH/12/7.COM/11 + Add.3 (.doc) et le Cadre global de résultats (41571-FR.pdf).
 
@@ -39,3 +40,50 @@ Autres réserves, non marquées dans la fiche :
 ## Sources
 
 27 sources numérotées : 8 UNESCO, 2 ministère (fiche d'inventaire, PCI Lab), 10 porteurs (Dastum, Tamm-Kreiz, Kenleur, collectif fest-noz), 5 recherche (Postic en français et en anglais, Goré, Timms, Wilkinson), 2 presse (Ouest-France 2021, France 3 Bretagne 2025).
+
+## Vérification (2026-10-20)
+
+Vérification indépendante de `content/elements/fest-noz.md` : les 27 sources ont été ouvertes (toutes en HTTP 200, aucun lien mort) et chaque date, chiffre, nom et décision comparé au texte de la source citée. Environ 95 affirmations contrôlées ; la plupart sont exactes. Trois sources ajoutées (S28 à S30).
+
+### Corrections (avant → après, source)
+
+- « fête de nuit » sourcé [S1] → [S1] [S7] : la traduction figure dans la fiche d'inventaire (et PCI Lab), pas sur la page UNESCO.
+- « Plus de 1 100 festoù-noz ont lieu chaque année » → « en 2023 comme en 2024 » [S11] [S28] : l'activité s'est interrompue en 2020-2021 (S13).
+- « premier élément breton sur une liste de l'UNESCO [S3] [S9] » → « selon Dastum [S9] » : la décision ne le dit pas.
+- « 1 135 festoù-noz en 2023 [S11] » : chiffre déduit du +3,5 % → cité désormais d'après « Zoom sur le fest-noz en 2023 » (Tamm-Kreiz, 14 février 2024) [S28].
+- « réunion régionale du 5 juin 2010 » → « réunion publique du 5 juin » (formule du dossier [S2]).
+- « un poste d'aide aux organisateurs et une commission fest-noz existent depuis 2022 » → poste depuis le 15 février 2022 ; commission née pendant le confinement de 2020 (réunion de Pontivy, 6 juin 2020), renouvelée à Gourin en 2022 [S17]. Chronologie 2020 complétée.
+- Charles Quimbert « dirigera ensuite BCD [S22] » → a dirigé BCD et se présentait en 2021 comme « ancien directeur » de Dastum et de BCD [S16] ; Timms (2025) le dit encore directeur de BCD : contradiction signalée dans le texte.
+- Jolon Timms « anthropologue » → « doctorant en anthropologie à l'EHESS » (notice auteur de S22).
+- Christian Hottin « suivait le dossier » → « conservateur à la direction générale des patrimoines, contact du dossier en 2012 » [S2].
+- Kenleur « environ 22 000 membres » → « 22 000 membres représentés lors du vote de fusion (2020) » [S18] (chiffre daté).
+- Dastumedia « environ 140 000 enregistrements » → « 140 000 enregistrements en 2024 » [S9].
+- Patronage : précisé « Fest-noz vras Kalanna, quatre éditions entre 2017-2018 et 2022-2023 » (rapports de patronage liés depuis S1).
+- Budget type daté (page Tamm-Kreiz mise à jour le 20 septembre 2024) [S15] ; prix moyen 2025 attribué au bilan de mai 2026 [S13].
+- Yaouank « attire de jeunes artistes [S25] » → 26e édition, public « de plus en plus jeune » (directeur du festival, S29), forte présence de jeunes sur scène et 4 700 personnes au grand fest-noz selon les organisateurs [S25].
+- Histoire : ajout de la divergence de datation (Postic : première soirée moderne à Poullaouen en septembre 1955 [S19] ; Goré : « réinventé dans les années 1960 » [S21]). Chronologie 1957 et 1964 : [S19] ajouté (le texte français dit la même chose que la traduction S20).
+- Nijemo kolo : décision 6.COM 13.11 ajoutée (page S27 ouverte).
+- I15 : « signatures et motions de 2011 » → « 2010-2011 » (motion diffusée en 2010 et début 2011, 6 905 signatures au 21 mars 2011 [S2]).
+- Domaines : `[performing-arts, social-practices]` → `[performing-arts, social-practices, oral, craftsmanship]`, d'après la rubrique « Domaines de la Convention » de la page UNESCO (S1), qui coche aussi les traditions orales et l'artisanat.
+
+### Drapeaux
+
+- Retirés : Covid et fest-deiz (les étiquettes du graphique S12 donnent 446 fest-deiz en 2019, 91 en 2020, 60 en 2021, 483 en 2025 ; S13 parle d'« interruption brutale », S11 du retour au niveau de 2019 en 2024) ; 1 258 festoù-noz en 2025 (la somme des 12 étiquettes du graphique par département donne 1 258, « Ailleurs en France » compris : 64 + 17 = 81, soit 1 177 en Bretagne ; lecture des coordonnées du PDF du 29 décembre 2025) ; prix d'entrée 2025 (la divergence est maintenant écrite dans le texte : 7,60 € au tableau de bord de décembre 2025 et prix médian du sondage, contre près de 7,80 € de prix moyen dans le bilan de mai 2026 ; le tableau de bord a pu être établi avant la clôture de l'année).
+- Maintenus (2) : l'année d'inclusion à l'Inventaire (voir ci-dessous) ; le rapport périodique de 2021 (CAPTCHA confirmé le 2026-10-20).
+
+### Année d'inclusion à l'Inventaire (2011 ou 2014)
+
+Non résolu. Le dossier (rubrique 5) et la décision (R.5) disent 2011 ; la liste officielle « Liste exhaustive des éléments inclus à l'Inventaire national du PCI » (juillet 2024, S30) et PCI Lab (S8) donnent 2014_67717_INV_PCI_FRANCE_00340, au milieu des fiches bretonnes 00335 à 00344 de 2014. Hypothèse : fiche renumérotée ou réenregistrée en 2014 avec une série bretonne. Le rapport de Dastum pour l'appel à projets 2012 (culture.gouv.fr, Ethno_Morel_2013_569.pdf) ne traite pas de la danse et n'éclaire pas ce point. La Wayback Machine (ancienne page de l'Inventaire de 2011-2012) n'était pas accessible depuis cet environnement. Le texte expose les deux dates.
+
+### Liens
+
+- Aucun lien mort parmi les 27 URL d'origine ni les 3 ajoutées.
+- L'article original d'Ouest-France (31 mai 2021) répond 403 aux robots ; S24 reste la copie PDF publiée par Dastum.
+- Le fichier de candidature S2 (.doc) est encodé en Windows-1252 et se lit après conversion.
+
+### Doutes restants
+
+- Président actuel de Dastum et de Tamm-Kreiz : non trouvé ; les rôles restent datés (2021-2022, 2022).
+- Charles Quimbert : directeur de BCD ou ancien directeur ? S16 (2021) et S22 (2025) divergent ; la date exacte de son départ n'est pas sourcée.
+- « Dastum (Rennes) » : la ville n'apparaît pas dans les extraits lus (adresse de S2 sans ville) ; fait notoire, laissé tel quel.
+- Presse régionale : Ouest-France et Le Télégramme ne sont pas consultables par les outils de recherche ; seul France 3 Bretagne (17 octobre 2025) a été ajouté. Aucun compte rendu de presse de la réunion de Brec'h (23 mai 2026) trouvé.

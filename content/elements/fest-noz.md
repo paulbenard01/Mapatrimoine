@@ -5,7 +5,7 @@ decision: "7.COM 11.13 [S3]"
 unesco_file: "00707 [S1]"
 states: [France]
 extensions: []
-domains: [performing-arts, social-practices]
+domains: [performing-arts, social-practices, oral, craftsmanship]
 territories: >-
   Bretagne historique (cinq départements, Loire-Atlantique comprise) et diaspora, surtout la région parisienne [S2]. En 2012-2025, des festoù-noz ont eu lieu
   dans 1 162 communes bretonnes, environ 800 villes du reste de la France et 34 pays [S13].
@@ -18,12 +18,12 @@ bodies:
   - "Kenleur (ex-Kendalc'h et War'l Leur) : transmission de la danse [S2] [S18]"
 inventory: []
 summary_30s: >-
-  Le fest-noz (« fête de nuit » en breton) est un bal public de danses bretonnes, sur du chant ou de la musique [S1]. Sa forme actuelle, en salle et payante, est
+  Le fest-noz (« fête de nuit » en breton) est un bal public de danses bretonnes, sur du chant ou de la musique [S1] [S7]. Sa forme actuelle, en salle et payante, est
   née dans le Centre-Bretagne au milieu des années 1950 [S7] [S19]. Porté par Dastum et un collectif
   d'associations, il est inscrit sur la Liste représentative de l'UNESCO depuis 2012 [S3] [S9]. Plus de
-  1 100 festoù-noz ont lieu chaque année en Bretagne, mais leur modèle économique reste fragile [S11] [S13].
+  1 100 festoù-noz ont eu lieu en Bretagne en 2023 comme en 2024, mais leur modèle économique reste fragile [S11] [S13] [S28].
 key_facts:
-  - "Inscrit en décembre 2012 (décision 7.COM 11.13, dossier 00707), premier élément breton sur une liste de l'UNESCO [S3] [S9]."
+  - "Inscrit en décembre 2012 (décision 7.COM 11.13, dossier 00707) ; premier élément breton inscrit, selon Dastum [S3] [S9]."
   - "Le dossier comptait environ un millier de festoù-noz par an et des dizaines de milliers de danseurs réguliers [S2]."
   - "Le renouveau part de Poullaouen : premier concours de kan ha diskan le 26 décembre 1954, essor à partir de 1957 [S19] [S20]."
   - "En 2024 : 1 175 festoù-noz en Bretagne, 90 ailleurs en France, 217 entrées payantes en médiane [S11]."
@@ -100,6 +100,10 @@ sources:
   - {id: S25, title: "Yaouank 2025, toujours le plus grand fest-noz de l'univers", publisher: "France 3 Bretagne", url: "https://france3-regions.franceinfo.fr/bretagne/ille-et-vilaine/rennes/yaouank-2025-toujours-le-plus-grand-fest-noz-de-l-univers-3235883.html", consulted: 2026-10-20, kind: presse}
   - {id: S26, title: "Kolo, traditional folk dance", publisher: "UNESCO", url: "https://ich.unesco.org/en/RL/kolo-traditional-folk-dance-01270", consulted: 2026-10-20, kind: unesco}
   - {id: S27, title: "Nijemo Kolo, silent circle dance of the Dalmatian hinterland", publisher: "UNESCO", url: "https://ich.unesco.org/en/RL/nijemo-kolo-silent-circle-dance-of-the-dalmatian-hinterland-00359", consulted: 2026-10-20, kind: unesco}
+  - {id: S28, title: "Zoom sur le fest-noz en 2023", publisher: "Tamm-Kreiz", url: "https://mag.tamm-kreiz.bzh/index.php/2024/02/14/zoom-sur-le-fest-noz-en-2023/", consulted: 2026-10-20, kind: porteur}
+  - {id: S29, title: "Yaouank : la danse et la musique bretonne font vibrer la jeunesse (17 octobre 2025)", publisher: "France 3 Bretagne", url: "https://france3-regions.franceinfo.fr/bretagne/ille-et-vilaine/rennes/yaouank-les-jeunes-vont-au-cercle-celtique-comme-on-va-au-foot-le-week-end-la-danse-et-la-musique-bretonne-font-vibrer-la-jeunesse-3231335.html", consulted: 2026-10-20, kind: presse}
+  - {id: S30, title: "Liste exhaustive des éléments inclus à l'Inventaire national du PCI (juillet 2024)", publisher: "Ministère de la Culture", url: "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/liste_inventaire-national-du-pci_juillet2024", consulted: 2026-10-20, kind: ministere}
+research_status: verified
 last_checked: 2026-10-20
 ---
 
@@ -109,59 +113,59 @@ On y enchaîne des danses en chaîne ou en ronde (les plus anciennes), des danse
 
 ## Histoire et contexte
 
-Ces danses accompagnaient noces, travaux agricoles, pardons et veillées ; « fest-noz » désignait dans le centre de la Bretagne la fête de fin de travaux collectifs [S7] [S21]. Au XXe siècle, ces occasions reculent ; les cercles celtiques collectent les danses [S7]. Au milieu des années 1950, des militants reprennent le mot pour une formule inspirée du bal : soirée publique, sonorisée, payante [S7]. Le succès vient surtout à partir des années 1970 [S7]. Pour Goré, cette forme réinventée est devenue un symbole territorial breton [S21].
+Ces danses accompagnaient noces, travaux agricoles, pardons et veillées ; « fest-noz » désignait dans le centre de la Bretagne la fête de fin de travaux collectifs [S7] [S21]. Au XXe siècle, ces occasions reculent ; les cercles celtiques collectent les danses [S7]. Au milieu des années 1950, des militants reprennent le mot pour une formule inspirée du bal : soirée publique, sonorisée, payante [S7] ; Postic date de 1955 la première soirée de ce type à Poullaouen, Goré situe la réinvention dans les années 1960 [S19] [S21]. Le succès vient surtout à partir des années 1970 [S7]. Pour Goré, cette forme réinventée est devenue un symbole territorial breton [S21].
 
 ### Chronologie
 
 - **1954** : premier concours de kan ha diskan à Poullaouen, le 26 décembre, organisé par Loeiz Ropars [S19].
-- **1957** : vrai décollage du renouveau, amorcé en 1955 [S20].
-- **1964** : soirée de bal breton et fest-noz aux Fêtes de Cornouaille (Quimper) [S20].
+- **1957** : vrai décollage du renouveau, amorcé en 1955 [S19] [S20].
+- **1964** : soirée de bal breton et fest-noz aux Fêtes de Cornouaille (Quimper) [S19] [S20].
 - **1972** : création de Dastum [S22].
 - **2002** : 984 festoù-noz selon la fiche d'inventaire, 1 191 selon Goré [S7] [S21].
 - **2008** : rencontres sur le PCI à Rennes (Dastum, Irpa), d'où naît le groupe de travail [S2].
-- **2010** : réunion régionale du 5 juin sur le plan de sauvegarde [S2].
-- **2011** : inclusion à l'Inventaire national ; 6 905 signatures de soutien [S2] [S3].
-- **2012** : inscription le 5 décembre [S3] [S19].
-- **2020** : fusion de Kendalc'h et War'l Leur dans Kenleur, votée le 27 juin [S18].
+- **2010** : réunion publique du 5 juin, qui nourrit le plan de sauvegarde [S2].
+- **2011** : inclusion à l'Inventaire national selon le dossier et la décision ; 6 905 signatures de soutien au 21 mars [S2] [S3].
+- **2012** : inscription le 5 décembre, lors de la 7e session du Comité (Paris) [S3] [S19].
+- **2020** : naissance de la commission fest-noz pendant le confinement (réunion de Pontivy, 6 juin) [S17] ; fusion de Kendalc'h et War'l Leur dans Kenleur, votée le 27 juin [S18].
 - **2021** : lettre du groupe de travail aux candidats aux régionales [S16] [S24].
 - **2022** : poste d'aide aux organisateurs chez Tamm-Kreiz, financé par la Région Bretagne, depuis le 15 février [S17].
 - **2026** : réunion publique de Brec'h, le 23 mai, pour actualiser le plan de sauvegarde [S10].
 
 ## Parcours d'inscription
 
-Le groupe de travail, coordonné par Dastum, réunissait Kendalc'h et War'l Leur (environ 20 000 danseurs), Bodadeg ar Sonerion (environ 9 000 musiciens), le pays Centre-Ouest-Bretagne et des artistes, avec la DRAC, le ministère et la Région [S2]. Consentement : 6 905 signatures, motions de 41 collectivités, dessins d'enfants [S1] [S2]. L'Organe subsidiaire a recommandé l'inscription en septembre 2012, tous critères remplis [S4] ; la décision ne formule aucune recommandation [S3]. Le critère R.5 date l'inclusion à l'Inventaire de 2011, mais l'identifiant de la fiche commence par 2014 [S3] [S7] [À VÉRIFIER]. La page de l'élément ne publie pas de rapport propre [S1] ; le rapport périodique français de décembre 2021 n'a pas pu être lu [S5] [À VÉRIFIER].
+Le groupe de travail, coordonné par Dastum, réunissait Kendalc'h et War'l Leur (environ 20 000 danseurs), Bodadeg ar Sonerion (environ 9 000 musiciens), le pays Centre-Ouest-Bretagne et des artistes, avec la DRAC, le ministère et la Région [S2]. Consentement : 6 905 signatures, motions de 41 collectivités, dessins d'enfants [S1] [S2]. L'Organe subsidiaire a recommandé l'inscription en septembre 2012, tous critères remplis [S4] ; la décision ne formule aucune recommandation [S3]. Le dossier et le critère R.5 datent l'inclusion à l'Inventaire de 2011 [S2] [S3] ; or la liste officielle de l'Inventaire (juillet 2024) et PCI Lab donnent le numéro 2014_67717_INV_PCI_FRANCE_00340, au milieu d'une série de fiches bretonnes de 2014 [S8] [S30]. Une renumérotation de 2014 est probable, mais aucun document ne l'explique [À VÉRIFIER]. La page de l'élément ne publie pas de rapport propre [S1] ; le rapport périodique de la France, soumis le 15 décembre 2021 et examiné en 2022 (prochain dû le 30 juin 2027), n'a pas pu être lu [S5] [À VÉRIFIER].
 
 ## Sauvegarde et viabilité
 
-Le dossier prévoyait un observatoire, des actions scolaires, un site dédié et un soutien aux organisateurs bénévoles, déjà épuisés [S2]. Réalisations : l'observatoire de Tamm-Kreiz publie ses données chaque année [S11] [S14] ; un poste d'aide aux organisateurs et une commission fest-noz consultative existent depuis 2022 [S17] ; Dastumedia donne accès à environ 140 000 enregistrements [S9]. Le fest-noz du Nouvel An de Quimper a reçu le patronage de la Convention [S1]. En 2021, le groupe de travail jugeait cette pratique « aussi centrale dans les singularités culturelles et sociales bretonnes que menacée » : baisse de fréquentation, salles inadaptées, transmission aux jeunes [S16]. Le Covid a presque arrêté les fest-deiz en 2020-2021 [S12] [À VÉRIFIER].
+Le dossier prévoyait un observatoire, des actions scolaires, un site dédié et un soutien aux organisateurs bénévoles, déjà épuisés [S2]. Réalisations : l'observatoire de Tamm-Kreiz publie ses données chaque année [S11] [S14] ; un poste d'aide aux organisateurs existe chez Tamm-Kreiz depuis le 15 février 2022, et une commission fest-noz, « organe consultatif indépendant » né pendant le confinement de 2020, s'est renouvelée à Gourin en 2022 [S17] ; Dastumedia donnait accès à 140 000 enregistrements en 2024 [S9]. Le fest-noz du Nouvel An de Quimper (Fest-noz vras Kalanna) a reçu le patronage de la Convention pour quatre éditions entre 2017-2018 et 2022-2023 [S1]. En 2021, le groupe de travail jugeait cette pratique « aussi centrale dans les singularités culturelles et sociales bretonnes que menacée » : baisse de fréquentation, salles inadaptées, transmission aux jeunes [S16]. Le Covid a brutalement interrompu l'activité en 2020-2021 : 91 puis 60 fest-deiz, contre 446 en 2019 ; ils sont revenus à ce niveau en 2024 [S11] [S12] [S13].
 
 ## Enjeux et débats actuels
 
-**Économie.** Budget type : 1 600 à 2 100 € de cachets, environ 650 € de sono, 350 € de salle [S15]. Le prix moyen passe de 6,2 € en 2012 à près de 7,80 € en 2025 [S13] ; le public le juge accessible, mais l'organisateur « a régulièrement du mal à s'y retrouver financièrement » [S14].
+**Économie.** Budget type selon Tamm-Kreiz (page mise à jour en 2024) : 1 600 à 2 100 € de cachets, environ 650 € de sono, 350 € de salle [S15]. Le prix moyen passe de 6,2 € en 2012 à près de 7,80 € en 2025 selon le bilan de mai 2026 [S13] ; le public le juge accessible, mais l'organisateur « a régulièrement du mal à s'y retrouver financièrement » [S14].
 
-**Générations et langue.** Âge médian du public : 48 ans en 2025, cinq ans de moins qu'avant ; la moitié sont des habitués et près de 10 % comprennent le breton [S14]. Yaouank, à Rennes, attire de jeunes artistes [S25].
+**Générations et langue.** Âge médian du public : 48 ans en 2025, cinq ans de moins qu'avant ; la moitié sont des habitués et près de 10 % comprennent le breton [S14]. À Rennes, Yaouank (26e édition en 2025) revendique un public « de plus en plus jeune » et une forte présence de jeunes sur scène ; 4 700 personnes à son grand fest-noz selon les organisateurs [S25] [S29].
 
 **Femmes sur scène.** 23,13 % des artistes en 2025 ; +6 points en quatre ans [S12] [S13].
 
-**Représentation.** Pour l'anthropologue Jolon Timms, Dastum et l'UNESCO se légitiment mutuellement [S22].
+**Représentation.** Pour Jolon Timms, doctorant en anthropologie à l'EHESS, Dastum et l'UNESCO se légitiment mutuellement [S22].
 
 **Territoire.** En 2024, Dastum 44 dénonce la fin des subventions des Pays de la Loire [S9].
 
 ## Chiffres clés
 
-- 1 135 festoù-noz en Bretagne en 2023, 1 175 en 2024 [S11].
-- 1 258 en 2025, périmètre à confirmer [S12] [À VÉRIFIER].
-- Plus de 1 770 événements (fest-noz et fest-deiz) en 2025 [S14].
+- Festoù-noz en Bretagne (Tamm-Kreiz) : 1 135 en 2023, 1 175 en 2024, soit +3,5 % [S11] [S28].
+- 2025 : 1 258 festoù-noz au tableau de bord du 29 décembre 2025, dont 81 ailleurs en France, soit environ 1 177 en Bretagne (lecture des étiquettes du graphique) [S12].
+- Plus de 1 770 événements (fest-noz et fest-deiz) en 2025 selon le communiqué de 2026 [S14].
 - Environ 26 000 événements en 2012-2025, plus de 5 000 organisateurs, 4 124 formations [S13].
 - Entrées payantes médianes : 217 (2024), 200 (2025) [S11] [S12].
-- Prix d'entrée 2025 : 7,60 € ou près de 7,80 € selon les documents [S12] [S13] [À VÉRIFIER].
+- Prix d'entrée 2025 : les sources divergent ; 7,60 € (prix moyen au tableau de bord de décembre 2025, prix médian dans le communiqué du sondage) contre près de 7,80 € (prix moyen, bilan de mai 2026) [S12] [S13] [S14].
 
 ## Qui est qui
 
-- **Dastum** : ONG accréditée, porteuse de la candidature [S9]. Charles Quimbert, son directeur, en était le contact [S2] ; il dirigera ensuite Bretagne Culture Diversité [S22]. Ronan Guéblez la présidait en 2021-2022 [S16] [S17]. Vincent Morel a rédigé la fiche d'inventaire [S8].
-- **Ministère** : Christian Hottin (direction générale des patrimoines) suivait le dossier [S2].
+- **Dastum** : ONG accréditée, porteuse de la candidature [S9]. Charles Quimbert, son directeur, en était le contact [S2] ; il a ensuite dirigé Bretagne Culture Diversité et se présentait en 2021 comme ancien directeur des deux structures [S16] (Timms le dit encore directeur de BCD [S22]). Ronan Guéblez la présidait en 2021-2022 [S16] [S17]. Vincent Morel (Dastum) a rédigé la fiche d'inventaire [S7] [S8].
+- **Ministère** : Christian Hottin, conservateur à la direction générale des patrimoines, était le contact du dossier en 2012 [S2].
 - **Tamm-Kreiz** : Jérôme Floury, président en 2022 [S17] ; Stéphane Julou signe les bilans [S11].
-- **Kenleur** : siège à Auray, environ 22 000 membres ; Rozenn Le Roy et Solenn Boënnec présidaient les deux fédérations lors de la fusion [S18].
+- **Kenleur** : siège à Auray ; 22 000 membres représentés lors du vote de fusion (2020) ; Rozenn Le Roy et Solenn Boënnec présidaient les deux fédérations lors de la fusion [S18].
 - **Chercheurs** : Fañch Postic [S19], Olivier Goré [S21], Jolon Timms [S22], Desi Wilkinson [S23], Jean-Michel Guilcher [S2].
 
 ## Lien avec le rapport périodique
@@ -172,14 +176,14 @@ Indicateurs du Cadre global de résultats [S6] :
 - **I8** : fiche écrite par les porteurs, actualisation ouverte en 2026 [S2] [S10].
 - **I9 et I10** : archives Dastum en ligne, données annuelles de l'observatoire [S9] [S11].
 - **I11** : soutien régional à l'aide aux organisateurs [S17], retrait en Pays de la Loire [S9].
-- **I15** : signatures et motions de 2011, sondages de public [S2] [S14].
+- **I15** : signatures et motions de 2010-2011, sondages de public [S2] [S14].
 - **I22** : l'observatoire associatif assure un suivi civil [S13].
 
 ## Comparaisons
 
-Inventaire : kan ha diskan (2013_67717_INV_PCI_FRANCE_00308), gavotte de Basse-Bretagne (2020_67717_INV_PCI_FRANCE_00458), bals traditionnels en Aquitaine (2010_67717_INV_PCI_FRANCE_00113). À l'étranger : le kolo serbe, danse en chaîne, inscrit en 2017 (12.COM 11.b.28) [S26] ; le nijemo kolo croate, ronde silencieuse, inscrit en 2011 [S27].
+Inventaire : kan ha diskan (2013_67717_INV_PCI_FRANCE_00308), gavotte de Basse-Bretagne (2020_67717_INV_PCI_FRANCE_00458), bals traditionnels en Aquitaine (2010_67717_INV_PCI_FRANCE_00113). À l'étranger : le kolo serbe, danse en chaîne, inscrit en 2017 (12.COM 11.b.28) [S26] ; le nijemo kolo croate, ronde silencieuse, inscrit en 2011 (6.COM 13.11) [S27].
 
 ## Ressources
 
-- UNESCO (page, film de Dastum, dossier, décision, évaluation) [S1] [S2] [S3] [S4] ; Inventaire [S7] [S8].
-- Recherche [S19] [S21] [S22] [S23] ; observatoire [S11] [S13] ; presse [S24] [S25].
+- UNESCO (page, film de Dastum, dossier, décision, évaluation) [S1] [S2] [S3] [S4] ; Inventaire [S7] [S8] [S30].
+- Recherche [S19] [S21] [S22] [S23] ; observatoire [S11] [S13] [S28] ; presse [S24] [S25] [S29].
