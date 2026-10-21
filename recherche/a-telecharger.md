@@ -39,7 +39,7 @@ Bloqués ou non lus pendant la recherche, à télécharger à la main si besoin 
 - **Site du CERAV (Christian Lassure)** : https://www.pierreseche.com/ (erreur 503 le 2026-10-21) ; à consulter pour ses travaux sur la datation des cabanes.
 - **Retour d'expérience de 20 chantiers ABPS (Parc national des Cévennes)** : https://www2.cevennes-parcnational.fr/sites/cevennes-parcnational.fr/files/le_retour_dexperience_de_20_chantiers-abps.pdf (nom de domaine introuvable le 2026-10-21).
 - **Présentations ABPS 2019 et 2024 (Envirobat Occitanie)** : https://www.envirobat-oc.fr/IMG/pdf/presentation_abps_2019.pdf et https://envirobat-oc.fr/IMG/pdf/4-presentation_abps_avril_2024_compressed.pdf (erreur 404).
-- **Communiqué irlandais de décembre 2024** : https://www.gov.ie/en/department-of-culture-communications-and-sport/press-releases/irelands-dry-stone-construction-receives-unesco-recognition (403) ; dirait que l'Irlande a mené l'extension, à confirmer.
+- **Communiqué irlandais de décembre 2024** : https://www.gov.ie/en/department-of-culture-communications-and-sport/press-releases/irelands-dry-stone-construction-receives-unesco-recognition (403) et https://www.gov.ie/en/press-release/d63f3-irelands-dry-stone-construction-receives-unesco-recognition (403, 2026-10-21) ; dirait que l'Irlande a mené l'extension, à confirmer.
 
 ## fest-noz
 
@@ -64,12 +64,19 @@ Lus sans difficulté (pour mémoire) : le dossier de candidature 00707 (.doc), l
 - **Bulletin FARO n° 133 (26 juin 2014)** : https://digital2.amsab.be/digitale_nieuwsbrieven/dn0119_faro/faro_jrg06_2014/faro_nr133_2014_06_26.pdf (connexion réinitialisée, puis HTTP 503). Il annoncerait l'ajout de la « kermiscultuur » à l'inventaire flamand en 2014.
 - **Rapport périodique de la France de 2013** (fourni par Paul : `docs/sources/Rapport periodique 2013_France_28623-FR.doc`) : l'URL directe supposée (doc/src/28623-FR.doc) renvoie 404 ; la page https://ich.unesco.org/en/state/france-FR?info=periodic-reporting n'en donne que le résumé. Non cité dans la fiche (antérieur à la fiche d'Inventaire de 2017).
 
+## handmade-glass
+
+- **Formulaire de candidature 01961, version française** : https://ich.unesco.org/doc/download.php?versionID=70023 (page de vérification anti-robot UNESCO ; non contourné).
+- **Formulaire de candidature 01961, version anglaise** : https://ich.unesco.org/doc/download.php?versionID=69949 (même système).
+- **Consentement des communautés, France** : https://ich.unesco.org/doc/download.php?versionID=65904
+- **Inventaire du PCI, France (extrait joint au dossier)** : https://ich.unesco.org/doc/download.php?versionID=65850
+
 ## parisian-zinc-roofers
 
 Bloqués pendant la recherche. À télécharger à la main si besoin, dans `sources/parisian-zinc-roofers/` (jamais versionné) :
 
 - **Formulaire de candidature 02105, français** : https://ich.unesco.org/doc/download.php?versionID=74472 (page de défi JavaScript anti-robot, non contournée). Document clé : mesures de sauvegarde, noms des deux coordinateurs, chiffres de praticiens.
-- **Formulaire de candidature 02105, anglais** : https://ich.unesco.org/doc/download.php?versionID=74471 (même blocage). Les identifiants 74471/74472, plus récents que ceux des annexes (70551 à 70553), laissent penser à une version révisée, peut-être après le processus de dialogue.
+- **Formulaire de candidature 02105, anglais** : https://ich.unesco.org/doc/download.php?versionID=74471 (même blocage). Les identifiants 74471/74472, plus récents que ceux des annexes (70551 à 70553), laissent penser à une version révisée ; ce n'est pas un effet du processus de dialogue, auquel le dossier n'a pas été soumis (vérification du 2026-10-21). La page 7.b date le formulaire du 28 mars 2023.
 - **Consentement des communautés** : https://ich.unesco.org/doc/download.php?versionID=70552
 - **Organisations communautaires (section 4.2)** : https://ich.unesco.org/doc/download.php?versionID=70553
 - **Inventaire du PCI joint** : https://ich.unesco.org/doc/download.php?versionID=70551 ; **extrait du rapport périodique sur l'inventaire** : https://ich.unesco.org/doc/download.php?versionID=75007

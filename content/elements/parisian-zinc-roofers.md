@@ -28,7 +28,7 @@ summary_30s: >-
   professionnel GCCP, avait cédé son tour à la baguette en 2021 [S10] [S13]. L'enjeu aujourd'hui : recruter,
   et adapter ces toits qui chauffent l'été [S13] [S16].
 key_facts:
-  - "Inscrit sur la Liste représentative par la décision 19.COM 7.b.37 (Asunción, 2024) ; le ministère date l'inscription du 4 décembre [S2] [S9]."
+  - "Inscrit sur la Liste représentative par la décision 19.COM 7.b.37 (Asunción, 2024) [S2], le 4 décembre selon le GCCP et la mairie du 9e [S12] [S13]."
   - "C'est du PCI, pas du patrimoine mondial : les toits eux-mêmes ne sont pas inscrits, malgré le vœu de 2014 [S11] [S14]."
   - "Le Comité a félicité la France pour un élément qui s'adapte au changement climatique et pour sa vidéo [S2] [S4]."
   - "Part du zinc : 70 % des toits selon la fiche de 2017, près de 80 % selon l'UNESCO [S4] [S7]."
@@ -37,21 +37,21 @@ key_facts:
 conversation:
   vocabulary:
     - {term: "inscrit", note: "Inscrit sur la Liste représentative, jamais « classé » : le classement relève des monuments historiques."}
-    - {term: "PCI et patrimoine mondial", note: "Convention de 2003 (savoir-faire) contre convention de 1972 (biens : sites, monuments). Paris, rives de la Seine est un bien du patrimoine mondial depuis 1991 ; les toits de zinc n'en sont pas un."}
+    - {term: "PCI et patrimoine mondial", note: "Convention de 2003 (savoir-faire) contre convention de 1972 (biens : sites, monuments). Paris, rives de la Seine est un bien du patrimoine mondial depuis 1991 [S19] ; les toits de zinc ne sont pas inscrits en tant que tels."}
     - {term: "inventaire, inscription, sauvegarde", note: "Inventaire national (2017), inscription par le Comité (2024), sauvegarde par la profession."}
-    - {term: "couvreur-zingueur, ornemaniste", note: "Le premier façonne et pose le zinc sur le toit ; le second fabrique en atelier lucarnes, œils-de-bœuf, épis et frises."}
-    - {term: "brisis, terrasson", note: "Dans le toit à la Mansart, pente raide (souvent en ardoise) et partie haute presque plate (en zinc à tasseaux)."}
-    - {term: "plieuse", note: "Établi du couvreur, qui sert aussi à plier les feuilles de zinc."}
+    - {term: "couvreur-zingueur, ornemaniste", note: "Le premier façonne et pose le zinc sur le toit ; le second fabrique en atelier lucarnes, œils-de-bœuf, épis et frises [S7]."}
+    - {term: "brisis, terrasson", note: "Dans le toit à la Mansart, pente raide (souvent en ardoise) et partie haute presque plate (en zinc à tasseaux) [S7]."}
+    - {term: "plieuse", note: "Établi du couvreur, qui sert aussi à plier les feuilles de zinc [S7]."}
   mistakes:
-    - "Dire que les toits de Paris sont « classés » ou « au patrimoine mondial »."
-    - "Parler de « liste indicative » : c'est la Liste représentative du PCI (le communiqué du GCCP s'y trompe)."
-    - "Croire que la candidature a été « sélectionnée parmi 67 » : 67 est le total des dossiers complets du cycle 2024."
-    - "Dire que Notre-Dame a un toit en zinc : il est en plomb, travaillé par couvreurs et ornemanistes."
+    - "Dire « classés » ou « au patrimoine mondial » : le communiqué du GCCP écrit « classés » [S13]."
+    - "Parler de « liste indicative » : c'est la Liste représentative du PCI (le communiqué du GCCP s'y trompe) [S13]."
+    - "Croire que la candidature a été « sélectionnée parmi 67 » : 67 est le nombre de dossiers évalués en 2024, dont 66 présentés au Comité [S5]."
+    - "Dire que Notre-Dame a un toit en zinc : il est en plomb, travaillé par couvreurs et ornemanistes [S20] [S21]."
     - "Croire que l'inscription interdit de transformer les toits : elle ne protège aucun bâtiment."
   sensitive:
     - "Chaleur sous les toits et mortalité des habitants des chambres de bonne."
     - "Zinc ou toits végétalisés : la Ville et la profession ne disent pas la même chose."
-    - "Le poids des industriels du zinc et de l'ardoise autour de la candidature."
+    - "La place des fabricants partenaires dans la candidature [S7] [S13]."
     - "La pénurie de main-d'œuvre et la pénibilité du métier."
   questions:
     association:
@@ -68,7 +68,7 @@ conversation:
       - "Le savoir-faire est-il mentionné dans les marchés publics de couverture ?"
     researcher:
       - "Que sait-on des métiers du zinc avant Haussmann ?"
-      - "Pourquoi la fiche est-elle rédigée par le président du comité de soutien ?"
+      - "Comment la fiche d'Inventaire a-t-elle été rédigée avec la profession ?"
       - "Que montrent les mesures de ruissellement de zinc sur les toits franciliens ?"
       - "Un toit blanc ou végétalisé est-il encore un toit parisien ?"
       - "Comment le récit des toits comme paysage s'est-il construit ?"
@@ -91,7 +91,7 @@ sources:
   - {id: S10, title: "Roselyne Bachelot-Narquin choisit de présenter la candidature des savoir-faire et de la culture de la baguette de pain (communiqué du 26 mars 2021)", publisher: "Ministère de la Culture", url: "https://www.culture.gouv.fr/presse/communiques-de-presse/Roselyne-Bachelot-Narquin-choisit-de-presenter-la-candidature-des-savoir-faire-et-de-la-culture-de-la-baguette-de-pain-a-l-inscription-sur-la-li", consulted: 2026-10-21, kind: ministere}
   - {id: S11, title: "Conseil du 9e arrondissement, séance du 11 septembre 2017 : vœu relatif à l'inclusion des savoir-faire du couvreur-zingueur parisien à l'Inventaire national du PCI", publisher: "Mairie du 9e arrondissement de Paris", url: "https://www.api-site.paris.fr/mairies/public/assets/2017%2F8%2FVoeu%20relatif%20%C3%A0%20l%27inclusion%20des%20savoir-faire%20du%20couvreur-zingueur%20parisien%20%C3%A0%20l%27inventaire%20national%20du%20Patrimoine%20culturel%20imma.pdf", consulted: 2026-10-21, kind: porteur}
   - {id: S12, title: "Journal d'information de la mairie du 9e, décembre 2024 - janvier 2025 (dossier « Les toits à l'UNESCO »)", publisher: "Mairie du 9e arrondissement de Paris", url: "https://cdn.paris.fr/paris/2024/12/16/a4ebdcea1a58e5045ca0f727bdac7c3e.pdf", consulted: 2026-10-21, kind: porteur}
-  - {id: S13, title: "Communiqué de presse : les couvreurs zingueurs parisiens et les ornemanistes au PCI de l'UNESCO (décembre 2024, publié sur le site de VMZINC)", publisher: "GCCP et comité de soutien", url: "https://www.vmzinc.com/getmedia/557b1723-e119-4509-82fe-a33ba140278a/Communique-de-Presse-couvreurs-a-l-UNESCO-final.pdf", consulted: 2026-10-21, kind: porteur}
+  - {id: S13, title: "Communiqué de presse : les couvreurs zingueurs parisiens et les ornemanistes classés au PCI de l'UNESCO (décembre 2024, hébergé sur le site de VMZINC)", publisher: "GCCP et comité de soutien", url: "https://www.vmzinc.com/getmedia/557b1723-e119-4509-82fe-a33ba140278a/Communique-de-Presse-couvreurs-a-l-UNESCO-final.pdf", consulted: 2026-10-21, kind: porteur}
   - {id: S14, title: "C. Decambu, Le classement des toits de Paris au patrimoine de l'Unesco fait débat (10 février 2015)", publisher: "Batiweb", url: "https://www.batiweb.com/actualites/collectivites-territoriales/le-classement-des-toits-de-paris-au-patrimoine-de-l-unesco-fait-debat-25906", consulted: 2026-10-21, kind: presse}
   - {id: S15, title: "J. Martin, Y. Pêcheux, T. Perez, Forte chaleur et entrée à l'UNESCO : l'impossible rénovation des toits de Paris ? (26 mars 2024, mis à jour en 2026)", publisher: "lepetitjournal.com", url: "https://lepetitjournal.com/expat-politique/actualites/renovation-impossible-des-toits-de-paris-381836", consulted: 2026-10-21, kind: presse}
   - {id: S16, title: "A. Symons, V. Reynier, Canicule : à Paris, les habitants des chambres de bonne suffoquent sous les toits en zinc (25 juin 2026)", publisher: "Euronews", url: "https://fr.euronews.com/2026/06/25/a-paris-les-habitants-des-chambres-de-bonne-cuisent-sous-les-jolis-toits-en-zinc", consulted: 2026-10-21, kind: presse}
@@ -109,12 +109,14 @@ sources:
   - {id: S28, title: "Umicore's sale of Building Products to Fedrus International completed (29 septembre 2017)", publisher: "Umicore", url: "https://www.umicore.com/en/media/newsroom/umicores-sale-of-building-products-to-fedrus-international-completed/", consulted: 2026-10-21, kind: autre}
   - {id: S29, title: "A.-F. Garçon, Les métaux non ferreux en France aux XVIIIe et XIXe siècles, thèse (EHESS, dir. D. Woronoff), 1995", publisher: "theses.fr", url: "https://theses.fr/1995EHES0061", consulted: 2026-10-21, kind: recherche}
   - {id: S30, title: "P. Sainte, Contribution des matériaux de couverture à la contamination métallique des eaux de ruissellement, thèse (Paris-Est), 2009", publisher: "theses.fr", url: "https://theses.fr/2009PEST1051", consulted: 2026-10-21, kind: recherche}
-  - {id: S31, title: "E. Sellami, Évaluation des flux de contaminants issus des ruissellements des matériaux de toitures : le cas du zinc à Créteil, thèse (Paris-Est), 2014", publisher: "theses.fr", url: "https://theses.fr/2014PEST1044", consulted: 2026-10-21, kind: recherche}
+  - {id: S31, title: "E. Sellami, Conception pluridisciplinaire d'une méthode générale d'évaluation des flux de contaminants issus des ruissellements des matériaux de toitures à l'échelle urbaine (cas du zinc à Créteil), thèse (Paris-Est), 2014", publisher: "theses.fr", url: "https://theses.fr/2014PEST1044", consulted: 2026-10-21, kind: recherche}
   - {id: S32, title: "L. Castellanos Diaz, Deploying nature-based solutions in urban areas: thermal performance and urban feasibility across scales, thèse (ENPC), 2022", publisher: "theses.fr", url: "https://theses.fr/2022ENPC0013", consulted: 2026-10-21, kind: recherche}
   - {id: S33, title: "Le compagnonnage, réseau de transmission des savoirs et des identités par le métier", publisher: "UNESCO", url: "https://ich.unesco.org/en/RL/compagnonnage-network-for-on-the-job-transmission-of-knowledge-and-identities-00441", consulted: 2026-10-21, kind: unesco}
   - {id: S34, title: "Craft techniques and customary practices of cathedral workshops, or Bauhütten, in Europe", publisher: "UNESCO", url: "https://ich.unesco.org/en/BSP/craft-techniques-and-customary-practices-of-cathedral-workshops-or-bauhutten-in-europe-know-how-transmission-development-of-knowledge-and-innovation-01558", consulted: 2026-10-21, kind: unesco}
   - {id: S35, title: "Traditional skills, techniques and knowledge for the conservation and transmission of wooden architecture in Japan", publisher: "UNESCO", url: "https://ich.unesco.org/en/RL/traditional-skills-techniques-and-knowledge-for-the-conservation-and-transmission-of-wooden-architecture-in-japan-01618", consulted: 2026-10-21, kind: unesco}
-research_status: drafted
+  - {id: S36, title: "7.b Liste représentative : candidatures du cycle 2024 et documents (formulaires, dialogue)", publisher: "UNESCO", url: "https://ich.unesco.org/en/7b-representative-list-01370", consulted: 2026-10-21, kind: unesco}
+  - {id: S37, title: "Umicore enters into exclusive negotiations with Fedrus International for the sale of its Building Products activities (23 mai 2017)", publisher: "Umicore", url: "https://www.umicore.com/en/media/newsroom/umicore-enters-into-exclusive-negotiations-with-fedrus-international-for-the-sale-of-its-building-products-activities/", consulted: 2026-10-21, kind: autre}
+research_status: verified
 last_checked: 2026-10-21
 ---
 
@@ -142,15 +144,15 @@ La corporation des couvreurs apparaît en 1268 dans le Livre des métiers [S7]. 
 - **2021** : la ministre préfère la baguette parmi trois dossiers conformes [S10].
 - **2022** : ouverture de l'Éco-Campus de Vitry-sur-Seine, en octobre [S13].
 - **2023** : le dossier devient la candidature nationale du cycle 2024, selon la mairie du 9e [S12].
-- **2024** : inscription à Asunción, le 4 décembre selon le ministère [S2] [S9].
+- **2024** : inscription à Asunción, le 4 décembre selon le GCCP [S2] [S13].
 
 ## Parcours d'inscription
 
 **Du patrimoine mondial au PCI.** En 2014, la maire du 9e, Delphine Bürkli, fait voter au Conseil de Paris un vœu pour inscrire les toits au patrimoine mondial (convention de 1972) [S11] [S12]. Début 2015, Anne Hidalgo refuse : « Je n'ai pas envie de mettre Paris dans le formol » ; elle craint de bloquer la transition écologique des toits [S14]. Le vœu du 9e de 2017 acte le changement : « dans un premier temps, il a été choisi de faire reconnaître les toits de Paris au patrimoine immatériel » [S11]. Selon lepetitjournal.com, c'est le ministère qui a suggéré de viser les savoir-faire [S15]. Aucune trace d'inscription des toits sur la liste indicative française n'a été trouvée [À VÉRIFIER : site du patrimoine mondial inaccessible].
 
-**Inventaire et choix national.** La fiche, rédigée par Gilles Mermet, journaliste et photographe, est datée de mars 2017 [S7] et approuvée le 27 juin 2017 [S11]. En mars 2021, elle fait partie des trois projets conformes ; la France ne pouvant présenter « qu'une seule candidature nationale devant l'UNESCO au titre du cycle 2021-2022 », la baguette passe en premier [S10]. Le choix de 2023 n'est connu que par la mairie du 9e [S12] [À VÉRIFIER : communiqué ministériel non trouvé].
+**Inventaire et choix national.** La fiche, rédigée par Gilles Mermet, journaliste et photographe, est datée de mars 2017 [S7] et approuvée le 27 juin 2017 [S11]. En mars 2021, elle fait partie des trois projets conformes ; la France ne pouvant présenter « qu'une seule candidature nationale devant l'UNESCO au titre du cycle 2021-2022 », la baguette passe en premier [S10]. Le formulaire est daté du 28 mars 2023 [S36] ; le choix national n'est connu que par la mairie du 9e [S12] [À VÉRIFIER : communiqué ministériel non trouvé].
 
-**Évaluation et décision.** Au cycle 2024, 66 dossiers sont examinés, et 65 sont recommandés [S5]. Le projet de décision juge les cinq critères remplis : au R.1, il note que « l'élément démontre un lien entre le patrimoine immatériel et matériel » [S4]. Pas de recommandation, mais deux félicitations : pour un élément « qui s'est adapté et contribue à atténuer les effets du changement climatique », et pour la vidéo [S2] [S4]. Le dossier lui-même n'a pas pu être lu [S6]. Le processus de dialogue a porté sur 20 dossiers [S5] ; celui-ci en faisait-il partie [À VÉRIFIER] ?
+**Évaluation et décision.** Au cycle 2024, 66 dossiers sont examinés, et 65 sont recommandés [S5]. Le projet de décision juge les cinq critères remplis : au R.1, il note que « l'élément démontre un lien entre le patrimoine immatériel et matériel » [S4]. Pas de recommandation, mais deux félicitations : pour un élément « qui s'est adapté et contribue à atténuer les effets du changement climatique », et pour la vidéo [S2] [S4]. Le dossier lui-même n'a pas pu être lu [S6]. Le dossier ne fait pas partie des 20 soumis au processus de dialogue [S5] [S36].
 
 ## Sauvegarde et viabilité
 
@@ -162,11 +164,11 @@ La viabilité dépend du recrutement. En 2017, la fiche citait une étude du Par
 
 **Chaleur.** Le zinc peut monter à 67,6 °C au soleil quand l'air est à 35,8 °C, selon une mesure de juillet 2024 rapportée par la Ville [S17]. En juin 2026, Euronews rappelle qu'en 2003, vivre sous les toits avait plus que quadruplé le risque de décès ; pour la Fondation Abbé Pierre, « ces mêmes règles qui protègent les toits de Paris ne protègent pas les habitants qui vivent en dessous » [S16]. En 2023, la mission « Paris à 50 °C » envisageait de se passer du zinc, de peindre les toits en blanc ou de les végétaliser [S26].
 
-**Zinc ou végétal.** Le PLU bioclimatique, adopté en novembre 2024, encourage les toits végétalisés ; l'adjointe à l'urbanisme Lamia El-Aaraje veut végétaliser les toits de zinc [S18]. La Ville soutient une start-up qui pose des jardinières sur le zinc [S17] ; une thèse a étudié l'effet thermique des toits verts [S32]. La profession répond par l'isolation, désormais obligatoire sous les combles, et par des isolants biosourcés [S4] [S12]. Paradoxe : le Comité salue l'adaptation climatique au moment où la Ville cherche à remplacer ce paysage [S2] [S18].
+**Zinc ou végétal.** Le PLU bioclimatique, adopté en novembre 2024, encourage les toits végétalisés ; l'adjointe à l'urbanisme Lamia El-Aaraje veut végétaliser les toits de zinc [S18]. La Ville soutient une start-up qui couvre le zinc de plateformes plantées [S17] ; une thèse a étudié l'effet thermique des toits verts [S32]. La profession répond par l'isolation, désormais obligatoire sous les combles, et par des isolants biosourcés [S4] [S12]. Le Comité salue l'adaptation climatique [S2] ; la même année, la Ville veut végétaliser ces toits [S18].
 
 **Environnement.** Les toits métalliques libèrent du zinc dans les eaux de pluie, comme l'ont mesuré deux thèses franciliennes [S30] [S31] ; le dossier met en avant le recyclage du zinc [S4].
 
-**Industrie.** Les fabricants (zinc, ardoise, tuile, outils) sont associés au GCCP par des « clubs partenaires » [S8] ; le communiqué de 2024 est publié par VMZINC [S13]. La fiche, de mars 2017, rattache VMZINC à Umicore [S7] ; Umicore l'a vendue à Fedrus International en septembre 2017 [S28].
+**Industrie.** Les fabricants (zinc, ardoise, tuile, outils) sont associés au GCCP par des « clubs partenaires » [S7] [S8] ; le communiqué de 2024 est hébergé par VMZINC [S13]. La fiche rattache VMZINC à Umicore [S7], qui l'a vendue à Fedrus International en septembre 2017 [S28] [S37].
 
 ## Chiffres clés
 
@@ -181,10 +183,10 @@ La viabilité dépend du recrutement. En 2017, la fiche citait une étude du Par
 
 - **GCCP** : Édouard Bastien, président en 2024 ; Mériadec Aulanier, délégué général [S13] ; Angel Sanchez présidait au lancement du projet [S12].
 - **Comité de soutien** : Gilles Mermet, président, auteur de la fiche et du livre de 2011 [S7] [S13] ; Olivier Boileau-Descamps, secrétaire général [S13].
-- **Élus** : Delphine Bürkli, maire du 9e et initiatrice [S11] [S13] ; Anne Hidalgo, maire de Paris [S14] ; Bruno Julliard, adjoint à la culture en 2015 [S14] ; Lamia El-Aaraje [S18] ; Alexandre Florentin, porte-parole de la mission « Paris à 50 °C » [S26].
+- **Élus** : Delphine Bürkli, maire du 9e et initiatrice [S11] [S13] ; Anne Hidalgo, maire de Paris [S14] ; Bruno Julliard, adjoint à la culture en 2015 [S14] ; Lamia El-Aaraje (urbanisme, 2024) [S18] ; Alexandre Florentin, porte-parole de la mission « Paris à 50 °C » [S26].
 - **Ministres** : Roselyne Bachelot-Narquin (2021) [S10] ; Rachida Dati (2024) [S9].
 - **Formation** : Stéphane Colinet, Meilleur Ouvrier de France, formateur à l'Éco-Campus [S13] ; Xavier Rosa, nouveau président de l'Éco-Campus annoncé en janvier 2026 [S27].
-- **Chercheurs** : Anne-Françoise Garçon [S29] ; Pauline Sainte et Emna Sellami, sous la direction de Ghassan Chebbo [S30] [S31] ; Leydy Castellanos Diaz [S32].
+- **Chercheurs** : Anne-Françoise Garçon [S29] ; Pauline Sainte et Emna Sellami, codirigées par Ghassan Chebbo [S30] [S31] ; Leydy Castellanos Diaz [S32].
 
 ## Lien avec le rapport périodique
 
@@ -192,19 +194,19 @@ Indicateurs du Cadre global de résultats [S22] :
 
 - **I1** (organismes compétents) : le GCCP, son centre de documentation et ses CFA [S4] [S7].
 - **I4** (éducation formelle et non formelle) : l'alternance transmet les méthodes reconnues par la profession, comme le prévoit le facteur 4.2 [S4] [S23].
-- **I8** (inventaire inclusif) : fiche rédigée par le président du comité de soutien, approuvée en 2017 [S7] [S11].
+- **I8** (inventaire inclusif) : syndicat, entreprises et CFA ont participé à la fiche et ouvert leurs chantiers [S7].
 - **I9** (recherche) : thèses sur la métallurgie et le ruissellement du zinc [S29] [S30] [S31].
 - **I11** (politiques culturelles) : titre de Maître d'art de 1996 [S4].
-- **I13** (politiques hors culture) : le PLU bioclimatique touche l'élément, facteur 13.2 sur la durabilité environnementale [S18] [S24].
-- **I15** (reconnaissance par la société) : vœu unanime du Conseil de Paris en 2014 [S11].
+- **I13** (politiques hors culture) : le PLU bioclimatique touche l'élément, facteur 13.2, sans mention connue du savoir-faire [S18] [S24].
+- **I15** (reconnaissance par la société) : vœu du conseil du 9e en 2017 [S11].
 - **I19** (information du public) : livres, film, expositions [S4] [S7].
-- **I21** (engagement des parties prenantes) : fabricants associés au GCCP [S8].
+- **I21** (engagement des parties prenantes) : fabricants associés au GCCP (facteur 21.3) [S7] [S8].
 
-Le rapport de la France de 2021 décrit la mise à jour de l'Inventaire, mais il n'a pas été lu [S4] [S25] [À VÉRIFIER].
+Le rapport de 2021 décrirait la mise à jour de l'Inventaire (projet de décision) [S4] [S25] ; non lu [À VÉRIFIER : téléchargement bloqué].
 
 ## Comparaisons
 
-En France : le compagnonnage (2010) [S33] et les ateliers de cathédrale, ou Bauhütten, avec la France parmi les États porteurs (2020) [S34]. Au Japon : la conservation de l'architecture en bois (décision 20.COM 7.b.50 de 2025 sur la page actuelle) [S35]. À Notre-Dame, la toiture est en plomb : couvreurs et ornemanistes y ont posé la couverture de la flèche et une centaine d'ornements en plomb en 2024 [S20] [S21].
+En France : le compagnonnage (2010) [S33] et les ateliers de cathédrale, ou Bauhütten, avec la France parmi les États porteurs (2020) [S34]. Au Japon : la conservation de l'architecture en bois (15.COM 8.b.35, puis 20.COM 7.b.50) [S35]. À Notre-Dame, la toiture est en plomb : couvreurs et ornemanistes y ont posé la couverture de la flèche et une centaine d'ornements en plomb en 2024 [S20] [S21].
 
 ## Ressources
 
