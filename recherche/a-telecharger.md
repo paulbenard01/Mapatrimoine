@@ -55,7 +55,14 @@ Lus sans difficulté (pour mémoire) : le dossier de candidature 00707 (.doc), l
 
 ## funfair-culture
 
-- **Formulaire de candidature 02108 (français)**, UNESCO : https://ich.unesco.org/doc/download.php?versionID=74777 (page anti-robot ; non lu). Idem en anglais : versionID=74776.
+À récupérer à la main par Paul (accès automatique bloqué ; ne pas contourner) :
+
+- **Formulaire de candidature 02108 (français)**, UNESCO : https://ich.unesco.org/doc/download.php?versionID=74777 (page anti-robot). Version anglaise : versionID=74776. À lire pour le détail des mesures de sauvegarde (stratégie éducative, coordination avec les communes), les chiffres de la communauté et la liste des organisations du comité de pilotage.
+- **Consentements des communautés** (Belgique, France, Europe) et **extraits d'inventaire** (dont ceux « du rapport périodique ») listés sur https://ich.unesco.org/en/RL/funfair-culture-02108 : versionID=70668, 70669, 70670, 70675, 70676, 75113, 75114 (même page anti-robot).
+- **Premier dossier 01869 (2021)** : non cherché en détail ; utile pour comparer les deux versions.
+- **Rapports périodiques 2021 de la France et de la Belgique** : https://ich.unesco.org/doc/download.php?versionID=65315 (France, anti-robot) ; le rapport belge est lié depuis https://ich.unesco.org/en/state/belgium-BE?info=periodic-reporting. Selon la décision (R.5), ils traitent de la mise à jour des inventaires.
+- **Bulletin FARO n° 133 (26 juin 2014)** : https://digital2.amsab.be/digitale_nieuwsbrieven/dn0119_faro/faro_jrg06_2014/faro_nr133_2014_06_26.pdf (connexion réinitialisée, puis HTTP 503). Il annoncerait l'ajout de la « kermiscultuur » à l'inventaire flamand en 2014.
+- **Rapport périodique de la France de 2013** (fourni par Paul : `docs/sources/Rapport periodique 2013_France_28623-FR.doc`) : l'URL directe supposée (doc/src/28623-FR.doc) renvoie 404 ; la page https://ich.unesco.org/en/state/france-FR?info=periodic-reporting n'en donne que le résumé. Non cité dans la fiche (antérieur à la fiche d'Inventaire de 2017).
 
 ## parisian-zinc-roofers
 

@@ -1,6 +1,20 @@
 {
 "elements": [
 {
+"key": "funfair-culture",
+"status": "inscribed",
+"title_fr": "La culture foraine",
+"list": "RL",
+"year": 2024,
+"last_checked": "2026-10-21",
+"to_verify": 3,
+"words": 2433,
+"source_count": 40,
+"inventory": [
+"2017_67717_INV_PCI_FRANCE_00382"
+]
+},
+{
 "key": "parisian-zinc-roofers",
 "status": "inscribed",
 "title_fr": "Les savoir-faire des couvreurs-zingueurs parisiens et des ornemanistes",
