@@ -2,7 +2,7 @@
 data/raw/
 data/text/
 # Documents downloaded by hand for the research files (UNESCO nominations, reports): never published
-sources/
+/sources/
 
 # Python
 __pycache__/

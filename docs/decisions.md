@@ -153,3 +153,7 @@ Format: decision. Why. Alternative rejected.
 - **Public, French only, people named.** Paul chose to publish everything (2026-10-20). The files are in French (the interface says so in English). They name important people in their public role, an exception to the site's "no names" rule limited to these files; never contact details.
 - **Downloaded documents stay private.** `sources/` (UNESCO nomination files and reports Paul downloads by hand) is git-ignored: summarised and cited, never republished.
 - **Generated tracking.** `pci build` regenerates `recherche/suivi.md` (state, date, sources, points to verify per file) and `recherche/a-telecharger.md` (from the batch notes), so they cannot drift.
+
+## Public UNESCO reference documents in docs/sources (Paul, 2026-10-21)
+
+- Paul uploaded public UNESCO documents to `docs/sources/` (the 26 Overall Results Framework guidance notes, France's 2013 periodic report, Committee and General Assembly documents) so the research agents can use them. They stay public, but **without contact details**: the 2013 report listed phone numbers and private email addresses of people and bodies. Paul chose to keep everything except those (option B): the `.doc` was converted to `.docx` and the text version cleaned, each replaced by « [téléphone retiré] » / « [courriel retiré] », and `test_scrub.py` now scans `docs/sources/` so a new upload with contacts fails CI. The numbers remain in the git history of the original upload (not rewritten).
