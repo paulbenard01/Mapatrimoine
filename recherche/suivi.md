@@ -6,9 +6,9 @@ Généré par `pci build` à partir de `content/` ; ne pas modifier à la main. 
 
 | Élément | État | Vérifié le | Sources | À vérifier |
 |---|---|---|---:|---:|
-| L’art de la construction en pierre sèche : savoir-faire et techniques (2024, `dry-stone`) | à faire | | | |
+| L’art de la construction en pierre sèche : savoir-faire et techniques (2024, `dry-stone`) | rédigé | 2026-10-21 | 36 | 3 |
 | La culture foraine (2024, `funfair-culture`) | à faire | | | |
-| Les savoir-faire des couvreurs-zingueurs parisiens et des ornemanistes (2024, `parisian-zinc-roofers`) | à faire | | | |
+| Les savoir-faire des couvreurs-zingueurs parisiens et des ornemanistes (2024, `parisian-zinc-roofers`) | rédigé | 2026-10-21 | 35 | 4 |
 | Connaissances, techniques et savoir-faire du verre artisanal (2023, `handmade-glass`) | à faire | | | |
 | La Transhumance, déplacement saisonnier de troupeaux (2023, `transhumance`) | à faire | | | |
 | Les savoir-faire artisanaux et la culture de la baguette de pain (2022, `baguette`) | à faire | | | |

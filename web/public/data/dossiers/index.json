@@ -1,6 +1,34 @@
 {
 "elements": [
 {
+"key": "parisian-zinc-roofers",
+"status": "inscribed",
+"title_fr": "Les savoir-faire des couvreurs-zingueurs parisiens et des ornemanistes",
+"list": "RL",
+"year": 2024,
+"last_checked": "2026-10-21",
+"to_verify": 4,
+"words": 2483,
+"source_count": 35,
+"inventory": [
+"2017_67717_INV_PCI_FRANCE_00384"
+]
+},
+{
+"key": "dry-stone",
+"status": "inscribed",
+"title_fr": "L’art de la construction en pierre sèche : savoir-faire et techniques",
+"list": "RL",
+"year": 2024,
+"last_checked": "2026-10-21",
+"to_verify": 3,
+"words": 2493,
+"source_count": 36,
+"inventory": [
+"2010_67717_INV_PCI_FRANCE_00107"
+]
+},
+{
 "key": "fest-noz",
 "status": "inscribed",
 "title_fr": "Le fest-noz, rassemblement festif basé sur la pratique collective des danses traditionnelles de Bretagne",

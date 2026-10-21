@@ -27,6 +27,20 @@ Bloqués ou non lus pendant la recherche, à télécharger à la main si besoin 
 - **Page formation de la Cité** : https://blog.cite-tapisserie.com/en/node/79 (erreur 503 le 2026-10-20).
 - **Question écrite au Sénat sur la formation à Aubusson (1998)** : https://www.senat.fr/questions/base/1998/qSEQ980609418.html (erreur 503 le 2026-10-20).
 
+## dry-stone
+
+Bloqués ou non lus pendant la recherche, à télécharger à la main si besoin (dans `sources/dry-stone/`, jamais versionné) :
+
+- **Formulaire de candidature 02106 (2024), version française** : https://ich.unesco.org/doc/download.php?versionID=75259 (CAPTCHA UNESCO ; non contourné). Version anglaise : https://ich.unesco.org/doc/download.php?versionID=75258. C'est le document clé pour la mise à jour française de 2023 (mesures réalisées depuis 2018, nouveaux chiffres).
+- **Consentement des communautés françaises, dossier 2024** : https://ich.unesco.org/doc/download.php?versionID=71074 (même système, non essayé).
+- **Rapport périodique de la France, 2021 (examiné en 2022)** : https://ich.unesco.org/doc/download.php?versionID=65315 (CAPTCHA, déjà signalé pour la tapisserie d'Aubusson). La page de l'élément ne liste aucun rapport périodique pour la France.
+- **Lettres de consentement françaises de 2018** : https://ich.unesco.org/doc/src/37106-FR.pdf?v=1496909984 (téléchargeable, non lu faute de temps ; à lire pour la liste des signataires institutionnels).
+- **F. Cominelli, article de 2012 (Revue de l'organisation responsable)** : Cairn refuse l'accès automatique (403) ; référence vérifiée par Crossref (DOI 10.54695/ror.072.0083), résumé non lu.
+- **Site du CERAV (Christian Lassure)** : https://www.pierreseche.com/ (erreur 503 le 2026-10-21) ; à consulter pour ses travaux sur la datation des cabanes.
+- **Retour d'expérience de 20 chantiers ABPS (Parc national des Cévennes)** : https://www2.cevennes-parcnational.fr/sites/cevennes-parcnational.fr/files/le_retour_dexperience_de_20_chantiers-abps.pdf (nom de domaine introuvable le 2026-10-21).
+- **Présentations ABPS 2019 et 2024 (Envirobat Occitanie)** : https://www.envirobat-oc.fr/IMG/pdf/presentation_abps_2019.pdf et https://envirobat-oc.fr/IMG/pdf/4-presentation_abps_avril_2024_compressed.pdf (erreur 404).
+- **Communiqué irlandais de décembre 2024** : https://www.gov.ie/en/department-of-culture-communications-and-sport/press-releases/irelands-dry-stone-construction-receives-unesco-recognition (403) ; dirait que l'Irlande a mené l'extension, à confirmer.
+
 ## fest-noz
 
 À récupérer à la main par Paul (accès automatique bloqué ; ne pas contourner) :
@@ -38,3 +52,22 @@ Bloqués ou non lus pendant la recherche, à télécharger à la main si besoin 
 - **Année d'inclusion à l'Inventaire (ajout de la vérification, 2026-10-20)** : une version archivée de l'ancienne page de l'Inventaire citée par le dossier (http://www.culturecommunication.gouv.fr/Disciplines-et-secteurs/Patrimoine-culturel-immateriel2, vers 2011-2012) dirait si la fiche y figurait dès 2011 ; la Wayback Machine n'était pas accessible depuis l'environnement de vérification. Sinon, demander au département du pilotage de la recherche et de la politique scientifique (ministère) pourquoi la fiche porte un numéro de 2014.
 
 Lus sans difficulté (pour mémoire) : le dossier de candidature 00707 (.doc), le rapport de l'Organe subsidiaire ITH/12/7.COM/11 + Add.3 (.doc) et le Cadre global de résultats (41571-FR.pdf).
+
+## funfair-culture
+
+- **Formulaire de candidature 02108 (français)**, UNESCO : https://ich.unesco.org/doc/download.php?versionID=74777 (page anti-robot ; non lu). Idem en anglais : versionID=74776.
+
+## parisian-zinc-roofers
+
+Bloqués pendant la recherche. À télécharger à la main si besoin, dans `sources/parisian-zinc-roofers/` (jamais versionné) :
+
+- **Formulaire de candidature 02105, français** : https://ich.unesco.org/doc/download.php?versionID=74472 (page de défi JavaScript anti-robot, non contournée). Document clé : mesures de sauvegarde, noms des deux coordinateurs, chiffres de praticiens.
+- **Formulaire de candidature 02105, anglais** : https://ich.unesco.org/doc/download.php?versionID=74471 (même blocage). Les identifiants 74471/74472, plus récents que ceux des annexes (70551 à 70553), laissent penser à une version révisée, peut-être après le processus de dialogue.
+- **Consentement des communautés** : https://ich.unesco.org/doc/download.php?versionID=70552
+- **Organisations communautaires (section 4.2)** : https://ich.unesco.org/doc/download.php?versionID=70553
+- **Inventaire du PCI joint** : https://ich.unesco.org/doc/download.php?versionID=70551 ; **extrait du rapport périodique sur l'inventaire** : https://ich.unesco.org/doc/download.php?versionID=75007
+- **Rapport périodique de la France, 2021** : https://ich.unesco.org/doc/download.php?versionID=65315 (même blocage que pour les autres fiches).
+- **Liste indicative du patrimoine mondial de la France** et **page du bien 600 « Paris, rives de la Seine »** : https://whc.unesco.org/en/tentativelists/state=fr et https://whc.unesco.org/fr/list/600/ (erreur 403 pour l'outil et pour curl). Indispensable pour confirmer que les toits n'y figurent pas.
+- **Rapport de la mission d'information et d'évaluation « Paris à 50 °C » (Conseil de Paris, avril 2023)** : copie trouvée sur https://fne-paris.fr/wp-content/uploads/2023/11/MIE-Paris-à-50-degrés.pdf (erreur 403) ; la version officielle sur paris.fr n'a pas été trouvée. La fiche le cite via The Local [S26].
+- **Communiqué du ministère choisissant la candidature pour le cycle 2024** (vraisemblablement début 2023) : non trouvé sur culture.gouv.fr.
+- **Article de Reporterre, « Comment Paris se prépare à un futur mortellement chaud »** : https://reporterre.net/Comment-Paris-se-prepare-a-un-futur-mortellement-chaud (erreur 403).
